@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Patient information</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    padding: 24px 20px;
+    background: #fff;
+    color: #111;
+    max-width: 560px;
+    margin-inline: auto;
+    line-height: 1.5;
+  }
+  h1 { font-size: 1.5rem; margin: 0 0 6px; }
+  .subtitle { color: #555; font-size: 0.95rem; margin: 0 0 24px; }
+  .leaflet-card {
+    border: 1px solid #d8dde3;
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .leaflet-card .ltitle { font-size: 1.02rem; font-weight: 600; }
+  .leaflet-card a.read {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 8px;
+    background: #005eb8;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+  .feedback {
+    display: block;
+    text-align: center;
+    margin-top: 28px;
+    padding: 14px 18px;
+    border-radius: 10px;
+    background: #fff;
+    color: #005eb8;
+    border: 1px solid #005eb8;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .error { color: #b00; }
+  .loading { color: #888; }
+  .notice {
+    margin-top: 18px;
+    font-size: 0.85rem;
+    color: #555;
+    background: #fff8e6;
+    border: 1px solid #f3d77a;
+    border-radius: 8px;
+    padding: 12px 14px;
+    line-height: 1.4;
+  }
+  footer { margin-top: 40px; font-size: 0.8rem; color: #888; text-align: center; }
+</style>
+</head>
+<body>
+<div id="app" class="loading">Loading…</div>
+<footer>Gloucestershire Hospitals NHS Foundation Trust — patient information</footer>
+
+<script>
+// === CONFIG ===
+// Paste your Google Form URL here. The form should have:
+//   - A 1-5 rating question
+//   - An optional comments question with the warning "Do NOT include your name,
+//     NHS number, or any personal details"
+// No prefilling needed — one feedback form covers all leaflets.
+const FEEDBACK_FORM_URL = "REPLACE_WITH_YOUR_GOOGLE_FORM_URL";
+// ==============
+
+function render(html) {
+  document.getElementById("app").className = "";
+  document.getElementById("app").innerHTML = html;
+}
+
+function escapeHtml(s) {
+  return s.replace(/[&<>"']/g, c => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[c]));
+}
+
+function renderLeafletList(leaflets) {
+  const cards = leaflets.map(l => `
+    <div class="leaflet-card">
+      <span class="ltitle">${escapeHtml(l.title)}</span>
+      <a class="read" href="${l.url}">Read</a>
+    </div>
+  `).join("");
+
+  const heading = leaflets.length === 1
+    ? `<h1>${escapeHtml(leaflets[0].title)}</h1><p class="subtitle">Tap below to open the official leaflet.</p>`
+    : `<h1>Information from your visit</h1><p class="subtitle">Your clinician selected these leaflets for you. Tap any to read.</p>`;
+
+  render(`
+    ${heading}
+    ${leaflets.length === 1 ? "" : cards}
+    ${leaflets.length === 1 ? `<a class="read" href="${leaflets[0].url}" style="display:block;text-align:center;padding:18px;border-radius:12px;font-size:1.1rem;">Read the leaflet</a>` : ""}
+    <a class="feedback" href="${FEEDBACK_FORM_URL}">Give anonymous feedback</a>
+    <p class="notice">Feedback is fully anonymous. <strong>Please do not include your name, NHS number, or any personal details.</strong></p>
+  `);
+}
+
+async function main() {
+  const params = new URLSearchParams(window.location.search);
+
+  // Support BOTH ?slug=one and ?slugs=one,two,three
+  let requested = [];
+  if (params.get("slugs")) {
+    requested = params.get("slugs").split(",").map(s => s.trim()).filter(Boolean);
+  } else if (params.get("slug")) {
+    requested = [params.get("slug").trim()];
+  }
+
+  if (requested.length === 0) {
+    render(`<h1>No leaflet selected</h1><p class="subtitle">This page is opened by scanning a QR code from your clinician.</p>`);
+    return;
+  }
+
+  let leaflets, overrides;
+  try {
+    [leaflets, overrides] = await Promise.all([
+      fetch("leaflets.json").then(r => r.json()),
+      fetch("manual_overrides.json").then(r => r.json()).catch(() => ({}))
+    ]);
+  } catch (e) {
+    render(`<h1 class="error">Could not load leaflets</h1><p>Please try again in a moment.</p>`);
+    return;
+  }
+
+  const bySlug = new Map(leaflets.map(l => [l.slug, l]));
+  const resolved = [];
+  const missing = [];
+  for (const slug of requested) {
+    const l = bySlug.get(slug);
+    if (!l) { missing.push(slug); continue; }
+    const override = overrides[slug];
+    resolved.push({
+      title: l.title,
+      url: (override && override.url) ? override.url : l.url,
+    });
+  }
+
+  if (resolved.length === 0) {
+    render(`<h1 class="error">Leaflets not found</h1><p>This QR code may be out of date. Please ask your clinician for a new one.</p>`);
+    return;
+  }
+
+  renderLeafletList(resolved);
+}
+
+main();
+</script>
+</body>
+</html>
