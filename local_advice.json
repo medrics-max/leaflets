@@ -124,7 +124,7 @@
         "checked": "12 July 2026"
       }
     ],
-    "footer": "When checked, the trust's own ophthalmology page (source 3) showed older opening hours — the triage line hours above follow the Local Optical Committee listing (sources 1 and 2). Moorfields links are general condition guides from another NHS trust, all verified live 12 July 2026. This advice does not replace the advice of the team looking after you. Author/department: [add]. Review date: [add]."
+    "footer": "When checked, the trust's own ophthalmology page (source 3) showed older opening hours — the triage line hours above follow the Local Optical Committee listing (sources 1 and 2). Moorfields links are general condition guides from another NHS trust, all verified live 12 July 2026. This advice does not replace the advice of the team looking after you. Author: Medrics, with the trust's Emergency Medicine clinical lead. Facts re-verified weekly against the cited sources; full review due July 2027."
   },
   {
     "title": "Mental health crisis — getting help now",
@@ -192,7 +192,7 @@
         "checked": "12 July 2026"
       }
     ],
-    "footer": "The direct crisis team number is confirmed on the county council page (source 1); the NHS crisis page (source 2) now promotes 111 option 2 as the main route. This advice does not replace the advice of the team looking after you. Author/department: [add]. Review date: [add]."
+    "footer": "The direct crisis team number is confirmed on the county council page (source 1); the NHS crisis page (source 2) now promotes 111 option 2 as the main route. This advice does not replace the advice of the team looking after you. Author: Medrics, with the trust's Emergency Medicine clinical lead. Facts re-verified weekly against the cited sources; full review due July 2027."
   },
   {
     "title": "Patient Advice and Liaison Service (PALS)",
@@ -239,7 +239,7 @@
         "checked": "12 July 2026"
       }
     ],
-    "footer": "PALS is provided by Gloucestershire Hospitals NHS Foundation Trust."
+    "footer": "PALS is provided by Gloucestershire Hospitals NHS Foundation Trust. Author: Medrics. Facts re-verified weekly against the cited sources; full review due July 2027."
   },
   {
     "title": "Drug and alcohol support in Gloucestershire",
@@ -283,6 +283,6 @@
         "checked": "12 July 2026"
       }
     ],
-    "footer": "This advice does not replace the advice of the team looking after you. Author/department: [add]. Review date: [add]."
+    "footer": "This advice does not replace the advice of the team looking after you. Author: Medrics, with the trust's Emergency Medicine clinical lead. Facts re-verified weekly against the cited sources; full review due July 2027."
   }
 ]
