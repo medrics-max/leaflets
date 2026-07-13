@@ -1,0 +1,1352 @@
+{
+ "Alcohol-Care-Team-Reduced-appetite": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "98d2aa416c6a8293",
+  "status": "no-date",
+  "title": "Alcohol care team: Reduced appetite"
+ },
+ "Alcohol-care-team-Coping-with-craving": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "c0a6d1a56719eb66",
+  "status": "no-date",
+  "title": "Alcohol care team: Coping with craving"
+ },
+ "Alcohol-care-team-Tips-for-cutting-down-alcohol": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "0f47db3aab760de8",
+  "status": "no-date",
+  "title": "Alcohol care team:Tips for cutting down alcohol"
+ },
+ "Bone-scan": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "a6187ee0930be674",
+  "status": "no-date",
+  "title": "Nuclear Medicine: Bone Scan"
+ },
+ "Breast-Assessment-centre": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "7adb24ff05e227ce",
+  "status": "no-date",
+  "title": "Breast: Assessment centre"
+ },
+ "Breast-feeding-Harvesting-Colostrum-for-your-baby": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "075b899c81871f11",
+  "status": "no-date",
+  "title": "Breast feeding: Harvesting Colostrum for your baby"
+ },
+ "Cardiac-Scan": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "44ba4669c302658d",
+  "status": "no-date",
+  "title": "Nuclear Medicine: Cardiac Scan (Myocardial Perfusion Scan)"
+ },
+ "Cardiology-Cardioversion-Elective": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "c43e456f80c2f875",
+  "status": "no-date",
+  "title": "Cardiology: Cardioversion Elective"
+ },
+ "Cardiology-Coronary-Angiography-and-Percutaneous-Coronary-Intervention-PCI": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "a82bbf553fe577c8",
+  "status": "no-date",
+  "title": "Cardiology: Coronary Angiography and Percutaneous Coronary Intervention (PCI)"
+ },
+ "Cardiology-Dobutamine-Stress-Echocardiogram-DSE": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "fe5805f697041210",
+  "status": "no-date",
+  "title": "Cardiology: Dobutamine Stress Echocardiogram (DSE)"
+ },
+ "Cardiology-Elective-Direct-Current-Cardioversion": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "9dd31e0d24073762",
+  "status": "no-date",
+  "title": "Cardiology: Elective Direct Current Cardioversion"
+ },
+ "Cardiology-Heart-failure-symptoms-checklist": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "2a32c78660f361fb",
+  "status": "no-date",
+  "title": "Cardiology: Heart failure symptoms checklist"
+ },
+ "Cardiology-Implantable-loop-recorder": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "5e12f5bc77311173",
+  "status": "no-date",
+  "title": "Cardiology: Implantable loop recorder"
+ },
+ "Cardiology-Transoesophageal-Echocardiogram-TOE": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "f7957777fa924952",
+  "status": "no-date",
+  "title": "Cardiology: Transoesophageal Echocardiogram (TOE)"
+ },
+ "Chaplaincy-service": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "aa2c6a77aafcd84f",
+  "status": "no-date",
+  "title": "Chaplaincy service"
+ },
+ "Children-s-Bladder-and-Bowel": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "f45a26c8e99edacd",
+  "status": "no-date",
+  "title": "Bladder and Bowel: Children"
+ },
+ "Childrens-Speech-Language-therapy-Building-connections": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "065f53b5e4e20a46",
+  "status": "no-date",
+  "title": "Childrens Speech & Language therapy: Building connections"
+ },
+ "Colonoscopy-CT-Colonography-examination": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "ad9e034718613777",
+  "status": "no-date",
+  "title": "Colonoscopy: CT Colonography examination"
+ },
+ "Community-Hospital-Brampton": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "ace51b3576b93f00",
+  "status": "no-date",
+  "title": "Community Hospital: Brampton Ward"
+ },
+ "DAT-Brain-Scan": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "ea7a642ffe4ec8bb",
+  "status": "no-date",
+  "title": "Nuclear Medicine: DAT Brain Scan"
+ },
+ "DMSA-Kidney-Scan": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "864a148926b8d39f",
+  "status": "no-date",
+  "title": "Nuclear Medicine: DMSA Kidney Scan"
+ },
+ "Day-Case-Unit-West-Cumberland-Hospital": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "f66864832d3015e0",
+  "status": "no-date",
+  "title": "Day Case Unit: West Cumberland Hospital"
+ },
+ "Diabetic-Eye-Screening": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "31f303864060b41b",
+  "status": "no-date",
+  "title": "Diabetic Eye Screening"
+ },
+ "Diabetic-foot-clinic": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "05d34c767c7c3d81",
+  "status": "no-date",
+  "title": "Diabetic foot clinic"
+ },
+ "Discharge-to-Assess": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "53c4bb65c8c5cf0e",
+  "status": "no-date",
+  "title": "Discharge to Assess"
+ },
+ "Easy-read-Complaints": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "1cc403bc6e6de070",
+  "status": "no-date",
+  "title": "Easy read : Complaints"
+ },
+ "Easy-read-Confidentiality": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "05fe324520679fb8",
+  "status": "no-date",
+  "title": "Easy read : Confidentiality"
+ },
+ "Easy-read-Consent": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "9805c5a8c7c05e8b",
+  "status": "no-date",
+  "title": "Easy read : Consent"
+ },
+ "Easy-read-Ophthalmology-Eye-check": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "78bda1db6ce27bf5",
+  "status": "no-date",
+  "title": "Easy read : Ophthalmology: Eye check"
+ },
+ "End-of-life-Taste-for-pleasure": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "df1f180b29e67eb3",
+  "status": "no-date",
+  "title": "End of life: Taste for pleasure"
+ },
+ "Endoscopy-Colonoscopy": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "acf185702aad1253",
+  "status": "no-date",
+  "title": "Endoscopy: Colonoscopy"
+ },
+ "Endoscopy-Combined-Gastroscopy-Oesophago-gastro-duodenoscopy-OGD-and-Colonoscopy": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "b714532eebf286e0",
+  "status": "no-date",
+  "title": "Endoscopy: Combined - Gastroscopy Oesophago-gastro duodenoscopy (OGD) and Colonoscopy"
+ },
+ "Endoscopy-ERC-Endoscopic-Retrograde-Cholangiopancreatography": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "fb26a1f7e16a8d9d",
+  "status": "no-date",
+  "title": "Endoscopy: ERCP (Endoscopic Retrograde Cholangiopancreatography)"
+ },
+ "Endoscopy-Flexible-Sigmoidoscopy-Enema-Preparation": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "224c42c8bfd1230c",
+  "status": "no-date",
+  "title": "Endoscopy: Flexible Sigmoidoscopy (Enema Preparation)"
+ },
+ "Endoscopy-Gastroscopy-Oesophago-gastro-duodenoscopy-OGD": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "34505cd987088e86",
+  "status": "no-date",
+  "title": "Endoscopy: Gastroscopy - Oesophago-gastro duodenoscopy (OGD)"
+ },
+ "Endoscopy-Low-residue-diet": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "1fdadde6dcbea065",
+  "status": "no-date",
+  "title": "Endoscopy: Low residue diet"
+ },
+ "Endoscopy-Moviprep-afternoon": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "cc92e31c4a852ab2",
+  "status": "no-date",
+  "title": "Endoscopy: Moviprep - afternoon"
+ },
+ "Endoscopy-Moviprep-morning": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "818b303f90eb2ebb",
+  "status": "no-date",
+  "title": "Endoscopy: Moviprep- morning"
+ },
+ "GFR-Test": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "bb2d171f0f0038e1",
+  "status": "no-date",
+  "title": "Nuclear Medicine: GFR Test"
+ },
+ "Gastric-Emptying-Scan": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "2020dc02970d8346",
+  "status": "no-date",
+  "title": "Nuclear Medicine: Gastric Emptying Scan"
+ },
+ "General-surgery-Anal-Fissures": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "9e04867b088c5625",
+  "status": "no-date",
+  "title": "General surgery: Anal fissures"
+ },
+ "General-surgery-Haemorrhoids": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "783706c1615077ed",
+  "status": "no-date",
+  "title": "General surgery: Haemorrhoids"
+ },
+ "Gynaecology-Bleeding-and-or-pain-in-early-pregnancy": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "cba056f773446d0c",
+  "status": "no-date",
+  "title": "Early Pregnancy: Bleeding and/or pain in early pregnancy"
+ },
+ "Gynaecology-Imiquimod-treatment-for-Vulval-intraepithelia-neoplasia-VIN": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "1848dd6fee7d49b7",
+  "status": "no-date",
+  "title": "Gynaecology: Imiquimod treatment for Vulval intraepithelial neoplasia (VIN)"
+ },
+ "Gynaecology-Neoplasis-VIN": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "bae4784e38da8943",
+  "status": "no-date",
+  "title": "Gynaecology: Neoplasis (VIN)"
+ },
+ "Gynaecology-Out-patients-Hysteroscopy": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "f8135c73ad306579",
+  "status": "no-date",
+  "title": "Gynaecology: Out patients Hysteroscopy"
+ },
+ "Gynaecology-Outpatient-medical-termination-of-pregnancy": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "9e6046b978e8c8ed",
+  "status": "no-date",
+  "title": "Early Pregnancy: Outpatient medical termination of pregnancy"
+ },
+ "Gynaecology-Patient-initiated-follow-up": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "4ac04ee15d23e59c",
+  "status": "no-date",
+  "title": "Gynaecology: Patient initiated follow up"
+ },
+ "Gynaecology-Patients-undergoing-testing-for-Endometrial-womb-Cancer": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "b8f76419d6d05605",
+  "status": "no-date",
+  "title": "Gynaecology: Patients undergoing testing for Endometrial (womb) Cancer"
+ },
+ "Gynaecology-wide-local-excision-WLE-of-a-vulval-lesion": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "7f4ba7e9c5e7fc80",
+  "status": "no-date",
+  "title": "Gynaecology: Wide local excision (WLE) of a vulval lesion"
+ },
+ "Hernia-Inguinal-Hernia": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "c71093a451ef80cb",
+  "status": "no-date",
+  "title": "Hernia: Inguinal Hernia"
+ },
+ "Information-for-inpatients": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "ce6450237e470840",
+  "status": "no-date",
+  "title": "Information for inpatients"
+ },
+ "Lung-Perfusion-scan": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "3292de4ff82891dc",
+  "status": "no-date",
+  "title": "Nuclear Medicine: Lung Perfusion Scan"
+ },
+ "Maternal-Mental-Health": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "c4bb1b72f5dc0722",
+  "status": "no-date",
+  "title": "Maternal Mental Health"
+ },
+ "Maternity-Gestational-Diabetes": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "2b5f482d8b8898cd",
+  "status": "no-date",
+  "title": "Maternity: Gestational Diabetes"
+ },
+ "Maternity-Healthy-eating-for-Gestational-Diabetes": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "b45b4a2edda4c23e",
+  "status": "no-date",
+  "title": "Maternity: Healthy eating for Gestational Diabetes"
+ },
+ "Maternity-Induction-of-labour": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "3ef9d23798d9661c",
+  "status": "no-date",
+  "title": "Maternity: Induction of labour"
+ },
+ "Maternity-Keeping-your-baby-safe": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "fc39457911a216e1",
+  "status": "no-date",
+  "title": "Maternity: Keeping your baby safe"
+ },
+ "Maternity-Low-PAPP-A-hormone": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "fe7dbf5b8b839f4f",
+  "status": "no-date",
+  "title": "Maternity: Low PAPP-A hormone"
+ },
+ "Maternity-Planned-Caesarean-Section": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "4a5944721ddfabe7",
+  "status": "no-date",
+  "title": "Maternity: Planned Caesarean Section"
+ },
+ "Maternity-Protecting-your-baby-from-low-blood-glucose": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "63ae0fb86dffd0a3",
+  "status": "no-date",
+  "title": "Maternity: Protecting your baby from low blood glucose - Hypoglycaemic"
+ },
+ "Maternity-Registering-a-birth": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "425cd22237181690",
+  "status": "no-date",
+  "title": "Maternity: Registering a birth"
+ },
+ "Maternity-Screening-for-diabetic-eye-disease-during-pregnancy": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "adafa0d209a4c3a3",
+  "status": "no-date",
+  "title": "Maternity: Screening for diabetic eye disease during pregnancy"
+ },
+ "Maternity-Vitamin-K-for-newborn-babies": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "47e9a735bc7c21ef",
+  "status": "no-date",
+  "title": "Maternity: Vitamin K for new born babies"
+ },
+ "Meckels-Scan": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "8a6913ee0e1e5211",
+  "status": "no-date",
+  "title": "Nuclear Medicine: Meckel’s Scan"
+ },
+ "Octreotide-Tektrotyd-Scan": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "ca3a897a35310844",
+  "status": "no-date",
+  "title": "Nuclear Medicine: Octreotide/Tektrotyd Scan"
+ },
+ "Ophthalmology-Dilating-eye-drops-for-children": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "9b1f295913cb419b",
+  "status": "no-date",
+  "title": "Ophthalmology: Dilating eye drops for children"
+ },
+ "Parathyroid-Scan": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "71b2af8b3eed6aef",
+  "status": "no-date",
+  "title": "Nuclear Medicine: Parathyroid Scan"
+ },
+ "Renogram-Renal-Scan": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "9117dda8f0af7cf0",
+  "status": "no-date",
+  "title": "Nuclear Medicine: Renogram (Renal Scan)"
+ },
+ "SeHCAT-Scan": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "9ab7e8e306473a52",
+  "status": "no-date",
+  "title": "Nuclear Medicine: SeHCAT Scan"
+ },
+ "Sentinel-Node-Localisation": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "6caf4aaa8ee1c626",
+  "status": "no-date",
+  "title": "Nuclear Medicine: Sentinel Node Localisation"
+ },
+ "abi-driving-advice": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "639367c6fcff06a0",
+  "status": "no-date",
+  "title": "Acquired Brain Injury: Driving Advice"
+ },
+ "abi-service": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "fa33977ef9805a1d",
+  "status": "no-date",
+  "title": "Acquired Brain Injury: The Service"
+ },
+ "acute-oncology-service": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "d142f0e6a95da8d3",
+  "status": "no-date",
+  "title": "Oncology: Acute Oncology Service (AOS)"
+ },
+ "amputee-antiperspirant-advice-following-amputation": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "483e53e4729b6d77",
+  "status": "no-date",
+  "title": "Amputee: Antiperspirant"
+ },
+ "amputee-compression-sock": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "cd163cb01f8ea2c0",
+  "status": "no-date",
+  "title": "Amputee: Compression Sock"
+ },
+ "amputee-core-stability": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "580100918b88263e",
+  "status": "no-date",
+  "title": "Amputee: Core Stability"
+ },
+ "amputee-diabetes-exercise": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "698af8726e49896d",
+  "status": "no-date",
+  "title": "Amputee: Diabetes and Exercise"
+ },
+ "amputee-driving-after-amputation": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "699aa17407877b50",
+  "status": "no-date",
+  "title": "Amputee: Driving after amputation"
+ },
+ "amputee-falls-information": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "4bdcc5360acdad73",
+  "status": "no-date",
+  "title": "Amputee: Falls information"
+ },
+ "amputee-getting-up-from-fall": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "d547afe68f1d7f6c",
+  "status": "no-date",
+  "title": "Amputee: Getting up from a fall"
+ },
+ "amputee-information-patients-families-following-lower-limb-amputation": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "69d1684552e772e0",
+  "status": "no-date",
+  "title": "Amputee: Lower limb amputation"
+ },
+ "amputee-occupational-therapy-following-amputation": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "4ef551cf72b04be6",
+  "status": "no-date",
+  "title": "Amputee: Occupational therapy"
+ },
+ "amputee-orthotics-following-amputation": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "d3080b102fc87b20",
+  "status": "no-date",
+  "title": "Amputee: Orthotics following your amputation"
+ },
+ "amputee-phantom-limb-pain": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "e08e7f7190b53804",
+  "status": "no-date",
+  "title": "Amputee: Phantom limb pain"
+ },
+ "amputee-physiotherapy-exercises-following-trans-femoral-above-knee-amputation": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "d99c0a0950f0dc6a",
+  "status": "no-date",
+  "title": "Amputee: Physiotherapy Trans-femoral amputation"
+ },
+ "amputee-physiotherapy-exercises-following-trans-tibial-below-knee-amputation": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "16cc79bb217f196f",
+  "status": "no-date",
+  "title": "Amputee: Physiotherapy Exercises Trans-tibial Amputation"
+ },
+ "amputee-physiotherapy-following-your-amputation": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "20a153897fff251b",
+  "status": "no-date",
+  "title": "Amputee: Physiotherapy following your amputation"
+ },
+ "amputee-podiatry-following-amputation": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "fa66f92d3a5e0086",
+  "status": "no-date",
+  "title": "Amputee: Podiatry following your amputation"
+ },
+ "amputee-prosthetic-department": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "e66c79ffc92d2a1a",
+  "status": "no-date",
+  "title": "Amputee: Prosthetic department"
+ },
+ "amputee-prosthetic-limb-wearer": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "9d0cd42a03330b44",
+  "status": "no-date",
+  "title": "Amputee: Prosthetic limb wearer"
+ },
+ "amputee-psychology-following-your-amputation": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "2e21414f772c8d39",
+  "status": "no-date",
+  "title": "Amputee: Psychology"
+ },
+ "amputee-removable-rigid-dressing": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "884aa053f6b764e1",
+  "status": "no-date",
+  "title": "Amputee: Removable rigid dressing (RRD)"
+ },
+ "amputee-sports-activities": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "f865468a6b852528",
+  "status": "no-date",
+  "title": "Amputee: Sports and activities"
+ },
+ "amputee-websites-resources": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "fa1e7a2979c6f79b",
+  "status": "no-date",
+  "title": "Amputee: Websites and resources"
+ },
+ "anaesthetics-discharge-advice-following-spinal-or-epidural-analgesia-or-anaesthesia": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "6f5c8d025d86e273",
+  "status": "no-date",
+  "title": "Anaesthetics: Discharge Advice Following Spinal or Epidural Analgesia or Anaesthesia"
+ },
+ "arterial-disorders-lower-leg": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "9ccc0fcd75642870",
+  "status": "no-date",
+  "title": "Arterial disorders of the lower leg"
+ },
+ "bladder-bowel-service": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "bf58b5d959f00185",
+  "status": "no-date",
+  "title": "Bladder and Bowel service"
+ },
+ "breast-eczema-breast-nipple": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "3ff8b154a015c559",
+  "status": "no-date",
+  "title": "Breast: Eczema of the breast or nipple"
+ },
+ "breast-radiofrequency-seed-localisation": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "b48fa7214601ba78",
+  "status": "no-date",
+  "title": "Breast: Radiofrequency seed localisation"
+ },
+ "cardiology-blood-clot": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "032c863420186b57",
+  "status": "no-date",
+  "title": "Cardiology: Blood clot"
+ },
+ "cardiopulmonary-resuscitation-do-not-attempt-cardio-pulmonary-resuscitation": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "ebdf13e7af582da6",
+  "status": "no-date",
+  "title": "Cardiopulmonary Resuscitation"
+ },
+ "cockermouth-community-hospital": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "2f541e97b38af02e",
+  "status": "no-date",
+  "title": "Community Hospital: Cockermouth Community Hospital"
+ },
+ "community-hospital-keswick-hospital": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "0b2c4de1e666c24e",
+  "status": "no-date",
+  "title": "Community Hospital: Keswick Hospital"
+ },
+ "community-hospital-loweswater-suite": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "a18c999aaa0cf36e",
+  "status": "no-date",
+  "title": "Community Hospital: Loweswater Suite"
+ },
+ "community-hospital-penrith": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "9602b54b680f2489",
+  "status": "no-date",
+  "title": "Community Hospital: Penrith"
+ },
+ "community-hospital-workington": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "21fe762974ea7673",
+  "status": "no-date",
+  "title": "Community Hospital: Workington"
+ },
+ "community-hospitals-copeland-unit": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "95afdf7667eab197",
+  "status": "no-date",
+  "title": "Community Hospital: Copeland Unit"
+ },
+ "compliment-comment-complaint-easy-read-words": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "36aa258c899a01a3",
+  "status": "no-date",
+  "title": "Compliment, Comment or a Complaint: Easy read"
+ },
+ "compliments-comments-concerns-complaints": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "715f8ec0aba49f8b",
+  "status": "no-date",
+  "title": "Compliments, Comments, Concerns and Complaints"
+ },
+ "confidentiality-families-carers": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "858306a50c6d9deb",
+  "status": "no-date",
+  "title": "Confidentiality: Families and carers"
+ },
+ "confidentiality-people-who-use-our-services": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "57fd3bad7135c057",
+  "status": "no-date",
+  "title": "Confidentiality: People who use our services"
+ },
+ "confidentiality-report-concerns": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "1edd1cebe000fb04",
+  "status": "no-date",
+  "title": "Confidentiality: Report concerns"
+ },
+ "consent-guide-patients-service-users": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "9f4c4fb2762ca244",
+  "status": "no-date",
+  "title": "Consent: A guide for patients and service users"
+ },
+ "contraception-advice-after-having-sugammadex": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "db907c3ead48e9d5",
+  "status": "no-date",
+  "title": "Anaesthetics: Contraception advice after having Sugammadex"
+ },
+ "covid-cognitive-problems-post-covid-19": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "74054ce77328208a",
+  "status": "no-date",
+  "title": "Covid: Cognitive problems post Covid-19"
+ },
+ "covid-long-covid": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "2291b77e270dd41e",
+  "status": "no-date",
+  "title": "Covid: Long Covid"
+ },
+ "covid-voice-problems": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "7cb7efc1891c4a5e",
+  "status": "no-date",
+  "title": "Covid: Voice problems"
+ },
+ "data-protection-how-use-your-information": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "f6903f4d3a455ecb",
+  "status": "no-date",
+  "title": "Data Protection: How we use your information"
+ },
+ "denture-care-instructions-for-plastic-dentures": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "1a98d575a65d1da6",
+  "status": "no-date",
+  "title": "Community Dental Service: Denture Care Instructions for Plastic (Acrylic) Dentures"
+ },
+ "diabetes-charcot-foot": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "ca36638b7946112b",
+  "status": "no-date",
+  "title": "Diabetes: Charcot foot"
+ },
+ "diabetes-foot-care-patients-high-risk": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "7f3954669d4ab6c4",
+  "status": "no-date",
+  "title": "Diabetes: Foot care for patients at high risk"
+ },
+ "diabetes-foot-care-patients-low-risk": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "b823d2bc94a43917",
+  "status": "no-date",
+  "title": "Diabetes: Foot care for patients at low risk"
+ },
+ "diabetes-foot-care-patients-medium-risk": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "0439047757890dc2",
+  "status": "no-date",
+  "title": "Diabetes: Foot care for patients at medium risk"
+ },
+ "diabetes-foot-ulcers": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "bc103f7473f554b4",
+  "status": "no-date",
+  "title": "Diabetes: Foot ulcers"
+ },
+ "diabetes-looking-after-your-foot-remission": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "940de55a3ac53e47",
+  "status": "no-date",
+  "title": "Diabetes: Looking after your foot in remission"
+ },
+ "diabetes-multidisciplinary-foot-clinic": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "105b9c26f25caf0a",
+  "status": "no-date",
+  "title": "Diabetes: Multidisciplinary foot clinic"
+ },
+ "diabetes-plaster-fibreglass-casting-foot-ulcers": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "eaf898814a0310b6",
+  "status": "no-date",
+  "title": "Diabetes: Plaster or fibreglass casting of foot ulcers"
+ },
+ "diabetes-the-effects-exercise-sugar-levels": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "a92427502b5ab2d4",
+  "status": "no-date",
+  "title": "Diabetes: Exercise and sugar levels"
+ },
+ "district-nursing": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "b59a28e7d519abbe",
+  "status": "no-date",
+  "title": "District nursing"
+ },
+ "duty-candour-being-open": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "fc01c5f7d6561cea",
+  "status": "no-date",
+  "title": "Duty of Candour: Being open"
+ },
+ "ent-anosmia": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "82a0bd3c7ff7b380",
+  "status": "no-date",
+  "title": "ENT: Anosmia (Loss of smell)"
+ },
+ "ent-benign-paroxysmal-positional-vertigo": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "7d21f31a0be0d487",
+  "status": "no-date",
+  "title": "ENT: Benign Paroxysmal Positional Vertigo"
+ },
+ "ent-betnovate-lotion": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "184f60e87ce89d6b",
+  "status": "no-date",
+  "title": "ENT: Betnovate Lotion"
+ },
+ "ent-brandt-daroff-exercises": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "c4957141fd086b21",
+  "status": "no-date",
+  "title": "ENT: Brandt Daroff exercises"
+ },
+ "ent-douching": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "97a95ec6c7457f01",
+  "status": "no-date",
+  "title": "ENT: Douching"
+ },
+ "ent-eardrops": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "31dcd8c98f4ba4f4",
+  "status": "no-date",
+  "title": "ENT: Eardrops"
+ },
+ "ent-exercises-regain-balance": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "a6d25a1c99720c6a",
+  "status": "no-date",
+  "title": "ENT: Exercises to regain balance"
+ },
+ "ent-laryngopharyngeal-reflux": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "0a012f53c2293271",
+  "status": "no-date",
+  "title": "ENT: Laryngopharyngeal Reflux – LPR"
+ },
+ "epidural-blood-patch": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "4b510650752b5da4",
+  "status": "no-date",
+  "title": "Epidural: Blood patch"
+ },
+ "fetal-heart-monitoring-during-labour": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "2e3ff844adac18dc",
+  "status": "no-date",
+  "title": "Maternity: Fetal heart monitoring during labour"
+ },
+ "fibroscan-ultrasound": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "aade1d194a521b3d",
+  "status": "no-date",
+  "title": "Fibroscan: Ultrasound"
+ },
+ "freedom-information": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "8f177dca9273719a",
+  "status": "no-date",
+  "title": "Freedom of information"
+ },
+ "general-data-protection-regulation-uk": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "e1a9149e030ae60d",
+  "status": "no-date",
+  "title": "General Data Protection Regulation UK"
+ },
+ "going-from-hospital-to-a-temporary-care-home": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "80780a98bbf7f579",
+  "status": "no-date",
+  "title": "Going from hospital to a temporary care home"
+ },
+ "gynaecology-active-surveillance-cervical-intraepithelial-neoplasia": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "cc77f6a51688bda1",
+  "status": "no-date",
+  "title": "Gynaecology: Active Surveillance of Cervical Intraepithelial Neoplasia (CIN2)"
+ },
+ "gynaecology-borderline-ovarian-tumours": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "c5d658d5c61d2094",
+  "status": "no-date",
+  "title": "Gynaecology: Borderline ovarian tumours"
+ },
+ "gynaecology-cervical-screening-test-results": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "d6dcfc458d1e8a49",
+  "status": "no-date",
+  "title": "Gynaecology: Cervical Screening Test Results"
+ },
+ "gynaecology-cold-coagulation": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "d1a0f9c3c7a94567",
+  "status": "no-date",
+  "title": "Gynaecology: Cold Coagulation"
+ },
+ "gynaecology-discharge-gynaecology-cancer-follow-up-clinic": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "0e21f5e101831538",
+  "status": "no-date",
+  "title": "Gynaecology: Discharge from follow-up clinic"
+ },
+ "gynaecology-having-colposcopy-examination": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "07bf92ff98eb4901",
+  "status": "no-date",
+  "title": "Gynaecology: Colposcopy examination"
+ },
+ "gynaecology-hysterectomy-endometrial-cancer": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "b444f29e9b5ae75c",
+  "status": "no-date",
+  "title": "Gynaecology: Hysterectomy for Endometrial Cancer"
+ },
+ "gynaecology-hysteroscopy": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "cc1be18e613ae076",
+  "status": "no-date",
+  "title": "Gynaecology: Hysteroscopy"
+ },
+ "gynaecology-information-advice-following-cervical-punch-biopsy": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "57d39d78b608e661",
+  "status": "no-date",
+  "title": "Gynaecology: Cervical Punch Biopsy"
+ },
+ "gynaecology-information-advice-following-cryocautery": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "56dda219faa83fcc",
+  "status": "no-date",
+  "title": "Gynaecology: Cryocautery"
+ },
+ "gynaecology-information-advice-following-removal-cervical-polyp": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "34d76dcf562f3840",
+  "status": "no-date",
+  "title": "Gynaecology: Cervical Polyp"
+ },
+ "gynaecology-information-advice-following-vulval-biopsy": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "74fa406f1a80cd03",
+  "status": "no-date",
+  "title": "Gynaecology: Vulval Biopsy"
+ },
+ "gynaecology-loop-excision-transformation-zone": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "cc40a33c1bcd029a",
+  "status": "no-date",
+  "title": "Gynaecology: Loop Excision of the Transformation Zone (LLETZ)"
+ },
+ "gynaecology-oncology": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "86fb652468bf583a",
+  "status": "no-date",
+  "title": "Gynaecology: Oncology"
+ },
+ "gynaecology-reviewing-cervical-screening-history": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "b59c2f246fd49139",
+  "status": "no-date",
+  "title": "Gynaecology: Cervical Screening History"
+ },
+ "gynaecology-smear-tests-after-hysterectomy": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "9f35155d72726096",
+  "status": "no-date",
+  "title": "Gynaecology: Smear tests after hysterectomy"
+ },
+ "leg-ulcer-care-your-skin": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "0331abab55b3ae06",
+  "status": "no-date",
+  "title": "Leg Ulcer: Care of Your Skin"
+ },
+ "leg-ulcer-compression-bandaging": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "be82c4cbe227553d",
+  "status": "no-date",
+  "title": "Leg Ulcer: Compression Bandaging"
+ },
+ "leg-ulcer-compression-hosiery": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "7f4869d3f84a1049",
+  "status": "no-date",
+  "title": "Leg Ulcer: Compression Hosiery"
+ },
+ "leg-ulcer-doppler-information": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "0f32bf968f5b3ce6",
+  "status": "no-date",
+  "title": "Leg Ulcer: Doppler Information"
+ },
+ "leg-ulcer-venous-disorders-lower-leg": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "60f40ffe9928f75e",
+  "status": "no-date",
+  "title": "Leg Ulcer: Venous disorders of the lower leg"
+ },
+ "leg-ulcers-exercises": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "6b3a0f1276eefdb9",
+  "status": "no-date",
+  "title": "Leg Ulcer: Exercises"
+ },
+ "lung-investigations-guide-various-lung-tests": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "0cec48181f480e1d",
+  "status": "no-date",
+  "title": "Lung investigations: Guide to lung tests"
+ },
+ "maternity-antidepressants-pregnancy-breastfeeding": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "12df0e5b0391faaf",
+  "status": "no-date",
+  "title": "Maternity: Antidepressants in pregnancy and breastfeeding"
+ },
+ "maternity-pain-relief-labour": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "5fe5252b149c9fcc",
+  "status": "no-date",
+  "title": "Maternity: Pain relief in labour"
+ },
+ "medical-records-access-requests": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "c5c88a4fbf810cd3",
+  "status": "no-date",
+  "title": "Medical records: Access requests"
+ },
+ "minor-injuries-ankle-injury": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "ea9eab374171f9e0",
+  "status": "no-date",
+  "title": "Minor Injuries: Ankle Injury"
+ },
+ "minor-injuries-back-pain": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "98b7f6cbccc97511",
+  "status": "no-date",
+  "title": "Minor Injuries: Back pain"
+ },
+ "minor-injuries-broken-nose": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "28cd1129a9b911ab",
+  "status": "no-date",
+  "title": "Minor Injuries: Broken nose"
+ },
+ "minor-injuries-burns-scalds": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "facae9d738b6fff7",
+  "status": "no-date",
+  "title": "Minor Injuries: Burns and scalds"
+ },
+ "minor-injuries-calf-injury": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "3ed1c1ddcb0188bc",
+  "status": "no-date",
+  "title": "Minor Injuries: Calf Injury"
+ },
+ "minor-injuries-chest-injury": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "19da992ead08b23b",
+  "status": "no-date",
+  "title": "Minor Injuries: Chest Injury"
+ },
+ "minor-injuries-clavicle-fracture": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "cf89ecf90bf550a8",
+  "status": "no-date",
+  "title": "Minor injuries: Clavicle fracture"
+ },
+ "minor-injuries-distal-radial-fracture": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "a21ae6f1c4b7fcae",
+  "status": "no-date",
+  "title": "Minor Injuries: Distal radial fracture"
+ },
+ "minor-injuries-elbow-crutches": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "3aab1ff3948ee1b9",
+  "status": "no-date",
+  "title": "Minor Injuries: Elbow crutches"
+ },
+ "minor-injuries-foot-fracture": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "3172a1595d735855",
+  "status": "no-date",
+  "title": "Minor injuries: Foot fracture"
+ },
+ "minor-injuries-head-injury-adults": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "674792cf6938a4f0",
+  "status": "no-date",
+  "title": "Minor Injuries: Head injury (Adults and older children)"
+ },
+ "minor-injuries-head-injury-children": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "4b4a16e3175318df",
+  "status": "no-date",
+  "title": "Minor Injuries: Head injury (Children)"
+ },
+ "minor-injuries-hip-fracture": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "73fd029993dec6d5",
+  "status": "no-date",
+  "title": "Minor injuries: Hip fracture"
+ },
+ "minor-injuries-knee-injury": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "f859f8135f1af683",
+  "status": "no-date",
+  "title": "Minor Injuries: Knee injury"
+ },
+ "minor-injuries-mallet-Finger-Injury": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "38468518e1188714",
+  "status": "no-date",
+  "title": "Minor Injuries: Mallet finger injury"
+ },
+ "minor-injuries-neck-sprain": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "7bcb5f3d82ac44d0",
+  "status": "no-date",
+  "title": "Minor Injuries: Neck sprain"
+ },
+ "minor-injuries-nosebleed": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "a3c723de4bc4966f",
+  "status": "no-date",
+  "title": "Minor Injuries: Nosebleed"
+ },
+ "minor-injuries-pretibial-laceration": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "30a7ed3aae36f0a3",
+  "status": "no-date",
+  "title": "Minor Injuries: Pretibial laceration"
+ },
+ "minor-injuries-proximal-humeral-fracture": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "97283f71bb9f4c3f",
+  "status": "no-date",
+  "title": "Minor injuries: Proximal humeral fracture"
+ },
+ "minor-injuries-pulled-elbow": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "26e8c59081cdbb29",
+  "status": "no-date",
+  "title": "Minor Injuries: Pulled elbow"
+ },
+ "minor-injuries-shoulder-injury": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "fa9a5b2c809ef725",
+  "status": "no-date",
+  "title": "Minor Injuries: Shoulder injury"
+ },
+ "minor-injuries-tetanus-immunisation": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "960b3cca65e838e2",
+  "status": "no-date",
+  "title": "Minor Injuries: Tetanus immunisation"
+ },
+ "minor-injuries-virtual-fracture-clinic": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "4c6b954cab864a77",
+  "status": "no-date",
+  "title": "Minor injuries: Virtual fracture clinic"
+ },
+ "minor-injuries-wound-closure-strips": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "fff7734c3ff9925f",
+  "status": "no-date",
+  "title": "Minor Injuries: Wound closure strips"
+ },
+ "minor-inuries-radial-head-or-neck-fracture": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "6703792a7ad33ffe",
+  "status": "no-date",
+  "title": "Minor injuries: Radial head or neck fracture"
+ },
+ "natural-management-of-miscarriage-1": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "1b46aee92c53599a",
+  "status": "no-date",
+  "title": "Early Pregnancy: Natural Management of Miscarriage"
+ },
+ "neuropsychology-service-help-for-people-affected-by-motor-neurone-disease": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "e01a58f102f2076a",
+  "status": "no-date",
+  "title": "Neuropsychology Service: Help for people affected by Motor Neurone Disease"
+ },
+ "ophthalmology-contact-lens-service": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "48d1ffa038f00a19",
+  "status": "no-date",
+  "title": "Ophthalmology: Contact lens service"
+ },
+ "ophthalmology-contact-lenses-keratoconus": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "e0dab1af21eba338",
+  "status": "no-date",
+  "title": "Ophthalmology: Contact Lenses for Keratoconus"
+ },
+ "ophthalmology-corneal-cross-linking": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "d3a3c3120254e804",
+  "status": "no-date",
+  "title": "Ophthalmology: Corneal cross-linking"
+ },
+ "ophthalmology-soft-contact-lens": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "f55b3e77c9a65b7a",
+  "status": "no-date",
+  "title": "Ophthalmology: Soft contact lens"
+ },
+ "ophthalmology-spectacles-children": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "d53cc4e1654047da",
+  "status": "no-date",
+  "title": "Ophthalmology: Spectacles for children"
+ },
+ "ophthalmology-who-eligible-contact-lenses-cumberland-infirmary": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "062f4c0f188e7c7a",
+  "status": "no-date",
+  "title": "Ophthalmology: Contact lenses"
+ },
+ "orthodontics-andibular-advancement-devices-obstructive-sleep-apnoea": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "6791912457cc4864",
+  "status": "no-date",
+  "title": "Orthodontics: Mandibular advancement devices for obstructive sleep apnoea"
+ },
+ "orthodontics-cover-plates-impacted-canines": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "04f4523ab32987f5",
+  "status": "no-date",
+  "title": "Orthodontics: Cover plates for impacted canines"
+ },
+ "orthodontics-fixed-brace-instructions": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "76c1c7035df1c75e",
+  "status": "no-date",
+  "title": "Orthodontics: Fixed brace instructions"
+ },
+ "orthodontics-jaw-joint-problems": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "ff09e6d703b335dc",
+  "status": "no-date",
+  "title": "Orthodontics: Jaw joint problems"
+ },
+ "orthodontics-jaw-surgery": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "3ef72e90c842b783",
+  "status": "no-date",
+  "title": "Orthodontics: Jaw surgery"
+ },
+ "orthodontics-keeping-teeth-braces-clean": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "6388ecebdeddfc58",
+  "status": "no-date",
+  "title": "Orthodontics: Keeping your teeth and braces clean"
+ },
+ "orthodontics-looking-after-functional-brace": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "f494a94ef8b3f4d2",
+  "status": "no-date",
+  "title": "Orthodontics: Looking after your functional brace"
+ },
+ "orthodontics-looking-after-removable-retainers": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "8525f3f789d6202c",
+  "status": "no-date",
+  "title": "Orthodontics: Looking after your removable retainers"
+ },
+ "orthodontics-rapid-maxillary-expansion": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "4db1ae59eb3a4f54",
+  "status": "no-date",
+  "title": "Orthodontics: Rapid maxillary expansion"
+ },
+ "patient-information-after-care-following-extraction-of-teeth": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "fea59c47a45799dc",
+  "status": "no-date",
+  "title": "Community Dental Service: After Care Following The Extraction Of Teeth"
+ },
+ "patient-information-oral-hygiene": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "cf76c06289144966",
+  "status": "no-date",
+  "title": "Community Dental Service: Oral Hygiene"
+ },
+ "patient-information-template-13": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "8f5b9f294e7ff7c0",
+  "status": "no-date",
+  "title": "General surgery: Rectus abdominus divartication"
+ },
+ "patient-information-template-4": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "3085bc6b01d38d57",
+  "status": "no-date",
+  "title": "End of life: When someone is dying"
+ },
+ "patient-information-template-5": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "4766d01a3ab09320",
+  "status": "no-date",
+  "title": "End of life: Information for bereaved relatives"
+ },
+ "patient-information-template-6": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "6b91cd967b6aaf42",
+  "status": "no-date",
+  "title": "Elective Care Suite: Cumberland Infirmary"
+ },
+ "patient-information-template-8": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "9e915f2450a61b82",
+  "status": "no-date",
+  "title": "Maternity: Glucose tolerance test"
+ },
+ "patient-information-template-92": {
+  "checked": "2026-07-13T00:29:53+01:00",
+  "content_hash": "73b08caab6de361b",
+  "status": "no-date",
+  "title": "Orthodontics: Jaw Surgery (Orthognathic)"
+ },
+ "pregnancy-manual-vacuum-aspiration-miscarriage": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "91b6c961d36d422c",
+  "status": "no-date",
+  "title": "Early Pregnancy: Manual Vacuum Aspiration Miscarriage"
+ },
+ "pregnancy-termination": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "287949c86ce7722e",
+  "status": "no-date",
+  "title": "Early Pregnancy: Termination"
+ },
+ "pregnancy-termination-mva": {
+  "checked": "2026-07-12T22:56:56+01:00",
+  "content_hash": "a401faa221957811",
+  "status": "no-date",
+  "title": "Early Pregnancy: Termination MVA"
+ },
+ "what-is-abi": {
+  "checked": "2026-07-12T22:22:48+01:00",
+  "content_hash": "721a7b426bf51692",
+  "status": "no-date",
+  "title": "Acquired Brain Injury: What is an ABI?"
+ }
+}

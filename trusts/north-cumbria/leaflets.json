@@ -1,0 +1,1622 @@
+[
+  {
+    "title": "Acquired Brain Injury: Driving Advice",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/abi-driving-advice",
+    "slug": "abi-driving-advice"
+  },
+  {
+    "title": "Acquired Brain Injury: The Service",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/abi-service",
+    "slug": "abi-service"
+  },
+  {
+    "title": "Acquired Brain Injury: What is an ABI?",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/what-is-abi",
+    "slug": "what-is-abi"
+  },
+  {
+    "title": "Alcohol care team: Coping with craving",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Alcohol-care-team-Coping-with-craving",
+    "slug": "Alcohol-care-team-Coping-with-craving"
+  },
+  {
+    "title": "Alcohol care team: Reduced appetite",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Alcohol-Care-Team-Reduced-appetite",
+    "slug": "Alcohol-Care-Team-Reduced-appetite"
+  },
+  {
+    "title": "Alcohol care team:Tips for cutting down alcohol",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Alcohol-care-team-Tips-for-cutting-down-alcohol",
+    "slug": "Alcohol-care-team-Tips-for-cutting-down-alcohol"
+  },
+  {
+    "title": "Amputee: Antiperspirant",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-antiperspirant-advice-following-amputation",
+    "slug": "amputee-antiperspirant-advice-following-amputation"
+  },
+  {
+    "title": "Amputee: Compression Sock",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-compression-sock",
+    "slug": "amputee-compression-sock"
+  },
+  {
+    "title": "Amputee: Core Stability",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-core-stability",
+    "slug": "amputee-core-stability"
+  },
+  {
+    "title": "Amputee: Diabetes and Exercise",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-diabetes-exercise",
+    "slug": "amputee-diabetes-exercise"
+  },
+  {
+    "title": "Amputee: Driving after amputation",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-driving-after-amputation",
+    "slug": "amputee-driving-after-amputation"
+  },
+  {
+    "title": "Amputee: Falls information",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-falls-information",
+    "slug": "amputee-falls-information"
+  },
+  {
+    "title": "Amputee: Getting up from a fall",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-getting-up-from-fall",
+    "slug": "amputee-getting-up-from-fall"
+  },
+  {
+    "title": "Amputee: Lower limb amputation",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-information-patients-families-following-lower-limb-amputation",
+    "slug": "amputee-information-patients-families-following-lower-limb-amputation"
+  },
+  {
+    "title": "Amputee: Occupational therapy",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-occupational-therapy-following-amputation",
+    "slug": "amputee-occupational-therapy-following-amputation"
+  },
+  {
+    "title": "Amputee: Orthotics following your amputation",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-orthotics-following-amputation",
+    "slug": "amputee-orthotics-following-amputation"
+  },
+  {
+    "title": "Amputee: Phantom limb pain",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-phantom-limb-pain",
+    "slug": "amputee-phantom-limb-pain"
+  },
+  {
+    "title": "Amputee: Physiotherapy Exercises Trans-tibial Amputation",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-physiotherapy-exercises-following-trans-tibial-below-knee-amputation",
+    "slug": "amputee-physiotherapy-exercises-following-trans-tibial-below-knee-amputation"
+  },
+  {
+    "title": "Amputee: Physiotherapy following your amputation",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-physiotherapy-following-your-amputation",
+    "slug": "amputee-physiotherapy-following-your-amputation"
+  },
+  {
+    "title": "Amputee: Physiotherapy Trans-femoral amputation",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-physiotherapy-exercises-following-trans-femoral-above-knee-amputation",
+    "slug": "amputee-physiotherapy-exercises-following-trans-femoral-above-knee-amputation"
+  },
+  {
+    "title": "Amputee: Podiatry following your amputation",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-podiatry-following-amputation",
+    "slug": "amputee-podiatry-following-amputation"
+  },
+  {
+    "title": "Amputee: Prosthetic department",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-prosthetic-department",
+    "slug": "amputee-prosthetic-department"
+  },
+  {
+    "title": "Amputee: Prosthetic limb wearer",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-prosthetic-limb-wearer",
+    "slug": "amputee-prosthetic-limb-wearer"
+  },
+  {
+    "title": "Amputee: Psychology",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-psychology-following-your-amputation",
+    "slug": "amputee-psychology-following-your-amputation"
+  },
+  {
+    "title": "Amputee: Removable rigid dressing (RRD)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-removable-rigid-dressing",
+    "slug": "amputee-removable-rigid-dressing"
+  },
+  {
+    "title": "Amputee: Sports and activities",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-sports-activities",
+    "slug": "amputee-sports-activities"
+  },
+  {
+    "title": "Amputee: Websites and resources",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/amputee-websites-resources",
+    "slug": "amputee-websites-resources"
+  },
+  {
+    "title": "Anaesthetics: Contraception advice after having Sugammadex",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/contraception-advice-after-having-sugammadex",
+    "slug": "contraception-advice-after-having-sugammadex"
+  },
+  {
+    "title": "Anaesthetics: Discharge Advice Following Spinal or Epidural Analgesia or Anaesthesia",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/anaesthetics-discharge-advice-following-spinal-or-epidural-analgesia-or-anaesthesia",
+    "slug": "anaesthetics-discharge-advice-following-spinal-or-epidural-analgesia-or-anaesthesia"
+  },
+  {
+    "title": "Arterial disorders of the lower leg",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/arterial-disorders-lower-leg",
+    "slug": "arterial-disorders-lower-leg"
+  },
+  {
+    "title": "Bladder and Bowel service",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/bladder-bowel-service",
+    "slug": "bladder-bowel-service"
+  },
+  {
+    "title": "Bladder and Bowel: Children",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Children-s-Bladder-and-Bowel",
+    "slug": "Children-s-Bladder-and-Bowel"
+  },
+  {
+    "title": "Breast feeding: Harvesting Colostrum for your baby",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Breast-feeding-Harvesting-Colostrum-for-your-baby",
+    "slug": "Breast-feeding-Harvesting-Colostrum-for-your-baby"
+  },
+  {
+    "title": "Breast: Assessment centre",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Breast-Assessment-centre",
+    "slug": "Breast-Assessment-centre"
+  },
+  {
+    "title": "Breast: Eczema of the breast or nipple",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/breast-eczema-breast-nipple",
+    "slug": "breast-eczema-breast-nipple"
+  },
+  {
+    "title": "Breast: Radiofrequency seed localisation",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/breast-radiofrequency-seed-localisation",
+    "slug": "breast-radiofrequency-seed-localisation"
+  },
+  {
+    "title": "Cardiology: Blood clot",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/cardiology-blood-clot",
+    "slug": "cardiology-blood-clot"
+  },
+  {
+    "title": "Cardiology: Cardioversion Elective",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Cardiology-Cardioversion-Elective",
+    "slug": "Cardiology-Cardioversion-Elective"
+  },
+  {
+    "title": "Cardiology: Coronary Angiography and Percutaneous Coronary Intervention (PCI)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Cardiology-Coronary-Angiography-and-Percutaneous-Coronary-Intervention-PCI",
+    "slug": "Cardiology-Coronary-Angiography-and-Percutaneous-Coronary-Intervention-PCI"
+  },
+  {
+    "title": "Cardiology: Dobutamine Stress Echocardiogram (DSE)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Cardiology-Dobutamine-Stress-Echocardiogram-DSE",
+    "slug": "Cardiology-Dobutamine-Stress-Echocardiogram-DSE"
+  },
+  {
+    "title": "Cardiology: Elective Direct Current Cardioversion",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Cardiology-Elective-Direct-Current-Cardioversion",
+    "slug": "Cardiology-Elective-Direct-Current-Cardioversion"
+  },
+  {
+    "title": "Cardiology: Heart failure symptoms checklist",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Cardiology-Heart-failure-symptoms-checklist",
+    "slug": "Cardiology-Heart-failure-symptoms-checklist"
+  },
+  {
+    "title": "Cardiology: Implantable loop recorder",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Cardiology-Implantable-loop-recorder",
+    "slug": "Cardiology-Implantable-loop-recorder"
+  },
+  {
+    "title": "Cardiology: Transoesophageal Echocardiogram (TOE)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Cardiology-Transoesophageal-Echocardiogram-TOE",
+    "slug": "Cardiology-Transoesophageal-Echocardiogram-TOE"
+  },
+  {
+    "title": "Cardiopulmonary Resuscitation",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/cardiopulmonary-resuscitation-do-not-attempt-cardio-pulmonary-resuscitation",
+    "slug": "cardiopulmonary-resuscitation-do-not-attempt-cardio-pulmonary-resuscitation"
+  },
+  {
+    "title": "Chaplaincy service",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Chaplaincy-service",
+    "slug": "Chaplaincy-service"
+  },
+  {
+    "title": "Childrens Speech & Language therapy: Building connections",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Childrens-Speech-Language-therapy-Building-connections",
+    "slug": "Childrens-Speech-Language-therapy-Building-connections"
+  },
+  {
+    "title": "Colonoscopy: CT Colonography examination",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Colonoscopy-CT-Colonography-examination",
+    "slug": "Colonoscopy-CT-Colonography-examination"
+  },
+  {
+    "title": "Community Dental Service: After Care Following The Extraction Of Teeth",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-information-after-care-following-extraction-of-teeth",
+    "slug": "patient-information-after-care-following-extraction-of-teeth"
+  },
+  {
+    "title": "Community Dental Service: Denture Care Instructions for Plastic (Acrylic) Dentures",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/denture-care-instructions-for-plastic-dentures",
+    "slug": "denture-care-instructions-for-plastic-dentures"
+  },
+  {
+    "title": "Community Dental Service: Oral Hygiene",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-information-oral-hygiene",
+    "slug": "patient-information-oral-hygiene"
+  },
+  {
+    "title": "Community Hospital: Brampton Ward",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Community-Hospital-Brampton",
+    "slug": "Community-Hospital-Brampton"
+  },
+  {
+    "title": "Community Hospital: Cockermouth Community Hospital",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/cockermouth-community-hospital",
+    "slug": "cockermouth-community-hospital"
+  },
+  {
+    "title": "Community Hospital: Copeland Unit",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/community-hospitals-copeland-unit",
+    "slug": "community-hospitals-copeland-unit"
+  },
+  {
+    "title": "Community Hospital: Keswick Hospital",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/community-hospital-keswick-hospital",
+    "slug": "community-hospital-keswick-hospital"
+  },
+  {
+    "title": "Community Hospital: Loweswater Suite",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/community-hospital-loweswater-suite",
+    "slug": "community-hospital-loweswater-suite"
+  },
+  {
+    "title": "Community Hospital: Penrith",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/community-hospital-penrith",
+    "slug": "community-hospital-penrith"
+  },
+  {
+    "title": "Community Hospital: Workington",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/community-hospital-workington",
+    "slug": "community-hospital-workington"
+  },
+  {
+    "title": "Compliment, Comment or a Complaint: Easy read",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/compliment-comment-complaint-easy-read-words",
+    "slug": "compliment-comment-complaint-easy-read-words"
+  },
+  {
+    "title": "Compliments, Comments, Concerns and Complaints",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/compliments-comments-concerns-complaints",
+    "slug": "compliments-comments-concerns-complaints"
+  },
+  {
+    "title": "Confidentiality: Families and carers",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/confidentiality-families-carers",
+    "slug": "confidentiality-families-carers"
+  },
+  {
+    "title": "Confidentiality: People who use our services",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/confidentiality-people-who-use-our-services",
+    "slug": "confidentiality-people-who-use-our-services"
+  },
+  {
+    "title": "Confidentiality: Report concerns",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/confidentiality-report-concerns",
+    "slug": "confidentiality-report-concerns"
+  },
+  {
+    "title": "Consent: A guide for patients and service users",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/consent-guide-patients-service-users",
+    "slug": "consent-guide-patients-service-users"
+  },
+  {
+    "title": "Covid: Cognitive problems post Covid-19",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/covid-cognitive-problems-post-covid-19",
+    "slug": "covid-cognitive-problems-post-covid-19"
+  },
+  {
+    "title": "Covid: Long Covid",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/covid-long-covid",
+    "slug": "covid-long-covid"
+  },
+  {
+    "title": "Covid: Voice problems",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/covid-voice-problems",
+    "slug": "covid-voice-problems"
+  },
+  {
+    "title": "Data Protection: How we use your information",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/data-protection-how-use-your-information",
+    "slug": "data-protection-how-use-your-information"
+  },
+  {
+    "title": "Day Case Unit: West Cumberland Hospital",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Day-Case-Unit-West-Cumberland-Hospital",
+    "slug": "Day-Case-Unit-West-Cumberland-Hospital"
+  },
+  {
+    "title": "Diabetes: Charcot foot",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/diabetes-charcot-foot",
+    "slug": "diabetes-charcot-foot"
+  },
+  {
+    "title": "Diabetes: Exercise and sugar levels",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/diabetes-the-effects-exercise-sugar-levels",
+    "slug": "diabetes-the-effects-exercise-sugar-levels"
+  },
+  {
+    "title": "Diabetes: Foot care for patients at high risk",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/diabetes-foot-care-patients-high-risk",
+    "slug": "diabetes-foot-care-patients-high-risk"
+  },
+  {
+    "title": "Diabetes: Foot care for patients at low risk",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/diabetes-foot-care-patients-low-risk",
+    "slug": "diabetes-foot-care-patients-low-risk"
+  },
+  {
+    "title": "Diabetes: Foot care for patients at medium risk",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/diabetes-foot-care-patients-medium-risk",
+    "slug": "diabetes-foot-care-patients-medium-risk"
+  },
+  {
+    "title": "Diabetes: Foot ulcers",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/diabetes-foot-ulcers",
+    "slug": "diabetes-foot-ulcers"
+  },
+  {
+    "title": "Diabetes: Looking after your foot in remission",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/diabetes-looking-after-your-foot-remission",
+    "slug": "diabetes-looking-after-your-foot-remission"
+  },
+  {
+    "title": "Diabetes: Multidisciplinary foot clinic",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/diabetes-multidisciplinary-foot-clinic",
+    "slug": "diabetes-multidisciplinary-foot-clinic"
+  },
+  {
+    "title": "Diabetes: Plaster or fibreglass casting of foot ulcers",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/diabetes-plaster-fibreglass-casting-foot-ulcers",
+    "slug": "diabetes-plaster-fibreglass-casting-foot-ulcers"
+  },
+  {
+    "title": "Diabetic Eye Screening",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Diabetic-Eye-Screening",
+    "slug": "Diabetic-Eye-Screening"
+  },
+  {
+    "title": "Diabetic foot clinic",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Diabetic-foot-clinic",
+    "slug": "Diabetic-foot-clinic"
+  },
+  {
+    "title": "Discharge to Assess",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Discharge-to-Assess",
+    "slug": "Discharge-to-Assess"
+  },
+  {
+    "title": "District nursing",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/district-nursing",
+    "slug": "district-nursing"
+  },
+  {
+    "title": "Duty of Candour: Being open",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/duty-candour-being-open",
+    "slug": "duty-candour-being-open"
+  },
+  {
+    "title": "Early Pregnancy: Bleeding and/or pain in early pregnancy",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Gynaecology-Bleeding-and-or-pain-in-early-pregnancy",
+    "slug": "Gynaecology-Bleeding-and-or-pain-in-early-pregnancy"
+  },
+  {
+    "title": "Early Pregnancy: Manual Vacuum Aspiration Miscarriage",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/pregnancy-manual-vacuum-aspiration-miscarriage",
+    "slug": "pregnancy-manual-vacuum-aspiration-miscarriage"
+  },
+  {
+    "title": "Early Pregnancy: Natural Management of Miscarriage",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/natural-management-of-miscarriage-1",
+    "slug": "natural-management-of-miscarriage-1"
+  },
+  {
+    "title": "Early Pregnancy: Outpatient medical termination of pregnancy",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Gynaecology-Outpatient-medical-termination-of-pregnancy",
+    "slug": "Gynaecology-Outpatient-medical-termination-of-pregnancy"
+  },
+  {
+    "title": "Early Pregnancy: Termination",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/pregnancy-termination",
+    "slug": "pregnancy-termination"
+  },
+  {
+    "title": "Early Pregnancy: Termination MVA",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/pregnancy-termination-mva",
+    "slug": "pregnancy-termination-mva"
+  },
+  {
+    "title": "Easy read : Complaints",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Easy-read-Complaints",
+    "slug": "Easy-read-Complaints"
+  },
+  {
+    "title": "Easy read : Confidentiality",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Easy-read-Confidentiality",
+    "slug": "Easy-read-Confidentiality"
+  },
+  {
+    "title": "Easy read : Consent",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Easy-read-Consent",
+    "slug": "Easy-read-Consent"
+  },
+  {
+    "title": "Easy read : Ophthalmology: Eye check",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Easy-read-Ophthalmology-Eye-check",
+    "slug": "Easy-read-Ophthalmology-Eye-check"
+  },
+  {
+    "title": "Elective Care Suite: Cumberland Infirmary",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-information-template-6",
+    "slug": "patient-information-template-6"
+  },
+  {
+    "title": "End of life: Information for bereaved relatives",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-information-template-5",
+    "slug": "patient-information-template-5"
+  },
+  {
+    "title": "End of life: Taste for pleasure",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/End-of-life-Taste-for-pleasure",
+    "slug": "End-of-life-Taste-for-pleasure"
+  },
+  {
+    "title": "End of life: When someone is dying",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-information-template-4",
+    "slug": "patient-information-template-4"
+  },
+  {
+    "title": "Endoscopy: Colonoscopy",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Endoscopy-Colonoscopy",
+    "slug": "Endoscopy-Colonoscopy"
+  },
+  {
+    "title": "Endoscopy: Combined - Gastroscopy Oesophago-gastro duodenoscopy (OGD) and Colonoscopy",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Endoscopy-Combined-Gastroscopy-Oesophago-gastro-duodenoscopy-OGD-and-Colonoscopy",
+    "slug": "Endoscopy-Combined-Gastroscopy-Oesophago-gastro-duodenoscopy-OGD-and-Colonoscopy"
+  },
+  {
+    "title": "Endoscopy: ERCP (Endoscopic Retrograde Cholangiopancreatography)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Endoscopy-ERC-Endoscopic-Retrograde-Cholangiopancreatography",
+    "slug": "Endoscopy-ERC-Endoscopic-Retrograde-Cholangiopancreatography"
+  },
+  {
+    "title": "Endoscopy: Flexible Sigmoidoscopy (Enema Preparation)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Endoscopy-Flexible-Sigmoidoscopy-Enema-Preparation",
+    "slug": "Endoscopy-Flexible-Sigmoidoscopy-Enema-Preparation"
+  },
+  {
+    "title": "Endoscopy: Gastroscopy - Oesophago-gastro duodenoscopy (OGD)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Endoscopy-Gastroscopy-Oesophago-gastro-duodenoscopy-OGD",
+    "slug": "Endoscopy-Gastroscopy-Oesophago-gastro-duodenoscopy-OGD"
+  },
+  {
+    "title": "Endoscopy: Low residue diet",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Endoscopy-Low-residue-diet",
+    "slug": "Endoscopy-Low-residue-diet"
+  },
+  {
+    "title": "Endoscopy: Moviprep - afternoon",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Endoscopy-Moviprep-afternoon",
+    "slug": "Endoscopy-Moviprep-afternoon"
+  },
+  {
+    "title": "Endoscopy: Moviprep- morning",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Endoscopy-Moviprep-morning",
+    "slug": "Endoscopy-Moviprep-morning"
+  },
+  {
+    "title": "ENT: Anosmia (Loss of smell)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/ent-anosmia",
+    "slug": "ent-anosmia"
+  },
+  {
+    "title": "ENT: Benign Paroxysmal Positional Vertigo",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/ent-benign-paroxysmal-positional-vertigo",
+    "slug": "ent-benign-paroxysmal-positional-vertigo"
+  },
+  {
+    "title": "ENT: Betnovate Lotion",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/ent-betnovate-lotion",
+    "slug": "ent-betnovate-lotion"
+  },
+  {
+    "title": "ENT: Brandt Daroff exercises",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/ent-brandt-daroff-exercises",
+    "slug": "ent-brandt-daroff-exercises"
+  },
+  {
+    "title": "ENT: Douching",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/ent-douching",
+    "slug": "ent-douching"
+  },
+  {
+    "title": "ENT: Eardrops",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/ent-eardrops",
+    "slug": "ent-eardrops"
+  },
+  {
+    "title": "ENT: Exercises to regain balance",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/ent-exercises-regain-balance",
+    "slug": "ent-exercises-regain-balance"
+  },
+  {
+    "title": "ENT: Laryngopharyngeal Reflux – LPR",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/ent-laryngopharyngeal-reflux",
+    "slug": "ent-laryngopharyngeal-reflux"
+  },
+  {
+    "title": "Epidural: Blood patch",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/epidural-blood-patch",
+    "slug": "epidural-blood-patch"
+  },
+  {
+    "title": "Fibroscan: Ultrasound",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/fibroscan-ultrasound",
+    "slug": "fibroscan-ultrasound"
+  },
+  {
+    "title": "Freedom of information",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/freedom-information",
+    "slug": "freedom-information"
+  },
+  {
+    "title": "General Data Protection Regulation UK",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/general-data-protection-regulation-uk",
+    "slug": "general-data-protection-regulation-uk"
+  },
+  {
+    "title": "General surgery: Anal fissures",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/General-surgery-Anal-Fissures",
+    "slug": "General-surgery-Anal-Fissures"
+  },
+  {
+    "title": "General surgery: Haemorrhoids",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/General-surgery-Haemorrhoids",
+    "slug": "General-surgery-Haemorrhoids"
+  },
+  {
+    "title": "General surgery: Rectus abdominus divartication",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-information-template-13",
+    "slug": "patient-information-template-13"
+  },
+  {
+    "title": "Going from hospital to a temporary care home",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/going-from-hospital-to-a-temporary-care-home",
+    "slug": "going-from-hospital-to-a-temporary-care-home"
+  },
+  {
+    "title": "Gynaecology: Active Surveillance of Cervical Intraepithelial Neoplasia (CIN2)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/gynaecology-active-surveillance-cervical-intraepithelial-neoplasia",
+    "slug": "gynaecology-active-surveillance-cervical-intraepithelial-neoplasia"
+  },
+  {
+    "title": "Gynaecology: Borderline ovarian tumours",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/gynaecology-borderline-ovarian-tumours",
+    "slug": "gynaecology-borderline-ovarian-tumours"
+  },
+  {
+    "title": "Gynaecology: Cervical Polyp",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/gynaecology-information-advice-following-removal-cervical-polyp",
+    "slug": "gynaecology-information-advice-following-removal-cervical-polyp"
+  },
+  {
+    "title": "Gynaecology: Cervical Punch Biopsy",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/gynaecology-information-advice-following-cervical-punch-biopsy",
+    "slug": "gynaecology-information-advice-following-cervical-punch-biopsy"
+  },
+  {
+    "title": "Gynaecology: Cervical Screening History",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/gynaecology-reviewing-cervical-screening-history",
+    "slug": "gynaecology-reviewing-cervical-screening-history"
+  },
+  {
+    "title": "Gynaecology: Cervical Screening Test Results",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/gynaecology-cervical-screening-test-results",
+    "slug": "gynaecology-cervical-screening-test-results"
+  },
+  {
+    "title": "Gynaecology: Cold Coagulation",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/gynaecology-cold-coagulation",
+    "slug": "gynaecology-cold-coagulation"
+  },
+  {
+    "title": "Gynaecology: Colposcopy examination",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/gynaecology-having-colposcopy-examination",
+    "slug": "gynaecology-having-colposcopy-examination"
+  },
+  {
+    "title": "Gynaecology: Cryocautery",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/gynaecology-information-advice-following-cryocautery",
+    "slug": "gynaecology-information-advice-following-cryocautery"
+  },
+  {
+    "title": "Gynaecology: Discharge from follow-up clinic",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/gynaecology-discharge-gynaecology-cancer-follow-up-clinic",
+    "slug": "gynaecology-discharge-gynaecology-cancer-follow-up-clinic"
+  },
+  {
+    "title": "Gynaecology: Hysterectomy for Endometrial Cancer",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/gynaecology-hysterectomy-endometrial-cancer",
+    "slug": "gynaecology-hysterectomy-endometrial-cancer"
+  },
+  {
+    "title": "Gynaecology: Hysteroscopy",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/gynaecology-hysteroscopy",
+    "slug": "gynaecology-hysteroscopy"
+  },
+  {
+    "title": "Gynaecology: Imiquimod treatment for Vulval intraepithelial neoplasia (VIN)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Gynaecology-Imiquimod-treatment-for-Vulval-intraepithelia-neoplasia-VIN",
+    "slug": "Gynaecology-Imiquimod-treatment-for-Vulval-intraepithelia-neoplasia-VIN"
+  },
+  {
+    "title": "Gynaecology: Loop Excision of the Transformation Zone (LLETZ)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/gynaecology-loop-excision-transformation-zone",
+    "slug": "gynaecology-loop-excision-transformation-zone"
+  },
+  {
+    "title": "Gynaecology: Neoplasis (VIN)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Gynaecology-Neoplasis-VIN",
+    "slug": "Gynaecology-Neoplasis-VIN"
+  },
+  {
+    "title": "Gynaecology: Oncology",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/gynaecology-oncology",
+    "slug": "gynaecology-oncology"
+  },
+  {
+    "title": "Gynaecology: Out patients Hysteroscopy",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Gynaecology-Out-patients-Hysteroscopy",
+    "slug": "Gynaecology-Out-patients-Hysteroscopy"
+  },
+  {
+    "title": "Gynaecology: Patient initiated follow up",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Gynaecology-Patient-initiated-follow-up",
+    "slug": "Gynaecology-Patient-initiated-follow-up"
+  },
+  {
+    "title": "Gynaecology: Patients undergoing testing for Endometrial (womb) Cancer",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Gynaecology-Patients-undergoing-testing-for-Endometrial-womb-Cancer",
+    "slug": "Gynaecology-Patients-undergoing-testing-for-Endometrial-womb-Cancer"
+  },
+  {
+    "title": "Gynaecology: Smear tests after hysterectomy",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/gynaecology-smear-tests-after-hysterectomy",
+    "slug": "gynaecology-smear-tests-after-hysterectomy"
+  },
+  {
+    "title": "Gynaecology: Vulval Biopsy",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/gynaecology-information-advice-following-vulval-biopsy",
+    "slug": "gynaecology-information-advice-following-vulval-biopsy"
+  },
+  {
+    "title": "Gynaecology: Wide local excision (WLE) of a vulval lesion",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Gynaecology-wide-local-excision-WLE-of-a-vulval-lesion",
+    "slug": "Gynaecology-wide-local-excision-WLE-of-a-vulval-lesion"
+  },
+  {
+    "title": "Hernia: Inguinal Hernia",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Hernia-Inguinal-Hernia",
+    "slug": "Hernia-Inguinal-Hernia"
+  },
+  {
+    "title": "Information for inpatients",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Information-for-inpatients",
+    "slug": "Information-for-inpatients"
+  },
+  {
+    "title": "Leg Ulcer: Care of Your Skin",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/leg-ulcer-care-your-skin",
+    "slug": "leg-ulcer-care-your-skin"
+  },
+  {
+    "title": "Leg Ulcer: Compression Bandaging",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/leg-ulcer-compression-bandaging",
+    "slug": "leg-ulcer-compression-bandaging"
+  },
+  {
+    "title": "Leg Ulcer: Compression Hosiery",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/leg-ulcer-compression-hosiery",
+    "slug": "leg-ulcer-compression-hosiery"
+  },
+  {
+    "title": "Leg Ulcer: Doppler Information",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/leg-ulcer-doppler-information",
+    "slug": "leg-ulcer-doppler-information"
+  },
+  {
+    "title": "Leg Ulcer: Exercises",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/leg-ulcers-exercises",
+    "slug": "leg-ulcers-exercises"
+  },
+  {
+    "title": "Leg Ulcer: Venous disorders of the lower leg",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/leg-ulcer-venous-disorders-lower-leg",
+    "slug": "leg-ulcer-venous-disorders-lower-leg"
+  },
+  {
+    "title": "Lung investigations: Guide to lung tests",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/lung-investigations-guide-various-lung-tests",
+    "slug": "lung-investigations-guide-various-lung-tests"
+  },
+  {
+    "title": "Maternal Mental Health",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Maternal-Mental-Health",
+    "slug": "Maternal-Mental-Health"
+  },
+  {
+    "title": "Maternity: Antidepressants in pregnancy and breastfeeding",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/maternity-antidepressants-pregnancy-breastfeeding",
+    "slug": "maternity-antidepressants-pregnancy-breastfeeding"
+  },
+  {
+    "title": "Maternity: Fetal heart monitoring during labour",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/fetal-heart-monitoring-during-labour",
+    "slug": "fetal-heart-monitoring-during-labour"
+  },
+  {
+    "title": "Maternity: Gestational Diabetes",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Maternity-Gestational-Diabetes",
+    "slug": "Maternity-Gestational-Diabetes"
+  },
+  {
+    "title": "Maternity: Glucose tolerance test",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-information-template-8",
+    "slug": "patient-information-template-8"
+  },
+  {
+    "title": "Maternity: Healthy eating for Gestational Diabetes",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Maternity-Healthy-eating-for-Gestational-Diabetes",
+    "slug": "Maternity-Healthy-eating-for-Gestational-Diabetes"
+  },
+  {
+    "title": "Maternity: Induction of labour",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Maternity-Induction-of-labour",
+    "slug": "Maternity-Induction-of-labour"
+  },
+  {
+    "title": "Maternity: Keeping your baby safe",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Maternity-Keeping-your-baby-safe",
+    "slug": "Maternity-Keeping-your-baby-safe"
+  },
+  {
+    "title": "Maternity: Low PAPP-A hormone",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Maternity-Low-PAPP-A-hormone",
+    "slug": "Maternity-Low-PAPP-A-hormone"
+  },
+  {
+    "title": "Maternity: Pain relief in labour",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/maternity-pain-relief-labour",
+    "slug": "maternity-pain-relief-labour"
+  },
+  {
+    "title": "Maternity: Planned Caesarean Section",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Maternity-Planned-Caesarean-Section",
+    "slug": "Maternity-Planned-Caesarean-Section"
+  },
+  {
+    "title": "Maternity: Protecting your baby from low blood glucose - Hypoglycaemic",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Maternity-Protecting-your-baby-from-low-blood-glucose",
+    "slug": "Maternity-Protecting-your-baby-from-low-blood-glucose"
+  },
+  {
+    "title": "Maternity: Registering a birth",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Maternity-Registering-a-birth",
+    "slug": "Maternity-Registering-a-birth"
+  },
+  {
+    "title": "Maternity: Screening for diabetic eye disease during pregnancy",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Maternity-Screening-for-diabetic-eye-disease-during-pregnancy",
+    "slug": "Maternity-Screening-for-diabetic-eye-disease-during-pregnancy"
+  },
+  {
+    "title": "Maternity: Vitamin K for new born babies",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Maternity-Vitamin-K-for-newborn-babies",
+    "slug": "Maternity-Vitamin-K-for-newborn-babies"
+  },
+  {
+    "title": "Medical records: Access requests",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/medical-records-access-requests",
+    "slug": "medical-records-access-requests"
+  },
+  {
+    "title": "Minor Injuries: Ankle Injury",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-ankle-injury",
+    "slug": "minor-injuries-ankle-injury"
+  },
+  {
+    "title": "Minor Injuries: Back pain",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-back-pain",
+    "slug": "minor-injuries-back-pain"
+  },
+  {
+    "title": "Minor Injuries: Broken nose",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-broken-nose",
+    "slug": "minor-injuries-broken-nose"
+  },
+  {
+    "title": "Minor Injuries: Burns and scalds",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-burns-scalds",
+    "slug": "minor-injuries-burns-scalds"
+  },
+  {
+    "title": "Minor Injuries: Calf Injury",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-calf-injury",
+    "slug": "minor-injuries-calf-injury"
+  },
+  {
+    "title": "Minor Injuries: Chest Injury",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-chest-injury",
+    "slug": "minor-injuries-chest-injury"
+  },
+  {
+    "title": "Minor injuries: Clavicle fracture",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-clavicle-fracture",
+    "slug": "minor-injuries-clavicle-fracture"
+  },
+  {
+    "title": "Minor Injuries: Distal radial fracture",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-distal-radial-fracture",
+    "slug": "minor-injuries-distal-radial-fracture"
+  },
+  {
+    "title": "Minor Injuries: Elbow crutches",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-elbow-crutches",
+    "slug": "minor-injuries-elbow-crutches"
+  },
+  {
+    "title": "Minor injuries: Foot fracture",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-foot-fracture",
+    "slug": "minor-injuries-foot-fracture"
+  },
+  {
+    "title": "Minor Injuries: Head injury (Adults and older children)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-head-injury-adults",
+    "slug": "minor-injuries-head-injury-adults"
+  },
+  {
+    "title": "Minor Injuries: Head injury (Children)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-head-injury-children",
+    "slug": "minor-injuries-head-injury-children"
+  },
+  {
+    "title": "Minor injuries: Hip fracture",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-hip-fracture",
+    "slug": "minor-injuries-hip-fracture"
+  },
+  {
+    "title": "Minor Injuries: Knee injury",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-knee-injury",
+    "slug": "minor-injuries-knee-injury"
+  },
+  {
+    "title": "Minor Injuries: Mallet finger injury",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-mallet-Finger-Injury",
+    "slug": "minor-injuries-mallet-Finger-Injury"
+  },
+  {
+    "title": "Minor Injuries: Neck sprain",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-neck-sprain",
+    "slug": "minor-injuries-neck-sprain"
+  },
+  {
+    "title": "Minor Injuries: Nosebleed",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-nosebleed",
+    "slug": "minor-injuries-nosebleed"
+  },
+  {
+    "title": "Minor Injuries: Pretibial laceration",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-pretibial-laceration",
+    "slug": "minor-injuries-pretibial-laceration"
+  },
+  {
+    "title": "Minor injuries: Proximal humeral fracture",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-proximal-humeral-fracture",
+    "slug": "minor-injuries-proximal-humeral-fracture"
+  },
+  {
+    "title": "Minor Injuries: Pulled elbow",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-pulled-elbow",
+    "slug": "minor-injuries-pulled-elbow"
+  },
+  {
+    "title": "Minor injuries: Radial head or neck fracture",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-inuries-radial-head-or-neck-fracture",
+    "slug": "minor-inuries-radial-head-or-neck-fracture"
+  },
+  {
+    "title": "Minor Injuries: Shoulder injury",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-shoulder-injury",
+    "slug": "minor-injuries-shoulder-injury"
+  },
+  {
+    "title": "Minor Injuries: Tetanus immunisation",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-tetanus-immunisation",
+    "slug": "minor-injuries-tetanus-immunisation"
+  },
+  {
+    "title": "Minor injuries: Virtual fracture clinic",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-virtual-fracture-clinic",
+    "slug": "minor-injuries-virtual-fracture-clinic"
+  },
+  {
+    "title": "Minor Injuries: Wound closure strips",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/minor-injuries-wound-closure-strips",
+    "slug": "minor-injuries-wound-closure-strips"
+  },
+  {
+    "title": "Neuropsychology Service: Help for people affected by Motor Neurone Disease",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/neuropsychology-service-help-for-people-affected-by-motor-neurone-disease",
+    "slug": "neuropsychology-service-help-for-people-affected-by-motor-neurone-disease"
+  },
+  {
+    "title": "Nuclear Medicine: Bone Scan",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Bone-scan",
+    "slug": "Bone-scan"
+  },
+  {
+    "title": "Nuclear Medicine: Cardiac Scan (Myocardial Perfusion Scan)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Cardiac-Scan",
+    "slug": "Cardiac-Scan"
+  },
+  {
+    "title": "Nuclear Medicine: DAT Brain Scan",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/DAT-Brain-Scan",
+    "slug": "DAT-Brain-Scan"
+  },
+  {
+    "title": "Nuclear Medicine: DMSA Kidney Scan",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/DMSA-Kidney-Scan",
+    "slug": "DMSA-Kidney-Scan"
+  },
+  {
+    "title": "Nuclear Medicine: Gastric Emptying Scan",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Gastric-Emptying-Scan",
+    "slug": "Gastric-Emptying-Scan"
+  },
+  {
+    "title": "Nuclear Medicine: GFR Test",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/GFR-Test",
+    "slug": "GFR-Test"
+  },
+  {
+    "title": "Nuclear Medicine: Lung Perfusion Scan",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Lung-Perfusion-scan",
+    "slug": "Lung-Perfusion-scan"
+  },
+  {
+    "title": "Nuclear Medicine: Meckel’s Scan",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Meckels-Scan",
+    "slug": "Meckels-Scan"
+  },
+  {
+    "title": "Nuclear Medicine: Octreotide/Tektrotyd Scan",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Octreotide-Tektrotyd-Scan",
+    "slug": "Octreotide-Tektrotyd-Scan"
+  },
+  {
+    "title": "Nuclear Medicine: Parathyroid Scan",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Parathyroid-Scan",
+    "slug": "Parathyroid-Scan"
+  },
+  {
+    "title": "Nuclear Medicine: Renogram (Renal Scan)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Renogram-Renal-Scan",
+    "slug": "Renogram-Renal-Scan"
+  },
+  {
+    "title": "Nuclear Medicine: SeHCAT Scan",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/SeHCAT-Scan",
+    "slug": "SeHCAT-Scan"
+  },
+  {
+    "title": "Nuclear Medicine: Sentinel Node Localisation",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Sentinel-Node-Localisation",
+    "slug": "Sentinel-Node-Localisation"
+  },
+  {
+    "title": "Oncology: Acute Oncology Service (AOS)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/acute-oncology-service",
+    "slug": "acute-oncology-service"
+  },
+  {
+    "title": "Ophthalmology: Contact lens service",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/ophthalmology-contact-lens-service",
+    "slug": "ophthalmology-contact-lens-service"
+  },
+  {
+    "title": "Ophthalmology: Contact lenses",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/ophthalmology-who-eligible-contact-lenses-cumberland-infirmary",
+    "slug": "ophthalmology-who-eligible-contact-lenses-cumberland-infirmary"
+  },
+  {
+    "title": "Ophthalmology: Contact Lenses for Keratoconus",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/ophthalmology-contact-lenses-keratoconus",
+    "slug": "ophthalmology-contact-lenses-keratoconus"
+  },
+  {
+    "title": "Ophthalmology: Corneal cross-linking",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/ophthalmology-corneal-cross-linking",
+    "slug": "ophthalmology-corneal-cross-linking"
+  },
+  {
+    "title": "Ophthalmology: Dilating eye drops for children",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Ophthalmology-Dilating-eye-drops-for-children",
+    "slug": "Ophthalmology-Dilating-eye-drops-for-children"
+  },
+  {
+    "title": "Ophthalmology: Soft contact lens",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/ophthalmology-soft-contact-lens",
+    "slug": "ophthalmology-soft-contact-lens"
+  },
+  {
+    "title": "Ophthalmology: Spectacles for children",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/ophthalmology-spectacles-children",
+    "slug": "ophthalmology-spectacles-children"
+  },
+  {
+    "title": "Orthodontics: Cover plates for impacted canines",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/orthodontics-cover-plates-impacted-canines",
+    "slug": "orthodontics-cover-plates-impacted-canines"
+  },
+  {
+    "title": "Orthodontics: Fixed brace instructions",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/orthodontics-fixed-brace-instructions",
+    "slug": "orthodontics-fixed-brace-instructions"
+  },
+  {
+    "title": "Orthodontics: Jaw joint problems",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/orthodontics-jaw-joint-problems",
+    "slug": "orthodontics-jaw-joint-problems"
+  },
+  {
+    "title": "Orthodontics: Jaw surgery",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/orthodontics-jaw-surgery",
+    "slug": "orthodontics-jaw-surgery"
+  },
+  {
+    "title": "Orthodontics: Jaw Surgery (Orthognathic)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-information-template-92",
+    "slug": "patient-information-template-92"
+  },
+  {
+    "title": "Orthodontics: Keeping your teeth and braces clean",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/orthodontics-keeping-teeth-braces-clean",
+    "slug": "orthodontics-keeping-teeth-braces-clean"
+  },
+  {
+    "title": "Orthodontics: Looking after your functional brace",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/orthodontics-looking-after-functional-brace",
+    "slug": "orthodontics-looking-after-functional-brace"
+  },
+  {
+    "title": "Orthodontics: Looking after your removable retainers",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/orthodontics-looking-after-removable-retainers",
+    "slug": "orthodontics-looking-after-removable-retainers"
+  },
+  {
+    "title": "Orthodontics: Mandibular advancement devices for obstructive sleep apnoea",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/orthodontics-andibular-advancement-devices-obstructive-sleep-apnoea",
+    "slug": "orthodontics-andibular-advancement-devices-obstructive-sleep-apnoea"
+  },
+  {
+    "title": "Orthodontics: Rapid maxillary expansion",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/orthodontics-rapid-maxillary-expansion",
+    "slug": "orthodontics-rapid-maxillary-expansion"
+  },
+  {
+    "title": "Orthodontics: Removable brace",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/orthodontics-removable-brace",
+    "slug": "orthodontics-removable-brace"
+  },
+  {
+    "title": "Paediatric minor injuries: Broken scaphoid bone",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Paediatric-minor-injuries-Broken-scaphoid-bone",
+    "slug": "Paediatric-minor-injuries-Broken-scaphoid-bone"
+  },
+  {
+    "title": "Paediatric minor injuries: Buckle fracture soft cast",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Paediatric-minor-injuries-Buckle-fracture-soft-cast",
+    "slug": "Paediatric-minor-injuries-Buckle-fracture-soft-cast"
+  },
+  {
+    "title": "Paediatric minor injuries: Buckle fracture splint",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Paediatric-minor-injuries-Buckle-fracture-splint",
+    "slug": "Paediatric-minor-injuries-Buckle-fracture-splint"
+  },
+  {
+    "title": "Paediatric minor injuries: Greenstick fracture: Distal radius and/or Ulna",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Peadiatric-minor-injuries-Greenstick-Fracture-Distal-Radius-and-or-Ulna",
+    "slug": "Peadiatric-minor-injuries-Greenstick-Fracture-Distal-Radius-and-or-Ulna"
+  },
+  {
+    "title": "Paediatric minor injuries: Minor fracture to finger",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Paediatric-minor-injuries-Minor-fracture-to-finger",
+    "slug": "Paediatric-minor-injuries-Minor-fracture-to-finger"
+  },
+  {
+    "title": "Paediatric minor injuries: Salter Harris fracture - Wrist",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Paediatric-minor-injuries-Salter-Harris-fracture-Wrist",
+    "slug": "Paediatric-minor-injuries-Salter-Harris-fracture-Wrist"
+  },
+  {
+    "title": "Paediatric minor injuries: Soft tissue injury",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Paediatric-minor-injuries-Soft-tissue-injury",
+    "slug": "Paediatric-minor-injuries-Soft-tissue-injury"
+  },
+  {
+    "title": "Paediatric minor injuries: Soft tissue knee injury",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Paediatric-minor-injuries-Soft-tissue-knee-injury",
+    "slug": "Paediatric-minor-injuries-Soft-tissue-knee-injury"
+  },
+  {
+    "title": "Palliative Care: Administering Buccolam",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-information-template-7",
+    "slug": "patient-information-template-7"
+  },
+  {
+    "title": "Palliative Care: Buprenorphine Patches",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Palliative-Care-Buprenorphine-Patches",
+    "slug": "Palliative-Care-Buprenorphine-Patches"
+  },
+  {
+    "title": "Palliative Care: Fentanyl Patches",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/palliative-care-fentanyl-patches",
+    "slug": "palliative-care-fentanyl-patches"
+  },
+  {
+    "title": "Palliative Care: Just in Case Medication",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/palliative-care-just-case-medication",
+    "slug": "palliative-care-just-case-medication"
+  },
+  {
+    "title": "Palliative Care: Medication and Driving Advice",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/palliative-care-medication-driving-advice",
+    "slug": "palliative-care-medication-driving-advice"
+  },
+  {
+    "title": "Palliative Care: Oral Morphine or Oxycodone",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/palliative-care-oral-morphine-oxycodone",
+    "slug": "palliative-care-oral-morphine-oxycodone"
+  },
+  {
+    "title": "Palliative Care: Pregabalin",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/palliative-care-pregabalin",
+    "slug": "palliative-care-pregabalin"
+  },
+  {
+    "title": "Palliative Care: Steroids",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/palliative-care-steroids",
+    "slug": "palliative-care-steroids"
+  },
+  {
+    "title": "Palliative Care: Syringe Driver",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/palliative-care-syringe-driver",
+    "slug": "palliative-care-syringe-driver"
+  },
+  {
+    "title": "Palliative Care: The Specialist Palliative Care Service",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/the-palliative-care-service",
+    "slug": "the-palliative-care-service"
+  },
+  {
+    "title": "Physiotherapy: Abdominal surgery",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/physiotherapy-abdominal-surgery",
+    "slug": "physiotherapy-abdominal-surgery"
+  },
+  {
+    "title": "Physiotherapy: Falls",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Physiotherapy-Falls",
+    "slug": "Physiotherapy-Falls"
+  },
+  {
+    "title": "Physiotherapy: Musculoskeletal",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/physiotherapy-musculoskeletal",
+    "slug": "physiotherapy-musculoskeletal"
+  },
+  {
+    "title": "Physiotherapy: Neurological",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/physiotherapy-neurological",
+    "slug": "physiotherapy-neurological"
+  },
+  {
+    "title": "Physiotherapy: Obstetric Anal Sphincter Injury",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/physiotherapy-obstetric-anal-sphincter-injury",
+    "slug": "physiotherapy-obstetric-anal-sphincter-injury"
+  },
+  {
+    "title": "Physiotherapy: Orthostatic Hypertension: Dropping Blood Pressure",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Orthostatic-Hypertension-Dropping-blood-pressure",
+    "slug": "Orthostatic-Hypertension-Dropping-blood-pressure"
+  },
+  {
+    "title": "Physiotherapy: Prehabilitation Programme for an Anterior Cruciate Ligament (ACL) injury",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Prehabilitation-Programme-for-an-Anterior-Cruciate-Ligament-ACL-injury",
+    "slug": "Prehabilitation-Programme-for-an-Anterior-Cruciate-Ligament-ACL-injury"
+  },
+  {
+    "title": "Physiotherapy: Pubic Rami Fracture",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/physiotherapy-pubic-rami-fracture",
+    "slug": "physiotherapy-pubic-rami-fracture"
+  },
+  {
+    "title": "Physiotherapy: The AerobiKA® Mucus Clearance Patient Guide",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-information-the-aerobika-mucus-clearance-patient-guide",
+    "slug": "patient-information-the-aerobika-mucus-clearance-patient-guide"
+  },
+  {
+    "title": "Podiatry: Bacterial infection",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/podiatry-ways-reduce-risk-bacterial-infection",
+    "slug": "podiatry-ways-reduce-risk-bacterial-infection"
+  },
+  {
+    "title": "Podiatry: Bunions in children and young people",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Podiatry-Bunions-in-children-and-young-people",
+    "slug": "Podiatry-Bunions-in-children-and-young-people"
+  },
+  {
+    "title": "Podiatry: Chilblains",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/podiatry-chilblains",
+    "slug": "podiatry-chilblains"
+  },
+  {
+    "title": "Podiatry: Children’s Footwear",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/podiatry-childrens-footwear",
+    "slug": "podiatry-childrens-footwear"
+  },
+  {
+    "title": "Podiatry: Corns and callus",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/podiatry-corns-callus",
+    "slug": "podiatry-corns-callus"
+  },
+  {
+    "title": "Podiatry: Foot ulcers",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/podiatry-foot-ulcers",
+    "slug": "podiatry-foot-ulcers"
+  },
+  {
+    "title": "Podiatry: Footwear and hosiery",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/podiatry-footwear-hosiery",
+    "slug": "podiatry-footwear-hosiery"
+  },
+  {
+    "title": "Podiatry: Fungal nail infection",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/podiatry-fungal-nail-infection",
+    "slug": "podiatry-fungal-nail-infection"
+  },
+  {
+    "title": "Podiatry: Fungal skin infection",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/podiatry-fungal-skin-infection",
+    "slug": "podiatry-fungal-skin-infection"
+  },
+  {
+    "title": "Podiatry: High risk foot",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/podiatry-high-risk-foot",
+    "slug": "podiatry-high-risk-foot"
+  },
+  {
+    "title": "Podiatry: Nail care",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/podiatry-nail-care",
+    "slug": "podiatry-nail-care"
+  },
+  {
+    "title": "Podiatry: Offloading",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/podiatry-offloading",
+    "slug": "podiatry-offloading"
+  },
+  {
+    "title": "Podiatry: Plantar fasciitis",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/podiatry-plantar-fasciitis",
+    "slug": "podiatry-plantar-fasciitis"
+  },
+  {
+    "title": "Podiatry: Podiatry service",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/podiatry-podiatry-service",
+    "slug": "podiatry-podiatry-service"
+  },
+  {
+    "title": "Podiatry: Pressure damage",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/podiatry-pressure-damage",
+    "slug": "podiatry-pressure-damage"
+  },
+  {
+    "title": "Podiatry: Rheumatoid foot",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/podiatry-rheumatoid-foot",
+    "slug": "podiatry-rheumatoid-foot"
+  },
+  {
+    "title": "Podiatry: Verruca",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/podiatry-verruca",
+    "slug": "podiatry-verruca"
+  },
+  {
+    "title": "Podiatry: Ways to reduce risk of infection",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Podiatry-Way-to-reduce-risk-of-infection",
+    "slug": "Podiatry-Way-to-reduce-risk-of-infection"
+  },
+  {
+    "title": "Pressure ulcers: Helping to prevent pressure ulcers",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Pressure-ulcers-Helping-to-prevent-pressure-ulcers",
+    "slug": "Pressure-ulcers-Helping-to-prevent-pressure-ulcers"
+  },
+  {
+    "title": "Pressure ulcers: Helping to prevent pressure ulcers for children",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Pressure-ulcers-Helping-to-prevent-pressure-ulcers-for-children",
+    "slug": "Pressure-ulcers-Helping-to-prevent-pressure-ulcers-for-children"
+  },
+  {
+    "title": "Pulmonary Rehabilitation: Better Breathing Classes",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/pulmonary-rehabilitation-better-breathing-classes",
+    "slug": "pulmonary-rehabilitation-better-breathing-classes"
+  },
+  {
+    "title": "Radiology: Contrast Injection (Gadolinium)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Radiology-Contrast-Injection",
+    "slug": "Radiology-Contrast-Injection"
+  },
+  {
+    "title": "Radiology: Contrast injection- extravasation guidance",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/radiology-contrast-injection-extravasation-guidance",
+    "slug": "radiology-contrast-injection-extravasation-guidance"
+  },
+  {
+    "title": "Radiology: CT Colongraphy - Gastrografin 100mls Bottle x 1",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Radiology-CT-Colongraphy-Gastrografin-100mls-Bottle-x-1",
+    "slug": "Radiology-CT-Colongraphy-Gastrografin-100mls-Bottle-x-1"
+  },
+  {
+    "title": "Radiology: CT Colongraphy - Gastrografin 50mls Bottles x 2",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Radiology-CT-Colongraphy-Colongraphy-Gastrografin-50mls-Bottles-x-2",
+    "slug": "Radiology-CT-Colongraphy-Colongraphy-Gastrografin-50mls-Bottles-x-2"
+  },
+  {
+    "title": "Radiology: CT Colongraphy - Omnipaque 350 100mls Bottles x 1",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Radiology-CT-Colongraphy-Omnipaque-350-100mls-Bottles-x-1",
+    "slug": "Radiology-CT-Colongraphy-Omnipaque-350-100mls-Bottles-x-1"
+  },
+  {
+    "title": "Radiology: CT Colongraphy - Omnipaque 350 100mls Bottles x 2",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Radiology-CT-olongraphy-Omnipaque-350-100mls-Bottles-x2",
+    "slug": "Radiology-CT-olongraphy-Omnipaque-350-100mls-Bottles-x2"
+  },
+  {
+    "title": "Radiology: Gynaecological Pelvic and Transvaginal Ultrasound Scan",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Radiology-Gynaecological-Pelvic-and-Transvaginal-Ultrasound-Scan",
+    "slug": "Radiology-Gynaecological-Pelvic-and-Transvaginal-Ultrasound-Scan"
+  },
+  {
+    "title": "Radiology: Obstetric Ultrasound Scan Rooms - Adults",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Radiology-Obstetric-Ultrasound-Scan-Rooms-Adults",
+    "slug": "Radiology-Obstetric-Ultrasound-Scan-Rooms-Adults"
+  },
+  {
+    "title": "Radiology: Obstetric Ultrasound Scan Rooms - Children",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Radiology-Obstetric-ultrasound-scan-rooms",
+    "slug": "Radiology-Obstetric-ultrasound-scan-rooms"
+  },
+  {
+    "title": "Radiology: Proctogram",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/proctogram",
+    "slug": "proctogram"
+  },
+  {
+    "title": "Respiratory: Breathlessness and Breathing Control in COPD",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/respiratory-breathlessness-and-breathing-control-in-COPD",
+    "slug": "respiratory-breathlessness-and-breathing-control-in-COPD"
+  },
+  {
+    "title": "Respiratory: Non-Invasive Ventilation (NIV)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/non-invasive-ventilation",
+    "slug": "non-invasive-ventilation"
+  },
+  {
+    "title": "Respiratory: Targeted Lung Health Checks",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Respiratory-Targeted-Lung-Health-Checks",
+    "slug": "Respiratory-Targeted-Lung-Health-Checks"
+  },
+  {
+    "title": "Safeguarding: Deprivation of Liberty Safeguards (DoLS)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Safeguarding-Deprivation-of-Liberty-Safeguards-DoLS",
+    "slug": "Safeguarding-Deprivation-of-Liberty-Safeguards-DoLS"
+  },
+  {
+    "title": "Same Day Emergency Care (SDEC): Cumberland Infirmary",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/same-day-emergency-care-cumberland-infirmary",
+    "slug": "same-day-emergency-care-cumberland-infirmary"
+  },
+  {
+    "title": "Same Day Emergency Care (SDEC): West Cumberland Hospital",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/same-day-emergency-care-west-cumberland-hospital",
+    "slug": "same-day-emergency-care-west-cumberland-hospital"
+  },
+  {
+    "title": "Sepsis",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Sepsis",
+    "slug": "Sepsis"
+  },
+  {
+    "title": "Sexual Health: Care of genital skin",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/sexual-health-care-genital-skin",
+    "slug": "sexual-health-care-genital-skin"
+  },
+  {
+    "title": "Sexual Health: Coil fitting",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Sexual-Health-Coil-Fitting",
+    "slug": "Sexual-Health-Coil-Fitting"
+  },
+  {
+    "title": "Sexual Health: FSRH CEU Statement: Mirena® 52mg LNG-IUD",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Sexual-Health-FSRH-CEU-Statement-Mirena-52mg-LNG-IUD",
+    "slug": "Sexual-Health-FSRH-CEU-Statement-Mirena-52mg-LNG-IUD"
+  },
+  {
+    "title": "South Lakes and Furness Children's Community Nursing team",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/South-Lakes-and-Furness-Children-s-Community-Nursing-team",
+    "slug": "South-Lakes-and-Furness-Children-s-Community-Nursing-team"
+  },
+  {
+    "title": "Speech and Language: Coughing",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/speech-language-coughing",
+    "slug": "speech-language-coughing"
+  },
+  {
+    "title": "Speech and Language: Normal voice",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Speech-Language-Normal-voice",
+    "slug": "Speech-Language-Normal-voice"
+  },
+  {
+    "title": "Speech and Language: Persistent throat symptoms",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Speech-Language-Persistent-throat-symptoms",
+    "slug": "Speech-Language-Persistent-throat-symptoms"
+  },
+  {
+    "title": "Stroke: Continence Following a Stroke",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/stroke-continence-following-stroke",
+    "slug": "stroke-continence-following-stroke"
+  },
+  {
+    "title": "Stroke: Driving after stroke",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Stroke-Driving-after-stroke",
+    "slug": "Stroke-Driving-after-stroke"
+  },
+  {
+    "title": "Stroke: Early Supported Stroke Discharge Team",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/stroke-early-supported-stroke-discharge-team",
+    "slug": "stroke-early-supported-stroke-discharge-team"
+  },
+  {
+    "title": "Stroke: Emotional Wellbeing After a Stroke",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/stroke-emotional-wellbeing-after-stroke",
+    "slug": "stroke-emotional-wellbeing-after-stroke"
+  },
+  {
+    "title": "Stroke: Relationships and Intimacy After a Stroke",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/stroke-relationships-intimacy-after-stroke",
+    "slug": "stroke-relationships-intimacy-after-stroke"
+  },
+  {
+    "title": "Stroke: Stroke Wellbeing Service",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/stroke-wellbeing-service",
+    "slug": "stroke-wellbeing-service"
+  },
+  {
+    "title": "Stroke: Transient Ischaemic Attack (TIA)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Stroke-Transient-Ischaemic-Attack",
+    "slug": "Stroke-Transient-Ischaemic-Attack"
+  },
+  {
+    "title": "Testosterone replacement therapy: (TRT)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Testosterone-replacement-therapy",
+    "slug": "Testosterone-replacement-therapy"
+  },
+  {
+    "title": "Travel Costs for Appointments",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-information-travel-costs",
+    "slug": "patient-information-travel-costs"
+  },
+  {
+    "title": "Unexpected death: Useful information",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-information-template-11",
+    "slug": "patient-information-template-11"
+  },
+  {
+    "title": "Urology: Eliminating bladder Irritants",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/urology-eliminating-bladder-irritants",
+    "slug": "urology-eliminating-bladder-irritants"
+  },
+  {
+    "title": "Urology: Nephrectomy",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/nephrectomy-post-nephrectomy-advice",
+    "slug": "nephrectomy-post-nephrectomy-advice"
+  },
+  {
+    "title": "Urology: Nephrostomy Tube",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/nephrostomy-tube-discharge-information",
+    "slug": "nephrostomy-tube-discharge-information"
+  },
+  {
+    "title": "Vascular: Preventing Venous Thromboembolism",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Vascular-Preventing-Venous-Thromboembolism",
+    "slug": "Vascular-Preventing-Venous-Thromboembolism"
+  },
+  {
+    "title": "Virtual ward",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Virtual-ward",
+    "slug": "Virtual-ward"
+  },
+  {
+    "title": "Virtual ward: Hypercapnia",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Virtual-ward-Hypercapnia",
+    "slug": "Virtual-ward-Hypercapnia"
+  },
+  {
+    "title": "Virtual ward: Oxygen weaning",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Virtual-ward-Oxygen-weaning",
+    "slug": "Virtual-ward-Oxygen-weaning"
+  },
+  {
+    "title": "Virtual ward: Traffic light pathway",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Virtual-ward-Traffic-light-pathway",
+    "slug": "Virtual-ward-Traffic-light-pathway"
+  },
+  {
+    "title": "Women's Outpatient: Postmenopausal Bleeding",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/postmenopausal-bleeding",
+    "slug": "postmenopausal-bleeding"
+  },
+  {
+    "title": "Women's Outpatients: Cervical Ectopy",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/womens-outpatients-cervical-ectopy",
+    "slug": "womens-outpatients-cervical-ectopy"
+  },
+  {
+    "title": "Wound care",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-information-template-12",
+    "slug": "patient-information-template-12"
+  },
+  {
+    "title": "X-ray: NHS",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/my-x-ray-nhs",
+    "slug": "my-x-ray-nhs"
+  },
+  {
+    "title": "X-Rays: During pregnancy",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/x-rays-during-pregnancy",
+    "slug": "x-rays-during-pregnancy"
+  },
+  {
+    "title": "Young Adult Diabetes Service: 19 - 25 Years",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/diabetes-transition-service-19-25-years",
+    "slug": "diabetes-transition-service-19-25-years"
+  },
+  {
+    "title": "Young Adult Diabetes Transition Service: 16 - 19 Years",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-information-diabetes-transition-service-16-19-years",
+    "slug": "patient-information-diabetes-transition-service-16-19-years"
+  },
+  {
+    "title": "​​​​​​​Gynaecology: Endometrial Pipelle Biopsy",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Gynaecology-Endometrial-Pipelle-Biopsy",
+    "slug": "Gynaecology-Endometrial-Pipelle-Biopsy"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "24-hour-ph-impedance-monitoring": {
+    "note": "Trust listing page links the BP monitoring title to the pH impedance URL. Verify and replace url below with the correct BP monitoring leaflet URL.",
+    "url": null
+  },
+  "svc-maternity-feeding-your-baby-info-support-feeding": {
+    "url": "https://www.gloshospitals.nhs.uk/our-services/services-we-offer/maternity/feeding-your-baby-info/other-useful-information-feeding/",
+    "note": "old support-feeding page 404s (caught by weekly link check 2026-07-13); trust merged it into 'Feeding: support, useful information and resources'"
+  }
+}

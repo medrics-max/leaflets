@@ -1,0 +1,288 @@
+[
+  {
+    "title": "Eye casualty — urgent eye problems (Gloucestershire)",
+    "slug": "advice-eye-casualty",
+    "type": "advice",
+    "intro": "The eye service in Gloucestershire does not run a walk-in eye casualty — urgent eye problems are assessed by phone first, through the emergency eye triage line.",
+    "sections": [
+      {
+        "heading": "Go straight to A&E now if you have",
+        "points": [
+          "A chemical splash or chemical injury to the eye.",
+          "A penetrating injury, or any significant trauma to the eye.",
+          "A foreign body stuck in the eye.",
+          "Eye pain together with headache, nausea or vomiting and a sudden deterioration in your vision.",
+          "Overnight (8pm to 8am), the emergency doctors are based at Gloucestershire Royal Hospital — Cheltenham runs a nurse-led minor injuries unit at night."
+        ]
+      },
+      {
+        "heading": "Emergency eye triage line",
+        "points": [
+          "Call 0300 422 3578 — staffed by specialist eye nurses. Open 9am to 5.30pm Monday to Friday (closed for lunch, 1pm to 2pm) and 9am to 1pm on Saturday. Closed on Sunday.",
+          "Use it if you are already under the eye service and have new symptoms, or if you have a painful red eye or worsening vision after eye surgery or an injection into your eye."
+        ]
+      },
+      {
+        "heading": "Out of hours",
+        "points": [
+          "Call the hospital switchboard on 0300 422 2222 and ask the operator for the eye doctor on call.",
+          "Not sure how urgent it is? Call 111 for advice, day or night."
+        ]
+      },
+      {
+        "heading": "See an optician or GP the same day for",
+        "points": [
+          "Sudden painless loss of vision, or a curtain or shadow over your vision.",
+          "A sudden increase in flashes of light or new floaters.",
+          "A red, painful eye with blurred vision and sensitivity to light — especially if you wear contact lenses.",
+          "They can refer you straight to the emergency eye clinic if needed. For simple problems like conjunctivitis, a pharmacist can help."
+        ]
+      },
+      {
+        "heading": "More information",
+        "links": [
+          {
+            "label": "Eye care (ophthalmology) at Gloucestershire Hospitals",
+            "url": "https://www.gloshospitals.nhs.uk/our-services/services-we-offer/ophthalmology/"
+          },
+          {
+            "label": "Flashes and floaters — posterior vitreous detachment",
+            "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/posterior-vitreous-detachment-ghpi1588/"
+          }
+        ]
+      },
+      {
+        "heading": "Read more about common eye conditions",
+        "text": "Moorfields Eye Hospital publishes clear patient guides to common eye conditions. Choose a condition below to read their guide.",
+        "warning": "These guides come from Moorfields Eye Hospital, a specialist NHS eye hospital in London — not your local trust. The information about the conditions themselves is reliable, but any phone numbers, clinic names or appointment instructions in them are for Moorfields patients only. For anything about your own care, use the Gloucestershire contact details above.",
+        "dropdown": {
+          "placeholder": "Choose an eye condition…",
+          "open_label": "Open guide",
+          "options": [
+            {
+              "label": "Blepharitis (sore, crusty eyelids)",
+              "url": "https://www.moorfields.nhs.uk/eye-conditions/blepharitis"
+            },
+            {
+              "label": "Chalazion (eyelid cyst)",
+              "url": "https://www.moorfields.nhs.uk/eye-conditions/chalazion"
+            },
+            {
+              "label": "Conjunctivitis (red, sticky eye)",
+              "url": "https://www.moorfields.nhs.uk/eye-conditions/conjunctivitis"
+            },
+            {
+              "label": "Corneal abrasion (scratched eye)",
+              "url": "https://www.moorfields.nhs.uk/eye-conditions/corneal-abrasion"
+            },
+            {
+              "label": "Dry eye",
+              "url": "https://www.moorfields.nhs.uk/eye-conditions/dry-eye"
+            },
+            {
+              "label": "Flashes and floaters",
+              "url": "https://www.moorfields.nhs.uk/eye-conditions/flashes-and-floaters"
+            },
+            {
+              "label": "Glaucoma",
+              "url": "https://www.moorfields.nhs.uk/eye-conditions/glaucoma"
+            },
+            {
+              "label": "Microbial keratitis (infection, often contact-lens related)",
+              "url": "https://www.moorfields.nhs.uk/eye-conditions/microbial-keratitis"
+            },
+            {
+              "label": "Retinal detachment",
+              "url": "https://www.moorfields.nhs.uk/eye-conditions/retinal-detachment"
+            },
+            {
+              "label": "Stye",
+              "url": "https://www.moorfields.nhs.uk/eye-conditions/stye"
+            },
+            {
+              "label": "Uveitis (inflammation inside the eye)",
+              "url": "https://www.moorfields.nhs.uk/eye-conditions/uveitis"
+            }
+          ]
+        }
+      }
+    ],
+    "references": [
+      {
+        "label": "Gloucestershire Local Optical Committee — NHS provider contact details (eye casualty line and hours)",
+        "url": "https://www.glosloc.co.uk/contact-details/",
+        "checked": "12 July 2026"
+      },
+      {
+        "label": "Gloucestershire Local Optical Committee — referrals (eye casualty arrangements)",
+        "url": "https://www.glosloc.co.uk/referrals/",
+        "checked": "12 July 2026"
+      },
+      {
+        "label": "Gloucestershire Hospitals — ophthalmology (eye care) service page",
+        "url": "https://www.gloshospitals.nhs.uk/our-services/services-we-offer/ophthalmology/",
+        "checked": "12 July 2026"
+      }
+    ],
+    "footer": "When checked, the trust's own ophthalmology page (source 3) showed older opening hours — the triage line hours above follow the Local Optical Committee listing (sources 1 and 2). Moorfields links are general condition guides from another NHS trust, all verified live 12 July 2026. This advice does not replace the advice of the team looking after you. Author/department: [add]. Review date: [add]."
+  },
+  {
+    "title": "Mental health crisis — getting help now",
+    "slug": "advice-mental-health-crisis",
+    "type": "advice",
+    "intro": "If you are struggling to cope or feel in crisis, help is available 24 hours a day, every day. You do not have to face this on your own.",
+    "sections": [
+      {
+        "heading": "If your life is in danger right now",
+        "points": [
+          "If you have seriously harmed yourself, or you do not feel able to keep yourself safe, call 999 or go to your nearest Emergency Department."
+        ]
+      },
+      {
+        "heading": "Gloucestershire mental health crisis line (24 hours)",
+        "points": [
+          "Call 111 and choose option 2 — this reaches the Gloucestershire crisis team, day or night.",
+          "You can also call the crisis team directly on 0800 169 0398 (24 hours, for ages 11 and over). At busy times you may be asked to leave your name and number — a member of staff will call you back within the hour."
+        ]
+      },
+      {
+        "heading": "Other people you can talk to",
+        "points": [
+          "Samaritans — call 116 123. Free, 24 hours a day, every day.",
+          "CALM — call 0800 58 58 58 (5pm to midnight, every day).",
+          "Prefer to text? Text CandO on 07537 410 022 (2pm to 9pm, every day), or Let’s Talk Well on 07520 634063."
+        ]
+      },
+      {
+        "heading": "Keeping yourself safer for now",
+        "points": [
+          "Try to be around someone you trust, or ask someone to stay with you.",
+          "Move away from, or ask someone to remove, anything you might use to harm yourself.",
+          "Try to avoid alcohol and drugs — they can make things feel worse."
+        ]
+      },
+      {
+        "heading": "More support",
+        "links": [
+          {
+            "label": "Gloucestershire crisis support (NHS)",
+            "url": "https://www.ghc.nhs.uk/crisis/"
+          },
+          {
+            "label": "Samaritans",
+            "url": "https://www.samaritans.org/"
+          }
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Gloucestershire County Council — help in a mental health crisis (direct crisis team number)",
+        "url": "https://www.gloucestershire.gov.uk/health-and-social-care/adult-social-care/types-of-care-and-support-available/support-for-adults-with-mental-health-conditions/help-in-a-crisis/",
+        "checked": "12 July 2026"
+      },
+      {
+        "label": "Gloucestershire Health and Care NHS — crisis support (111 option 2, CALM, text lines)",
+        "url": "https://www.ghc.nhs.uk/crisis/",
+        "checked": "12 July 2026"
+      },
+      {
+        "label": "Samaritans",
+        "url": "https://www.samaritans.org/",
+        "checked": "12 July 2026"
+      }
+    ],
+    "footer": "The direct crisis team number is confirmed on the county council page (source 1); the NHS crisis page (source 2) now promotes 111 option 2 as the main route. This advice does not replace the advice of the team looking after you. Author/department: [add]. Review date: [add]."
+  },
+  {
+    "title": "Patient Advice and Liaison Service (PALS)",
+    "slug": "advice-pals",
+    "type": "advice",
+    "intro": "PALS is a free, confidential service that can help with questions, concerns, or compliments about your care. They are independent of the team that treated you.",
+    "sections": [
+      {
+        "heading": "How PALS can help",
+        "points": [
+          "Answer questions about your care or treatment.",
+          "Help sort out problems or concerns quickly and informally.",
+          "Pass on compliments and suggestions.",
+          "Explain how to make a formal complaint if you wish to."
+        ]
+      },
+      {
+        "heading": "Contact PALS (Gloucestershire Hospitals)",
+        "points": [
+          "Phone: 0800 019 3282 — this is an answerphone: leave your name, number and the reason for your call, and a PALS advisor will call you back. The team responds Monday to Friday, 9am to 4pm.",
+          "The PALS office is at Gloucestershire Royal Hospital. The walk-in drop-in service is currently paused — phone or email to arrange an appointment instead (video call appointments are also available).",
+          "Email and an online form are on the PALS page linked below."
+        ]
+      },
+      {
+        "heading": "More",
+        "links": [
+          {
+            "label": "Contact PALS (Gloucestershire Hospitals)",
+            "url": "https://www.gloshospitals.nhs.uk/contact-us/feedback-and-complaints-pals/"
+          }
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Gloucestershire Hospitals — patient advice and support (PALS contact details)",
+        "url": "https://www.gloshospitals.nhs.uk/contact-us/patient-advice-and-support/",
+        "checked": "12 July 2026"
+      },
+      {
+        "label": "Gloucestershire Hospitals — feedback, complaints and PALS",
+        "url": "https://www.gloshospitals.nhs.uk/contact-us/feedback-and-complaints-pals/",
+        "checked": "12 July 2026"
+      }
+    ],
+    "footer": "PALS is provided by Gloucestershire Hospitals NHS Foundation Trust."
+  },
+  {
+    "title": "Drug and alcohol support in Gloucestershire",
+    "slug": "advice-drug-alcohol",
+    "type": "advice",
+    "intro": "If you want help with drugs or alcohol, free and confidential support is available in Gloucestershire. You can contact the service yourself — you do not need a referral from your GP.",
+    "sections": [
+      {
+        "heading": "Via Gloucestershire — the local drug and alcohol service",
+        "text": "Via runs the free drug and alcohol recovery service for adults (18 and over) living in Gloucestershire, with hubs in Gloucester, Cheltenham, Stroud and Cinderford.",
+        "points": [
+          "Call them on 01452 223 014.",
+          "Email gloucestershire@viaorg.uk.",
+          "Or refer yourself online using the link below."
+        ]
+      },
+      {
+        "heading": "If you feel unwell now",
+        "points": [
+          "If you feel very unwell, or you are worried about withdrawal or an overdose, call 111 — or 999 in an emergency."
+        ]
+      },
+      {
+        "heading": "Get help",
+        "links": [
+          {
+            "label": "Refer yourself to Via Gloucestershire",
+            "url": "https://www.viaorg.uk/get-help/gloucestershire-referral/"
+          },
+          {
+            "label": "About Via Gloucestershire",
+            "url": "https://www.viaorg.uk/services/gloucestershire/"
+          }
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Via — drug and alcohol support in Gloucestershire (contact details and hubs)",
+        "url": "https://www.viaorg.uk/services/gloucestershire/",
+        "checked": "12 July 2026"
+      }
+    ],
+    "footer": "This advice does not replace the advice of the team looking after you. Author/department: [add]. Review date: [add]."
+  }
+]
