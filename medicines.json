@@ -1,0 +1,352 @@
+[
+  {
+    "title": "Amoxicillin (antibiotic)",
+    "url": "https://www.nhs.uk/medicines/amoxicillin/",
+    "slug": "med-amoxicillin",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Flucloxacillin (antibiotic)",
+    "url": "https://www.nhs.uk/medicines/flucloxacillin/",
+    "slug": "med-flucloxacillin",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Co-amoxiclav (antibiotic)",
+    "url": "https://www.nhs.uk/medicines/co-amoxiclav/",
+    "slug": "med-co-amoxiclav",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Phenoxymethylpenicillin / Penicillin V (antibiotic)",
+    "url": "https://www.nhs.uk/medicines/phenoxymethylpenicillin/",
+    "slug": "med-phenoxymethylpenicillin",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Clarithromycin (antibiotic)",
+    "url": "https://www.nhs.uk/medicines/clarithromycin/",
+    "slug": "med-clarithromycin",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Doxycycline (antibiotic)",
+    "url": "https://www.nhs.uk/medicines/doxycycline/",
+    "slug": "med-doxycycline",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Nitrofurantoin (antibiotic for urine infections)",
+    "url": "https://www.nhs.uk/medicines/nitrofurantoin/",
+    "slug": "med-nitrofurantoin",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Trimethoprim (antibiotic for urine infections)",
+    "url": "https://www.nhs.uk/medicines/trimethoprim/",
+    "slug": "med-trimethoprim",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Prednisolone (steroid)",
+    "url": "https://www.nhs.uk/medicines/prednisolone/",
+    "slug": "med-prednisolone",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Paracetamol (painkiller)",
+    "url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+    "slug": "med-paracetamol",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Ibuprofen (anti-inflammatory painkiller)",
+    "url": "https://www.nhs.uk/medicines/ibuprofen-for-adults/",
+    "slug": "med-ibuprofen",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Naproxen (anti-inflammatory painkiller)",
+    "url": "https://www.nhs.uk/medicines/naproxen/",
+    "slug": "med-naproxen",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Codeine (painkiller)",
+    "url": "https://www.nhs.uk/medicines/codeine/",
+    "slug": "med-codeine",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Co-codamol (painkiller)",
+    "url": "https://www.nhs.uk/medicines/co-codamol-for-adults/",
+    "slug": "med-co-codamol",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Salbutamol inhaler (reliever)",
+    "url": "https://www.nhs.uk/medicines/salbutamol-inhaler/",
+    "slug": "med-salbutamol",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Beclometasone inhaler (steroid preventer)",
+    "url": "https://www.nhs.uk/medicines/beclometasone-inhalers/",
+    "slug": "med-beclometasone",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Omeprazole (for stomach acid / heartburn)",
+    "url": "https://www.nhs.uk/medicines/omeprazole/",
+    "slug": "med-omeprazole",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Lansoprazole (for stomach acid / heartburn)",
+    "url": "https://www.nhs.uk/medicines/lansoprazole/",
+    "slug": "med-lansoprazole",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Aciclovir (antiviral)",
+    "url": "https://www.nhs.uk/medicines/aciclovir/",
+    "slug": "med-aciclovir",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Colchicine (for gout)",
+    "url": "https://www.nhs.uk/medicines/colchicine/",
+    "slug": "med-colchicine",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Amitriptyline (for nerve pain / migraine)",
+    "url": "https://www.nhs.uk/medicines/amitriptyline-for-pain/",
+    "slug": "med-amitriptyline",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Gabapentin (for nerve pain)",
+    "url": "https://www.nhs.uk/medicines/gabapentin/",
+    "slug": "med-gabapentin",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Pregabalin (for nerve pain)",
+    "url": "https://www.nhs.uk/medicines/pregabalin/",
+    "slug": "med-pregabalin",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Tramadol (strong painkiller)",
+    "url": "https://www.nhs.uk/medicines/tramadol/",
+    "slug": "med-tramadol",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Diazepam (muscle spasm / anxiety)",
+    "url": "https://www.nhs.uk/medicines/diazepam/",
+    "slug": "med-diazepam",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Cyclizine (anti-sickness)",
+    "url": "https://www.nhs.uk/medicines/cyclizine/",
+    "slug": "med-cyclizine",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Prochlorperazine / Stemetil (anti-sickness, dizziness)",
+    "url": "https://www.nhs.uk/medicines/prochlorperazine/",
+    "slug": "med-prochlorperazine",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Metoclopramide (anti-sickness)",
+    "url": "https://www.nhs.uk/medicines/metoclopramide/",
+    "slug": "med-metoclopramide",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Apixaban (blood thinner / anticoagulant)",
+    "url": "https://www.nhs.uk/medicines/apixaban/",
+    "slug": "med-apixaban",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Rivaroxaban (blood thinner / anticoagulant)",
+    "url": "https://www.nhs.uk/medicines/rivaroxaban/",
+    "slug": "med-rivaroxaban",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Cetirizine (antihistamine)",
+    "url": "https://www.nhs.uk/medicines/cetirizine/",
+    "slug": "med-cetirizine",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "GTN spray (glyceryl trinitrate, for angina)",
+    "url": "https://www.nhs.uk/medicines/glyceryl-trinitrate-gtn/",
+    "slug": "med-gtn",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Senna (laxative)",
+    "url": "https://www.nhs.uk/medicines/senna/",
+    "slug": "med-senna",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Metronidazole (antibiotic)",
+    "url": "https://www.nhs.uk/medicines/metronidazole/",
+    "slug": "med-metronidazole",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Cefalexin (antibiotic)",
+    "url": "https://www.nhs.uk/medicines/cefalexin/",
+    "slug": "med-cefalexin",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Erythromycin (antibiotic)",
+    "url": "https://www.nhs.uk/medicines/erythromycin/",
+    "slug": "med-erythromycin",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Macrogol / Movicol (laxative)",
+    "url": "https://www.nhs.uk/medicines/macrogol/",
+    "slug": "med-macrogol",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Lactulose (laxative)",
+    "url": "https://www.nhs.uk/medicines/lactulose/",
+    "slug": "med-lactulose",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Chloramphenicol eye drops/ointment",
+    "url": "https://www.nhs.uk/medicines/chloramphenicol/",
+    "slug": "med-chloramphenicol",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Sumatriptan (for migraine)",
+    "url": "https://www.nhs.uk/medicines/sumatriptan/",
+    "slug": "med-sumatriptan",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Aspirin (low dose)",
+    "url": "https://www.nhs.uk/medicines/low-dose-aspirin/",
+    "slug": "med-aspirin",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Loratadine (antihistamine)",
+    "url": "https://www.nhs.uk/medicines/loratadine/",
+    "slug": "med-loratadine",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Dihydrocodeine (painkiller)",
+    "url": "https://www.nhs.uk/medicines/dihydrocodeine/",
+    "slug": "med-dihydrocodeine",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Adrenaline auto-injector (EpiPen, Jext, Emerade)",
+    "url": "https://www.nhs.uk/conditions/anaphylaxis/",
+    "slug": "med-adrenaline-auto-injector",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Dexamethasone (steroid)",
+    "url": "https://www.nhs.uk/medicines/dexamethasone-tablets-and-liquid/",
+    "slug": "med-dexamethasone",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Clopidogrel (antiplatelet / blood thinner)",
+    "url": "https://www.nhs.uk/medicines/clopidogrel/",
+    "slug": "med-clopidogrel",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Furosemide (water tablet / diuretic)",
+    "url": "https://www.nhs.uk/medicines/furosemide/",
+    "slug": "med-furosemide",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Warfarin (blood thinner / anticoagulant)",
+    "url": "https://www.nhs.uk/medicines/warfarin/",
+    "slug": "med-warfarin",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Edoxaban (blood thinner / anticoagulant)",
+    "url": "https://www.nhs.uk/medicines/edoxaban/",
+    "slug": "med-edoxaban",
+    "type": "medicines",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Dabigatran (blood thinner / anticoagulant)",
+    "url": "https://www.nhs.uk/medicines/dabigatran/",
+    "slug": "med-dabigatran",
+    "type": "medicines",
+    "source": "NHS.uk"
+  }
+]

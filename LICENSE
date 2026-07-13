@@ -1,0 +1,52 @@
+Copyright © 2026 Dr Oscar Harrison (trading as Medrics). All rights reserved.
+
+PROPRIETARY LICENCE — "Patient Information QR" system ("the Software")
+
+The Software (including the website, code, data files, matching prompt/rules,
+and accompanying documentation in this repository) is the property of
+Dr Oscar Harrison / Medrics ("the Owner").
+
+1. PERMITTED USE (free of charge)
+   NHS organisations, and registered healthcare professionals acting in the
+   course of NHS care, may use the Software, as published by the Owner, to
+   provide information to their own patients, free of charge. This permission
+   is limited to such use and does not transfer any ownership.
+
+2. RESERVED RIGHTS
+   All other rights are reserved to the Owner. Without the Owner's prior
+   written permission, no person or organisation may:
+     (a) copy, fork, mirror, or redistribute the Software or any substantial
+         part of it;
+     (b) modify, adapt, or create derivative works from it;
+     (c) sell, license, sublicense, host as a service, or otherwise
+         commercially exploit it; or
+     (d) remove or alter any copyright, branding, or attribution.
+
+3. COMMERCIAL RIGHTS
+   The Owner reserves the exclusive right to commercialise the Software,
+   including offering paid versions, services, branding, integrations, and
+   analytics derived from its use. Feedback and usage data collected through
+   the Software are the property of the Owner (subject to applicable data
+   protection law and any agreement with the relevant NHS organisation).
+
+4. THIRD-PARTY CONTENT
+   The Software links to and references material owned by others — including
+   NHS England / nhs.uk content (Crown copyright / NHS terms) and patient
+   information leaflets owned by the relevant NHS trust(s). That material is
+   NOT licensed under this file and remains the property of its respective
+   owners. Nothing here grants any right over that third-party content, and
+   use of the Software does not imply endorsement by, or affiliation with,
+   any NHS organisation unless separately agreed in writing.
+
+5. NO WARRANTY
+   The Software is provided "as is", without warranty of any kind. It is a
+   tool to help signpost information and does not replace clinical judgement.
+   The Owner is not liable for any loss or harm arising from its use, to the
+   extent permitted by law.
+
+6. CONTACT
+   For permissions, commercial licensing, or partnership enquiries, contact
+   the Owner.
+
+This is a proprietary licence. If it is not present or has been removed, no
+licence is granted and all rights remain reserved.

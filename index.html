@@ -1,0 +1,595 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Patient information</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    padding: 24px 20px;
+    background: #fff;
+    color: #111;
+    max-width: 560px;
+    margin-inline: auto;
+    line-height: 1.5;
+  }
+  h1 { font-size: 1.5rem; margin: 0 0 6px; }
+  .subtitle { color: #555; font-size: 0.95rem; margin: 0 0 24px; }
+  .leaflet-card {
+    border: 1px solid #d8dde3;
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+  }
+  .leaflet-card .lmain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .leaflet-card .ltitle { font-size: 1.02rem; font-weight: 600; }
+  .leaflet-card .stale {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #6b5200;
+    background: #fff8e6;
+    border: 1px solid #f3d77a;
+    border-radius: 8px;
+    padding: 8px 10px;
+    line-height: 1.4;
+  }
+  .leaflet-card .replaced-note {
+    margin-top: 8px;
+    font-size: 0.82rem;
+    color: #1c6b2c;
+  }
+  .leaflet-card a.read {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 8px;
+    background: #005eb8;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+  .section-title {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #005eb8;
+    margin: 34px 0 4px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #e3e8ef;
+    letter-spacing: -0.01em;
+  }
+  .section-sub { color: #555; font-size: 0.9rem; margin: 8px 0 14px; }
+  .leaflet-card a.read.open { background: #fff; color: #005eb8; border: 1px solid #005eb8; }
+  .advice-card {
+    border: 1px solid #d8dde3;
+    border-left: 4px solid #005eb8;
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+  }
+  .advice-card .advice-title { font-size: 1.05rem; font-weight: 700; margin: 0 0 8px; }
+  .advice-card .advice-intro { color: #333; margin: 0 0 8px; }
+  .advice-card .advice-h { font-weight: 600; margin: 14px 0 4px; }
+  .advice-card .advice-text { margin: 0 0 6px; }
+  .advice-card ul { margin: 0; padding-left: 20px; }
+  .advice-card li { margin-bottom: 4px; }
+  .advice-card .advice-warning {
+    background: #fff8ec;
+    border: 1px solid #f3d77a;
+    border-radius: 8px;
+    padding: 8px 10px;
+    margin: 6px 0 10px;
+    font-size: 0.88rem;
+    line-height: 1.4;
+  }
+  .advice-card .advice-dropdown { display: flex; gap: 8px; margin: 8px 0 4px; }
+  .advice-card .advice-dropdown select {
+    flex: 1;
+    min-width: 0;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #aab4bf;
+    border-radius: 8px;
+    background: #fff;
+    color: #222;
+  }
+  .advice-card .advice-dropdown button {
+    padding: 10px 16px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background: #005eb8;
+    color: #fff;
+    white-space: nowrap;
+  }
+  .advice-card .advice-dropdown button:disabled { background: #b6c4d2; }
+  .advice-card .advice-refs {
+    margin-top: 14px;
+    padding-top: 10px;
+    border-top: 1px solid #e3e8ef;
+    font-size: 0.8rem;
+    color: #555;
+  }
+  .advice-card .advice-refs .refs-title { font-weight: 600; margin: 0 0 4px; }
+  .advice-card .advice-refs ol { margin: 0; padding-left: 18px; }
+  .advice-card .advice-refs li { margin-bottom: 3px; }
+  .advice-card .advice-refs .checked { color: #777; white-space: nowrap; }
+  .advice-card a { color: #005eb8; }
+  .advice-card .advice-foot { font-size: 0.8rem; color: #777; margin-top: 14px; font-style: italic; }
+  .sharebtn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 28px;
+    padding: 14px 18px;
+    border-radius: 10px;
+    background: #005eb8;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .feedback {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    padding: 14px 18px;
+    border-radius: 10px;
+    background: #fff;
+    color: #005eb8;
+    border: 1px solid #005eb8;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .error { color: #b00; }
+  .demobanner {
+    background: #fff8e6; border: 1px solid #f3d77a; border-radius: 8px;
+    padding: 10px 12px; margin: 0 0 18px; font-size: 0.88rem; color: #6b5200;
+    line-height: 1.45;
+  }
+  .loading { color: #888; }
+  .notice {
+    margin-top: 18px;
+    font-size: 0.85rem;
+    color: #555;
+    background: #fff8e6;
+    border: 1px solid #f3d77a;
+    border-radius: 8px;
+    padding: 12px 14px;
+    line-height: 1.4;
+  }
+  .safetynet {
+    margin-top: 26px;
+    padding: 12px 14px;
+    border-radius: 8px;
+    background: #fdecea;
+    border: 1px solid #f3b8b0;
+    color: #7a271a;
+    font-size: 0.92rem;
+    line-height: 1.45;
+  }
+  .helpful { text-align: center; margin-top: 22px; font-size: 0.95rem; color: #333; }
+  .helpful button {
+    margin: 10px 6px 0;
+    padding: 9px 18px;
+    border-radius: 8px;
+    border: 1px solid #005eb8;
+    background: #fff;
+    color: #005eb8;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  .langhint { margin-top: 16px; font-size: 0.82rem; color: #777; text-align: center; }
+  footer { margin-top: 40px; font-size: 0.8rem; color: #888; text-align: center; }
+  footer .credits { font-size: 0.78rem; color: #888; margin-top: 10px; line-height: 1.45; }
+</style>
+</head>
+<body>
+<div id="app" class="loading">Loading…</div>
+<footer>
+  Patient information published by<br>
+  <span id="trustfoot">Gloucestershire Hospitals NHS Foundation Trust</span><br>
+  This page is an independent service by Medrics and is not provided or endorsed by the trust.<br>
+  Privacy: this page collects nothing about you and never knows who you are. The web address
+  does show the information topics — if you share this device with others, clear it from the
+  browser history when you are done.
+  <div class="credits">
+    <span id="creditline">Clinical lead: Dr Tom Mitchell, Consultant in Emergency Medicine &amp; Clinical Medical Information Officer</span><br>
+    Software &amp; design: Dr Oscar Harrison
+  </div>
+  <div id="brand" style="margin-top:10px;"></div>
+</footer>
+
+<script>
+// === CONFIG ===
+// Paste your Google Form URL here. The form should have:
+//   - A 1-5 rating question
+//   - An optional comments question with the warning "Do NOT include your name,
+//     NHS number, or any personal details"
+// No prefilling needed — one feedback form covers all leaflets.
+const FEEDBACK_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSf3frf13of84Yy2UNN2UPyig7xAqYRA39OWs6u-SrH1a5Ru4Q/viewform";
+// Medrics branding. Leave "" to hide it (e.g. during the trust pilot).
+// Set to your Medrics / paid-service link to show a small "Built by Medrics" credit.
+const MEDRICS_URL = "https://medrics.co.uk";
+const MEDRICS_LABEL = "Built by Medrics";
+// Logo file uploaded to the repo (leave "" to show the text label instead).
+const MEDRICS_LOGO = "medrics-logo.png";
+// Private usage analytics (optional). Paste a Google Apps Script web-app URL to
+// collect ANONYMOUS usage stats (which topics are requested, ratings, time).
+// Leave "" to collect nothing. No personal data is ever sent.
+const ANALYTICS_URL = "";
+// When ANALYTICS_URL is set, the 👍/👎 ratings record to it (the key quality
+// metric). Set LOG_VIEWS to true ONLY if you also want to log anonymous page
+// views (broader usage analytics) — leave false to record ratings only.
+const LOG_VIEWS = false;
+// ==============
+
+function logEvent(event, value) {
+  if (!ANALYTICS_URL) return;
+  try {
+    const payload = JSON.stringify({
+      event: event,
+      value: value || "",
+      slugs: (new URLSearchParams(window.location.search)).get("slugs") || "",
+      trust: (new URLSearchParams(window.location.search)).get("t") || "",
+      ts: Date.now()
+    });
+    if (navigator.sendBeacon) {
+      navigator.sendBeacon(ANALYTICS_URL, payload);
+    } else {
+      fetch(ANALYTICS_URL, { method: "POST", mode: "no-cors", body: payload });
+    }
+  } catch (e) { /* never let analytics break the page */ }
+}
+
+function rateHelpful(value) {
+  logEvent("helpful", value);
+  const el = document.getElementById("helpful");
+  if (!el) return;
+  if (value === "no") {
+    el.innerHTML = 'Thank you. <a href="' + FEEDBACK_FORM_URL + '" style="color:#005eb8;">Tell us what could be better &rsaquo;</a>';
+  } else {
+    el.innerHTML = "👍 Thanks — glad it helped.";
+  }
+}
+
+function shareThisPage() {
+  const url = window.location.href;
+  if (navigator.share) {
+    navigator.share({
+      title: "Information from your hospital visit",
+      text: "Here is the information from my hospital visit:",
+      url: url
+    }).catch(function () {});
+  } else if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(url).then(function () {
+      alert("Link copied. Paste it into a text message or email to yourself to keep it.");
+    });
+  } else {
+    window.prompt("Copy this link to text or email to yourself:", url);
+  }
+}
+
+function render(html) {
+  document.getElementById("app").className = "";
+  document.getElementById("app").innerHTML = html;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[c]));
+}
+
+// A leaflet past the review date printed on it hasn't necessarily changed or
+// gone wrong — but the hospital's own schedule says it should have been
+// re-checked, so the patient gets an honest heads-up rather than silence.
+function isPastReview(reviewDue) {
+  if (!reviewDue) return false;
+  const [y, m] = reviewDue.split("-").map(Number);
+  if (!y || !m) return false;
+  const now = new Date();
+  return y < now.getFullYear() || (y === now.getFullYear() && m < now.getMonth() + 1);
+}
+
+function cardFor(item, openLabel) {
+  const stale = (item.type === "leaflet" && item.review && isPastReview(item.review.review_due))
+    ? `<div class="stale">The hospital planned to review this leaflet by <strong>${escapeHtml(item.review.review_due_text || item.review.review_due)}</strong> and may not have updated it yet. If anything seems unclear or out of date, check with your care team.</div>`
+    : "";
+  const replaced = item.replaced
+    ? `<div class="replaced-note">The hospital has updated this leaflet since your QR code was made — this is the current version.</div>`
+    : "";
+  return `
+    <div class="leaflet-card">
+      <div class="lmain">
+        <span class="ltitle">${escapeHtml(item.title)}</span>
+        <a class="read${item.type === "leaflet" ? "" : " open"}" href="${encodeURI(item.url)}">${openLabel}</a>
+      </div>
+      ${stale}${replaced}
+    </div>
+  `;
+}
+
+function adviceCard(item) {
+  const intro = item.intro ? `<p class="advice-intro">${escapeHtml(item.intro)}</p>` : "";
+  const secs = (item.sections || []).map(s => {
+    const heading = s.heading ? `<p class="advice-h">${escapeHtml(s.heading)}</p>` : "";
+    const text = s.text ? `<p class="advice-text">${escapeHtml(s.text)}</p>` : "";
+    const points = (s.points && s.points.length)
+      ? `<ul>${s.points.map(p => `<li>${escapeHtml(p)}</li>`).join("")}</ul>`
+      : "";
+    const links = (s.links && s.links.length)
+      ? `<ul class="advice-links">${s.links.map(l =>
+          `<li><a href="${encodeURI(l.url)}">${escapeHtml(l.label)}</a></li>`).join("")}</ul>`
+      : "";
+    const warning = s.warning
+      ? `<div class="advice-warning">${escapeHtml(s.warning)}</div>`
+      : "";
+    // A select + button pair (rather than navigate-on-change) so a patient
+    // scrolling a phone picker can't be yanked off the page by accident.
+    // Opens in a new tab so the trust's own advice stays open behind it.
+    const dropdown = (s.dropdown && s.dropdown.options && s.dropdown.options.length)
+      ? `<div class="advice-dropdown">
+           <select aria-label="${escapeHtml(s.dropdown.placeholder || "Choose a leaflet")}"
+             onchange="this.nextElementSibling.disabled = !this.value">
+             <option value="">${escapeHtml(s.dropdown.placeholder || "Choose a leaflet…")}</option>
+             ${s.dropdown.options.map(o =>
+               `<option value="${encodeURI(o.url)}">${escapeHtml(o.label)}</option>`).join("")}
+           </select>
+           <button type="button" disabled
+             onclick="var v=this.previousElementSibling.value; if (v) window.open(v, '_blank', 'noopener');">
+             ${escapeHtml(s.dropdown.open_label || "Open")}
+           </button>
+         </div>`
+      : "";
+    return `${heading}${text}${warning}${points}${links}${dropdown}`;
+  }).join("");
+  // Numbers and hours are safety-critical: every card cites the pages its
+  // facts were drawn from, with the date each was last checked. The advice
+  // fact verifier (verify_advice.py) enforces that this list exists and
+  // covers every source it verifies against — display and verification
+  // cannot drift apart.
+  const refs = (item.references && item.references.length)
+    ? `<div class="advice-refs">
+         <p class="refs-title">Sources — the contact details and hours above were taken from:</p>
+         <ol>${item.references.map(r =>
+           `<li><a href="${encodeURI(r.url)}">${escapeHtml(r.label)}</a>` +
+           (r.checked ? ` <span class="checked">(checked ${escapeHtml(r.checked)})</span>` : "") +
+           `</li>`).join("")}</ol>
+       </div>`
+    : "";
+  const foot = item.footer ? `<p class="advice-foot">${escapeHtml(item.footer)}</p>` : "";
+  return `
+    <div class="advice-card">
+      <p class="advice-title">${escapeHtml(item.title)}</p>
+      ${intro}
+      ${secs}
+      ${refs}
+      ${foot}
+    </div>
+  `;
+}
+
+function renderResolved(items, demo) {
+  const leaflets = items.filter(i => i.type === "leaflet");
+  const advice = items.filter(i => i.type === "advice");
+  const medicines = items.filter(i => i.type === "medicines");
+  const services = items.filter(i => i.type === "service");
+  const nhs = items.filter(i => i.type === "nhs");
+
+  const leafletSection = leaflets.length
+    ? `<p class="section-title">Your leaflets</p>
+       <p class="section-sub">Information your clinician selected for you. Tap any to read.</p>
+       ${leaflets.map(l => cardFor(l, "Read")).join("")}`
+    : "";
+
+  const adviceSection = advice.length
+    ? `<p class="section-title">Advice for you</p>
+       <p class="section-sub">Important advice from your clinician about staying safe.</p>
+       ${advice.map(a => adviceCard(a)).join("")}`
+    : "";
+
+  const medicineSection = medicines.length
+    ? `<p class="section-title">About your medicines</p>
+       <p class="section-sub">Information about medicines you have been given or prescribed, from the NHS website (nhs.uk).</p>
+       ${medicines.map(m => cardFor(m, "Open")).join("")}`
+    : "";
+
+  const serviceSection = services.length
+    ? `<p class="section-title">Further information</p>
+       <p class="section-sub">Pages on the hospital website about your condition, treatment, or department.</p>
+       ${services.map(s => cardFor(s, "Open")).join("")}`
+    : "";
+
+  const nhsSection = nhs.length
+    ? `<p class="section-title">More information</p>
+       <p class="section-sub">Trusted health information from the NHS and other reputable UK sources.</p>
+       ${nhs.map(n => cardFor(n, "Open")).join("")}`
+    : "";
+
+  render(`
+    ${demo ? '<p class="demobanner"><strong>Demonstration only.</strong> This is a preview of the service and is not in clinical use at this trust. Do not rely on it for your care.</p>' : ""}
+    <h1>Information from your visit</h1>
+    <p class="subtitle">Selected for you by your clinician.</p>
+    ${leafletSection}
+    ${adviceSection}
+    ${medicineSection}
+    ${serviceSection}
+    ${nhsSection}
+    <p class="safetynet">This information was chosen for you by your clinician. If you feel worse, or you are worried, call <strong>111</strong> — or <strong>999</strong> in an emergency.</p>
+    <button class="sharebtn" onclick="shareThisPage()">Text or save this to read later</button>
+    <div id="helpful" class="helpful">
+      <span>Was this helpful?</span><br>
+      <button onclick="rateHelpful('yes')">👍 Yes</button>
+      <button onclick="rateHelpful('no')">👎 No</button>
+    </div>
+    <a class="feedback" href="${FEEDBACK_FORM_URL}">Give more feedback</a>
+    <p class="notice">Feedback is fully anonymous. <strong>Please do not include your name, NHS number, or any personal details.</strong>${ANALYTICS_URL ? " This service also collects anonymous usage statistics (which information is viewed) to help improve it — no personal details, and nothing that could identify you, are collected." : ""}</p>
+    <p class="langhint">To read this in another language, use your phone or browser's translate option.</p>
+  `);
+}
+
+async function main() {
+  const params = new URLSearchParams(window.location.search);
+
+  // Support BOTH ?slug=one and ?slugs=one,two,three
+  let requested = [];
+  if (params.get("slugs")) {
+    requested = params.get("slugs").split(",").map(s => s.trim()).filter(Boolean);
+  } else if (params.get("slug")) {
+    requested = [params.get("slug").trim()];
+  }
+
+  if (requested.length === 0) {
+    render(`<h1>No leaflet selected</h1><p class="subtitle">This page is opened by scanning a QR code from your clinician.</p>`);
+    return;
+  }
+
+  // Multi-trust: ?t=<trust-id> selects a trust from trusts.json. Its leaflets
+  // and service pages live under that trust's data_dir; the national layer
+  // (NHS pages, medicines, local advice) is shared. No ?t= means the default
+  // trust at the repo root — QR codes issued before multi-trust keep working.
+  let dir = "";
+  let demo = false;   // trust not yet approved — QR came from a demo/preview
+  let trustResolved = false;
+  try {
+    // no-cache: always revalidate, so an approval ("listed") change shows at once
+    const registry = await fetch("trusts.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null);
+    const tParam = params.get("t");
+    const trust = (registry && tParam)
+      ? (registry.trusts || []).find(x => x.id === tParam) : null;
+    if (trust) {
+      const d = trust.data_dir || ("trusts/" + trust.id);
+      dir = d === "." ? "" : d.replace(/\/?$/, "/");
+      demo = trust.listed === false;
+      const foot = document.getElementById("trustfoot");
+      if (foot) foot.textContent = trust.name;
+      // Credits are per-trust: "clinical lead" only where the registry says
+      // so; elsewhere Dr Mitchell is credited as a clinical contributor.
+      const cl = document.getElementById("creditline");
+      if (cl) cl.textContent = (trust.credits && trust.credits.clinical_lead)
+        ? "Clinical lead: " + trust.credits.clinical_lead
+        : "Clinical contributor: Dr Tom Mitchell, Consultant in Emergency Medicine";
+      trustResolved = true;
+    }
+  } catch (e) { /* registry unavailable — handled below for ?t= QRs */ }
+  // A ?t= QR we can't resolve (renamed trust id, or the registry fetch failed)
+  // must NOT silently fall back to the default trust: that would show a
+  // patient another county's crisis numbers under the wrong branding, and
+  // would drop the "demonstration only" banner from unlisted-trust QRs.
+  // Default-trust QRs (no ?t=) are unaffected.
+  if ((new URLSearchParams(window.location.search)).get("t") && !trustResolved) {
+    render(`<h1 class="error">This QR code may be out of date</h1>
+      <p>We could not confirm which hospital's information this code belongs to.
+      Please ask your clinician for a new code, or call 111 if you need advice now.</p>`);
+    return;
+  }
+
+  let leaflets, services, nhs, advice, medicines, overrides, reviews, redirects;
+  try {
+    [leaflets, services, nhs, advice, medicines, overrides, reviews, redirects] = await Promise.all([
+      fetch(dir + "leaflets.json").then(r => r.json()),
+      fetch(dir + "services.json").then(r => r.json()).catch(() => []),
+      fetch("nhs_resources.json").then(r => r.json()).catch(() => []),
+      // no-store: this file carries crisis numbers and opening hours — a
+      // returning patient must never be shown a stale cached copy after a
+      // correction. It is small (~12 KB); the leaflet indexes stay cacheable.
+      fetch(dir + "local_advice.json", { cache: "no-store" }).then(r => r.json()).catch(() => []),
+      fetch("medicines.json").then(r => r.json()).catch(() => []),
+      fetch(dir + "manual_overrides.json").then(r => r.json()).catch(() => ({})),
+      fetch(dir + "reviews.json").then(r => r.json()).catch(() => ({})),
+      fetch(dir + "redirects.json").then(r => r.json()).catch(() => ({}))
+    ]);
+  } catch (e) {
+    render(`<h1 class="error">Could not load leaflets</h1><p>Please try again in a moment.</p>`);
+    return;
+  }
+
+  const bySlug = new Map();
+  for (const l of leaflets) bySlug.set(l.slug, { ...l, type: l.type || "leaflet" });
+  for (const s of services) bySlug.set(s.slug, { ...s, type: "service" });
+  for (const n of nhs) bySlug.set(n.slug, { ...n, type: "nhs" });
+  for (const a of advice) bySlug.set(a.slug, { ...a, type: "advice" });
+  for (const m of medicines) bySlug.set(m.slug, { ...m, type: "medicines" });
+
+  const resolved = [];
+  for (const slug of requested) {
+    // A slug missing from the index may have been replaced by a newer
+    // version of the same leaflet — redirects.json (written by the fortnightly
+    // scan) maps old slug -> current slug so issued QR codes keep working.
+    let lookup = slug, replaced = false;
+    const hops = new Set();
+    while (!bySlug.has(lookup) && redirects[lookup] && !hops.has(lookup)) {
+      hops.add(lookup);
+      lookup = redirects[lookup];
+      replaced = true;
+    }
+    const item = bySlug.get(lookup);
+    if (!item) continue;
+    const override = overrides[lookup] || overrides[slug];
+    resolved.push({
+      title: item.title,
+      url: (override && override.url) ? override.url : item.url,
+      type: item.type,
+      intro: item.intro,
+      sections: item.sections,
+      references: item.references,
+      footer: item.footer,
+      review: reviews[lookup],
+      replaced: replaced,
+    });
+  }
+
+  if (resolved.length === 0) {
+    render(`<h1 class="error">Leaflets not found</h1><p>This QR code may be out of date. Please ask your clinician for a new one.</p>`);
+    return;
+  }
+
+  renderResolved(resolved, demo);
+  if (LOG_VIEWS) logEvent("view");
+}
+
+main();
+
+// Optional Medrics branding (shows only if MEDRICS_URL is set above).
+(function () {
+  if (!MEDRICS_URL) return;
+  const el = document.getElementById("brand");
+  if (!el) return;
+  const a = document.createElement("a");
+  a.href = MEDRICS_URL;
+  a.setAttribute("aria-label", MEDRICS_LABEL);
+  const showText = () => {
+    a.textContent = MEDRICS_LABEL;
+    a.style.color = "#999";
+    a.style.textDecoration = "none";
+    a.style.fontSize = "0.85rem";
+  };
+  if (MEDRICS_LOGO) {
+    const img = document.createElement("img");
+    img.src = MEDRICS_LOGO;
+    img.alt = "Medrics";
+    img.style.height = "44px";
+    img.style.width = "auto";
+    img.style.opacity = "0.9";
+    img.onerror = () => { a.innerHTML = ""; showText(); };
+    a.appendChild(img);
+  } else {
+    showText();
+  }
+  el.appendChild(a);
+})();
+</script>
+</body>
+</html>

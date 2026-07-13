@@ -1,0 +1,29 @@
+# ── Private operational layer — NEVER tracked in this public repo ─────────────
+# The public repo serves only what patients' and clinicians' browsers fetch:
+# the two pages, the data files, and the QR library. Everything below runs the
+# quality pipeline on medrics infrastructure and stays out of public view.
+*.py
+*.gs
+.github/
+CHANGELOG.md
+GOVERNANCE.md
+PID_ASSESSMENT.md
+README_UPDATES.md
+SHORTCUT_RECIPE.md
+prompt.txt
+advice_verification.json
+advice_verify_report.json
+advice_verify_state.json
+condition_checklist.json
+gap_report.json
+link_check_state.json
+link_report.json
+review_report.json
+update_log.json
+update_state.json
+leaflet_telemetry.jsonl
+*.TEMPLATE.json
+*.SCAFFOLD-README.json
+*.lock
+*.tmp
+__pycache__/

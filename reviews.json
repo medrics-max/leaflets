@@ -1,0 +1,5509 @@
+{
+ "24-hour-ph-impedance-monitoring": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI1075_08_24",
+  "review_due": "2027-08",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "24 hour Blood Pressure monitoring"
+ },
+ "5th-metacarpal-fracture": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI1470_07_24",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "5th Metacarpal Fracture"
+ },
+ "Discharge-advice-for-a-sedated-gastroscopy-with-Bravo-capsule-placement": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1681_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Discharge advice for a sedated gastroscopy with Bravo™ capsule placement"
+ },
+ "abdomino-perineal-excision-of-the-rectum-aper": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Abdomino Perineal Excision of the Rectum (APER)"
+ },
+ "acarizax-for-house-dust-mite-allergy": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI1938_12_25",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Acarizax® for House Dust Mite Allergy"
+ },
+ "acceptance-and-commitment-therapy-ghpi1606": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI1606_09_23",
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Acceptance and Commitment Therapy"
+ },
+ "access-to-work": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI1783_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Access to Work"
+ },
+ "acute-glaucoma": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI0100_04_22",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Acute glaucoma"
+ },
+ "adult-day-surgery-discharge-information": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI1774_06_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Adult day surgery discharge information"
+ },
+ "adult-hearing-services-communication-tips": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI1908_08_25",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Adult Hearing Services - Communication Tips"
+ },
+ "adult-patients-having-a-ct-scan-of-the-head-or-sinuses": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI0610_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Adult patients having a CT scan of the head or sinuses"
+ },
+ "adult-patients-having-ct-scan-heart-ghpi1435_10_18": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI1435_03_24",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Adult patients having a CT scan of the heart"
+ },
+ "adults-having-barium-swallow-barium-meal-or-barium-follow-through-x-ray": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI0613_02_26",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
+  "status": "ok",
+  "title": "Adults having a barium swallow, barium meal or barium follow through X-ray"
+ },
+ "adults-having-ct-scan-body": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI0617_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Adults having a CT scan of the body"
+ },
+ "adults-having-mri-arthrography-ghpi0601": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI0601_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Adults having MRI arthrography"
+ },
+ "adults-having-mri-scan-ghpi0318": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI0318_01_26",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Adults having an MRI scan"
+ },
+ "advice-following-peritoneal-dialysis-catheter-insertion": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI1305_09_24",
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "Advice following Peritoneal Dialysis catheter insertion"
+ },
+ "advice-following-your-childs-joint-injection-ghpi1674_10_21": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI1674_10_24",
+  "review_due": "2027-10",
+  "review_due_text": "October 2027",
+  "status": "ok",
+  "title": "Advice following your child’s joint injection"
+ },
+ "advice-for-patients-having-a-tooth-removed": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI0792_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Advice for patients having a tooth removed"
+ },
+ "advice-for-patients-having-an-apicectomy": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI0219_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Advice for patients having an apicectomy"
+ },
+ "advice-for-patients-having-minor-outpatient-gynaecological-vulval-skin-and-vaginal-procedures": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI1785_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Advice for patients having minor outpatient gynaecological vulval skin and vaginal procedures"
+ },
+ "advice-for-patients-with-jaw-joint-problems": {
+  "checked": "2026-07-11T00:42:39+01:00",
+  "ref": "GHPI0696_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Advice for patients with jaw joint problems"
+ },
+ "advice-for-patients-with-multi-drug-resistant-organisms-mdro": {
+  "checked": "2026-07-11T00:42:39+01:00",
+  "ref": "GHPI1742_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Advice for patients with Multi-Drug Resistant Organisms (MDRO)"
+ },
+ "advice-patients-having-minor-skin-surgery": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI1422_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Advice for patients having minor skin surgery"
+ },
+ "advice-patients-having-mouth-or-facial-biopsy": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI0220_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Advice for patients having a mouth or facial biopsy"
+ },
+ "advice-patients-having-wisdom-teeth-removed": {
+  "checked": "2026-07-11T00:42:39+01:00",
+  "ref": "GHPI0218_09_23",
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Advice for patients having wisdom teeth removed"
+ },
+ "after-critical-care-ghpi0110_02_19": {
+  "checked": "2026-07-11T00:46:30+01:00",
+  "ref": "GHPI0110_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "After Critical Care"
+ },
+ "after-dribble-post-micturition-dribble": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0679_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "After dribble (post micturition dribble)"
+ },
+ "after-having-endometrial-biopsy-and-or-hysteroscopy-ghpi0782": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0782_03_26",
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "After having an endometrial biopsy and/or a hysteroscopy"
+ },
+ "after-your-plaster-has-been-removed": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0033_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "After your plaster has been removed"
+ },
+ "aftercare-following-insertion-of-a-peg-feeding-tube-ghpi1636": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1636_03_24",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Aftercare following insertion of a PEG feeding tube"
+ },
+ "allergen-challenges-paediatric-investigations-unit": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1312_09_25",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Allergen challenges Paediatric Day Unit"
+ },
+ "allergic-reaction-radiology-patients": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1451_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Allergic reactions for radiology patients"
+ },
+ "an-introduction-to-the-gloucestershire-and-herefordshire-pain-management-service": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1610_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "An introduction to the Gloucestershire and Herefordshire Pain Management Service"
+ },
+ "anaesthetic-for-children": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0526_07_23",
+  "review_due": "2026-07",
+  "review_due_text": "July 2026",
+  "status": "ok",
+  "title": "Anaesthetic for children"
+ },
+ "anal-cancer": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1251_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Anal cancer"
+ },
+ "anal-sphincter-exercises-for-men": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1245_03_26",
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "Anal sphincter exercises for men"
+ },
+ "anal-sphincter-exercises-women": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1244_06_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Anal sphincter exercises for women"
+ },
+ "anorectal-manometry": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0565_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Anorectal Manometry"
+ },
+ "anterior-resection": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0513_08_25",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Anterior resection"
+ },
+ "anti-mullerian-hormone-amh-assessment": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1889_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Anti-Mullerian Hormone (AMH) Assessment"
+ },
+ "antibacterial-suppression-treatment-for-use-before-your-cardiology-procedure": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1183_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Antibacterial Suppression Treatment For use before your cardiology procedure"
+ },
+ "aorto-bi-femoral-and-axillo-bifemoral-bypass-surgery": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1802_09_23",
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Aorto-bi femoral and axillo-bifemoral bypass surgery"
+ },
+ "apixaban-for-atrial-fibrillation": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1870_09_24",
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "Apixaban for atrial fibrillation"
+ },
+ "apixaban-vte-medication": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1843_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Apixaban VTE medication"
+ },
+ "appendicitis": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1830_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Appendicitis"
+ },
+ "asthma-action-plan-and-peak-flow-diary": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0786_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Asthma Action Plan and Peak Flow Diary"
+ },
+ "attending-our-emergency-department": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1942_02_26",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
+  "status": "ok",
+  "title": "Attending Our Emergency Department"
+ },
+ "autonomic-blocks": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1608_08_23",
+  "review_due": "2026-08",
+  "review_due_text": "August 2026",
+  "status": "ok",
+  "title": "Autonomic blocks"
+ },
+ "azoospermia-or-severe-oligospermia": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0455_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Azoospermia or severe oligospermia"
+ },
+ "babies-with-a-positive-direct-antibody-test-dat": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1858_08_24",
+  "review_due": "2027-08",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "Babies with a positive direct antibody test (DAT)"
+ },
+ "baby-resuscitation-ghpi1581": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1581_02_26",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
+  "status": "ok",
+  "title": "Baby resuscitation"
+ },
+ "back-pain": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0051_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Lower Back Pain"
+ },
+ "banding-piles": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0997_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Banding of piles"
+ },
+ "barium-swallow-aftercare-instructions": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1913_09_25",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Barium swallow aftercare instructions"
+ },
+ "bcgoncotice-treatment-for-bladder-cancer": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1725_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "BCG/Oncotice treatment for bladder cancer"
+ },
+ "being-control-your-own-medication": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1358_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Being in control of your own medication"
+ },
+ "bereavement": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1092_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Bereavement"
+ },
+ "bereavement-guide-the-emergency-department": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0250_08_25",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Bereavement guide - The Emergency Department"
+ },
+ "bilevel-positive-air-pressure-therapy-bipap": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1540_12_25",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Bilevel Positive Air Pressure Therapy (BiPAP)"
+ },
+ "bimatoprost": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1533_01_26",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Bimatoprost"
+ },
+ "biofeedback-therapy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0567_06_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Biofeedback therapy"
+ },
+ "bladder-urgency-and-overactive-bladder-syndrome-oab": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0531_07_24",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "Bladder urgency and Overactive Bladder (OAB)"
+ },
+ "blepharitis-ghpi0182": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0182_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Blepharitis"
+ },
+ "blepharospasm-ghpi0183": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0183_03_24",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Blepharospasm"
+ },
+ "blood-monitoring-for-biologic-and-dmard-treatment": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1847_06_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Blood monitoring for biologic and DMARD treatment"
+ },
+ "blood-monitoring-for-paediatric-rheumatology": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1707_10_24",
+  "review_due": "2027-10",
+  "review_due_text": "October 2027",
+  "status": "ok",
+  "title": "Blood monitoring for paediatric rheumatology"
+ },
+ "bmi-and-fertility": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0773_12_23",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Body Mass Index (BMI) and fertility"
+ },
+ "bone-marrow-biopsy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0368_06_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Bone marrow biopsy"
+ },
+ "botox-for-the-treatment-of-an-over-active-bladder-oab": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1123_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Botox - for the treatment of an Over-Active Bladder (OAB)"
+ },
+ "bravo-reflux-testing": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1679_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Bravo™ reflux testing"
+ },
+ "breastfeeding-after-you-have-an-intravenous-contrast-agent-injection": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1428_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Breastfeeding after you have an intravenous contrast agent injection"
+ },
+ "breathing-exercises-chest-clearance": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0346_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Breathing exercises for chest clearance"
+ },
+ "bubble-contrast-echocardiogram-echo": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1293_02_26",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
+  "status": "ok",
+  "title": "Bubble contrast echocardiogram (echo"
+ },
+ "buckle-fracture": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1327_03_24",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Buckle fracture"
+ },
+ "caesarean-section-wound-care": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1903_04_25",
+  "review_due": "2028-04",
+  "review_due_text": "April 2028",
+  "status": "ok",
+  "title": "Caesarean section wound care"
+ },
+ "candidozyma-auris-c-auris": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1912_06_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Candidozyma auris (C. auris)"
+ },
+ "capsule-sponge-test": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1906_05_25",
+  "review_due": "2028-05",
+  "review_due_text": "May 2028",
+  "status": "ok",
+  "title": "Capsule Sponge Test"
+ },
+ "carbapenemase-producing-enterobacterales-cpe": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1807_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Carbapenemase-Producing Enterobacterales (CPE)"
+ },
+ "carbohydrate-counting-and-diabetes-education-for-people-with-type-1-diabetes": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1006_07_24",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "Carbohydrate Counting and Diabetes Education for people with type 1 diabetes"
+ },
+ "carbohydrate-portion-sizes-in-pregnancy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1637_06_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Carbohydrate portion sizes in pregnancy"
+ },
+ "cardiac-catheterisation": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0349_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Cardiac catheterisation"
+ },
+ "cardiac-catheterisation-discharge-information-cgh": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0097_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Cardiac catheterisation discharge information"
+ },
+ "cardiac-ct-aftercare": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1459_03_24",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Cardiac CT aftercare"
+ },
+ "care-your-cast": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0058_09_25",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Care of your cast"
+ },
+ "care-your-haemodialysis-catheter": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1319_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Care of your haemodialysis catheter"
+ },
+ "care-your-skin": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1008_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Care of your skin"
+ },
+ "care-your-splint-ghpi1456_05_18": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1456_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Care of your splint"
+ },
+ "carers-information-ghpi1044_07_18": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1044_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Carers information"
+ },
+ "caring-child-head-injury": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0842_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Caring for a child with a head injury"
+ },
+ "caring-for-a-stress-fracture": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1576_03_26",
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "Caring for a stress fracture"
+ },
+ "caring-for-my-laryngectomy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1819_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Caring for my Laryngectomy"
+ },
+ "caring-for-my-tracheostomy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1818_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Caring for my Tracheostomy"
+ },
+ "caring-for-your-vulva-and-vagina-after-cancer-and-cancer-treatment": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1841_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Caring for your vulva and vagina after cancer and cancer treatment"
+ },
+ "caring-your-childs-burn": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1018_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Caring for your child’s burn"
+ },
+ "carotid-endarterectomy-surgery-ghpi0308": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0308_01_26",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Carotid endarterectomy surgery"
+ },
+ "central-serous-chorioretinopathy-cscr": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1698_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Central Serous Chorioretinopathy (CSCR)"
+ },
+ "cervical-ectropion-and-other-conditions-affecting-cervix-ghpi1542": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1542_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Cervical ectropion and other conditions affecting the cervix"
+ },
+ "chemical-sympathectomy-injection": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0444_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Chemical sympathectomy injection"
+ },
+ "chest-trauma": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0653_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Chest trauma"
+ },
+ "child-bereavement-gloucestershire-where-get-advice-and-information-ghpi1381_07_18": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1381_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Child bereavement in Gloucestershire"
+ },
+ "childrens-safeguarding-procedure-emergency-department": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0955_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Children’s Safeguarding Procedure in the Emergency Department"
+ },
+ "childrens-safeguarding-procedures-ghpi1177_06_19": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1177_06_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Children’s Safeguarding Procedures"
+ },
+ "clostridioides-difficile-infection": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1073_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Clostridioides difficile Infection"
+ },
+ "cochlear-implants": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1828_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Cochlear implants"
+ },
+ "coeliac-plexus-block-injection": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0445_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Coeliac plexus block injection"
+ },
+ "collection-of-mid-stream-sample-of-urine-mssu-for-adults": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1185_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Collection of Mid-Stream Sample of Urine (MSSU) for adults"
+ },
+ "collection-urine-sample-cytology": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0386_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Collection of a urine sample for cytology"
+ },
+ "colon-cancer": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0583_08_25",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Colon cancer"
+ },
+ "colorectal-self-administration-of-a-phosphate-enema": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1941_01_26",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Colorectal: Self-administration of a phosphate enema"
+ },
+ "colposuspension-ghpi0086_04_19": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0086_12_24",
+  "review_due": "2027-12",
+  "review_due_text": "December 2027",
+  "status": "ok",
+  "title": "Colposuspension"
+ },
+ "coming-in-for-an-endoscopy-easy-read": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Coming in for an Endoscopy (easy read)"
+ },
+ "completion-your-interventional-radiation-procedure-ghpi1056_02_18": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1056_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Caring for your skin after interventional radiation procedures"
+ },
+ "conscious-sedation-for-outpatient-oral-and-maxillofacial-surgery": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0387_09_23",
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Conscious sedation for outpatient oral and maxillofacial surgery"
+ },
+ "contact-lens-clinic": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1231_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Contact Lens Clinic"
+ },
+ "continuous-subcutaneous-insulin-infusion-csii-pump-therapy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1267_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Continuous Subcutaneous Insulin Infusion (CSII) pump therapy"
+ },
+ "contraceptive-advice-for-patients-following-the-administration-of-sugammadex": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1666_04_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Contraceptive advice for patients following the administration of Sugammadex"
+ },
+ "contrast-echocardiogram-echo": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1503_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Contrast echocardiogram (echo)"
+ },
+ "contrast-enhanced-mammography": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1827_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Contrast Enhanced Mammography"
+ },
+ "convergence-exercises": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1238_09_23",
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Convergence exercises"
+ },
+ "coping-with-dying": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1918_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Coping With Dying"
+ },
+ "corneal-abrasion": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0184_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Corneal abrasion"
+ },
+ "coronary-angioplasty-cgh": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0229_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Coronary angioplasty"
+ },
+ "covid-19-advice-for-patients-in-hospital-and-after-discharge": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1756_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "COVID-19 advice for patients in hospital and after discharge"
+ },
+ "critical-care-follow-up-clinic": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1805_12_23",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Critical Care Follow-up Clinic"
+ },
+ "cryotherapy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0879_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Cryotherapy"
+ },
+ "ct-colonoscopy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1376_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "CT colonoscopy"
+ },
+ "ct-colonoscopy-aftercare": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1465_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "CT colonoscopy aftercare"
+ },
+ "ct-colonoscopy-virtual-colonoscopy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1376_09_23",
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "CT colonoscopy"
+ },
+ "ct-computed-tomography-ablation": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1641_06_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "CT (Computed Tomography) Ablation"
+ },
+ "ct-computed-tomography-guided-abdominalpelvic-biopsy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1635_09_25",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "CT (Computed Tomography) guided abdominal/pelvic biopsy"
+ },
+ "ct-computed-tomography-guided-bone-biopsy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1632_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "CT (Computed Tomography) guided bone biopsy"
+ },
+ "ct-computed-tomography-guided-lung_pleural-biopsy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1154_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "CT (Computed Tomography) guided lung/pleural biopsy"
+ },
+ "ct-computed-tomography-guided-lungpleural-biopsy-aftercare": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1512_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "CT guided lung biopsy aftercare"
+ },
+ "ct-guided-abdominal-biopsy-aftercare-ghpi1633": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1633_04_24",
+  "status": "no-date",
+  "title": "CT guided abdominal biopsy aftercare"
+ },
+ "ct-guided-ablation-aftercare": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1642_06_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "CT guided ablation aftercare"
+ },
+ "ct-guided-bone-biopsy-aftercare": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1634_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "CT guided bone biopsy aftercare"
+ },
+ "cystoscopy--urethroscopy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0112_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Cystoscopy and urethroscopy"
+ },
+ "dacryocystorhinostomy-dcr-an-operation-for-a-blocked-tear-duct": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0535_02_26",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
+  "status": "ok",
+  "title": "Dacryocystorhinostomy (DCR) An operation for a blocked tear duct"
+ },
+ "day-case-laparoscopic-hysterectomy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1920_08_25",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Day Case Laparoscopic Hysterectomy"
+ },
+ "day-case-percutaneous-endoscopic-gastrostomy-peg-tube-procedure": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1117_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Day case Percutaneous Endoscopic Gastrostomy (PEG) Tube procedure"
+ },
+ "de-quervains-syndrome-of-the-wrist": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1134_07_24",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "De Quervain’s syndrome of the wrist"
+ },
+ "deep-sclerectomy-treatment-glaucoma": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1336_01_26",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Deep sclerectomy treatment"
+ },
+ "deep-vein-thrombosis-dvt": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0652_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Deep Vein Thrombosis (DVT)"
+ },
+ "delirium-ghpi1174": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1174_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Delirium"
+ },
+ "denosumab": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1871_09_24",
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "Denosumab"
+ },
+ "dental-assessment-clinic-for-patients-receiving-head-and-neck-radiotherapy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1460_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Dental Assessment Clinic - For patients receiving head and neck radiotherapy"
+ },
+ "dental-care-information-for-patients-who-will-receive-head-and-neck-radiotherapy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1457_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Dental care information for patients who will receive head and neck radiotherapy"
+ },
+ "diagnostic-laparoscopy-ghpi0863_05_18": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0863_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Diagnostic laparoscopy"
+ },
+ "diphencyprone-dcp-treatment": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1415_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Diphencyprone (DCP) treatment"
+ },
+ "direct-current-cardioversion": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1235_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Direct Current (DC) Cardioversion"
+ },
+ "discharge-advice-carers-adults-who-have-sustained-head-injury": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0840_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Discharge advice for carers of adults who have sustained a head injury"
+ },
+ "discharge-advice-following-a-bronchoscopy-ghpi1631": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1631_10_23",
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Discharge advice following a bronchoscopy"
+ },
+ "discharge-advice-following-a-gastroscopy-and-colonoscopy-flexible-sigmoidoscopy-with-sedation": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1735_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Discharge advice following a gastroscopy and colonoscopy/flexible sigmoidoscopy with sedation"
+ },
+ "discharge-advice-following-a-gastroscopy-and-colonoscopy-flexible-sigmoidoscopy-without-sedation": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1736_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Discharge advice following a gastroscopy and colonoscopy/ flexible sigmoidoscopy without sedation"
+ },
+ "discharge-advice-following-a-gastroscopy-with-sedation": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1518_03_26",
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "Discharge advice following a gastroscopy with sedation"
+ },
+ "discharge-advice-following-a-gastrostomy-tube-removal": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1589_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Discharge advice following a gastrostomy tube removal"
+ },
+ "discharge-advice-following-a-thoracoscopy-ghpi1646": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1646_08_24",
+  "review_due": "2027-08",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "Discharge advice following a Thoracoscopy"
+ },
+ "discharge-advice-following-a-trans-nasal-endoscopy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1901_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Discharge advice following a trans-nasal endoscopy"
+ },
+ "discharge-advice-following-an-oesophageal-stent-insertion": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1815_10_23",
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Discharge advice following an oesophageal stent insertion"
+ },
+ "discharge-advice-following-banding-piles-haemorrhoids": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1521_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Discharge advice following banding of piles"
+ },
+ "discharge-advice-following-ercp-procedure": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1517_02_26",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
+  "status": "ok",
+  "title": "Discharge advice following an ERCP procedure"
+ },
+ "discharge-advice-following-gastroscopy-and-rfa-or-emr-sedation": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1515_04_26",
+  "review_due": "2026-07",
+  "review_due_text": "July 2026",
+  "status": "ok",
+  "title": "Discharge advice following a Gastroscopy and Radio Frequency Ablation (RFA) or Endoscopic Mucosal Resection (EMR) with sedation"
+ },
+ "discharge-advice-following-gastroscopy-sedation": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1586_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Having a colonoscopy and polyp removal as an outpatient"
+ },
+ "discharge-advice-following-gastroscopy-without-sedation": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1519_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Discharge advice following a gastroscopy without sedation"
+ },
+ "discharge-advice-following-non-sedated-colonoscopy-flexible-sigmoidoscopy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1520_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Discharge advice following a nonsedated colonoscopy / flexible sigmoidoscopy"
+ },
+ "discharge-advice-following-sedated-colonoscopy-flexible-sigmoidoscopy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1516_07_23",
+  "review_due": "2026-07",
+  "review_due_text": "July 2026",
+  "status": "ok",
+  "title": "Discharge advice following a sedated colonoscopy / flexible sigmoidoscopy"
+ },
+ "discharge-advice-following-therapeutic-gastroscopy-inc-banding-varices-endoscopic-dilatation": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1522_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Discharge advice following therapeutic gastroscopy including banding of varices/endoscopic dilatation"
+ },
+ "discharge-information-following-a-glossectomy-and-radial-free-forearm-flap-ghpi1671_06_21": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1671_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Discharge information following a Glossectomy"
+ },
+ "discharge-information-following-a-hemimandibulectomy-ghpi1667_06_21": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1667_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Discharge information following a Mandibulectomy"
+ },
+ "discharge-information-following-a-laser-excision-ghpi1670_06_21": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1670_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Discharge Information following a Laser Excision"
+ },
+ "discharge-information-following-a-neck-dissection-ghpi1669_06_21": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1669_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Discharge information following a Neck Dissection"
+ },
+ "discharge-information-following-a-nosebleed-epistaxis": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1452_08_24",
+  "review_due": "2027-08",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "Discharge information following a nosebleed (epistaxis)"
+ },
+ "discharge-information-following-a-parotidectomy-ghpi1668_06_21": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1668_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Discharge information following a Parotidectomy"
+ },
+ "discharge-information-following-a-robotic-assisted-laparoscopic-prostatectomy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1648_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Discharge information following a Robotic-Assisted Laparoscopic Prostatectomy"
+ },
+ "discharge-medicines-service": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1823_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Discharge Medicines Service"
+ },
+ "dissolving-uric-acid-stones-using-potassium-citrate": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1838_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Dissolving Uric Acid Stones using Potassium Citrate"
+ },
+ "dissolving-uric-acid-stones-using-sodium-bicarbonate": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1839_04_24",
+  "status": "no-date",
+  "title": "Dissolving Uric Acid Stones using Sodium Bicarbonate"
+ },
+ "do-i-have-a-penicillin-allergy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1874_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Do I have a penicillin allergy?"
+ },
+ "dobutamine-stress-echocardiogram-dse": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1876_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Dobutamine Stress Echocardiogram (DSE)"
+ },
+ "doppler-scan": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1859_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Doppler Scan"
+ },
+ "doxycycline": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1534_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Doxycycline"
+ },
+ "dry-eye": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0862_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Dry Eye"
+ },
+ "dry-mouth": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0591_02_26",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
+  "status": "ok",
+  "title": "Dry mouth"
+ },
+ "duloxetine-for-the-treatment-of-vulvodynia": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1881_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Duloxetine for the treatment of vulvodynia"
+ },
+ "early-discharge-scheme-brain-injury-team": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1261_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Early Discharge Scheme Brain Injury Team"
+ },
+ "early-miscarriage-ghpi0870_01_17": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0870_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Early Miscarriage"
+ },
+ "easy-read-having-a-brother-or-sister-in-the-neonatal-unit": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1825_12_23",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Easy Read - Having a brother or sister in the Neonatal Unit"
+ },
+ "eating-and-drinking-during-radiotherapy-to-the-pelvis-ghpi1686_10_21": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1686_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Eating and drinking during radiotherapy to the pelvis"
+ },
+ "echocardiogram-echo": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1504_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Echocardiogram (echo)"
+ },
+ "ectopic-pregnancy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0770_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Ectopic pregnancy"
+ },
+ "elbow-fracture": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1478_08_24",
+  "review_due": "2027-08",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "Elbow fracture"
+ },
+ "emotional-changes-after-a-stroke-ghpi1421_07_21pdf": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1421_08_24",
+  "review_due": "2027-08",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "Emotional changes after a stroke"
+ },
+ "emotional-support-following-limb-amputation": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1831_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Emotional support following limb amputation"
+ },
+ "end-of-treatment-for-paediatric-leukaemia-and-haematology-patients": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1822_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "End of Treatment for paediatric Leukaemia and Haematology patients"
+ },
+ "endoanal-ultrasound-scan": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0568_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Endoanal ultrasound scan"
+ },
+ "endometrial-ablation-ghpi0633": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0633_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Endometrial ablation"
+ },
+ "endometrial-biopsy": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1890_05_25",
+  "review_due": "2028-05",
+  "review_due_text": "May 2028",
+  "status": "ok",
+  "title": "Endometrial biopsy"
+ },
+ "endometrial-hyperplasia": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1709_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Endometrial hyperplasia"
+ },
+ "endometriosis-ghpi0458_05_18": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0458_12_23",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Endometriosis and fertility"
+ },
+ "endoscopic-submucosal-dissection": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1761_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Endoscopic Submucosal Dissection (ESD)"
+ },
+ "endovascular-aneurysm-repair-evar": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0922_08_25",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Endovascular Aneurysm Repair (EVAR)"
+ },
+ "enhanced-recovery-programme-colorectal-surgery": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0815_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Enhanced recovery pathway for colorectal surgery"
+ },
+ "enhanced-supportive-care": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1491_05_25",
+  "review_due": "2028-05",
+  "review_due_text": "May 2028",
+  "status": "ok",
+  "title": "Enhanced Supportive Care"
+ },
+ "entonox-gas-and-air": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1070_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "ENTONOX® (gas and air)"
+ },
+ "entonox-gas-and-air-for-patients-having-a-flexible-sigmoidoscopy-or-colonoscopy": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1663_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "ENTONOX® (gas and air) For patients having a Flexible Sigmoidoscopy or Colonoscopy"
+ },
+ "epidural-blood-patch-and-aftercare-excluding-maternity": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1868_08_24",
+  "review_due": "2027-08",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "Epidural blood patch and aftercare (excluding maternity)"
+ },
+ "evacuation-retained-products-conception-erpc-ghpi0131_11_19": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0131_11_25",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "Evacuation of Retained Products of Conception (ERPC)"
+ },
+ "exacerbation-of-copd-and-what-to-expect-after-discharge": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1644_06_24",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "Exacerbation of COPD and what to expect after discharge"
+ },
+ "exercise-stress-echocardiogram-ese": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1877_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Exercise Stress echocardiogram (ESE)"
+ },
+ "exposure-of-impacted-upper-canine-eye-tooth": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0427_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Exposure of impacted upper canine (eye tooth)"
+ },
+ "extravasation": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1450_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Extravasation"
+ },
+ "extravasation-accidental-leaking-of-drugs": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0561_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Extravasation (Accidental leaking of drugs)"
+ },
+ "eye-drop-instructions-and-advice-following-eye-surgery": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1458_03_24",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Eye drop instructions and advice following eye surgery"
+ },
+ "eye-drops-ghpi0067": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0067_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Eye drops"
+ },
+ "eye-laser-treatment-selective-laser-trabeculoplasty-slt": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1888_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Eye laser treatment – Selective Laser Trabeculoplasty (SLT)"
+ },
+ "eye-laser-treatment-yag-iridotomy": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0353_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Eye laser treatment - Yag iridotomy"
+ },
+ "eyelid-surgery": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0188_02_25",
+  "status": "no-date",
+  "title": "Eyelid surgery"
+ },
+ "faecal-microbiota-transplant-fmt": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1734_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Faecal Microbiota Transplant (FMT)"
+ },
+ "fainting-vasovagal-syncope": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0721_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Fainting (vasovagal syncope)"
+ },
+ "falls-clinic": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1385_01_26",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Falls Clinic"
+ },
+ "female-fertility-preservation": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1770_12_25",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Female fertility preservation"
+ },
+ "female-sterilisation": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0768_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Female sterilisation"
+ },
+ "femoral-endarterectomy": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1716_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Femoral endarterectomy"
+ },
+ "ferinjectr-iron-infusion": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0991_08_23",
+  "review_due": "2026-08",
+  "review_due_text": "August 2026",
+  "status": "ok",
+  "title": "Ferinject® iron infusion"
+ },
+ "fever-advice-children-and-young-people": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1213_07_24",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "Fever advice for children and young people"
+ },
+ "fgm-information-for-families": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "status": "no-date",
+  "title": "FGM - information for families"
+ },
+ "finasteride-for-women": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1510_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Finasteride for women"
+ },
+ "finishing-your-radiotherapy-treatment": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0212_07_24",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "Finishing your radiotherapy treatment"
+ },
+ "first-seizure-children-or-young-people": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1128_11_25",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "First seizure in children or young people"
+ },
+ "fistulogram-fistuloplasty-renal-patient-information": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1153_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Fistulogram or Fistuloplasty"
+ },
+ "flexible-cystoscopy": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0109_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Flexible cystoscopy"
+ },
+ "flexitrus": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1664_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "FlexiTRUS"
+ },
+ "fluid-and-caffeine-intake-bladder-and-bowel-health-ghpi0533": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0533_03_26",
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "Fluid and caffeine intake for bladder and bowel health"
+ },
+ "fluorescein-ffa-and-indocyanine-green-icg-angiography-procedure": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0497_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Fluorescein and indocyanine green angiography"
+ },
+ "fluoroquinolone-antibiotics": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1936_12_25",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Fluoroquinolone antibiotics"
+ },
+ "follow-appointments-and-advice-recurrence-gynaecological-cancer-ghpi0953_09_17": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0953_05_25",
+  "review_due": "2028-05",
+  "review_due_text": "May 2028",
+  "status": "ok",
+  "title": "Follow up appointments and advice on recurrence of gynaecological cancer"
+ },
+ "following-diagnosis-stomach-gastric-or-oesophageal-gullet-cancer": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1302_06_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Following diagnosis of stomach (gastric) or oesophageal (gullet) cancer"
+ },
+ "forming-arterio-venous-av-fistula": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0340_06_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Forming an Arterio-Venous (AV) fistula"
+ },
+ "fracture-of-the-upper-jaw": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1119_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Fracture of the upper jaw"
+ },
+ "fractured-clavicle-and-acromioclavicular-ac-joint-injuries": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0034_07_24",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "Fractured clavicle and acromioclavicular (AC) joint injuries"
+ },
+ "fractured-lower-jaw": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1200_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Fractured lower jaw"
+ },
+ "fractures-of-the-cheek-bone": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1120_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Fractures of the cheek bone"
+ },
+ "functional-endoscopic-sinus-surgery": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1909_06_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Functional endoscopic sinus surgery"
+ },
+ "functional-neurological-symptoms": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1553_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Functional Neurological Symptoms"
+ },
+ "gabapentin-for-the-treatment-of-vulvodynia": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1882_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Gabapentin for the treatment of vulvodynia"
+ },
+ "gastroscopy-radiofrequency-ablation-rfa-oesophageal-dysplasia": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1215_11_25",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "Gastroscopy with Radiofrequency Ablation (RFA) for oesophageal dysplasia"
+ },
+ "general-anaesthetic-for-children-having-ct-or-mri-scans": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1292_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "General anaesthetic for children having CT or MRI scans"
+ },
+ "general-anaethetic-children-having-ct-or-mri-scans": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1652_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "MRI scan for children"
+ },
+ "genetic-testing-for-inherited-bowel-and-gynaecological-cancers-r210-lynch-syndrome": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1932_01_26",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Genetic testing for inherited bowel and gynaecological cancers R210 (Lynch Syndrome)"
+ },
+ "gestational-diabetes-mellitus-gdm": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0358_01_26",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Gestational Diabetes Mellitus (GDM)"
+ },
+ "getting-the-best-out-of-medication-for-persistent-chronic-and-long-term-pain": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1613_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Getting the best out of medication for persistent (chronic and long term) pain"
+ },
+ "ghpi0161-maintaining-healthy-skin-and-pressure-ulcer-prevention": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0161_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Maintaining healthy skin and pressure ulcer prevention"
+ },
+ "ghpi0449-exercise-advice-following-gynaecological-bladder-and-pelvic-floor-surgery": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0259_04_19",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Exercise advice following gynaecological, bladder and pelvic floor surgery"
+ },
+ "ghpi0502-information-and-support-following-loss-your-baby-end-24-weeks": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0502_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Information and support following the loss of your baby (before the end of 24 weeks of pregnancy with no signs of life)"
+ },
+ "ghpi1345-surgical-insertion-peritoneal-dialysis-catheter": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1345_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Surgical insertion of a Peritoneal Dialysis (PD) catheter"
+ },
+ "ghpi1462-cystinuria-and-stone-prevention": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1462_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Cystinuria and stone prevention"
+ },
+ "ghpi1621-advice-when-you-go-home-after-having-gynaecological-surgery": {
+  "checked": "2026-07-11T00:46:30+01:00",
+  "ref": "GHPI1621_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Advice for when you go home after having gynaecological surgery"
+ },
+ "gloucestershire-brain-injury-team-outpatient-services": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0871_02_26",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
+  "status": "ok",
+  "title": "Gloucestershire Brain Injury Team Outpatient Services"
+ },
+ "gloucestershire-long-covid-psychology-service": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1933_11_25",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "Gloucestershire Long Covid Psychology Service"
+ },
+ "gloucestershire-urology-assessment-clinic-ghpi1212": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1212_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Gloucestershire Urology Assessment Clinic"
+ },
+ "going-home-after-stem-cell-transplant": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1333_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Going home after stem cell transplant"
+ },
+ "going-home-hospital-after-you-have-had-coronavirus-easy-read": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "status": "no-date",
+  "title": "Going home from hospital after you have had coronavirus (easy read)"
+ },
+ "going-home-with-a-cadd-pump": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1854_09_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Going home with Blinatumomab in a CADD pump"
+ },
+ "going-hospital-coronavirus-easy-read": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "status": "no-date",
+  "title": "Going to hospital with coronavirus (easy read)"
+ },
+ "gonadotrophin-ovulation-induction-ghpi1085": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1085_12_23",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Gonadotrophin ovulation induction"
+ },
+ "good-hair-care-advice": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1694_09_24",
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "Good hair care advice"
+ },
+ "grazax-for-grass-pollen-allergy-hay-fever": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1939_12_25",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "GRAZAX® for Grass Pollen Allergy (Hay Fever)"
+ },
+ "great-big-toe-fracture-or-injury": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1855_07_24",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "Great (big) toe fracture or injury"
+ },
+ "guide-vestibular-rehabilitation-ghpi0519_11_13": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI0519_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "A guide to vestibular rehabilitation"
+ },
+ "gynaecological-cancer-services-gloucestershire-ghpi1273_05_17": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1273_10_24",
+  "review_due": "2027-10",
+  "review_due_text": "October 2027",
+  "status": "ok",
+  "title": "Gynaecological Cancer Services in Gloucestershire"
+ },
+ "gynaecology-rapid-access-clinic": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1945_02_26",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
+  "status": "ok",
+  "title": "Gynaecology Rapid Access Clinic"
+ },
+ "h-ow-to-take-your-bowel-preparation-for-a-standard-morning-appointment": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1136_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "H ow to take your bowel preparation for a standard morning appointment"
+ },
+ "haematology-clinics": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0135_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Haematology Clinics"
+ },
+ "hair-care-for-eczema-of-the-scalp": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1846_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Hair care for eczema of the scalp"
+ },
+ "handling-and-care-rgp-contact-lenses-ghpi0588": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0588_11_23",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Handling and care of RGP contact lenses"
+ },
+ "handling-and-care-scleral-contact-lenses-ghpi0587": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0587_11_23",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Handling and care of scleral contact lenses"
+ },
+ "handling-and-care-soft-contact-lenses-ghpi0589": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0589_11_23",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Handling and care of soft contact lenses"
+ },
+ "having-a-bladder-and-bowel-assessment": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0530_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Having a bladder and bowel assessment"
+ },
+ "having-a-brother-or-sister-in-the-neonatal-unit-nnu-ghpi1628": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1628_11_23",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Having a brother or sister in the Neonatal Unit (NNU)"
+ },
+ "having-a-colonoscopy-as-an-inpatient": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1719_11_25",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "Having a colonoscopy as an inpatient"
+ },
+ "having-a-ct-ablation-easy-read": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Having a CT ablation (easy read)"
+ },
+ "having-a-ct-scan-of-your-bowel-easy-read": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Having a CT scan of your bowel (easy read)"
+ },
+ "having-a-diagnostic-gastroscopy-as-an-outpatient": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1081_11_23",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Having a diagnostic gastroscopy as an outpatient"
+ },
+ "having-a-fibroscan": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1488_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Having a fibroscan"
+ },
+ "having-a-flexible-sigmoidoscopy-as-an-inpatient": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1720_11_25",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "Having a flexible sigmoidoscopy as an inpatient"
+ },
+ "having-a-gastroscopy-and-colonoscopy": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1210_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Having a gastroscopy and colonoscopy"
+ },
+ "having-a-gastroscopy-as-an-inpatient": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1717_11_25",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "Having a gastroscopy as an inpatient"
+ },
+ "having-a-naso-gastroscopy-as-an-outpatient": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1673_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Having a trans-nasal endoscopy as an outpatient"
+ },
+ "having-a-therapeutic-gastroscopy-as-an-outpatient": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1693_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Having a therapeutic gastroscopy as an outpatient"
+ },
+ "having-a-ureteric-stent": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1718_01_26",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Having a ureteric stent"
+ },
+ "having-an-ercp-as-an-inpatient": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1814_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Having an ERCP as an inpatient"
+ },
+ "having-an-oesophageal-stent-inserted": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1813_01_24",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Having an oesophageal stent inserted"
+ },
+ "having-an-operation-at-gloucestershire-hospitals-nhs-foundation-trust": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1615_01_26",
+  "review_due": "2028-04",
+  "review_due_text": "April 2028",
+  "status": "ok",
+  "title": "Having an operation at Gloucestershire Hospitals NHS Foundation Trust"
+ },
+ "having-angiogram-or-angioplasty-ghpi0203_11_19": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0203_11_25",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "Having an angiogram or angioplasty"
+ },
+ "having-bone-densitometry-scan-adults": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0616_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Having a Bone Densitometry Scan"
+ },
+ "having-bronchoscopy": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0559_10_23",
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Having a bronchoscopy"
+ },
+ "having-chemotherapy-through-an-ambulatory-pump": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0235_09_25",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Having chemotherapy through an ambulatory pump"
+ },
+ "having-ct-guided-abdominal-or-pelvic-biopsy-easy-read": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Having CT guided abdominal or pelvic biopsy (easy read)"
+ },
+ "having-sweat-test-children-ghpi0712_11_18": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0712_07_24",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "Having a sweat test"
+ },
+ "having-your-baby-in-gloucestershire": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1264_09_23",
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Having your baby in Gloucestershire"
+ },
+ "head-and-neck-macmillan-clinical-nurse-specialist": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0388_06_24",
+  "review_due": "2027-08",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "Macmillan Head and Neck Clinical Nurse Specialist (CNS) Team"
+ },
+ "healthnet-homecare-delivery": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1557_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "HealthNet Homecare Delivery"
+ },
+ "hearing-services-vestibular-assessment": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1047_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Vestibular balance assessment"
+ },
+ "helpful-information-new-peritoneal-dialysis-pd-patients-ghpi0536_09_17": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0536_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Useful information for new Peritoneal Dialysis (PD) patients"
+ },
+ "helping-you-to-prepare-for-your-treatment": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1922_01_26",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Helping you to prepare for your treatment"
+ },
+ "hemi-thyroidectomy": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1207_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Hemi-thyroidectomy"
+ },
+ "hernia-surgery-adults-ghpi0747_08_18": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0747_11_25",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "Hernia surgery in adults"
+ },
+ "hidradenitis-suppurativa-ghpi1624": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1624_10_23",
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Hidradenitis Suppurativa"
+ },
+ "high-flow-nasal-oxygen": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1489_09_24",
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "High Flow Nasal Oxygen"
+ },
+ "high-risk-protocol-for-kidney-cancer": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1738_01_26",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "High Risk Protocol for Kidney Cancer"
+ },
+ "home-blood-pressure-monitoring-for-expectant-parents": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1578_01_26",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Home Blood Pressure Monitoring for Expectant Parents"
+ },
+ "home-enteral-feeding-team-heft-service": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1468_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Home Enteral Feeding Team (HEFT) Service"
+ },
+ "homecare-delivery-of-medicines-from-alcura": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1731_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Homecare delivery of medicines from Alcura"
+ },
+ "homelessness-gloucestershire": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1532_12_25",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Homelessness in Gloucestershire"
+ },
+ "how-find-good-quality-health-information-internet": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1418_03_19",
+  "status": "no-date",
+  "title": "How to find good quality health information on the internet GHPI1418_03_19"
+ },
+ "how-look-after-your-dialysis-access-and-wound-after-discharge-hospital": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1240_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "How to look after your dialysis access"
+ },
+ "how-produce-patient-information": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1024_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "How to produce patient information"
+ },
+ "how-take-best-photographs-your-skin-lesion-or-rash-ghpi1577": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1577_12_25",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "How to take the best photos of  your skin lesion or rash"
+ },
+ "how-take-klean-prep-your-gynaecological-cancer-surgery": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1434_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "How to take bowel prep for your gynaecological cancer surgery"
+ },
+ "how-take-your-bowel-preparation-afternoon-appointment-using-plenvu": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1496_01_26",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "How to take your bowel preparation for an afternoon appointment using Plenvu®"
+ },
+ "how-take-your-bowel-preparation-gastroscopy-and-colonoscopy-afternoon-appointment-using-plenvu": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1493_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "How to take your bowel preparation for a gastroscopy and colonoscopy afternoon appointment using Plenvu®"
+ },
+ "how-take-your-bowel-preparation-gastroscopy-and-colonoscopy-morning-appointment-using-plenvu": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1494_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "How to take your bowel preparation for a gastroscopy and colonoscopy morning appointment using Plenvu®"
+ },
+ "how-to-find-the-endoscopy-unit-cheltenham-general-hospital": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1654_05_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "How to find the Endoscopy Unit, Cheltenham General Hospital"
+ },
+ "how-to-find-the-endoscopy-unit-gloucestershire-royal-hospital": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1655_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "How to find the Endoscopy Unit, Gloucestershire Royal Hospital"
+ },
+ "how-to-raise-an-informal-concern-or-share-a-compliment-with-our-patient-advice-and-liaison-service-pals": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1880_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "How to raise an informal concern or share a compliment with our Patient Advice and Liaison Service (PALS)"
+ },
+ "how-to-take-your-bowel-preparation-for-a-gastroscopy-and-colonoscopy-afternoon-appointment-using-moviprep": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1892_02_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "How to take your bowel preparation for a gastroscopy and colonoscopy afternoon appointment using Moviprep"
+ },
+ "how-to-take-your-bowel-preparation-for-a-gastroscopy-and-colonoscopy-morning-appointment-using-moviprep": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1893_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "How to take your bowel preparation for a gastroscopy and colonoscopy morning appointment using Moviprep"
+ },
+ "how-to-take-your-bowel-preparation-for-a-gastroscopy-and-colonoscopy-standard-afternoon-appointment": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1166_02_26",
+  "status": "no-date",
+  "title": "How to take your bowel preparation for a gastroscopy and colonoscopy standard afternoon appointment"
+ },
+ "how-to-take-your-bowel-preparation-for-a-gastroscopy-and-colonoscopy-standard-morning-appointment": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1167_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "How to take your bowel preparation for a gastroscopy and colonoscopy standard morning appointment"
+ },
+ "how-to-take-your-bowel-preparation-for-a-morning-appointment-using-moviprep": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1894_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "How to take your bowel preparation for a morning appointment using Moviprep"
+ },
+ "how-to-take-your-bowel-preparation-for-a-morning-appointment-using-plenvu": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1495_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "How to take your bowel preparation for a morning appointment using Plenvu®"
+ },
+ "how-to-take-your-bowel-preparation-for-a-standard-afternoon-appointment": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1135_02_26",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
+  "status": "ok",
+  "title": "How to take your bowel preparation for a standard afternoon appointment"
+ },
+ "how-to-take-your-bowel-preparation-for-an-afternoon-appointment-using-moviprep": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1895_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "How to take your bowel preparation for an afternoon appointment using Moviprep"
+ },
+ "how-to-take-your-extended-bowel-preparation-for-a-gastroscopy-and-colonoscopy-afternoon-appointment": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1848_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "How to take your extended bowel preparation for a gastroscopy and colonoscopy afternoon appointment"
+ },
+ "how-to-take-your-extended-bowel-preparation-for-a-gastroscopy-and-colonoscopy-morning-appointment": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1849_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "How to take your extended bowel preparation for a gastroscopy and colonoscopy morning appointment"
+ },
+ "how-to-take-your-extended-bowel-preparation-for-a-morning-colonoscopy-appointment": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1850_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "How to take your extended bowel preparation for a morning colonoscopy appointment"
+ },
+ "how-to-take-your-extended-bowel-preparation-for-an-afternoon-colonoscopy-appointment": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1851_06_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "How to take your extended bowel preparation for an afternoon colonoscopy appointment"
+ },
+ "how-use-crutches": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0023_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "How to use crutches"
+ },
+ "how-use-your-mrsa-screen-postal-kit": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1057_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "How to use your MRSA screen postal kit"
+ },
+ "how-we-handle-your-information": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1311_12_24",
+  "review_due": "2027-12",
+  "review_due_text": "December 2027",
+  "status": "ok",
+  "title": "How we handle your information"
+ },
+ "hpv-human-papilloma-virus-ghpi0787": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0787_06_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "HPV (Human Papilloma Virus)"
+ },
+ "hypoglycaemia": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1143_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Hypoglycaemia"
+ },
+ "hysterectomy": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0159_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Hysterectomy"
+ },
+ "hysteroscopic-removal-fibroid-ghpi0634_08_19": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0634_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Hysteroscopic removal of fibroid"
+ },
+ "hysteroscopy-clinic-menstrual-disorders1": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1026_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Hysteroscopy Clinic for menstrual disorders"
+ },
+ "hysteroscopy-ghpi0522": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0522_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Hysteroscopy"
+ },
+ "ice-and-heat-treatment": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0659_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Ice and heat treatment"
+ },
+ "if-youre-admitted-hospital-coronavirus-easy-read": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "status": "no-date",
+  "title": "If you're admitted to hospital with coronavirus (easy read)"
+ },
+ "image-guided-fine-needle-aspiration-fna": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1558_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Image guided Fine Needle Aspiration (FNA)"
+ },
+ "immunoglobulin-treatment-ghpi0290_11_18": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0290_09_24",
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "Immunoglobulin treatment"
+ },
+ "implantable-cardioverter-defibrillator-icd": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1020_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Implantable Cardioverter Defibrillator (ICD)"
+ },
+ "improving-bowel-function-and-control": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1412_09_24",
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "Improving bowel function and control"
+ },
+ "improving-control-your-bladder-after-transurethral-resection-prostate-gland-turp-or-bladder-neck-incision-bni": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0534_12_25",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Improving control of your bladder after bladder outflow obstruction surgery"
+ },
+ "induction-of-labour": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1907_05_25",
+  "review_due": "2028-05",
+  "review_due_text": "May 2028",
+  "status": "ok",
+  "title": "Induction of Labour"
+ },
+ "indwelling-pleural-catheters-0": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1300_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Indwelling pleural catheters"
+ },
+ "information-about-anaemia-and-its-treatments-patients-chronic-kidney-disease-ghpi0392_11_17": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI0392_08_24",
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "Anaemia and its treatments for patients with chronic kidney disease"
+ },
+ "information-about-day-case-ercp-endoscopic-retrograde-cholangio-pancreatography": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0546_02_26",
+  "status": "no-date",
+  "title": "Information about day case ERCP (Endoscopic Retrograde Cholangio-Pancreatography)"
+ },
+ "information-and-support-for-you-following-the-loss-of-your-baby-24-weeks-and-over": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0020_03_26",
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "Information and Support for You Following the Loss of Your Baby (24 Weeks and Over)"
+ },
+ "information-following-cervical-biopsy-ghpi0788": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0788_06_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Information following a cervical biopsy"
+ },
+ "information-following-cervical-smear-test": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0781_06_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Information following a cervical screening test"
+ },
+ "information-for-adults-with-extra-needs-who-are-having-treatment-on-their-teeth-under-general-anaesthetic": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1832_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Information for adults with extra needs who are having treatment on their teeth under general anaesthetic - Easy Read"
+ },
+ "information-for-head-and-neck-cancer-patients-about-your-hospital-stay-ghpi1672_06_21": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1672_05_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Information for Head and Neck Cancer patients about your hospital stay"
+ },
+ "information-for-patients-receiving-homecare-delivery-of-medicines-from-lloyds-pharmacy-clinical-homecare-lpch": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1259_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Information for patients receiving homecare delivery of medicines from Lloyds Pharmacy Clinical Homecare (LPCH)"
+ },
+ "information-for-patients-receiving-homecare-delivery-of-medicines-from-sciensus": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1279_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Information for patients receiving homecare delivery of medicines from Sciensus"
+ },
+ "information-for-patients-taking-unlicensed-medicines": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0452_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Information for patients taking unlicensed medicines"
+ },
+ "information-for-patients-who-have-had-surgery-in-the-mouth": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0208_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Information for patients who have had surgery in the mouth"
+ },
+ "information-for-people-who-care-for-a-child-who-has-extra-needs-and-is-having-teeth-out-under-a-general-anaesthetic": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1833_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Information for people who care for a child who has extra needs and is having teeth out under a general anaesthetic - Easy Read"
+ },
+ "information-for-people-who-care-for-a-child-who-is-having-teeth-out-under-a-general-anaesthetic": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1834_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Information for people who care for a child who is having teeth out under a general anaesthetic"
+ },
+ "information-for-veterans-and-armed-forces-families-attending-gloucestershire-hospitals-nhs-foundation-trust": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1821_04_24",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Information for Veterans and Armed Forces Families attending Gloucestershire Hospitals NHS Foundation Trust"
+ },
+ "information-parents-about-fluorescein-ffa-and-indocyanine-green-icg-angiography-procedure-ghpi1501": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1501_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Information for parents about Fluorescein (FFA) and Indocyanine Green (ICG) angiography procedure"
+ },
+ "information-patients-following-loop-diathermy-treatment-ghpi0789": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0789_06_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Information for patients following Loop Diathermy treatment"
+ },
+ "information-transport-and-parking": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0423_11_23",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Transport and parking"
+ },
+ "injection-piles": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0881_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Injection treatment for piles"
+ },
+ "injury-to-the-throat": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1605_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Injury to the throat"
+ },
+ "insertion-of-a-temporary-dialysis-catheter-haemodialysis": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1241_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Insertion of a temporary dialysis catheter (haemodialysis line)"
+ },
+ "insertion-of-a-tunnelled-dialysis-catheter-haemodialysis-line": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0321_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Insertion of a tunnelled dialysis catheter (haemodialysis line)"
+ },
+ "insertion-peritoneal-dialysis-pd-catheter-under-local-anaesthetics": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1382_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Insertion of a Peritoneal Dialysis (PD) catheter under local anaesthetic"
+ },
+ "instructions-collection-24-hour-urine-samples": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0992_03_24",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Instructions for collection of 24 hour urine samples"
+ },
+ "instructions-going-home-after-having-received-sedation": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1027_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Discharge instructions after having received sedation"
+ },
+ "intermediate-risk-protocol-for-kidney-cancer": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1739_06_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Intermediate Risk Protocol for Kidney Cancer"
+ },
+ "intermittent-claudication": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1715_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Intermittent claudication"
+ },
+ "intermittent-self-catheterisation-isc-adults": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0855_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Intermittent Self-Catheterisation (ISC) for adults"
+ },
+ "intermittent-self-dilatation-isd-adults": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0900_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Intermittent Self-Dilatation (ISD) for adults"
+ },
+ "interval-debulking-surgery-ids-ovarian-cancer-ghpi1564": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1564_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Interval Debulking Surgery (IDS) for ovarian cancer"
+ },
+ "introduction-mindfulness-persistent-pain-ghpi1609": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1609_09_25",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Introduction to mindfulness for persistent pain"
+ },
+ "iohexal-glomerular-filtration-rate-igfr-test": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1607_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Iohexol Glomerular Filtration Rate (IGFR) test"
+ },
+ "karyotyping-and-cystic-fibrosis-screening-ghpi0775_11_18": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0775_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Karyotyping and cystic fibrosis screening"
+ },
+ "knee-arthroscopy-ghpi0558_04_19": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0558_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Knee arthroscopy"
+ },
+ "laparoscopic-anti-reflux-surgery": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0009_11_25",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "Laparoscopic anti-reflux surgery"
+ },
+ "laparoscopic-bilateral-salpingo-oophorectomy-ghpi1567": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1567_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Laparoscopic bilateral salpingo- oophorectomy (Removal of fallopian tubes and ovaries)"
+ },
+ "laparoscopic-cholecystectomy-removal-of-the-gallbladder": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0007_11_25",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "Laparoscopic cholecystectomy Removal of the gallbladder"
+ },
+ "laparoscopic-hysteropexy-ghpi1282_09_21": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1282_08_25",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Laparoscopic Hysteropexy"
+ },
+ "laparoscopic-keyhole-surgery-endometriosis-ghpi0796_02_19": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0796_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Laparoscopic (keyhole) surgery for endometriosis"
+ },
+ "laparoscopic-nephrectomy-and-nephroureterectomy": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1318_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Laparoscopic nephrectomy and nephroureterectomy"
+ },
+ "laparoscopic-ovarian-diathermy-lod-ghpi0462_09_18": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0462_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Laparoscopic Ovarian Diathermy (LOD)"
+ },
+ "laparoscopy-and-dye-test": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0457_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Laparoscopy and dye test"
+ },
+ "learning-disabilities-hospital-liaison-nurse-team": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1179_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Learning Disabilities Hospital Liaison Nurses"
+ },
+ "leaving-hospital-nephrostomy-tube-ghpi1611": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1611_09_23",
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Leaving hospital with a nephrostomy tube"
+ },
+ "left-hemicolectomy": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0580_08_25",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Left hemicolectomy"
+ },
+ "leg-ulcer-prevention": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0698_06_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Leg ulcer prevention"
+ },
+ "lesser-toe-fracture-any-toe-apart-your-big-toe": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI1479_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "A lesser toe fracture (any toe apart from your big toe)"
+ },
+ "lets-put-stop-pj-paralysis": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1445_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Let’s put a stop to PJ Paralysis"
+ },
+ "linc-haematology-psychology-service": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1824_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Linc Haematology Psychology Service"
+ },
+ "listening-difficulties-and-auditory-processing-disorder": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1789_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Listening difficulties and Auditory Processing Disorder"
+ },
+ "listening-game-practise": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1952_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Listening game practise"
+ },
+ "lithotripsy-treatment-kidney-stones-ghpi0624": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0624_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Lithotripsy treatment for kidney stones"
+ },
+ "local-steroid-injections": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1526_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Local steroid injections"
+ },
+ "looking-after-your-back-and-pelvis-in-pregnancy-": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0629_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Looking after your back and pelvis in pregnancy"
+ },
+ "looking-after-your-injured-knee": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0052_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Looking after your injured knee"
+ },
+ "lost-hearing-aid-charges": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1304_12_25",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Lost hearing aid charges"
+ },
+ "low-fibre-diets-for-patients-with-colorectal-cancer": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1728_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Low fibre diet"
+ },
+ "low-risk-protocol-for-kidney-cancer": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1740_06_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Low Risk Protocol for Kidney Cancer"
+ },
+ "low-vision-aid-clinic-ghpi0196": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0196_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Low Vision Aid Clinic"
+ },
+ "lower-back-surgery": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0692_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Lower back surgery"
+ },
+ "lower-limb-amputation-ghpi1405": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1405_05_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Lower Limb Amputation"
+ },
+ "lower-limb-cellulitis": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1307_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Lower limb cellulitis"
+ },
+ "lung-function-tests": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0949_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Lung function tests"
+ },
+ "magnesium-sulfate-mgs04-pregnancy-ghpi1373": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1373_07_24",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "Magnesium sulphate (MgS04) in pregnancy"
+ },
+ "major-head-and-neck-surgery-ghpi0592": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0592_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Major head and neck surgery"
+ },
+ "making-your-stay-with-us-safe": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1417_11_25",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Making your stay with us safe"
+ },
+ "mallet-finger-ghpi0258": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0258_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Mallet finger"
+ },
+ "managing-a-flare": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1549_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Managing a flare"
+ },
+ "managing-a-single-step-up-or-down-using-walking-aids": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0518_09_23",
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Managing a single step up or down using walking aids"
+ },
+ "managing-bladder-and-bowel-care-needs-for-a-person-who-is-suffering-with-dementia": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1582_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Managing bladder and bowel care needs for a person who is living with dementia"
+ },
+ "managing-breathlessness": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0347_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Managing breathlessness"
+ },
+ "managing-fatigue-after-brain-injury": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1016_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Managing fatigue after brain injury"
+ },
+ "managing-fatigue-related-cancer-and-its-treatments-ghpi0918_08_18": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0918_07_24",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "Managing fatigue related to cancer and its treatments"
+ },
+ "managing-pain-in-children-who-have-had-an-operation": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1197_03_24",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Managing pain in children who have had an operation"
+ },
+ "managing-type-1-diabetes-home": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1331_06_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Managing Type 1 Diabetes at home"
+ },
+ "mannitol-challenge-test-osmohale": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1845_05_25",
+  "review_due": "2028-05",
+  "review_due_text": "May 2028",
+  "status": "ok",
+  "title": "Mannitol Challenge Test (Osmohale®)"
+ },
+ "medical-photography-consent": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0441_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Medical Photography Consent"
+ },
+ "medicines-and-dehydration": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1338_03_26",
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "Medicines and dehydration"
+ },
+ "meibomian-cysts-chalazion-ghpi0189": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0189_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Meibomian Cysts (Chalazion)"
+ },
+ "methotrexate": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1749_10_23",
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Methotrexate"
+ },
+ "methotrexate-injections-aftercare": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1900_03_25",
+  "status": "no-date",
+  "title": "Methotrexate injections aftercare"
+ },
+ "minoxidil": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1535_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Minoxidil"
+ },
+ "minoxidil-for-hair-loss-ghpi1649": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1647_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Minoxidil for hair loss"
+ },
+ "mirena-intrauterine-system": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0460_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Mirena® intrauterine system"
+ },
+ "molar-pregnancy": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0771_06_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Molar pregnancy"
+ },
+ "morphine-based-medication-after-your-childs-operation": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1924_03_26",
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "Morphine-based medication after your child’s operation"
+ },
+ "mrsa-screening-your-questions-answered": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0932_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "MRSA screening"
+ },
+ "mrsa-treatment-for-orthopaedic-joint-replacement-and-spinal-surgery": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1473_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "MRSA treatment for orthopaedic joint replacement and spinal surgery"
+ },
+ "mssa-screen-and-treatment-orthopaedic-joint-replacement-and-spinal-surgery-patients-ghpi1474_09_18": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1474_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "MSSA Screen and treatment for orthopaedic joint replacement and spinal surgery patients"
+ },
+ "musculo-skeletal-pain-ghpi1629": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1629_03_24",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Musculo-skeletal pain"
+ },
+ "my-catheter-passport": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1885_02_25",
+  "status": "no-date",
+  "title": "My Catheter Passport"
+ },
+ "my-medical-record-prostate-specific-antigen-psa-tracker": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1480_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "‘My Medical Record’ Prostate Specific Antigen (PSA) tracker"
+ },
+ "mycaesarean-ghpi1551": {
+  "checked": "2026-07-11T00:33:42+01:00",
+  "ref": "GHPI1551_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "#mycaesarean"
+ },
+ "nail-surgery": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1497_06_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Nail surgery"
+ },
+ "narrowband-uvb-tl-01-phototherapy": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0750_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Narrowband UVB (TL-01) phototherapy"
+ },
+ "neck-pain": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0913_07_24",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "Neck pain"
+ },
+ "negative-pressure-wound-therapy-npwt": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0154_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Negative Pressure Wound Therapy (NPWT)"
+ },
+ "neonatal-unit-nnu-gloucestershire-royal-hospital": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1538_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Neonatal Unit (NNU) Gloucestershire Royal Hospital"
+ },
+ "nerve-root-injections": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1559_09_25",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Nerve root injections"
+ },
+ "neurodevelopmental-clinics": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1416_05_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Neurodevelopmental Clinic"
+ },
+ "neurology-specialist-practitioner-service": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1949_03_26",
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "Neurology Specialist Practitioner Service"
+ },
+ "non-epileptic-attacks": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1552_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Non-epileptic attacks"
+ },
+ "non-invasive-ventilation": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1490_09_24",
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "Non-Invasive Ventilation"
+ },
+ "nortriptyline-for-the-treatment-of-vulvodynia": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1883_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Nortriptyline for the treatment of vulvodynia"
+ },
+ "nuclear-medicine-scan-ghpi1554": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1554_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Nuclear Medicine Scan"
+ },
+ "oesophageal-manometry": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0566_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Oesophageal Manometry"
+ },
+ "one-stop-neck-lump-clinic": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1190_12_24",
+  "review_due": "2027-12",
+  "review_due_text": "December 2027",
+  "status": "ok",
+  "title": "One Stop Neck Lump Clinic"
+ },
+ "open-repair-abdominal-aortic-aneurysm-aaa-ghpi0205": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0205_03_26",
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "Open repair of an Abdominal Aortic Aneurysm (AAA)"
+ },
+ "operations-foreskin-ghpi0985_05_18": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0985_03_24",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Operations on the foreskin"
+ },
+ "opioids-for-acute-pain-relief": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1661_03_24",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Opioids for Acute Pain Relief"
+ },
+ "oral-glucose-tolerance-test-gtt": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0424_06_24",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "Oral Glucose Tolerance Test (GTT)"
+ },
+ "oral-hygiene-advice-for-patients-at-risk-of-oral-mucositis-while-receiving-cancer-therapy": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1914_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Oral hygiene advice for patients at risk of oral mucositis while receiving cancer therapy"
+ },
+ "oral-hygiene-and-mouth-care-advice-for-patients-having-radiotherapy-or-chemotherapy": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0478_03_24",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Oral hygiene and mouth care advice for patients having radiotherapy or chemotherapy"
+ },
+ "orthostatic-hypotension": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0720_06_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Orthostatic hypotension"
+ },
+ "osgood-schlatters-syndrome-oss": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0425_07_24",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "Osgood Schlatters Syndrome (OSS)"
+ },
+ "outpatient-endometrial-ablation-under-local-anaesthetic-ghpi1433_01_20": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1433_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Outpatient endometrial ablation under local anaesthetic"
+ },
+ "outpatient-see-and-treat-hysteroscopy-and-endometrial-polypectomy-ghpi1579": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1579_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Outpatient ‘See and treat’ hysteroscopy and endometrial polypectomy"
+ },
+ "ovulation-induction-with-oral-agents-clomid-and-letrozole": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0463_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Ovulation induction with oral agents (Clomid®and Letrozole)"
+ },
+ "pacemaker-ppm-advice-for-going-home": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1170_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Pacemaker (PPM) Advice for going home"
+ },
+ "paediatric-haematology-and-oncology-service-ghpi1163_01_19": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1163_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Paediatric Haematology and Oncology Service"
+ },
+ "pain-clinic-aftercare": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1096_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Pain Clinic aftercare"
+ },
+ "pain-relief-after-major-surgery": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0221_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Pain relief after major surgery"
+ },
+ "pain-relief-medication-following-day-surgery-ghpi0804": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0804_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Pain relief medication following day surgery"
+ },
+ "parental-responsibility": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1453_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Parental responsibility"
+ },
+ "patient-initiated-follow-after-gynaecology-cancer-diagnosis-ghpi1617": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1617_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Patient-initiated follow-up after a gynaecology cancer diagnosis"
+ },
+ "patient-initiated-follow-up": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1678_05_25",
+  "review_due": "2028-05",
+  "review_due_text": "May 2028",
+  "status": "ok",
+  "title": "Patient Initiated Follow-Up"
+ },
+ "patient-initiated-follow-up-from-sdec": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1896_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Patient Initiated Follow-Up from SDEC"
+ },
+ "patients-know-best": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1762_12_23",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Patients Know Best"
+ },
+ "pavlik-harness-ghpi0826": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0826_04_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Pavlik harness"
+ },
+ "peg-removal-information-and-aftercare-advice": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1680_08_24",
+  "review_due": "2027-08",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "PEG removal information and aftercare advice"
+ },
+ "pelvic-floor-exercises-men": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0322_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Pelvic floor exercises for men"
+ },
+ "pelvic-floor-exercises-women": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0259_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Pelvic floor exercises for women"
+ },
+ "pelvic-organ-prolapse": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1334_12_24",
+  "review_due": "2027-12",
+  "review_due_text": "December 2027",
+  "status": "ok",
+  "title": "Pelvic organ prolapse"
+ },
+ "penicillin-allergy-testing-result-negative": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1886_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Penicillin allergy testing result: Negative"
+ },
+ "penicillin-allergy-testing-result-positive": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1887_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Penicillin allergy testing result: Positive"
+ },
+ "pentoxifylline-and-tocopherol-vitamin-e-for-osteradionecrosis": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1927_09_25",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Pentoxifylline and Tocopherol (Vitamin E) for Osteradionecrosis"
+ },
+ "perianal-abscess-and-fistula": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1869_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Perianal abscess and fistula"
+ },
+ "peripheral-intravenous-iv-cannula": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0935_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Peripheral intravenous (IV) cannula"
+ },
+ "pharyngectomy": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1935_12_25",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Pharyngectomy"
+ },
+ "phlebitis-information": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1484_08_25",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Phlebitis"
+ },
+ "photodynamic-therapy-pdt-for-age-related-eye-conditions": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0574_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Photodynamic Therapy (PDT) for age-related eye conditions"
+ },
+ "pioglitazone": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1546_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Pioglitazone"
+ },
+ "plantar-fasciitis": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0632_09_24",
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "Plantar fasciitis"
+ },
+ "pleural-aspiration-pleural-tap": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1291_05_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Pleural aspiration (Pleural tap)"
+ },
+ "pneumonia-and-what-to-expect-after-discharge-ghpi1645": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1645_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Pneumonia and what to expect after discharge"
+ },
+ "polycystic-ovarian-syndrome-pcos-ghpi0772_11_18": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0772_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Polycystic ovarian syndrome (PCOS)"
+ },
+ "port-a-cath-insertion": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1826_12_23",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Port-a-cath insertion"
+ },
+ "post-operative-posturing-following-vitreoretinal-surgery": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1775_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Post-operative posturing following Vitreoretinal surgery"
+ },
+ "posterior-vitreous-detachment-ghpi1588": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1588_08_23",
+  "review_due": "2026-08",
+  "review_due_text": "August 2026",
+  "status": "ok",
+  "title": "Posterior vitreous detachment"
+ },
+ "postnatal-exercises": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0325_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Postnatal exercises"
+ },
+ "postnatal-information-for-you-and-your-baby-after-birth": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1917_09_25",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Postnatal Information for You and Your Baby After Birth"
+ },
+ "pre-malignant-conditions-of-the-vulva": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1853_08_24",
+  "review_due": "2027-08",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "Pre-malignant conditions of the vulva"
+ },
+ "pre-operative-anaemia": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1425_11_25",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "Pre-operative anaemia"
+ },
+ "pre-treatment-information-loop-diathermy-lletz-ghpi0790": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0790_06_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Pre-treatment information on Loop Diathermy (LLETZ)"
+ },
+ "pregabalin-following-pharyngectomy": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1934_12_25",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Pregabalin following pharyngectomy"
+ },
+ "pregabalin-for-the-treatment-of-vulvodynia": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1884_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Pregabalin for the treatment of vulvodynia"
+ },
+ "preparation-for-ophthalmology-surgery-at-cheltenham-general-hospital-or-tewkesbury-community-hospital": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1724_04_25",
+  "review_due": "2028-04",
+  "review_due_text": "April 2028",
+  "status": "ok",
+  "title": "Preparation for Ophthalmology Surgery at Cheltenham General Hospital or Tewkesbury community Hospital"
+ },
+ "preparation-for-surgery-at-gloucestershire-royal-hospital-or-cheltenham-general-hospital": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0251_04_25",
+  "review_due": "2028-05",
+  "review_due_text": "May 2028",
+  "status": "ok",
+  "title": "Preparation for surgery at Gloucestershire Royal Hospital or Cheltenham General Hospital"
+ },
+ "preparing-your-skin-before-vascular-surgery": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1793_09_23",
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Preparing your skin before Vascular surgery"
+ },
+ "preterm-premature-birth": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1842_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Preterm (premature) birth"
+ },
+ "preventing-falls-during-your-stay-in-hospital": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0927_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Preventing falls during your stay in hospital"
+ },
+ "preventing-pressure-ulces-children-and-young-people-ghpi1438_10_17": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1438_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Preventing pressure ulcers in children and young people"
+ },
+ "procedure-and-care-peripherally-inserted-central-venous-catheter-picc-ghpi0180": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0180_05_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Procedure and care of a Peripherally Inserted Central Venous Catheter (PICC)"
+ },
+ "prophylactic-cranial-irradiation-pci-ghpi1687_10_21": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1687_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Prophylactic Cranial Irradiation (PCI)"
+ },
+ "propofol-sedation-for-endoscopic-procedures-ghpi1658": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1658_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Propofol sedation for endoscopic procedures"
+ },
+ "prostap-and-zoladex-injections": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1710_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Prostap® and Zoladex® injections"
+ },
+ "proximal-humeral-fracture": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1844_06_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Proximal Humeral fracture"
+ },
+ "pseudomonas-aeruginosa-in-high-risk-areas": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1808_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Pseudomonas aeruginosa in high-risk areas"
+ },
+ "psoriasis-and-your-heart-ghpi1467_10_18": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1467_09_24",
+  "review_due": "2027-10",
+  "review_due_text": "October 2027",
+  "status": "ok",
+  "title": "Psoriasis and your heart"
+ },
+ "psychology-service-people-affected-cancer": {
+  "checked": "2026-07-11T00:51:30+01:00",
+  "ref": "GHPI1042_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Cancer Psychology Service"
+ },
+ "pulled-elbow-radial-head-subluxation": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0839_09_24",
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "Pulled elbow"
+ },
+ "pulmonary-embolism": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1285_06_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Pulmonary Embolism"
+ },
+ "qutenza-treatment": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1317_06_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Qutenza® treatment"
+ },
+ "radical-radiotherapy-for-cancers-of-the-upper-abdomen-ghpi1688_10_21": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1688_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Radical radiotherapy for cancers of the upper abdomen"
+ },
+ "radical-trachelectomy-ghpi0670": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0670_05_25",
+  "review_due": "2028-05",
+  "review_due_text": "May 2028",
+  "status": "ok",
+  "title": "Radical trachelectomy"
+ },
+ "radioactive-iodine-therapy-rai-treatment-thyroxicosis-ghpi1298_06_18": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1298_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Radioactive Iodine therapy (RAI) treatment for thyrotoxicosis"
+ },
+ "radiofrequency-ablation-rfa-varicose-vein-treatment": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1498_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Radiofrequency Ablation (RFA) for varicose vein treatment"
+ },
+ "radiotherapy-for-benign-conditions-ghpi1689_10_21": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1689_12_24",
+  "review_due": "2027-12",
+  "review_due_text": "December 2027",
+  "status": "ok",
+  "title": "Radiotherapy for benign conditions"
+ },
+ "radiotherapy-for-cancers-of-the-penis": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1931_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Radiotherapy for cancers of the penis"
+ },
+ "radiotherapy-for-lymphoma-hodgkin-lymphoma-or-non-hodgkin-lymphoma": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1897_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Radiotherapy for Lymphoma  (Hodgkin Lymphoma or Non-Hodgkin Lymphoma)"
+ },
+ "radiotherapy-for-skin-cancer-ghpi1690_10_21": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1690_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Radiotherapy for skin cancer"
+ },
+ "radiotherapy-frequently-asked-questions-ghpi1691_10_21": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1691_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Radiotherapy frequently asked questions"
+ },
+ "radiotherapy-late-effects-service": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1764_11_25",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "Radiotherapy Late Effects Service"
+ },
+ "radiotherapy-to-the-head-and-neck-ghpi1692_10_21": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1692_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Radiotherapy to the Head and Neck"
+ },
+ "radiotherapy-to-the-oesophagus-ghpi1682_10_21": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1682_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Radiotherapy to the oesophagus"
+ },
+ "rapid-access-prostate-imaging-and-diagnosis-rapid-ghpi1603": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1603_12_23",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Rapid Access Prostate Imaging and Diagnosis (RAPID) Service"
+ },
+ "rapid-access-skin-assessment-clinic": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1440_08_24",
+  "review_due": "2027-08",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "Rapid Access Skin Assessment Clinic"
+ },
+ "receiving-an-iron-infusion-ghpi1337": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1337_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Having an iron infusion"
+ },
+ "rectal-cancer": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0584_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Rectal cancer"
+ },
+ "recurrent-pregnancy-loss": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1639_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Recurrent Pregnancy Loss"
+ },
+ "reflex-neurally-mediated-syncope": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0319_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Reflex (Neurally Mediated) Syncope"
+ },
+ "refusal-blood-transfusion-or-blood-products-adults": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1354_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Refusal of a blood transfusion or blood products (adults)"
+ },
+ "rehabilitation-following-your-hip-fracture-2018": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0273_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Rehabilitation following your hip fracture"
+ },
+ "remembering-your-baby": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0846_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Remembering Your Baby"
+ },
+ "renal-assessment-procedure-unit-rapu": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1925_09_25",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Renal Assessment & Procedure Unit (RAPU)"
+ },
+ "renal-biopsy": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0098_11_23",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Renal biopsy"
+ },
+ "renal-psychology-service-for-kidney-patients": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1572_12_23",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Renal Psychology Service for kidney patients"
+ },
+ "retina-eye-imaging-appointment": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI1916_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Retina (Eye) Imaging Appointment"
+ },
+ "reversal-of-hartmanns-procedure": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0761_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Reversal of Hartmann’s procedure"
+ },
+ "rifampicin-and-clindamycin-treatment-for-hidradenitis-suppurativa-ghpi1625": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1625_10_23",
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Rifampicin and Clindamycin treatment for Hidradenitis Suppurativa"
+ },
+ "right-hemicolectomy-or-extended-right-hemicolectomy": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0582_08_25",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Right hemicolectomy or extended right hemicolectomy"
+ },
+ "risks-of-having-x-rays-and-ct-scans-during-pregnancy": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1899_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Risks of having X-rays and CT scans during pregnancy"
+ },
+ "robotic-assisted-laparoscopic-radical-prostatectomy": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1286_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Robotic assisted laparoscopic radical prostatectomy"
+ },
+ "robotically-assisted-total-laparoscopic-hysterectomy-tlh-ghpi1562": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1562_12_25",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Robotically assisted Total  Laparoscopic Hysterectomy (RATLH)"
+ },
+ "sacrocolpopexy-ghpi1283_09_21": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1283_08_25",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Sacrocolpopexy"
+ },
+ "sacrospinous-fixation-and-pelvic-floor-repair": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0084_12_24",
+  "review_due": "2027-12",
+  "review_due_text": "December 2027",
+  "status": "ok",
+  "title": "Sacrospinous fixation and pelvic floor repair"
+ },
+ "same-day-emergency-care-sdec": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1758_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Same Day Emergency Care (SDEC)"
+ },
+ "self-administration-of-a-phosphate-enema-ghpi1236": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1236_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Endoscopy: Self-administration of a phosphate enema"
+ },
+ "self-administration-of-subcutaneous-systemic-anticancer-therapy-sact": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1937_12_25",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Self-administration of  Subcutaneous Systemic AntiCancer Therapy (SACT)"
+ },
+ "self-discharge-ghpi1697_10_21": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHP11697_08_24",
+  "review_due": "2027-08",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "Self-discharge"
+ },
+ "self-titration-of-basal-insulin-at-home-for-gestational-diabetes-gdm": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1928_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Self-titration of basal insulin at home for Gestational Diabetes (GDM)"
+ },
+ "semen-analysis-andrology-producing-a-sample-of-semen-for-examination": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0464_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Semen analysis (Andrology) Producing a sample of semen for examination"
+ },
+ "septoplasty-aftercare-advice-ent": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1910_06_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Septoplasty aftercare advice (ENT)"
+ },
+ "services-and-charities-providing-support-for-people-with-skin-conditions": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Services and charities providing support for people with skin conditions"
+ },
+ "simple-exercises-encourage-weight-loss": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1401_03_26",
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "Simple exercises to encourage weight loss"
+ },
+ "sip-til-send-what-do-l-need-to-know": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1904_04_25",
+  "review_due": "2028-04",
+  "review_due_text": "April 2028",
+  "status": "ok",
+  "title": "Sip Til Send - What do l need to know?"
+ },
+ "skeletal-survey-and-head-scans-for-children-under-2-years-of-age-ghpi1630": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1630_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Skeletal survey and head scans for children under 2 years of age"
+ },
+ "skin-care-advice-for-patients-who-are-having-radiotherapy-treatment": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1730_05_25",
+  "review_due": "2028-05",
+  "review_due_text": "May 2028",
+  "status": "ok",
+  "title": "Skin care advice for patients who are having radiotherapy treatment"
+ },
+ "sleep-apnoea-screening": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0948_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Sleep apnoea screening"
+ },
+ "smoking-and-pregnancy": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1948_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Smoking and Pregnancy"
+ },
+ "soft-tissue-injuries-affecting-wrist-and-hand": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0878_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Soft tissue injuries affecting the wrist and hand"
+ },
+ "soft-tissue-injuries-to-the-foot-and-ankle": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0028_03_24",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Soft tissue injuries to the foot and ankle"
+ },
+ "sound-sensitivity-children-ghpi1602": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1602_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Sound sensitivity in children"
+ },
+ "specialist-nursing-support-for-people-with-secondary-breast-cancer-ghpi1638": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1638_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Specialist nursing support for people with Secondary Breast Cancer"
+ },
+ "specialist-palliative-care-psychology-service": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1879_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Specialist Palliative Care Psychology Service"
+ },
+ "sperm-injection-icsi": {
+  "checked": "2026-07-11T00:57:12+01:00",
+  "ref": "GHPI0466_03_24",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Intracytoplasmic Sperm Injection (ICSI)"
+ },
+ "sperm-storage-patients-undergoing-radiotherapy-or-chemotherapy": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0145_12_25",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Sperm storage for patients having cancer treatment"
+ },
+ "spiking": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1714_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Spiking"
+ },
+ "spiritual-care-for-patients-families-carers-and-staff": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1316_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Spiritual Care for patients, families, carers and staff"
+ },
+ "spironolactone-for-acne-women": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1915_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Spironolactone for Acne (Women)"
+ },
+ "spontaneous-primary-pneumothorax": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1005_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Spontaneous primary pneumothorax"
+ },
+ "squeezy-connect-maternity": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1891_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Squeezy Connect ‘Maternity’"
+ },
+ "st-marks-formula-electrolyte-drink": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0247_02_23",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "St Mark’s formula electrolyte drink"
+ },
+ "stereotactic-ablative-body-radiotherapy-sabr-for-limited-spread-of-cancer-oligometastases": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1684_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Stereotactic Ablative Body Radiotherapy (SABR) For limited spread of cancer (oligometastases)"
+ },
+ "stereotactic-ablative-body-radiotherapy-sabr-ghpi1683_10_21": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1683_12_24",
+  "review_due": "2027-12",
+  "review_due_text": "December 2027",
+  "status": "ok",
+  "title": "Stereotactic Ablative Body Radiotherapy (SABR) For non-small cell lung cancer"
+ },
+ "sterile-biobag-larvae-maggots-for-use-in-the-removal-of-unwanted-tissue": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0155_12_24",
+  "review_due": "2027-12",
+  "review_due_text": "December 2027",
+  "status": "ok",
+  "title": "Sterile Biobag Larvae (maggots) for use in the removal of unwanted tissue"
+ },
+ "stroke-discharge-care-plan": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1224_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Stroke Discharge Care Plan"
+ },
+ "subconjunctival-haemorrhage": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0195_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Subconjunctival haemorrhage"
+ },
+ "support-for-carers-of-people-living-with-dementia": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1852_06_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Support for carers of people living with dementia"
+ },
+ "support-newly-diagnosed-babies-hearing-loss": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1254_10_25",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Support for newly diagnosed babies with hearing loss"
+ },
+ "supporting-a-person-living-with-dementia-and-their-carer-in-outpatient-department": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1524_03_26",
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "Supporting a person living with dementia and their carer in Outpatient Department"
+ },
+ "surgical-management-miscarriage": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1454_05_25",
+  "review_due": "2028-05",
+  "review_due_text": "May 2028",
+  "status": "ok",
+  "title": "Surgical management of miscarriage under local anaesthesia (MVA)"
+ },
+ "surgical-management-miscarriage-using-general-anaesthesia-ghpi1223": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1223_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Surgical management of miscarriage using general anaesthesia"
+ },
+ "surgical-wounds-and-preventing-infections": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1431_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Surgical wounds and preventing infections"
+ },
+ "suspected-broken-nose-nasal-fracture": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1612_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Suspected broken nose (nasal fracture)"
+ },
+ "suspected-first-seizure": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1514_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Suspected first seizure"
+ },
+ "suspected-testicular-cancer-pathway": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1947_03_26",
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "Suspected Testicular Cancer Pathway"
+ },
+ "taking-children-or-young-people-home-after-sedation": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1432_09_23",
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Taking children or young people home after sedation"
+ },
+ "taking-your-baby-home-following-their-death-ghpi0700": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0700_03_26",
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "Taking your baby home following their death"
+ },
+ "temporal-artery-biopsy-ghpi1651": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1651_06_24",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "Temporal Artery Biopsy"
+ },
+ "temporary-changes-easy-read": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "status": "no-date",
+  "title": "Temporary changes (easy read)"
+ },
+ "temporary-tracheostomy-ghpi0547_09_18": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0547_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Temporary tracheostomy"
+ },
+ "testing-for-ketones-sick-day-rules-in-type-1-diabetes": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1766_11_25",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "Testing for Ketones & Sick Day Rules in Type 1 Diabetes"
+ },
+ "tests-for-urinary-flow-rate-with-ultrasound-bladder-scan": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0680_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Tests for urinary flow rate with ultrasound bladder scan"
+ },
+ "the-5hiaa-urine-test": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1543_09_25",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "The 5HIAA urine test"
+ },
+ "the-colposcopy-clinic": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0298_06_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "The Colposcopy Clinic"
+ },
+ "the-gloucestershire-brain-injury-team": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0249_02_26",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
+  "status": "ok",
+  "title": "The Gloucestershire Brain Injury Team"
+ },
+ "the-inflammatory-bowel-disease-ibd-service": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0442_03_26",
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "The Inflammatory Bowel Disease (IBD) Service"
+ },
+ "the-stroke-patient-journey": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1836_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "The Stroke Patient Journey"
+ },
+ "the-use-of-essential-oils-and-massage-to-help-with-your-labour": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0780_09_23",
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "The use of essential oils and massage to help with your labour"
+ },
+ "therapy-link": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1713_09_25",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Therapy Link"
+ },
+ "tivoli-ward-information": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1711_05_26",
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Tivoli ward information"
+ },
+ "tonsillectomy-and-adenotonsillectomy": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1923_09_25",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Tonsillectomy and Adenotonsillectomy"
+ },
+ "total-laparoscopic-hysterectomy-tlh-ghpi0869": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0869_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Total Laparoscopic Hysterectomy (TLH)"
+ },
+ "trabeculectomy-for-the-treatment-of-glaucoma": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0206_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Trabeculectomy for the treatment of glaucoma"
+ },
+ "tracheostomy": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1492_06_24",
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Tracheostomy"
+ },
+ "trans-urethral-resection-bladder-tumour-turbt": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0725_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Trans Urethral Resection of Bladder Tumour (TURBT)"
+ },
+ "trans-urethral-resection-prostate-turp-ghpi0108_01_18": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0108_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Trans Urethral Resection of the Prostate (TURP)"
+ },
+ "transanal-endoscopic-microsurgery-tems": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0832_08_25",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Transanal Endoscopic Microsurgery (TEMs)"
+ },
+ "transoesophageal-echocardiography-toe-ghpi0758": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0758_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Transoesophageal Echocardiography (TOE)"
+ },
+ "transperineal-biopsy-prostate-ghpi1563": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1563_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Transperineal biopsy of the prostate"
+ },
+ "transrectal-ultrasound-scan": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0564_08_25",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Transrectal ultrasound scan"
+ },
+ "treating-your-leg-ulcer": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0697_12_23",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Treating your leg ulcer"
+ },
+ "treatment-early-vocal-cord-cancer": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0974_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Treatment for early vocal cord cancer"
+ },
+ "treatment-of-an-ectopic-pregnancy-with-methotrexate": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0975_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Treatment of an ectopic pregnancy with methotrexate"
+ },
+ "treatment-of-meticillin-resistant-staphylococcus-aureus-mrsa": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0329_11_23",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Treatment of Meticillin-resistant Staphylococcus aureus (MRSA)"
+ },
+ "trial-without-catheter-twoc": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1411_09_24",
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "Trial Without Catheter (TWOC)"
+ },
+ "tunnelled-central-venous-catheter-cvc": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1873_12_24",
+  "review_due": "2027-12",
+  "review_due_text": "December 2027",
+  "status": "ok",
+  "title": "Tunnelled Central Venous Catheter (CVC)"
+ },
+ "ultrasound-anomaly-scan": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1860_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Ultrasound Anomaly Scan"
+ },
+ "ultrasound-cervical-length-assessment-scan": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1861_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Ultrasound Cervical Length Assessment Scan"
+ },
+ "ultrasound-dating-scan": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1862_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Ultrasound Dating Scan"
+ },
+ "ultrasound-growth-scan": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1863_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Ultrasound Growth Scan"
+ },
+ "ultrasound-placental-site-scan": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1864_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Ultrasound Placental Site Scan"
+ },
+ "ultrasound-repeat-anomaly-scan": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1865_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Ultrasound Repeat Anomaly Scan"
+ },
+ "ultrasound-scan-with-fetal-medicine": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1866_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Ultrasound Scan with Fetal Medicine"
+ },
+ "ultrasound-viability-scan": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1867_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Ultrasound Viability Scan"
+ },
+ "undergoing-enteroscopy": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1246_02_26",
+  "status": "no-date",
+  "title": "Having an enteroscopy"
+ },
+ "undergoing-flexible-sigmoidoscopy-outpatient": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1079_04_26",
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Flexible sigmoidoscopy as an outpatient"
+ },
+ "undergoing-video-capsule-endoscopy-vce": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI1247_08_24",
+  "review_due": "2027-08",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "Having a Video Capsule Endoscopy (VCE)"
+ },
+ "understanding-benign-paroxysmal-positional-vertigo-bppv": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0243_10_23",
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Understanding Benign Paroxysmal Positional Vertigo (BPPV)"
+ },
+ "understanding-under-breast-soreness-intertrigo": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1768_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Understanding under-breast soreness (Candida Intertrigo)"
+ },
+ "ureteroscopy-ghpi1677_07_21": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1677_05_24",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Ureteroscopy"
+ },
+ "urethral-bulking-agent-bulkamid-for-the-treatment-of-stress-incontinence": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1583_08_23",
+  "review_due": "2026-08",
+  "review_due_text": "August 2026",
+  "status": "ok",
+  "title": "Urethral bulking agent (Bulkamid®) for the treatment of stress incontinence"
+ },
+ "urgent-urology-cancer-exclusion": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1856_11_24",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Urgent Suspected Urology Cancer Exclusion"
+ },
+ "urinary-tract-infection-ghpi1662": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1662_01_26",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Urinary Tract Infection"
+ },
+ "urodynamic-investigation": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0622_01_25",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Urodynamic investigation"
+ },
+ "use-metformin-polycystic-ovaries-ghpi0467_11_18": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0467_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "The use of metformin in Polycystic Ovaries"
+ },
+ "use-of-heparins-during-pregnancy-and-after-birth-faith-and-personal-choices": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1943_02_26",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
+  "status": "ok",
+  "title": "Use of Heparins during pregnancy and after birth Faith and personal choices"
+ },
+ "using-sling": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0941_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Using a sling"
+ },
+ "uterine-fibroids-leiomyomas": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0461_09_23",
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Uterine fibroids (leiomyomas)"
+ },
+ "vaccination-against-hepatitis-b-renal-patients": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0783_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Vaccination against Hepatitis B for renal patients"
+ },
+ "vaginal-bleeding-and-pain-in-early-pregnancy": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1203_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Vaginal bleeding and pain in early pregnancy"
+ },
+ "vaginal-dilators-and-sexual-care-ghpi1685_10_21": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1685_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Vaginal Dilators and Sexual Care"
+ },
+ "vaginal-hysterectomy-and-pelvic-floor-repair-ghpi0714_06_19": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0714_12_24",
+  "review_due": "2027-12",
+  "review_due_text": "December 2027",
+  "status": "ok",
+  "title": "Vaginal hysterectomy and pelvic floor repair"
+ },
+ "vaginal-pessary-for-pelvic-organ-prolapse": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1878_12_24",
+  "review_due": "2027-12",
+  "review_due_text": "December 2027",
+  "status": "ok",
+  "title": "Vaginal pessary for pelvic organ prolapse"
+ },
+ "varenicline": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1926_09_25",
+  "status": "no-date",
+  "title": "Varenicline"
+ },
+ "varicose-vein-surgery-ghpi0204": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0204_02_26",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
+  "status": "ok",
+  "title": "Varicose vein surgery"
+ },
+ "venous-thrombo-embolism-vte": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1040_02_26",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
+  "status": "ok",
+  "title": "Venous Thrombo-Embolism (VTE)"
+ },
+ "viral-gastroenteritis": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0550_09_25",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Viral gastroenteritis"
+ },
+ "viscopaste": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1743_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Viscopaste"
+ },
+ "visiting-a-patient-in-the-critical-care-department": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1905_06_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Visiting a patient in the Critical Care Department"
+ },
+ "vitrectomy-surgery": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0649_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Vitrectomy surgery"
+ },
+ "vitro-fertilisation-ivf": {
+  "checked": "2026-07-11T00:54:27+01:00",
+  "ref": "GHPI0456_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "In Vitro Fertilisation (IVF)"
+ },
+ "vulvectomy-ghpi1565": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1565_03_26",
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "Vulvectomy"
+ },
+ "vulvodynia": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1660_02_24",
+  "review_due": "2027-02",
+  "review_due_text": "February 2027",
+  "status": "ok",
+  "title": "Vulvodynia"
+ },
+ "vulvovaginal-lichen-planus": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1769_02_26",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
+  "status": "ok",
+  "title": "Vulvovaginal Lichen Planus"
+ },
+ "welcome-to-the-cardiac-ward-and-coronary-care-unit-at-cheltenham-general-hospital": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1790_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Welcome to Cardiology Wards 1 & 2 at Gloucestershire Royal Hospital"
+ },
+ "welcome-to-transitional-care": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1806_09_23",
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Welcome to Transitional Care"
+ },
+ "welcome-to-ward-7a-gloucestershire-royal-hospital": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1320_02_25",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Welcome to Ward 7a Gloucestershire Royal Hospital"
+ },
+ "what-is-a-cataract": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0100_07_25",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "What is a cataract?"
+ },
+ "what-to-do-after-a-ct-scan-of-your-bowel-easy-read": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "What to do after a CT scan of your bowel (easy read)"
+ },
+ "when-your-waters-break-early": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "status": "no-date",
+  "title": "When your waters break early"
+ },
+ "wide-local-excision-wle-vulval-lesion-ghpi1566": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1566_03_26",
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "Wide Local Excision (WLE) of a vulval lesion"
+ },
+ "wound-care": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0767_01_24",
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Wound care advice"
+ },
+ "wound-care-advice-following-skin-surgery-ent": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1911_06_25",
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Wound care advice following skin surgery (ENT)"
+ },
+ "wound-care-advice-following-the-removal-of-a-skin-lesion": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1760_01_26",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Wound care advice following the removal of a skin lesion"
+ },
+ "wound-care-after-skin-surgery": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1426_11_25",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "Wound care after skin surgery"
+ },
+ "x-ray-or-ultrasound-guided-steroid-joint-injections": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1560_09_25",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "X-ray or ultrasound guided steroid joint injections"
+ },
+ "yag-laser-capsulotomy-ghpi0354": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0354_04_24",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Yag laser capsulotomy"
+ },
+ "your-anaesthetic-ghpi0005_10_21pdf": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI0005_08_24",
+  "review_due": "2027-08",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "Your anaesthetic"
+ },
+ "your-breast-care-psychology-appointment": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI753_08_25",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Your breast care psychology appointment"
+ },
+ "your-broken-hip": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1763_10_25",
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Your broken hip"
+ },
+ "your-child-has-had-a-successful-allergen-challenge": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1313_09_25",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Your child has had a successful allergen challenge"
+ },
+ "your-child-has-had-an-unsuccessful-allergen-challenge": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1314_09_25",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Your child has had an unsuccessful allergen challenge"
+ },
+ "your-childs-eye-drops": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1499_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Your child’s eye drops"
+ },
+ "your-new-hip-handbook": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1268_07_23",
+  "review_due": "2026-07",
+  "review_due_text": "July 2026",
+  "status": "ok",
+  "title": "Your new hip handbook"
+ },
+ "your-new-knee": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1269_07_23",
+  "review_due": "2026-07",
+  "review_due_text": "July 2026",
+  "status": "ok",
+  "title": "Your new knee handbook"
+ },
+ "your-vascular-surgery-ghpi1627": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1627_08_25",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Your Vascular Surgery"
+ },
+ "zipzocs": {
+  "checked": "2026-07-11T01:00:00+01:00",
+  "ref": "GHPI1744_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "ZipZocs"
+ }
+}

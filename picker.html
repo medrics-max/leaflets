@@ -1,0 +1,796 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Patient information — choose leaflets</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0; padding: 18px 16px; background: #fff; color: #111;
+    max-width: 620px; margin-inline: auto; line-height: 1.4;
+  }
+  h1 { font-size: 1.3rem; margin: 0 0 2px; color: #005eb8; }
+  .sub { color: #666; font-size: 0.9rem; margin: 0 0 16px; }
+  #search {
+    width: 100%; padding: 12px 14px; font-size: 1rem;
+    border: 1px solid #c4ccd6; border-radius: 10px;
+  }
+  .chips { margin: 10px 0 4px; }
+  .chip {
+    display: inline-block; background: #e8f0fb; color: #00437a;
+    border-radius: 16px; padding: 6px 12px; margin: 4px 4px 0; font-size: 0.85rem;
+  }
+  .chip button { border: none; background: none; color: #00437a; font-weight: 700; margin-left: 6px; cursor: pointer; font-size: 0.95rem; }
+  .related { margin: 2px 0 6px; font-size: 0.85rem; color: #555; }
+  .related .rlabel { margin-right: 6px; }
+  .related .chip {
+    background: #fff;
+    border: 1px dashed #9db3c8;
+    color: #00437a;
+    cursor: pointer;
+    font-size: 0.85rem;
+  }
+  .related .chip:hover { background: #eef4fa; }
+  .specrow { display: inline-flex; align-items: center; gap: 6px; margin-left: 10px; font-size: 0.85rem; color: #444; }
+  .specrow select { font-size: 0.85rem; padding: 3px 6px; border-radius: 6px; border: 1px solid #aab4bf; background: #fff; }
+  .spechint { font-size: 0.75rem; color: #888; border-bottom: 1px dotted #aaa; cursor: help; }
+  .nudge {
+    background: #eef4fa; border: 1px solid #bcd2e8; border-radius: 8px;
+    padding: 8px 12px; margin: 8px 0; font-size: 0.9rem; color: #1c3d5a;
+  }
+  .nudge button { margin-left: 8px; font-size: 0.85rem; border-radius: 6px; border: 1px solid #005eb8; background: #fff; color: #005eb8; padding: 3px 10px; cursor: pointer; }
+  .nudge button.yes { background: #005eb8; color: #fff; }
+  .count { font-size: 0.85rem; color: #666; margin: 8px 0; }
+  .results { list-style: none; padding: 0; margin: 0; }
+  .results li {
+    display: flex; align-items: flex-start; gap: 10px;
+    padding: 11px 6px; border-bottom: 1px solid #eef1f5; cursor: pointer;
+  }
+  .results li:active { background: #f5f8fc; }
+  .results input { margin-top: 3px; width: 20px; height: 20px; flex: none; }
+  .results .t { font-size: 0.97rem; }
+  .tag {
+    display: inline-block; font-size: 0.7rem; font-weight: 600; padding: 1px 7px;
+    border-radius: 10px; margin-left: 6px; vertical-align: middle;
+  }
+  .tag.leaflet { background:#e3f1e6; color:#1c6b2c; }
+  .tag.medicines { background:#fdeede; color:#9a5a00; }
+  .tag.advice { background:#e7e9fb; color:#33379a; }
+  .tag.service { background:#e8f0fb; color:#00437a; }
+  .tag.nhs { background:#eef1f5; color:#444; }
+  .tag.stale { background:#fdecea; color:#7a271a; }
+  .actions { position: sticky; bottom: 0; background: #fff; padding: 12px 0 4px; border-top: 1px solid #eef1f5; margin-top: 8px; }
+  button.primary {
+    width: 100%; padding: 14px; font-size: 1.05rem; font-weight: 700;
+    background: #005eb8; color: #fff; border: none; border-radius: 10px; cursor: pointer;
+  }
+  button.primary:disabled { background: #aab7c6; }
+  .clear { background: none; border: none; color: #005eb8; font-size: 0.9rem; cursor: pointer; margin-top: 8px; }
+  #out { text-align: center; margin-top: 18px; }
+  #qr { display: inline-block; padding: 12px; background: #fff; border: 1px solid #e0e5ec; border-radius: 12px; }
+  #link { font-size: 0.8rem; color: #555; word-break: break-all; margin-top: 10px; }
+  .copy { margin-top: 10px; padding: 8px 16px; border: 1px solid #005eb8; background: #fff; color: #005eb8; border-radius: 8px; cursor: pointer; }
+  .hint { font-size: 0.85rem; color: #888; }
+  footer { margin-top: 30px; font-size: 0.78rem; color: #999; text-align: center; }
+  .head { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+  #trustsel {
+    flex: none; max-width: 46%; min-width: 130px;
+    padding: 8px 10px; font-size: 0.85rem; font-weight: 600;
+    color: #00437a; background: #e8f0fb;
+    border: 1px solid #c4ccd6; border-radius: 8px; cursor: pointer;
+    text-overflow: ellipsis;
+  }
+  @media (max-width: 480px) {
+    .head { flex-direction: column; align-items: stretch; gap: 6px; }
+    #trustsel { max-width: 100%; }
+  }
+  #demobanner {
+    background: #fff8e6; border: 1px solid #f3d77a; border-radius: 8px;
+    padding: 10px 12px; margin: 0 0 14px; font-size: 0.85rem; color: #6b5200;
+    line-height: 1.45;
+  }
+  .demo-tag {
+    display: inline-block; background: #fdecea; color: #7a271a;
+    border: 1px solid #f3b8b0; border-radius: 8px;
+    padding: 6px 12px; margin: 0 0 10px; font-size: 0.85rem; font-weight: 700;
+  }
+</style>
+</head>
+<body>
+<div class="head">
+  <h1>Choose patient information</h1>
+  <select id="trustsel" aria-label="Which trust are you working at?"></select>
+</div>
+<p class="sub">Search, tick what you want, then show the QR code to the patient to scan.
+  <label class="specrow">Rank for:
+    <select id="specsel" aria-label="Rank results for a specialty"></select>
+    <span class="spechint" title="The choice is stored only in this browser and is never sent anywhere.">stays on this device</span>
+  </label>
+</p>
+<div id="specnudge" class="nudge" hidden></div>
+<div id="demobanner" hidden><strong>Demonstration preview.</strong> This trust has not yet approved this tool — for demonstration only, <strong>not for patient use</strong>.</div>
+
+<input id="search" type="search" placeholder="Search (e.g. cellulitis, flucloxacillin, first fit)…" autocomplete="off">
+
+<div id="selected" class="chips"></div>
+<div id="related" class="related"></div>
+<p class="count" id="count">Loading…</p>
+<ul id="results" class="results"></ul>
+
+<div class="actions">
+  <button id="gen" class="primary" disabled>Generate QR code</button>
+  <div style="text-align:center"><button id="clear" class="clear">Clear all</button></div>
+</div>
+
+<div id="out"></div>
+
+<footer>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScPaGRxAf61Mp2P2laqGLZnGTKN-51yiXehssngljz-qATeUA/viewform" target="_blank" rel="noopener" style="color:#005eb8; font-weight:600;">Feedback on this tool</a>
+  <br><br>
+  <span id="credits">Clinical lead: Dr Tom Mitchell, Consultant in Emergency Medicine &amp; Clinical Medical Information Officer</span><br>
+  Software &amp; design: Dr Oscar Harrison<br><br>
+  For clinician use. An independent tool by Medrics linking to patient information published by<br>
+  <span id="trustfoot">Gloucestershire Hospitals NHS Foundation Trust</span> — not provided or endorsed by the trust.
+  <div id="brand" style="margin-top:10px;"></div>
+</footer>
+
+<script src="qrcode.min.js"></script>
+<script>
+const LANDING = "https://medrics-max.github.io/leaflets/";
+// Medrics branding (same pattern as index.html). Leave MEDRICS_URL "" to hide.
+// When the brochure site goes live, point this at the product page:
+// https://medrics.co.uk/leaflets/
+const MEDRICS_URL = "https://medrics.co.uk";
+const MEDRICS_LABEL = "Built by Medrics";
+const MEDRICS_LOGO = "medrics-logo.png";   // falls back to the text label if absent
+const TRUST_KEY = "medrics_trust";
+// Say where each result comes from, not just what it is — a clinician choosing
+// between "DVT" entries needs to see trust leaflet vs national NHS page at a glance.
+const TAGLABEL = { leaflet:"Trust leaflet", medicines:"NHS medicine", advice:"Local advice", service:"Trust service", nhs:"NHS info page" };
+
+// Trust registry (trusts.json). Fallback keeps the page working if it can't load.
+let REGISTRY = null, TRUST = null;
+const FALLBACK_REGISTRY = { default: "gloucestershire", trusts: [{
+  id: "gloucestershire", name: "Gloucestershire Hospitals NHS Foundation Trust",
+  short_name: "Gloucestershire Hospitals", status: "live", data_dir: "." }] };
+
+function liveTrusts() { return REGISTRY.trusts.filter(t => t.status === "live"); }
+// Only trusts that have agreed to the tool are listed publicly. Unlisted
+// (not-yet-approved) trusts stay out of the dropdown unless ?preview is in
+// the URL or the trust is opened directly via ?t=<id> — demo use only.
+function selectableTrusts(previewMode, tParam) {
+  return liveTrusts().filter(t =>
+    t.listed !== false || previewMode || t.id === tParam);
+}
+function dirFor(t) {
+  const d = t.data_dir || ("trusts/" + t.id);
+  return d === "." ? "" : d.replace(/\/?$/, "/");
+}
+// The selected trust's own content (leaflets, service pages, locally-authored
+// advice cards — advice carries trust-specific phone numbers, so it is
+// per-trust), plus the shared national layer (NHS pages, medicines) so common
+// gaps are covered whichever trust is chosen.
+function sourcesFor(t) {
+  const dir = dirFor(t);
+  return [
+    [dir + "leaflets.json", "leaflet"],
+    [dir + "services.json", "service"],
+    [dir + "local_advice.json", "advice"],
+    ["nhs_resources.json", "nhs"],
+    ["medicines.json", "medicines"],
+  ];
+}
+
+// Common ED abbreviations / lay terms -> words that appear in the leaflet titles.
+// Typing the key also searches for these expansions. Keys with spaces are
+// matched against the whole query (phrases), the rest word-by-word.
+const SYNONYMS = {
+  gca:["giant cell","temporal arteritis"], af:["atrial fibrillation"], afib:["atrial fibrillation"],
+  svt:["supraventricular"],
+  dvt:["deep vein"], pe:["pulmonary embol"], vte:["deep vein","pulmonary embol","anticoagulant","clot"],
+  tia:["transient ischaem","mini stroke"], cva:["stroke"],
+  mi:["heart attack","myocardial"],
+  stemi:["heart attack","myocardial"], nstemi:["heart attack","myocardial"],
+  acs:["chest pain","angina","heart attack"], copd:["chronic obstructive"],
+  ecopd:["chronic obstructive","exacerbation"],
+  uti:["urinary tract","urine infection"], lrti:["pneumonia","chest infection"],
+  urti:["sore throat","throat"], gord:["heartburn","reflux"], gerd:["heartburn","reflux"],
+  dv:["diarrhoea","vomiting","gastroenter"], "d&v":["diarrhoea","vomiting","gastroenter"],
+  nof:["hip fracture","neck of femur","femoral neck"], bppv:["vertigo","positional"],
+  ppi:["omeprazole","lansoprazole"], nsaid:["ibuprofen","naproxen"], abx:["antibiotic"],
+  gtn:["glyceryl trinitrate"], doac:["apixaban","rivaroxaban","anticoagulant"],
+  noac:["apixaban","rivaroxaban","anticoagulant"], epau:["early pregnancy"],
+  anticoagulation:["anticoagulant","blood thinner"], warfarin:["anticoagulant"],
+  clexane:["enoxaparin","anticoagulant","heparin"], enoxaparin:["clexane","anticoagulant","heparin"],
+  lmwh:["enoxaparin","heparin","anticoagulant"],
+  epipen:["adrenaline auto"], aki:["kidney injury"], ckd:["kidney"],
+  ccf:["heart failure"], chf:["heart failure"], hf:["heart failure"], sdec:["same day emergency"],
+  dka:["diabetes","ketoacidosis"], ibs:["irritable bowel"], pmr:["polymyalgia"],
+  sah:["subarachnoid","headache"], ent:["ear","nose","throat"], cap:["pneumonia"],
+  tummy:["abdominal","stomach"], abdo:["abdominal","stomach"], clot:["thrombosis","embol"],
+  fit:["seizure"], fits:["seizure"],
+  sob:["breathless","shortness of breath","breathing"],
+  syncope:["fainting","blackout","collapse"], collapse:["fainting","blackout"],
+  epistaxis:["nosebleed"], pyrexia:["fever","temperature"], febrile:["fever","temperature"],
+  haematuria:["blood in urine"], haemoptysis:["coughing up blood"],
+  fx:["fracture","broken"], fracture:["broken"], broken:["fracture"],
+  loc:["head injury","concussion","fainting","blackout"], tbi:["head injury","brain injury"],
+  htn:["blood pressure","hypertension"], dm:["diabetes"], t2dm:["diabetes"], t1dm:["diabetes"],
+  bm:["blood sugar","glucose"],
+  od:["overdose","poisoning"], overdose:["poisoning","crisis"], etoh:["alcohol"],
+  lp:["lumbar puncture"], ces:["cauda equina"],
+  hypo:["low blood sugar","hypoglycaemia"], fb:["foreign body"],
+  paeds:["child","children","paediatric"], peads:["child","children","paediatric"],
+  kids:["child","children"],
+  pv:["vaginal"], pr:["rectal","bottom"], torsion:["testicle","testicular"],
+  msk:["musculoskeletal","sprain","strain"], pid:["pelvic inflammatory"],
+  ome:["glue ear"], twoc:["catheter"],
+  wound:["cut","laceration"], laceration:["cut","wound"],
+  "heart attack":["chest pain","angina"],
+  "off legs":["falls","weakness"],
+  "water infection":["urinary tract","urine infection"],
+  "gi bleed":["vomiting blood","rectal bleeding","bleeding from the bottom"],
+  "pr bleed":["rectal bleeding","bleeding from the bottom"],
+  "blood thinner":["anticoagulant"], "blood thinners":["anticoagulant"]
+};
+const PHRASE_KEYS = Object.keys(SYNONYMS).filter(k => k.includes(" "));
+// Single-word synonym lookup keyed by the FOLDED key, because queries are
+// folded before lookup (see termGroups).
+const SYN_FOLDED = {};
+for (const [k, v] of Object.entries(SYNONYMS)) SYN_FOLDED[fold(k)] = v;
+
+// Normalise for matching: lowercase, drop apostrophes and hyphens ("x-ray" ==
+// "xray"), fold UK/US digraphs (diarrhoea/diarrhea, paediatric/pediatric).
+// Applied to BOTH the query and the titles, so it only needs to be consistent.
+function fold(s) {
+  return s.toLowerCase().replace(/[’']/g, "").replace(/[-–—]/g, "")
+          .replace(/ae/g, "e").replace(/oe/g, "e");
+}
+function reEsc(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+
+// Ranking: trust's own content first, then locally-authored advice, then the
+// shared national layer.
+const TYPE_BOOST = { leaflet: 6, advice: 5, medicines: 3, service: 2, nhs: 1 };
+
+// Break the query into term groups. An item matches when EVERY group has at
+// least one alternative present; alternatives marked wb (abbreviations) must
+// match as a whole word so "af" doesn't hit "staff".
+function termGroups(q) {
+  let s = fold(q).replace(/#/g, " fracture ");   // "wrist #" -> wrist fracture
+  const groups = [];
+  for (const key of PHRASE_KEYS) {
+    const fk = fold(key);
+    if (s.includes(fk)) {
+      s = s.replace(fk, " ");
+      groups.push([{ t: fk, wb: false }, ...SYNONYMS[key].map(x => ({ t: fold(x), wb: false }))]);
+    }
+  }
+  for (const w of s.split(/\s+/).map(x => x.replace(/[^a-z0-9&+]/g, "")).filter(Boolean)) {
+    // Look up by FOLDED key: the query has already been through fold(), which
+    // rewrites ae->e — so "paeds" arrives here as "peds" and a raw SYNONYMS
+    // lookup would miss it (a correctly spelled query returning nothing while
+    // the typo "peads" worked — found in the 2026-07-13 review).
+    const syn = SYN_FOLDED[w];
+    groups.push(syn
+      ? [{ t: w, wb: true }, ...syn.map(x => ({ t: fold(x), wb: false }))]
+      : [{ t: w, wb: false }]);
+  }
+  return groups;
+}
+
+function scoreItem(it, groups, qf) {
+  let score = 0;
+  for (const alts of groups) {
+    let best = 0;
+    for (const { t, wb } of alts) {
+      if (wb) {
+        if (new RegExp("(^|[^a-z0-9])" + reEsc(t) + "($|[^a-z0-9])").test(it._hay)) best = Math.max(best, 8);
+        continue;
+      }
+      if (it._title.includes(t)) {
+        best = Math.max(best, new RegExp("(^|[^a-z0-9])" + reEsc(t)).test(it._title) ? 8 : 5);
+      } else if (it._hay.includes(t)) {
+        best = Math.max(best, 2);   // slug-only match
+      }
+    }
+    if (!best) return 0;            // every term group must match
+    score += best;
+  }
+  if (it._title === qf) score += 15;
+  else if (it._title.startsWith(qf)) score += 3;   // small — must not beat the leaflet-first boost
+  score += TYPE_BOOST[it.type] || 0;
+  score -= Math.min(3, Math.floor(it._title.length / 50));  // prefer concise titles
+  // Specialty ranking (opt-in, on-device): profile-relevant items rise, the
+  // rest sink slightly — see SPEC_BOOST/SPEC_MISS. Only reorders items that
+  // matched the query; it never resurrects a rejected item.
+  if (SPEC_TERMS.length) {
+    score += SPEC_TERMS.some(t => it._hay.includes(t)) ? SPEC_BOOST : SPEC_MISS;
+  }
+  // Habit learning (on-device): things this device actually issues rank
+  // higher. Log-damped so a few generations help but can't lock in a bubble:
+  // 1 use +1, 3 uses +2, 7 uses +3, 15+ uses +4. (+ coerces a corrupted
+  // localStorage value to a number instead of poisoning the score with NaN.)
+  const n = +FREQ_MAP[it.slug] || 0;
+  if (n > 0) score += Math.min(4, Math.ceil(Math.log2(n + 1)));
+  // Floor at 1: penalties (long title, off-specialty) may only DEMOTE a
+  // matched item, never push it below the s > 0 results filter — a weak
+  // slug-only match must still be findable with a profile active.
+  return Math.max(1, score);
+}
+
+let ITEMS = [];
+const bySlug = new Map();
+const selected = new Map();   // slug -> item
+
+const $ = id => document.getElementById(id);
+
+function esc(s){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+
+// Review-due dates scraped from the trust's own leaflet pages (reviews.json,
+// written by check_reviews.py). A leaflet past its printed review date gets a
+// "past review" tag so the clinician can prefer a current alternative.
+let REVIEWS = {};
+let BUNDLES = [];
+
+// ---- Improvement telemetry (anonymous, dormant until a URL is pasted) -------
+// Two events, both designed so a trust IG reviewer can approve on sight:
+//   no_results — the search text ONLY when a search found nothing, because a
+//                failed query is a synonym or content gap written by the user.
+//   generate   — the content slugs issued on a QR generation (content stats,
+//                no free text), to improve starter packs and bundles.
+// STRICT BY CONSTRUCTION:
+//   * No identifiers of any kind: no device id, no session id, no cookie, and
+//     Apps Script does not expose the caller's IP — rows can never be linked
+//     to a person or to each other. Anonymous data is outside UK GDPR scope;
+//     we apply the discipline anyway.
+//   * Free text is filtered CLIENT-SIDE before it can leave the device:
+//     letters/space/#&+'- only (any digit — NHS number, DOB, phone — means the
+//     query is NEVER sent), 2–30 chars, one send per query per page load,
+//     2.5s settle so partial keystrokes are not harvested (data minimisation).
+//   * Server re-sanitises identically and free-text rows auto-purge at 90
+//     days (see analytics.gs).
+//   * When enabled, a visible footer line declares exactly what is counted.
+//   * Storing nothing new on the device, so PECR storage rules are untouched.
+// Two sink options, same privacy contract either way:
+//   * Google Apps Script web-app URL (analytics.gs) — zero infrastructure, or
+//   * the company server: <medrics-server>/api/leaflets/telemetry — data never
+//     leaves medrics infrastructure (no Google-as-processor in any trust DPIA).
+let ANALYTICS_URL = "";   // "" = collect nothing
+
+const _sentQueries = new Set();   // in-memory only — dedupe, never persisted
+let _nrTimer = null;
+
+function telemetry(event, value) {
+  if (!ANALYTICS_URL) return;
+  try {
+    const payload = JSON.stringify({
+      event: event,
+      value: String(value || "").slice(0, 200),
+      trust: TRUST ? TRUST.id : ""
+    });
+    if (navigator.sendBeacon) navigator.sendBeacon(ANALYTICS_URL, payload);
+    else fetch(ANALYTICS_URL, { method: "POST", mode: "no-cors", body: payload });
+  } catch (e) { /* telemetry must never break the page */ }
+}
+
+function noteNoResults(q) {
+  if (!ANALYTICS_URL) return;
+  clearTimeout(_nrTimer);
+  const clean = q.trim().toLowerCase();
+  // Letters-and-clinical-punctuation only. A single digit anywhere (NHS
+  // number, DOB, hospital number) means this never leaves the device.
+  if (!/^[a-z #&+'\-]{2,30}$/.test(clean)) return;
+  _nrTimer = setTimeout(() => {
+    const cur = $("search").value.trim().toLowerCase();
+    if (cur !== clean || _sentQueries.has(clean)) return;
+    if (document.querySelector("#results li:not(.hint)")) return;  // gained results meanwhile
+    _sentQueries.add(clean);
+    telemetry("no_results", clean);
+  }, 2500);
+}
+
+function telemetryNotice() {
+  if (!ANALYTICS_URL) return;   // honesty line only when something is counted
+  const f = document.querySelector("footer");
+  if (!f || document.getElementById("telnote")) return;
+  const p = document.createElement("div");
+  p.id = "telnote";
+  p.textContent = "Improvement analytics: this page counts searches that found "
+    + "nothing and which leaflets are issued — anonymously, with no identifiers. "
+    + "Nothing about you or any patient is collected.";
+  f.appendChild(p);
+}
+// -----------------------------------------------------------------------------
+
+// ---- Specialty ranking (on-device only) ------------------------------------
+// The profile choice, and the pick-history used to *suggest* one, live only in
+// this browser's localStorage. Nothing is transmitted; no patient data exists
+// anywhere in this tool. A profile is enabled explicitly by the clinician (or
+// suggested from on-device history and CONFIRMED — never switched on silently).
+const SPEC_KEY = "medrics_specialty";
+const SPEC_HINTS_KEY = "medrics_spec_hints";      // {profileId: count} of past picks
+const SPEC_NUDGE_KEY = "medrics_spec_nudge";      // "dismissed" = asked, said no
+// With a profile active, relevance must beat alphabet: +5 for profile-relevant
+// items and -2 for the rest — a ±7 swing that decisively reorders generic
+// prefix matches (typing "anti" as an acute medic should surface anticoagulants,
+// not Anti-Mullerian Hormone), while a specific search still wins outright
+// because non-matching items are rejected before scoring, not outscored.
+const SPEC_BOOST = 5;
+const SPEC_MISS = -2;
+const NUDGE_MIN_PICKS = 10;                       // classified picks before suggesting
+const NUDGE_MIN_SHARE = 0.6;
+let PROFILES = {};
+let SPEC = null;            // active profile id or null
+let SPEC_TERMS = [];        // folded boost terms of the active profile
+
+function lsGet(k, fallback) {
+  try { return JSON.parse(localStorage.getItem(k)) ?? fallback; } catch (e) { return fallback; }
+}
+function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+
+function setSpecialty(id) {
+  SPEC = PROFILES[id] ? id : null;
+  SPEC_TERMS = SPEC ? PROFILES[SPEC].boost_terms.map(fold) : [];
+  lsSet(SPEC_KEY, SPEC);
+  const sel = $("specsel");
+  if (sel) sel.value = SPEC || "";
+  renderResults();
+}
+
+function initSpecialtyUI() {
+  const sel = $("specsel");
+  if (!sel) return;
+  sel.innerHTML = '<option value="">General (no specialty)</option>' +
+    Object.entries(PROFILES).map(([id, p]) =>
+      `<option value="${esc(id)}">${esc(p.label)}</option>`).join("");
+  const saved = lsGet(SPEC_KEY, null);
+  if (saved && PROFILES[saved]) {
+    SPEC = saved; SPEC_TERMS = PROFILES[saved].boost_terms.map(fold);
+  } else {
+    // Saved profile unknown (renamed, or profiles fetch failed): drop it so a
+    // stale term list can't keep reordering results behind a "General" label.
+    SPEC = null; SPEC_TERMS = [];
+  }
+  sel.value = SPEC || "";
+  sel.onchange = () => { setSpecialty(sel.value); $("specnudge").hidden = true; };
+}
+
+// Classify a generated selection against the profiles and, once the on-device
+// history clearly skews one way, ask ONCE whether to rank that way. Yes =
+// enable; No = never ask again on this device.
+function noteSpecialtyHints(slugs) {
+  const hints = lsGet(SPEC_HINTS_KEY, {});
+  for (const s of slugs) {
+    const it = bySlug.get(s);
+    if (!it) continue;
+    for (const [id, p] of Object.entries(PROFILES)) {
+      if (p.boost_terms.some(t => it._hay.includes(fold(t)))) {
+        hints[id] = (hints[id] || 0) + 1;
+      }
+    }
+  }
+  lsSet(SPEC_HINTS_KEY, hints);
+  maybeNudge(hints);
+}
+
+function maybeNudge(hints) {
+  if (SPEC || lsGet(SPEC_NUDGE_KEY, null) === "dismissed") return;
+  // Only profiles that still exist: a stale hint id (profile renamed, or the
+  // profiles fetch failed) must not throw here — this runs inside generate(),
+  // so an exception would silently brick the QR button.
+  const known = Object.entries(hints).filter(([id]) => PROFILES[id]);
+  const total = known.reduce((a, [, n]) => a + n, 0);
+  if (total < NUDGE_MIN_PICKS) return;
+  const [topId, topN] = known.sort((a, b) => b[1] - a[1])[0] || [null, 0];
+  if (!topId || topN / total < NUDGE_MIN_SHARE) return;
+  const box = $("specnudge");
+  box.innerHTML = `Most of what you pick on this device looks like
+    <strong>${esc(PROFILES[topId].label)}</strong> content. Rank that higher here?
+    <button class="yes" id="nudgeyes">Yes, rank for ${esc(PROFILES[topId].label)}</button>
+    <button id="nudgeno">No thanks</button>
+    <span class="spechint" title="Based only on your picks stored in this browser. Nothing is sent anywhere. You can change this any time with the 'Rank for' menu.">how does this work?</span>`;
+  box.hidden = false;
+  $("nudgeyes").onclick = () => { setSpecialty(topId); box.hidden = true; };
+  $("nudgeno").onclick = () => { lsSet(SPEC_NUDGE_KEY, "dismissed"); box.hidden = true; };
+}
+// -----------------------------------------------------------------------------
+
+function isPastReview(reviewDue) {
+  if (!reviewDue) return false;
+  const [y, m] = reviewDue.split("-").map(Number);
+  if (!y || !m) return false;
+  const now = new Date();
+  return y < now.getFullYear() || (y === now.getFullYear() && m < now.getMonth() + 1);
+}
+
+let _loadSeq = 0;   // guards against a slow older load overwriting a newer trust's data
+
+async function load() {
+  const seq = ++_loadSeq;
+  ITEMS = []; bySlug.clear(); selected.clear();
+  renderSelected(); $("out").innerHTML = ""; $("results").innerHTML = "";
+  $("count").textContent = "Loading…";
+  const sources = sourcesFor(TRUST);
+  // no-cache: a clinician must never search against a stale cached copy after
+  // a correction is published (revalidates via ETag, so unchanged files cost a
+  // 304, not a full re-download).
+  const [all, reviews, bundles, profiles] = await Promise.all([
+    Promise.all(sources.map(([f]) =>
+      fetch(f, { cache: "no-cache" }).then(r => r.ok ? r.json() : []).catch(() => []))),
+    fetch(dirFor(TRUST) + "reviews.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+    fetch("related_bundles.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+    fetch("specialty_profiles.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+  ]);
+  // A newer load started while we were fetching (rapid trust switch): drop
+  // this response, or trust A's data could render under trust B's banner.
+  if (seq !== _loadSeq) return;
+  BUNDLES = (bundles && bundles.bundles) || [];
+  PROFILES = (profiles && profiles.profiles) || {};
+  initSpecialtyUI();
+  telemetryNotice();
+  REVIEWS = reviews || {};
+  all.forEach((arr, i) => {
+    const type = sources[i][1];
+    arr.forEach(d => {
+      const it = { title: d.title, slug: d.slug, type: d.type || type,
+                   _title: fold(d.title), _hay: fold(d.title + " " + d.slug) };
+      ITEMS.push(it); bySlug.set(d.slug, it);
+    });
+  });
+  $("count").textContent = ITEMS.length + " items available. Type to search.";
+  renderResults();
+}
+
+let CHOICES = [];   // trusts shown in the dropdown this visit
+
+function isDemo() { return TRUST && TRUST.listed === false; }
+
+// Credit lines are per-trust: Dr Mitchell is the clinical lead for the trust
+// that appointed him to that role (credits.clinical_lead in trusts.json) and a
+// clinical contributor everywhere else — a new trust names its own lead by
+// adding credits to its registry entry.
+const CONTRIBUTOR_CREDIT = "Clinical contributor: Dr Tom Mitchell, Consultant in Emergency Medicine";
+
+function renderCredits() {
+  const el = $("credits");
+  if (!el) return;
+  const lead = TRUST && TRUST.credits && TRUST.credits.clinical_lead;
+  el.textContent = lead ? "Clinical lead: " + lead : CONTRIBUTOR_CREDIT;
+}
+
+function pickTrust(id) {
+  TRUST = CHOICES.find(t => t.id === id) || CHOICES[0];
+  try { localStorage.setItem(TRUST_KEY, TRUST.id); } catch (e) {}
+  $("trustsel").value = TRUST.id;
+  $("trustfoot").textContent = TRUST.name;
+  renderCredits();
+  $("demobanner").hidden = !isDemo();
+  load();
+}
+
+async function init() {
+  try {
+    // no-cache: always revalidate the registry, so flipping a trust's
+    // "listed" approval flag takes effect immediately, not after cache expiry
+    REGISTRY = await fetch("trusts.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null);
+  } catch (e) {}
+  if (!REGISTRY || !liveTrusts().length) REGISTRY = FALLBACK_REGISTRY;
+  const params = new URLSearchParams(location.search);
+  const param = params.get("t");
+  CHOICES = selectableTrusts(params.has("preview"), param);
+  // If every live trust is unlisted and there's no ?preview/?t, fall back to
+  // all live trusts rather than an empty dropdown that bricks pickTrust().
+  if (!CHOICES.length) CHOICES = liveTrusts();
+  const sel = $("trustsel");
+  sel.innerHTML = CHOICES.map(t =>
+    `<option value="${esc(t.id)}">${esc(t.short_name || t.name)}${t.listed === false ? " (preview)" : ""}</option>`).join("");
+  sel.onchange = () => pickTrust(sel.value);
+  const valid = id => CHOICES.some(t => t.id === id);
+  let saved = null;
+  try { saved = localStorage.getItem(TRUST_KEY); } catch (e) {}
+  if (param && valid(param)) pickTrust(param);        // per-trust link, e.g. picker.html?t=<id>
+  else if (saved && valid(saved)) pickTrust(saved);   // remembered choice (unlisted needs ?preview)
+  else pickTrust(REGISTRY.default);                   // first visit — default trust, switch via dropdown
+}
+
+function renderSelected() {
+  const el = $("selected");
+  if (!selected.size) { el.innerHTML = ""; $("gen").disabled = true; renderRelated(); return; }
+  $("gen").disabled = false;
+  el.innerHTML = [...selected.values()].map(it =>
+    `<span class="chip">${esc(it.title)}<button data-s="${esc(it.slug)}" aria-label="remove">×</button></span>`).join("");
+  el.querySelectorAll("button").forEach(b =>
+    b.onclick = () => { selected.delete(b.dataset.s); renderSelected(); renderResults(); });
+  renderRelated();
+}
+
+// "Often given together" — companions for the current selection, from the
+// clinically-authored concept bundles in related_bundles.json. Each suggestion
+// is resolved through the normal search scoring against THIS trust's items, so
+// the row adapts per trust and a suggestion with no local match simply doesn't
+// appear. Deliberately subtle: one small row, dashed chips, click to add.
+function resolveSuggestion(terms) {
+  let best = null, bestScore = 0;
+  const groups = termGroups(terms);
+  if (!groups.length) return null;
+  for (const it of ITEMS) {
+    const s = scoreItem(it, groups, fold(terms));
+    if (s > bestScore) { best = it; bestScore = s; }
+  }
+  return best;
+}
+
+function renderRelated() {
+  const el = $("related");
+  if (!el) return;
+  if (!selected.size || !BUNDLES.length) { el.innerHTML = ""; return; }
+  const picks = new Map();
+  for (const it of selected.values()) {
+    for (const b of BUNDLES) {
+      if (!b.match.some(m => it._title.includes(fold(m)))) continue;
+      for (const sug of b.suggest) {
+        const hit = resolveSuggestion(sug);
+        if (hit && !selected.has(hit.slug) && !picks.has(hit.slug)) picks.set(hit.slug, hit);
+      }
+    }
+  }
+  const top = [...picks.values()].slice(0, 6);
+  el.innerHTML = top.length
+    ? `<span class="rlabel">Often given together:</span>` + top.map(it =>
+        `<span class="chip" data-s="${esc(it.slug)}" role="button" tabindex="0" title="Add to selection">＋ ${esc(it.title)}</span>`).join(" ")
+    : "";
+  el.querySelectorAll(".chip").forEach(c => {
+    const add = () => { const it = bySlug.get(c.dataset.s); if (it) { selected.set(it.slug, it); renderSelected(); renderResults(); } };
+    c.onclick = add;
+    c.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); add(); } };
+  });
+}
+
+function itemLi(it) {
+  const rev = it.type === "leaflet" ? REVIEWS[it.slug] : null;
+  const stale = (rev && isPastReview(rev.review_due))
+    ? `<span class="tag stale" title="The trust's printed review date (${esc(rev.review_due_text || rev.review_due)}) has passed">past review</span>`
+    : "";
+  // The nightly review checker records fetch errors per page — a leaflet that
+  // 404s mid-fortnight would otherwise be handed out for up to 14 days before
+  // the next full scan removes it.
+  const broken = (rev && String(rev.status || "").startsWith("error:"))
+    ? `<span class="tag stale" title="The trust's page failed to load when last checked (${esc(rev.status)}) — open it before giving this to a patient">page may be broken</span>`
+    : "";
+  return `
+    <li data-s="${esc(it.slug)}">
+      <input type="checkbox" ${selected.has(it.slug) ? "checked" : ""}>
+      <span class="t">${esc(it.title)}<span class="tag ${it.type}">${TAGLABEL[it.type]||""}</span>${stale}${broken}</span>
+    </li>`;
+}
+
+function wireResults(ul) {
+  ul.querySelectorAll("li[data-s]").forEach(li => {
+    li.onclick = () => {
+      const s = li.dataset.s;
+      if (selected.has(s)) selected.delete(s); else selected.set(s, bySlug.get(s));
+      renderSelected(); renderResults();
+    };
+  });
+}
+
+// Frequently-used leaflets (per device): counts bump when a QR is generated,
+// and the top picks show whenever the search box is empty — the same handful
+// of leaflets covers most ED shifts.
+const FREQ_KEY = "medrics_freq";
+// In-memory copy so scoreItem can read habit counts without parsing
+// localStorage 1200 times per keystroke.
+let FREQ_MAP = (() => { try { return JSON.parse(localStorage.getItem(FREQ_KEY) || "{}"); } catch (e) { return {}; } })();
+function bumpFreq(slugs) {
+  slugs.forEach(s => { FREQ_MAP[s] = (FREQ_MAP[s] || 0) + 1; });
+  try { localStorage.setItem(FREQ_KEY, JSON.stringify(FREQ_MAP)); } catch (e) {}
+}
+function frequents() {
+  return Object.entries(FREQ_MAP)
+    .sort((a, b) => b[1] - a[1])
+    .map(([s]) => bySlug.get(s))
+    .filter(Boolean)
+    .slice(0, 12);
+}
+
+function renderResults() {
+  const q = $("search").value.trim().toLowerCase();
+  const ul = $("results");
+  if (q.length < 2) {
+    const freq = frequents();
+    if (freq.length) {
+      ul.innerHTML = '<li class="hint">Frequently used on this device</li>' + freq.map(itemLi).join("");
+    } else if (SPEC && PROFILES[SPEC]) {
+      // Fresh device, no history yet: seed the empty state with the
+      // specialty's starter pack instead of showing nothing.
+      const starters = (PROFILES[SPEC].starter_terms || [])
+        .map(t => resolveSuggestion(t)).filter(Boolean)
+        .filter((it, i, arr) => arr.findIndex(x => x.slug === it.slug) === i)
+        .slice(0, 10);
+      ul.innerHTML = starters.length
+        ? `<li class="hint">Common in ${esc(PROFILES[SPEC].label)}</li>` + starters.map(itemLi).join("")
+        : "";
+    } else {
+      ul.innerHTML = "";
+    }
+    wireResults(ul);
+    return;
+  }
+  const groups = termGroups(q);
+  const qf = fold(q);
+  const matches = ITEMS
+    .map(it => [scoreItem(it, groups, qf), it])
+    .filter(([s]) => s > 0)
+    .sort((a, b) => (b[0] - a[0])
+      || (a[1]._title.length - b[1]._title.length)
+      || a[1].title.localeCompare(b[1].title))
+    .slice(0, 80)
+    .map(([, it]) => it);
+  ul.innerHTML = matches.map(itemLi).join("") || '<li class="hint">No matches — try another word.</li>';
+  if (!matches.length) noteNoResults(q);   // anonymous gap signal (see telemetry block)
+  wireResults(ul);
+}
+
+function generate() {
+  bumpFreq([...selected.keys()]);
+  noteSpecialtyHints([...selected.keys()]);
+  telemetry("generate", [...selected.keys()].join(","));   // content slugs only
+  const slugs = [...selected.keys()].join(",");
+  // Default trust omits ?t= so QR codes issued before multi-trust support stay valid.
+  const tPart = (TRUST && REGISTRY && TRUST.id !== REGISTRY.default) ? "t=" + TRUST.id + "&" : "";
+  const url = LANDING + "?" + tPart + "slugs=" + encodeURIComponent(slugs).replace(/%2C/gi, ",");
+  const out = $("out");
+  out.innerHTML = (isDemo() ? '<p class="demo-tag">DEMO — not for patient use</p><br>' : '') +
+    '<div id="qr"></div>' +
+    '<p id="link">' + esc(url) + '</p>' +
+    '<button class="copy" id="copy">Copy link</button>';
+  if (window.QRCode) {
+    new QRCode($("qr"), { text: url, width: 240, height: 240, correctLevel: QRCode.CorrectLevel.M });
+  } else {
+    $("qr").innerHTML = '<p class="hint">QR could not load — use the link below.</p>';
+  }
+  $("copy").onclick = () => navigator.clipboard && navigator.clipboard.writeText(url)
+    .then(() => { $("copy").textContent = "Copied"; });
+  out.scrollIntoView({ behavior: "smooth" });
+}
+
+$("search").addEventListener("input", renderResults);
+$("gen").onclick = generate;
+$("clear").onclick = () => { selected.clear(); $("search").value = ""; renderSelected(); renderResults(); $("out").innerHTML = ""; };
+
+init();
+
+// Optional Medrics branding (shows only if MEDRICS_URL is set above).
+(function () {
+  if (!MEDRICS_URL) return;
+  const el = $("brand");
+  if (!el) return;
+  const a = document.createElement("a");
+  a.href = MEDRICS_URL;
+  a.setAttribute("aria-label", MEDRICS_LABEL);
+  const showText = () => {
+    a.textContent = MEDRICS_LABEL;
+    a.style.color = "#999";
+    a.style.textDecoration = "none";
+    a.style.fontSize = "0.85rem";
+  };
+  if (MEDRICS_LOGO) {
+    const img = document.createElement("img");
+    img.src = MEDRICS_LOGO;
+    img.alt = "Medrics";
+    img.style.height = "44px";
+    img.style.width = "auto";
+    img.style.opacity = "0.9";
+    img.onerror = () => { a.innerHTML = ""; showText(); };
+    a.appendChild(img);
+  } else {
+    showText();
+  }
+  el.appendChild(a);
+})();
+</script>
+</body>
+</html>

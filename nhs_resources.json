@@ -1,0 +1,793 @@
+[
+  {
+    "title": "High temperature (fever) in children",
+    "url": "https://www.nhs.uk/conditions/fever-in-children/",
+    "slug": "nhs-fever-in-children",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Croup",
+    "url": "https://www.nhs.uk/conditions/croup/",
+    "slug": "nhs-croup",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Bronchiolitis",
+    "url": "https://www.nhs.uk/conditions/bronchiolitis/",
+    "slug": "nhs-bronchiolitis",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Febrile seizures (febrile convulsions)",
+    "url": "https://www.nhs.uk/conditions/febrile-seizures/",
+    "slug": "nhs-febrile-seizures",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Diarrhoea and vomiting",
+    "url": "https://www.nhs.uk/conditions/diarrhoea-and-vomiting/",
+    "slug": "nhs-diarrhoea-and-vomiting",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Sprains and strains",
+    "url": "https://www.nhs.uk/conditions/sprains-and-strains/",
+    "slug": "nhs-sprains-and-strains",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Dislocated shoulder",
+    "url": "https://www.nhs.uk/conditions/dislocated-shoulder/",
+    "slug": "nhs-dislocated-shoulder",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Migraine",
+    "url": "https://www.nhs.uk/conditions/migraine/",
+    "slug": "nhs-migraine",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Gout",
+    "url": "https://www.nhs.uk/conditions/gout/",
+    "slug": "nhs-gout",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Earache",
+    "url": "https://www.nhs.uk/conditions/earache/",
+    "slug": "nhs-earache",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Sore throat",
+    "url": "https://www.nhs.uk/conditions/sore-throat/",
+    "slug": "nhs-sore-throat",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Constipation",
+    "url": "https://www.nhs.uk/conditions/constipation/",
+    "slug": "nhs-constipation",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Cuts and grazes",
+    "url": "https://www.nhs.uk/conditions/cuts-and-grazes/",
+    "slug": "nhs-cuts-and-grazes",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Animal and human bites",
+    "url": "https://www.nhs.uk/conditions/animal-and-human-bites/",
+    "slug": "nhs-animal-and-human-bites",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Anaphylaxis",
+    "url": "https://www.nhs.uk/conditions/anaphylaxis/",
+    "slug": "nhs-anaphylaxis",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Sunburn",
+    "url": "https://www.nhs.uk/conditions/sunburn/",
+    "slug": "nhs-sunburn",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Help for suicidal thoughts",
+    "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/help-for-suicidal-thoughts/",
+    "slug": "nhs-help-for-suicidal-thoughts",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Transient ischaemic attack (TIA) / mini stroke",
+    "url": "https://www.nhs.uk/conditions/transient-ischaemic-attack-tia/",
+    "slug": "nhs-transient-ischaemic-attack-tia",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Chest pain",
+    "url": "https://www.nhs.uk/conditions/chest-pain/",
+    "slug": "nhs-chest-pain",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Anticoagulant medicines (blood thinners)",
+    "url": "https://www.nhs.uk/conditions/anticoagulants/",
+    "slug": "nhs-anticoagulants",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "High blood pressure (hypertension)",
+    "url": "https://www.nhs.uk/conditions/high-blood-pressure-hypertension/",
+    "slug": "nhs-high-blood-pressure",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Heartburn and acid reflux",
+    "url": "https://www.nhs.uk/conditions/heartburn-and-acid-reflux/",
+    "slug": "nhs-heartburn-and-acid-reflux",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Angina",
+    "url": "https://www.nhs.uk/conditions/angina/",
+    "slug": "nhs-angina",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Headaches",
+    "url": "https://www.nhs.uk/conditions/headaches/",
+    "slug": "nhs-headaches",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Kidney stones",
+    "url": "https://www.nhs.uk/conditions/kidney-stones/",
+    "slug": "nhs-kidney-stones",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Heart palpitations",
+    "url": "https://www.nhs.uk/conditions/heart-palpitations/",
+    "slug": "nhs-heart-palpitations",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Vertigo",
+    "url": "https://www.nhs.uk/conditions/vertigo/",
+    "slug": "nhs-vertigo",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Nosebleed",
+    "url": "https://www.nhs.uk/conditions/nosebleed/",
+    "slug": "nhs-nosebleed",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Cellulitis (skin infection)",
+    "url": "https://www.nhs.uk/conditions/cellulitis/",
+    "slug": "nhs-cellulitis",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Burns and scalds",
+    "url": "https://www.nhs.uk/conditions/burns-and-scalds/",
+    "slug": "nhs-burns-and-scalds",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Chronic obstructive pulmonary disease (COPD)",
+    "url": "https://www.nhs.uk/conditions/chronic-obstructive-pulmonary-disease-copd/",
+    "slug": "nhs-copd",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Stomach ache and abdominal pain",
+    "url": "https://www.nhs.uk/conditions/stomach-ache/",
+    "slug": "nhs-stomach-ache",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Shingles",
+    "url": "https://www.nhs.uk/conditions/shingles/",
+    "slug": "nhs-shingles",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Chickenpox",
+    "url": "https://www.nhs.uk/conditions/chickenpox/",
+    "slug": "nhs-chickenpox",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Bell’s palsy (facial weakness)",
+    "url": "https://www.nhs.uk/conditions/bells-palsy/",
+    "slug": "nhs-bells-palsy",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Conjunctivitis (red eye)",
+    "url": "https://www.nhs.uk/conditions/conjunctivitis/",
+    "slug": "nhs-conjunctivitis",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Insect bites and stings",
+    "url": "https://www.nhs.uk/conditions/insect-bites-and-stings/",
+    "slug": "nhs-insect-bites-and-stings",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Atrial fibrillation",
+    "url": "https://www.nhs.uk/conditions/atrial-fibrillation/",
+    "slug": "nhs-atrial-fibrillation",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Sciatica",
+    "url": "https://www.nhs.uk/conditions/sciatica/",
+    "slug": "nhs-sciatica",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Hand, foot and mouth disease",
+    "url": "https://www.nhs.uk/conditions/hand-foot-mouth-disease/",
+    "slug": "nhs-hand-foot-mouth-disease",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Impetigo",
+    "url": "https://www.nhs.uk/conditions/impetigo/",
+    "slug": "nhs-impetigo",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Scabies",
+    "url": "https://www.nhs.uk/conditions/scabies/",
+    "slug": "nhs-scabies",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Gallstones",
+    "url": "https://www.nhs.uk/conditions/gallstones/",
+    "slug": "nhs-gallstones",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Piles (haemorrhoids)",
+    "url": "https://www.nhs.uk/conditions/piles-haemorrhoids/",
+    "slug": "nhs-piles-haemorrhoids",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Sepsis",
+    "url": "https://www.nhs.uk/conditions/sepsis/",
+    "slug": "nhs-sepsis",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Toothache and dental pain",
+    "url": "https://www.nhs.uk/conditions/toothache/",
+    "slug": "nhs-toothache",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Joint hypermobility syndrome",
+    "url": "https://www.nhs.uk/conditions/joint-hypermobility-syndrome/",
+    "slug": "nhs-joint-hypermobility",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Osteoarthritis",
+    "url": "https://www.nhs.uk/conditions/osteoarthritis/",
+    "slug": "nhs-osteoarthritis",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Tendonitis (including Achilles tendon)",
+    "url": "https://www.nhs.uk/conditions/tendonitis/",
+    "slug": "nhs-tendonitis",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "First aid, including choking",
+    "url": "https://www.nhs.uk/tests-and-treatments/first-aid/",
+    "slug": "nhs-first-aid-choking",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Giant cell arteritis (temporal arteritis)",
+    "url": "https://www.nhs.uk/conditions/temporal-arteritis/",
+    "slug": "nhs-temporal-arteritis",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Heart failure",
+    "url": "https://www.nhs.uk/conditions/heart-failure/",
+    "slug": "nhs-heart-failure",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Iron deficiency anaemia",
+    "url": "https://www.nhs.uk/conditions/iron-deficiency-anaemia/",
+    "slug": "nhs-iron-deficiency-anaemia",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Supraventricular tachycardia (SVT)",
+    "url": "https://www.nhs.uk/conditions/supraventricular-tachycardia-svt/",
+    "slug": "nhs-svt",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Acute kidney injury (AKI)",
+    "url": "https://www.thinkkidneys.nhs.uk/aki/wp-content/uploads/sites/2/2015/11/BKPA-RCGP-A4-Printout-Leaflet_v4.pdf",
+    "slug": "info-acute-kidney-injury",
+    "type": "nhs",
+    "source": "NHS England – Think Kidneys"
+  },
+  {
+    "title": "Diverticular disease and diverticulitis",
+    "url": "https://patient.info/digestive-health/diverticula-diverticulosis-diverticular-disease-diverticulitis",
+    "slug": "info-diverticulitis",
+    "type": "nhs",
+    "source": "Patient.info"
+  },
+  {
+    "title": "Acute pancreatitis",
+    "url": "https://patient.info/digestive-health/gallstones-and-bile/acute-pancreatitis",
+    "slug": "info-acute-pancreatitis",
+    "type": "nhs",
+    "source": "Patient.info"
+  },
+  {
+    "title": "Carbon monoxide poisoning",
+    "url": "https://patient.info/chest-lungs/carbon-monoxide-poisoning",
+    "slug": "info-carbon-monoxide",
+    "type": "nhs",
+    "source": "Patient.info"
+  },
+  {
+    "title": "Overactive thyroid (hyperthyroidism)",
+    "url": "https://www.nhs.uk/conditions/overactive-thyroid-hyperthyroidism/",
+    "slug": "nhs-overactive-thyroid",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Pleurisy",
+    "url": "https://www.nhs.uk/conditions/pleurisy/",
+    "slug": "nhs-pleurisy",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Low blood sugar (hypoglycaemia)",
+    "url": "https://www.nhs.uk/conditions/low-blood-sugar-hypoglycaemia/",
+    "slug": "nhs-hypoglycaemia",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Mastitis",
+    "url": "https://www.nhs.uk/conditions/mastitis/",
+    "slug": "nhs-mastitis",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Epididymitis (testicular pain)",
+    "url": "https://www.nhs.uk/conditions/epididymitis/",
+    "slug": "nhs-epididymitis",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Irritable hip (transient synovitis) in children",
+    "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Transient_synovitis/",
+    "slug": "info-transient-synovitis",
+    "type": "nhs",
+    "source": "Royal Children's Hospital"
+  },
+  {
+    "title": "Shortness of breath",
+    "url": "https://www.nhs.uk/symptoms/shortness-of-breath/",
+    "slug": "nhs-shortness-of-breath",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Dizziness",
+    "url": "https://www.nhs.uk/symptoms/dizziness/",
+    "slug": "nhs-dizziness",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Fainting",
+    "url": "https://www.nhs.uk/symptoms/fainting/",
+    "slug": "nhs-fainting",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Head injury and concussion",
+    "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+    "slug": "nhs-head-injury",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Back pain",
+    "url": "https://www.nhs.uk/conditions/back-pain/",
+    "slug": "nhs-back-pain",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Neck pain",
+    "url": "https://www.nhs.uk/symptoms/neck-pain-and-stiff-neck/",
+    "slug": "nhs-neck-pain",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Testicle lumps and swellings",
+    "url": "https://www.nhs.uk/symptoms/testicle-lumps-and-swellings/",
+    "slug": "nhs-testicle-lumps",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Testicle pain",
+    "url": "https://www.nhs.uk/symptoms/testicle-pain/",
+    "slug": "nhs-testicle-pain",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Blood in urine",
+    "url": "https://www.nhs.uk/symptoms/blood-in-urine/",
+    "slug": "nhs-blood-in-urine",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Coughing up blood (blood in phlegm)",
+    "url": "https://www.nhs.uk/symptoms/coughing-up-blood/",
+    "slug": "nhs-coughing-up-blood",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "High temperature (fever) in adults",
+    "url": "https://www.nhs.uk/symptoms/fever-in-adults/",
+    "slug": "nhs-fever-in-adults",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Rashes in babies and children",
+    "url": "https://www.nhs.uk/symptoms/rashes-babies-and-children/",
+    "slug": "nhs-rashes-children",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Meningitis",
+    "url": "https://www.nhs.uk/conditions/meningitis/",
+    "slug": "nhs-meningitis",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Appendicitis",
+    "url": "https://www.nhs.uk/conditions/appendicitis/",
+    "slug": "nhs-appendicitis",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "DVT (deep vein thrombosis)",
+    "url": "https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/",
+    "slug": "nhs-dvt",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Pulmonary embolism",
+    "url": "https://www.nhs.uk/conditions/pulmonary-embolism/",
+    "slug": "nhs-pulmonary-embolism",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Urinary tract infections (UTIs)",
+    "url": "https://www.nhs.uk/conditions/urinary-tract-infections-utis/",
+    "slug": "nhs-uti",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Kidney infection",
+    "url": "https://www.nhs.uk/conditions/kidney-infection/",
+    "slug": "nhs-kidney-infection",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Pneumonia",
+    "url": "https://www.nhs.uk/conditions/pneumonia/",
+    "slug": "nhs-pneumonia",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Asthma (including asthma attacks)",
+    "url": "https://www.nhs.uk/conditions/asthma/",
+    "slug": "nhs-asthma",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Panic disorder and panic attacks",
+    "url": "https://www.nhs.uk/mental-health/conditions/panic-disorder/",
+    "slug": "nhs-panic-attacks",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Alcohol poisoning",
+    "url": "https://www.nhs.uk/conditions/alcohol-poisoning/",
+    "slug": "nhs-alcohol-poisoning",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Dehydration",
+    "url": "https://www.nhs.uk/conditions/dehydration/",
+    "slug": "nhs-dehydration",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Heat exhaustion and heatstroke",
+    "url": "https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/",
+    "slug": "nhs-heat-exhaustion",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Hypothermia",
+    "url": "https://www.nhs.uk/conditions/hypothermia/",
+    "slug": "nhs-hypothermia",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Ectopic pregnancy",
+    "url": "https://www.nhs.uk/conditions/ectopic-pregnancy/",
+    "slug": "nhs-ectopic-pregnancy",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Miscarriage",
+    "url": "https://www.nhs.uk/conditions/miscarriage/",
+    "slug": "nhs-miscarriage",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Vaginal bleeding in pregnancy",
+    "url": "https://www.nhs.uk/pregnancy/common-symptoms/vaginal-bleeding/",
+    "slug": "nhs-pregnancy-vaginal-bleeding",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Whiplash",
+    "url": "https://www.nhs.uk/conditions/whiplash/",
+    "slug": "nhs-whiplash",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Broken ankle",
+    "url": "https://www.nhs.uk/conditions/broken-ankle/",
+    "slug": "nhs-broken-ankle",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Broken arm or wrist",
+    "url": "https://www.nhs.uk/conditions/broken-arm-or-wrist/",
+    "slug": "nhs-broken-arm-wrist",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Broken collarbone",
+    "url": "https://www.nhs.uk/conditions/broken-collarbone/",
+    "slug": "nhs-broken-collarbone",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Broken finger or thumb",
+    "url": "https://www.nhs.uk/conditions/broken-finger/",
+    "slug": "nhs-broken-finger",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Broken leg",
+    "url": "https://www.nhs.uk/conditions/broken-leg/",
+    "slug": "nhs-broken-leg",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Broken nose",
+    "url": "https://www.nhs.uk/conditions/broken-nose/",
+    "slug": "nhs-broken-nose",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Broken or bruised ribs",
+    "url": "https://www.nhs.uk/conditions/broken-or-bruised-ribs/",
+    "slug": "nhs-broken-ribs",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Broken toe",
+    "url": "https://www.nhs.uk/conditions/broken-toe/",
+    "slug": "nhs-broken-toe",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Pericarditis",
+    "url": "https://www.nhs.uk/conditions/pericarditis/",
+    "slug": "nhs-pericarditis",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Costochondritis",
+    "url": "https://www.nhs.uk/conditions/costochondritis/",
+    "slug": "nhs-costochondritis",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Tonsillitis (including quinsy)",
+    "url": "https://www.nhs.uk/conditions/tonsillitis/",
+    "slug": "nhs-tonsillitis",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Glandular fever",
+    "url": "https://www.nhs.uk/conditions/glandular-fever/",
+    "slug": "nhs-glandular-fever",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Sinusitis (sinus infection)",
+    "url": "https://www.nhs.uk/conditions/sinusitis-sinus-infection/",
+    "slug": "nhs-sinusitis",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Feeling sick (nausea)",
+    "url": "https://www.nhs.uk/symptoms/feeling-sick-nausea/",
+    "slug": "nhs-nausea",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Heart attack",
+    "url": "https://www.nhs.uk/conditions/heart-attack/",
+    "slug": "nhs-heart-attack",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Poisoning (including overdose)",
+    "url": "https://www.nhs.uk/conditions/poisoning/",
+    "slug": "nhs-poisoning",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Vomiting blood",
+    "url": "https://www.nhs.uk/symptoms/vomiting-blood/",
+    "slug": "nhs-vomiting-blood",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Bleeding from the bottom (rectal bleeding)",
+    "url": "https://www.nhs.uk/symptoms/bleeding-from-the-bottom-rectal-bleeding/",
+    "slug": "nhs-rectal-bleeding",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Cauda equina syndrome — emergency back pain warning signs",
+    "url": "https://patient.info/bones-joints-muscles/back-and-spine-pain/cauda-equina-syndrome",
+    "slug": "nhs-cauda-equina",
+    "type": "nhs",
+    "source": "Patient.info"
+  },
+  {
+    "title": "Lumbar puncture",
+    "url": "https://www.nhs.uk/conditions/lumbar-puncture/",
+    "slug": "nhs-lumbar-puncture",
+    "type": "nhs",
+    "source": "NHS.uk"
+  }
+]

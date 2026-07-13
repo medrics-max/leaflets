@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "comment": "Specialty ranking profiles for the picker. PRIVACY MODEL (do not change without re-reading GOVERNANCE.md): the chosen profile and the pick-history used to *suggest* one live ONLY in the clinician's browser localStorage (medrics_specialty / medrics_spec_hints) — nothing is ever transmitted, and no patient data is involved anywhere (the tool never knows who the patient is). The profile is chosen EXPLICITLY by the clinician (or suggested from on-device history and confirmed — never enabled silently) and can be switched off at any time. boost_terms are folded-title substrings; with a profile active, matching items get +5 and non-matching items -2 — a swing that decisively reorders generic prefix queries (an acute medic typing 'anti' gets anticoagulants, not Anti-Mullerian Hormone) but can never resurrect an item the search itself rejected, so specific searches always win. The device's frequently-used counts add a further log-damped habit boost (up to +4) with or without a profile. starter_terms seed the empty-search list on a fresh device before any frequently-used history exists.",
+  "profiles": {
+    "ed": {
+      "label": "Emergency Department",
+      "boost_terms": ["fracture", "broken", "sprain", "cast", "sling", "wound", "laceration",
+        "head injury", "concussion", "chest pain", "deep vein", "cellulitis", "burn", "bite",
+        "nosebleed", "eye casualty", "sepsis", "gastroenter", "croup", "bronchiolitis",
+        "febrile", "fever", "poisoning", "overdose", "crisis", "back pain", "renal colic",
+        "kidney stone", "testicular", "abscess", "abdominal pain", "urinary tract",
+        "whiplash", "collapse", "fainting", "seizure", "vomiting blood", "rectal bleeding",
+        "cauda equina", "same day emergency"],
+      "starter_terms": ["head injury discharge", "sprain", "wound care", "fever in children",
+        "gastroenteritis", "chest pain", "deep vein thrombosis", "back pain",
+        "urinary tract infection", "mental health crisis"]
+    },
+    "acute-med": {
+      "label": "Acute medicine / SDEC",
+      "boost_terms": ["pneumonia", "chest infection", "chronic obstructive", "heart failure",
+        "atrial fibrillation", "kidney injury", "deep vein", "pulmonary embol",
+        "anticoagulant", "apixaban", "diabetes", "ketone", "cellulitis", "sepsis",
+        "delirium", "falls", "pyrexia", "same day emergency", "syncope", "fainting"],
+      "starter_terms": ["same day emergency care", "pneumonia", "deep vein thrombosis",
+        "atrial fibrillation", "heart failure", "kidney injury", "cellulitis", "copd"]
+    },
+    "paeds": {
+      "label": "Paediatrics",
+      "boost_terms": ["child", "children", "paediatric", "baby", "infant", "croup",
+        "bronchiolitis", "febrile", "fever in child", "rash", "gastroenter", "dehydration",
+        "head injury", "safeguard", "wheez", "asthma", "tonsillitis", "ear infection"],
+      "starter_terms": ["fever in children", "croup", "bronchiolitis", "rashes in children",
+        "head injury child", "gastroenteritis", "febrile seizures"]
+    },
+    "maternity": {
+      "label": "Maternity / gynae",
+      "boost_terms": ["pregnan", "birth", "baby", "maternity", "breastfeed", "feeding",
+        "miscarriage", "ectopic", "vaginal", "early pregnancy", "gestational", "postnatal",
+        "labour", "caesarean", "pelvic"],
+      "starter_terms": ["vaginal bleeding early pregnancy", "ectopic", "miscarriage",
+        "gestational diabetes", "feeding your baby"]
+    },
+    "surgery": {
+      "label": "Surgery",
+      "boost_terms": ["surgery", "operation", "post-operative", "postoperative", "anaesth",
+        "appendic", "gallstone", "hernia", "wound", "stoma", "catheter", "drain",
+        "laparoscop", "biopsy", "day case"],
+      "starter_terms": ["wound care", "appendicitis", "anaesthetic", "day case surgery"]
+    }
+  }
+}
