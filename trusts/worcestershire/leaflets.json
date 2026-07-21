@@ -170,6 +170,16 @@
     "slug": "advice-to-patients-who-have-received-an-electric-shock-from-a-police-taser"
   },
   {
+    "title": "After care following Flexor Tendon Repair",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/flexor-tendon-repair/",
+    "slug": "flexor-tendon-repair"
+  },
+  {
+    "title": "After care following Flexor Tendon Repair to the thumb",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/flexor-tendon-repair-to-the-thumb/",
+    "slug": "flexor-tendon-repair-to-the-thumb"
+  },
+  {
     "title": "After your Caesarean Section",
     "url": "https://www.worcsacute.nhs.uk/leaflets/after-your-caesarean-section/",
     "slug": "after-your-caesarean-section"
@@ -208,6 +218,11 @@
     "title": "Alcohol – know your limits",
     "url": "https://www.worcsacute.nhs.uk/leaflets/alcohol-know-your-limits-waht-pi-2101/",
     "slug": "alcohol-know-your-limits-waht-pi-2101"
+  },
+  {
+    "title": "Ambulatory Diuretic Service",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/ambulatory-diuretic-service/",
+    "slug": "ambulatory-diuretic-service"
   },
   {
     "title": "Ambulatory EEG",
@@ -365,6 +380,11 @@
     "slug": "blood-monitoring-and-carbohydrate-diary-for-patients-on-insulin"
   },
   {
+    "title": "Blood Pleurodesis",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/blood-pleurodesis/",
+    "slug": "blood-pleurodesis"
+  },
+  {
     "title": "Bone biopsy under CT guidance",
     "url": "https://www.worcsacute.nhs.uk/leaflets/bone-biopsy-under-ct-guidance/",
     "slug": "bone-biopsy-under-ct-guidance"
@@ -403,6 +423,11 @@
     "title": "Breast Form / Prosthesis",
     "url": "https://www.worcsacute.nhs.uk/leaflets/breast-form-prosthesis/",
     "slug": "breast-form-prosthesis"
+  },
+  {
+    "title": "Breath Hold Leaflet",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/breath-hold-leaflet/",
+    "slug": "breath-hold-leaflet"
   },
   {
     "title": "Breathing pattern disorder",
@@ -583,6 +608,11 @@
     "title": "Chloramphenicol Eye Ointment",
     "url": "https://www.worcsacute.nhs.uk/leaflets/chloramphenicol-eye-ointment/",
     "slug": "chloramphenicol-eye-ointment"
+  },
+  {
+    "title": "Cholesteatoma and combined approach Tympanoplasty",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/cholesteatoma-and-combined-approach-tympanoplasty/",
+    "slug": "cholesteatoma-and-combined-approach-tympanoplasty"
   },
   {
     "title": "Chronic pain/ Persistent Pain: What is it?",
@@ -803,6 +833,11 @@
     "title": "Discharge advice following your surgery – gynaecology",
     "url": "https://www.worcsacute.nhs.uk/leaflets/discharge-advice-following-your-surgery/",
     "slug": "discharge-advice-following-your-surgery"
+  },
+  {
+    "title": "Discharge Advice: Electrophysiological Studies and Catheter Ablation",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/discharge-advice-electrophysiological-studies-and-catheter-ablation/",
+    "slug": "discharge-advice-electrophysiological-studies-and-catheter-ablation"
   },
   {
     "title": "Discharge post bariatric surgery",
@@ -1045,9 +1080,19 @@
     "slug": "expiratory-muscle-strength-training"
   },
   {
+    "title": "Extensor tendon repair to the thumb",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/extensor-tendon-repair-to-the-thumb/",
+    "slug": "extensor-tendon-repair-to-the-thumb"
+  },
+  {
     "title": "Extensor tendon repair zone III-IV",
     "url": "https://www.worcsacute.nhs.uk/leaflets/extensor-tendon-repair-zone-iii-iv/",
     "slug": "extensor-tendon-repair-zone-iii-iv"
+  },
+  {
+    "title": "Extensor tendon repair zone V-VII",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/extensor-tendon-repair-zone-v-vii/",
+    "slug": "extensor-tendon-repair-zone-v-vii"
   },
   {
     "title": "Eye Surgery – Information for parents",
@@ -1065,6 +1110,11 @@
     "slug": "facet-joint-denervation"
   },
   {
+    "title": "Facial exercises and massage routine",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/facial-exercises-and-massage-routine-2/",
+    "slug": "facial-exercises-and-massage-routine-2"
+  },
+  {
     "title": "Falls Risk Reduction in Hospital",
     "url": "https://www.worcsacute.nhs.uk/leaflets/falls-prevention-in-hospital/",
     "slug": "falls-prevention-in-hospital"
@@ -1073,6 +1123,11 @@
     "title": "Feeding at Risk (Eating and Drinking with Acknowledged Risks)",
     "url": "https://www.worcsacute.nhs.uk/leaflets/feeding-at-risk-eating-and-drinking-with-acknowledged-risks/",
     "slug": "feeding-at-risk-eating-and-drinking-with-acknowledged-risks"
+  },
+  {
+    "title": "Ferinject (Iron injection/infusion)",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/ferinject-iron-injection-infusion/",
+    "slug": "ferinject-iron-injection-infusion"
   },
   {
     "title": "Feverish Illness in Children",
@@ -1085,6 +1140,11 @@
     "slug": "fibreoptic-endoscopic-evaluation-of-swallowing-fees"
   },
   {
+    "title": "Finger Extension Splint",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/finger-extension-splint/",
+    "slug": "finger-extension-splint"
+  },
+  {
     "title": "First Fits- Adults",
     "url": "https://www.worcsacute.nhs.uk/leaflets/first-fit-adults-waht-pi-2110/",
     "slug": "first-fit-adults-waht-pi-2110"
@@ -1093,11 +1153,6 @@
     "title": "Fits in Children",
     "url": "https://www.worcsacute.nhs.uk/leaflets/fits-in-children/",
     "slug": "fits-in-children"
-  },
-  {
-    "title": "Fitting spinal brace – jewett TLSO",
-    "url": "https://www.worcsacute.nhs.uk/leaflets/fitting-spinal-brace-jewett-tlso/",
-    "slug": "fitting-spinal-brace-jewett-tlso"
   },
   {
     "title": "Fitting spinal brace – TLSO",
@@ -1218,6 +1273,16 @@
     "title": "Going Home after an Autologous Stem Cell Transplant",
     "url": "https://www.worcsacute.nhs.uk/leaflets/going-home-after-an-autologous-stem-cell-transplant/",
     "slug": "going-home-after-an-autologous-stem-cell-transplant"
+  },
+  {
+    "title": "Going Home from Hospital with Asthma",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/going-home-from-hospital-with-asthma/",
+    "slug": "going-home-from-hospital-with-asthma"
+  },
+  {
+    "title": "Going home from Hospital with oxygen",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/going-home-from-hospital-with-oxygen/",
+    "slug": "going-home-from-hospital-with-oxygen"
   },
   {
     "title": "Going home NG tube feeding with the Neonatal Outreach Service",
@@ -1353,6 +1418,11 @@
     "title": "Homebirth",
     "url": "https://www.worcsacute.nhs.uk/leaflets/homebirth-waht-pi-308/",
     "slug": "homebirth-waht-pi-308"
+  },
+  {
+    "title": "Hospital Discharge Medicines Service 2022",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/hospital-discharge-medicines-service-2022/",
+    "slug": "hospital-discharge-medicines-service-2022"
   },
   {
     "title": "Hospital Palliative Care Team",
@@ -1495,6 +1565,11 @@
     "slug": "in-cast-exercises-for-fractures-of-the-wrist"
   },
   {
+    "title": "Indwelling Pleural Catheter",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/indwelling-pleural-catheter/",
+    "slug": "indwelling-pleural-catheter"
+  },
+  {
     "title": "Indwelling Pleural Catheter Removal",
     "url": "https://www.worcsacute.nhs.uk/leaflets/indwelling-pleural-catheter-removal/",
     "slug": "indwelling-pleural-catheter-removal"
@@ -1573,6 +1648,11 @@
     "title": "Instructions about the Care of a Patient who has received Sedative Medicines in the A&E Dept",
     "url": "https://www.worcsacute.nhs.uk/leaflets/instructions-about-the-care-of-a-patient-who-has-received-sedative-medicines-in-the-ae-department/",
     "slug": "instructions-about-the-care-of-a-patient-who-has-received-sedative-medicines-in-the-ae-department"
+  },
+  {
+    "title": "Intra-pleural Irrigation",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/intra-pleural-irrigation/",
+    "slug": "intra-pleural-irrigation"
   },
   {
     "title": "Intrapleural tPA+DNase",
@@ -1805,6 +1885,11 @@
     "slug": "mallet-finger"
   },
   {
+    "title": "Mallet Finger Injury",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/mallet-finger-injury/",
+    "slug": "mallet-finger-injury"
+  },
+  {
     "title": "Mallet Injury",
     "url": "https://www.worcsacute.nhs.uk/leaflets/mallet-injury/",
     "slug": "mallet-injury"
@@ -1863,6 +1948,11 @@
     "title": "Mastopexy or Breast reduction",
     "url": "https://www.worcsacute.nhs.uk/leaflets/mastopexy-or-breast-reduction/",
     "slug": "mastopexy-or-breast-reduction"
+  },
+  {
+    "title": "Measles Information Leaflet",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/measles-information-leaflet/",
+    "slug": "measles-information-leaflet"
   },
   {
     "title": "Measles – WAHT-PI-2380",
@@ -2080,6 +2170,16 @@
     "slug": "nerve-conduction-studies-and-emg"
   },
   {
+    "title": "Nicotine Replacement Therapy (NRT) Lozenges",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/nicotine-replacement-therapy-nrt-lozenges/",
+    "slug": "nicotine-replacement-therapy-nrt-lozenges"
+  },
+  {
+    "title": "Nicotine Replacement Therapy (NRT) Patches",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/nicotine-replacement-therapy-nrt-patches/",
+    "slug": "nicotine-replacement-therapy-nrt-patches"
+  },
+  {
     "title": "Nodal Lymphangiogram",
     "url": "https://www.worcsacute.nhs.uk/leaflets/nodal-lymphangiogram/",
     "slug": "nodal-lymphangiogram"
@@ -2118,6 +2218,11 @@
     "title": "Occupational Therapy for Your Planned Procedure",
     "url": "https://www.worcsacute.nhs.uk/leaflets/occupational-therapy-for-your-planned-procedure/",
     "slug": "occupational-therapy-for-your-planned-procedure"
+  },
+  {
+    "title": "Occupational Therapy Splinting Service",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/occupational-therapy-splinting-service/",
+    "slug": "occupational-therapy-splinting-service"
   },
   {
     "title": "Oesophageal Stent Insertion",
@@ -2295,7 +2400,7 @@
     "slug": "paediatrics-diabetes-receiving-a-good-service-from-your-paediatric-diabetes-team"
   },
   {
-    "title": "Paediatric Diabetes – Sick Day Rules – Omnipod 5 pump",
+    "title": "Paediatric Diabetes – Sick Day Rules – Omnipod 5 pump",
     "url": "https://www.worcsacute.nhs.uk/leaflets/paediatrics-diabetes-sick-day-rules-omnipod-5-pump/",
     "slug": "paediatrics-diabetes-sick-day-rules-omnipod-5-pump"
   },
@@ -2435,6 +2540,11 @@
     "slug": "patient-experience"
   },
   {
+    "title": "Patient Initiated Follow Up (PIFU)",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/patient-initiated-follow-up-pifu/",
+    "slug": "patient-initiated-follow-up-pifu"
+  },
+  {
     "title": "Patients Guide to Community Hospital Transfer in Worcestershire (Out by 5 Pathway)",
     "url": "https://www.worcsacute.nhs.uk/leaflets/patients-guide-to-community-hospital-transfer-in-worcestershire-out-by-5-pathway/",
     "slug": "patients-guide-to-community-hospital-transfer-in-worcestershire-out-by-5-pathway"
@@ -2458,6 +2568,16 @@
     "title": "Patients in Plaster (Child)",
     "url": "https://www.worcsacute.nhs.uk/leaflets/patients-in-plaster-child/",
     "slug": "patients-in-plaster-child"
+  },
+  {
+    "title": "Peony Room – Alexandra Hospital",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/peony-room-alexandra-hospital/",
+    "slug": "peony-room-alexandra-hospital"
+  },
+  {
+    "title": "Peony Room – Worcestershire Royal Hospital",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/peony-room-worcestershire-royal-hospital/",
+    "slug": "peony-room-worcestershire-royal-hospital"
   },
   {
     "title": "Percutaneous aspiration of abscess (CT guided)",
@@ -2540,6 +2660,11 @@
     "slug": "peripherally-inserted-central-catheter-picc"
   },
   {
+    "title": "PERIPrem Passport",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/periprem-passport/",
+    "slug": "periprem-passport"
+  },
+  {
     "title": "Permanent Pacemaker Implant (PPM)",
     "url": "https://www.worcsacute.nhs.uk/leaflets/waht-pi-1026-permanent-pacemaker-implant/",
     "slug": "waht-pi-1026-permanent-pacemaker-implant"
@@ -2588,6 +2713,11 @@
     "title": "Plastercast Care",
     "url": "https://www.worcsacute.nhs.uk/leaflets/plastercast-care/",
     "slug": "plastercast-care"
+  },
+  {
+    "title": "Pneumonia",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/pneumonia/",
+    "slug": "pneumonia"
   },
   {
     "title": "Pneumothorax",
@@ -2675,7 +2805,7 @@
     "slug": "preoperative-pregnancy-testing"
   },
   {
-    "title": "Prepuceplasty – Information for parents",
+    "title": "Prepuceplasty – Information for parents",
     "url": "https://www.worcsacute.nhs.uk/leaflets/prepuceplasty-information-for-parents/",
     "slug": "prepuceplasty-information-for-parents"
   },
@@ -3070,6 +3200,11 @@
     "slug": "stop-smoking-waht-pi-2225"
   },
   {
+    "title": "Strength and Balance Exercise Programme",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/strength-and-balance-exercise-programme/",
+    "slug": "strength-and-balance-exercise-programme"
+  },
+  {
     "title": "Stress Echocardiography",
     "url": "https://www.worcsacute.nhs.uk/leaflets/stress-echocardiography/",
     "slug": "stress-echocardiography"
@@ -3180,6 +3315,11 @@
     "slug": "taking-baby-home-nnu-discharge-booklet-2026-v2"
   },
   {
+    "title": "Talc Pleurodesis",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/talc-pleurodesis/",
+    "slug": "talc-pleurodesis"
+  },
+  {
     "title": "TB service home isolation policy",
     "url": "https://www.worcsacute.nhs.uk/leaflets/tb-service-home-isolation-policy/",
     "slug": "tb-service-home-isolation-policy"
@@ -3195,6 +3335,11 @@
     "slug": "testosterone-for-postmenopausal-women"
   },
   {
+    "title": "The Heart Failure Nurse Service",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/the-heart-failure-nurse-service/",
+    "slug": "the-heart-failure-nurse-service"
+  },
+  {
     "title": "The Intensive Care Unit",
     "url": "https://www.worcsacute.nhs.uk/leaflets/the-intensive-care-unit/",
     "slug": "the-intensive-care-unit"
@@ -3203,6 +3348,11 @@
     "title": "The Paediatric Cystic Fibrosis Service and Clinical Psychology",
     "url": "https://www.worcsacute.nhs.uk/leaflets/the-paediatric-cystic-fibrosis-service-and-clinical-psychology/",
     "slug": "the-paediatric-cystic-fibrosis-service-and-clinical-psychology"
+  },
+  {
+    "title": "The Peony End-of-Life Volunteer Service",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/the-peony-end-of-life-volunteer-service/",
+    "slug": "the-peony-end-of-life-volunteer-service"
   },
   {
     "title": "The Risks And Benefits Of Treatment To The Cervix (Lletz) Versus Continued Surveillance",
@@ -3290,14 +3440,24 @@
     "slug": "type-2-diabetes-in-children-and-young-people-medical-management"
   },
   {
-    "title": "Ultrasound guided percutaneous biopsy",
+    "title": "Ultrasound Guided Percutaneous Biopsy",
     "url": "https://www.worcsacute.nhs.uk/leaflets/ultrasound-guided-percutaneous-biopsy/",
     "slug": "ultrasound-guided-percutaneous-biopsy"
+  },
+  {
+    "title": "Ultrasound Guided Percutaneous Neck Biopsy",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/ultrasound-guided-percutaneous-neck-biopsy/",
+    "slug": "ultrasound-guided-percutaneous-neck-biopsy"
   },
   {
     "title": "Ultrasound of baby hips",
     "url": "https://www.worcsacute.nhs.uk/leaflets/ultrasound-of-baby-hips/",
     "slug": "ultrasound-of-baby-hips"
+  },
+  {
+    "title": "Uncertain Recovery Plan – The Amber Care Bundle",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/uncertain-recovery-plan-the-amber-care-bundle/",
+    "slug": "uncertain-recovery-plan-the-amber-care-bundle"
   },
   {
     "title": "Understanding and managing lateral hip pain",
@@ -3345,6 +3505,11 @@
     "slug": "use-of-crutches-waht-pi-2119"
   },
   {
+    "title": "Use of Probiotics in preterm infants",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/use-of-probiotics-in-preterm-infants/",
+    "slug": "use-of-probiotics-in-preterm-infants"
+  },
+  {
     "title": "Useful Links",
     "url": "https://www.worcsacute.nhs.uk/leaflets/useful-links/",
     "slug": "useful-links"
@@ -3353,6 +3518,16 @@
     "title": "Useful web resources",
     "url": "https://www.worcsacute.nhs.uk/leaflets/useful-web-resources/",
     "slug": "useful-web-resources"
+  },
+  {
+    "title": "Using Ambulatory Oxygen Therapy (AOT)",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/using-ambulatory-oxygen-therapy-aot/",
+    "slug": "using-ambulatory-oxygen-therapy-aot"
+  },
+  {
+    "title": "Using Long Term Oxygen Therapy (LTOT)",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/using-long-term-oxygen-therapy-ltot/",
+    "slug": "using-long-term-oxygen-therapy-ltot"
   },
   {
     "title": "Using your acapella",
@@ -3368,6 +3543,11 @@
     "title": "Uterine Artery Embolisation (Fibroid Embolisation)",
     "url": "https://www.worcsacute.nhs.uk/leaflets/uterine-artery-embolisation-fibroid-embolisation/",
     "slug": "uterine-artery-embolisation-fibroid-embolisation"
+  },
+  {
+    "title": "Vacuum Assisted Excision (VAE) of Breast",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/vacuum-assisted-excision-vae-of-breast/",
+    "slug": "vacuum-assisted-excision-vae-of-breast"
   },
   {
     "title": "Vaginal Dilators – Radiotherapy",
@@ -3448,6 +3628,11 @@
     "title": "Welcome to self managed follow up – Colorectal Information for patients, relatives and carers",
     "url": "https://www.worcsacute.nhs.uk/leaflets/welcome-to-self-managed-follow-up-colorectal-information-for-patients-relatives-and-carers/",
     "slug": "welcome-to-self-managed-follow-up-colorectal-information-for-patients-relatives-and-carers"
+  },
+  {
+    "title": "Welcome to the Cardiac Rehabilitation Service",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/welcome-to-the-cardiac-rehabilitation-service/",
+    "slug": "welcome-to-the-cardiac-rehabilitation-service"
   },
   {
     "title": "Welcome to the Neonatal Unit",

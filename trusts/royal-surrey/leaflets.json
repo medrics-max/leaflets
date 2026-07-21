@@ -425,11 +425,6 @@
     "slug": "carbapenem-resistant-organisms"
   },
   {
-    "title": "Carbohydrate reference guide for Gestational Diabetes",
-    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=22631&media_type=10",
-    "slug": "carbohydrate-reference-guide-for-gestational-diabetes"
-  },
-  {
     "title": "Carbohydrates Leaflet 1",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=12527&media_type=10",
     "slug": "carbohydrates-leaflet-1"
@@ -520,6 +515,11 @@
     "slug": "cataract-surgery-discharge-advice"
   },
   {
+    "title": "Cataracts",
+    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=6041&media_type=10",
+    "slug": "cataracts"
+  },
+  {
     "title": "Caudal Epidural Steroid Injection",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=17946&media_type=10",
     "slug": "caudal-epidural-steroid-injection"
@@ -538,6 +538,11 @@
     "title": "Central Slip Injury",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=13534&media_type=10",
     "slug": "central-slip-injury"
+  },
+  {
+    "title": "Central Venous Catheter- CVC (Central line)",
+    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=33010&media_type=10",
+    "slug": "central-venous-catheter-cvc-central-line"
   },
   {
     "title": "Cervical dizziness",
@@ -695,6 +700,11 @@
     "slug": "corns-callus-and-fissures"
   },
   {
+    "title": "Cows milk protein free diet for breast feeding mothers",
+    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=791&media_type=10",
+    "slug": "cows-milk-protein-free-diet-for-breast-feeding-mothers"
+  },
+  {
     "title": "Criteria Led Discharge",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=24266&media_type=10",
     "slug": "criteria-led-discharge"
@@ -773,6 +783,11 @@
     "title": "Dental infections",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=29991&media_type=10",
     "slug": "dental-infections"
+  },
+  {
+    "title": "DEXA Scan",
+    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=33008&media_type=10",
+    "slug": "dexa-scan"
   },
   {
     "title": "Difficult textures and higher risk foods: Eating and swallowing",
@@ -1080,6 +1095,11 @@
     "slug": "genetic-haemochromatosis"
   },
   {
+    "title": "Genital Herpes and Pregnancy",
+    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=33009&media_type=10",
+    "slug": "genital-herpes-and-pregnancy"
+  },
+  {
     "title": "Gestational Diabetes Treatment",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=17990&media_type=10",
     "slug": "gestational-diabetes-treatment"
@@ -1183,11 +1203,6 @@
     "title": "Hernia repair",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=851&media_type=10",
     "slug": "hernia-repair"
-  },
-  {
-    "title": "Herpes Zoster (shinges)",
-    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=679&media_type=10",
-    "slug": "herpes-zoster-shinges"
   },
   {
     "title": "High risk of non-healing wounds",
@@ -1405,11 +1420,6 @@
     "slug": "laparoscopy-dye-test-division-of-adhesions"
   },
   {
-    "title": "Large for gestational age baby diagnosis",
-    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=29498&media_type=10",
-    "slug": "large-for-gestational-age-baby-diagnosis"
-  },
-  {
     "title": "Large Loop Excision of the Transformation Zone (LLETZ)",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=30570&media_type=10",
     "slug": "large-loop-excision-of-the-transformation-zone-lletz"
@@ -1453,11 +1463,6 @@
     "title": "Lumbar puncture",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=13984&media_type=10",
     "slug": "lumbar-puncture"
-  },
-  {
-    "title": "Lutetium-177 PSMA (PLUVICTOTM) Therapy",
-    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=24130&media_type=10",
-    "slug": "lutetium-177-psma-pluvictotm-therapy"
   },
   {
     "title": "Macmillan Renal Cancer Specialist Team",
@@ -1553,11 +1558,6 @@
     "title": "My Visit to Paediatric Audiology",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=31930&media_type=10",
     "slug": "my-visit-to-paediatric-audiology"
-  },
-  {
-    "title": "Myocardial Perfusion (MPI) Heart scan",
-    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=13532&media_type=10",
-    "slug": "myocardial-perfusion-mpi-heart-scan"
   },
   {
     "title": "Naso-jejunal tube (NJT)",
@@ -1725,6 +1725,11 @@
     "slug": "probiotics-in-neonates"
   },
   {
+    "title": "Pulled elbow advice Children",
+    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=12166&media_type=10",
+    "slug": "pulled-elbow-advice-children"
+  },
+  {
     "title": "Pulmonary Embolus (PE)",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=25167&media_type=10",
     "slug": "pulmonary-embolus-pe"
@@ -1748,6 +1753,11 @@
     "title": "ReSPECT",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=8672&media_type=10",
     "slug": "respect"
+  },
+  {
+    "title": "Returning to your usual diet after surgery",
+    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=33007&media_type=10",
+    "slug": "returning-to-your-usual-diet-after-surgery"
   },
   {
     "title": "Rezum",
@@ -1843,11 +1853,6 @@
     "title": "Suspected Deep Vein Thrombosis",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=26956&media_type=10",
     "slug": "suspected-deep-vein-thrombosis"
-  },
-  {
-    "title": "Swallowed foreign bodies",
-    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=3309&media_type=10",
-    "slug": "swallowed-foreign-bodies"
   },
   {
     "title": "Teenage and Young Adult Cancer Service",

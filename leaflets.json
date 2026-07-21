@@ -220,6 +220,11 @@
     "slug": "anterior-resection"
   },
   {
+    "title": "Anti-D following early pregnancy loss",
+    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/anti-d-following-early-pregnancy-loss/",
+    "slug": "anti-d-following-early-pregnancy-loss"
+  },
+  {
     "title": "Anti-Mullerian Hormone (AMH) Assessment",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/anti-mullerian-hormone-amh-assessment/",
     "slug": "anti-mullerian-hormone-amh-assessment"
@@ -1225,6 +1230,11 @@
     "slug": "fluoroquinolone-antibiotics"
   },
   {
+    "title": "Foam sclerotherapy for varicose veins",
+    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/foam-sclerotherapy-varicose-veins-ghpi0993/",
+    "slug": "foam-sclerotherapy-varicose-veins-ghpi0993"
+  },
+  {
     "title": "Follow up appointments and advice on recurrence of gynaecological cancer",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/follow-appointments-and-advice-recurrence-gynaecological-cancer-ghpi0953_09_17/",
     "slug": "follow-appointments-and-advice-recurrence-gynaecological-cancer-ghpi0953_09_17"
@@ -1450,6 +1460,11 @@
     "slug": "having-a-flexible-sigmoidoscopy-as-an-inpatient"
   },
   {
+    "title": "Having a gastroscopy (OGD) as an inpatient",
+    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/having-a-gastroscopy-ogd-as-an-inpatient/",
+    "slug": "having-a-gastroscopy-ogd-as-an-inpatient"
+  },
+  {
     "title": "Having a gastroscopy and colonoscopy",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/having-a-gastroscopy-and-colonoscopy/",
     "slug": "having-a-gastroscopy-and-colonoscopy"
@@ -1620,7 +1635,7 @@
     "slug": "how-take-klean-prep-your-gynaecological-cancer-surgery"
   },
   {
-    "title": "How to take the best photos of  your skin lesion or rash",
+    "title": "How to take the best photos of your skin lesion or rash",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/how-take-best-photographs-your-skin-lesion-or-rash-ghpi1577/",
     "slug": "how-take-best-photographs-your-skin-lesion-or-rash-ghpi1577"
   },
@@ -1800,14 +1815,14 @@
     "slug": "information-about-day-case-ercp-endoscopic-retrograde-cholangio-pancreatography"
   },
   {
-    "title": "Information and support following the loss of your baby (before the end of 24 weeks of pregnancy with no signs of life)",
-    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/ghpi0502-information-and-support-following-loss-your-baby-end-24-weeks/",
-    "slug": "ghpi0502-information-and-support-following-loss-your-baby-end-24-weeks"
-  },
-  {
     "title": "Information and Support for You Following the Loss of Your Baby (24 Weeks and Over)",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/information-and-support-for-you-following-the-loss-of-your-baby-24-weeks-and-over/",
     "slug": "information-and-support-for-you-following-the-loss-of-your-baby-24-weeks-and-over"
+  },
+  {
+    "title": "Information and support for you following the loss of your baby (up to 23 weeks and 6 days)",
+    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/ghpi0502-information-and-support-following-loss-your-baby-end-24-weeks/",
+    "slug": "ghpi0502-information-and-support-following-loss-your-baby-end-24-weeks"
   },
   {
     "title": "Information following a cervical biopsy",
@@ -2170,6 +2185,11 @@
     "slug": "managing-type-1-diabetes-home"
   },
   {
+    "title": "Managing Type 2 Diabetes at home",
+    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/managing-type-2-diabetes-at-home/",
+    "slug": "managing-type-2-diabetes-at-home"
+  },
+  {
     "title": "Mannitol Challenge Test (Osmohale®)",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/mannitol-challenge-test-osmohale/",
     "slug": "mannitol-challenge-test-osmohale"
@@ -2418,6 +2438,11 @@
     "title": "Patient Initiated Follow-Up from SDEC",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/patient-initiated-follow-up-from-sdec/",
     "slug": "patient-initiated-follow-up-from-sdec"
+  },
+  {
+    "title": "Patient Photograph/Video Submissions",
+    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/patient-media-photo-or-video-submission-ghpi1530/",
+    "slug": "patient-media-photo-or-video-submission-ghpi1530"
   },
   {
     "title": "Patient-initiated follow-up after a gynaecology cancer diagnosis",
@@ -2680,7 +2705,7 @@
     "slug": "radiotherapy-for-cancers-of-the-penis"
   },
   {
-    "title": "Radiotherapy for Lymphoma  (Hodgkin Lymphoma or Non-Hodgkin Lymphoma)",
+    "title": "Radiotherapy for Lymphoma (Hodgkin Lymphoma or Non-Hodgkin Lymphoma)",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/radiotherapy-for-lymphoma-hodgkin-lymphoma-or-non-hodgkin-lymphoma/",
     "slug": "radiotherapy-for-lymphoma-hodgkin-lymphoma-or-non-hodgkin-lymphoma"
   },
@@ -2795,7 +2820,7 @@
     "slug": "robotic-assisted-laparoscopic-radical-prostatectomy"
   },
   {
-    "title": "Robotically assisted Total  Laparoscopic Hysterectomy (RATLH)",
+    "title": "Robotically assisted Total Laparoscopic Hysterectomy (RATLH)",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/robotically-assisted-total-laparoscopic-hysterectomy-tlh-ghpi1562/",
     "slug": "robotically-assisted-total-laparoscopic-hysterectomy-tlh-ghpi1562"
   },
@@ -2815,7 +2840,7 @@
     "slug": "same-day-emergency-care-sdec"
   },
   {
-    "title": "Self-administration of  Subcutaneous Systemic AntiCancer Therapy (SACT)",
+    "title": "Self-administration of Subcutaneous Systemic AntiCancer Therapy (SACT)",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/self-administration-of-subcutaneous-systemic-anticancer-therapy-sact/",
     "slug": "self-administration-of-subcutaneous-systemic-anticancer-therapy-sact"
   },
@@ -2843,6 +2868,11 @@
     "title": "Services and charities providing support for people with skin conditions",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/services-and-charities-providing-support-for-people-with-skin-conditions/",
     "slug": "services-and-charities-providing-support-for-people-with-skin-conditions"
+  },
+  {
+    "title": "Short Synacthen Test (SST)",
+    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/short-synacthen-test-sst-ghpi1547/",
+    "slug": "short-synacthen-test-sst-ghpi1547"
   },
   {
     "title": "Simple exercises to encourage weight loss",
