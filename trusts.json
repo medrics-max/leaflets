@@ -113,11 +113,83 @@
         "item_key_re": "media_item=(\\d+)",
         "slug_from": "title",
         "max_pages": 500,
-        "min_expected": 300
+        "min_expected": 300,
+        "review_dates": true
       },
       "notes": "CFML media browser: ~83 specialty folders, paginated ~10 items/page, server-rendered. Items open the trust's leaflet viewer page (PDF inside). The flat 'show all' view returns nothing — the folder tree must be walked, so a scan takes a few minutes.",
       "listed": false,
       "listed_note": "Not yet discussed with the trust — preview/demo only. Set listed: true once the trust has agreed."
+    },
+    {
+      "id": "hull",
+      "name": "Hull University Teaching Hospitals NHS Trust",
+      "short_name": "Hull",
+      "ods_code": "RWA",
+      "status": "live",
+      "data_dir": "trusts/hull",
+      "leaflets": {
+        "kind": "single-index",
+        "base": "https://www.hey.nhs.uk",
+        "index": "/patient-leaflets/",
+        "link_prefixes": [
+          "/patient-leaflet/"
+        ],
+        "include_pdf": false,
+        "exclude_contains": [
+          "__trashed"
+        ],
+        "min_expected": 800
+      },
+      "notes": "Benchmark estate (peer_scan): whole library on one A-Z page (~1000 HTML leaflets). WordPress serves binned pages live under __trashed slugs — excluded. Onboarded 2026-07-20 from the peer benchmark scan: strongest ED publisher found.",
+      "listed": false,
+      "listed_note": "Not yet discussed with the trust — preview/watch only. Set listed: true once the trust has agreed."
+    },
+    {
+      "id": "uhd",
+      "name": "University Hospitals Dorset NHS Foundation Trust",
+      "short_name": "UH Dorset",
+      "ods_code": "R0D",
+      "status": "live",
+      "data_dir": "trusts/uhd",
+      "leaflets": {
+        "kind": "section-index",
+        "base": "https://www.uhd.nhs.uk",
+        "index": "/visit/patient-information-leaflets",
+        "section_prefix": "/visit/patient-information-leaflets/",
+        "link_prefixes": [
+          "/uploads/"
+        ],
+        "include_pdf": true,
+        "slug_from": "title",
+        "min_expected": 500
+      },
+      "notes": "South West link + dedicated ED discharge series (peer_scan benchmark). ~36 department pages each listing PDFs; slugs from titles (PDF filenames carry ref numbers that change on re-upload). first import found 674; min_expected 500. Onboarded 2026-07-20.",
+      "listed": false,
+      "listed_note": "Not yet discussed with the trust — preview/watch only. Set listed: true once the trust has agreed."
+    },
+    {
+      "id": "york",
+      "name": "York and Scarborough Teaching Hospitals NHS Foundation Trust",
+      "short_name": "York",
+      "ods_code": "RCB",
+      "status": "live",
+      "data_dir": "trusts/york",
+      "leaflets": {
+        "kind": "section-index",
+        "base": "https://www.yorkhospitals.nhs.uk",
+        "index": "/coming-into-hospital1/patient-information-leaflets/",
+        "section_prefix": "/coming-into-hospital1/patient-information-leaflets/",
+        "link_prefixes": [
+          "/seecmsfile/"
+        ],
+        "allow_query": true,
+        "include_pdf": true,
+        "slug_from": "title",
+        "min_expected": 600
+      },
+      "notes": "Onboarded 2026-07-20 (Oscar: amass trusts to improve peer review). Departmental sections incl. a dedicated Emergency Department series; leaflets are /seecmsfile/?id=N PDF links, titles from anchor text, slugs from titles. min_expected provisional — tighten after first import.",
+      "listed": false,
+      "listed_note": "Not yet discussed with the trust — preview/watch only."
     }
   ],
   "not_scrapeable": [
@@ -140,6 +212,21 @@
     {
       "name": "Somerset NHS Foundation Trust",
       "reason": "No index of any kind — PDFs scattered across ~200 WordPress microsites. Checked 2026-07-05."
+    },
+    {
+      "name": "Royal Devon University Healthcare (Exeter)",
+      "checked": "2026-07-20",
+      "reason": "site returns 403 to non-browser fetchers (bot-block) — polite scraping not possible"
+    },
+    {
+      "name": "University Hospitals Plymouth",
+      "checked": "2026-07-20",
+      "reason": "leaflet catalogue is search-driven; /display-pil only server-renders a ~10-item latest list; no crawlable full index. South West link — revisit if they publish an A-Z."
+    },
+    {
+      "name": "East Sussex Healthcare (full estate)",
+      "checked": "2026-07-20",
+      "reason": "no single full-estate index found; leaflets listed per-service only. Their dedicated ED series IS scraped as a peer_scan benchmark."
     }
   ]
 }
