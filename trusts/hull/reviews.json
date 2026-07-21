@@ -1,0 +1,638 @@
+{
+ "24-hour-ph-and-impedance-monitoring-inpatient": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "e58657d54cc60301",
+  "status": "no-date",
+  "title": "24-hour pH and Impedance Monitoring (Inpatient) – A guide for parents and carers"
+ },
+ "24-hour-ph-and-impedance-monitoring-outpatient": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "bf3f15fbdd96a307",
+  "status": "no-date",
+  "title": "24-hour pH and Impedance Monitoring (Outpatient) – A guide for parents and carers"
+ },
+ "28826": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "d7e31c81e86d6879",
+  "status": "no-date",
+  "title": "Bath PUVA Phototherapy"
+ },
+ "29121": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "28620bb8101b850d",
+  "status": "no-date",
+  "title": "Acromioclavicular (AC) Joint Injury with minimal displacement – Advice regarding healing and recovery"
+ },
+ "32381": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "dc31e8f1ce99cb69",
+  "status": "no-date",
+  "title": "After a Cancer Diagnosis…"
+ },
+ "32647": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "d73ae290d8c4f7fd",
+  "status": "no-date",
+  "title": "Bowel Preparation – Information for Patients and Families"
+ },
+ "32724": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "f4f97f441057e745",
+  "status": "no-date",
+  "title": "Aerobika – Secretion Clearance Device"
+ },
+ "32866": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "a860dfd22a8789c0",
+  "status": "no-date",
+  "title": "Anisocoria"
+ },
+ "33253": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "33ff1f5acc7d30f7",
+  "status": "no-date",
+  "title": "Antenatal Colostrum Collection"
+ },
+ "33524": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "49fa81902836af37",
+  "status": "no-date",
+  "title": "A Guide to a Low Phosphate Diet – Improving your understanding of following a low phosphate diet"
+ },
+ "33725": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "e740a0c8963adea3",
+  "status": "no-date",
+  "title": "Bartholin’s Cyst"
+ },
+ "39065": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "c94e723814477f80",
+  "status": "no-date",
+  "title": "Bleb Needling"
+ },
+ "5th-metacarpal-neck-fractures": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "f65af82d3a3bf069",
+  "status": "no-date",
+  "title": "5th Metacarpal Neck Fractures"
+ },
+ "5th-metatarsal-base-fracture-zone-1-advice-regarding-healing-and-recovery": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "56a787c7c4c4dd8a",
+  "status": "no-date",
+  "title": "5th Metatarsal Base Fracture (Zone 1) – Advice regarding healing and recovery"
+ },
+ "a-nourishing-guide-for-kidney-patients": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "cf858c6caea2659f",
+  "status": "no-date",
+  "title": "A Nourishing Guide for Kidney Patients"
+ },
+ "a-practical-guide-to-help-you-with-bereavement": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "29abe2a29bae9890",
+  "status": "no-date",
+  "title": "A practical guide to help you with bereavement – CHH"
+ },
+ "a-practical-guide-to-help-you-with-bereavement-hri": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "943753b74af0bbb1",
+  "status": "no-date",
+  "title": "A Practical Guide To Help You With Bereavement – HRI"
+ },
+ "a-simple-guide-to-the-post-mortem-examination-procedure": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "a9ed4070bbf82e8f",
+  "status": "no-date",
+  "title": "A Simple Guide to the Post-mortem Examination Procedure"
+ },
+ "abdominal-pain": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "bf84640d1395c450",
+  "status": "no-date",
+  "title": "Abdominal Pain"
+ },
+ "abdominoplasty-discharge-advice": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "6b290565a5ff5870",
+  "status": "no-date",
+  "title": "Abdominoplasty – Discharge Advice"
+ },
+ "acapella-secretion-clearance-device": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "8d89af1e26458d7e",
+  "status": "no-date",
+  "title": "Acapella – Secretion clearance device"
+ },
+ "accidental-poisoning-in-children": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "2ef11a368c0c4b4e",
+  "status": "no-date",
+  "title": "Accidental Poisoning in Children"
+ },
+ "achilles-tendon-rupture-information-for-patients": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "fded074fbdc575c8",
+  "status": "no-date",
+  "title": "Achilles Tendon Rupture – Information for Patients"
+ },
+ "acl-mpfl-reconstruction-information-for-parents": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "ac665e82352095e0",
+  "status": "no-date",
+  "title": "ACL/MPFL Reconstruction- Information for Parents"
+ },
+ "active-cycle-of-breathing-technique-acbt-secretion-clearance-technique": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "088e54679d7aa09c",
+  "status": "no-date",
+  "title": "Active Cycle of Breathing Technique (ACBT) – Secretion clearance technique"
+ },
+ "acupuncture-pain-relief": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "b756c8b00fec9c5e",
+  "status": "no-date",
+  "title": "Acupuncture for Pain Relief"
+ },
+ "acute-anterior-uveitis-patient-initiated-follow-up-pifu-guide-card": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "82ba1238a6dc94e2",
+  "status": "no-date",
+  "title": "Acute Anterior Uveitis: Patient Initiated Follow Up (PIFU) Guide Card"
+ },
+ "acute-kidney-injury-aki": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "91fe6bed93e1b12e",
+  "status": "no-date",
+  "title": "Acute Kidney Injury (AKI)"
+ },
+ "acute-oncology-service": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "1f42c05164d20e77",
+  "status": "no-date",
+  "title": "Acute Oncology Service"
+ },
+ "acute-pelvic-inflammatory-disease-tests-treatment": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "ef69b6f557ed9125",
+  "status": "no-date",
+  "title": "Acute Pelvic Inflammatory Disease: Tests And Treatment"
+ },
+ "adapting-to-monocular-vision-using-the-sight-from-one-eye-only": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "c665c13e332bff4f",
+  "status": "no-date",
+  "title": "Adapting to Monocular Vision (using the sight from one eye only)"
+ },
+ "admission-for-radio-iodine-ablatio-treatment": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "499a4c052287b8f3",
+  "status": "no-date",
+  "title": "Admission for Radio Iodine Ablation Treatment"
+ },
+ "adult-pattern-reverse-visual-evoked-potentials-prvep": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "cbf24a03a6b0640f",
+  "status": "no-date",
+  "title": "Adult Pattern Reverse Visual Evoked Potentials (PRVEP)"
+ },
+ "adult-sleep-electroencephalogram-eeg": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "7e672ea247f3f598",
+  "status": "no-date",
+  "title": "Adult Sleep Electroencephalogram (EEG)"
+ },
+ "adult-tonsillectomy": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "4de81fa1614b0f63",
+  "status": "no-date",
+  "title": "Adult Tonsillectomy"
+ },
+ "advice-about-aminoglycoside-antibiotics-gentamicin-tobramycin-amikacin": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "aef75f25c3eac7bc",
+  "status": "no-date",
+  "title": "Advice about Aminoglycoside Antibiotics (Gentamicin/Tobramycin/Amikacin)"
+ },
+ "advice-about-antibiotics": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "dec6fe2d88d0485a",
+  "status": "no-date",
+  "title": "Advice about Antibiotics"
+ },
+ "advice-following-defibrillator-icd-implantation": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "cb8b76e3d2722f16",
+  "status": "no-date",
+  "title": "Advice Following Defibrillator (ICD) Implantation"
+ },
+ "advice-following-electrophysiology-studies-eps-radio-frequency-ablation-rfa": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "e0d8e6bef7d2d7cc",
+  "status": "no-date",
+  "title": "Advice following: Electrophysiology Studies (EPS) Radio Frequency Ablation (RFA)"
+ },
+ "advice-following-pacemaker-generator-box-change": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "4d615b8fb3e34f8e",
+  "status": "no-date",
+  "title": "Advice Following Pacemaker Generator Box Change"
+ },
+ "advice-following-pacemaker-implantation": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "53e85ef6b4ad3a04",
+  "status": "no-date",
+  "title": "Advice Following Pacemaker Implantation"
+ },
+ "advice-information-x-rayscan": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "c008dc083596c025",
+  "status": "no-date",
+  "title": "Advice on: Information about your X-ray/Scan"
+ },
+ "advice-inpatient-smokers": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "cb90277891665538",
+  "status": "no-date",
+  "title": "Advice for Inpatient Smokers"
+ },
+ "advice-on-pre-tibial-lacerations": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "4260b913cc66e52c",
+  "status": "no-date",
+  "title": "Advice on: Pre-tibial Lacerations"
+ },
+ "advice-sheet-following-extravasation-of-radiographic-contrast-media": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "05d57b7fc605d73d",
+  "status": "no-date",
+  "title": "Advice Sheet Following Extravasation of Radiographic Contrast Media"
+ },
+ "aftercare-advice-computed-tomography-ct-colonoscopy": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "bab7e1388fb275f4",
+  "status": "no-date",
+  "title": "Aftercare Advice: Computed Tomography (CT) Colonoscopy"
+ },
+ "ajmaline-challenge": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "9dcce65589ffce9c",
+  "status": "no-date",
+  "title": "Ajmaline Challenge"
+ },
+ "ajmaline-provocation-studies": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "edc8de9d56e6e985",
+  "status": "no-date",
+  "title": "Ajmaline Provocation Studies"
+ },
+ "alcohol-delamination": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "ba22e21ac178a5c7",
+  "status": "no-date",
+  "title": "Alcohol Delamination"
+ },
+ "allergic-or-blepharitic-conjunctivitis-children": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "afd19a4a5833b2c5",
+  "status": "no-date",
+  "title": "Allergic or Blepharitic Conjunctivitis (Children): Patient Initiated Follow Up (PIFU) Guide Card"
+ },
+ "alternatives-to-the-emergency-department": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "4be65a0a031f0f36",
+  "status": "no-date",
+  "title": "Alternatives to the Emergency Department"
+ },
+ "aminoglycoside-tobramycin-antibiotics-in-bronchiectasis": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "0f955d9115121b93",
+  "status": "no-date",
+  "title": "Aminoglycoside (Tobramycin) Antibiotics in Bronchiectasis"
+ },
+ "amiodarone-treatment": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "854780683f98ab1d",
+  "status": "no-date",
+  "title": "Amiodarone Treatment – What you need to know"
+ },
+ "amitriptyline": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "c0466091573e4314",
+  "status": "no-date",
+  "title": "Amitriptyline"
+ },
+ "an-introduction-to-diet-after-weight-loss-surgery": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "170c1afb37f7fccb",
+  "status": "no-date",
+  "title": "An Introduction to Diet after Weight Loss Surgery"
+ },
+ "anaemia-in-pregnancy-2": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "7e9f999aa5a57672",
+  "status": "no-date",
+  "title": "Anaemia in Pregnancy"
+ },
+ "anaesthesia-explained": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "2c25b12e59c73414",
+  "status": "no-date",
+  "title": "Anaesthesia explained"
+ },
+ "analgesia-and-safer-sleep-advice": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "e0afcf03e3f953f8",
+  "status": "no-date",
+  "title": "Analgesia and Safer Sleep Advice"
+ },
+ "ankle-sprain-including-an-avulsion-fracture": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "4bdae83cb0c8dd56",
+  "status": "no-date",
+  "title": "Ankle sprain including an avulsion fracture – Advice regarding healing and recovery"
+ },
+ "ano-rectal-physiology-investigations-investigation-patients-bowel-problems": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "5fc82e0183b8cf5f",
+  "status": "no-date",
+  "title": "Anorectal Physiology Investigations – an investigation for patients with bowel problems"
+ },
+ "antenatal-genetic-testing": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "743318ff76489807",
+  "status": "no-date",
+  "title": "Antenatal Genetic Testing"
+ },
+ "antenatal-prophylaxis-with-anti-d": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "23039515001657e0",
+  "status": "no-date",
+  "title": "Antenatal Prophylaxis with Anti-D"
+ },
+ "antenatal-routine-hepatitis-c-screening": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "18a61d3cdaaf25ff",
+  "status": "no-date",
+  "title": "Antenatal Routine Hepatitis C Screening"
+ },
+ "anterior-shoulder-dislocation-advice-regarding-healing-and-recovery": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "11a6a0e29316e0b3",
+  "status": "no-date",
+  "title": "Anterior Shoulder Dislocation – Advice regarding healing and recovery"
+ },
+ "anti-vegf-intravitreal-injections-understanding-the-treat-and-extend-pathway": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "9663cfaed8188dc3",
+  "status": "no-date",
+  "title": "Anti-VEGF Intravitreal Injections – Understanding the Treat and Extend Pathway"
+ },
+ "anticholinergic-burden-acb": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "221e8fe6f0b93653",
+  "status": "no-date",
+  "title": "Anticholinergic Burden (ACB)"
+ },
+ "are-you-diabetic-are-you-having-heart-surgery-patient-poster": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "9cbd36d89e74884f",
+  "status": "no-date",
+  "title": "Are you Diabetic? Are you having Heart Surgery? Patient Poster"
+ },
+ "areola-micro-pigmentation-following-breast-reconstruction-surgery": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "483143ba6f065a19",
+  "status": "no-date",
+  "title": "Areola Micro Pigmentation following Breast Reconstruction Surgery"
+ },
+ "arteriovenous-fistula": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "1248df3a173f2f5e",
+  "status": "no-date",
+  "title": "Arteriovenous Fistula"
+ },
+ "arthroplasty-patient-initiated-follow-up": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "4ce0cd7868a41572",
+  "status": "no-date",
+  "title": "Arthroplasty Patient Initiated Follow Up"
+ },
+ "arthroscopic-subacromial-decompression": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "f0d7edd78aa97654",
+  "status": "no-date",
+  "title": "Arthroscopic Subacromial Decompression"
+ },
+ "aspirin-in-pregnancy": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "5655a11d45187e52",
+  "status": "no-date",
+  "title": "Aspirin in pregnancy"
+ },
+ "assessment-prior-eye-surgery": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "7a07aa576dc407b6",
+  "status": "no-date",
+  "title": "Assessment Prior to Eye Surgery"
+ },
+ "asthma-rapid-access-review-service": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "8e343e8229944160",
+  "status": "no-date",
+  "title": "Asthma Rapid Access Review Service"
+ },
+ "atrial-fibrillation-ablation-pulmonary-vein-isolation-procedure": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "a54d0b2316857a21",
+  "status": "no-date",
+  "title": "Atrial Fibrillation Ablation (Pulmonary Vein Isolation) Procedure"
+ },
+ "attending-the-fracture-clinic-and-the-orthopaedic-outpatient-department": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "294a42d9046b3378",
+  "status": "no-date",
+  "title": "Attending the Fracture Clinic and the Orthopaedic Outpatient Department"
+ },
+ "avoiding-hypos-whilst-hospital": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "2c73068a63884ad8",
+  "status": "no-date",
+  "title": "Avoiding Hypos Whilst in Hospital"
+ },
+ "bariatric-surgery-leaflet": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "4bed5523821076b2",
+  "status": "no-date",
+  "title": "Bariatric Surgery Leaflet"
+ },
+ "bariatric-surgery-pre-operative-diet": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "bbd32caf1a8359b2",
+  "status": "no-date",
+  "title": "Bariatric Surgery – pre-operative diet"
+ },
+ "basic-infection-prevention-control-advice-external-contract-workers-trust-volunteers-healthcare-premises-2": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "2a28ef0ed87549d9",
+  "status": "no-date",
+  "title": "Basic Infection Prevention and Control Advice for External Contract Workers and Trust Volunteers in Healthcare Premises – Information for patients, relatives and carers"
+ },
+ "being-active-in-hospital": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "f9b27247faf9e9e9",
+  "status": "no-date",
+  "title": "Being Active in Hospital"
+ },
+ "best-practice-how-to-hand-wash-step-by-step-images": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "6d9f74099028007a",
+  "status": "no-date",
+  "title": "Best Practice: How to hand wash step by step images"
+ },
+ "biofeedback": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "8f2885dc01fdffab",
+  "status": "no-date",
+  "title": "Biofeedback Therapy – Therapy for patients with faecal incontinence and/or constipation"
+ },
+ "biosimilar-medication": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "661e2268b0890d15",
+  "status": "no-date",
+  "title": "Biosimilar Medication"
+ },
+ "birth-options-after-previous-caesarean-section": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "c1416d16dad41d71",
+  "status": "no-date",
+  "title": "Birth options after previous caesarean section"
+ },
+ "bleeding-andor-pain-early-pregnancy": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "b1cb37721c24f15e",
+  "status": "no-date",
+  "title": "Bleeding and/or pain in early pregnancy"
+ },
+ "blepharitis": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "f828b60c2770fc11",
+  "status": "no-date",
+  "title": "Blepharitis"
+ },
+ "block-dissection-axilla-armpit-groin-neck": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "e6b56f8b55229c99",
+  "status": "no-date",
+  "title": "Block Dissection – Axilla (armpit), Groin or Neck"
+ },
+ "blocked-tear-ducts-in-babies": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "0c891d40278518f2",
+  "status": "no-date",
+  "title": "Blocked Tear Ducts in Babies"
+ },
+ "blood-groups-and-red-cell-antibodies-in-pregnancy": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "6c54f11038d0f4f1",
+  "status": "no-date",
+  "title": "Blood Groups and Red Cell Antibodies in Pregnancy"
+ },
+ "blood-monitoring-service-for-oral-antibiotics": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "b5b6eebc1ab39219",
+  "status": "no-date",
+  "title": "Blood Monitoring Service for Oral Antibiotics"
+ },
+ "blood-transfusion-haemodialysis-patient-guide-blood-transfusion-dialysis": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "ed7750cdba51de99",
+  "status": "no-date",
+  "title": "Blood Transfusion on Haemodialysis"
+ },
+ "bone-densitometry-scans": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "7355c8ceccb2cef2",
+  "status": "no-date",
+  "title": "Bone Densitometry Scans"
+ },
+ "bone-marrow-aspiration-biopsy": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "414fe01401e33463",
+  "status": "no-date",
+  "title": "Bone Marrow Aspiration and Biopsy"
+ },
+ "brain-and-cns-central-nervous-system-therapy-team": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "d17887e833079632",
+  "status": "no-date",
+  "title": "Brain and Central Nervous System (CNS) Therapy Team"
+ },
+ "brca-gene-testing": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "d12324108d213ab4",
+  "status": "no-date",
+  "title": "BRCA Gene Testing"
+ },
+ "breast-biopsy-local-anaesthetic-aftercare-advice": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "c935e2e41bb56ac8",
+  "status": "no-date",
+  "title": "Breast Biopsy Under Local Anaesthetic (Aftercare Advice)"
+ },
+ "breast-lipomodelling": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "94f3644da07ce9b8",
+  "status": "no-date",
+  "title": "Breast Lipomodelling"
+ },
+ "breast-pintuition-tag-after-care-advice-under-local-anaesthetic": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "94f70fd0382e2fc1",
+  "status": "no-date",
+  "title": "Breast Pintuition/Tag (After Care Advice) Under Local Anaesthetic"
+ },
+ "breathlessness-clinic": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "bdccadf44705c606",
+  "status": "no-date",
+  "title": "Breathlessness Clinic"
+ },
+ "breech-presentation-turning-breech-baby-womb-external-cephalic-version": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "82536d01d9ec2474",
+  "status": "no-date",
+  "title": "Breech baby at the end of pregnancy"
+ },
+ "bronchiolitis": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "6968c73190e8c3de",
+  "status": "no-date",
+  "title": "Bronchiolitis"
+ },
+ "guide-pelvic-inflammatory-disease-pid": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "c50dad7f38aca49d",
+  "status": "no-date",
+  "title": "A Guide To Pelvic Inflammatory Disease (PID)"
+ },
+ "guide-throat-cancer-caused-oral-hpv-human-papilloma-virus-mouththroat-infection": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "23db50b373382bf4",
+  "status": "no-date",
+  "title": "A Guide To Throat Cancer Caused By Oral HPV (Human Papilloma Virus in the mouth/throat) Infection"
+ },
+ "introduction-cervical-spine-pathway": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "ec26f65f67150c5d",
+  "status": "no-date",
+  "title": "An Introduction to the Cervical Spine Pathway"
+ },
+ "plantar-fasciitis": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "a267b754c0fc2453",
+  "status": "no-date",
+  "title": "Acute Onset of Plantar Fasciitis"
+ }
+}

@@ -318,6 +318,15 @@
   "status": "ok",
   "title": "Anterior resection"
  },
+ "anti-d-following-early-pregnancy-loss": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "7b4eb879ac8d120b",
+  "ref": "GHPI1951_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Anti-D following early pregnancy loss"
+ },
  "anti-mullerian-hormone-amh-assessment": {
   "checked": "2026-07-11T00:51:30+01:00",
   "ref": "GHPI1889_04_26",
@@ -1876,6 +1885,15 @@
   "status": "ok",
   "title": "Fluoroquinolone antibiotics"
  },
+ "foam-sclerotherapy-varicose-veins-ghpi0993": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "bc807a96bb09c2a4",
+  "ref": "GHPI0993_01_26",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Foam sclerotherapy for varicose veins"
+ },
  "follow-appointments-and-advice-recurrence-gynaecological-cancer-ghpi0953_09_17": {
   "checked": "2026-07-11T00:54:27+01:00",
   "ref": "GHPI0953_05_25",
@@ -2283,6 +2301,15 @@
   "review_due_text": "November 2028",
   "status": "ok",
   "title": "Having a gastroscopy as an inpatient"
+ },
+ "having-a-gastroscopy-ogd-as-an-inpatient": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "e438d93b03ab3c8b",
+  "ref": "GHPI1477_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Having a gastroscopy (OGD) as an inpatient"
  },
  "having-a-naso-gastroscopy-as-an-outpatient": {
   "checked": "2026-07-11T00:54:27+01:00",
@@ -3410,6 +3437,15 @@
   "status": "ok",
   "title": "Managing Type 1 Diabetes at home"
  },
+ "managing-type-2-diabetes-at-home": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "d512aac2fc7d0454",
+  "ref": "GHPI1505_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Managing Type 2 Diabetes at home"
+ },
  "mannitol-challenge-test-osmohale": {
   "checked": "2026-07-11T00:57:12+01:00",
   "ref": "GHPI1845_05_25",
@@ -3821,6 +3857,15 @@
   "review_due_text": "February 2028",
   "status": "ok",
   "title": "Patient Initiated Follow-Up from SDEC"
+ },
+ "patient-media-photo-or-video-submission-ghpi1530": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "1b841bedabd4370c",
+  "ref": "GHPI1530_03_25",
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Patient Photograph/Video Submissions"
  },
  "patients-know-best": {
   "checked": "2026-07-11T00:57:12+01:00",
@@ -4516,6 +4561,15 @@
   "review_due_text": "February 2028",
   "status": "ok",
   "title": "Services and charities providing support for people with skin conditions"
+ },
+ "short-synacthen-test-sst-ghpi1547": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "165beac3103a02e7",
+  "ref": "GHPI1547_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Short Synacthen Test (SST)"
  },
  "simple-exercises-encourage-weight-loss": {
   "checked": "2026-07-11T01:00:00+01:00",

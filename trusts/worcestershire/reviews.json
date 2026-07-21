@@ -215,6 +215,12 @@
   "status": "no-date",
   "title": "Alcohol – know your limits"
  },
+ "ambulatory-diuretic-service": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "c7dac65be72918f4",
+  "status": "no-date",
+  "title": "Ambulatory Diuretic Service"
+ },
  "ambulatory-eeg": {
   "checked": "2026-07-11T02:30:11+01:00",
   "status": "no-date",
@@ -382,6 +388,12 @@
   "status": "no-date",
   "title": "Blood Monitoring and Carbohydrate Diary – For patients on Insulin"
  },
+ "blood-pleurodesis": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "6e1a8e9988fee075",
+  "status": "no-date",
+  "title": "Blood Pleurodesis"
+ },
  "bone-biopsy-under-ct-guidance": {
   "checked": "2026-07-11T02:30:11+01:00",
   "status": "no-date",
@@ -421,6 +433,12 @@
   "checked": "2026-07-11T02:30:11+01:00",
   "status": "no-date",
   "title": "Breast Form / Prosthesis"
+ },
+ "breath-hold-leaflet": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "a5d1a5482ed9f797",
+  "status": "no-date",
+  "title": "Breath Hold Leaflet"
  },
  "breathing-pattern-disorder": {
   "checked": "2026-07-11T02:30:11+01:00",
@@ -596,6 +614,12 @@
   "checked": "2026-07-11T02:30:11+01:00",
   "status": "no-date",
   "title": "Chloramphenicol Eye Ointment"
+ },
+ "cholesteatoma-and-combined-approach-tympanoplasty": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "82769ee806f3cbe5",
+  "status": "no-date",
+  "title": "Cholesteatoma and combined approach Tympanoplasty"
  },
  "chronic-pain-what-is-it": {
   "checked": "2026-07-11T02:30:11+01:00",
@@ -801,6 +825,12 @@
   "checked": "2026-07-12T02:30:10+01:00",
   "status": "no-date",
   "title": "Direct Brow Lift Operation (Correction of brow ptosis)"
+ },
+ "discharge-advice-electrophysiological-studies-and-catheter-ablation": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "c083bb1410ea769c",
+  "status": "no-date",
+  "title": "Discharge Advice: Electrophysiological Studies and Catheter Ablation"
  },
  "discharge-advice-following-negative-oral-food-challenge-or-supervised-feed": {
   "checked": "2026-07-12T02:30:10+01:00",
@@ -1047,10 +1077,22 @@
   "status": "no-date",
   "title": "Expir"
  },
+ "extensor-tendon-repair-to-the-thumb": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "81cdf632b9d60d7a",
+  "status": "no-date",
+  "title": "Extensor tendon repair to the thumb"
+ },
  "extensor-tendon-repair-zone-iii-iv": {
   "checked": "2026-07-12T02:30:10+01:00",
   "status": "no-date",
   "title": "Extensor tendon repair zone III-IV"
+ },
+ "extensor-tendon-repair-zone-v-vii": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "fee80db4e1b195b9",
+  "status": "no-date",
+  "title": "Extensor tendon repair zone V-VII"
  },
  "eye-surgery-information-for-parents": {
   "checked": "2026-07-12T02:30:10+01:00",
@@ -1062,6 +1104,12 @@
   "status": "no-date",
   "title": "Facet joint denervation"
  },
+ "facial-exercises-and-massage-routine-2": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "aee5fb4e2944d388",
+  "status": "no-date",
+  "title": "Facial exercises and massage routine"
+ },
  "falls-prevention-in-hospital": {
   "checked": "2026-07-12T02:30:10+01:00",
   "status": "no-date",
@@ -1072,6 +1120,12 @@
   "status": "no-date",
   "title": "Feeding at Risk (Eating and Drinking with Acknowledged Risks)"
  },
+ "ferinject-iron-injection-infusion": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "9607f493da7c0758",
+  "status": "no-date",
+  "title": "Ferinject (Iron injection/infusion)"
+ },
  "feverish-illness-in-children-waht-pi-2218": {
   "checked": "2026-07-12T02:30:10+01:00",
   "status": "no-date",
@@ -1081,6 +1135,12 @@
   "checked": "2026-07-12T02:30:10+01:00",
   "status": "no-date",
   "title": "Fibreoptic Endoscopic Evaluation of swallowing (FEES)"
+ },
+ "finger-extension-splint": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "fd7bea87adc3b0cb",
+  "status": "no-date",
+  "title": "Finger Extension Splint"
  },
  "first-fit-adults-waht-pi-2110": {
   "checked": "2026-07-12T02:30:10+01:00",
@@ -1097,15 +1157,22 @@
   "status": "no-date",
   "title": "Fitting spinal brace – TLSO"
  },
- "fitting-spinal-brace-jewett-tlso": {
-  "checked": "2026-07-12T02:30:10+01:00",
-  "status": "no-date",
-  "title": "Fitting spinal brace – jewett TLSO"
- },
  "flexible-sigmoidoscopy-with-enema": {
   "checked": "2026-07-12T02:30:10+01:00",
   "status": "no-date",
   "title": "Flexible Sigmoidoscopy (with enema)"
+ },
+ "flexor-tendon-repair": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "84089a294649d3ff",
+  "status": "no-date",
+  "title": "After care following Flexor Tendon Repair"
+ },
+ "flexor-tendon-repair-to-the-thumb": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "9754d85e03c31e04",
+  "status": "no-date",
+  "title": "After care following Flexor Tendon Repair to the thumb"
  },
  "fluorescein-angiography": {
   "checked": "2026-07-12T02:30:10+01:00",
@@ -1206,6 +1273,18 @@
   "checked": "2026-07-12T02:30:10+01:00",
   "status": "no-date",
   "title": "Going Home after an Autologous Stem Cell Transplant"
+ },
+ "going-home-from-hospital-with-asthma": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "202f806b2d4dda8c",
+  "status": "no-date",
+  "title": "Going Home from Hospital with Asthma"
+ },
+ "going-home-from-hospital-with-oxygen": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "7d7cd288b395fcd6",
+  "status": "no-date",
+  "title": "Going home from Hospital with oxygen"
  },
  "going-home-nasogastric-tube-feeding": {
   "checked": "2026-07-12T02:30:10+01:00",
@@ -1326,6 +1405,12 @@
   "checked": "2026-07-12T02:30:10+01:00",
   "status": "no-date",
   "title": "Homebirth"
+ },
+ "hospital-discharge-medicines-service-2022": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "d4a60e78a57929f5",
+  "status": "no-date",
+  "title": "Hospital Discharge Medicines Service 2022"
  },
  "hospital-palliative-care-team": {
   "checked": "2026-07-12T02:30:10+01:00",
@@ -1467,6 +1552,12 @@
   "status": "no-date",
   "title": "In Vitro Fertilisation (IVF) and Embryo Transfer"
  },
+ "indwelling-pleural-catheter": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "34a3e8f915a951fd",
+  "status": "no-date",
+  "title": "Indwelling Pleural Catheter"
+ },
  "indwelling-pleural-catheter-removal": {
   "checked": "2026-07-12T02:30:10+01:00",
   "status": "no-date",
@@ -1555,6 +1646,12 @@
   "content_hash": "2195e17005a19f74",
   "status": "no-date",
   "title": "Instructions about the Care of a Patient who has received Sedative Medicines in the A&E Dept"
+ },
+ "intra-pleural-irrigation": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "835e12b1d0c3a112",
+  "status": "no-date",
+  "title": "Intra-pleural Irrigation"
  },
  "intrapleural-tpadnase": {
   "checked": "2026-07-12T22:22:48+01:00",
@@ -1837,6 +1934,12 @@
   "status": "no-date",
   "title": "Mallet Finger"
  },
+ "mallet-finger-injury": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "70904aadef74c42e",
+  "status": "no-date",
+  "title": "Mallet Finger Injury"
+ },
  "mallet-injury": {
   "checked": "2026-07-12T22:22:48+01:00",
   "content_hash": "1a17e369c30ad711",
@@ -1932,6 +2035,12 @@
   "content_hash": "8e752c90f5def7b0",
   "status": "no-date",
   "title": "Measles – WAHT-PI-2380"
+ },
+ "measles-information-leaflet": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "8f5c8c1f67fc5c97",
+  "status": "no-date",
+  "title": "Measles Information Leaflet"
  },
  "medial-branch-block-injections-for-facet-joint-pain": {
   "checked": "2026-07-12T22:22:48+01:00",
@@ -2190,6 +2299,18 @@
   "status": "no-date",
   "title": "Nerve Conduction Studies (outreach clinics)"
  },
+ "nicotine-replacement-therapy-nrt-lozenges": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "d43d23c69c4e0fdb",
+  "status": "no-date",
+  "title": "Nicotine Replacement Therapy (NRT) Lozenges"
+ },
+ "nicotine-replacement-therapy-nrt-patches": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "eb680c15d72a56d0",
+  "status": "no-date",
+  "title": "Nicotine Replacement Therapy (NRT) Patches"
+ },
  "nodal-lymphangiogram": {
   "checked": "2026-07-12T22:56:56+01:00",
   "content_hash": "825ac09aae7ad93d",
@@ -2237,6 +2358,12 @@
   "content_hash": "cc0aae6b12089cfa",
   "status": "no-date",
   "title": "Occupational Therapy for Your Planned Procedure"
+ },
+ "occupational-therapy-splinting-service": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "40b50caad4d355fe",
+  "status": "no-date",
+  "title": "Occupational Therapy Splinting Service"
  },
  "oesophageal-stent-insertion-radiology": {
   "checked": "2026-07-12T22:56:56+01:00",
@@ -2622,6 +2749,12 @@
   "status": "no-date",
   "title": "Patient Experience"
  },
+ "patient-initiated-follow-up-pifu": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "7e29c373735a30a0",
+  "status": "no-date",
+  "title": "Patient Initiated Follow Up (PIFU)"
+ },
  "patients-guide-to-community-hospital-transfer-in-worcestershire-out-by-5-pathway": {
   "checked": "2026-07-13T00:29:53+01:00",
   "content_hash": "7a7b0efcc533cc59",
@@ -2657,6 +2790,18 @@
   "content_hash": "56390ac9722ef27a",
   "status": "no-date",
   "title": "Vaginal Pelvic Floor Exercises"
+ },
+ "peony-room-alexandra-hospital": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "a8ae82689f9ea80c",
+  "status": "no-date",
+  "title": "Peony Room – Alexandra Hospital"
+ },
+ "peony-room-worcestershire-royal-hospital": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "e649cac65859faf3",
+  "status": "no-date",
+  "title": "Peony Room – Worcestershire Royal Hospital"
  },
  "percutaneous-aspiration-of-abscess-ct-guided": {
   "checked": "2026-07-13T00:29:53+01:00",
@@ -2754,6 +2899,12 @@
   "status": "no-date",
   "title": "Peripherally inserted central catheter (PICC Radiology)"
  },
+ "periprem-passport": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "a4efc75e3d6362d0",
+  "status": "no-date",
+  "title": "PERIPrem Passport"
+ },
  "phototherapy-at-home-information-for-parents-carers": {
   "checked": "2026-07-13T00:29:53+01:00",
   "content_hash": "083780b1041a6d86",
@@ -2807,6 +2958,12 @@
   "content_hash": "5bd1f815dc31211f",
   "status": "no-date",
   "title": "Plastercast Care"
+ },
+ "pneumonia": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "931f4e4c1744c1a3",
+  "status": "no-date",
+  "title": "Pneumonia"
  },
  "pneumothorax-waht-pi-2111": {
   "checked": "2026-07-13T00:29:53+01:00",
@@ -3383,6 +3540,12 @@
   "status": "no-date",
   "title": "Stop Smoking"
  },
+ "strength-and-balance-exercise-programme": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "15c092a0d51a6f18",
+  "status": "no-date",
+  "title": "Strength and Balance Exercise Programme"
+ },
  "stress-echocardiography": {
   "checked": "2026-07-13T02:41:44+01:00",
   "content_hash": "b30707896ef228c9",
@@ -3520,6 +3683,12 @@
   "status": "no-date",
   "title": "Taking Baby Home Neonatal Unit discharge"
  },
+ "talc-pleurodesis": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "f1b6aec8bd9a946e",
+  "status": "no-date",
+  "title": "Talc Pleurodesis"
+ },
  "taste-for-pleasure": {
   "checked": "2026-07-12T02:30:10+01:00",
   "status": "no-date",
@@ -3549,6 +3718,12 @@
   "status": "no-date",
   "title": "Testosterone for Postmenopausal Women"
  },
+ "the-heart-failure-nurse-service": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "0428236f36cf0fb5",
+  "status": "no-date",
+  "title": "The Heart Failure Nurse Service"
+ },
  "the-intensive-care-unit": {
   "checked": "2026-07-13T02:41:44+01:00",
   "content_hash": "37dec460ed4171bd",
@@ -3560,6 +3735,12 @@
   "content_hash": "4949defab1ec82b3",
   "status": "no-date",
   "title": "The Paediatric Cystic Fibrosis Service and Clinical Psychology"
+ },
+ "the-peony-end-of-life-volunteer-service": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "b5a468001fce523b",
+  "status": "no-date",
+  "title": "The Peony End-of-Life Volunteer Service"
  },
  "the-risks-and-benefits-of-treatment-to-the-cervix-lletz-versus-continued-surveillance-follow-up-of-persistent-hr-hpv-human-papilloma-virus-with-an-unsatisfactory-colposcopy-examination": {
   "checked": "2026-07-13T02:41:44+01:00",
@@ -3662,11 +3843,23 @@
   "status": "no-date",
   "title": "Ultrasound guided percutaneous biopsy"
  },
+ "ultrasound-guided-percutaneous-neck-biopsy": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "95ada807800500fa",
+  "status": "no-date",
+  "title": "Ultrasound Guided Percutaneous Neck Biopsy"
+ },
  "ultrasound-of-baby-hips": {
   "checked": "2026-07-13T02:41:44+01:00",
   "content_hash": "83ed72f682ecdafe",
   "status": "no-date",
   "title": "Ultrasound of baby hips"
+ },
+ "uncertain-recovery-plan-the-amber-care-bundle": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "f4c834391512b6b8",
+  "status": "no-date",
+  "title": "Uncertain Recovery Plan – The Amber Care Bundle"
  },
  "understanding-and-managing-lateral-hip-pain": {
   "checked": "2026-07-13T02:41:44+01:00",
@@ -3716,6 +3909,12 @@
   "status": "no-date",
   "title": "Use of crutches"
  },
+ "use-of-probiotics-in-preterm-infants": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "3c18710fc808b828",
+  "status": "no-date",
+  "title": "Use of Probiotics in preterm infants"
+ },
  "useful-links": {
   "checked": "2026-07-13T02:41:44+01:00",
   "content_hash": "7079db784e5bcc2c",
@@ -3727,6 +3926,18 @@
   "content_hash": "022069674d0f8df1",
   "status": "no-date",
   "title": "Useful web resources"
+ },
+ "using-ambulatory-oxygen-therapy-aot": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "07ad79e7d72f25fe",
+  "status": "no-date",
+  "title": "Using Ambulatory Oxygen Therapy (AOT)"
+ },
+ "using-long-term-oxygen-therapy-ltot": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "da65dde281ace4e1",
+  "status": "no-date",
+  "title": "Using Long Term Oxygen Therapy (LTOT)"
  },
  "using-your-acapella": {
   "checked": "2026-07-13T02:41:44+01:00",
@@ -3745,6 +3956,12 @@
   "content_hash": "ae04b388083d117c",
   "status": "no-date",
   "title": "Uterine Artery Embolisation (Fibroid Embolisation)"
+ },
+ "vacuum-assisted-excision-vae-of-breast": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "2522e8b8e9f6c4b8",
+  "status": "no-date",
+  "title": "Vacuum Assisted Excision (VAE) of Breast"
  },
  "vaginal-dilators-radiotherapy": {
   "checked": "2026-07-13T02:41:44+01:00",
@@ -3846,6 +4063,12 @@
   "content_hash": "69108729d6711175",
   "status": "no-date",
   "title": "Welcome to Alexandra Hospital"
+ },
+ "welcome-to-the-cardiac-rehabilitation-service": {
+  "checked": "2026-07-21T02:35:11+01:00",
+  "content_hash": "a28bee5bde756a9b",
+  "status": "no-date",
+  "title": "Welcome to the Cardiac Rehabilitation Service"
  },
  "welcome-to-the-neonatal-unit": {
   "checked": "2026-07-14T02:30:06+01:00",
