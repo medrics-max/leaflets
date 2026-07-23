@@ -17,11 +17,23 @@
   "status": "no-date",
   "title": "Bath PUVA Phototherapy"
  },
+ "28836": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "f8caffbda32393a7",
+  "status": "no-date",
+  "title": "Carpal Tunnel Decompression – What to expect following surgery"
+ },
  "29121": {
   "checked": "2026-07-21T02:35:11+01:00",
   "content_hash": "28620bb8101b850d",
   "status": "no-date",
   "title": "Acromioclavicular (AC) Joint Injury with minimal displacement – Advice regarding healing and recovery"
+ },
+ "31965": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "75f5b6edbb9e2f2b",
+  "status": "no-date",
+  "title": "Clinical Health Psychology"
  },
  "32381": {
   "checked": "2026-07-21T02:35:11+01:00",
@@ -64,6 +76,12 @@
   "content_hash": "e740a0c8963adea3",
   "status": "no-date",
   "title": "Bartholin’s Cyst"
+ },
+ "33757": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "58e3a30ae9acea6d",
+  "status": "no-date",
+  "title": "Collecting your 24 Hour Urine Sample (Scarborough Hull York Pathology Service)"
  },
  "39065": {
   "checked": "2026-07-21T02:35:11+01:00",
@@ -190,6 +208,12 @@
   "content_hash": "499a4c052287b8f3",
   "status": "no-date",
   "title": "Admission for Radio Iodine Ablation Treatment"
+ },
+ "admission-information-before-your-bowel-operation": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "57c818b4e6d19df2",
+  "status": "no-date",
+  "title": "Colorectal Enhanced Recovery After Surgery Patient Diary"
  },
  "adult-pattern-reverse-visual-evoked-potentials-prvep": {
   "checked": "2026-07-21T02:35:11+01:00",
@@ -611,6 +635,408 @@
   "status": "no-date",
   "title": "Bronchiolitis"
  },
+ "browns-syndrome": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "c66150452dc85d8a",
+  "status": "no-date",
+  "title": "Brown’s Syndrome"
+ },
+ "buckle-wrist-fracture-advice-sheet": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "b9c933a4283f1f03",
+  "status": "no-date",
+  "title": "Buckle fracture of the radius (wrist bone) – Advice regarding healing and recovery"
+ },
+ "burning-mouth-syndrome": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "5491e098cf4ab164",
+  "status": "no-date",
+  "title": "Burning Mouth Syndrome"
+ },
+ "caesarean-section-information-for-patients-carers-and-relatives-easy-read": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "0a1bf04226c9506b",
+  "status": "no-date",
+  "title": "Caesarean Section: Information for patients, carers, and relatives (Easy read)"
+ },
+ "cancer-associated-thrombosis": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "0d89be110aa2d66b",
+  "status": "no-date",
+  "title": "Cancer-Associated Thrombosis (Blood Clots)"
+ },
+ "cancer-psychological-service": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "ea06575f29ea15cd",
+  "status": "no-date",
+  "title": "Cancer Psychological Service"
+ },
+ "capsaicin-cream-zacin-0-025-axsain-0-075": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "42bae4ae3116d36c",
+  "status": "no-date",
+  "title": "Capsaicin Cream (Zacin 0.025% or Axsain 0.075%)"
+ },
+ "carbapenemase-producing-enterobacteriaceae-cpe": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "b2cf84f3b29e73de",
+  "status": "no-date",
+  "title": "Carbapenemase Producing Enterobacteriaceae (CPE) Screening"
+ },
+ "carbapenemase-producing-enterobacteriaceae-cpe-2": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "1348727c65706407",
+  "status": "no-date",
+  "title": "Carbapenemase Producing Enterobacteriaceae (CPE)"
+ },
+ "carcinoma-of-unknown-primary-cup": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "7b19b017b57ae342",
+  "status": "no-date",
+  "title": "Carcinoma of Unknown Primary (CUP)"
+ },
+ "cardiac-ct-scan-ct-coronary-angiography": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "2bd6bfc85df37d9f",
+  "status": "no-date",
+  "title": "Cardiac CT Scan (CT Coronary Angiography)"
+ },
+ "cardiac-monitoring": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "9ccc0beb9562cf49",
+  "status": "no-date",
+  "title": "Cardiac Monitoring"
+ },
+ "cardiac-rehabilitation-services": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "5ab5f4f255493fee",
+  "status": "no-date",
+  "title": "Cardiac Rehabilitation Services"
+ },
+ "cardiology-catheterisation-laboratory-conscious-sedation": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "0a881de7382c864e",
+  "status": "no-date",
+  "title": "Cardiology Catheterisation Laboratory- Conscious Sedation"
+ },
+ "care-of-your-baby-born-extremely-prematurely-before-27-weeks-gestation": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "a6d17b48b9d8368a",
+  "status": "no-date",
+  "title": "Care of your baby born extremely prematurely before 27 weeks gestation"
+ },
+ "care-of-your-back-following-lumbar-spine-surgery-2": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "afeec8419b29f498",
+  "status": "no-date",
+  "title": "Care of Your Back Following Lumbar Spine Surgery"
+ },
+ "care-of-your-hip-following-surgery-not-total-hip-replacement": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "5f823cc13a0f184d",
+  "status": "no-date",
+  "title": "Care of your hip following surgery (not total hip replacement)"
+ },
+ "care-of-your-knee-following-anterior-cruciate-ligament-acl-reconstruction": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "090922bbeebb22d9",
+  "status": "no-date",
+  "title": "Care of your Knee following Anterior Cruciate Ligament (ACL) Reconstruction"
+ },
+ "care-of-your-neck-following-cervical-spine-surgery": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "c2727126b869fb2e",
+  "status": "no-date",
+  "title": "Care Of Your Neck Following Cervical Spine Surgery"
+ },
+ "care-perineum-birth-baby": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "ae1686b99955f813",
+  "status": "no-date",
+  "title": "Care Of Your Perineum After The Birth Of Your Baby"
+ },
+ "caring-for-my-child-with-a-peripherally-inserted-central-catheter-picc": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "bb6361e361d7ed6c",
+  "status": "no-date",
+  "title": "Caring for my Child with a Peripherally Inserted Central Catheter (PICC)"
+ },
+ "caring-peripherally-inserted-central-catheter-picc-line": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "1d20f4783562535e",
+  "status": "no-date",
+  "title": "Caring for your Peripherally Inserted Central Catheter (PICC) Line for Parenteral Nutrition or Intravenous fluids"
+ },
+ "caring-teeth-head-neck-radiotherapy": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "81cb7f23518c1de7",
+  "status": "no-date",
+  "title": "Caring For Your Teeth after Head and Neck Radiotherapy"
+ },
+ "carpal-tunnel-syndrome-your-diagnosis-and-treatment-options": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "ccc09e4277cda2f2",
+  "status": "no-date",
+  "title": "Carpal Tunnel Syndrome: Your Diagnosis and Treatment Options"
+ },
+ "cataract-assessment-clinic": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "52c549dee3f81995",
+  "status": "no-date",
+  "title": "Cataract Assessment Clinic"
+ },
+ "cause-for-concern-service": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "8de3ddba6bcb005f",
+  "status": "no-date",
+  "title": "Cause for Concern Service"
+ },
+ "central-serous-retinopathy-csr": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "997dbceeb64075ab",
+  "status": "no-date",
+  "title": "Central Serous Retinopathy (CSR)"
+ },
+ "central-slip-repair-advice-to-patients-following-surgery": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "d2ddc2f7a98f1cfe",
+  "status": "no-date",
+  "title": "Central Slip Repair – Advice to patients following surgery"
+ },
+ "cerebral-palsy-information-folder-for-children-young-people-and-their-families": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "53cc91f953fea6d4",
+  "status": "no-date",
+  "title": "Cerebral Palsy Information Folder: For Children, Young People and their Families"
+ },
+ "cervical-fracture-pathway-discharge-advice": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "b15971a5b1ad910c",
+  "status": "no-date",
+  "title": "Cervical Fracture Pathway Discharge Advice"
+ },
+ "cervical-medial-branch-block": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "fdf357a6daeda5e3",
+  "status": "no-date",
+  "title": "Cervical Medial Branch Block"
+ },
+ "cervical-nerve-root-block-transforaminal-epidural-steroid-injection": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "de5cf31f067fbddc",
+  "status": "no-date",
+  "title": "Cervical Nerve Root Block / Transforaminal Epidural Steroid Injection"
+ },
+ "chaperone-advice-patientsparents": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "01668d9eb119cd2a",
+  "status": "no-date",
+  "title": "Chaperone – Advice For Patients/Parents"
+ },
+ "chh-centenary-building-ward-16-plastics-aftercare-advice-sheet": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "7fcb87c8f8611027",
+  "status": "no-date",
+  "title": "CHH Centenary Building- Ward 16: Plastics Aftercare Advice Sheet"
+ },
+ "chorionic-villus-sampling-cvs-and-amniocentesis-information-for-parents": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "13a992be301b0be4",
+  "status": "no-date",
+  "title": "Chorionic villus sampling (CVS) and amniocentesis: information for parents"
+ },
+ "choroidal-naevus-freckle": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "2587b612ae0afc67",
+  "status": "no-date",
+  "title": "Choroidal Naevus (Freckle)"
+ },
+ "chronic-hepatitis-b-infection": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "c20aef72c595de9e",
+  "status": "no-date",
+  "title": "Chronic Hepatitis B infection"
+ },
+ "circumcision-advice-for-parents": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "80a33b86a8c064e3",
+  "status": "no-date",
+  "title": "Circumcision – Advice for Parents"
+ },
+ "circumcision-older-child-advice-sheet": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "dd46234fecd5942a",
+  "status": "no-date",
+  "title": "Circumcision (Older Child) – Advice Sheet"
+ },
+ "clinical-nurse-specialist-team-cns-2": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "047e9645574774c1",
+  "status": "no-date",
+  "title": "Clinical Nurse Specialist Team (CNS)"
+ },
+ "clobazam-preventing-seizures": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "0f3532a608a6858f",
+  "status": "no-date",
+  "title": "Clobazam for Preventing Seizures"
+ },
+ "closed-central-slip-injury-boutonniere-deformity-advice-to-patients-following-injury": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "ee22a8cdaedf8534",
+  "status": "no-date",
+  "title": "Closed Central Slip Injury (Boutonniere Deformity) – Advice to patients following injury"
+ },
+ "closer-monitoring-treatment-diabetic-retinopathy": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "b1e3d9d68b146c90",
+  "status": "no-date",
+  "title": "Closer Monitoring and Treatment for Diabetic Retinopathy"
+ },
+ "clostridium-difficile": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "b1e2057409dfd708",
+  "status": "no-date",
+  "title": "Clostridium Difficile – Information for patients, relatives and carers"
+ },
+ "coblation-adenoidectomy-and-intracapsular-tonsillectomy": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "610d9a07600898af",
+  "status": "no-date",
+  "title": "Coblation adenoidectomy and intracapsular tonsillectomy"
+ },
+ "collecting-a-stool-sample-scarborough-hull-york-pathology-service": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "f89cbb0006b37d30",
+  "status": "no-date",
+  "title": "Collecting a Stool Sample (Scarborough Hull York Pathology Service)"
+ },
+ "collecting-a-urine-sample": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "937f09127411b21c",
+  "status": "no-date",
+  "title": "Collecting a Random Urine Sample"
+ },
+ "collection-pack-for-randon-urine-catcholamines": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "03f6ecd5d0dd2090",
+  "status": "no-date",
+  "title": "Collection Pack for Randon Urine Catcholamines"
+ },
+ "colon-entonox-advice-sheet": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "55f5347ab3f02838",
+  "status": "no-date",
+  "title": "Colon Entonox Report and Useful Information"
+ },
+ "colon-sedation-advice-sheet": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "1d7767449b9d811f",
+  "status": "no-date",
+  "title": "Colon Sedation Report and Useful Information"
+ },
+ "colonoscopy-2": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "fcba0ea3be172402",
+  "status": "no-date",
+  "title": "Colonoscopy"
+ },
+ "colposcopy": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "8faab4c46da81b60",
+  "status": "no-date",
+  "title": "Colposcopy"
+ },
+ "combined-upper-gi-endoscopy-and-colonoscopy": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "0d448483571f62a5",
+  "status": "no-date",
+  "title": "Combined Upper GI Endoscopy and Colonoscopy"
+ },
+ "coming-hospital-cataract-surgery": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "d656d2d27f5162fb",
+  "status": "no-date",
+  "title": "Coming into Hospital for Cataract Surgery"
+ },
+ "common-causes-of-chest-pain-in-children": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "37a010dae8f963fc",
+  "status": "no-date",
+  "title": "Common causes of chest pain in children"
+ },
+ "community-needle-stick-injury-in-children": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "7d69c6a763163a3e",
+  "status": "no-date",
+  "title": "Community Needle Stick Injury in Children"
+ },
+ "computed-tomography-ct-colonoscopy": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "919600769e9e6de4",
+  "status": "no-date",
+  "title": "Computed Tomography (CT) Colonoscopy"
+ },
+ "computer-tomography-ct-percutaneous-lung-biopsy": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "b1bf067d699d7a0c",
+  "status": "no-date",
+  "title": "Computer Tomography (CT) Percutaneous Lung Biopsy – Information about your biopsy"
+ },
+ "congenital-talipes-equino-varus-overview-of-ponseti-treatment-leaflet-1": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "f0719ca5de6e6f71",
+  "status": "no-date",
+  "title": "Congenital Talipes Equino Varus – Overview of Ponseti Treatment – Leaflet 1"
+ },
+ "congenital-talipes-equino-varus-ponseti-boots-and-bars-leaflet-4": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "0c2f855e1ccbabe6",
+  "status": "no-date",
+  "title": "Congenital Talipes Equino Varus Ponseti Boots and Bars – Leaflet 4"
+ },
+ "congenital-talipes-equino-varus-ponseti-nights-and-naps-leaflet-5": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "4108572b852a86f7",
+  "status": "no-date",
+  "title": "Congenital Talipes Equino Varus – Ponseti Nights and Naps – Leaflet 5"
+ },
+ "congenital-talipes-equino-varus-ponseti-plaster-of-paris-leaflet-2": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "b50da8a39bca608e",
+  "status": "no-date",
+  "title": "Congenital Talipes Equino Varus – Ponseti Plaster of Paris – Leaflet 2"
+ },
+ "congenital-talipes-equino-varus-ponseti-tenotomy-leaflet-3": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "ad41b272be329883",
+  "status": "no-date",
+  "title": "Congenital Talipes Equino Varus – Ponseti Tenotomy – Leaflet 3"
+ },
+ "conservative-management-of-cin-2-cervical-intraepithelial-neoplasia-grade-2": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "229913fee8ef43b5",
+  "status": "no-date",
+  "title": "Conservative Management of CIN 2 (Cervical Intraepithelial Neoplasia Grade 2)"
+ },
+ "constipation-and-impaction": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "7ebb323d105900d7",
+  "status": "no-date",
+  "title": "Constipation and Impaction"
+ },
+ "constipation-in-children": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "8c8d5b1153f5608f",
+  "status": "no-date",
+  "title": "Constipation in Children"
+ },
+ "contact-radiotherapy-rectal-cancer-papillon": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "659d489e06cc6137",
+  "status": "no-date",
+  "title": "Contact Electronic Brachytherapy for Rectal Cancer (Papillon)"
+ },
  "guide-pelvic-inflammatory-disease-pid": {
   "checked": "2026-07-21T02:35:11+01:00",
   "content_hash": "c50dad7f38aca49d",
@@ -623,6 +1049,18 @@
   "status": "no-date",
   "title": "A Guide To Throat Cancer Caused By Oral HPV (Human Papilloma Virus in the mouth/throat) Infection"
  },
+ "having-a-bronchoscopy": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "e5ec80ce77484b45",
+  "status": "no-date",
+  "title": "Bronchoscopy and EBUS (Endobronchial Ultrasound) guided FNA (Fine Needle Aspiration)"
+ },
+ "information-3rd-4th-degree-tears": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "c5f4929d93f5a873",
+  "status": "no-date",
+  "title": "Care of a third- or fourth-degree tear that occurred during childbirth"
+ },
  "introduction-cervical-spine-pathway": {
   "checked": "2026-07-21T02:35:11+01:00",
   "content_hash": "ec26f65f67150c5d",
@@ -634,5 +1072,17 @@
   "content_hash": "a267b754c0fc2453",
   "status": "no-date",
   "title": "Acute Onset of Plantar Fasciitis"
+ },
+ "steroid-deficiency-information": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "580d8134be43f290",
+  "status": "no-date",
+  "title": "BSPED Adrenal Insufficiency Consensus Guidelines"
+ },
+ "the-anlaby-suite": {
+  "checked": "2026-07-23T02:30:21+01:00",
+  "content_hash": "71f94660aa1f2aae",
+  "status": "no-date",
+  "title": "Child Protection – The Anlaby Suite"
  }
 }
