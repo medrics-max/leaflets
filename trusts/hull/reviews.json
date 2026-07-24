@@ -1,4 +1,10 @@
 {
+ "13276": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "8eba6d23eb416f49",
+  "status": "no-date",
+  "title": "Diabetes Information Leaflet for Patients undergoing Pancreatic Surgery"
+ },
  "24-hour-ph-and-impedance-monitoring-inpatient": {
   "checked": "2026-07-21T02:35:11+01:00",
   "content_hash": "e58657d54cc60301",
@@ -28,6 +34,30 @@
   "content_hash": "28620bb8101b850d",
   "status": "no-date",
   "title": "Acromioclavicular (AC) Joint Injury with minimal displacement – Advice regarding healing and recovery"
+ },
+ "29884": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "00157dd4cba17b93",
+  "status": "no-date",
+  "title": "Ear, Nose and Throat (ENT) – General Surgical Procedures"
+ },
+ "29892": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "8c9dac34b68f1f1b",
+  "status": "no-date",
+  "title": "Ear, Nose and Throat – Nasal Douching"
+ },
+ "29913": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "fa5280b89e2c282e",
+  "status": "no-date",
+  "title": "Ear, Nose and Throat (ENT) – Insertion of Grommets / Bobbins"
+ },
+ "30609": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "ad34a65b2a24c70c",
+  "status": "no-date",
+  "title": "Digital Nerve Injuries (PIFU) (Patient Initiated Follow-up – Information for patients from Paediatric Therapy"
  },
  "31965": {
   "checked": "2026-07-23T02:30:21+01:00",
@@ -1037,6 +1067,408 @@
   "status": "no-date",
   "title": "Contact Electronic Brachytherapy for Rectal Cancer (Papillon)"
  },
+ "continuous-positive-airway-pressure-cpap-treatment": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "96216486b9b8854c",
+  "status": "no-date",
+  "title": "Continuous Positive Airway Pressure (CPAP) Treatment"
+ },
+ "contraception-after-having-a-baby-information-for-patients-easy-read": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "ba8ff14cfa26c938",
+  "status": "no-date",
+  "title": "Contraception after having a baby: Information for patients (Easy Read)"
+ },
+ "contraception-the-implant-information-for-patients-easy-read": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "8971c6fe5713c2d7",
+  "status": "no-date",
+  "title": "Contraception: The Implant – Information for patients (Easy Read)"
+ },
+ "contraceptive-advice-for-patients-who-have-received-sugammadex": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "f20c66615498b1ea",
+  "status": "no-date",
+  "title": "Contraceptive advice for patients who have received Sugammadex"
+ },
+ "contraceptive-implant-nexplanon": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "0d4d6057516aee32",
+  "status": "no-date",
+  "title": "Contraceptive Implant (Nexplanon)"
+ },
+ "contrast-enhanced-ultrasound-examination": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "8c110bce0a9cebd8",
+  "status": "no-date",
+  "title": "Contrast Enhanced Ultrasound Examination"
+ },
+ "convergence-excess-type-intermittent-esotropia": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "e83236c3ed011dcd",
+  "status": "no-date",
+  "title": "Convergence Excess Type Intermittent Esotropia"
+ },
+ "convergence-weakness-and-or-accommodation-weakness": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "751a8b2cab3f94ba",
+  "status": "no-date",
+  "title": "Convergence Weakness and/or Accommodation Weakness"
+ },
+ "coping-with-an-incurable-cancer-diagnosis-and-facing-end-of-life-care": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "bcfd403b09e847d1",
+  "status": "no-date",
+  "title": "Coping with an Incurable Cancer Diagnosis and Facing End of Life Care"
+ },
+ "corneal-collagen-crosslinking-cxl-for-keratoconus": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "f6df5ff42f8c9c98",
+  "status": "no-date",
+  "title": "Corneal Collagen Crosslinking (CXL) for Keratoconus"
+ },
+ "corneal-graft-transplant": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "99049b0b5bf964a6",
+  "status": "no-date",
+  "title": "Corneal Graft Transplant"
+ },
+ "coronary-angiogram-angioplasty-procedure-discharge-information-patients": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "44f2e7037f3a0b8f",
+  "status": "no-date",
+  "title": "Coronary Angioplasty – Information for Patients"
+ },
+ "coronary-angiogram-cardiac-catheterisation-information-patients": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "9ccca141bc747c7c",
+  "status": "no-date",
+  "title": "Coronary Angiogram (Cardiac Catheterisation) – Information for Patients"
+ },
+ "coronary-angiogram-cardiac-catheterising-information-for-patients": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "deba959601444d60",
+  "status": "no-date",
+  "title": "Coronary Angiogram (Cardiac Catheterising) Information for Patients"
+ },
+ "corticosteroids-in-pregnancy-to-reduce-complications-from-being-born-prematurely": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "efe4a986741b07e0",
+  "status": "no-date",
+  "title": "Corticosteroids in Pregnancy to Reduce Complications from Being Born Prematurely"
+ },
+ "cough-assist-information-for-carers-domiciliary-residential-nursing-homes": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "10efdb624bb05357",
+  "status": "no-date",
+  "title": "Cough Assist – Information for Carers (Domiciliary, Residential & Nursing Homes)"
+ },
+ "cough-assist-information-for-patients": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "1a907cec01a191d7",
+  "status": "no-date",
+  "title": "Cough Assist – Information for Patients"
+ },
+ "counselling-support-services-pregnancy-advisory-service": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "e15091dd4874ea37",
+  "status": "no-date",
+  "title": "Counselling and Support Services – Pregnancy Advisory Service"
+ },
+ "covid-19": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "be1223fe7ebef25f",
+  "status": "no-date",
+  "title": "COVID-19"
+ },
+ "crohns-colitis-inflammatory-bowel-disease": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "2fdbe56da3ca8a8c",
+  "status": "no-date",
+  "title": "Crohn’s and Colitis Inflammatory Bowel Disease"
+ },
+ "croup-advice-sheet": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "b41521020aa5db12",
+  "status": "no-date",
+  "title": "Croup"
+ },
+ "cryocautery-to-the-cervix": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "590a67e89ab19873",
+  "status": "no-date",
+  "title": "Cryocautery to the Cervix – Treatment for cervical ectropion"
+ },
+ "cyclodiode-and-micropulse-laser": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "80e8623a8f44ebc6",
+  "status": "no-date",
+  "title": "Cyclodiode and Micropulse Laser"
+ },
+ "daily-living-skills": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "5a51f7e55901f9e0",
+  "status": "no-date",
+  "title": "Daily Living Skills"
+ },
+ "day-surgery-unit-3-aftercare-advice-sheet": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "94ceae8543327486",
+  "status": "no-date",
+  "title": "Day Surgery Centre – Plastics Aftercare Advice Sheet"
+ },
+ "day-surgery-unit-3-dsu3": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "046dadad5f8a2be6",
+  "status": "no-date",
+  "title": "Day Surgery Unit 3 (DSU3)"
+ },
+ "decolonisation-pre-central-line-insertion-patient-information": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "05bf0d4db8ac2a63",
+  "status": "no-date",
+  "title": "Decolonisation Pre-Central Line Insertion – Patient Information"
+ },
+ "defibrillator-icd-implantation": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "3a679642300cc9cd",
+  "status": "no-date",
+  "title": "Defibrillator (ICD) Implantation"
+ },
+ "delirium-and-dementia-care-in-hospital": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "b2987b22870853d4",
+  "status": "no-date",
+  "title": "Delirium and Dementia Care in Hospital"
+ },
+ "deprivation-liberty-safeguards-dols": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "7c76b5a6f53cf50d",
+  "status": "no-date",
+  "title": "Deprivation Of Liberty Safeguards (DOLS) – Easy Read"
+ },
+ "dermatological-surgery": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "bb167cc421ee44d1",
+  "status": "no-date",
+  "title": "Dermatological Surgery"
+ },
+ "developmental-dyplasia-of-the-hip-ddh": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "b5fc49efc4af656b",
+  "status": "no-date",
+  "title": "Developmental Dyplasia of the Hip (DDH)"
+ },
+ "diabetes-ramadan-guidance-fasting-holy-month": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "15e680147a780211",
+  "status": "no-date",
+  "title": "Diabetes And Ramadan – Guidance for Fasting During the Holy Month"
+ },
+ "diabetic-eye-screening-an-easy-guide-about-a-health-check-for-people-who-have-diabetes-and-are-aged-12-or-older": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "202cc7faaa325328",
+  "status": "no-date",
+  "title": "Diabetic eye screening: An easy guide about a health check for people who have diabetes and are aged 12 or older"
+ },
+ "diabetic-eye-screening-service": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "2cc94cb1f66a71a8",
+  "status": "no-date",
+  "title": "Diabetic Eye Screening Service"
+ },
+ "diabetic-eye-screening-use-personal-information-2": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "3e87aaa1a9b5a609",
+  "status": "no-date",
+  "title": "Diabetic Eye Screening: Use of Personal Information"
+ },
+ "diagnostic-laparoscopy": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "b02ea2ad8ace89e5",
+  "status": "no-date",
+  "title": "Diagnostic Laparoscopy"
+ },
+ "dialysis-non-attendance-advice-sheet": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "7813315d59acf85c",
+  "status": "no-date",
+  "title": "Dialysis Non-Attendance Advice Sheet"
+ },
+ "diathermy-to-the-cervix": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "aa71eda0a725e45b",
+  "status": "no-date",
+  "title": "Diathermy Treatment to the Cervix – Treatment for cervical ectropion"
+ },
+ "diep-flap-breast-reconstruction-deep-inferior-epigastric-artery-perforator-flap-discharge-advice": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "e47cb9d76b368cab",
+  "status": "no-date",
+  "title": "DIEP Flap Breast Reconstruction (Deep Inferior Epigastric Artery Perforator flap) – Discharge Advice"
+ },
+ "diet-when-starting-dialysis": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "3578e581d98c092f",
+  "status": "no-date",
+  "title": "Diet and your kidney transplant"
+ },
+ "diet-with-a-colostomy": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "dd8cb92effe99aed",
+  "status": "no-date",
+  "title": "Diet with a Colostomy"
+ },
+ "dietary-advice-for-laparoscopic-nissens-fundoplication": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "dd0488d18200a0d7",
+  "status": "no-date",
+  "title": "Dietary Advice for Laparoscopic Nissen’s Fundoplication"
+ },
+ "dietary-advice-for-strictures-and-adhesions": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "9ff55d75bf97376c",
+  "status": "no-date",
+  "title": "Dietary Advice for Strictures and Adhesions"
+ },
+ "direct-current-cardioversion": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "0e148331f6afeff0",
+  "status": "no-date",
+  "title": "Direct Current Cardioversion"
+ },
+ "discharge-advice-after-your-coronary-angiogram-angioplasty-or-stent-insertion-pci": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "e4e492370106188c",
+  "status": "no-date",
+  "title": "Discharge advice after your coronary angiogram, angioplasty or stent insertion (PCI)"
+ },
+ "discharge-advice-following-breast-surgery-2": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "96db5e53b033bb12",
+  "status": "no-date",
+  "title": "Discharge Advice following Breast Surgery"
+ },
+ "discharge-advice-following-breast-surgery-under-local-anaesthetic-2": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "27c954685b828390",
+  "status": "no-date",
+  "title": "Discharge Advice Following Breast Surgery under Local Anaesthetic"
+ },
+ "discharge-advice-following-hand-surgery": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "c42410d57623a158",
+  "status": "no-date",
+  "title": "Discharge Advice Following Hand Surgery"
+ },
+ "discharge-advice-following-hip-and-knee-replacement": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "32224313304687d7",
+  "status": "no-date",
+  "title": "Discharge Advice following Hip and Knee Replacement"
+ },
+ "discharge-advice-following-surgery-local-anaesthetic": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "aa5b7041893de79c",
+  "status": "no-date",
+  "title": "Discharge Advice Following Surgery Under Local Anaesthetic"
+ },
+ "discharge-advice-following-tendon-repair-surgery-hand": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "a1064dd4e22ed048",
+  "status": "no-date",
+  "title": "Discharge Advice following Tendon Repair Surgery in the Hand"
+ },
+ "discharge-advice-following-your-loop-recorder-implantation": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "48c37b683c07462e",
+  "status": "no-date",
+  "title": "Discharge Advice Following Your Loop Recorder Implantation"
+ },
+ "discharge-advice-information-following-pain-management-treatment": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "f40194a02a31f8b7",
+  "status": "no-date",
+  "title": "Discharge Advice and Information following Pain Management Treatment"
+ },
+ "discharge-breast-cancer-follow-clinic-information-patients": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "8dbf26eccb2022e3",
+  "status": "no-date",
+  "title": "Discharge from the Breast Cancer Follow-up – Information for Patients"
+ },
+ "distal-radius-fracture-wrist-bone-advice-regarding-healing-and-recovery": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "cc50caf53afa6636",
+  "status": "no-date",
+  "title": "Distal radius fracture (wrist bone) Advice regarding healing and recovery"
+ },
+ "donating-samples-daisy-tumour-bank-use-cancer-research": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "bd98499170ad6bd2",
+  "status": "no-date",
+  "title": "Donating samples to the Daisy Tumour Bank for use in cancer research"
+ },
+ "donor-human-milk": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "d270f542e4d41457",
+  "status": "no-date",
+  "title": "Donor Human Milk"
+ },
+ "dorsal-root-ganglion-block-nerve-root-block-transforaminal-injection": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "caeed3f45f51c532",
+  "status": "no-date",
+  "title": "Dorsal Root Ganglion Block / Nerve Root Block / Transforaminal Injection"
+ },
+ "driving": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "eb7ba254ac2ce442",
+  "status": "no-date",
+  "title": "Driving"
+ },
+ "dry-eyes": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "f5b821b6a1ac498a",
+  "status": "no-date",
+  "title": "Dry Eyes"
+ },
+ "duanes-retraction-syndrome": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "34521f903fc8642d",
+  "status": "no-date",
+  "title": "Duane’s Retraction Syndrome"
+ },
+ "duloxetine": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "8bdcb9bf73632f37",
+  "status": "no-date",
+  "title": "Duloxetine"
+ },
+ "duty-of-candour": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "ad66e75ce6e825dc",
+  "status": "no-date",
+  "title": "Duty of Candour"
+ },
+ "dysphagia-swallowing-problems": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "9f5063a63096b882",
+  "status": "no-date",
+  "title": "Dysphagia (Swallowing problems)"
+ },
+ "ear-care-advice": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "09a2607e5a307f08",
+  "status": "no-date",
+  "title": "Ear Care Advice"
+ },
+ "guide-diabetic-retinopathy": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "7a2d47f7f8a33a2c",
+  "status": "no-date",
+  "title": "Diabetes and eye problems (diabetic retinopathy)"
+ },
  "guide-pelvic-inflammatory-disease-pid": {
   "checked": "2026-07-21T02:35:11+01:00",
   "content_hash": "c50dad7f38aca49d",
@@ -1049,11 +1481,23 @@
   "status": "no-date",
   "title": "A Guide To Throat Cancer Caused By Oral HPV (Human Papilloma Virus in the mouth/throat) Infection"
  },
+ "hand-therapy-distal-radius-fracture": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "463ce12029a27daa",
+  "status": "no-date",
+  "title": "Distal Radius Fracture (Patient Initiated Follow Up)"
+ },
  "having-a-bronchoscopy": {
   "checked": "2026-07-23T02:30:21+01:00",
   "content_hash": "e5ec80ce77484b45",
   "status": "no-date",
   "title": "Bronchoscopy and EBUS (Endobronchial Ultrasound) guided FNA (Fine Needle Aspiration)"
+ },
+ "help-chronic-cough": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "c74255ab4747a687",
+  "status": "no-date",
+  "title": "Coughing/ Throat Clearing"
  },
  "information-3rd-4th-degree-tears": {
   "checked": "2026-07-23T02:30:21+01:00",
@@ -1084,5 +1528,11 @@
   "content_hash": "71f94660aa1f2aae",
   "status": "no-date",
   "title": "Child Protection – The Anlaby Suite"
+ },
+ "understanding-your-ward-move": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "0095b1c6576b18d2",
+  "status": "no-date",
+  "title": "During your hospital stay"
  }
 }

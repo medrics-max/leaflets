@@ -1160,5 +1160,579 @@
   "review_due_text": "April 2027",
   "status": "ok",
   "title": "De Quervain’s Tenosynovitis"
+ },
+ "decongestive-lymphatic-therapy-to-treat-lymphoedema": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "7d558c46abff2844",
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "Decongestive Lymphatic Therapy to treat Lymphoedema"
+ },
+ "deep-inspiration-breath-hold-technique-for-radiotherapy": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "7516f0fa38509929",
+  "review_due": "2027-08",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "Deep Inspiration Breath Hold Technique for Radiotherapy"
+ },
+ "deep-vein-thrombosis": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "d9b995b45e783ae6",
+  "status": "no-date",
+  "title": "Deep Vein Thrombosis"
+ },
+ "delirium": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "6ff9b9059c783718",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Delirium"
+ },
+ "dental-care-for-patients-undergoing-radiotherapy-for-head-and-neck-cancer": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "5a146e758c4f6c2d",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Dental care for patients undergoing radiotherapy for head and neck cancer"
+ },
+ "dental-implant": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "a713fed3eba1cbc6",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "Dental implant"
+ },
+ "dental-infections": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "547efd67cdcdcf65",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Dental infections"
+ },
+ "dexa-scan": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "61471f7d537ed8eb",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "DEXA Scan"
+ },
+ "difficult-textures-and-higher-risk-foods-eating-and-swallowing": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "f5649d3184228a16",
+  "status": "no-date",
+  "title": "Difficult textures and higher risk foods: Eating and swallowing"
+ },
+ "discharge-advice-following-bowel-surgery": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "b1d95a704f10d0de",
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "Discharge advice following bowel surgery"
+ },
+ "discharge-advice-following-the-removal-of-your-epidural": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "e8fced89e16949e3",
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "Discharge advice following the removal of your epidural"
+ },
+ "discharge-information-following-ercp-endoscopy": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "481d342b9e5e97e5",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Discharge information following ERCP Endoscopy"
+ },
+ "discharge-information-following-your-lower-gastrointestinal-endoscopy": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "7d7bbed1fd58ab09",
+  "status": "no-date",
+  "title": "Discharge information following your Lower Gastrointestinal Endoscopy"
+ },
+ "discharge-information-following-your-respiratory-endoscopy": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "09898b61d558a9b0",
+  "status": "no-date",
+  "title": "Discharge information following your Respiratory Endoscopy"
+ },
+ "discharge-information-following-your-transnasal-endoscopy": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "2817e6a3c1594c40",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Discharge information following your Transnasal Endoscopy"
+ },
+ "discharge-information-following-your-upper-and-lower-gastrointestinal-endoscopy": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "b9edcd536a2ae668",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Discharge information following your Upper and Lower Gastrointestinal Endoscopy"
+ },
+ "discharge-information-following-your-upper-gastrointestinal-endoscopy": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "025d5a964e65adcb",
+  "status": "no-date",
+  "title": "Discharge information following your Upper Gastrointestinal Endoscopy"
+ },
+ "discharge-to-assess-and-intermediate-care-therapy-team": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "a3b077e82b21ef4a",
+  "status": "no-date",
+  "title": "Discharge to Assess and Intermediate Care Therapy Team"
+ },
+ "disconnecting-chemotherapy-pumps-and-flushing-a-picc-line": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "ca2bec42ab51cc7f",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Disconnecting chemotherapy pumps and flushing a PICC line"
+ },
+ "dmsa-kidney-scan": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "0155c8a1d67d7e40",
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "DMSA Kidney Scan"
+ },
+ "dry-eyes": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "ca7c9f0cc2fdadf8",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Dry eyes"
+ },
+ "dumping-syndrome": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "656cb2b3c326c09d",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Dumping Syndrome"
+ },
+ "dupuytrens-contracture-release": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "f1e46a3bf846d1d1",
+  "review_due": "2026-04",
+  "review_due_text": "April 2026",
+  "status": "ok",
+  "title": "Dupuytrens Contracture Release"
+ },
+ "duty-of-candour": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "1e793d07784a29b2",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Duty of Candour"
+ },
+ "dysarthria": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "2e5bfc85d3b3477d",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Dysarthria"
+ },
+ "dysphagia-swallowing-problems-aspiration-vs-choking": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "0edd46d4956f9bab",
+  "status": "no-date",
+  "title": "Dysphagia (swallowing problems) – Aspiration vs Choking"
+ },
+ "dysphagia-swallowing-problems-choking-management-advice-for-people-living-in-their-own-homes-and-those-looking-after-them": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "5025d5844b741950",
+  "status": "no-date",
+  "title": "Dysphagia (swallowing problems) – Choking management: Advice for people living in their own homes and those looking after them"
+ },
+ "ear-surgery": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "c0a0acc589f6d08a",
+  "review_due": "2026-04",
+  "review_due_text": "April 2026",
+  "status": "ok",
+  "title": "Ear surgery"
+ },
+ "eating-and-drinking-with-acknowledged-risk": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "5c009d24a58d6d44",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Eating and drinking with acknowledged risk"
+ },
+ "eating-bread-and-sandwiches-when-you-have-dysphagia-swallowing-difficulties": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "957ad042294ae32a",
+  "status": "no-date",
+  "title": "Eating bread and sandwiches when you have dysphagia (swallowing difficulties"
+ },
+ "eeg-electroencephalogram": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "7fb32cf8d6cda29a",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "EEG (Electroencephalogram)"
+ },
+ "eeg-electroencephalogram-on-a-child": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "7bc4184ee123618f",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "EEG (Electroencephalogram) on a child"
+ },
+ "electrophysiology-study": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "363c6824414a4ca4",
+  "review_due": "2025-12",
+  "review_due_text": "December 2025",
+  "status": "ok",
+  "title": "Electrophysiology Study"
+ },
+ "endoscopic-treatment-of-haemorrhoids-banding": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "25fd6818b62c9004",
+  "status": "no-date",
+  "title": "Endoscopic treatment of haemorrhoids (banding)"
+ },
+ "endoscopy": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "7db9bd48f0d4e471",
+  "review_due": "2026-04",
+  "review_due_text": "April 2026",
+  "status": "ok",
+  "title": "Endoscopy"
+ },
+ "enhanced-recovery-programme-bowel-surgery": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "8fa3edfc0c33e4fd",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Enhanced recovery programme bowel surgery"
+ },
+ "enhanced-recovery-programme-liver-surgery": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "f9c67019d9504524",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Enhanced Recovery Programme Liver surgery"
+ },
+ "enhanced-supportive-care": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "341f98ded5695d08",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Enhanced Supportive Care"
+ },
+ "epidurals-for-pain-relief-after-surgery": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "e4beb822e7b3f9d3",
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Epidurals for pain relief after surgery"
+ },
+ "episcleritis": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "404da11be2ee556e",
+  "review_due": "2028-05",
+  "review_due_text": "May 2028",
+  "status": "ok",
+  "title": "Episcleritis"
+ },
+ "evoked-potentials-eps": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "dca36729862b3e58",
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "Evoked Potentials EPs"
+ },
+ "examination-of-bone-marrow": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "a549af2852f45537",
+  "review_due": "2025-10",
+  "review_due_text": "October 2025",
+  "status": "ok",
+  "title": "Examination of bone marrow"
+ },
+ "exercise-tolerance-test": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "2a15d63814cb8187",
+  "review_due": "2028-04",
+  "review_due_text": "April 2028",
+  "status": "ok",
+  "title": "Exercise Tolerance Test"
+ },
+ "exhale-breath-hold-technique": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "2bb3afc9187eb3f8",
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Exhale Breath Hold Technique"
+ },
+ "expressing-your-breast-human-milk-in-pregnancy": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "a166fe8fbea3060a",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "Expressing your breast/human milk in pregnancy"
+ },
+ "expressing-your-breast-milk-in-pregnancy": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "4ed63aa9857f5786",
+  "review_due": "2020-04",
+  "review_due_text": "April 2020",
+  "status": "ok",
+  "title": "Expressing your breast milk in pregnancy"
+ },
+ "extravasation": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "1f1b979f3ad6ed37",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Extravasation"
+ },
+ "eye-injury-foreign-body": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "2897bb7548e3ec09",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Eye injury foreign body"
+ },
+ "eye-treatment": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "dd80c66d01572335",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Eye treatment"
+ },
+ "facial-wounds": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "b2bea4be963ef729",
+  "review_due": "2025-09",
+  "review_due_text": "September 2025",
+  "status": "ok",
+  "title": "Facial wounds"
+ },
+ "falls-in-hospital": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "7aa4e0741113859e",
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Falls in hospital"
+ },
+ "family-focused-caesarean-birth-and-enhanced-recovery": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "ae360c395b6e2c34",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Family focused caesarean birth and enhanced recovery"
+ },
+ "first-line-safer-swallowing-strategies-managing-eating-drinking-and-swallowing-difficulties": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "7a1af2319adfc404",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "First-Line Safer Swallowing Strategies: Managing eating, drinking and swallowing difficulties"
+ },
+ "first-seizure-child-young-person-up-to-16-years-old": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "a536add172f34d1a",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "First seizure (child/young person – up to 16 years old)"
+ },
+ "flexible-cystoscopy": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "a4255ba2bd12d60f",
+  "review_due": "2027-08",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "Flexible cystoscopy"
+ },
+ "flexible-cystoscopy-and-removal-of-ureteric-stent": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "f1e72d9c695226f2",
+  "review_due": "2025-06",
+  "review_due_text": "June 2025",
+  "status": "ok",
+  "title": "Flexible cystoscopy and removal of ureteric stent"
+ },
+ "flexor-tenotomy": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "6cf657f4a684c2ac",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Flexor Tenotomy"
+ },
+ "flow-rate-and-bladder-scan": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "85ac93c1d53ca397",
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Flow Rate and Bladder Scan"
+ },
+ "flu": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "48e63d26a11364b0",
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Flu"
+ },
+ "flu-vaccination-who-needs-it-and-why": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "6a093a9dc11f2c50",
+  "status": "no-date",
+  "title": "Flu vaccination: Who needs it and why"
+ },
+ "fluid-intake-requirements-for-patients-receiving-cisplatin": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "f6cfe883aee15c0a",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Fluid intake requirements for patients receiving cisplatin"
+ },
+ "fluorescein-ffa-and-indocyanine-green-icg-angiography": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "c30e99c2d89e2f70",
+  "review_due": "2028-05",
+  "review_due_text": "May 2028",
+  "status": "ok",
+  "title": "Fluorescein FFA and indocyanine green ICG angiography"
+ },
+ "food-allergies-and-eczema-042020": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "78eff55bca267906",
+  "status": "no-date",
+  "title": "Food allergies and eczema 042020"
+ },
+ "footwear-advice-to-reduce-the-risk-of-amputation": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "f18bb1f184239174",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Footwear advice to reduce the risk of amputation"
+ },
+ "footwear-and-hosiery-for-the-diabetic-foot": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "81dd03c9b7d9281b",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Footwear and Hosiery for the Diabetic Foot"
+ },
+ "freeing-of-adhesions": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "7d64c4d3126b6edb",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
+  "status": "ok",
+  "title": "Freeing of adhesions"
+ },
+ "frenuloplasty": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "581a9e81eec8b000",
+  "status": "no-date",
+  "title": "Frenuloplasty"
+ },
+ "gastroenteritis": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "5f4db20753f13447",
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Gastroenteritis"
+ },
+ "genetic-haemochromatosis": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "47cb30184ce3aaa9",
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Genetic Haemochromatosis"
+ },
+ "genital-herpes-and-pregnancy": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "a4f9d023f795073f",
+  "review_due": "2028-11",
+  "review_due_text": "November 2028",
+  "status": "ok",
+  "title": "Genital Herpes and Pregnancy"
+ },
+ "gestational-diabetes-treatment": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "5d35061e14a616ec",
+  "review_due": "2028-01",
+  "review_due_text": "January 2028",
+  "status": "ok",
+  "title": "Gestational Diabetes Treatment"
+ },
+ "glaucoma": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "3dccd3751944ff98",
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "Glaucoma"
+ },
+ "glycopeptide-resistant-enterococci-vancomycin-resistant-enterococci-gre-vre": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "0bfc31871a257e80",
+  "review_due": "2027-08",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "Glycopeptide- Resistant Enterococci / Vancomycin-Resistant Enterococci (GRE/VRE)"
+ },
+ "good-mouth-care": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "8e77c3558eb54667",
+  "review_due": "2027-03",
+  "review_due_text": "March 2027",
+  "status": "ok",
+  "title": "Good mouth care"
+ },
+ "gradual-return-to-play-grtp": {
+  "checked": "2026-07-24T17:28:27+01:00",
+  "content_hash": "cb1d6625aba1e9ef",
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Gradual Return to Play (GRTP)"
  }
 }
