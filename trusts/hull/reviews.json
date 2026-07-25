@@ -47,6 +47,12 @@
   "status": "no-date",
   "title": "Ear, Nose and Throat – Nasal Douching"
  },
+ "29898": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "82b220b73f6dd78f",
+  "status": "no-date",
+  "title": "Ear, Nose and Throat – Nasal Surgery"
+ },
  "29913": {
   "checked": "2026-07-24T17:28:27+01:00",
   "content_hash": "fa5280b89e2c282e",
@@ -112,6 +118,18 @@
   "content_hash": "58e3a30ae9acea6d",
   "status": "no-date",
   "title": "Collecting your 24 Hour Urine Sample (Scarborough Hull York Pathology Service)"
+ },
+ "33948": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "17e92988b579ebab",
+  "status": "no-date",
+  "title": "Falls Information Cognitive Impairment"
+ },
+ "34795": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "c1e5834065f6efd8",
+  "status": "no-date",
+  "title": "Endometriosis"
  },
  "39065": {
   "checked": "2026-07-21T02:35:11+01:00",
@@ -1462,6 +1480,438 @@
   "content_hash": "09a2607e5a307f08",
   "status": "no-date",
   "title": "Ear Care Advice"
+ },
+ "early-medical-abortion-at-home-home-medication": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "5be4136692f95b99",
+  "status": "no-date",
+  "title": "Early Medical Abortion at Home – Home Medication"
+ },
+ "early-medical-abortion-in-hospital": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "1b4bdb10e2f93bb7",
+  "status": "no-date",
+  "title": "Early Medical Abortion – In Hospital"
+ },
+ "early-ward-discharge": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "f763a6462be96b27",
+  "status": "no-date",
+  "title": "Early Ward Discharge"
+ },
+ "easy-read-recommended-summary-plan-for-emergency-care-treatment-respect": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "74a87d46cc55159d",
+  "status": "no-date",
+  "title": "Easy Read – Recommended Summary Plan for Emergency Care Treatment (ReSPECT)"
+ },
+ "eat-better-to-feel-better": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "0f5e3bacef7abb0f",
+  "status": "no-date",
+  "title": "Eat Better to Feel Better – Improving your nutrition during and after your hospital stay"
+ },
+ "eating-and-drinking-for-comfort-diet-and-nutrition-for-people-with-a-life-limiting-illness": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "2262fab80c5978e0",
+  "status": "no-date",
+  "title": "Eating and Drinking for Comfort – Diet and nutrition for people with a life limiting illness"
+ },
+ "eating-and-drinking-for-quality-of-life": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "dcfa4cda37c5b752",
+  "status": "no-date",
+  "title": "Eating and Drinking for Quality of Life"
+ },
+ "eating-with-an-ileoanal-pouch": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "b2e94d74603d8c08",
+  "status": "no-date",
+  "title": "Eating with an Ileoanal Pouch"
+ },
+ "eating-with-an-ileostomy": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "97408eb86be8218a",
+  "status": "no-date",
+  "title": "Eating with an Ileostomy"
+ },
+ "ectopic-pregnancy": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "a10f77d93fc57f50",
+  "status": "no-date",
+  "title": "Ectopic Pregnancy"
+ },
+ "ei-smart": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "4f77ee12db22d1b5",
+  "status": "no-date",
+  "title": "EI Smart: Toy and Play 0 to 3 Months"
+ },
+ "ei-smart-having-fun-in-sitting": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "3604d29a2722aee0",
+  "status": "no-date",
+  "title": "EI Smart: Having Fun in Sitting"
+ },
+ "ei-smart-helping-my-baby-use-their-hands-to-play": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "dd7db2f9763e6ff3",
+  "status": "no-date",
+  "title": "EI Smart: Helping My Baby use their Hands to Play"
+ },
+ "ei-smart-playing-in-side-lying": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "c2a4bf03e71e38ac",
+  "status": "no-date",
+  "title": "EI Smart: Playing in Side Lying"
+ },
+ "ei-smart-talking-to-my-preterm-baby": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "5bdec144dc1581f0",
+  "status": "no-date",
+  "title": "EI Smart: Talking to my Preterm Baby"
+ },
+ "ei-smart-talking-to-your-preterm-baby-32-35-weeks": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "53085724777ff1c3",
+  "status": "no-date",
+  "title": "EI Smart: Talking to your Preterm Baby (32 – 35 Weeks)"
+ },
+ "ei-smart-talking-to-your-preterm-baby-35-weeks-onwards": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "9a94bd79caac85e5",
+  "status": "no-date",
+  "title": "EI Smart: Talking to your Preterm Baby (35 Weeks Onwards)"
+ },
+ "ei-smart-talking-to-your-preterm-baby-younger-than-32-weeks": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "b7d02c98b85c3ac6",
+  "status": "no-date",
+  "title": "EI Smart: Talking to your Preterm Baby (Younger than 32 Weeks)"
+ },
+ "ei-smart-toy-and-play-12-to-24-months": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "935f197f153a4c8b",
+  "status": "no-date",
+  "title": "EI Smart: Toy and Play 12 to 24 Months"
+ },
+ "ei-smart-toy-and-play-24-to-36-months": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "c3d2ed9d5217dfbf",
+  "status": "no-date",
+  "title": "EI Smart: Toy and Play 24 to 36 Months"
+ },
+ "ei-smart-toy-and-play-3-to-6-months": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "b1aa4b8b4060c18e",
+  "status": "no-date",
+  "title": "EI Smart: Toy and Play 3 to 6 Months"
+ },
+ "ei-smart-toy-and-play-6-to-9-months": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "c5c34a9eb644de38",
+  "status": "no-date",
+  "title": "EI Smart: Toy and Play 6 to 9 Months"
+ },
+ "ei-smart-toy-and-play-9-to-12-months": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "4379ac8166d09823",
+  "status": "no-date",
+  "title": "EI Smart: Toy and Play 9 to 12 Months"
+ },
+ "electro-myography-emg-nerve-conduction-studies-ncs": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "a93def6baadf8865",
+  "status": "no-date",
+  "title": "Electro-Myography (EMG) and Nerve Conduction Studies (NCS)"
+ },
+ "electroencephalogram-eeg-adults": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "9934ddea77c89f80",
+  "status": "no-date",
+  "title": "Electroencephalogram (EEG) – Adults"
+ },
+ "electroencephalogram-eeg-children-1-year": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "dd85293bf1310bf9",
+  "status": "no-date",
+  "title": "Electroencephalogram (EEG) For Children"
+ },
+ "electrophysiology-studies-eps-and-radiofrequency-ablation-rfa-procedures": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "343bdf1b570065b7",
+  "status": "no-date",
+  "title": "Electrophysiology Studies (EPS) and Radiofrequency Ablation (RFA) Procedures"
+ },
+ "emergency-care-ankle-sprain-including-an-avulsion-fracture": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "e29cddd58425a125",
+  "status": "no-date",
+  "title": "Emergency Care: Ankle Sprain including an Avulsion Fracture"
+ },
+ "emergency-care-buckle-fracture-of-the-radius-wrist-bone": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "0ccf8bd8e28f6e20",
+  "status": "no-date",
+  "title": "Emergency Care: Buckle Fracture of the Radius (Wrist Bone)"
+ },
+ "emergency-care-fracture-of-the-triquetrum-small-bone-in-hand": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "a41ba2a9657cfcf1",
+  "status": "no-date",
+  "title": "Emergency Care: Fracture of the Triquetrum (Small Bone in Hand)"
+ },
+ "emergency-care-minor-foot-injury-including-soft-tissue-injuries-and-avulsion-fractures": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "6d49fc294cafaf01",
+  "status": "no-date",
+  "title": "Emergency Care: Minor Foot Injury including Soft Tissue Injuries and Avulsion Fractures"
+ },
+ "emergency-care-paediatric-fracture-of-the-clavicle-collar-bone": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "d2d8e17c33b9335c",
+  "status": "no-date",
+  "title": "Emergency Care: Paediatric Fracture of the Clavicle (Collar Bone)"
+ },
+ "emergency-care-undisplaced-great-toe-fracture": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "389de12c1f90d73a",
+  "status": "no-date",
+  "title": "Emergency Care: Undisplaced Great Toe Fracture"
+ },
+ "emotional-impact-of-sight-loss": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "02638ba5a2416941",
+  "status": "no-date",
+  "title": "Emotional impact of sight loss"
+ },
+ "endo-anal-ultrasound-investigation-anal-canal": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "af2702d01320dd58",
+  "status": "no-date",
+  "title": "Endo-anal Ultrasound – An investigation of the anal canal"
+ },
+ "endoscopic-mucosal-resection-emr": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "70d9d0e15b270f04",
+  "status": "no-date",
+  "title": "Endoscopic Mucosal Resection (EMR)"
+ },
+ "endoscopic-ultrasound-eus": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "497f252e7f0198eb",
+  "status": "no-date",
+  "title": "Endoscopic Ultrasound (EUS)"
+ },
+ "entonox-hospital-procedures-information-patients": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "6586aed13bde4983",
+  "status": "no-date",
+  "title": "Entonox During Hospital Procedures – Information for Patients"
+ },
+ "epidural-blood-patch-what-you-need-to-know": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "f53010e004468c9c",
+  "status": "no-date",
+  "title": "Epidural Blood Patch: What you need to know"
+ },
+ "epidural-catheter-removal-discharge-advice": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "a1d361b82266ef15",
+  "status": "no-date",
+  "title": "Epidural Catheter Removal – Discharge Advice"
+ },
+ "epidural-injections": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "5a79d4618989cbb4",
+  "status": "no-date",
+  "title": "Epidural Injections"
+ },
+ "epilepsy": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "f16c03e86803dfa4",
+  "status": "no-date",
+  "title": "Epilepsy"
+ },
+ "epiretinal-membrane-macular-pucker": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "38c4ff4cc1c7befc",
+  "status": "no-date",
+  "title": "Epiretinal Membrane (Macular pucker)"
+ },
+ "epistaxis-nosebleed": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "934efd94ea3c3ee3",
+  "status": "no-date",
+  "title": "Epistaxis (Nosebleed) – Children"
+ },
+ "ercp-endoscopic-retrograde-cholangiopancreatography": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "889f29077fc494bb",
+  "status": "no-date",
+  "title": "Endoscopic Retrograde Cholangiopancreatography (ERCP)"
+ },
+ "esbl-producing-bacteria-information-patients": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "3f094f0eb7bcb161",
+  "status": "no-date",
+  "title": "Extended Spectrum Beta Lactamase (ESBL) Producing Bacteria – Information for patients, relatives and carers"
+ },
+ "examination-anaesthetic-suspected-gynaecological-cancer": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "057a545addac30b5",
+  "status": "no-date",
+  "title": "Examination under Anaesthetic for a Suspected Gynaecological Cancer"
+ },
+ "exercise-and-advice-after-pregnancy": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "6dccb17241842942",
+  "status": "no-date",
+  "title": "Exercise and Advice after Pregnancy"
+ },
+ "exercises-to-optimise-speech-and-swallowing-during-and-after-radiotherapy-to-the-head-and-or-neck": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "756ac5f999e038ab",
+  "status": "no-date",
+  "title": "Exercises to optimise speech and swallowing during and after radiotherapy to the head and/or neck"
+ },
+ "exercises-to-treat-your-subacromial-shoulder-pain": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "f94111f481b4e625",
+  "status": "no-date",
+  "title": "Exercises to Treat your Subacromial Shoulder Pain"
+ },
+ "expiratory-muscle-strength-training-emst": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "190ead8585346a9e",
+  "status": "no-date",
+  "title": "Expiratory Muscle Strength Training (EMST)"
+ },
+ "explaining-children-and-adult-areas-in-the-emergency-department-ed": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "8cc13de4a1a537e8",
+  "status": "no-date",
+  "title": "Explaining Children and Adult areas in the Emergency Department (ED)"
+ },
+ "exposure-impacted-upper-canine": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "3b0093943212663d",
+  "status": "no-date",
+  "title": "Exposure of Impacted Upper Canine"
+ },
+ "extensor-tendon-repair": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "1b4c48a92362725a",
+  "status": "no-date",
+  "title": "Extensor Tendon Repair"
+ },
+ "extracorporeal-shockwave-lithotripsy-eswl": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "9e59b3e36952d5c5",
+  "status": "no-date",
+  "title": "Extracorporeal Shockwave Lithotripsy (ESWL)"
+ },
+ "eye-injuries-infections": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "c8a3f99184972d5a",
+  "status": "no-date",
+  "title": "Eye Injuries / Infections"
+ },
+ "facial-wounds": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "94b86d797a7aed8a",
+  "status": "no-date",
+  "title": "Facial Wounds – Discharge Advice"
+ },
+ "facts-about-the-haematology-multi-disciplinary-team-mdt": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "bcf81b8e3cf45947",
+  "status": "no-date",
+  "title": "Facts about the Haematology Multi-disciplinary Team (MDT)"
+ },
+ "falls-prevention-hospital-guide-patients-families-carers": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "13d32fcbbfd116d0",
+  "status": "no-date",
+  "title": "Falls Prevention in Hospital: A Guide for Patients, their Families and Carers"
+ },
+ "falls-prevention-staying-safe": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "56f82e0705382862",
+  "status": "no-date",
+  "title": "Falls Prevention (Staying Safe)"
+ },
+ "fast-track-referrals": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "3870069621da2c54",
+  "status": "no-date",
+  "title": "Fast-Track Referrals"
+ },
+ "fasting-instructions-for-adult-patients-attending-day-surgery-chh": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "b5c94393b737be4f",
+  "status": "no-date",
+  "title": "Fasting Instructions for Adult Patients attending Day Surgery, CHH"
+ },
+ "fasting-instructions-for-adult-patients-attending-ward-16-chh": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "58690ac777694573",
+  "status": "no-date",
+  "title": "Fasting Instructions for Adult Patients attending Ward 16, CHH"
+ },
+ "febrile-convulsions-advice-sheet": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "96d12cda8cd0a8d4",
+  "status": "no-date",
+  "title": "Febrile Convulsions"
+ },
+ "fever-children-advice-sheet": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "5178606a5438fc27",
+  "status": "no-date",
+  "title": "Fever in Children"
+ },
+ "fibreoptic-endoscopic-evaluation-of-swallowing-fees": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "701a1e934829fc27",
+  "status": "no-date",
+  "title": "Fibreoptic Endoscopic Evaluation of Swallowing (FEES)"
+ },
+ "fine-needle-aspiration-fna": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "f4326a0bc447667a",
+  "status": "no-date",
+  "title": "Fine Needle Aspiration (FNA)"
+ },
+ "finger-and-thumb-interphalangeal-joint-dislocation-or-thumb-metacarpal-joint-dislocation-paediatric-pifu-patient-initiated-follow-up": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "906e049e2fbbba7f",
+  "status": "no-date",
+  "title": "Finger and Thumb Interphalangeal Joint Dislocation or Thumb Metacarpal Joint Dislocation PIFU – Information for Patients from Paediatric Therapy"
+ },
+ "finger-and-thumb-interphalangeal-joint-dislocation-or-thumb-metacarpal-joint-dislocation-patient-initiated-follow-up": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "94b5620b7259a761",
+  "status": "no-date",
+  "title": "Finger and thumb interphalangeal joint dislocation or thumb metacarpal joint dislocation (Patient Initiated Follow Up)"
+ },
+ "first-seizure-without-fever-in-children-local-referral-process-explained": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "5c63cf7dfe06a6f6",
+  "status": "no-date",
+  "title": "First seizure without fever in children: Local referral process explained"
+ },
+ "fit-following-surgery-advice-and-exercise-following-major-gynaecological-surgery": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "805ed7420cf4bda2",
+  "status": "no-date",
+  "title": "Fit following Surgery: Advice and Exercise Following Major Gynaecological Surgery"
+ },
+ "fit-for-birth": {
+  "checked": "2026-07-25T02:30:20+01:00",
+  "content_hash": "5ebea41258a27ebb",
+  "status": "no-date",
+  "title": "Fit for Birth"
  },
  "guide-diabetic-retinopathy": {
   "checked": "2026-07-24T17:28:27+01:00",
