@@ -789,5 +789,138 @@
     "slug": "nhs-lumbar-puncture",
     "type": "nhs",
     "source": "NHS.uk"
+  },
+  {
+    "title": "Dental abscess",
+    "url": "https://www.nhs.uk/conditions/dental-abscess/",
+    "slug": "nhs-dental-abscess",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Broken or knocked-out tooth",
+    "url": "https://www.nhs.uk/conditions/broken-or-knocked-out-tooth/",
+    "slug": "nhs-knocked-out-tooth",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Dislocated kneecap",
+    "url": "https://www.nhs.uk/conditions/dislocated-kneecap/",
+    "slug": "nhs-dislocated-kneecap",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Neck pain and stiff neck",
+    "url": "https://www.nhs.uk/conditions/neck-pain-and-stiff-neck/",
+    "slug": "nhs-neck-pain-and-stiff-neck",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Limp in children",
+    "url": "https://www.nhs.uk/conditions/limp-in-children/",
+    "slug": "nhs-limp-in-children",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Atopic eczema",
+    "url": "https://www.nhs.uk/conditions/atopic-eczema/",
+    "slug": "nhs-atopic-eczema",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Inflammatory bowel disease",
+    "url": "https://www.nhs.uk/conditions/inflammatory-bowel-disease/",
+    "slug": "nhs-inflammatory-bowel-disease",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Stomach ulcer",
+    "url": "https://www.nhs.uk/conditions/stomach-ulcer/",
+    "slug": "nhs-stomach-ulcer",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Sickle cell disease",
+    "url": "https://www.nhs.uk/conditions/sickle-cell-disease/",
+    "slug": "nhs-sickle-cell-disease",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Head lice and nits",
+    "url": "https://www.nhs.uk/conditions/head-lice-and-nits/",
+    "slug": "nhs-head-lice-and-nits",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Heavy periods",
+    "url": "https://www.nhs.uk/conditions/heavy-periods/",
+    "slug": "nhs-heavy-periods",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Pelvic inflammatory disease",
+    "url": "https://www.nhs.uk/conditions/pelvic-inflammatory-disease-pid/",
+    "slug": "nhs-pelvic-inflammatory-disease",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Sexually transmitted infections (STIs)",
+    "url": "https://www.nhs.uk/conditions/sexually-transmitted-infections-stis/",
+    "slug": "nhs-stis",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Anal pain",
+    "url": "https://www.nhs.uk/conditions/anal-pain/",
+    "slug": "nhs-anal-pain",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Anal fissure",
+    "url": "https://www.nhs.uk/conditions/anal-fissure/",
+    "slug": "nhs-anal-fissure",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Hernia",
+    "url": "https://www.nhs.uk/conditions/hernia/",
+    "slug": "nhs-hernia",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Urinary catheters",
+    "url": "https://www.nhs.uk/conditions/urinary-catheters/",
+    "slug": "nhs-urinary-catheters",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Emergency contraception (morning after pill, IUD)",
+    "url": "https://www.nhs.uk/contraception/emergency-contraception/",
+    "slug": "nhs-emergency-contraception",
+    "type": "nhs",
+    "source": "NHS.uk"
+  },
+  {
+    "title": "Severe vomiting in pregnancy (hyperemesis gravidarum)",
+    "url": "https://www.nhs.uk/pregnancy/related-conditions/complications/severe-vomiting/",
+    "slug": "nhs-hyperemesis",
+    "type": "nhs",
+    "source": "NHS.uk"
   }
 ]

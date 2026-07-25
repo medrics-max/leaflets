@@ -15,6 +15,16 @@ advice_verification.json
 advice_verify_report.json
 advice_verify_state.json
 condition_checklist.json
+rcem_curriculum.json
+peer_benchmarks.json
+peer_libraries.json
+peer_coverage.json
+peer_scan_state.json
+estate_diff.json
+service_contacts_harvest.json
+referrals.DRAFT.json
+grh_gap_pages.DRAFT.json
+GRH_DOSSIER.md
 gap_report.json
 link_check_state.json
 link_report.json
@@ -27,3 +37,12 @@ leaflet_telemetry.jsonl
 *.lock
 *.tmp
 __pycache__/
+quality_scan.json
+quality_scan_state.json
+contradiction_scan.json
+contradiction_store.json
+contradiction_state.json
+
+# private scanning doctrine + adjudication notes — never ship
+SCAN_PLAN.md
+scan_burst_notes.md
