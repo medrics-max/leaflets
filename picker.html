@@ -249,6 +249,23 @@ function fold(s) {
   return s.toLowerCase().replace(/[’']/g, "").replace(/[-–—]/g, "")
           .replace(/ae/g, "e").replace(/oe/g, "e");
 }
+// Crude suffix stemmer, mirroring estate_diff.py. Without it a query word in
+// one grammatical form misses titles in another: "dislocated" is not a
+// substring of "dislocation", so "dislocated shoulder" scored ZERO against
+// "Shoulder Dislocation" (every term group must match). The stem "dislocat"
+// is added as an extra alternative in the same group — never a replacement,
+// so exact matching is untouched.
+function stem(w) {
+  const sufs = [["ies", "i"], ["ing", ""], ["ion", ""], ["ed", ""], ["es", ""], ["s", ""]];
+  for (const [suf, rep] of sufs) {
+    if (w.endsWith(suf) && w.length - suf.length >= 3) {
+      w = w.slice(0, w.length - suf.length) + rep;
+      break;
+    }
+  }
+  const r = w.replace(/[ie]+$/, "");
+  return r || w;
+}
 function reEsc(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
 
 // Ranking: trust's own content first, then locally-authored advice, then the
@@ -273,10 +290,23 @@ function termGroups(q) {
     // rewrites ae->e — so "paeds" arrives here as "peds" and a raw SYNONYMS
     // lookup would miss it (a correctly spelled query returning nothing while
     // the typo "peads" worked — found in the 2026-07-13 review).
-    const syn = SYN_FOLDED[w];
-    groups.push(syn
+    // Synonyms are keyed by base form — reach them from inflections too, or
+    // "fractured ribs" never crosses the fracture<->broken bridge and scores
+    // zero against "Broken or bruised ribs" while "fracture ribs" works.
+    const st = stem(w);
+    const syn = SYN_FOLDED[w]
+      || Object.entries(SYN_FOLDED).find(([k]) => stem(k) === st)?.[1];
+    const alts = syn
       ? [{ t: w, wb: true }, ...syn.map(x => ({ t: fold(x), wb: false }))]
-      : [{ t: w, wb: false }]);
+      : [{ t: w, wb: false }];
+    // Stem fallback (min length 4: "care"->"car" would hit "cardiology").
+    if (st !== w && st.length >= 4) alts.push({ t: st, wb: false });
+    // A synonym's inflection misses too: stem the synonyms themselves.
+    if (syn) for (const x of syn) {
+      const sx = stem(fold(x));
+      if (sx.length >= 4 && !alts.some(a => a.t === sx)) alts.push({ t: sx, wb: false });
+    }
+    groups.push(alts);
   }
   return groups;
 }
