@@ -2,6 +2,29 @@
 # The public repo serves only what patients' and clinicians' browsers fetch:
 # the two pages, the data files, and the QR library. Everything below runs the
 # quality pipeline on medrics infrastructure and stays out of public view.
+# Business intelligence — prospect trusts he is TARGETING. Data .json files
+# are otherwise public (the site serves them), so this one needs naming.
+trust_prospects.json
+# Owner rule 2026-08-04: "public knowledge is only the leaflets." The trust
+# registry is SPLIT — trusts.json (tracked) carries only what a browser needs;
+# contact/consent/census/board/notes live in this overlay, merged at read time
+# by trust_registry.load_trusts(). public_gate.py (pre-commit + pre-push
+# hooks) enforces the schema and scans all content for private markers.
+trusts_private.json
+# Owner rule 2026-08-01: public-domain SOURCES are fine; the intelligence we
+# derive from them is PRIVATE and stays in medrics stores — never this repo.
+prospect_libraries.json
+prospect_scan_state.json
+guidance_sources.json
+guidance_watch_state.json
+guidance_watch_history.jsonl
+guidance_facts.json
+estate_accessibility.json
+estate_accessibility_state.json
+estate_accessibility_history.jsonl
+language_context.json
+trust_standards.json
+weekly_scan_plan.md
 *.py
 *.gs
 .github/
@@ -21,6 +44,7 @@ peer_libraries.json
 peer_coverage.json
 peer_scan_state.json
 estate_diff.json
+dvla_audit.json
 service_contacts_harvest.json
 referrals.DRAFT.json
 grh_gap_pages.DRAFT.json
@@ -46,3 +70,4 @@ contradiction_state.json
 # private scanning doctrine + adjudication notes — never ship
 SCAN_PLAN.md
 scan_burst_notes.md
+driving_advice_review_state.json

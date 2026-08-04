@@ -1,232 +1,179 @@
 {
-  "version": 1,
-  "default": "gloucestershire",
-  "update_interval_days": 14,
-  "trusts": [
-    {
-      "id": "gloucestershire",
-      "name": "Gloucestershire Hospitals NHS Foundation Trust",
-      "short_name": "Gloucestershire Hospitals",
-      "ods_code": "RTE",
-      "status": "live",
-      "data_dir": ".",
-      "leaflets": {
-        "kind": "paged-index",
-        "base": "https://www.gloshospitals.nhs.uk",
-        "index": "/your-visit/patient-information-leaflets/",
-        "page_param": "page",
-        "first_page": 1,
-        "max_pages": 60,
-        "link_prefixes": [
-          "/your-visit/patient-information-leaflets/"
-        ],
-        "include_pdf": false,
-        "min_expected": 500
-      },
-      "notes": "Original trust. data_dir is the repo root so QR codes issued before multi-trust support keep working. The services tree is scraped separately by scrape_services.py (quarterly, manual).",
-      "listed": true,
-      "credits": {
-        "clinical_lead": "Dr Tom Mitchell, Consultant in Emergency Medicine & Clinical Medical Information Officer"
-      },
-      "contact": "Patient Information Office, Gloucestershire Hospitals <ghn-tr.patient.information@nhs.net> (tel 0300 422 5732, Mon-Fri 8:30-4:30; per GHPI1024 this is the front door for all patient-information matters)"
-    },
-    {
-      "id": "worcestershire",
-      "name": "Worcestershire Acute Hospitals NHS Trust",
-      "short_name": "Worcestershire Acute",
-      "ods_code": "RWP",
-      "status": "live",
-      "data_dir": "trusts/worcestershire",
-      "leaflets": {
-        "kind": "single-index",
-        "base": "https://www.worcsacute.nhs.uk",
-        "index": "/our-trust/patient-information-leaflets/",
-        "link_prefixes": [
-          "/leaflets/"
-        ],
-        "include_pdf": false,
-        "min_expected": 500
-      },
-      "notes": "HTML leaflet pages, all listed on one index (~727). Avoid the trust's alternate /documents/patient-information-leaflets-a-z/ page — it renders client-side.",
-      "listed": false,
-      "listed_note": "Not yet discussed with the trust — preview/demo only. Set listed: true once the trust has agreed."
-    },
-    {
-      "id": "torbay",
-      "name": "Torbay and South Devon NHS Foundation Trust",
-      "short_name": "Torbay and South Devon",
-      "ods_code": "RA9",
-      "status": "live",
-      "data_dir": "trusts/torbay",
-      "leaflets": {
-        "kind": "single-index",
-        "base": "https://www.torbayandsouthdevon.nhs.uk",
-        "index": "/about-us/news-and-publications/information-leaflets/information-leaflets-a-z/",
-        "link_prefixes": [
-          "/uploads/"
-        ],
-        "include_pdf": true,
-        "allow_query": true,
-        "slug_from": "title",
-        "min_expected": 500
-      },
-      "notes": "PDF leaflets (~730) on a single A-Z page. URLs carry ?last-updated=YYYYMMDD, so a leaflet revision shows up in the change log as a 'Moved' entry. Slugs derive from titles (filenames are just numbers).",
-      "listed": false,
-      "listed_note": "Not yet discussed with the trust — preview/demo only. Set listed: true once the trust has agreed."
-    },
-    {
-      "id": "north-cumbria",
-      "name": "North Cumbria Integrated Care NHS Foundation Trust",
-      "short_name": "North Cumbria (Carlisle & Whitehaven)",
-      "ods_code": "RNN",
-      "status": "live",
-      "data_dir": "trusts/north-cumbria",
-      "leaflets": {
-        "kind": "single-index",
-        "base": "https://www.ncic.nhs.uk",
-        "index": "/patients-visitors/patient-information-leaflets",
-        "link_prefixes": [
-          "/patients-visitors/patient-information-leaflets/"
-        ],
-        "include_pdf": false,
-        "min_expected": 250
-      },
-      "notes": "Cumberland Infirmary Carlisle + West Cumberland Hospital Whitehaven. ~324 HTML leaflets on one index page (concrete5, server-rendered). Slugs are mixed-case — never lowercase them. The trust also uses EIDO for extra leaflets, which are not on the website and can't be scraped.",
-      "listed": false,
-      "listed_note": "Not yet discussed with the trust — preview/demo only. Set listed: true once the trust has agreed."
-    },
-    {
-      "id": "royal-surrey",
-      "name": "Royal Surrey NHS Foundation Trust",
-      "short_name": "Royal Surrey",
-      "ods_code": "RA2",
-      "status": "live",
-      "data_dir": "trusts/royal-surrey",
-      "leaflets": {
-        "kind": "query-crawl",
-        "base": "https://www.royalsurrey.nhs.uk",
-        "start": "/view-patient-leaflets?media_folder=50&root_folder=PILS",
-        "crawl_contains": [
-          "media_folder=",
-          "pag_page="
-        ],
-        "item_key_re": "media_item=(\\d+)",
-        "slug_from": "title",
-        "max_pages": 500,
-        "min_expected": 300,
-        "review_dates": true
-      },
-      "notes": "CFML media browser: ~83 specialty folders, paginated ~10 items/page, server-rendered. Items open the trust's leaflet viewer page (PDF inside). The flat 'show all' view returns nothing — the folder tree must be walked, so a scan takes a few minutes.",
-      "listed": false,
-      "listed_note": "Not yet discussed with the trust — preview/demo only. Set listed: true once the trust has agreed."
-    },
-    {
-      "id": "hull",
-      "name": "Hull University Teaching Hospitals NHS Trust",
-      "short_name": "Hull",
-      "ods_code": "RWA",
-      "status": "live",
-      "data_dir": "trusts/hull",
-      "leaflets": {
-        "kind": "single-index",
-        "base": "https://www.hey.nhs.uk",
-        "index": "/patient-leaflets/",
-        "link_prefixes": [
-          "/patient-leaflet/"
-        ],
-        "include_pdf": false,
-        "exclude_contains": [
-          "__trashed"
-        ],
-        "min_expected": 800
-      },
-      "notes": "Benchmark estate (peer_scan): whole library on one A-Z page (~1000 HTML leaflets). WordPress serves binned pages live under __trashed slugs — excluded. Onboarded 2026-07-20 from the peer benchmark scan: strongest ED publisher found.",
-      "listed": false,
-      "listed_note": "Not yet discussed with the trust — preview/watch only. Set listed: true once the trust has agreed."
-    },
-    {
-      "id": "uhd",
-      "name": "University Hospitals Dorset NHS Foundation Trust",
-      "short_name": "UH Dorset",
-      "ods_code": "R0D",
-      "status": "live",
-      "data_dir": "trusts/uhd",
-      "leaflets": {
-        "kind": "section-index",
-        "base": "https://www.uhd.nhs.uk",
-        "index": "/visit/patient-information-leaflets",
-        "section_prefix": "/visit/patient-information-leaflets/",
-        "link_prefixes": [
-          "/uploads/"
-        ],
-        "include_pdf": true,
-        "slug_from": "title",
-        "min_expected": 500
-      },
-      "notes": "South West link + dedicated ED discharge series (peer_scan benchmark). ~36 department pages each listing PDFs; slugs from titles (PDF filenames carry ref numbers that change on re-upload). first import found 674; min_expected 500. Onboarded 2026-07-20.",
-      "listed": false,
-      "listed_note": "Not yet discussed with the trust — preview/watch only. Set listed: true once the trust has agreed."
-    },
-    {
-      "id": "york",
-      "name": "York and Scarborough Teaching Hospitals NHS Foundation Trust",
-      "short_name": "York",
-      "ods_code": "RCB",
-      "status": "live",
-      "data_dir": "trusts/york",
-      "leaflets": {
-        "kind": "section-index",
-        "base": "https://www.yorkhospitals.nhs.uk",
-        "index": "/coming-into-hospital1/patient-information-leaflets/",
-        "section_prefix": "/coming-into-hospital1/patient-information-leaflets/",
-        "link_prefixes": [
-          "/seecmsfile/"
-        ],
-        "allow_query": true,
-        "include_pdf": true,
-        "slug_from": "title",
-        "min_expected": 600
-      },
-      "notes": "Onboarded 2026-07-20 (Oscar: amass trusts to improve peer review). Departmental sections incl. a dedicated Emergency Department series; leaflets are /seecmsfile/?id=N PDF links, titles from anchor text, slugs from titles. min_expected provisional — tighten after first import.",
-      "listed": false,
-      "listed_note": "Not yet discussed with the trust — preview/watch only."
-    }
-  ],
-  "not_scrapeable": [
-    {
-      "name": "Royal United Hospitals Bath",
-      "reason": "No central index — leaflet PDFs scattered across per-department .asp pages (would need a hardcoded department list). Checked 2026-07-05."
-    },
-    {
-      "name": "North Bristol NHS Trust",
-      "reason": "No central index — HTML leaflets live under each service's own hub page (would need a two-level crawl of the A-Z of services). Checked 2026-07-05."
-    },
-    {
-      "name": "Great Western Hospitals (Swindon)",
-      "reason": "Leaflet A-Z removed in the trust's 2026 site rebuild; search-engine links are stale 404s. Checked 2026-07-05."
-    },
-    {
-      "name": "University Hospitals Bristol and Weston",
-      "reason": "No on-site leaflet library; the historical foi.avon.nhs.uk archive is dead. Checked 2026-07-05."
-    },
-    {
-      "name": "Somerset NHS Foundation Trust",
-      "reason": "No index of any kind — PDFs scattered across ~200 WordPress microsites. Checked 2026-07-05."
-    },
-    {
-      "name": "Royal Devon University Healthcare (Exeter)",
-      "checked": "2026-07-20",
-      "reason": "site returns 403 to non-browser fetchers (bot-block) — polite scraping not possible"
-    },
-    {
-      "name": "University Hospitals Plymouth",
-      "checked": "2026-07-20",
-      "reason": "leaflet catalogue is search-driven; /display-pil only server-renders a ~10-item latest list; no crawlable full index. South West link — revisit if they publish an A-Z."
-    },
-    {
-      "name": "East Sussex Healthcare (full estate)",
-      "checked": "2026-07-20",
-      "reason": "no single full-estate index found; leaflets listed per-service only. Their dedicated ED series IS scraped as a peer_scan benchmark."
-    }
-  ]
+ "version": 1,
+ "default": "gloucestershire",
+ "update_interval_days": 14,
+ "trusts": [
+  {
+   "id": "gloucestershire",
+   "name": "Gloucestershire Hospitals NHS Foundation Trust",
+   "short_name": "Gloucestershire Hospitals",
+   "ods_code": "RTE",
+   "status": "live",
+   "data_dir": ".",
+   "leaflets": {
+    "kind": "paged-index",
+    "base": "https://www.gloshospitals.nhs.uk",
+    "index": "/your-visit/patient-information-leaflets/",
+    "page_param": "page",
+    "first_page": 1,
+    "max_pages": 60,
+    "link_prefixes": [
+     "/your-visit/patient-information-leaflets/"
+    ],
+    "include_pdf": false,
+    "min_expected": 500
+   },
+   "listed": true,
+   "credits": {
+    "clinical_lead": "Dr Tom Mitchell, Consultant in Emergency Medicine & Clinical Medical Information Officer"
+   }
+  },
+  {
+   "id": "worcestershire",
+   "name": "Worcestershire Acute Hospitals NHS Trust",
+   "short_name": "Worcestershire Acute",
+   "ods_code": "RWP",
+   "status": "live",
+   "data_dir": "trusts/worcestershire",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://www.worcsacute.nhs.uk",
+    "index": "/our-trust/patient-information-leaflets/",
+    "link_prefixes": [
+     "/leaflets/"
+    ],
+    "include_pdf": false,
+    "min_expected": 500
+   },
+   "listed": false
+  },
+  {
+   "id": "torbay",
+   "name": "Torbay and South Devon NHS Foundation Trust",
+   "short_name": "Torbay and South Devon",
+   "ods_code": "RA9",
+   "status": "live",
+   "data_dir": "trusts/torbay",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://www.torbayandsouthdevon.nhs.uk",
+    "index": "/about-us/news-and-publications/information-leaflets/information-leaflets-a-z/",
+    "link_prefixes": [
+     "/uploads/"
+    ],
+    "include_pdf": true,
+    "allow_query": true,
+    "slug_from": "title",
+    "min_expected": 500
+   },
+   "listed": false
+  },
+  {
+   "id": "north-cumbria",
+   "name": "North Cumbria Integrated Care NHS Foundation Trust",
+   "short_name": "North Cumbria (Carlisle & Whitehaven)",
+   "ods_code": "RNN",
+   "status": "live",
+   "data_dir": "trusts/north-cumbria",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://www.ncic.nhs.uk",
+    "index": "/patients-visitors/patient-information-leaflets",
+    "link_prefixes": [
+     "/patients-visitors/patient-information-leaflets/"
+    ],
+    "include_pdf": false,
+    "min_expected": 250
+   },
+   "listed": false
+  },
+  {
+   "id": "royal-surrey",
+   "name": "Royal Surrey NHS Foundation Trust",
+   "short_name": "Royal Surrey",
+   "ods_code": "RA2",
+   "status": "live",
+   "data_dir": "trusts/royal-surrey",
+   "leaflets": {
+    "kind": "query-crawl",
+    "base": "https://www.royalsurrey.nhs.uk",
+    "start": "/view-patient-leaflets?media_folder=50&root_folder=PILS",
+    "crawl_contains": [
+     "media_folder=",
+     "pag_page="
+    ],
+    "item_key_re": "media_item=(\\d+)",
+    "slug_from": "title",
+    "max_pages": 500,
+    "min_expected": 300,
+    "review_dates": true
+   },
+   "listed": false
+  },
+  {
+   "id": "hull",
+   "name": "Hull University Teaching Hospitals NHS Trust",
+   "short_name": "Hull",
+   "ods_code": "RWA",
+   "status": "live",
+   "data_dir": "trusts/hull",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://www.hey.nhs.uk",
+    "index": "/patient-leaflets/",
+    "link_prefixes": [
+     "/patient-leaflet/"
+    ],
+    "include_pdf": false,
+    "exclude_contains": [
+     "__trashed"
+    ],
+    "min_expected": 800
+   },
+   "listed": false
+  },
+  {
+   "id": "uhd",
+   "name": "University Hospitals Dorset NHS Foundation Trust",
+   "short_name": "UH Dorset",
+   "ods_code": "R0D",
+   "status": "live",
+   "data_dir": "trusts/uhd",
+   "leaflets": {
+    "kind": "section-index",
+    "base": "https://www.uhd.nhs.uk",
+    "index": "/visit/patient-information-leaflets",
+    "section_prefix": "/visit/patient-information-leaflets/",
+    "link_prefixes": [
+     "/uploads/"
+    ],
+    "include_pdf": true,
+    "slug_from": "title",
+    "min_expected": 500
+   },
+   "listed": false
+  },
+  {
+   "id": "york",
+   "name": "York and Scarborough Teaching Hospitals NHS Foundation Trust",
+   "short_name": "York",
+   "ods_code": "RCB",
+   "status": "live",
+   "data_dir": "trusts/york",
+   "leaflets": {
+    "kind": "section-index",
+    "base": "https://www.yorkhospitals.nhs.uk",
+    "index": "/coming-into-hospital1/patient-information-leaflets/",
+    "section_prefix": "/coming-into-hospital1/patient-information-leaflets/",
+    "link_prefixes": [
+     "/seecmsfile/"
+    ],
+    "allow_query": true,
+    "include_pdf": true,
+    "slug_from": "title",
+    "min_expected": 600
+   },
+   "listed": false
+  }
+ ]
 }
