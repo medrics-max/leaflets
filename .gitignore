@@ -22,6 +22,7 @@ guidance_facts.json
 estate_accessibility.json
 estate_accessibility_state.json
 estate_accessibility_history.jsonl
+estate_census.json
 language_context.json
 trust_standards.json
 weekly_scan_plan.md
@@ -66,8 +67,11 @@ quality_scan_state.json
 contradiction_scan.json
 contradiction_store.json
 contradiction_state.json
+logic_checks.json
+logic_checks_state.json
 
 # private scanning doctrine + adjudication notes — never ship
 SCAN_PLAN.md
 scan_burst_notes.md
+driving_advice_review.json
 driving_advice_review_state.json

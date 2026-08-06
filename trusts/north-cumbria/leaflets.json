@@ -325,11 +325,6 @@
     "slug": "covid-cognitive-problems-post-covid-19"
   },
   {
-    "title": "Covid: Long Covid",
-    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/covid-long-covid",
-    "slug": "covid-long-covid"
-  },
-  {
     "title": "Covid: Voice problems",
     "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/covid-voice-problems",
     "slug": "covid-voice-problems"
@@ -693,6 +688,11 @@
     "title": "Gynaecology: Patient initiated follow up",
     "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Gynaecology-Patient-initiated-follow-up",
     "slug": "Gynaecology-Patient-initiated-follow-up"
+  },
+  {
+    "title": "Gynaecology: Patient Initiated follow-up after completing surgery and adjuvant radiotherapy to the pelvis for endometrial cancer",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/Gynaecology-Patient-Initiated-follow-up-after-completing-surgery-and-adjuvant-radiotherapy-to-the-pelvis-for-endometrial-cancer",
+    "slug": "Gynaecology-Patient-Initiated-follow-up-after-completing-surgery-and-adjuvant-radiotherapy-to-the-pelvis-for-endometrial-cancer"
   },
   {
     "title": "Gynaecology: Patients undergoing testing for Endometrial (womb) Cancer",

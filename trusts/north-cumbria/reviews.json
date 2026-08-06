@@ -287,6 +287,12 @@
   "status": "no-date",
   "title": "Early Pregnancy: Outpatient medical termination of pregnancy"
  },
+ "Gynaecology-Patient-Initiated-follow-up-after-completing-surgery-and-adjuvant-radiotherapy-to-the-pelvis-for-endometrial-cancer": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "f16735463e62d806",
+  "status": "no-date",
+  "title": "Gynaecology: Patient Initiated follow-up after completing surgery and adjuvant radiotherapy to the pelvis for endometrial cancer"
+ },
  "Gynaecology-Patient-initiated-follow-up": {
   "checked": "2026-07-12T22:56:56+01:00",
   "content_hash": "4ac04ee15d23e59c",
@@ -940,12 +946,6 @@
   "content_hash": "74054ce77328208a",
   "status": "no-date",
   "title": "Covid: Cognitive problems post Covid-19"
- },
- "covid-long-covid": {
-  "checked": "2026-07-12T22:22:48+01:00",
-  "content_hash": "2291b77e270dd41e",
-  "status": "no-date",
-  "title": "Covid: Long Covid"
  },
  "covid-voice-problems": {
   "checked": "2026-07-12T22:22:48+01:00",

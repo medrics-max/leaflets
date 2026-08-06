@@ -1,0 +1,1442 @@
+{
+ "version": 2,
+ "comment": "Interactive DVLA driving-advice trees for the picker (Oscar's design, 2026-08-01: when a selected condition has driving implications, a 'Driving advice' option appears — the tool asks the clinician the licence-group / severity questions the DVLA tables turn on, then shows the relevant rule VERBATIM with a link to the DVLA source page to double-check). RULES: every 'quote'/'quote2' is copied EXACTLY from the fetched gov.uk chapter named in the module's source (guidance_watch.py stores the page texts and re-verifies every quote here on its weekly sweep — a reworded chapter raises an alert instead of silently stale advice). 'note' fields are OUR framing and are shown as such. Questions only ever route between published DVLA rows — they never compute clinical conclusions. Clinician-facing decision support; the quote never auto-inserts into a patient handout. SCOPE (Oscar 2026-08-01 (2)): conditions normally advised by the discharging SPECIALIST team, or whose DVLA rules are too multi-branch for a quick tree, get a 'specialist: true' card that says so and links the chapter instead of pretending — and genuinely complex territory (e.g. pulmonary arterial hypertension) is deliberately NOT covered at all.",
+ "clinical_signoff": {
+  "status": "signed",
+  "by": "Dr Oscar Harrison (clinical lead)",
+  "date": "2026-08-06",
+  "_doc": "Signed off 2026-08-06 after Oscar personally walked the trees in the test console across two evenings (dx-confirmation gates, verdict-first cards, verdict-mapped flying answers, disclaimers) and instructed 'push the changes to be live'. The nightly two-model clinical review continues on every content change."
+ },
+ "modules": [
+  {
+   "id": "drv-hypertension",
+   "label": "Hypertension",
+   "match": [
+    "hypertension",
+    "high blood pressure",
+    "malignant hypertension"
+   ],
+   "source": {
+    "label": "DVLA — Cardiovascular disorders: assessing fitness to drive",
+    "url": "https://www.gov.uk/guidance/cardiovascular-disorders-assessing-fitness-to-drive",
+    "page_id": "dvla-cardiovascular"
+   },
+   "start": "q-group",
+   "nodes": {
+    "q-group": {
+     "question": "Which licence group?",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "q1"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "q2"
+      },
+      {
+       "label": "Something else (e.g. hypertension in pregnancy) — not covered here",
+       "next": "r"
+      }
+     ]
+    },
+    "q1": {
+     "question": "Diagnosed with malignant hypertension (BP ≥180 systolic or ≥110 diastolic with progressive organ damage) that has NOT yet been effectively treated or controlled?",
+     "options": [
+      {
+       "label": "Yes — diagnosed, not yet controlled",
+       "next": "a1-malig"
+      },
+      {
+       "label": "No — never diagnosed, or now effectively controlled",
+       "next": "a1-ok"
+      },
+      {
+       "label": "Unsure / other — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a1-malig": {
+     "verdict": "must_not",
+     "quote": "Must not drive if diagnosed with malignant hypertension until condition has been effectively treated or controlled but need not notify DVLA. (Malignant hypertension: elevation in systolic blood pressure greater than or equal to 180 mmHg or diastolic blood pressure greater than or equal to 110 mmHg associated with evidence of progressive organ damage.)",
+     "anchor": "hypertension"
+    },
+    "a1-ok": {
+     "verdict": "may",
+     "quote": "May drive and need not notify DVLA, except:",
+     "note": "The published exception is a malignant hypertension diagnosis not yet treated/controlled, which your answer excluded — confirm on the source page.",
+     "anchor": "hypertension"
+    },
+    "q2": {
+     "question": "Resting BP consistently ≥180 systolic and/or ≥100 diastolic — or a malignant hypertension diagnosis not yet controlled?",
+     "options": [
+      {
+       "label": "Yes / has been, and not yet controlled",
+       "next": "a2-high"
+      },
+      {
+       "label": "No — and any past episode is controlled with no treatment side-effects affecting driving",
+       "next": "a2-ok"
+      },
+      {
+       "label": "Unsure / other — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a2-high": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA if resting BP is consistently: ■ 180 mm Hg or higher systolic and/or ■ 100 mm Hg or more diastolic ■ or if diagnosed with malignant hypertension May be relicensed/licensed after BP is controlled, provided there are no side-effects from treatment that affect or are likely to affect safe driving.",
+     "anchor": "hypertension"
+    },
+    "a2-ok": {
+     "verdict": "may",
+     "quote": "May drive and need not notify DVLA, except:",
+     "note": "The published exceptions are the BP thresholds and uncontrolled malignant hypertension, which your answers excluded — confirm on the source page.",
+     "anchor": "hypertension"
+    },
+    "r": {
+     "refer": true
+    }
+   },
+   "patient_slug": "gov-drv-hypertension"
+  },
+  {
+   "id": "drv-first-seizure",
+   "label": "Seizure (first / provoked / dissociative)",
+   "match": [
+    "seizure",
+    "first fit",
+    "convulsion"
+   ],
+   "source": {
+    "label": "DVLA — Neurological disorders: assessing fitness to drive",
+    "url": "https://www.gov.uk/guidance/neurological-disorders-assessing-fitness-to-drive",
+    "page_id": "dvla-neurological"
+   },
+   "start": "q-type",
+   "nodes": {
+    "q-type": {
+     "question": "What kind of seizure? (The guide counts one or more unprovoked seizures within 24 hours as a single 'isolated seizure'. Established epilepsy is neurology-led — open the source.)",
+     "options": [
+      {
+       "label": "First unprovoked / isolated seizure",
+       "next": "q-group-u"
+      },
+      {
+       "label": "Provoked seizure (whether a cause counts as provoking is defined by the chapter's Appendix B — open it if unsure)",
+       "next": "q-group-p"
+      },
+      {
+       "label": "Dissociative / non-epileptic attack (functional seizures)",
+       "next": "q-group-d"
+      },
+      {
+       "label": "Something else / unsure — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "q-group-u": {
+     "question": "Which licence group?",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "a1"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "a2"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a1": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. Driving must cease for 6 months from the date of the seizure, or for 12 months if there is an underlying causative factor that may increase risk.",
+     "anchor": "epilepsy-and-seizures",
+     "note": "In the ED this is usually a SUSPECTED first seizure — the first-fit clinic / neurologist makes the diagnosis and may relabel it (faint, dissociative attack, provoked), which changes which DVLA row applies. Advise no driving until their review, with the rule above as the default meanwhile — the 6 months runs from the seizure, not from the clinic date."
+    },
+    "a2": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. Driving must cease for 5 years from the date of the seizure. If, after 5 years, a neurologist has made a recent assessment and clinical factors or investigation results (for example, EEG or brain scan) indicate no annual risk greater than 2% of a further seizure, the licence may then be restored.",
+     "anchor": "epilepsy-and-seizures",
+     "note": "The specialist's diagnosis decides which DVLA row ultimately applies — advise no driving pending their review, with the rule above as the default meanwhile."
+    },
+    "q-group-p": {
+     "question": "Which licence group?",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "a1p"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "a2p"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a1p": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. In most cases driving must cease for 6 months after the provoked seizure.",
+     "note": "Whether the cause counts as provoking, and the special considerations per cause, are defined in Appendix B on the source page — open it before advising.",
+     "anchor": "epilepsy-and-seizures"
+    },
+    "a2p": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. Driving must cease for up to 5 years after the provoked seizure.",
+     "note": "Appendix B on the source page defines the special considerations per cause.",
+     "anchor": "epilepsy-and-seizures"
+    },
+    "q-group-d": {
+     "question": "Which licence group?",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "a1d"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "a2d"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a1d": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. Licensing may be considered when the driver or applicant has been event free for 3 months. If episodes have occurred or are considered likely to occur whilst driving a vehicle, a minimum period of 6 months off driving plus a specialist’s review, including consideration of any relevant mental health issues, would be required prior to licensing.",
+     "anchor": "epilepsy-and-seizures"
+    },
+    "a2d": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. A minimum period of 6 months off driving plus a specialist’s review, including consideration of any relevant mental health issues, is required prior to relicensing.",
+     "anchor": "epilepsy-and-seizures"
+    },
+    "r": {
+     "refer": true
+    }
+   },
+   "patient_slug": "gov-drv-seizure"
+  },
+  {
+   "id": "drv-epilepsy",
+   "label": "Epilepsy (established)",
+   "match": [
+    "epilep"
+   ],
+   "exclude": [
+    "non-epileptic",
+    "non epileptic",
+    "nonepileptic",
+    "dissociative",
+    "first seizure",
+    "first fit"
+   ],
+   "specialist": true,
+   "note": "Established epilepsy is normally advised by the neurology/epilepsy team, and the DVLA rules are multi-branch (seizure types, medication changes, withdrawal) — open the chapter rather than a quick tree. (First/isolated seizures and dissociative attacks have their own walkthrough here; their rows are separate in the chapter.)",
+   "source": {
+    "label": "DVLA — Neurological disorders: assessing fitness to drive",
+    "url": "https://www.gov.uk/guidance/neurological-disorders-assessing-fitness-to-drive",
+    "page_id": "dvla-neurological"
+   },
+   "patient_slug": "gov-drv-epilepsy"
+  },
+  {
+   "id": "drv-neurosurgical",
+   "label": "Neurosurgical condition",
+   "match": [
+    "craniotomy",
+    "burr hole",
+    "subarachnoid",
+    "subdural",
+    "brain surgery",
+    "brain tumour",
+    "brain tumor",
+    "meningioma",
+    "glioma"
+   ],
+   "specialist": true,
+   "note": "These are normally advised by the discharging neurosurgical team, and the DVLA rules depend on the lesion, treatment and seizure risk — open the chapter rather than a quick tree.",
+   "source": {
+    "label": "DVLA — Neurological disorders: assessing fitness to drive",
+    "url": "https://www.gov.uk/guidance/neurological-disorders-assessing-fitness-to-drive",
+    "page_id": "dvla-neurological"
+   },
+   "patient_slug": "gov-health-conditions-driving"
+  },
+  {
+   "id": "drv-heart-failure",
+   "label": "Heart failure",
+   "match": [
+    "heart failure",
+    "pulmonary oedema",
+    "dilated cardiomyopathy",
+    "ischaemic cardiomyopathy",
+    "left ventricular failure"
+   ],
+   "source": {
+    "label": "DVLA — Cardiovascular disorders: assessing fitness to drive",
+    "url": "https://www.gov.uk/guidance/cardiovascular-disorders-assessing-fitness-to-drive",
+    "page_id": "dvla-cardiovascular"
+   },
+   "start": "q-group",
+   "nodes": {
+    "q-group": {
+     "question": "Which licence group? (LVAD / assist device, transplant, or hypertrophic/arrhythmogenic cardiomyopathy have their own rows — open the chapter for those.)",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "q1-nyha"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "q2-nyha"
+      },
+      {
+       "label": "LVAD / transplant / other cardiomyopathy — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "q1-nyha": {
+     "question": "NYHA class, in plain terms — how limited are they?",
+     "options": [
+      {
+       "label": "I — no symptoms with ordinary activity",
+       "next": "a1-1"
+      },
+      {
+       "label": "II — fine at rest; ordinary activity (stairs, walking) brings symptoms",
+       "next": "a1-23"
+      },
+      {
+       "label": "III — fine only at rest; less-than-ordinary activity brings symptoms",
+       "next": "a1-23"
+      },
+      {
+       "label": "IV — symptoms even at rest",
+       "next": "a1-4"
+      },
+      {
+       "label": "Can't classify — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a1-1": {
+     "verdict": "may",
+     "quote": "May drive and need not notify DVLA.",
+     "quote2": "Depending on the likely cause for heart failure, exercise or other functional testing may be required irrespective of the NYHA class",
+     "note": "The functional-testing caveat (second quote) applies whatever the NYHA class.",
+     "anchor": "congenital-complete-heart-block"
+    },
+    "a1-23": {
+     "verdict": "conditional",
+     "quote": "May drive if symptoms are stable and not likely to distract the driver or otherwise affect safe driving but need not notify DVLA.",
+     "quote2": "Depending on the likely cause for heart failure, exercise or other functional testing may be required irrespective of the NYHA class",
+     "anchor": "heart-failure-including-ischaemic-cardiomyopathy-and-dilated-cardiomyopathy"
+    },
+    "a1-4": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. Licence will be refused or revoked. Relicensing can only be considered if symptoms controlled and in NYHA 1, II or III.",
+     "quote2": "Depending on the likely cause for heart failure, exercise or other functional testing may be required irrespective of the NYHA class",
+     "anchor": "heart-failure-including-ischaemic-cardiomyopathy-and-dilated-cardiomyopathy"
+    },
+    "q2-nyha": {
+     "question": "NYHA class, in plain terms — how limited are they?",
+     "options": [
+      {
+       "label": "I — no symptoms with ordinary activity",
+       "next": "a2-1"
+      },
+      {
+       "label": "II — fine at rest; ordinary activity (stairs, walking) brings symptoms",
+       "next": "a2-2"
+      },
+      {
+       "label": "III — fine only at rest; less-than-ordinary activity brings symptoms",
+       "next": "a2-3"
+      },
+      {
+       "label": "IV — symptoms even at rest",
+       "next": "a2-4"
+      },
+      {
+       "label": "Can't classify — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a2-1": {
+     "verdict": "conditional",
+     "quote": "May drive if LV ejection fraction is at least 40% but must notify DVLA.",
+     "quote2": "Depending on the likely cause for heart failure, exercise or other functional testing may be required irrespective of the NYHA class",
+     "anchor": "heart-failure-including-ischaemic-cardiomyopathy-and-dilated-cardiomyopathy"
+    },
+    "a2-2": {
+     "verdict": "conditional",
+     "quote": "May drive if left ventricular ejection fraction is at least 40%, symptoms are stable and not likely to distract the driver or otherwise affect safe driving but must notify DVLA.",
+     "quote2": "Depending on the likely cause for heart failure, exercise or other functional testing may be required irrespective of the NYHA class",
+     "anchor": "heart-failure-including-ischaemic-cardiomyopathy-and-dilated-cardiomyopathy"
+    },
+    "a2-3": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. Licence will be refused or revoked. Relicensing can only be considered if symptoms controlled and in NYHA 1 or II, and left ventricular ejection fraction is at least 40%.",
+     "quote2": "Depending on the likely cause for heart failure, exercise or other functional testing may be required irrespective of the NYHA class",
+     "anchor": "heart-failure-including-ischaemic-cardiomyopathy-and-dilated-cardiomyopathy"
+    },
+    "a2-4": {
+     "verdict": "must_not",
+     "quote": "Relicensing can only be considered if symptoms controlled and in NYHA 1, II or III. ✘ - Must not drive and must notify DVLA. Licence will be refused or revoked. Relicensing can only be considered if symptoms controlled and in NYHA 1 or II, and left ventricular ejection fraction is at least 40%.",
+     "note": "The Group 2 class-IV cell follows the class-IV heading — the span quoted covers both cells; the Group 2 rule is the second sentence onwards (relicensing only in NYHA I or II with LVEF ≥40%).",
+     "anchor": "heart-failure-including-ischaemic-cardiomyopathy-and-dilated-cardiomyopathy"
+    },
+    "r": {
+     "refer": true
+    }
+   },
+   "patient_slug": "gov-drv-heart-failure"
+  },
+  {
+   "id": "drv-tia",
+   "label": "TIA",
+   "match": [
+    "transient ischaemic",
+    "tia"
+   ],
+   "source": {
+    "label": "DVLA — Neurological disorders: assessing fitness to drive",
+    "url": "https://www.gov.uk/guidance/neurological-disorders-assessing-fitness-to-drive",
+    "page_id": "dvla-neurological"
+   },
+   "start": "q-dx",
+   "nodes": {
+    "q-group": {
+     "question": "Which licence group? (A seizure at the time of the TIA or in the first week has its own rule — take the stroke walkthrough's seizure branch or open the chapter.)",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "a1"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "a2"
+      },
+      {
+       "label": "Seizure at presentation / other — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a1": {
+     "verdict": "must_not",
+     "quote": "Must not drive for 1 month but need not notify DVLA. Where more than one TIA is experienced, 1 month off driving is required following each episode of TIA.",
+     "anchor": "stroke-transient-ischaemic-attack-tia-and-cerebral-venous-thrombosis--including-amaurosis-fugax-and-retinal-artery-occlusion",
+     "note": "",
+     "fly": {
+      "module": "fly-cardiac-neuro",
+      "node": "a-cva"
+     }
+    },
+    "a2": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. A licence will be refused or revoked for 1 year following a stroke or TIA. Relicensing after 1 year may be considered if: ■ there is no debarring residual impairment likely to affect safe driving and ■ there are no other significant risk factors.",
+     "quote2": "Patients with recurrent TIAs or strokes will be required to undergo functional cardiac testing.",
+     "anchor": "stroke-transient-ischaemic-attack-tia-and-cerebral-venous-thrombosis--including-amaurosis-fugax-and-retinal-artery-occlusion",
+     "fly": {
+      "module": "fly-cardiac-neuro",
+      "node": "a-cva"
+     }
+    },
+    "r": {
+     "refer": true
+    },
+    "q-dx": {
+     "question": "Is the diagnosis confirmed, or awaiting specialist review?",
+     "options": [
+      {
+       "label": "Confirmed — I'm confident this was a TIA",
+       "next": "q-group"
+      },
+      {
+       "label": "Suspected — awaiting the TIA clinic",
+       "next": "a-await"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-await": {
+     "verdict": "must_not",
+     "quote": "Must not drive for 1 month but need not notify DVLA. Where more than one TIA is experienced, 1 month off driving is required following each episode of TIA.",
+     "anchor": "stroke-transient-ischaemic-attack-tia-and-cerebral-venous-thrombosis--including-amaurosis-fugax-and-retinal-artery-occlusion",
+     "note": "Do not drive until the TIA clinic / stroke specialist has seen you.",
+     "note_first": true,
+     "fly": {
+      "module": "fly-cardiac-neuro",
+      "node": "a-cva"
+     }
+    }
+   },
+   "patient_slug": "gov-drv-tia",
+   "imply_node": "a1"
+  },
+  {
+   "id": "drv-stroke",
+   "label": "Stroke",
+   "match": [
+    "stroke"
+   ],
+   "source": {
+    "label": "DVLA — Neurological disorders: assessing fitness to drive",
+    "url": "https://www.gov.uk/guidance/neurological-disorders-assessing-fitness-to-drive",
+    "page_id": "dvla-neurological"
+   },
+   "start": "q-dx",
+   "nodes": {
+    "q-seiz": {
+     "question": "Any seizure at the time of the stroke, or in the first week after it?",
+     "options": [
+      {
+       "label": "No seizure",
+       "next": "q-group"
+      },
+      {
+       "label": "Yes — seizure at or within a week",
+       "next": "a-seiz"
+      },
+      {
+       "label": "Amaurosis fugax / retinal artery occlusion / CAA-related TFNE — open the chapter (separate rows)",
+       "next": "r"
+      }
+     ]
+    },
+    "a-seiz": {
+     "verdict": "must_not",
+     "quote": "Seizures occurring at the time of a stroke or TIA, or in the ensuing first week, may be treated as provoked for licensing purposes, provided there is no previous history of unprovoked seizure or cerebral pathology. Such provoked seizures will usually necessitate driving cessation.",
+     "note": "Treated as provoked for licensing — use the seizure walkthrough's provoked branch and Appendix B on the source page.",
+     "anchor": "stroke-transient-ischaemic-attack-tia-and-cerebral-venous-thrombosis--including-amaurosis-fugax-and-retinal-artery-occlusion"
+    },
+    "q-group": {
+     "question": "Which licence group?",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "a1"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "a2"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a1": {
+     "verdict": "must_not",
+     "quote": "Must not drive but may not need to notify DVLA. Driving may resume after 1 month if there has been satisfactory clinical recovery. DVLA does not need to be notified unless there is residual neurological deficit 1 month after the episode and, in particular: ■ visual field defects ■ cognitive defects ■ impaired limb function",
+     "quote2": "Minor limb weakness alone after a stroke will not require notification to DVLA unless restriction to certain types of vehicle or adapted controls may be needed.",
+     "anchor": "stroke-transient-ischaemic-attack-tia-and-cerebral-venous-thrombosis--including-amaurosis-fugax-and-retinal-artery-occlusion",
+     "note": "'Satisfactory clinical recovery' is a clinical judgement — in practice usually made at the stroke team's review, not by the patient alone. Advise no driving until then.",
+     "fly": {
+      "module": "fly-cardiac-neuro",
+      "node": "a-cva"
+     }
+    },
+    "a2": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. A licence will be refused or revoked for 1 year following a stroke or TIA. Relicensing after 1 year may be considered if: ■ there is no debarring residual impairment likely to affect safe driving and ■ there are no other significant risk factors.",
+     "anchor": "stroke-transient-ischaemic-attack-tia-and-cerebral-venous-thrombosis--including-amaurosis-fugax-and-retinal-artery-occlusion",
+     "fly": {
+      "module": "fly-cardiac-neuro",
+      "node": "a-cva"
+     }
+    },
+    "r": {
+     "refer": true
+    },
+    "q-dx": {
+     "question": "Is the diagnosis confirmed, or awaiting specialist review?",
+     "options": [
+      {
+       "label": "Confirmed — I'm confident this was a stroke",
+       "next": "q-seiz"
+      },
+      {
+       "label": "Suspected — awaiting the stroke team",
+       "next": "a-await"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-await": {
+     "verdict": "must_not",
+     "quote": "Must not drive but may not need to notify DVLA. Driving may resume after 1 month if there has been satisfactory clinical recovery. DVLA does not need to be notified unless there is residual neurological deficit 1 month after the episode and, in particular: ■ visual field defects ■ cognitive defects ■ impaired limb function",
+     "anchor": "stroke-transient-ischaemic-attack-tia-and-cerebral-venous-thrombosis--including-amaurosis-fugax-and-retinal-artery-occlusion",
+     "note": "Do not drive until the stroke team has seen you.",
+     "note_first": true,
+     "fly": {
+      "module": "fly-cardiac-neuro",
+      "node": "a-cva"
+     }
+    }
+   },
+   "patient_slug": "gov-drv-stroke",
+   "imply_node": "a1"
+  },
+  {
+   "id": "drv-acs",
+   "label": "Heart attack / ACS / PCI / CABG",
+   "match": [
+    "heart attack",
+    "myocardial",
+    "acute coronary",
+    "angioplasty",
+    "coronary stent",
+    "bypass graft",
+    "cabg"
+   ],
+   "source": {
+    "label": "DVLA — Cardiovascular disorders: assessing fitness to drive",
+    "url": "https://www.gov.uk/guidance/cardiovascular-disorders-assessing-fitness-to-drive",
+    "page_id": "dvla-cardiovascular"
+   },
+   "start": "q-what",
+   "nodes": {
+    "q-what": {
+     "question": "What happened?",
+     "options": [
+      {
+       "label": "ACS / myocardial infarction",
+       "next": "q-group"
+      },
+      {
+       "label": "ELECTIVE PCI (planned angioplasty/stent, no ACS)",
+       "next": "q-epci"
+      },
+      {
+       "label": "CABG (bypass surgery)",
+       "next": "q-cabg"
+      },
+      {
+       "label": "Something else — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "q-group": {
+     "question": "Which licence group?",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "q1-pci"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "a2"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "q1-pci": {
+     "question": "Successfully treated by coronary intervention (PCI), with LVEF ≥40% BEFORE HOSPITAL DISCHARGE and no further urgent revascularisation planned?",
+     "options": [
+      {
+       "label": "Yes — all met",
+       "next": "a1-pci"
+      },
+      {
+       "label": "No / not all met",
+       "next": "a1-nopci"
+      },
+      {
+       "label": "Unsure — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a1-pci": {
+     "verdict": "conditional",
+     "quote": "Must not drive but need not notify DVLA. Driving may resume 1 week after ACS if successful coronary intervention (PCI) has been carried out and if all of the following are met: ■ no other urgent revascularisation planned (urgent means within 4 weeks of acute event) ■ LV ejection fraction is at least 40% before hospital discharge ■ there is no other disqualifying condition",
+     "anchor": "ACS",
+     "fly": {
+      "module": "fly-cardiac-neuro",
+      "node": "a-mi"
+     }
+    },
+    "a1-nopci": {
+     "verdict": "must_not",
+     "quote": "If not treated by successful coronary intervention or any of the above are not met, driving may resume only after 4 weeks from the acute event, provided there is no other disqualifying condition.",
+     "anchor": "ACS",
+     "fly": {
+      "module": "fly-cardiac-neuro",
+      "node": "a-mi"
+     }
+    },
+    "a2": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA – for all ACS. Licence will be refused or revoked. May be relicensed/licensed after at least 6 weeks if: ■ LV ejection fraction is at least 40% ■ the requirements for exercise or other functional tests can be met (see Appendix C ) ■ there is no other disqualifying condition No functional cardiac test is required in Takotsubo cardiomyopathy in the absence of known coronary artery disease",
+     "anchor": "ACS",
+     "fly": {
+      "module": "fly-cardiac-neuro",
+      "node": "a-mi"
+     }
+    },
+    "q-epci": {
+     "question": "Which licence group?",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "a-epci-1"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "a-epci-2"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-epci-1": {
+     "verdict": "must_not",
+     "quote": "Elective percutaneous coronary intervention (PCI) Group 1 car and motorcycle Group 2 bus and lorry ✘- Must not drive for at least 1 week but need not notify DVLA. Driving may resume after 1 week provided there is no other disqualifying condition.",
+     "anchor": "elective-percutaneous-coronary-intervention-pci"
+    },
+    "a-epci-2": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. Licence will be refused or revoked. May be relicensed/licensed after at least 6 weeks if: ■ LV ejection fraction is at least 40% ■ the requirements for exercise or other functional tests can be met (see Appendix C ) ■ there is no other disqualifying condition Coronary artery bypass graft (CABG)",
+     "note": "The Group 2 elective-PCI cell is the quoted rule (6 weeks, LVEF ≥40%, functional tests); the span ends where the CABG section begins.",
+     "anchor": "elective-percutaneous-coronary-intervention-pci"
+    },
+    "q-cabg": {
+     "question": "Which licence group?",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "a-cabg-1"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "a-cabg-2"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-cabg-1": {
+     "verdict": "must_not",
+     "quote": "Must not drive for at least 4 weeks but need not notify DVLA. Driving may resume after 4 weeks provided there is no other disqualifying condition.",
+     "anchor": "coronary-artery-bypass-graft-cabg"
+    },
+    "a-cabg-2": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. Licence will be refused or revoked. May be relicensed/licensed after 3 months if: ■ LV ejection fraction is at least 40% ■ the requirements for exercise or other functional tests can be met (see Appendix C ), at least 3 months postoperatively ■ there is no other disqualifying condition",
+     "anchor": "elective-percutaneous-coronary-intervention-pci"
+    },
+    "r": {
+     "refer": true
+    }
+   },
+   "patient_slug": "gov-drv-heart-attack",
+   "imply_node": "a1-nopci"
+  },
+  {
+   "id": "drv-arrhythmia",
+   "label": "Arrhythmia / AF",
+   "match": [
+    "atrial fibrillation",
+    "arrhythmia",
+    "fibrillation",
+    "tachycardia"
+   ],
+   "source": {
+    "label": "DVLA — Cardiovascular disorders: assessing fitness to drive",
+    "url": "https://www.gov.uk/guidance/cardiovascular-disorders-assessing-fitness-to-drive",
+    "page_id": "dvla-cardiovascular"
+   },
+   "start": "q-scope",
+   "nodes": {
+    "q-scope": {
+     "question": "Which situation? (The chapter's arrhythmia set: sinoatrial disease, significant AV conduction defect, atrial flutter/fibrillation, narrow or broad complex tachycardia.)",
+     "options": [
+      {
+       "label": "One of those arrhythmias, managed medically",
+       "next": "q-group"
+      },
+      {
+       "label": "It occurred DURING an acute coronary syndrome",
+       "next": "a-acs"
+      },
+      {
+       "label": "Ventricular arrhythmia with ICD indicated or recommended",
+       "next": "a-icd"
+      },
+      {
+       "label": "Presented as blackout / transient loss of consciousness",
+       "next": "r-tloc"
+      },
+      {
+       "label": "Ablation / pacemaker / none of these — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-acs": {
+     "verdict": "info",
+     "quote": "If a transient arrhythmia occurs during an acute coronary syndrome, the guidance relating to ACS takes precedence.",
+     "note": "Use the Heart attack / ACS walkthrough instead.",
+     "anchor": "arrhythmias",
+     "fly": {
+      "module": "fly-cardiac-neuro",
+      "node": "a-mi"
+     }
+    },
+    "a-icd": {
+     "verdict": "must_not",
+     "quote": "Should a ventricular arrhythmia result in either a clinical indication or clinical recommendation for ICD implant, then a period of 6 months will be required off Group 1 driving (following the date of the last arrhythmic episode or the date of ICD implant). A Group 2 licence will be permanently revoked, even if implantation does not occur.",
+     "anchor": "arrhythmias"
+    },
+    "r-tloc": {
+     "refer": true,
+     "note": "Blackouts and lost/altered awareness are governed by the chapter's Appendix D, not the arrhythmia row — open the source."
+    },
+    "q-group": {
+     "question": "Which licence group?",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "q1-incap"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "q2-incap"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "q1-incap": {
+     "question": "Has the arrhythmia caused — or is it likely to cause — incapacity (unable to safely control or stop a vehicle)?",
+     "options": [
+      {
+       "label": "Yes / likely",
+       "next": "a1-incap"
+      },
+      {
+       "label": "No",
+       "next": "a1-ok"
+      },
+      {
+       "label": "Unsure — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a1-incap": {
+     "verdict": "must_not",
+     "quote": "Must not drive for at least 4 weeks if arrhythmia has caused or is likely to cause incapacity. Driving may resume 4 weeks after an incapacitating event if: ■ the cause of the event has been identified and treated ■ there is no recurrence of arrhythmia likely to cause incapacity Driving should not resume until the above criteria are met for at least 4 weeks from the last arrhythmic event, and DVLA must be notified.",
+     "anchor": "arrhythmias",
+     "fly": {
+      "module": "fly-cardiac-neuro",
+      "node": "a-arr-no"
+     }
+    },
+    "a1-ok": {
+     "verdict": "may",
+     "quote": "Must not drive for at least 4 weeks if arrhythmia has caused or is likely to cause incapacity. Driving may resume 4 weeks after an incapacitating event if: ■ the cause of the event has been identified and treated ■ there is no recurrence of arrhythmia likely to cause incapacity",
+     "note": "No DVLA bar — it applies only when the arrhythmia has caused or may cause incapacity, which your answers excluded. Pacemaker implantation has its own rule (see source).",
+     "anchor": "arrhythmias",
+     "quote2": "‘incapacity’ is defined as any condition, symptom or treatment that is likely to cause an individual to be unable to safely control or stop a vehicle.",
+     "fly": {
+      "module": "fly-cardiac-neuro",
+      "node": "a-arr-ok"
+     }
+    },
+    "q2-incap": {
+     "question": "Has the arrhythmia caused — or is it likely to cause — incapacity?",
+     "options": [
+      {
+       "label": "Yes / likely",
+       "next": "a2"
+      },
+      {
+       "label": "No",
+       "next": "a2-ok"
+      },
+      {
+       "label": "Unsure — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a2": {
+     "verdict": "must_not",
+     "quote": "Must notify DVLA. Must not drive if arrhythmia has caused or is likely to cause incapacity. Licence will be refused or revoked. May be relicensed or licensed (provided there is no other disqualifying condition) only if: ■ the underlying cause has been identified and treated ■ no further arrhythmia is likely to cause incapacity for at least 3 months ■ the LV ejection fraction is at least 40%",
+     "anchor": "arrhythmias"
+    },
+    "a2-ok": {
+     "verdict": "conditional",
+     "quote": "Must notify DVLA. Must not drive if arrhythmia has caused or is likely to cause incapacity.",
+     "note": "The bar applies when incapacity has occurred or is likely, which your answer excluded — but Group 2 notification still applies; confirm on the source page.",
+     "anchor": "arrhythmias",
+     "fly": {
+      "module": "fly-cardiac-neuro",
+      "node": "a-arr-ok"
+     }
+    },
+    "r": {
+     "refer": true
+    }
+   },
+   "patient_slug": "gov-drv-arrhythmia",
+   "imply_node": "a1-incap"
+  },
+  {
+   "id": "drv-dizziness",
+   "label": "Vertigo / dizziness",
+   "match": [
+    "vertigo",
+    "dizziness",
+    "dizzy",
+    "bppv",
+    "labyrinthitis",
+    "vestibular"
+   ],
+   "source": {
+    "label": "DVLA — Neurological disorders: assessing fitness to drive",
+    "url": "https://www.gov.uk/guidance/neurological-disorders-assessing-fitness-to-drive",
+    "page_id": "dvla-neurological"
+   },
+   "start": "q-sudden",
+   "nodes": {
+    "q-sudden": {
+     "question": "Liability to SUDDEN episodes of DISABLING dizziness, unprovoked OR unprecipitated?",
+     "options": [
+      {
+       "label": "Yes",
+       "next": "q-group"
+      },
+      {
+       "label": "No",
+       "next": "a-def"
+      },
+      {
+       "label": "Dizziness due to stroke/TIA or other cause — open the chapter (separate rows)",
+       "next": "r"
+      }
+     ]
+    },
+    "q-group": {
+     "question": "Which licence group?",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "a1"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "a2"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a1": {
+     "verdict": "must_not",
+     "quote": "Must not drive on presentation and must notify DVLA. When satisfactory control of symptoms has been achieved, relicensing may be considered for restoration of the ’til 70 licence.",
+     "anchor": "dizziness--liability-to-sudden-and-unprovoked-or-unprecipitated-episodes-of-disabling-dizziness"
+    },
+    "a2": {
+     "verdict": "must_not",
+     "quote": "Must not drive on presentation and must notify DVLA. If there are sudden and disabling symptoms, the licence will be refused or revoked. If an underlying diagnosis is likely to cause recurrence, the patient must be asymptomatic and completely controlled for 1 year from an episode before reapplying for their licence.",
+     "anchor": "dizziness--liability-to-sudden-and-unprovoked-or-unprecipitated-episodes-of-disabling-dizziness"
+    },
+    "a-def": {
+     "verdict": "conditional",
+     "quote": "Sudden is defined as ‘without sufficient warning to allow safe evasive action when driving’ and disabling is defined as ‘unable to continue safely with the activity being performed’.",
+     "note": "If episodes are not sudden + disabling + unprovoked/unprecipitated by these definitions, this standard does not bar driving — clinical judgement applies; check the source.",
+     "anchor": "dizziness--liability-to-sudden-and-unprovoked-or-unprecipitated-episodes-of-disabling-dizziness"
+    },
+    "r": {
+     "refer": true
+    }
+   },
+   "patient_slug": "gov-drv-dizziness"
+  },
+  {
+   "id": "drv-diabetes-hypo",
+   "label": "Diabetes / hypoglycaemia",
+   "match": [
+    "hypoglycaemia",
+    "hypoglycemia",
+    "hypo",
+    "insulin",
+    "diabetic ketoacidosis",
+    "diabetes"
+   ],
+   "source": {
+    "label": "DVLA — Diabetes mellitus: assessing fitness to drive",
+    "url": "https://www.gov.uk/guidance/diabetes-mellitus-assessing-fitness-to-drive",
+    "page_id": "dvla-diabetes"
+   },
+   "start": "q-what",
+   "nodes": {
+    "q-what": {
+     "question": "What happened?",
+     "options": [
+      {
+       "label": "SEVERE hypo — needed another person's help",
+       "next": "q-sev-treat"
+      },
+      {
+       "label": "Hypo caused a SEIZURE (provoked seizure)",
+       "next": "q-seiz-group"
+      },
+      {
+       "label": "Insulin-treated — routine driving rules",
+       "next": "q-rt-group"
+      },
+      {
+       "label": "Tablet-treated / gestational / other — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "q-sev-treat": {
+     "question": "Is the driver insulin-treated?",
+     "options": [
+      {
+       "label": "Yes — insulin-treated",
+       "next": "q-sev-group"
+      },
+      {
+       "label": "No — tablets / sulfonylurea / other (different rows apply)",
+       "next": "r"
+      }
+     ]
+    },
+    "q-sev-group": {
+     "question": "Which licence group?",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "a-sev-1"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "a-sev-2"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-sev-1": {
+     "verdict": "conditional",
+     "quote": "has not experienced 2 or more episodes of severe hypoglycaemia while awake in the preceding 12 months and the most recent episode occurred more than 3 months ago",
+     "quote2": "The law defines ‘severe’ as an episode of hypoglycaemia requiring the assistance of another person.",
+     "note": "BOTH limbs matter: 2+ severe awake episodes in 12 months fails the criterion, AND so does any severe awake episode within the last 3 months — a first severe hypo today means the criteria are not met until 3 months pass. Full insulin-treated table on the source page.",
+     "anchor": "insulin-treated-diabetes"
+    },
+    "a-sev-2": {
+     "verdict": "must_not",
+     "quote": "Group 2 drivers must report all episodes of severe hypoglycaemia requiring the help of another person, including sleep episodes.",
+     "quote2": "All the following criteria must be met for DVLA to license the person with insulin-treated diabetes for 1 year (with annual review as indicated last below): ■ full awareness of hypoglycaemia ■ no episode of severe hypoglycaemia in the preceding 12 months",
+     "note": "The Group 2 standard bars licensing after ANY severe hypo in the preceding 12 months — full table on the source page.",
+     "anchor": "insulin-treated-diabetes"
+    },
+    "q-seiz-group": {
+     "question": "Which licence group?",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "a-seiz-1"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "a-seiz-2"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-seiz-1": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. In most cases driving must cease for 6 months after the provoked seizure.",
+     "note": "From the neurological chapter's provoked-seizures row; the diabetes hypo rules apply on top. Appendix B defines the special considerations.",
+     "source": {
+      "label": "DVLA — Neurological disorders: assessing fitness to drive",
+      "url": "https://www.gov.uk/guidance/neurological-disorders-assessing-fitness-to-drive",
+      "page_id": "dvla-neurological"
+     },
+     "anchor": "epilepsy-and-seizures"
+    },
+    "a-seiz-2": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. Driving must cease for up to 5 years after the provoked seizure.",
+     "note": "From the neurological chapter's provoked-seizures row.",
+     "source": {
+      "label": "DVLA — Neurological disorders: assessing fitness to drive",
+      "url": "https://www.gov.uk/guidance/neurological-disorders-assessing-fitness-to-drive",
+      "page_id": "dvla-neurological"
+     },
+     "anchor": "epilepsy-and-seizures"
+    },
+    "q-rt-group": {
+     "question": "Which licence group?",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "a-rt-1"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "a-rt-2"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-rt-1": {
+     "verdict": "conditional",
+     "quote": "Glucose testing must take place: at the start of the first journey at least every 2 hours during the journey A maximum of 2 hours should pass between the pre-driving glucose test and the first glucose check performed after driving has started.",
+     "quote2": "If a driver becomes dependent on these alarms to recognise low glucose, they must stop driving and notify DVLA.",
+     "note": "Adequate hypoglycaemia awareness is also required; CGM users must carry a finger-prick meter as backup — the full insulin-treated table is on the source page.",
+     "anchor": "group-1-and-group-2-requirements-for-insulin-treated-drivers-licensed-on-review",
+     "patient_slug": "gov-drv-diabetes"
+    },
+    "a-rt-2": {
+     "verdict": "conditional",
+     "quote": "Group 2 bus and lorry Glucose testing must take place: at least twice daily, including on days when not driving at the start of the first journey at least every 2 hours during the journey A maximum of 2 hours should pass between the pre-driving glucose test and the first glucose check performed after driving has started.",
+     "note": "Group 2 standards are stricter throughout (annual review, 4 weeks of meter readings, no severe hypo in 12 months) — open the source table.",
+     "anchor": "group-1-and-group-2-requirements-for-insulin-treated-drivers-licensed-on-review",
+     "patient_slug": "gov-drv-diabetes"
+    },
+    "r": {
+     "refer": true
+    }
+   },
+   "patient_slug": "gov-drv-hypo"
+  },
+  {
+   "id": "fly-dvt",
+   "label": "DVT / PE — flying",
+   "kind": "flying",
+   "match": [
+    "dvt",
+    "deep vein",
+    "thrombosis",
+    "pulmonary embolism",
+    "blood clot"
+   ],
+   "source": {
+    "label": "CAA — Haematological disorders (fitness to fly)",
+    "url": "https://www.caa.co.uk/air-passengers/about-your-trip/health-and-medical/guidance-for-health-professionals/haematological-disorders/",
+    "page_id": "caa-haematology"
+   },
+   "start": "q-what",
+   "nodes": {
+    "q-what": {
+     "question": "What do you need?",
+     "options": [
+      {
+       "label": "In-flight VTE risk & prevention advice",
+       "next": "a-prev"
+      },
+      {
+       "label": "Is aspirin recommended for flight prophylaxis?",
+       "next": "a-asp"
+      },
+      {
+       "label": "When can they fly after a NEW DVT/PE? — open the chapter",
+       "next": "r-new"
+      }
+     ]
+    },
+    "a-prev": {
+     "verdict": "info",
+     "quote": "the key determinant for deep venous thrombosis is immobilisation and the risk of thrombosis is increased by travel of greater than 4 hours",
+     "quote2": "Simple, effective measures are to move about the aircraft cabin and to carry out the lower limb exercises shown in airline videos and in-flight magazines.",
+     "note": "For the highest-risk cases the page lists fitted anti-embolism stockings and LMWH."
+    },
+    "a-asp": {
+     "verdict": "info",
+     "quote": "It is important to emphasise that the risk of side effects from the use of aspirin outweigh any potential anti-thrombotic effect and its use is not recommended."
+    },
+    "r-new": {
+     "refer": true,
+     "note": "The CAA publishes NO fixed 'safe to fly after a new DVT/PE' interval — that is a clinical/haematology decision; read the chapter and local policy."
+    }
+   },
+   "patient_slug": "caa-air-travel-your-health"
+  },
+  {
+   "id": "fly-pneumothorax",
+   "label": "Pneumothorax — flying",
+   "kind": "flying",
+   "match": [
+    "pneumothorax",
+    "collapsed lung"
+   ],
+   "source": {
+    "label": "CAA — Respiratory disease (fitness to fly)",
+    "url": "https://www.caa.co.uk/air-passengers/about-your-trip/health-and-medical/guidance-for-health-professionals/respiratory-disease/",
+    "page_id": "caa-respiratory"
+   },
+   "start": "q-state",
+   "nodes": {
+    "q-state": {
+     "question": "Current state of the pneumothorax?",
+     "options": [
+      {
+       "label": "Present now (undrained, or drain in situ)",
+       "next": "a-current"
+      },
+      {
+       "label": "Drained, with FULL lung re-expansion confirmed",
+       "next": "a-drained"
+      },
+      {
+       "label": "Other / unsure — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-current": {
+     "verdict": "must_not",
+     "quote": "The presence of a pneumothorax is an absolute contraindication to air travel as trapped air may expand and result in a tension pneumothorax.",
+     "quote2": "If there is a need to travel earlier, safe travel is possible using a one-way Heimlich valve attached to the chest drain."
+    },
+    "a-drained": {
+     "verdict": "conditional",
+     "quote": "In general, it should be safe to travel approximately 2 weeks after successful drainage of a pneumothorax with full expansion of the lung.",
+     "note": "The timing turns on BOTH conditions — successful drainage AND full re-expansion."
+    },
+    "r": {
+     "refer": true
+    }
+   },
+   "patient_slug": "caa-air-travel-your-health"
+  },
+  {
+   "id": "fly-cardiac-neuro",
+   "label": "After MI / PCI / stroke / TIA — flying",
+   "kind": "flying",
+   "match": [
+    "acute coronary",
+    "angioplasty",
+    "arrhythmia",
+    "atrial fibrillation",
+    "coronary stent",
+    "heart attack",
+    "myocardial",
+    "stroke",
+    "tia",
+    "transient ischaemic"
+   ],
+   "source": {
+    "label": "CAA — Cardiovascular disease (fitness to fly)",
+    "url": "https://www.caa.co.uk/air-passengers/about-your-trip/health-and-medical/guidance-for-health-professionals/cardiovascular-disease/",
+    "page_id": "caa-cardiovascular"
+   },
+   "start": "q-what",
+   "nodes": {
+    "q-what": {
+     "question": "Which event?",
+     "options": [
+      {
+       "label": "Myocardial infarction / ACS",
+       "next": "a-mi"
+      },
+      {
+       "label": "Uncomplicated PCI / stent",
+       "next": "a-pci"
+      },
+      {
+       "label": "Stroke or TIA",
+       "next": "a-cva"
+      },
+      {
+       "label": "Arrhythmia (incl. atrial fibrillation)",
+       "next": "q-arr"
+      },
+      {
+       "label": "Something else — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-mi": {
+     "verdict": "conditional",
+     "quote": "Patients with a recent myocardial infarction may travel after 7 to 10 days if there are no complications"
+    },
+    "a-pci": {
+     "verdict": "conditional",
+     "quote": "Patients with uncomplicated Percutaneous Coronary Interventions such as angioplasty with stent placement may be fit to travel after 3 days, but individual assessment is essential."
+    },
+    "a-cva": {
+     "verdict": "conditional",
+     "quote": "Stroke/Transient ischemic attack (TIA): It is advisable to wait at least 2 weeks after a stroke and 2 days for a TIA.",
+     "quote2": "Consideration should be given to the extent of any assistance requirements and how these may be met during travel.",
+     "source": {
+      "label": "CAA — Neurology (fitness to fly)",
+      "url": "https://www.caa.co.uk/air-passengers/about-your-trip/health-and-medical/guidance-for-health-professionals/neurology/",
+      "page_id": "caa-neurology"
+     }
+    },
+    "r": {
+     "refer": true
+    },
+    "q-arr": {
+     "question": "Is the arrhythmia controlled (stable on treatment)?",
+     "options": [
+      {
+       "label": "Controlled / stable",
+       "next": "a-arr-ok"
+      },
+      {
+       "label": "Uncontrolled or newly unstable",
+       "next": "a-arr-no"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-arr-ok": {
+     "verdict": "may",
+     "quote": "Despite the physiological changes that occur at altitude, the majority of patients with cardiac conditions can travel safely as long as they are cautioned to carry their medications in their hand baggage.",
+     "quote2": "Uncomplicated myocardial infarction within 7 days Complicated myocardial infarction within 4-6 weeks Unstable angina Decompensated congestive heart failure Uncontrolled hypertension CABG within 10 days CVA within 3 days Uncontrolled cardiac arrhythmia Severe symptomatic valvular heart disease",
+     "note": "Only 'uncontrolled cardiac arrhythmia' is on the CAA contraindication list. Medication in hand baggage."
+    },
+    "a-arr-no": {
+     "verdict": "must_not",
+     "quote": "Uncomplicated myocardial infarction within 7 days Complicated myocardial infarction within 4-6 weeks Unstable angina Decompensated congestive heart failure Uncontrolled hypertension CABG within 10 days CVA within 3 days Uncontrolled cardiac arrhythmia Severe symptomatic valvular heart disease",
+     "note": "'Uncontrolled cardiac arrhythmia' is on the CAA list of contraindications to commercial flight. Reassess once controlled."
+    },
+    "i-general": {
+     "verdict": "info",
+     "quote": "Uncomplicated myocardial infarction within 7 days Complicated myocardial infarction within 4-6 weeks Unstable angina Decompensated congestive heart failure Uncontrolled hypertension CABG within 10 days CVA within 3 days Uncontrolled cardiac arrhythmia Severe symptomatic valvular heart disease",
+     "note": "If any of these applies, do not fly — ask your clinician."
+    }
+   },
+   "patient_slug": "caa-air-travel-your-health",
+   "imply_node": "i-general"
+  },
+  {
+   "id": "fly-surgery",
+   "label": "After surgery / endoscopy — flying",
+   "kind": "flying",
+   "match": [
+    "laparoscop",
+    "colonoscopy",
+    "abdominal surgery",
+    "appendicectomy",
+    "appendix",
+    "hernia"
+   ],
+   "source": {
+    "label": "CAA — Surgical conditions (fitness to fly)",
+    "url": "https://www.caa.co.uk/air-passengers/about-your-trip/health-and-medical/guidance-for-health-professionals/surgical-conditions/",
+    "page_id": "caa-surgical"
+   },
+   "start": "q-what",
+   "nodes": {
+    "q-what": {
+     "question": "Which procedure? (The 10-day abdominal rule is about ileus and suture lines; the laparoscopy/colonoscopy rules are about introduced gas — a laparoscopic ABDOMINAL operation engages the abdominal rule.)",
+     "options": [
+      {
+       "label": "Abdominal surgery — open or laparoscopic (bowel resection, appendicectomy, hernia repair…)",
+       "next": "a-abdo"
+      },
+      {
+       "label": "Laparoscopy alone (diagnostic; residual CO2 only)",
+       "next": "a-lap"
+      },
+      {
+       "label": "Colonoscopy (gas insufflation)",
+       "next": "a-colo"
+      },
+      {
+       "label": "Neurosurgical procedure",
+       "next": "a-neuro"
+      },
+      {
+       "label": "Eye surgery / intra-ocular gas / penetrating eye injury",
+       "next": "a-eye"
+      },
+      {
+       "label": "Something else — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-abdo": {
+     "verdict": "conditional",
+     "quote": "To avoid such complications, travel should be avoided for 10 days following abdominal surgery.",
+     "quote2": "Concurrently, oxygen levels may be decreased or fixed in patients who are: elderly volume depleted anaemic or who have cardiopulmonary disease Consequently, for such patients it would be wise to delay air travel for several days or request oxygen to be provided.",
+     "note": "The second quote is the chapter's general post-operative caveat — it applies to every branch here."
+    },
+    "a-lap": {
+     "verdict": "conditional",
+     "quote": "it is advisable to avoid flying for approximately 24 hours after laparoscopic intervention, due to the residual CO2 gas, which may be in the intra-abdominal cavity.",
+     "note": "Advisory wording in the chapter. The general post-operative caveat (elderly, volume-depleted, anaemic, cardiopulmonary — longer delay or in-flight oxygen) also applies."
+    },
+    "a-colo": {
+     "verdict": "conditional",
+     "quote": "Following other procedures, such as colonoscopy where a large amount of gas has been introduced into the colon, it is advisable to avoid travel by air for 24 hours.",
+     "note": "Advisory wording in the chapter; the general post-operative caveat also applies."
+    },
+    "a-neuro": {
+     "verdict": "conditional",
+     "quote": "It is therefore advisable to avoid air travel for approximately 7 days following this type of procedure.",
+     "note": "Trapped intracranial gas expands at altitude — normally specialist-team territory; open the source. The general post-operative caveat also applies."
+    },
+    "a-eye": {
+     "verdict": "must_not",
+     "quote": "Ophthalmological procedures for retinal detachment also involve the introduction of gas by intra-ocular injections, which temporarily increase intra-ocular pressure. Depending on the gas, it may be necessary to delay travel for approximately 2 weeks if sulphur hexafluoride is used and 6 weeks with the use of perfluoropropane. For other intra-ocular procedure and penetrating eye injuries, 1 week should elapse before flying.",
+     "note": "The longest published delays in the chapter (up to 6 weeks with perfluoropropane) — normally ophthalmology-led; open the source."
+    },
+    "r": {
+     "refer": true
+    }
+   },
+   "patient_slug": "caa-air-travel-your-health"
+  }
+ ]
+}

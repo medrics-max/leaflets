@@ -4,6 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Patient information — choose leaflets</title>
+<meta name="description" content="Clinician tool: search published patient-information leaflets, tick a set, and show a QR code the patient scans. No login, no patient data.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Patient Information QR — clinician picker",
+  "url": "https://medrics-max.github.io/leaflets/picker.html",
+  "applicationCategory": "HealthApplication",
+  "operatingSystem": "Any (web browser)",
+  "description": "A clinician searches published patient-information leaflets, ticks a set, and shows a QR code. The patient scans it and gets links to their trust's own published leaflets plus national NHS.uk content. No login, no patient data — nothing about an individual patient is entered, known, or processed.",
+  "audience": { "@type": "MedicalAudience", "audienceType": "Clinicians" },
+  "publisher": { "@type": "Organization", "name": "Medrics", "url": "https://medrics.co.uk" },
+  "license": "https://medrics-max.github.io/leaflets/LICENSE"
+}
+</script>
 <style>
   :root { color-scheme: light; }
   * { box-sizing: border-box; }
@@ -24,6 +39,8 @@
     border-radius: 16px; padding: 6px 12px; margin: 4px 4px 0; font-size: 0.85rem;
   }
   .chip button { border: none; background: none; color: #00437a; font-weight: 700; margin-left: 6px; cursor: pointer; font-size: 0.95rem; }
+  a.openpg { color: #00437a; text-decoration: none; font-weight: 700; margin-left: 6px; }
+  a.openpg:hover { text-decoration: underline; }
   .related { margin: 2px 0 6px; font-size: 0.85rem; color: #555; }
   .related .rlabel { margin-right: 6px; }
   .related .chip {
@@ -34,6 +51,65 @@
     font-size: 0.85rem;
   }
   .related .chip:hover { background: #eef4fa; }
+  .driving { margin: 6px 0 4px; font-size: 0.92rem; color: #444; }
+  .driving .rlabel { margin-right: 6px; }
+  .driving .chip {
+    border: 1px dashed #b08c00; background: #fffdf2; color: #6b5400;
+    cursor: pointer; user-select: none;
+  }
+  .driving .chip:hover { background: #fdf6dc; }
+  .drivepanel {
+    border: 1px solid #e0d6a8; border-radius: 8px; background: #fffdf5;
+    padding: 12px 14px; margin: 8px 0; max-width: 720px;
+  }
+  .drivepanel .q { font-weight: 700; margin: 0 0 8px; color: #333; }
+  .drivepanel .opts button {
+    display: inline-block; margin: 0 8px 8px 0; padding: 7px 12px;
+    border: 1px solid #b08c00; border-radius: 6px; background: #fff;
+    color: #6b5400; cursor: pointer; font-size: 0.92rem;
+  }
+  .drivepanel .opts button:hover { background: #fdf6dc; }
+  .drivepanel .verdict {
+    display: inline-block; padding: 2px 10px; border-radius: 12px;
+    font-weight: 700; font-size: 0.85rem; margin-bottom: 8px; color: #fff;
+  }
+  .drivepanel .verdict.must_not { background: #c0392b; }
+  .drivepanel .verdict.may { background: #1e7d32; }
+  .drivepanel .verdict.conditional { background: #b07d00; }
+  .drivepanel .verdict.info { background: #5f6b76; }
+  .drivepanel blockquote {
+    margin: 6px 0; padding: 8px 12px; border-left: 3px solid #b08c00;
+    background: #fff; font-style: normal; color: #222;
+  }
+  .drivepanel .drvnote { font-size: 0.85rem; color: #6b5400; margin: 6px 0; }
+  .drivepanel .drvfoot { font-size: 0.8rem; color: #666; margin-top: 8px; }
+  .drivepanel .drvfoot a { color: #00437a; font-weight: 600; }
+  .drivepanel a.drvsrc {
+    display: inline-block; margin-top: 6px; padding: 8px 16px;
+    background: #005eb8; color: #fff; border-radius: 6px;
+    font-weight: 700; text-decoration: none; font-size: 0.92rem;
+  }
+  .drivepanel a.drvsrc:hover { background: #00437a; }
+  .drivepanel .drvcheck { background: #fff8e6; border-left: 3px solid #b07d00;
+    border-radius: 0 6px 6px 0; padding: 5px 8px; margin: 8px 0;
+    font-size: 0.8rem; color: #5a4a00; }
+  .drivepanel .drvfly { margin: 10px 0; padding: 6px 10px;
+    background: #eef4fb; border-radius: 6px; font-size: 0.92rem; }
+  .drivepanel .drvrule { margin: 8px 0; }
+  .drivepanel .drvrule summary { cursor: pointer; font-size: 0.9rem;
+    color: #5a6b7b; padding: 4px 0; }
+  .drivepanel .drvrule summary:hover { color: #1a2b3c; }
+  .drivepanel .drvadd {
+    margin-top: 6px; padding: 7px 12px; border: 1px solid #1e7d32;
+    border-radius: 6px; background: #f2faf3; color: #1e7d32;
+    cursor: pointer; font-size: 0.88rem; font-weight: 600;
+  }
+  .drivepanel .drvadd:hover { background: #e2f3e5; }
+  .drivepanel .drvctl { margin-top: 8px; }
+  .drivepanel .drvctl button {
+    border: none; background: none; color: #00437a; cursor: pointer;
+    font-size: 0.85rem; margin-right: 10px; padding: 0; text-decoration: underline;
+  }
   .specrow { display: inline-flex; align-items: center; gap: 6px; margin-left: 10px; font-size: 0.85rem; color: #444; }
   .specrow select { font-size: 0.85rem; padding: 3px 6px; border-radius: 6px; border: 1px solid #aab4bf; background: #fff; }
   .spechint { font-size: 0.75rem; color: #888; border-bottom: 1px dotted #aaa; cursor: help; }
@@ -61,6 +137,7 @@
   .tag.advice { background:#e7e9fb; color:#33379a; }
   .tag.service { background:#e8f0fb; color:#00437a; }
   .tag.nhs { background:#eef1f5; color:#444; }
+  .tag.gov { background:#e8f0fb; color:#00437a; }
   .tag.stale { background:#fdecea; color:#7a271a; }
   .actions { position: sticky; bottom: 0; background: #fff; padding: 12px 0 4px; border-top: 1px solid #eef1f5; margin-top: 8px; }
   button.primary {
@@ -117,6 +194,7 @@
 
 <div id="selected" class="chips"></div>
 <div id="related" class="related"></div>
+<div id="driving" class="driving"></div>
 <p class="count" id="count">Loading…</p>
 <ul id="results" class="results"></ul>
 
@@ -139,7 +217,12 @@
 
 <script src="qrcode.min.js"></script>
 <script>
-const LANDING = "https://medrics-max.github.io/leaflets/";
+// Local test copies must link to THEIR OWN patient page, not the published
+// site — a localhost picker pointing at github.io shows the OLD build and
+// reads as "the patient gets no driving advice" (Oscar, 2026-08-04).
+const LANDING = (["localhost", "127.0.0.1"].includes(location.hostname))
+  ? location.origin + "/index.html"
+  : "https://medrics-max.github.io/leaflets/";
 // Medrics branding (same pattern as index.html). Leave MEDRICS_URL "" to hide.
 // When the brochure site goes live, point this at the product page:
 // https://medrics.co.uk/leaflets/
@@ -149,7 +232,7 @@ const MEDRICS_LOGO = "medrics-logo.png";   // falls back to the text label if ab
 const TRUST_KEY = "medrics_trust";
 // Say where each result comes from, not just what it is — a clinician choosing
 // between "DVT" entries needs to see trust leaflet vs national NHS page at a glance.
-const TAGLABEL = { leaflet:"Trust leaflet", medicines:"NHS medicine", advice:"Local advice", service:"Trust service", nhs:"NHS info page" };
+const TAGLABEL = { leaflet:"Trust leaflet", medicines:"NHS medicine", advice:"Local advice", service:"Trust service", nhs:"NHS info page", gov:"Official advice" };
 
 // Trust registry (trusts.json). Fallback keeps the page working if it can't load.
 let REGISTRY = null, TRUST = null;
@@ -388,7 +471,11 @@ let BUNDLES = [];
 //   * Google Apps Script web-app URL (analytics.gs) — zero infrastructure, or
 //   * the company server: <medrics-server>/api/leaflets/telemetry — data never
 //     leaves medrics infrastructure (no Google-as-processor in any trust DPIA).
-let ANALYTICS_URL = "";   // "" = collect nothing
+// Live since 2026-08-04 (Oscar: report demand must be MEASURED use, not
+// prediction; the trust agreed to usage analytics at the 2026-08-04 meeting).
+// Events + no-identifier contract documented above; the sink enforces shapes
+// server-side and the report suppresses counts below k=3.
+let ANALYTICS_URL = "https://brain.medrics.co.uk/api/leaflets/telemetry";
 
 const _sentQueries = new Set();   // in-memory only — dedupe, never persisted
 let _nrTimer = null;
@@ -547,17 +634,19 @@ async function load() {
   // no-cache: a clinician must never search against a stale cached copy after
   // a correction is published (revalidates via ETag, so unchanged files cost a
   // 304, not a full re-download).
-  const [all, reviews, bundles, profiles] = await Promise.all([
+  const [all, reviews, bundles, profiles, driving] = await Promise.all([
     Promise.all(sources.map(([f]) =>
       fetch(f, { cache: "no-cache" }).then(r => r.ok ? r.json() : []).catch(() => []))),
     fetch(dirFor(TRUST) + "reviews.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
     fetch("related_bundles.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
     fetch("specialty_profiles.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+    fetch("driving_advice.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
   ]);
   // A newer load started while we were fetching (rapid trust switch): drop
   // this response, or trust A's data could render under trust B's banner.
   if (seq !== _loadSeq) return;
   BUNDLES = (bundles && bundles.bundles) || [];
+  DRIVING = (driving && driving.modules) || [];
   PROFILES = (profiles && profiles.profiles) || {};
   initSpecialtyUI();
   telemetryNotice();
@@ -627,14 +716,24 @@ async function init() {
 }
 
 function renderSelected() {
+  // A displayed QR encodes the selection AT GENERATION TIME — if the
+  // selection changes afterwards the old code silently no longer matches
+  // (that's how a just-added driving-advice page failed to reach a
+  // patient page, 2026-08-01). Stale output is cleared with a hint.
+  const outEl = $("out");
+  if (outEl && outEl.innerHTML && !outEl.dataset.fresh) {
+    outEl.innerHTML = '<p class="hint">Selection changed — tap “Generate QR code” again.</p>';
+  }
+  if (outEl) delete outEl.dataset.fresh;
   const el = $("selected");
-  if (!selected.size) { el.innerHTML = ""; $("gen").disabled = true; renderRelated(); return; }
+  if (!selected.size) { el.innerHTML = ""; $("gen").disabled = true; renderRelated(); renderDriving(); return; }
   $("gen").disabled = false;
   el.innerHTML = [...selected.values()].map(it =>
-    `<span class="chip">${esc(it.title)}<button data-s="${esc(it.slug)}" aria-label="remove">×</button></span>`).join("");
+    `<span class="chip">${esc(it.title)}<a class="openpg" href="${esc(patientUrl(it.slug))}" target="_blank" rel="noopener" title="Open the patient page to check it">↗</a><button data-s="${esc(it.slug)}" aria-label="remove">×</button></span>`).join("");
   el.querySelectorAll("button").forEach(b =>
     b.onclick = () => { selected.delete(b.dataset.s); renderSelected(); renderResults(); });
   renderRelated();
+  renderDriving();
 }
 
 // "Often given together" — companions for the current selection, from the
@@ -660,7 +759,9 @@ function renderRelated() {
   const picks = new Map();
   for (const it of selected.values()) {
     for (const b of BUNDLES) {
-      if (!b.match.some(m => it._title.includes(fold(m)))) continue;
+      // word-START matching, mirroring Python gap_audit.term_hit — bare
+      // includes() let "epilep" fire on "Nonepileptic attacks" (2026-08-04)
+      if (!b.match.some(m => termHit(fold(m), it._title))) continue;
       for (const sug of b.suggest) {
         const hit = resolveSuggestion(sug);
         if (hit && !selected.has(hit.slug) && !picks.has(hit.slug)) picks.set(hit.slug, hit);
@@ -679,6 +780,368 @@ function renderRelated() {
   });
 }
 
+// DVLA driving advice — interactive (Oscar's design, 2026-08-01): when a
+// selected condition has driving implications, a chip appears; clicking it
+// walks the clinician through the licence-group / severity questions the
+// DVLA tables actually turn on, then shows the relevant rule VERBATIM with
+// a link to the DVLA source page to double-check. Every quote is re-checked
+// weekly against the live gov.uk chapter by guidance_watch.py — the tool
+// routes between published rules; it never composes advice.
+let DRIVING = [];
+let driveState = null;   // { m: module, node: id, trail: [ids] }
+// The clinician's chosen verdict travels to the patient page (Oscar,
+// 2026-08-04: "the direct quote based on the clinician choice, then the
+// prompt to check it themselves"). Recorded ONLY when the clinician presses
+// ＋Add on a verdict — that click is the consent act. moduleId -> nodeId.
+let drvPicks = new Map();
+
+// A term counts only at a WORD START (left boundary; right stays open so
+// "transient ischem" matches "ischemic") — the JS twin of Python
+// gap_audit.term_hit(). Bare includes() hid real bugs on both sides:
+// "tia" inside "iniTIAted", "epilep" inside "nonepileptic" (2026-08-04).
+function termHit(ft, hay) {
+  if (!ft) return false;
+  const esc = ft.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  // short tokens ("tia", "hypo") demand BOTH boundaries — right-open would
+  // fire "hypo" on "hypotension"/"hypothermia". Longer terms keep the right
+  // side open so prefixes still work ("transient ischem" → "ischemic"),
+  // while the left boundary stops "epilep"→"nonepileptic" and
+  // "stroke"→"heatstroke" (both were live false matches, 2026-08-04).
+  const tail = (!ft.includes(" ") && ft.length <= 4) ? "($|[^a-z0-9])" : "";
+  return new RegExp("(^|[^a-z0-9])" + esc + tail).test(hay);
+}
+
+function drvMatches(it, m) {
+  // exclude beats match: "epilep" must not fire on "Non-epileptic attacks"
+  // (exclude uses containment on purpose — broader is safer for a veto)
+  if ((m.exclude || []).some(t => it._title.includes(fold(t)))) return false;
+  return (m.match || []).some(t => termHit(fold(t), it._title));
+}
+
+// The generic driving/flying entry points: the catch-all GOV.UK/CAA patient
+// pages, and the search box itself. Selecting one of these — or typing
+// "driving"/"dvla"/"fit to fly" — must never dead-end (Oscar 2026-08-04:
+// "I selected a generic driving but haven't gone through to anything").
+const DRV_GENERIC_SLUGS = ["gov-health-conditions-driving",
+                           "gov-driving-medical-conditions",
+                           "caa-air-travel-your-health"];
+const DRV_GENERIC_Q = /(^|[^a-z0-9])(driving|dvla|caa|fit(ness)? to (drive|fly)|flying|fly)($|[^a-z0-9])/;
+
+function drvQueryMatches(m, q) {
+  // the clinician's SEARCH TEXT can summon a module before anything is
+  // selected — "seizure follow-up" should surface the seizure tree
+  if (!q) return false;
+  if ((m.exclude || []).some(t => q.includes(fold(t)))) return false;
+  return (m.match || []).some(t => termHit(fold(t), q));
+}
+
+function renderDriving() {
+  const el = $("driving");
+  if (!el) return;
+  const q = fold($("search").value.trim().toLowerCase());
+  const mods = [];
+  if (DRIVING.length) {
+    for (const m of DRIVING) {
+      if ((selected.size && [...selected.values()].some(it => drvMatches(it, m)))
+          || drvQueryMatches(m, q)) mods.push(m);
+    }
+  }
+  // generic trigger → offer the full tool as a chooser. Belt-and-braces:
+  // ANY selected official driving/flying page that didn't summon a specific
+  // module still opens the chooser — selecting driving advice must never
+  // lead nowhere (Oscar, 2026-08-04).
+  const genericAsk = DRV_GENERIC_Q.test(q)
+    || [...selected.keys()].some(s => DRV_GENERIC_SLUGS.includes(s)
+                                      || /^(gov-drv-|caa-)/.test(s));
+  if (!mods.length && genericAsk && DRIVING.length) {
+    el.innerHTML =
+      `<span class="rlabel">Driving &amp; flying advice:</span> ` +
+      `<span class="chip drvchip" data-m="__chooser__" role="button" tabindex="0">` +
+      `🚗 Driving &amp; flying advice tool</span>` +
+      `<div id="drivepanel"></div>`;
+    el.querySelectorAll(".drvchip").forEach(c => {
+      c.onclick = () => { driveState = { chooser: true }; renderDrivePanel(); };
+    });
+    if (driveState) renderDrivePanel();   // chooser OR a tree opened from it
+    return;
+  }
+  if (!mods.length) { el.innerHTML = ""; driveState = null; return; }
+  // ONE chip per condition (Oscar 2026-08-06: "it should be one thing"):
+  // when a driving and a flying module both match, the driving tree leads
+  // and the flying advice attaches to its verdict — the separate ✈ chip
+  // is suppressed. Flying-only conditions (DVT, pneumothorax…) keep theirs.
+  const drvMods = mods.filter(m => m.kind !== "flying");
+  const visible = mods.filter(m => m.kind !== "flying"
+    || !drvMods.length);   // flying chips only when no driving module matched
+  if (driveState && driveState.m
+      && !mods.some(m => m.id === driveState.m.id)) driveState = null;
+  el.innerHTML =
+    `<span class="rlabel">Driving &amp; flying advice (DVLA / CAA):</span> ` +
+    visible.map(m =>
+      `<span class="chip" data-m="${esc(m.id)}" role="button" tabindex="0" ` +
+      `title="Work through the published rule for ${esc(m.label)}">` +
+      `${m.kind === "flying" ? "✈" : (mods.some(f => f.kind === "flying") ? "🚗✈" : "🚗")} ${esc(m.label)}</span>`).join(" ") +
+    `<div id="drivepanel"></div>`;
+  el.querySelectorAll(".chip").forEach(c => {
+    const open = () => {
+      const m = DRIVING.find(x => x.id === c.dataset.m);
+      if (m) { driveState = { m, node: m.start, trail: [] }; renderDrivePanel(); }
+    };
+    c.onclick = open;
+    c.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } };
+  });
+  renderDrivePanel();
+}
+
+function renderDrivePanel() {
+  const host = $("drivepanel");
+  if (!host) return;
+  if (!driveState) { host.innerHTML = ""; return; }
+  // Chooser: the generic entry point ("driving" searched, or a generic
+  // GOV.UK/CAA page selected). Lists every module — and because the trees
+  // deliberately don't cover everything (head injury, sedation, visual
+  // standards…), the full-guidance links are ALWAYS offered, so no search
+  // ever dead-ends.
+  if (driveState.chooser) {
+    const drv = DRIVING.filter(m => m.kind !== "flying");
+    const fly = DRIVING.filter(m => m.kind === "flying");
+    const btn = m => `<button data-mod="${esc(m.id)}">${m.kind === "flying" ? "✈" : "🚗"} ${esc(m.label)}</button>`;
+    host.innerHTML = `<div class="drivepanel">` +
+      `<p class="q">Which condition is the advice for?</p>` +
+      `<div class="opts">${drv.map(btn).join("")}</div>` +
+      `<p class="q" style="margin-top:8px">Fitness to fly:</p>` +
+      `<div class="opts">${fly.map(btn).join("")}</div>` +
+      (() => {
+        // chapter directory — every DVLA/CAA chapter our verified register
+        // cites, so any hospital section reaches its specialty's guidance
+        // even where no interactive tree exists (weekly re-verified pages)
+        const seen = new Set(), chapters = [];
+        for (const mod of DRIVING) {
+          for (const s of [mod.source,
+                           ...Object.values(mod.nodes || {}).map(n => n.source)]) {
+            if (s && s.url && !seen.has(s.url)) {
+              seen.add(s.url);
+              chapters.push(`<a class="drvsrc" href="${esc(s.url)}" target="_blank" ` +
+                            `rel="noopener">${esc(s.label)} ↗</a>`);
+            }
+          }
+        }
+        return `<p class="q" style="margin-top:8px">Open a chapter directly:</p>` +
+               `<div class="drvfoot">${chapters.join(" ")}</div>`;
+      })() +
+      `<div class="drvfoot">Not listed? Full guidance: ` +
+      `<a class="drvsrc" href="https://www.gov.uk/guidance/assessing-fitness-to-drive-a-guide-for-medical-professionals" ` +
+      `target="_blank" rel="noopener">DVLA — assessing fitness to drive ↗</a> ` +
+      `<a class="drvsrc" href="https://www.caa.co.uk/passengers/before-you-fly/am-i-fit-to-fly/" ` +
+      `target="_blank" rel="noopener">CAA — am I fit to fly? ↗</a></div>` +
+      `<div class="drvctl"><button data-a="close">Close</button></div></div>`;
+    host.querySelectorAll("[data-mod]").forEach(b => {
+      b.onclick = () => {
+        const mod = DRIVING.find(x => x.id === b.dataset.mod);
+        if (mod) { driveState = { m: mod, node: mod.start, trail: [] }; renderDrivePanel(); }
+      };
+    });
+    host.querySelector('[data-a="close"]').onclick = () => { driveState = null; renderDrivePanel(); };
+    return;
+  }
+  const { m } = driveState;
+  // Specialist-scope card (Oscar 2026-08-01: some conditions are advised by
+  // the discharging specialist team, or the DVLA rules are too multi-branch
+  // for a quick tree — say so honestly instead of pretending).
+  if (m.specialist) {
+    host.innerHTML = `<div class="drivepanel">` +
+      `<span class="verdict conditional">Specialist-led — open the source</span>` +
+      `<p class="drvnote">${esc(m.note || "")}</p>` +
+      `<div class="drvfoot"><a class="drvsrc" href="${esc(m.source.url)}" target="_blank" rel="noopener" ` +
+      `title="${esc(m.source.label)}">Open the ${m.kind === "flying" ? "CAA" : "DVLA"} chapter ↗</a></div>` +
+      `<div class="drvctl"><button data-a="close">Close</button></div></div>`;
+    host.querySelector(".drvctl button").onclick = () => { driveState = null; renderDrivePanel(); };
+    return;
+  }
+  const node = (m.nodes || {})[driveState.node];
+  if (!node) { host.innerHTML = ""; return; }
+  // "refer" nodes: the honest escape route on every question — anything
+  // not covered by a published row we quote routes to the chapter itself,
+  // never to a guessed answer.
+  if (node.refer) {
+    const rsrc = node.source || m.source;
+    host.innerHTML = `<div class="drivepanel">` +
+      `<span class="verdict conditional">Not covered here — open the source</span>` +
+      `<p class="drvnote">${esc(node.note || "This presentation has its own row(s) in the chapter — read them directly rather than a summary.")}</p>` +
+      `<div class="drvfoot"><a class="drvsrc" href="${esc(rsrc.url)}" target="_blank" rel="noopener" ` +
+      `title="${esc(rsrc.label)}">Open the ${m.kind === "flying" ? "CAA" : "DVLA"} chapter ↗</a></div>` +
+      `<div class="drvctl">` +
+      (driveState.trail.length ? `<button data-a="back">← Back</button>` : "") +
+      `<button data-a="restart">Start again</button>` +
+      `<button data-a="menu">☰ All conditions</button>` +
+      `<button data-a="close">Close</button></div></div>`;
+    host.querySelectorAll(".drvctl button").forEach(b => {
+      b.onclick = () => {
+        if (b.dataset.a === "back") driveState.node = driveState.trail.pop();
+        else if (b.dataset.a === "restart") { driveState.node = m.start; driveState.trail = []; }
+        else if (b.dataset.a === "menu") driveState = { chooser: true };
+        else driveState = null;
+        renderDrivePanel();
+      };
+    });
+    return;
+  }
+  // a node may cite a different chapter than its module (e.g. the
+  // hypo-provoked-seizure rows live in the neurological chapter)
+  const src = node.source || m.source;
+  const srcHref = src.url + (node.anchor ? "#" + node.anchor : "");
+  const org = m.kind === "flying" ? "CAA" : "DVLA";
+  // evidence-density (Oscar 2026-08-04): a section deep-link AND the full
+  // chapter, so the clinician can check the exact rule in its context
+  const srcLink = `<a class="drvsrc" href="${esc(srcHref)}" target="_blank" rel="noopener" ` +
+                  `title="${esc(src.label)}">Open the ${org} ` +
+                  `${node.anchor ? "section" : "chapter"} ↗</a>` +
+                  (node.anchor
+                    ? ` <a class="drvsrc" href="${esc(src.url)}" target="_blank" rel="noopener" ` +
+                      `title="${esc(src.label)}">Full chapter ↗</a>`
+                    : "");
+  const ctl =
+    `<div class="drvctl">` +
+    (driveState.trail.length ? `<button data-a="back">← Back</button>` : "") +
+    `<button data-a="restart">Start again</button>` +
+    `<button data-a="menu">☰ All conditions</button>` +
+    `<button data-a="close">Close</button></div>`;
+  let body;
+  if (node.question) {
+    body = `<p class="q">${esc(node.question)}</p><div class="opts">` +
+      node.options.map((o, i) =>
+        `<button data-next="${esc(o.next)}">${esc(o.label)}</button>`).join("") +
+      `</div><div class="drvfoot">${srcLink}</div>`;
+  } else {
+    const VLAB = m.kind === "flying"
+      ? { must_not: "Must not fly", may: "May fly",
+          conditional: "Conditional — read the criteria",
+          info: "CAA guidance (verbatim)" }
+      : { must_not: "Must not drive", may: "May drive",
+          conditional: "Conditional — read the criteria",
+          info: "DVLA guidance (verbatim)" };
+    // A permissive verdict must not be headlined by a prohibition quote —
+    // "May drive" over a giant "Must not drive…" reads as a contradiction
+    // (Oscar, 2026-08-04). On "may", the verbatim rule collapses behind an
+    // expander; on must_not/conditional the rule IS the message and stays up.
+    const quotes = `<blockquote>“${esc(node.quote)}”</blockquote>` +
+      (node.quote2 ? `<blockquote>“${esc(node.quote2)}”</blockquote>` : "");
+    body =
+      `<span class="verdict ${esc(node.verdict)}">${esc(VLAB[node.verdict] || "See rule")}</span>` +
+      (node.verdict === "may" || node.note_first
+        ? (node.note ? `<p class="drvnote">${node.note_first ? "Our advice:" : "Our note (not DVLA text):"} ${esc(node.note)}</p>` : "") +
+          `<details class="drvrule"><summary>${node.note_first ? "See the DVLA rule that may apply" : "See the DVLA rule this is based on"}</summary>${quotes}</details>`
+        : quotes +
+          (node.note ? `<p class="drvnote">Our note (not DVLA text): ${esc(node.note)}</p>` : "")) +
+      // flying attaches to the driving verdict — one card, one add. The
+      // tree's answers pick the RELEVANT CAA rule via node.fly (Oscar
+      // 2026-08-06: the AF may-drive path must answer "may fly", not dump
+      // the contraindications list).
+      ((() => {
+        if (m.kind === "flying" || node.question) return "";
+        const FVLAB = { must_not: "Must not fly", may: "May fly",
+                        conditional: "Conditional", info: "CAA guidance" };
+        if (node.fly) {
+          const fm = DRIVING.find(x => x.id === node.fly.module);
+          const fn = fm && fm.nodes[node.fly.node];
+          if (!fm || !fn) return "";
+          const fsrc = fn.source || fm.source;
+          return `<div class="drvfly">✈ <strong>Flying: ${esc(FVLAB[fn.verdict] || "see rule")}</strong> — ` +
+            `<details class="drvrule" style="display:inline-block"><summary>See the CAA rule</summary>` +
+            `<blockquote>“${esc(fn.quote)}”</blockquote>` +
+            (fn.note ? `<p class="drvnote">Our note: ${esc(fn.note)}</p>` : "") +
+            `</details> ` +
+            `<a class="drvsrc" href="${esc(fsrc.url)}" target="_blank" rel="noopener">CAA source ↗</a></div>`;
+        }
+        // no mapped answer — link only, never an unrelated list
+        const fm = DRIVING.find(x => x.kind === "flying" && x.imply_node
+          && [...selected.values()].some(s => drvMatches(s, x)));
+        if (!fm) return "";
+        return `<div class="drvfly">✈ <strong>Flying</strong> can also be affected — ` +
+          `<a class="drvsrc" href="${esc(fm.source.url)}" target="_blank" rel="noopener">CAA source ↗</a></div>`;
+      })()) +
+      `<p class="drvcheck">Check this advice applies to your patient before
+      you rely on it. Wrong path? ← Back, ☰ All conditions, or the source.</p>` +
+      ((() => { window._pslug = node.patient_slug || m.patient_slug; return window._pslug && bySlug.has(window._pslug); })()
+        ? `<div>` +
+          (drvPicks.get(m.id) && drvPicks.get(m.id).node === driveState.node
+            ? `<button class="drvadd" disabled>✓ On the QR</button> `
+            : `<button class="drvadd" data-add="${esc(window._pslug)}">＋ Add this advice to the QR</button> `) +
+          `</div>`
+        : "") +
+      `<div class="drvfoot">Verbatim from ${esc(src.label)} — re-checked ` +
+      `weekly. ${srcLink}</div>`;
+  }
+  host.innerHTML = `<div class="drivepanel">${body}${ctl}</div>`;
+  host.querySelectorAll(".opts button").forEach(b => {
+    b.onclick = () => {
+      driveState.trail.push(driveState.node);
+      driveState.node = b.dataset.next;
+      renderDrivePanel();
+    };
+  });
+  host.querySelectorAll(".drvctl button").forEach(b => {
+    b.onclick = () => {
+      if (b.dataset.a === "back") driveState.node = driveState.trail.pop();
+      else if (b.dataset.a === "restart") { driveState.node = m.start; driveState.trail = []; }
+      else if (b.dataset.a === "menu") driveState = { chooser: true };
+      else driveState = null;
+      renderDrivePanel();
+    };
+  });
+  // "give the patient the official page" — clinician-controlled, adds the
+  // GOV.UK/CAA patient item to the QR selection like any other resource
+  const addBtn = host.querySelector(".drvadd");
+  if (addBtn) {
+    addBtn.onclick = () => {
+      const it = bySlug.get(addBtn.dataset.add);
+      if (it) {
+        // remember WHICH verdict the clinician was on — the patient page
+        // shows that exact verbatim rule above the official-page link
+        if (driveState && driveState.m && driveState.node
+            && (m.nodes[driveState.node] || {}).quote) {
+          drvPicks.set(driveState.m.id,
+                       { node: driveState.node, pslug: addBtn.dataset.add });
+          // one add covers both (Oscar 2026-08-05/06). If this verdict MAPS
+          // to a flying answer (node.fly — shown on the card the clinician
+          // just signed), the patient gets that answer as checked. Otherwise
+          // a matching other-kind module rides along as a NEUTRAL card.
+          const mapped = m.nodes[driveState.node].fly;
+          if (mapped) {
+            const fm = DRIVING.find(x => x.id === mapped.module);
+            const fps = fm && fm.patient_slug;
+            if (fm && fps && bySlug.has(fps)) {
+              drvPicks.set(fm.id, { node: mapped.node, pslug: fps });
+              selected.set(fps, bySlug.get(fps));
+            }
+          }
+          const flying = m.kind === "flying";
+          for (const om of DRIVING) {
+            if ((om.kind === "flying") === flying) continue;
+            if (!om.imply_node || drvPicks.has(om.id)) continue;
+            if (![...selected.values()].some(s => drvMatches(s, om))
+                && !drvMatches(it, om)) continue;
+            const ops = om.patient_slug;
+            if (ops && bySlug.has(ops)) {
+              drvPicks.set(om.id, { node: om.imply_node, pslug: ops, implied: true });
+              selected.set(ops, bySlug.get(ops));
+            }
+          }
+        }
+        selected.set(it.slug, it); renderSelected(); renderResults();
+      }
+    };
+  }
+}
+
+// The patient-facing page for one item — the same URL the QR would encode
+// (Oscar 2026-08-01: the clinician must be able to CLICK THROUGH and check
+// the page, not copy-paste it).
+function patientUrl(slug) {
+  const tPart = (TRUST && REGISTRY && TRUST.id !== REGISTRY.default) ? "t=" + TRUST.id + "&" : "";
+  return LANDING + "?" + tPart + "slugs=" + encodeURIComponent(slug);
+}
+
 function itemLi(it) {
   const rev = it.type === "leaflet" ? REVIEWS[it.slug] : null;
   const stale = (rev && isPastReview(rev.review_due))
@@ -693,13 +1156,16 @@ function itemLi(it) {
   return `
     <li data-s="${esc(it.slug)}">
       <input type="checkbox" ${selected.has(it.slug) ? "checked" : ""}>
-      <span class="t">${esc(it.title)}<span class="tag ${it.type}">${TAGLABEL[it.type]||""}</span>${stale}${broken}</span>
+      <span class="t">${esc(it.title)}<span class="tag ${it.type}">${TAGLABEL[it.type]||""}</span>${stale}${broken}
+      <a class="openpg" href="${esc(patientUrl(it.slug))}" target="_blank" rel="noopener" title="Open the patient page to check it">↗</a></span>
     </li>`;
 }
 
 function wireResults(ul) {
   ul.querySelectorAll("li[data-s]").forEach(li => {
-    li.onclick = () => {
+    li.onclick = (e) => {
+      // the ↗ opens the patient page — it must not also toggle selection
+      if (e.target.closest && e.target.closest("a.openpg")) return;
       const s = li.dataset.s;
       if (selected.has(s)) selected.delete(s); else selected.set(s, bySlug.get(s));
       renderSelected(); renderResults();
@@ -765,18 +1231,29 @@ function renderResults() {
 }
 
 function generate() {
+  $("out").dataset.fresh = "1";   // survive the renderSelected below
   bumpFreq([...selected.keys()]);
   noteSpecialtyHints([...selected.keys()]);
   telemetry("generate", [...selected.keys()].join(","));   // content slugs only
   const slugs = [...selected.keys()].join(",");
   // Default trust omits ?t= so QR codes issued before multi-trust support stay valid.
   const tPart = (TRUST && REGISTRY && TRUST.id !== REGISTRY.default) ? "t=" + TRUST.id + "&" : "";
-  const url = LANDING + "?" + tPart + "slugs=" + encodeURIComponent(slugs).replace(/%2C/gi, ",");
+  // the clinician's chosen verdict rides along — only while its official
+  // patient page is still in the selection (removing the page revokes it)
+  const adv = [...drvPicks.entries()]
+    .filter(([, v]) => selected.has(v.pslug))
+    .map(([mid, v]) => mid + "." + v.node + (v.implied ? "~i" : "")).join(",");
+  const url = LANDING + "?" + tPart + "slugs=" + encodeURIComponent(slugs).replace(/%2C/gi, ",")
+    + (adv ? "&adv=" + encodeURIComponent(adv).replace(/%2C/gi, ",") : "");
   const out = $("out");
   out.innerHTML = (isDemo() ? '<p class="demo-tag">DEMO — not for patient use</p><br>' : '') +
     '<div id="qr"></div>' +
     '<p id="link">' + esc(url) + '</p>' +
-    '<button class="copy" id="copy">Copy link</button>';
+    '<button class="copy" id="copy">Copy link</button> ' +
+    // The demonstrate-and-check button (Oscar 2026-08-01): one click opens
+    // exactly what the patient's phone will show after scanning the QR.
+    '<a class="copy" id="openqr" href="' + esc(url) + '" target="_blank" rel="noopener" ' +
+    'style="display:inline-block;text-decoration:none">Open what the patient sees ↗</a>';
   if (window.QRCode) {
     new QRCode($("qr"), { text: url, width: 240, height: 240, correctLevel: QRCode.CorrectLevel.M });
   } else {
@@ -787,9 +1264,9 @@ function generate() {
   out.scrollIntoView({ behavior: "smooth" });
 }
 
-$("search").addEventListener("input", renderResults);
+$("search").addEventListener("input", () => { renderResults(); renderDriving(); });
 $("gen").onclick = generate;
-$("clear").onclick = () => { selected.clear(); $("search").value = ""; renderSelected(); renderResults(); $("out").innerHTML = ""; };
+$("clear").onclick = () => { selected.clear(); drvPicks.clear(); $("search").value = ""; renderSelected(); renderResults(); $("out").innerHTML = ""; };
 
 init();
 

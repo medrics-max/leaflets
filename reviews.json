@@ -270,14 +270,6 @@
   "status": "ok",
   "title": "An introduction to the Gloucestershire and Herefordshire Pain Management Service"
  },
- "anaesthetic-for-children": {
-  "checked": "2026-07-11T00:51:30+01:00",
-  "ref": "GHPI0526_07_23",
-  "review_due": "2026-07",
-  "review_due_text": "July 2026",
-  "status": "ok",
-  "title": "Anaesthetic for children"
- },
  "anal-cancer": {
   "checked": "2026-07-11T00:51:30+01:00",
   "ref": "GHPI1251_10_25",
@@ -911,10 +903,11 @@
   "title": "Caring for your skin after interventional radiation procedures"
  },
  "conscious-sedation-for-outpatient-oral-and-maxillofacial-surgery": {
-  "checked": "2026-07-11T00:51:30+01:00",
-  "ref": "GHPI0387_09_23",
-  "review_due": "2026-09",
-  "review_due_text": "September 2026",
+  "checked": "2026-08-01T03:54:58+01:00",
+  "content_hash": "45978c1b04291106",
+  "ref": "GHPI0387_06_26",
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
   "status": "ok",
   "title": "Conscious sedation for outpatient oral and maxillofacial surgery"
  },
@@ -959,10 +952,11 @@
   "title": "Contrast Enhanced Mammography"
  },
  "convergence-exercises": {
-  "checked": "2026-07-11T00:51:30+01:00",
-  "ref": "GHPI1238_09_23",
-  "review_due": "2026-09",
-  "review_due_text": "September 2026",
+  "checked": "2026-08-01T03:54:58+01:00",
+  "content_hash": "84bf09e50af1fa16",
+  "ref": "GHPI1238_07_26",
+  "review_due": "2029-07",
+  "review_due_text": "July 2029",
   "status": "ok",
   "title": "Convergence exercises"
  },
@@ -1221,7 +1215,8 @@
   "title": "Discharge advice for carers of adults who have sustained a head injury"
  },
  "discharge-advice-following-a-bronchoscopy-ghpi1631": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-01T03:54:58+01:00",
+  "content_hash": "b8b0228426b8664f",
   "ref": "GHPI1631_10_23",
   "review_due": "2026-10",
   "review_due_text": "October 2026",
@@ -1300,14 +1295,6 @@
   "status": "ok",
   "title": "Discharge advice following an ERCP procedure"
  },
- "discharge-advice-following-gastroscopy-and-rfa-or-emr-sedation": {
-  "checked": "2026-07-11T00:51:30+01:00",
-  "ref": "GHPI1515_04_26",
-  "review_due": "2026-07",
-  "review_due_text": "July 2026",
-  "status": "ok",
-  "title": "Discharge advice following a Gastroscopy and Radio Frequency Ablation (RFA) or Endoscopic Mucosal Resection (EMR) with sedation"
- },
  "discharge-advice-following-gastroscopy-sedation": {
   "checked": "2026-07-11T00:54:27+01:00",
   "ref": "GHPI1586_04_26",
@@ -1325,20 +1312,13 @@
   "title": "Discharge advice following a gastroscopy without sedation"
  },
  "discharge-advice-following-non-sedated-colonoscopy-flexible-sigmoidoscopy": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-01T04:15:28+01:00",
+  "content_hash": "c852e8f6db9435dc",
   "ref": "GHPI1520_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
   "status": "ok",
   "title": "Discharge advice following a nonsedated colonoscopy / flexible sigmoidoscopy"
- },
- "discharge-advice-following-sedated-colonoscopy-flexible-sigmoidoscopy": {
-  "checked": "2026-07-11T00:51:30+01:00",
-  "ref": "GHPI1516_07_23",
-  "review_due": "2026-07",
-  "review_due_text": "July 2026",
-  "status": "ok",
-  "title": "Discharge advice following a sedated colonoscopy / flexible sigmoidoscopy"
  },
  "discharge-advice-following-therapeutic-gastroscopy-inc-banding-varices-endoscopic-dilatation": {
   "checked": "2026-07-11T00:51:30+01:00",
@@ -1983,7 +1963,8 @@
   "title": "Gastroscopy with Radiofrequency Ablation (RFA) for oesophageal dysplasia"
  },
  "general-anaesthetic-for-children-having-ct-or-mri-scans": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-01T04:15:28+01:00",
+  "content_hash": "90ea714fec0fc1ea",
   "ref": "GHPI1292_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -2376,10 +2357,11 @@
   "title": "Having a Bone Densitometry Scan"
  },
  "having-bronchoscopy": {
-  "checked": "2026-07-11T00:54:27+01:00",
-  "ref": "GHPI0559_10_23",
-  "review_due": "2026-10",
-  "review_due_text": "October 2026",
+  "checked": "2026-08-01T03:54:58+01:00",
+  "content_hash": "1848f0ef1f7fb2aa",
+  "ref": "GHPI0559_07_26",
+  "review_due": "2029-07",
+  "review_due_text": "July 2029",
   "status": "ok",
   "title": "Having a bronchoscopy"
  },
@@ -4699,6 +4681,15 @@
   "status": "ok",
   "title": "Spironolactone for Acne (Women)"
  },
+ "spironolactone-for-hidradenitis-suppurativa": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "abf4a4143441b7b2",
+  "ref": "GHPI1955_07_26",
+  "review_due": "2029-07",
+  "review_due_text": "July 2029",
+  "status": "ok",
+  "title": "Spironolactone for Hidradenitis suppurativa"
+ },
  "spontaneous-primary-pneumothorax": {
   "checked": "2026-07-11T01:00:00+01:00",
   "ref": "GHPI1005_01_25",
@@ -5191,10 +5182,11 @@
   "title": "Ureteroscopy"
  },
  "urethral-bulking-agent-bulkamid-for-the-treatment-of-stress-incontinence": {
-  "checked": "2026-07-11T01:00:00+01:00",
-  "ref": "GHPI1583_08_23",
-  "review_due": "2026-08",
-  "review_due_text": "August 2026",
+  "checked": "2026-08-01T03:54:58+01:00",
+  "content_hash": "e0d459b605f12d24",
+  "ref": "GHPI1583_07_26",
+  "review_due": "2029-07",
+  "review_due_text": "July 2029",
   "status": "ok",
   "title": "Urethral bulking agent (Bulkamid®) for the treatment of stress incontinence"
  },
@@ -5527,22 +5519,6 @@
   "review_due_text": "March 2028",
   "status": "ok",
   "title": "Your child’s eye drops"
- },
- "your-new-hip-handbook": {
-  "checked": "2026-07-11T01:00:00+01:00",
-  "ref": "GHPI1268_07_23",
-  "review_due": "2026-07",
-  "review_due_text": "July 2026",
-  "status": "ok",
-  "title": "Your new hip handbook"
- },
- "your-new-knee": {
-  "checked": "2026-07-11T01:00:00+01:00",
-  "ref": "GHPI1269_07_23",
-  "review_due": "2026-07",
-  "review_due_text": "July 2026",
-  "status": "ok",
-  "title": "Your new knee handbook"
  },
  "your-vascular-surgery-ghpi1627": {
   "checked": "2026-07-11T01:00:00+01:00",

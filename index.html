@@ -4,6 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Patient information</title>
+<meta name="description" content="Links to your trust's own published patient-information leaflets and national NHS.uk content, selected by your clinician. Opened by scanning a QR code.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Patient Information QR — patient landing page",
+  "url": "https://medrics-max.github.io/leaflets/index.html",
+  "description": "The page a patient's QR scan opens: links to their trust's own published patient-information leaflets and national NHS.uk content, exactly as selected by their clinician. Opens empty without a QR code.",
+  "audience": { "@type": "PeopleAudience", "audienceType": "Patients" },
+  "publisher": { "@type": "Organization", "name": "Medrics", "url": "https://medrics.co.uk" },
+  "license": "https://medrics-max.github.io/leaflets/LICENSE"
+}
+</script>
 <style>
   :root { color-scheme: light; }
   * { box-sizing: border-box; }
@@ -230,7 +243,24 @@ const MEDRICS_LOGO = "medrics-logo.png";
 // Private usage analytics (optional). Paste a Google Apps Script web-app URL to
 // collect ANONYMOUS usage stats (which topics are requested, ratings, time).
 // Leave "" to collect nothing. No personal data is ever sent.
-const ANALYTICS_URL = "";
+// Live since 2026-08-04 (measured demand for the trust reports; the notice
+// paragraph below discloses collection automatically when this is set).
+// Events carry no identifiers of any kind — see the telemetry sink's contract.
+const ANALYTICS_URL = "https://brain.medrics.co.uk/api/leaflets/telemetry";
+
+// Matching lens — the JS twin of picker.html's fold()/termHit() (and Python
+// gap_audit.term_hit): keep all three in sync. Word-start matching; short
+// tokens keep both boundaries ("tia" must not fire inside "initiated").
+function fold(s) {
+  return (s || "").toLowerCase().replace(/[’']/g, "").replace(/[-–—]/g, "")
+    .replace(/ae/g, "e").replace(/oe/g, "e");
+}
+function termHit(ft, hay) {
+  if (!ft) return false;
+  const escd = ft.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const tail = (!ft.includes(" ") && ft.length <= 4) ? "($|[^a-z0-9])" : "";
+  return new RegExp("(^|[^a-z0-9])" + escd + tail).test(hay);
+}
 // When ANALYTICS_URL is set, the 👍/👎 ratings record to it (the key quality
 // metric). Set LOG_VIEWS to true ONLY if you also want to log anonymous page
 // views (broader usage analytics) — leave false to record ratings only.
@@ -389,6 +419,7 @@ function renderResolved(items, demo) {
   const medicines = items.filter(i => i.type === "medicines");
   const services = items.filter(i => i.type === "service");
   const nhs = items.filter(i => i.type === "nhs");
+  const gov = items.filter(i => i.type === "gov");
 
   const leafletSection = leaflets.length
     ? `<p class="section-title">Your leaflets</p>
@@ -420,6 +451,43 @@ function renderResolved(items, demo) {
        ${nhs.map(n => cardFor(n, "Open")).join("")}`
     : "";
 
+  // The exact official wording the clinician's answers landed on (carried in
+  // the QR only when the clinician pressed ＋Add on that verdict). Verbatim
+  // DVLA/CAA text + a prompt to read the source — never our own notes.
+  // FIXED template lines per verdict class — the outcome in plain English
+  // first, then the verbatim rule, then the check-it-yourself prompt. These
+  // strings are code, reviewable by the trust; never generated text.
+  // the ADVICE words carry the bold, not the whole sentence
+  const advIntro = c => {
+    const act = c.kind === "flying" ? "flying" : "driving";
+    if (c.implied)
+      return `This condition can also affect ${act} — <strong>check before you ${act === "flying" ? "fly" : "drive"}</strong>.`;
+    if (c.await_specialist)
+      return `Your clinician's advice — <strong>do not ${act === "flying" ? "fly" : "drive"} until the specialist team has seen you</strong>.`;
+    if (c.verdict === "may")
+      return `Your clinician has checked — <strong>no ${act} restriction applies to you</strong>.`;
+    if (c.verdict === "must_not")
+      return `Your clinician has checked — <strong>you must not ${act === "flying" ? "fly" : "drive"} for now</strong>.`;
+    return `Your clinician has checked — <strong>a ${act} rule with conditions applies to you</strong>.`;
+  };
+  const advCards = ADV_CARDS.map(c => `
+    <div class="advice-card">
+      <p class="advice-text">${advIntro(c)}</p>
+      <details style="margin:8px 0">
+        <summary style="cursor:pointer;color:#005eb8;padding:4px 0">${c.implied ? `See the ${escapeHtml(c.org)} rule` : c.await_specialist ? `See the ${escapeHtml(c.org)} rule that may apply` : `See the ${escapeHtml(c.org)} rule they checked`}</summary>
+        <blockquote class="advice-text" style="border-left:3px solid #005eb8;margin:8px 0;padding:6px 10px;background:#f4f7fa">“${escapeHtml(c.quote)}”</blockquote>
+        ${c.quote2 ? `<blockquote class="advice-text" style="border-left:3px solid #c6d1db;margin:8px 0;padding:6px 10px;background:#f8f9fb">“${escapeHtml(c.quote2)}”</blockquote>` : ""}
+      </details>
+      <p style="background:#fff8e6;border-left:3px solid #b07d00;border-radius:0 6px 6px 0;padding:5px 8px;margin:8px 0;font-size:0.85rem;color:#5a4a00">Check this advice applies to you — if unsure, ask your clinician.</p>
+      <a class="advice-text" href="${escapeHtml(c.url)}" target="_blank" rel="noopener" style="display:inline-block;background:#005eb8;color:#fff;border-radius:8px;padding:8px 14px;text-decoration:none">Open the ${escapeHtml(c.org)} guidance${c.anchor ? " (exact section)" : ""} ↗</a>
+    </div>`).join("");
+  const govSection = (gov.length || ADV_CARDS.length)
+    ? `<p class="section-title">Official driving and travel advice</p>
+       <p class="section-sub">Official government and aviation-authority advice — some conditions affect when you may drive or fly.</p>
+       ${advCards}
+       ${gov.map(g => cardFor(g, "Open")).join("")}`
+    : "";
+
   render(`
     ${demo ? '<p class="demobanner"><strong>Demonstration only.</strong> This is a preview of the service and is not in clinical use at this trust. Do not rely on it for your care.</p>' : ""}
     <h1>Information from your visit</h1>
@@ -429,6 +497,7 @@ function renderResolved(items, demo) {
     ${medicineSection}
     ${serviceSection}
     ${nhsSection}
+    ${govSection}
     <p class="safetynet">This information was chosen for you by your clinician. If you feel worse, or you are worried, call <strong>111</strong> — or <strong>999</strong> in an emergency.</p>
     <button class="sharebtn" onclick="shareThisPage()">Text or save this to read later</button>
     <div id="helpful" class="helpful">
@@ -498,21 +567,53 @@ async function main() {
     return;
   }
 
-  let leaflets, services, nhs, advice, medicines, overrides, reviews, redirects;
+  let leaflets, services, nhs, advice, medicines, overrides, reviews, redirects,
+      drivingAdvice;
+  ADV_CARDS = [];
   try {
     [leaflets, services, nhs, advice, medicines, overrides, reviews, redirects] = await Promise.all([
-      fetch(dir + "leaflets.json").then(r => r.json()),
-      fetch(dir + "services.json").then(r => r.json()).catch(() => []),
-      fetch("nhs_resources.json").then(r => r.json()).catch(() => []),
+      fetch(dir + "leaflets.json", { cache: "no-cache" }).then(r => r.json()),
+      fetch(dir + "services.json", { cache: "no-cache" }).then(r => r.json()).catch(() => []),
+      // no-cache (revalidate, 304 when unchanged): a cached copy of this
+      // file made a just-published resource invisible on a patient page
+      // while the QR link was correct (2026-08-01)
+      fetch("nhs_resources.json", { cache: "no-cache" }).then(r => r.json()).catch(() => []),
       // no-store: this file carries crisis numbers and opening hours — a
       // returning patient must never be shown a stale cached copy after a
       // correction. It is small (~12 KB); the leaflet indexes stay cacheable.
       fetch(dir + "local_advice.json", { cache: "no-store" }).then(r => r.json()).catch(() => []),
-      fetch("medicines.json").then(r => r.json()).catch(() => []),
+      fetch("medicines.json", { cache: "no-cache" }).then(r => r.json()).catch(() => []),
       fetch(dir + "manual_overrides.json").then(r => r.json()).catch(() => ({})),
       fetch(dir + "reviews.json").then(r => r.json()).catch(() => ({})),
       fetch(dir + "redirects.json").then(r => r.json()).catch(() => ({}))
     ]);
+    drivingAdvice = await fetch("driving_advice.json", { cache: "no-cache" })
+      .then(r => r.json()).catch(() => ({ modules: [] }));
+    // clinician-chosen verdicts (?adv=module.node,…): validated against the
+    // published trees — unknown ids are ignored, and only the verbatim
+    // quote/source ever render (the clinician-facing notes never do)
+    ADV_CARDS = [];
+    for (let pick of (params.get("adv") || "").split(",").filter(Boolean).slice(0, 6)) {
+      // "~i" = implied (rode along with a driving sign-off) — neutral
+      // wording, never "your clinician has checked"
+      const implied = pick.endsWith("~i");
+      if (implied) pick = pick.slice(0, -2);
+      const dot = pick.lastIndexOf(".");
+      if (dot < 1) continue;
+      const mod = (drivingAdvice.modules || []).find(x => x.id === pick.slice(0, dot));
+      const node = mod && (mod.nodes || {})[pick.slice(dot + 1)];
+      if (!mod || !node || !node.quote) continue;
+      const src = node.source || mod.source || {};
+      ADV_CARDS.push({
+        org: mod.kind === "flying" ? "CAA" : "DVLA",
+        kind: mod.kind === "flying" ? "flying" : "driving",
+        verdict: node.verdict || "", implied: implied,
+        await_specialist: !!node.note_first,
+        quote: node.quote, quote2: node.quote2 || "",
+        url: (src.url || "") + (node.anchor ? "#" + node.anchor : ""),
+        anchor: !!node.anchor,
+      });
+    }
   } catch (e) {
     render(`<h1 class="error">Could not load leaflets</h1><p>Please try again in a moment.</p>`);
     return;
@@ -521,7 +622,7 @@ async function main() {
   const bySlug = new Map();
   for (const l of leaflets) bySlug.set(l.slug, { ...l, type: l.type || "leaflet" });
   for (const s of services) bySlug.set(s.slug, { ...s, type: "service" });
-  for (const n of nhs) bySlug.set(n.slug, { ...n, type: "nhs" });
+  for (const n of nhs) bySlug.set(n.slug, { ...n, type: n.type || "nhs" });
   for (const a of advice) bySlug.set(a.slug, { ...a, type: "advice" });
   for (const m of medicines) bySlug.set(m.slug, { ...m, type: "medicines" });
 
@@ -541,6 +642,7 @@ async function main() {
     if (!item) continue;
     const override = overrides[lookup] || overrides[slug];
     resolved.push({
+      slug: lookup,
       title: item.title,
       url: (override && override.url) ? override.url : item.url,
       type: item.type,
@@ -557,6 +659,29 @@ async function main() {
     render(`<h1 class="error">Leaflets not found</h1><p>This QR code may be out of date. Please ask your clinician for a new one.</p>`);
     return;
   }
+
+  // Driving/flying signposting (Oscar 2026-08-04: "I went through to the
+  // patient section and couldn't see driving/flying advice"): when a bundle
+  // item matches a driving/flying advice module, the module's OFFICIAL
+  // patient page (GOV.UK / CAA — the same page the clinician's ＋ button
+  // adds) joins the bundle automatically. Only official patient pages are
+  // ever added — the clinician-facing DVLA table quotes never appear here.
+  try {
+    const have = new Set(resolved.map(i => i.slug));
+    for (const it of resolved.slice()) {
+      const t = fold(it.title || "");
+      for (const m of (drivingAdvice.modules || [])) {
+        if ((m.exclude || []).some(x => t.includes(fold(x)))) continue;
+        if (!(m.match || []).some(x => termHit(fold(x), t))) continue;
+        const ps = m.patient_slug;
+        if (ps && !have.has(ps) && bySlug.has(ps)) {
+          const g = bySlug.get(ps);
+          resolved.push({ slug: ps, title: g.title, url: g.url, type: g.type });
+          have.add(ps);
+        }
+      }
+    }
+  } catch (e) { /* signposting must never break the bundle */ }
 
   renderResolved(resolved, demo);
   if (LOG_VIEWS) logEvent("view");

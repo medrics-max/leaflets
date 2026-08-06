@@ -5,6 +5,12 @@
   "status": "no-date",
   "title": "Diabetes Information Leaflet for Patients undergoing Pancreatic Surgery"
  },
+ "15544": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "9571b854487d37c5",
+  "status": "no-date",
+  "title": "Sepsis during and after pregnancy"
+ },
  "24-hour-ph-and-impedance-monitoring-inpatient": {
   "checked": "2026-07-21T02:35:11+01:00",
   "content_hash": "e58657d54cc60301",
@@ -16,6 +22,30 @@
   "content_hash": "bf3f15fbdd96a307",
   "status": "no-date",
   "title": "24-hour pH and Impedance Monitoring (Outpatient) – A guide for parents and carers"
+ },
+ "27613": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "35cef84b297c6a08",
+  "status": "no-date",
+  "title": "Proximal Humerus Fracture (Shoulder) – Advice regarding healing and recovery"
+ },
+ "28622": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "6d6926b2ee6cb46d",
+  "status": "no-date",
+  "title": "Journal + Mood Log for Mindfulness Pack"
+ },
+ "28809": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "293cc61bc37af3d7",
+  "status": "no-date",
+  "title": "Narrowband UVB Phototherapy (TLO1)"
+ },
+ "28819": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "a0f67ebfb29440f3",
+  "status": "no-date",
+  "title": "Hand and Foot PUVA Gel Phototherapy"
  },
  "28826": {
   "checked": "2026-07-21T02:35:11+01:00",
@@ -29,11 +59,41 @@
   "status": "no-date",
   "title": "Carpal Tunnel Decompression – What to expect following surgery"
  },
+ "28867": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "c95fd57a71023454",
+  "status": "no-date",
+  "title": "Hand Therapy – Volar Plate Injury of the Finger (PIFU)"
+ },
+ "28923": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "3a2cd9e47e2a590f",
+  "status": "no-date",
+  "title": "Potassium Permanganate Solution Soaks"
+ },
+ "28980": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "ed9f8a3e107a23c3",
+  "status": "no-date",
+  "title": "Radiotherapy Skin Reactions"
+ },
  "29121": {
   "checked": "2026-07-21T02:35:11+01:00",
   "content_hash": "28620bb8101b850d",
   "status": "no-date",
   "title": "Acromioclavicular (AC) Joint Injury with minimal displacement – Advice regarding healing and recovery"
+ },
+ "29426": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "7682475c6f3e6bee",
+  "status": "no-date",
+  "title": "Peripherally Inserted Central Catheter (PICC) – Insertion for patients on parenteral nutrition or intravenous fluids under the care of the nutrition team"
+ },
+ "29566": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "b2dfb958526f4c7b",
+  "status": "no-date",
+  "title": "Wound Care Advice – Following Photodynamic Therapy (PDT)"
  },
  "29884": {
   "checked": "2026-07-24T17:28:27+01:00",
@@ -59,11 +119,71 @@
   "status": "no-date",
   "title": "Ear, Nose and Throat (ENT) – Insertion of Grommets / Bobbins"
  },
+ "29919": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "4fec279c32830da0",
+  "status": "no-date",
+  "title": "Vascular Surgery – Formation of Arterio-venous Fistula"
+ },
+ "29950": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "5c82a124260b5b6d",
+  "status": "no-date",
+  "title": "Vascular – General Surgical Procedures"
+ },
+ "30567": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "a12a90e1a9db5c79",
+  "status": "no-date",
+  "title": "Helpful Hints to Aid Your Recovery Following Surgery"
+ },
  "30609": {
   "checked": "2026-07-24T17:28:27+01:00",
   "content_hash": "ad34a65b2a24c70c",
   "status": "no-date",
   "title": "Digital Nerve Injuries (PIFU) (Patient Initiated Follow-up – Information for patients from Paediatric Therapy"
+ },
+ "30626": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "cb1c4a929e218761",
+  "status": "no-date",
+  "title": "Phalangeal Fractures of the Fingers or Thumb PIFU (Patient Initiated Follow-Up – Information for patients from Paediatric Therapy"
+ },
+ "30656": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "3e7babcb14d9f98f",
+  "status": "no-date",
+  "title": "Fracture of Metacarpal Bone PIFU (Patient Initiated Follow-Up) – Information for patients from Paediatric Therapy"
+ },
+ "30712": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "0e78943ac8fdfc76",
+  "status": "no-date",
+  "title": "Gynaecology Cancer Patient Initiated Follow-up (PIFU)"
+ },
+ "30870": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "2b74a6c2a2fa533a",
+  "status": "no-date",
+  "title": "Skin Cancer Key Worker Team Advice Sheet"
+ },
+ "31269": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "77276bdf038af580",
+  "status": "no-date",
+  "title": "Hip Spica"
+ },
+ "31600": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "01a78fd6459bdc08",
+  "status": "no-date",
+  "title": "Low Residue Diet"
+ },
+ "31782": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "4479b381f955d525",
+  "status": "no-date",
+  "title": "Patient Initiated Follow Up (PIFU) for Physiotherapy for Pelvic Girdle Pain in Pregnancy"
  },
  "31965": {
   "checked": "2026-07-23T02:30:21+01:00",
@@ -71,11 +191,53 @@
   "status": "no-date",
   "title": "Clinical Health Psychology"
  },
+ "32085": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "84e419ce9932a8dd",
+  "status": "no-date",
+  "title": "Wrist and Hand Soft Tissue Injury – Patient Initiated Follow-up (PIFU)"
+ },
+ "32129": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "38d5b59d80ef3bfd",
+  "status": "no-date",
+  "title": "Neonatal Intensive Care Unit (NICU) Psychology Service Information Leaflet"
+ },
+ "32148": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "b1fc18930bb900ce",
+  "status": "no-date",
+  "title": "Psychological Support for Families on the Hull Neonatal Unit"
+ },
+ "32152": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "7467ff10e6ebe45e",
+  "status": "no-date",
+  "title": "Pre-term Birth Prevention Clinic"
+ },
+ "32200": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "4de0609ec379ebd4",
+  "status": "no-date",
+  "title": "Teduglutide™ (Revestive) Patient Information"
+ },
+ "32302": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "db6d2f90315d0fa4",
+  "status": "no-date",
+  "title": "Sleep Deprived Electroencephalogram (EEG) Adults"
+ },
  "32381": {
   "checked": "2026-07-21T02:35:11+01:00",
   "content_hash": "dc31e8f1ce99cb69",
   "status": "no-date",
   "title": "After a Cancer Diagnosis…"
+ },
+ "32638": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "b8b838445bab6c32",
+  "status": "no-date",
+  "title": "Ileocolonoscopy – Information for Patients and Families"
  },
  "32647": {
   "checked": "2026-07-21T02:35:11+01:00",
@@ -83,17 +245,77 @@
   "status": "no-date",
   "title": "Bowel Preparation – Information for Patients and Families"
  },
+ "32702": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "c017f98b0f943ace",
+  "status": "no-date",
+  "title": "Physiotherapy Neurology Outpatients: Patient Initiated Follow-up (PIFU)"
+ },
  "32724": {
   "checked": "2026-07-21T02:35:11+01:00",
   "content_hash": "f4f97f441057e745",
   "status": "no-date",
   "title": "Aerobika – Secretion Clearance Device"
  },
+ "32754": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "444514b1bc193007",
+  "status": "no-date",
+  "title": "Hull Rainbow Clinic"
+ },
+ "32786": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "9838bddc946a010c",
+  "status": "no-date",
+  "title": "Listening Difficulties in Children – Auditory Processing Disorder (APD)"
+ },
+ "32801": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "c7cf783bdbbcd414",
+  "status": "no-date",
+  "title": "Gender Affirmation Surgery – Revision Surgery Pre and Post-surgery advice and information"
+ },
+ "32842": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "4cd30508ca07a634",
+  "status": "no-date",
+  "title": "Physiotherapy Neurology Out-patients: Patient Initiated Follow-Up (PIFU) – Information for patients from physiotherapy"
+ },
+ "32851": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "0129d78b7ce9547f",
+  "status": "no-date",
+  "title": "What does a Renal Social Worker do and how can they help me?"
+ },
  "32866": {
   "checked": "2026-07-21T02:35:11+01:00",
   "content_hash": "a860dfd22a8789c0",
   "status": "no-date",
   "title": "Anisocoria"
+ },
+ "32954": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "c457e25d34a53208",
+  "status": "no-date",
+  "title": "Optic Nerve Head Drusen"
+ },
+ "32958": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "0c03db69bfb16d9f",
+  "status": "no-date",
+  "title": "Non-Arteritic Anterior Ischemic Optic Neuropathy (NAION)"
+ },
+ "32966": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "defe706415922199",
+  "status": "no-date",
+  "title": "Support for transgender and non-binary people during the perinatal period"
+ },
+ "33045": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "dbc8cdc3fafbeee0",
+  "status": "no-date",
+  "title": "Oral Glucose Tolerance Test (GTT/oGTT)"
  },
  "33253": {
   "checked": "2026-07-21T02:35:11+01:00",
@@ -107,11 +329,23 @@
   "status": "no-date",
   "title": "A Guide to a Low Phosphate Diet – Improving your understanding of following a low phosphate diet"
  },
+ "33701": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "1435d022353d33c8",
+  "status": "no-date",
+  "title": "Total Laparoscopic Hysterectomy (TLH)"
+ },
  "33725": {
   "checked": "2026-07-21T02:35:11+01:00",
   "content_hash": "e740a0c8963adea3",
   "status": "no-date",
   "title": "Bartholin’s Cyst"
+ },
+ "33743": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "b086d8865d927fa1",
+  "status": "no-date",
+  "title": "Preparing for a Blood Test (Scarborough Hull York Pathology Service)"
  },
  "33757": {
   "checked": "2026-07-23T02:30:21+01:00",
@@ -119,17 +353,53 @@
   "status": "no-date",
   "title": "Collecting your 24 Hour Urine Sample (Scarborough Hull York Pathology Service)"
  },
+ "33791": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "3bad9820eb66b1a8",
+  "status": "no-date",
+  "title": "Temporal Artery Biopsy"
+ },
+ "33921": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "bba94ed679ed43ad",
+  "status": "no-date",
+  "title": "Maintaining your PRIVACY and DIGNITY"
+ },
  "33948": {
   "checked": "2026-07-25T02:30:20+01:00",
   "content_hash": "17e92988b579ebab",
   "status": "no-date",
   "title": "Falls Information Cognitive Impairment"
  },
+ "34623": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "47331a2c4e21b032",
+  "status": "no-date",
+  "title": "Introductory Information after Diagnosis of Coeliac Disease in Paediatrics"
+ },
  "34795": {
   "checked": "2026-07-25T02:30:20+01:00",
   "content_hash": "c1e5834065f6efd8",
   "status": "no-date",
   "title": "Endometriosis"
+ },
+ "34908": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "3570ce8a8bfdda51",
+  "status": "no-date",
+  "title": "Surgical Termination of Pregnancy (STOP) under General Anaesthetic (GA)"
+ },
+ "38540": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "d0f666b8dbd7bf2c",
+  "status": "no-date",
+  "title": "MAG3 Renogram"
+ },
+ "38967": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "a34db821d385aed6",
+  "status": "no-date",
+  "title": "Patient Initiated Follow Up (PIFU) – Patient Services"
  },
  "39065": {
   "checked": "2026-07-21T02:35:11+01:00",
@@ -377,6 +647,12 @@
   "status": "no-date",
   "title": "Alternatives to the Emergency Department"
  },
+ "ambulatory-electroencephalogram-eeg-information-sheet": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "35bcb0cf3337d842",
+  "status": "no-date",
+  "title": "Video Ambulatory Electroencephalogram (EEG) – Information Sheet"
+ },
  "aminoglycoside-tobramycin-antibiotics-in-bronchiectasis": {
   "checked": "2026-07-21T02:35:11+01:00",
   "content_hash": "0f955d9115121b93",
@@ -419,6 +695,18 @@
   "status": "no-date",
   "title": "Analgesia and Safer Sleep Advice"
  },
+ "anger-cycle": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "9af0fc80f14b3ae9",
+  "status": "no-date",
+  "title": "The Cycle of Anger"
+ },
+ "ankle-cast-removal": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "f920015eaf36b179",
+  "status": "no-date",
+  "title": "Helping your ankle to recover after cast removal"
+ },
  "ankle-sprain-including-an-avulsion-fracture": {
   "checked": "2026-07-21T02:35:11+01:00",
   "content_hash": "4bdae83cb0c8dd56",
@@ -454,6 +742,12 @@
   "content_hash": "11a6a0e29316e0b3",
   "status": "no-date",
   "title": "Anterior Shoulder Dislocation – Advice regarding healing and recovery"
+ },
+ "anterior-uveitis": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "cc466e567ccf0e18",
+  "status": "no-date",
+  "title": "Uveitis"
  },
  "anti-vegf-intravitreal-injections-understanding-the-treat-and-extend-pathway": {
   "checked": "2026-07-21T02:35:11+01:00",
@@ -532,6 +826,12 @@
   "content_hash": "2c73068a63884ad8",
   "status": "no-date",
   "title": "Avoiding Hypos Whilst in Hospital"
+ },
+ "back-pain": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "80cad3cd4e821bb9",
+  "status": "no-date",
+  "title": "Low Back Pain"
  },
  "bariatric-surgery-leaflet": {
   "checked": "2026-07-21T02:35:11+01:00",
@@ -652,6 +952,12 @@
   "content_hash": "c935e2e41bb56ac8",
   "status": "no-date",
   "title": "Breast Biopsy Under Local Anaesthetic (Aftercare Advice)"
+ },
+ "breast-care-follow-up-breast-cancer": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "09386895d7fd1711",
+  "status": "no-date",
+  "title": "Follow Up for Breast Cancer and DCIS (Ductal Carcinoma In-Situ)"
  },
  "breast-lipomodelling": {
   "checked": "2026-07-21T02:35:11+01:00",
@@ -785,6 +1091,12 @@
   "status": "no-date",
   "title": "Care of your hip following surgery (not total hip replacement)"
  },
+ "care-of-your-hip-following-surgery-total-hip-replacement": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "396d6134b88e984d",
+  "status": "no-date",
+  "title": "Your Guide to: Total Hip Replacements"
+ },
  "care-of-your-knee-following-anterior-cruciate-ligament-acl-reconstruction": {
   "checked": "2026-07-23T02:30:21+01:00",
   "content_hash": "090922bbeebb22d9",
@@ -887,6 +1199,12 @@
   "status": "no-date",
   "title": "CHH Centenary Building- Ward 16: Plastics Aftercare Advice Sheet"
  },
+ "child-pau-sleep-electroencephalogram-eeg": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "9b8b69761e85d5c9",
+  "status": "no-date",
+  "title": "Sleep Electroencephalogram (EEG) Children"
+ },
  "chorionic-villus-sampling-cvs-and-amniocentesis-information-for-parents": {
   "checked": "2026-07-23T02:30:21+01:00",
   "content_hash": "13a992be301b0be4",
@@ -916,6 +1234,18 @@
   "content_hash": "dd46234fecd5942a",
   "status": "no-date",
   "title": "Circumcision (Older Child) – Advice Sheet"
+ },
+ "clavicle-collar-bone-fracture-in-children-aged-3-10-years-old": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "b9cec4d4681a2290",
+  "status": "no-date",
+  "title": "Paediatric fracture of the clavicle (collar bone) – Advice regarding healing and recovery"
+ },
+ "clinical-nurse-specialist-team-cns": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "19ae7fccb72fc092",
+  "status": "no-date",
+  "title": "Macmillan Lung Cancer Nurse Specialist Team"
  },
  "clinical-nurse-specialist-team-cns-2": {
   "checked": "2026-07-23T02:30:21+01:00",
@@ -1187,6 +1517,12 @@
   "status": "no-date",
   "title": "Cough Assist – Information for Patients"
  },
+ "could-it-be-sepsis": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "5a39929400b4733b",
+  "status": "no-date",
+  "title": "Sepsis: A Guide for Patients and Relatives"
+ },
  "counselling-support-services-pregnancy-advisory-service": {
   "checked": "2026-07-24T17:28:27+01:00",
   "content_hash": "e15091dd4874ea37",
@@ -1420,12 +1756,6 @@
   "content_hash": "cc50caf53afa6636",
   "status": "no-date",
   "title": "Distal radius fracture (wrist bone) Advice regarding healing and recovery"
- },
- "donating-samples-daisy-tumour-bank-use-cancer-research": {
-  "checked": "2026-07-24T17:28:27+01:00",
-  "content_hash": "bd98499170ad6bd2",
-  "status": "no-date",
-  "title": "Donating samples to the Daisy Tumour Bank for use in cancer research"
  },
  "donor-human-milk": {
   "checked": "2026-07-24T17:28:27+01:00",
@@ -1691,6 +2021,12 @@
   "status": "no-date",
   "title": "Endo-anal Ultrasound – An investigation of the anal canal"
  },
+ "endometriosis-and-surgery": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "6bf59781765c0d56",
+  "status": "no-date",
+  "title": "Severe Endometriosis and Surgery (for patients having surgery in the Endometriosis Centre)"
+ },
  "endoscopic-mucosal-resection-emr": {
   "checked": "2026-07-25T02:30:20+01:00",
   "content_hash": "70d9d0e15b270f04",
@@ -1780,6 +2116,12 @@
   "content_hash": "f94111f481b4e625",
   "status": "no-date",
   "title": "Exercises to Treat your Subacromial Shoulder Pain"
+ },
+ "expect-botox-injection-larynx": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "b645dcabfbc92c8d",
+  "status": "no-date",
+  "title": "What to Expect After a Botox Injection to the Larynx"
  },
  "expiratory-muscle-strength-training-emst": {
   "checked": "2026-07-25T02:30:20+01:00",
@@ -1913,11 +2255,280 @@
   "status": "no-date",
   "title": "Fit for Birth"
  },
+ "fit-for-pregnancy": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "221a362409a7018d",
+  "status": "no-date",
+  "title": "Fit for Pregnancy"
+ },
+ "fit-for-the-future": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "35a84f167ee51b10",
+  "status": "no-date",
+  "title": "Fit for the Future"
+ },
+ "flexible-cystoscopy": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "c49b62547e23a884",
+  "status": "no-date",
+  "title": "Flexible Cystoscopy"
+ },
+ "flexible-sigmoidoscopy": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "ad6da08ad55b6ec6",
+  "status": "no-date",
+  "title": "Flexible Sigmoidoscopy"
+ },
+ "flexible-sigmoidoscopy-advice-sheet": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "751a677db9087a58",
+  "status": "no-date",
+  "title": "Flexible Sigmoidoscopy Report and Useful Information"
+ },
+ "flexor-tendon-repair": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "e54fc065a1d474b8",
+  "status": "no-date",
+  "title": "Flexor Tendon Repair"
+ },
+ "fluorescein-angiography-oral": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "4360c9a2a3b23de4",
+  "status": "no-date",
+  "title": "Fluorescein Angiography (Oral) – Information for parents"
+ },
+ "fluoroquinolone-antibiotics-oxacins-what-you-need-to-know": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "87c3efe8b3912afb",
+  "status": "no-date",
+  "title": "Fluoroquinolone Antibiotics (-oxacins): What you need to know"
+ },
+ "folate-information-for-renal-patients-information-to-increase-folate-in-your-diet": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "229c60f2e78adf85",
+  "status": "no-date",
+  "title": "Folate Information for Renal Patients – Information to increase folate in your diet"
+ },
+ "following-cataract-surgery-post-operative-eye-care-advice": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "fedcbefc887fb975",
+  "status": "no-date",
+  "title": "Following Cataract Surgery – Post-operative Eye Care And Advice"
+ },
+ "formation-fistula-haemodialysis": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "dec959a573e5cc40",
+  "status": "no-date",
+  "title": "Formation of Fistula for Haemodialysis"
+ },
+ "formation-of-arterio-venous-fistula": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "4254ca5fd645cea0",
+  "status": "no-date",
+  "title": "Formation of Arterio-venous Fistula"
+ },
+ "fracture-lower-jaw": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "b0182bb1b79782a5",
+  "status": "no-date",
+  "title": "Fracture of the Lower Jaw"
+ },
+ "fracture-of-the-5th-metacarpal-bone": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "424354729b300f20",
+  "status": "no-date",
+  "title": "Fracture of the 5th Metacarpal Bone – Advice regarding healing and recovery"
+ },
+ "fracture-of-the-cheekbone": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "79b46e8a078d3a92",
+  "status": "no-date",
+  "title": "Fracture of the Cheekbone"
+ },
+ "fracture-of-the-triquetrum-small-bone-in-hand-advice-regarding-healing-and-recovery": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "b3664a716cc698ed",
+  "status": "no-date",
+  "title": "Fracture of the Triquetrum (Small Bone in Hand) – Advice regarding healing and recovery"
+ },
+ "fracture-upper-jaw": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "fd79bb0dab1888db",
+  "status": "no-date",
+  "title": "Fracture of the Upper Jaw"
+ },
+ "fractures-ankle-requiring-surgery-expect-hospital-stay": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "ebd0663e9fa3bcf6",
+  "status": "no-date",
+  "title": "Fractures of the Ankle Requiring Surgery: What to expect during your hospital stay"
+ },
+ "fractures-wrist-requiring-surgery-expect-hospital-stay": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "8424a440a91f54d1",
+  "status": "no-date",
+  "title": "Fractures of the Wrist Requiring Surgery: What to expect during your hospital stay."
+ },
+ "frailty": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "8a50fa548549b905",
+  "status": "no-date",
+  "title": "Frailty"
+ },
+ "frame-surgery": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "7aa3403463aa296d",
+  "status": "no-date",
+  "title": "Frame Surgery"
+ },
+ "fully-accommodative-type-intermittent-esotropia": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "a0a7818a78f47225",
+  "status": "no-date",
+  "title": "Fully Accommodative Type Intermittent Esotropia"
+ },
+ "gabapentin": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "fe481f7b576438ab",
+  "status": "no-date",
+  "title": "Gabapentin"
+ },
+ "gastric-balloon-for-weight-reduction": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "71bcbd31d835b30e",
+  "status": "no-date",
+  "title": "Gastric Balloon for Weight Reduction"
+ },
+ "gastroenteritis-advice-for-parents-and-carers": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "adc2a16a29509bb6",
+  "status": "no-date",
+  "title": "Gastroenteritis – Advice for Parents and Carers"
+ },
+ "gastroscopy-information-for-patients-and-families": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "50195b72fd7fcbc6",
+  "status": "no-date",
+  "title": "Gastroscopy – Information for Patients and Families"
+ },
+ "gender-reassignment-surgery-female-male-breast-surgery": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "d5017ab36fec8eb9",
+  "status": "no-date",
+  "title": "Gender Affirmation Surgery – Information for patients undergoing top surgery"
+ },
+ "general-information-about-entropion": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "69829c4c725634ee",
+  "status": "no-date",
+  "title": "General information about Entropion"
+ },
+ "general-information-about-pain-procedures": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "c2238b405b4f38e4",
+  "status": "no-date",
+  "title": "General Information about Pain Procedures"
+ },
+ "general-information-ectropion": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "a2ab87de787134aa",
+  "status": "no-date",
+  "title": "General information about Ectropion"
+ },
+ "general-information-leaflet-prescribed-medication-discharge": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "126732e995f21bfd",
+  "status": "no-date",
+  "title": "General Information Leaflet About Your Prescribed Medication On Discharge"
+ },
+ "gestational-diabetes-mellitus-gdm": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "3df6bbd222e0bd35",
+  "status": "no-date",
+  "title": "Gestational Diabetes"
+ },
+ "giving-your-baby-expressed-milk": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "status": "error:308",
+  "title": "Giving your Baby Expressed Milk"
+ },
+ "globus-sensation": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "ad96aad142c5dbc6",
+  "status": "no-date",
+  "title": "Globus Sensation"
+ },
+ "glucose-tolerance-test-pregnancy": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "71f032242007d92c",
+  "status": "no-date",
+  "title": "Glucose Tolerance Test in Pregnancy"
+ },
+ "going-home-acquired-brain-injury": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "34c1b721c121df67",
+  "status": "no-date",
+  "title": "Going Home After Acquired Brain Injury"
+ },
+ "going-home-following-birth-with-ragged-membranes": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "585e17fa8cf04b2e",
+  "status": "no-date",
+  "title": "Going Home with Ragged Membranes: Information Leaflet"
+ },
+ "going-home-with-a-redivac-drain-following-breast-surgery": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "50045b469c7acde1",
+  "status": "no-date",
+  "title": "Going Home with a Redivac Drain Following Breast Surgery"
+ },
+ "golden-patient": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "84d8cd49e5ec3b44",
+  "status": "no-date",
+  "title": "Golden Patient"
+ },
+ "groin-inguinal-abdominal-wall-hernia-repair": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "374d97326498c0b9",
+  "status": "no-date",
+  "title": "Groin (Inguinal) and Abdominal Wall Hernia Repair"
+ },
+ "grommet-bobbin-insertion-child-advice-for-parents": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "ef74bce2ca056864",
+  "status": "no-date",
+  "title": "Grommet / Bobbin Insertion (Child) Advice for Parents"
+ },
+ "group-b-streptococcus-gbs-in-pregnancy-and-newborn-babies": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "4075dd8169c66e79",
+  "status": "no-date",
+  "title": "Group B Streptococcus (GBS) in pregnancy and newborn babies"
+ },
+ "group-pain-management-programme-gpmp": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "43c897892ded60fa",
+  "status": "no-date",
+  "title": "Group Pain Management Programme (gPMP)"
+ },
+ "guide-diabetic-eye-screening": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "785f356cbad29760",
+  "status": "no-date",
+  "title": "Your Guide to Diabetic Eye Screening"
+ },
  "guide-diabetic-retinopathy": {
   "checked": "2026-07-24T17:28:27+01:00",
   "content_hash": "7a2d47f7f8a33a2c",
   "status": "no-date",
   "title": "Diabetes and eye problems (diabetic retinopathy)"
+ },
+ "guide-distal-feeding": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "dc79beab84f87429",
+  "status": "no-date",
+  "title": "Your Guide to Distal Feeding"
  },
  "guide-pelvic-inflammatory-disease-pid": {
   "checked": "2026-07-21T02:35:11+01:00",
@@ -1931,11 +2542,143 @@
   "status": "no-date",
   "title": "A Guide To Throat Cancer Caused By Oral HPV (Human Papilloma Virus in the mouth/throat) Infection"
  },
+ "guide-to-a-low-potassium-and-low-phosphate-diet": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "f60d53e83075430f",
+  "status": "no-date",
+  "title": "Guide to a Low Potassium and Low Phosphate Diet"
+ },
+ "guide-to-a-low-potassium-diet": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "db393bc4358a77a6",
+  "status": "no-date",
+  "title": "Guide to a Low Potassium Diet"
+ },
+ "guide-to-wearing-your-halo-vest-system": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "dcabe02e32077a8d",
+  "status": "no-date",
+  "title": "Guide To wearing your Halo Vest System"
+ },
+ "guide-wearing-airback-spinal-system-brace": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "16a18cffe0e4e713",
+  "status": "no-date",
+  "title": "Guide to wearing your Thoracolumbar Spinal Brace Brace"
+ },
+ "guide-wearing-aspen-cto": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "4fd5171de10b9bf1",
+  "status": "no-date",
+  "title": "Guide to wearing your Cervical Thoracic Orthosis"
+ },
+ "guide-wearing-cervical-hard-collar": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "8edf9a0b103039c9",
+  "status": "no-date",
+  "title": "Guide to Wearing your Cervical Hard Collar"
+ },
+ "guided-hip-injection-and-physiotherapy-self-referral": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "9daf2d7ee7bed830",
+  "status": "no-date",
+  "title": "Guided Hip Injection and Physiotherapy Self-Referral"
+ },
+ "gynaecology-oncology-enhanced-recovery": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "aeec86983a399d53",
+  "status": "no-date",
+  "title": "Gynaecology Oncology Enhanced Recovery"
+ },
+ "gynaecomastia-discharge-advice": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "368ae821598d8d39",
+  "status": "no-date",
+  "title": "Gynaecomastia Discharge Advice"
+ },
+ "haemangiomas": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "b5cf60728c4bb8d2",
+  "status": "no-date",
+  "title": "Haemangiomas"
+ },
+ "haematology-review-clinic-for-patients-with-stable-myeloproliferative-neoplasm": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "e31da884ed6539c1",
+  "status": "no-date",
+  "title": "Haematology Review Clinic for patients with Stable Myeloproliferative Neoplasm"
+ },
+ "haemtrack-home%e2%80%90treatment-record-for-patients-with-bleeding-disorders": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "f0feeca53fa18cd2",
+  "status": "no-date",
+  "title": "Haemtrack – Home‐Treatment Record for Patients with Bleeding Disorders"
+ },
+ "hand-and-foot-puva-soak-phototherapy": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "98bbcd615da2fcd2",
+  "status": "no-date",
+  "title": "Hand and Foot PUVA Soak Phototherapy"
+ },
+ "hand-hygiene-information": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "821ececaeddec8c2",
+  "status": "no-date",
+  "title": "Hand Hygiene Information"
+ },
+ "hand-therapy-digital-nerve-injuries-pifu-information-for-patients-following-repair": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "bcdf20b30b1de390",
+  "status": "no-date",
+  "title": "Hand Therapy – Digital Nerve Injuries (PIFU) – Information for patients following repair"
+ },
  "hand-therapy-distal-radius-fracture": {
   "checked": "2026-07-24T17:28:27+01:00",
   "content_hash": "463ce12029a27daa",
   "status": "no-date",
   "title": "Distal Radius Fracture (Patient Initiated Follow Up)"
+ },
+ "hand-therapy-finger-and-thumb-interphalangeal-joint-dislocation-or-thumb-metacarpal-joint-dislocation": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "4a295a2df8175ece",
+  "status": "no-date",
+  "title": "Hand Therapy – Finger and thumb interphalangeal joint dislocation or thumb metacarpal joint dislocation"
+ },
+ "hand-therapy-fracture-of-metacarpal-bone": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "58b81ac2c11f844c",
+  "status": "no-date",
+  "title": "Fracture of metacarpal bone, Patient Initiated Follow Up(PIFU)"
+ },
+ "hand-therapy-mallet-injury-of-the-finger-pifu": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "c18553454868f92c",
+  "status": "no-date",
+  "title": "Hand Therapy – Mallet Injury of the Finger (PIFU)"
+ },
+ "hand-therapy-phalangeal-fractures-of-the-fingers-or-thumb-pifu": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "f6ba52aaa19c76e2",
+  "status": "no-date",
+  "title": "Hand Therapy – Phalangeal fractures of the fingers or thumb"
+ },
+ "handy-vans-staying-independent-home": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "e8e2698ed781a780",
+  "status": "no-date",
+  "title": "Handy Vans – Staying independent in your own home"
+ },
+ "happens-gynaecology-tests": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "3c9234b8854bb388",
+  "status": "no-date",
+  "title": "What Happens after my Gynaecology Tests?"
+ },
+ "having-a-blood-test-information-for-patients-easy-read": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "0c0535d6b33a6f3d",
+  "status": "no-date",
+  "title": "Having a blood test: Information for patients (Easy Read)"
  },
  "having-a-bronchoscopy": {
   "checked": "2026-07-23T02:30:21+01:00",
@@ -1943,11 +2686,323 @@
   "status": "no-date",
   "title": "Bronchoscopy and EBUS (Endobronchial Ultrasound) guided FNA (Fine Needle Aspiration)"
  },
+ "having-a-kidney-biopsy": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "29dc0cc7bd46fde3",
+  "status": "no-date",
+  "title": "Having A Kidney Biopsy"
+ },
+ "having-a-liver-biopsy-under-ultrasound-guidance": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "e944c4315b28bd0b",
+  "status": "no-date",
+  "title": "Having a Liver Biopsy under Ultrasound Guidance"
+ },
+ "having-a-mammogram-when-you-have-breast-implants": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "bddc9e1b7a8bfaa8",
+  "status": "no-date",
+  "title": "Having a mammogram when you have breast implants"
+ },
+ "head-and-neck-services": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "5e7e5e578d934b47",
+  "status": "no-date",
+  "title": "Head and Neck Services"
+ },
+ "head-injury-and-concussion-in-children": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "6d8311d435b31229",
+  "status": "no-date",
+  "title": "Head Injury and Concussion in Children"
+ },
+ "head-neck-lymphoedema": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "e2e4145f41511fee",
+  "status": "no-date",
+  "title": "Head and Neck Lymphoedema"
+ },
+ "headache-after-spinal-epidural-injection": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "c1983be4730726e3",
+  "status": "no-date",
+  "title": "Headache after Spinal/Epidural Injection"
+ },
+ "headaches-in-children": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "cb57b30dda77aabc",
+  "status": "no-date",
+  "title": "Headaches in children"
+ },
+ "health-early-pregnancy-useful-information": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "0a3df9c7850b8278",
+  "status": "no-date",
+  "title": "Your Health In Early Pregnancy – Useful Information"
+ },
+ "hearing-aid-assessment": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "4f73ea2e3ab7af60",
+  "status": "no-date",
+  "title": "Hearing Aid Assessment"
+ },
+ "hearing-aid-fitting": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "a7ee033cfccf5dae",
+  "status": "no-date",
+  "title": "Hearing Aid Fitting"
+ },
+ "hearing-aid-review": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "a673146c70eab35c",
+  "status": "no-date",
+  "title": "Hearing Aid Review"
+ },
+ "heart-murmur-in-newborn-babies": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "bc85bfe9ebcf0ea6",
+  "status": "no-date",
+  "title": "Heart Murmur in Newborn Babies"
+ },
  "help-chronic-cough": {
   "checked": "2026-07-24T17:28:27+01:00",
   "content_hash": "c74255ab4747a687",
   "status": "no-date",
   "title": "Coughing/ Throat Clearing"
+ },
+ "helpful-information-about-expressing-milk": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "a17de5494bf8fa6d",
+  "status": "no-date",
+  "title": "Helpful Information about Expressing Milk"
+ },
+ "helping-you-to-protect-your-daughter-from-female-genital-mutilation-fgm": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "3faf3fca02320ca9",
+  "status": "no-date",
+  "title": "Helping you to Protect your Daughter from Female Genital Mutilation (FGM)"
+ },
+ "helping-your-wrist-recover-after-cast-or-splint-removal": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "fb8c82b20e11c0ae",
+  "status": "no-date",
+  "title": "Helping your wrist recover after cast or splint removal"
+ },
+ "hepatitis-b-positive-screening-result-mean": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "0ace12d05edf425a",
+  "status": "no-date",
+  "title": "Hepatitis B: screening and care in pregnancy and protecting your baby by vaccination"
+ },
+ "hepatitis-b-vaccination": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "e872ff862cb5f5ec",
+  "status": "no-date",
+  "title": "Hepatitis B Vaccination"
+ },
+ "high-dose-chemotherapy-autologous-transplant-consultation": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "4403f78551fe1a3f",
+  "status": "no-date",
+  "title": "Your High Dose Chemotherapy and Autologous Transplant Consultation"
+ },
+ "high-resolution-oesophageal-manometry": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "b1a699213f3cad56",
+  "status": "no-date",
+  "title": "High Resolution Oesophageal Manometry"
+ },
+ "high-resolution-oesophageal-manometry-ph-monitoring": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "65146c59675948fb",
+  "status": "no-date",
+  "title": "High Resolution Oesophageal Manometry and pH Monitoring"
+ },
+ "holistic-needs-assessment": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "e911a2eb340ca2e9",
+  "status": "no-date",
+  "title": "What is a Holistic Needs Assessment?"
+ },
+ "home-haemodialysis-and-haemodiafiltration": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "866385f2b95447b8",
+  "status": "no-date",
+  "title": "Home Haemodialysis and Haemodiafiltration"
+ },
+ "home-intravenous-fluids-ivi": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "b89d224d93ee9b8a",
+  "status": "no-date",
+  "title": "Home Intravenous (IV) Fluids"
+ },
+ "home-parenteral-nutrition-hpn-information-patients": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "56ab1fb26656141c",
+  "status": "no-date",
+  "title": "Home Parenteral Nutrition (HPN) – Information For Patients"
+ },
+ "home-ventilation-information-for-patients": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "37e17ad1698e9d8e",
+  "status": "no-date",
+  "title": "Non-Invasive Ventilation at Home"
+ },
+ "hospital-discharge-information": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "b6b0f10652f197cb",
+  "status": "no-date",
+  "title": "Hospital Discharge Information"
+ },
+ "how-to-access-health-records": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "60bd029e65a84be5",
+  "status": "no-date",
+  "title": "How to Access Health Records"
+ },
+ "how-will-my-baby-be-born-information-for-patients-easy-read": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "fd66dfb3b5f02117",
+  "status": "no-date",
+  "title": "How will my baby be born? Information for patients (Easy Read)"
+ },
+ "https-gbr01-safelinks-protection-outlook-com-urlhttps-www-miscarriageassociation-org-uk-wp-content-uploads-2016-10-your-miscarriage-nov-2022-pdfdata0501hyp-tr-pilsnhs": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "81dc7a46451e423c",
+  "status": "no-date",
+  "title": "Your Miscarriage"
+ },
+ "https-www-gov-uk-government-publications-looking-after-friends-or-family-when-they-leave-hospital-leaflet-looking-after-family-or-friends-after-they-leave-hospitalter-they-leave-hospital": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "d2a25a5284691d09",
+  "status": "no-date",
+  "title": "Looking after family or friends after they leave hospital?"
+ },
+ "hull-major-trauma-centre-hull-royal-infirmary-information-patients-relatives": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "8fd145edbd5fa4fe",
+  "status": "no-date",
+  "title": "Hull Royal Infirmary Major Trauma Centre – Information For Patients And Relatives"
+ },
+ "hydrocele-repair-ligation-of-patent-processus-vaginalis-ppv": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "d974b02db39b8dcc",
+  "status": "no-date",
+  "title": "Hydrocele Repair – Ligation of Patent Processus Vaginalis (PPV)"
+ },
+ "hydrogen-breath-test": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "f749bfe688824c4e",
+  "status": "no-date",
+  "title": "Hydrogen Breath Test"
+ },
+ "hyperemesis-gravidarum": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "9cd44bffcf32beb4",
+  "status": "no-date",
+  "title": "Hyperemesis Gravidarum (Excessive nausea and vomiting in pregnancy)"
+ },
+ "hypermobility-spectrum-disorders": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "d3284369693fcf07",
+  "status": "no-date",
+  "title": "Hypermobility Spectrum Disorders"
+ },
+ "hysterectomy-vaginal-repair": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "c46b0c4fddecacfa",
+  "status": "no-date",
+  "title": "Hysterectomy and Vaginal Repair"
+ },
+ "hysterectomy-womb-cancer": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "82d0c028ff8334e9",
+  "status": "no-date",
+  "title": "Hysterectomy for Womb Cancer"
+ },
+ "hysterosalpingo-contrast-sonography-hycosy-aftercare": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "8dd6b802a4dc246a",
+  "status": "no-date",
+  "title": "Hysterosalpingo Contrast Sonography (HyCoSy) – Aftercare"
+ },
+ "hysterosalpingo-contrast-sonography-hycosy-pre-test-information": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "a44a8dcdc06bbc9f",
+  "status": "no-date",
+  "title": "Hysterosalpingo Contrast Sonography (HyCoSy) – Pre-test Information"
+ },
+ "hysteroscopic-tissue-removal-retrieval-procedure": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "0e68472669f3cf1f",
+  "status": "no-date",
+  "title": "Hysteroscopic Tissue Removal and Retrieval Procedure"
+ },
+ "i-may-lymphoma-next": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "11a1732cbb0eac88",
+  "status": "no-date",
+  "title": "I May Have Lymphoma – What next?"
+ },
+ "icu-patient-support-group-psychological-services-information-for-previous-icu-patients": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "2b5146119a0821c9",
+  "status": "no-date",
+  "title": "ICU Patient Support Group – Psychological Services Information for Previous ICU Patients"
+ },
+ "immune-thrombocytopenia-itp": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "39f2429bc7b2da95",
+  "status": "no-date",
+  "title": "Immune Thrombocytopenia (ITP)"
+ },
+ "implantable-loop-recorder-advice-sheet": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "38d9a08744bc062b",
+  "status": "no-date",
+  "title": "Implantable Loop Recorder Advice Sheet"
+ },
+ "improve-your-diabetic-control-prior-to-cardiac-surgery": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "a635efb4b6053b12",
+  "status": "no-date",
+  "title": "Improve your Diabetic Control prior to Cardiac Surgery"
+ },
+ "improving-your-bowel-function": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "bb332905edd9d235",
+  "status": "no-date",
+  "title": "Improving your Bowel Function"
+ },
+ "incidental-pulmonary-embolism-in-cancer-patients": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "f0443a5719a4fc2c",
+  "status": "no-date",
+  "title": "Unsuspected Pulmonary Embolism in Cancer Patients"
+ },
+ "incision-and-drainage-of-a-skin-abscess": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "9fbb0e72ebbe6f08",
+  "status": "no-date",
+  "title": "Incision and Drainage of a Skin Abscess"
+ },
+ "increasing-magnesium-in-your-diet": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "7a64a718ea37e3bc",
+  "status": "no-date",
+  "title": "Increasing Magnesium in your diet"
+ },
+ "increasing-the-potassium-in-your-diet": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "a271ba4f95953c11",
+  "status": "no-date",
+  "title": "Increasing the Potassium in your Diet"
+ },
+ "infectious-diseases-in-pregnancy-syphillis": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "f42c0741c625043d",
+  "status": "no-date",
+  "title": "Infectious Diseases in Pregnancy Syphillis"
  },
  "information-3rd-4th-degree-tears": {
   "checked": "2026-07-23T02:30:21+01:00",
@@ -1955,11 +3010,1363 @@
   "status": "no-date",
   "title": "Care of a third- or fourth-degree tear that occurred during childbirth"
  },
+ "information-about-the-administration-of-mifepristone-mifegyne": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "83ad20f410ff40da",
+  "status": "no-date",
+  "title": "Information about the administration of Mifepristone (Mifegyne)"
+ },
+ "information-about-your-ct-scan": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "8df0d88401338021",
+  "status": "no-date",
+  "title": "Information about your CT scan"
+ },
+ "information-advice-and-exercises-for-patients-having-breast-reconstruction-surgery": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "12fae12127c1479c",
+  "status": "no-date",
+  "title": "Information, Advice and Exercises for Patients having Breast Reconstruction Surgery"
+ },
+ "information-advice-and-exercises-for-patients-having-breast-surgery": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "e462c48ff4a18132",
+  "status": "no-date",
+  "title": "Information, Advice and Exercises for Patients Having Breast Surgery"
+ },
+ "information-advice-and-exercises-for-patients-having-breast-surgery-involving-axillary-node-dissections-clearance": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "f45e699ad3873614",
+  "status": "no-date",
+  "title": "Information, Advice and Exercises for Patients having Breast Surgery Involving Axillary Node Dissections/Clearance"
+ },
+ "information-advice-exercises-patients-breast-reconstruction-surgery": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "0d6e80b76d303c0a",
+  "status": "no-date",
+  "title": "Information, Advice and Exercises for Patients having Breast Reconstruction Surgery"
+ },
+ "information-advice-exercises-patients-breast-surgery": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "02a3dce0c01ec95c",
+  "status": "no-date",
+  "title": "Information, Advice and Exercises for Patients Having Breast Surgery"
+ },
+ "information-advice-exercises-patients-breast-surgery-involving-axillary-node-dissections": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "47909c1aecbbade0",
+  "status": "no-date",
+  "title": "Information, Advice and Exercises for Patients having Breast Surgery Involving Axillary Node Dissections"
+ },
+ "information-and-guidance-for-patients-having-heart-surgery": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "7e873ef5e004927d",
+  "status": "no-date",
+  "title": "Information and Guidance for Patients Having Heart Surgery"
+ },
+ "information-caesarean-section-surgery": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "efc1cd1a0e38393d",
+  "status": "no-date",
+  "title": "Information About Your Caesarean Section Before and After Your Surgery"
+ },
+ "information-diagnosis-treatment-plan": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "5e89bcfc42ed711a",
+  "status": "no-date",
+  "title": "Information about your Diagnosis and Treatment Plan"
+ },
+ "information-for-patients-receiving-a-steroid-injection": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "594ae0530c023858",
+  "status": "no-date",
+  "title": "Information for Patients Receiving a Steroid Injection"
+ },
+ "information-for-users-of-tracheostomy-tubes": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "5de8325778d437f1",
+  "status": "no-date",
+  "title": "Information for users of Tracheostomy Tubes"
+ },
+ "information-for-women-with-a-low-lying-placenta": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "dcbae4122a9e06d7",
+  "status": "no-date",
+  "title": "Placenta praevia, placenta accreta and vasa praevia"
+ },
+ "information-for-you-as-you-are-required-to-be-cared-for-in-a-temporary-escalation-area-tes-on-a-ward-to-wait-for-a-bed": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "4d88b96baafb53e2",
+  "status": "no-date",
+  "title": "Information for you as you are required to be cared for in a “Temporary Escalation Area (TES)” on a ward to wait for a bed"
+ },
+ "information-induction-labour": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "c9080026f2c0c7a1",
+  "status": "no-date",
+  "title": "Information about Induction of Labour"
+ },
+ "information-leaflet-to-support-consent-form-for-caesarean-section-easy-read": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "9bbe04d4e136128f",
+  "status": "no-date",
+  "title": "Information leaflet to support consent form for Caesarean Section (Easy read)"
+ },
+ "information-on-tracheoesophageal-catheter-placement": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "d71a723d852f2dcf",
+  "status": "no-date",
+  "title": "Information on Tracheoesophageal Catheter Placement"
+ },
+ "information-patients-dacryocystorhinostomy-dcr": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "e419679fd74362ff",
+  "status": "no-date",
+  "title": "Information for Patients on Dacryocystorhinostomy (DCR)"
+ },
+ "information-patients-starting-haemodialysis": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "25ef6a224e5941c9",
+  "status": "no-date",
+  "title": "Information for Patients Starting Haemodialysis"
+ },
+ "information-patients-undergoing-insertion-pacemakers-defibrillators-reveal-loop-device-recorders-box-changes-devices": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "a2f7e70e9b331147",
+  "status": "no-date",
+  "title": "Information for Patients undergoing Insertion of Pacemakers, Defibrillators, Reveal Loop Device Recorders and Box Changes for all Devices"
+ },
+ "information-people-newly-diagnosed-motor-neurone-disease": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "6f917a25b60eb4d9",
+  "status": "no-date",
+  "title": "Information For People Newly Diagnosed With Motor Neurone Disease"
+ },
+ "information-raised-bmi-pregnancy": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "9768e3877597caaf",
+  "status": "no-date",
+  "title": "Information For Raised BMI In Pregnancy"
+ },
+ "information-recovering-surgical-management-miscarriage": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "59e64758aa836d34",
+  "status": "no-date",
+  "title": "Information About Recovering From Surgical Management Of A Miscarriage"
+ },
+ "information-users-voice-valves": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "d2fe53208dc761e5",
+  "status": "no-date",
+  "title": "Information For Users Of Voice Valves"
+ },
+ "information-women-going-home-pre-labour-rupture-membranes-term-prom": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "9a5da047fea4225b",
+  "status": "no-date",
+  "title": "Information for Women Going Home with Pre-Labour Rupture of Membranes at Term (PROM)"
+ },
+ "inguinal-hernia-repair-advice-for-parents": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "46e9ceff28e2d412",
+  "status": "no-date",
+  "title": "Inguinal Hernia Repair – Advice for Parents"
+ },
+ "injection-of-buscopan-in-mri-scans": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "3920f339dfc97210",
+  "status": "no-date",
+  "title": "Injection of Buscopan in MRI Scans"
+ },
+ "insertion-of-ivc-filter": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "e385909e1ac0978f",
+  "status": "no-date",
+  "title": "Insertion of IVC Filter"
+ },
+ "insertion-of-t-tube-child-advice-for-parents": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "6e3cd74ee97c6b08",
+  "status": "no-date",
+  "title": "Insertion of T Tube (Child) Advice for Parents"
+ },
+ "insertion-of-tunnelled-central-venous-line": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "321329141ae3e169",
+  "status": "no-date",
+  "title": "Insertion of Tunnelled Central Venous Line"
+ },
+ "insertion-peritoneal-dialysis-catheter": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "3a1f4a437cff9068",
+  "status": "no-date",
+  "title": "Insertion of a Peritoneal Dialysis Catheter"
+ },
+ "instructions-re-post-operative-posturing-following-retinal-surgery": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "bf968c2206979761",
+  "status": "no-date",
+  "title": "Post-operative Posturing (following retinal surgery) instructions"
+ },
+ "intercostal-nerve-block-for-pain-relief": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "1d4635291359df60",
+  "status": "no-date",
+  "title": "Intercostal Nerve Block for Pain Relief"
+ },
+ "intermittent-distance-exotropia": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "0c3306fd14e5ede7",
+  "status": "no-date",
+  "title": "Intermittent Distance Exotropia"
+ },
+ "intra-uterine-brachytherapy": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "ddcb5e10c616a919",
+  "status": "no-date",
+  "title": "Intra-Uterine Brachytherapy"
+ },
+ "intra-uterine-system-mirena-heavy-periods": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "9fbeeb346e3a283a",
+  "status": "no-date",
+  "title": "Intra-uterine System (Mirena) for Heavy Periods"
+ },
+ "intravenous-iron-therapy": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "c5f40a13c98440ff",
+  "status": "no-date",
+  "title": "Intravenous Iron Therapy"
+ },
+ "intravenous-patient-controlled-analgesia": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "5e7bc1ae954f8d57",
+  "status": "no-date",
+  "title": "Intravenous Patient Controlled Analgesia"
+ },
+ "intravesical-immunotherapy-with-bacillus-calmette-guerin-bcg": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "bd4c582125bbd61a",
+  "status": "no-date",
+  "title": "Intravesical Immunotherapy with Bacillus Calmette- Guérin (BCG)"
+ },
+ "intravitreal-injections": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "7f09279e2d1eabda",
+  "status": "no-date",
+  "title": "Intravitreal Injections"
+ },
  "introduction-cervical-spine-pathway": {
   "checked": "2026-07-21T02:35:11+01:00",
   "content_hash": "ec26f65f67150c5d",
   "status": "no-date",
   "title": "An Introduction to the Cervical Spine Pathway"
+ },
+ "introduction-paul-brain-injury": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "720f27627a74ff63",
+  "status": "no-date",
+  "title": "Introduction to PAUL for Brain Injury"
+ },
+ "introduction-to-the-complex-rehabilitation-inpatient-ward-c9-during-covid-19": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "4ebfde71746a09ff",
+  "status": "no-date",
+  "title": "Introduction to the Complex Rehabilitation Inpatient Ward 1, CHH"
+ },
+ "investigation-of-suspected-pulmonary-embolism-pe-in-pregnancy-risks-to-you-and-your-baby": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "685b7aed86f87df5",
+  "status": "no-date",
+  "title": "Investigation of Suspected Pulmonary Embolism (PE) in Pregnancy – Risks to you and your baby"
+ },
+ "investigations-for-suspected-prostate-cancer-biopsy-pathway-information": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "4394d6e64b7fe200",
+  "status": "no-date",
+  "title": "Investigations for Suspected Prostate Cancer – Biopsy Pathway Information"
+ },
+ "investigations-for-suspected-prostate-cancer-mri-and-biopsy-pathway-information": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "3a88780e73911492",
+  "status": "no-date",
+  "title": "Investigations for Suspected Prostate Cancer – MRI and Biopsy Pathway Information"
+ },
+ "iron-infusion-paediatrics": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "18d73fa5c0a999c6",
+  "status": "no-date",
+  "title": "Iron Infusion – Paediatrics"
+ },
+ "irritable-hip-transient-synovitis": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "4a3a3215d0a10ba0",
+  "status": "no-date",
+  "title": "Irritable Hip (transient synovitis)"
+ },
+ "isolated-limb-block": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "89e757a2b1594ff7",
+  "status": "no-date",
+  "title": "Isolated Limb Block"
+ },
+ "jaundice-newborn-baby": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "084b7b5e2bf21697",
+  "status": "no-date",
+  "title": "Jaundice in the Newborn Baby"
+ },
+ "jaw-joint-problems": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "a9efacd0d34130f0",
+  "status": "no-date",
+  "title": "Jaw Joint Problems"
+ },
+ "jejunostomy-jej-feeding-tube-passport": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "a2fd1afb657ffa7c",
+  "status": "no-date",
+  "title": "Jejunostomy (JEJ) Feeding Tube – Passport"
+ },
+ "journal": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "de18bb4eadaba474",
+  "status": "no-date",
+  "title": "Journal"
+ },
+ "just-found-out-you-are-pregnant-advice-and-information-on-what-to-do-next": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "6755497f6fc142db",
+  "review_due": "2025-01",
+  "review_due_text": "January 2025",
+  "status": "ok",
+  "title": "Just found out you are pregnant? Advice and information on what to do next"
+ },
+ "ketamine-2": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "af3bf388f3d0c2ea",
+  "status": "no-date",
+  "title": "Ketamine Solution"
+ },
+ "kidney-transplantation-advice-for-kidney-transplant-recipients": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "ece568e1eeb63387",
+  "status": "no-date",
+  "title": "Kidney Transplantation – Advice for Kidney Transplant Recipients"
+ },
+ "kirchener-k-wire-removal": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "7da947acb210405d",
+  "status": "no-date",
+  "title": "Removal of Kirchener (K-wire)"
+ },
+ "knee-arthroscopy": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "2bbbb20f01daf44a",
+  "status": "no-date",
+  "title": "Knee Arthroscopy"
+ },
+ "knee-arthroscopy-information-for-parents": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "238665e6f3e4917f",
+  "status": "no-date",
+  "title": "Knee Arthroscopy – Information for Parents"
+ },
+ "laparoscopic-cholecystectomy-removal-gall-bladder-using-keyhole-surgery": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "0ecdde0d8a31d4c0",
+  "status": "no-date",
+  "title": "Laparoscopic Cholecystectomy (removal of the gall bladder using keyhole surgery)"
+ },
+ "laparoscopic-nephrectomy-discharge-advice": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "95de7f72332b0228",
+  "status": "no-date",
+  "title": "Laparoscopic Nephrectomy – Discharge Advice"
+ },
+ "laparoscopic-nissens-fundoplication-hiatus-hernia-repair": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "fd35aa16c8f83ec5",
+  "status": "no-date",
+  "title": "Laparoscopic Nissen’s Fundoplication and Hiatus Hernia Repair"
+ },
+ "laparoscopy": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "9fb3a425df23c2db",
+  "status": "no-date",
+  "title": "Laparoscopy"
+ },
+ "laser-peripheral-iridotomy": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "2be69d35e9906dca",
+  "status": "no-date",
+  "title": "Laser Peripheral Iridotomy"
+ },
+ "laser-treatment-macular-oedema": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "4f38f31a8d2e3f32",
+  "status": "no-date",
+  "title": "Laser Treatment for Macular Oedema"
+ },
+ "learning-disability-clinic": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "6a2e87f59cdb30b1",
+  "status": "no-date",
+  "title": "Learning Disability Clinic"
+ },
+ "leech-therapy": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "e072c4ceca373b36",
+  "status": "no-date",
+  "title": "Leech Therapy"
+ },
+ "lichen-planus": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "7ed7b26c5da1e53d",
+  "status": "no-date",
+  "title": "Lichen Planus"
+ },
+ "lichen-sclerosus": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "3011b8659d7c844f",
+  "status": "no-date",
+  "title": "Lichen Sclerosus (LS)"
+ },
+ "lighting": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "86fd379fd7fddf24",
+  "status": "no-date",
+  "title": "Lighting"
+ },
+ "linezold": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "24e421717c4c69d7",
+  "status": "no-date",
+  "title": "Linezolid"
+ },
+ "lip-trills": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "9a52becda0b23fa1",
+  "status": "no-date",
+  "title": "Lip Trills"
+ },
+ "living-with-an-external-fixator": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "e9b2597031b48bcc",
+  "status": "no-date",
+  "title": "Living with an external fixator"
+ },
+ "living-with-covid-recovery-app-information-sheet": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "28adc7b207630bb6",
+  "status": "no-date",
+  "title": "Living with Covid Recovery app Information Sheet"
+ },
+ "loop-recorder-implantation": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "fe2593e78d4b6e65",
+  "status": "no-date",
+  "title": "Loop Recorder Implantation"
+ },
+ "low-fibre-diet": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "afdc329c5c3fa4c3",
+  "status": "no-date",
+  "title": "Low Fibre Diet"
+ },
+ "low-papp-a": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "b62c78a39ed430fc",
+  "status": "no-date",
+  "title": "Management of Women with Low Pregnancy Associated Plasma Protein (PAPP-A)"
+ },
+ "low-vision-clinic": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "5d75ada477e1ebeb",
+  "status": "no-date",
+  "title": "Low Vision Clinic"
+ },
+ "low-visual-aids": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "f6e8064c0d7e7080",
+  "status": "no-date",
+  "title": "Low Vision Aids"
+ },
+ "lower-body-lymphoedema": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "4fd60a00cf2af070",
+  "status": "no-date",
+  "title": "Lower Body Lymphoedema"
+ },
+ "lower-limb-cast-care-information-patientscarers-patient": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "531f6c50b3861fd3",
+  "status": "no-date",
+  "title": "Lower Limb Cast Care Information – For Patients and Carers of a Patient"
+ },
+ "lumbar-medial-branch-block": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "bd34cf6c99b0ac91",
+  "status": "no-date",
+  "title": "Lumbar Medial Branch Block"
+ },
+ "lumbar-puncture": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "547d23dd9a9a7f65",
+  "status": "no-date",
+  "title": "Lumbar Puncture"
+ },
+ "lumbar-sympathectomy": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "4b8f6e10cbd6e63b",
+  "status": "no-date",
+  "title": "Lumbar Sympathectomy"
+ },
+ "lung-cancer-screening": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "e75feb06d9caed02",
+  "status": "no-date",
+  "title": "Lung Cancer Screening"
+ },
+ "lymphoedema-advice-breast-cancer-patients": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "2e945c94b4c31e86",
+  "status": "no-date",
+  "title": "Lymphoedema Advice for Breast Cancer Patients"
+ },
+ "lymphoedema-advice-leaflet-gynaecological-cancer-patients": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "a99a0de9c2d61ebb",
+  "status": "no-date",
+  "title": "Lymphoedema Advice Leaflet for Gynaecological Cancer Patients"
+ },
+ "lymphoma-patient-initiated-follow-up": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "54fd270756c4af1e",
+  "status": "no-date",
+  "title": "Lymphoma Patient Initiated Follow Up"
+ },
+ "macmillan-breast-care-nurse-specialist-team": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "c6a411128b216cfb",
+  "status": "no-date",
+  "title": "Macmillan Breast Care Nurse Specialist Team For Primary Breast Cancer and DCIS"
+ },
+ "macmillan-haematology-clinical-nurse-specialist-team": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "21a625429414ed29",
+  "status": "no-date",
+  "title": "Macmillan Haematology Clinical Nurse Specialist Team"
+ },
+ "macmillan-neuro-oncology-nursing-service-patients-brain-central-nervous-system-tumours": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "b11201785d1d61ff",
+  "status": "no-date",
+  "title": "The Macmillan Neuro-Oncology Nursing Service for Patients with Brain and Spinal Tumours"
+ },
+ "macmillian-breast-care-nurse-specialist-team-secondary-breast-cancer": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "309e3337c60d8b37",
+  "status": "no-date",
+  "title": "Macmillan Breast Care Nurse Specialist Team for Secondary Breast Cancer"
+ },
+ "macular-hole": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "d972df0f9ebbad26",
+  "status": "no-date",
+  "title": "Macular Hole"
+ },
+ "major-trauma-psychology-service": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "04efb6797bc79b89",
+  "status": "no-date",
+  "title": "Major Trauma Psychology Service"
+ },
+ "malignant-melanoma": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "670d0b17282bcf3c",
+  "status": "no-date",
+  "title": "Malignant Melanoma"
+ },
+ "malignant-spinal-cord-compression-mscc": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "c1f32c1eee1e987f",
+  "status": "no-date",
+  "title": "Malignant Spinal Cord Compression (MSCC)"
+ },
+ "mallet-finger-symptoms-and-management": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "4d2641862d77f8ff",
+  "status": "no-date",
+  "title": "Mallet Finger: Symptoms and Management"
+ },
+ "mallet-injury-of-the-finger-pifu": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "ff672a036150745d",
+  "status": "no-date",
+  "title": "Mallet Injury of the Finger – Patient Initiated Follow-up (PIFU)"
+ },
+ "management-miscarriage-options": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "1b405661d1f6e36a",
+  "status": "no-date",
+  "title": "Management Of Miscarriage: Your Options"
+ },
+ "management-systemic-anti-cancer-therapy-chemotherapy-extravasation": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "f29563e61db07d3a",
+  "status": "no-date",
+  "title": "Management of Systemic Anti-Cancer Therapy Chemotherapy Extravasation"
+ },
+ "managing-a-high-output-stoma-or-fistula": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "5a035e4b3c1e201b",
+  "status": "no-date",
+  "title": "Managing a High Output Stoma or Fistula"
+ },
+ "manipulation-of-the-nasal-bones-under-a-local-anaesthetic-mua-of-nose": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "a87f7c4dcec21862",
+  "status": "no-date",
+  "title": "Manipulation of the Nasal Bones under a Local Anaesthetic"
+ },
+ "manual-vacuum-aspiration-mva-termination-of-pregnancy": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "65fe8a0a1f8984dc",
+  "status": "no-date",
+  "title": "Manual Vacuum Aspiration (MVA) Termination of Pregnancy"
+ },
+ "marcus-gunn-jaw-winking-syndrome": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "ef3f44b7799b2292",
+  "status": "no-date",
+  "title": "Marcus Gunn (Jaw-winking) Syndrome"
+ },
+ "mediastinoscopy": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "58eaa631f028602a",
+  "status": "no-date",
+  "title": "Mediastinoscopy"
+ },
+ "medical-management-ectopic-pregnancy-pregnancy-unknown-location": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "2bfbc7b1efb65300",
+  "status": "no-date",
+  "title": "Medical Management of an Ectopic Pregnancy or a Pregnancy of Unknown Location"
+ },
+ "medical-management-miscarriage": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "9119451a426dc0fe",
+  "status": "no-date",
+  "title": "Medical Management of Miscarriage – Information for Women"
+ },
+ "medical-same-day-emergency-care-unit-msdec": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "2fe75a505803f4eb",
+  "status": "no-date",
+  "title": "Medical Same Day Emergency Care Unit (mSDEC)"
+ },
+ "medical-treatment-retained-products-conception": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "d8bddfd0e130c2a4",
+  "status": "no-date",
+  "title": "Medical Treatment of Retained Products of Conception"
+ },
+ "medicines-for-children-information-for-parents-and-carers-unlicensed-medicines": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "656a234863b94548",
+  "status": "no-date",
+  "title": "Medicines for Children Information for Parents and Carers Unlicensed medicines"
+ },
+ "melanoma-what-it-is-and-how-to-reduce-your-risk": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "7b096fb86fe92846",
+  "status": "no-date",
+  "title": "Melanoma: What it is and how to reduce your risk"
+ },
+ "melatonin-for-sleep-disorders-information-for-parents-and-carers": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "4be904bce4358649",
+  "status": "no-date",
+  "title": "Melatonin for sleep disorders – Information for Parents and Carers"
+ },
+ "metatarsus-adductus": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "12452615e9119830",
+  "status": "no-date",
+  "title": "Metatarsus Adductus"
+ },
+ "micro-suctionmanual-clearance-ears": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "5183ea768318e5ce",
+  "status": "no-date",
+  "title": "Micro Suction / Manual Clearance of the Ears"
+ },
+ "minor-avulsion-fracture-or-no-fracture-seen-following-a-foot-injury": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "dc4114cf1ebd47fd",
+  "status": "no-date",
+  "title": "Minor Foot Injury including Soft Tissue Injuries and Avulsion Fractures"
+ },
+ "minor-cystoscopic-investigations-procedures": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "e8974124abfa99fb",
+  "status": "no-date",
+  "title": "Minor Cystoscopy Investigations and Procedures"
+ },
+ "minor-eye-lid-surgery": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "056dd82165946f07",
+  "status": "no-date",
+  "title": "Minor Eye Lid Surgery"
+ },
+ "minor-plastic-surgery-information-for-parents": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "a1b4329c16b9a306",
+  "status": "no-date",
+  "title": "Minor Plastic Surgery – Information for Parents"
+ },
+ "minor-surgery-information-for-parents": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "bd3916954cf2aa69",
+  "status": "no-date",
+  "title": "Minor Surgery – Information for Parents"
+ },
+ "mmr-leaflets": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "e587025045ac4b5e",
+  "status": "no-date",
+  "title": "MMR (measles, mumps and rubella) vaccine leaflets"
+ },
+ "monthly-mood-tracker": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "0bb89f8e5693c5dd",
+  "status": "no-date",
+  "title": "Monthly Mood Tracker"
+ },
+ "mothers-who-take-antidepressant-medications-care-for-your-baby": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "25476f24037213f0",
+  "status": "no-date",
+  "title": "Mothers who take antidepressant medications: Care for your baby"
+ },
+ "mouth-care-following-oral-surgery": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "a08af6d66b904f08",
+  "status": "no-date",
+  "title": "Post-operative mouth care following oral surgery – Advice Sheet"
+ },
+ "mri-contrast-agents": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "3641adbbebdec904",
+  "status": "no-date",
+  "title": "MRI Contrast Agents"
+ },
+ "mri-small-bowel-scan": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "54b876b3e2b18776",
+  "status": "no-date",
+  "title": "MRI Small Bowel Scan"
+ },
+ "nasal-douching": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "57bc81442f31710b",
+  "status": "no-date",
+  "title": "Nasal Douching Advice Sheet"
+ },
+ "nasal-pack-removal-advice-sheet": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "49e40653b3de8b0d",
+  "status": "no-date",
+  "title": "Nasal Pack Removal Advice Sheet"
+ },
+ "nasal-surgery-information-for-parents": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "39bdb4db95e51024",
+  "status": "no-date",
+  "title": "Nasal Surgery – Information for Parents"
+ },
+ "nasopharyngolaryngoscopy-npl": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "5fed239ada1d740a",
+  "status": "no-date",
+  "title": "Nasopharyngolaryngoscopy (NPL)"
+ },
+ "national-haemoglobinopathy-registry-nhr": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "eb2a39cd0b614ba2",
+  "status": "no-date",
+  "title": "National Haemoglobinopathy Registry (NHR)"
+ },
+ "national-infection-prevention-and-control-patient-information-leaflets": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "3625038c4e1eae74",
+  "status": "no-date",
+  "title": "National Infection Prevention and Control Patient Information Leaflets"
+ },
+ "navigational-bronchoscopy": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "a0428dfc9e12a3f9",
+  "status": "no-date",
+  "title": "Navigational Bronchoscopy"
+ },
+ "nd-yttrium-aluminium-garnet-yag-laser-capsulotomy": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "1381a90a28a6e435",
+  "status": "no-date",
+  "title": "YAG Laser Capsulotomy following cataract surgery"
+ },
+ "nebuliser-information-leaflet": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "5805210bb929eb40",
+  "status": "no-date",
+  "title": "Nebuliser Information Leaflet"
+ },
+ "neck-dissection": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "358b003282e85c61",
+  "status": "no-date",
+  "title": "Neck Dissection"
+ },
+ "neonatal-feeding-poster": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "2977df9883fcb89f",
+  "status": "no-date",
+  "title": "Neonatal Feeding Poster"
+ },
+ "neonatal-intensive-care-unit-women-childrens-hospital-information-parents": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "13e37b561d991694",
+  "status": "no-date",
+  "title": "Neonatal Intensive Care Unit, Women & Children’s Hospital – Information For Parents"
+ },
+ "nerve-blocks-for-upper-limb-surgery": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "032dfe9e378ce19f",
+  "status": "no-date",
+  "title": "Nerve Blocks for Upper Limb Surgery"
+ },
+ "nerve-conduction-studies-ncs": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "7823dcb2b7b72b60",
+  "status": "no-date",
+  "title": "Nerve Conduction Studies (NCS)"
+ },
+ "nerve-injections-suprascapular-nerve-block-for-pain-relief": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "1a19408b97b80a62",
+  "status": "no-date",
+  "title": "Nerve injections: Suprascapular Nerve block for pain relief"
+ },
+ "neuro-oncology-follow-radiotherapy-andor-chemotherapy-treatment": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "8e4207302a2e5881",
+  "status": "no-date",
+  "title": "Neuro-oncology Follow Up After Your Radiotherapy and/or Chemotherapy Treatment"
+ },
+ "neuropsychology-service-information-leaflet": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "09df27f1615d4ee8",
+  "status": "no-date",
+  "title": "Neurorehabilitation Psychology Service Information Leaflet"
+ },
+ "nhd-for-people-with-bleeding-disorders-and-their-relatives": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "239591f0337c1cd2",
+  "status": "no-date",
+  "title": "NHD For people with bleeding disorders and their relatives"
+ },
+ "non-criteria-to-reside-ward-hull-royal-infirmary-130-east-and-130-west": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "3088b0d95d3ac55f",
+  "status": "no-date",
+  "title": "Non Criteria To Reside Ward – Hull Royal Infirmary – 130 East and 130 West"
+ },
+ "non-invasive-ventilation-hospital": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "6ea10a187542331c",
+  "status": "no-date",
+  "title": "Non-Invasive Ventilation (Hospital)"
+ },
+ "non-invasive-ventilation-information-for-carers-domiciliary-residential-nursing-homes": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "b635b4f65f9f9787",
+  "status": "no-date",
+  "title": "Non-Invasive Ventilation – Information for Carers (Domiciliary, Residential and Nursing Homes)"
+ },
+ "nosebleeds-epistaxis-adults": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "005a43beb0d848f4",
+  "status": "no-date",
+  "title": "Nosebleeds (Epistaxis) – Adults"
+ },
+ "novasure-procedure-heavy-menstrual-bleeding": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "62e1d73e7aa3a711",
+  "status": "no-date",
+  "title": "NovaSure: A Procedure For Heavy Menstrual Bleeding"
+ },
+ "nutrition-and-eye-health": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "fc6da7a422aaca81",
+  "status": "no-date",
+  "title": "Nutrition and Eye Health – Macular Society"
+ },
+ "nutrition-at-home": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "a4a50ec118a1fde3",
+  "status": "no-date",
+  "title": "Nutrition at home"
+ },
+ "nutrition-drinks-advice-for-patients-and-carers": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "4a19e6e3ffd9d344",
+  "status": "no-date",
+  "title": "Nutrition Drinks – Advice for patients and carers"
+ },
+ "nystagmus": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "5f973c84037b3867",
+  "status": "no-date",
+  "title": "Nystagmus"
+ },
+ "obstetric-brachial-plexus-injury-erbs-palsy": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "12f1df7e2d9eae34",
+  "status": "no-date",
+  "title": "Obstetric Brachial Plexus Injury (ERB’s Palsy)"
+ },
+ "obstetric-ultrasound-examinations": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "6fa69f0465876d1f",
+  "status": "no-date",
+  "title": "Obstetric Ultrasound Examination"
+ },
+ "occipital-nerve-injection-for-pain-relief": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "254b43f0b1f18fd2",
+  "status": "no-date",
+  "title": "Occipital Nerve Injection for Pain Relief"
+ },
+ "oesophageal-bandinginjection-varices-advice-sheet": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "80b36e2c35992ef1",
+  "status": "no-date",
+  "title": "Oesophageal Banding/Injection Of Varices Report and Useful Information"
+ },
+ "oesophageal-dilatation-advice-sheet": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "5e63c68ca860b3af",
+  "status": "no-date",
+  "title": "Oesophageal Dilatation Report and Useful Information"
+ },
+ "oesophageal-dilation": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "8e0eeaae95df79e3",
+  "status": "no-date",
+  "title": "Oesophageal Dilatation"
+ },
+ "oesophageal-stent-advice-sheet": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "46cf47b1011fbde4",
+  "status": "no-date",
+  "title": "Oesophageal Stent Report and Useful Information"
+ },
+ "oesophagectomy": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "13e288862fa2ad11",
+  "status": "no-date",
+  "title": "Oesophagectomy (Removal of part of the Gullet)"
+ },
+ "on-your-marks-get-set-go": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "de5868007abbc8bd",
+  "status": "no-date",
+  "title": "‘On your marks, get set, go..’"
+ },
+ "open-nephrectomy": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "8d7934630fb2cfd7",
+  "status": "no-date",
+  "title": "Open Nephrectomy"
+ },
+ "ophthalmic-angiography-fluoresceinicg": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "8e6d893ea0e8e8a5",
+  "status": "no-date",
+  "title": "Ophthalmic Angiography (Fluorescein/Indocyanine Green)"
+ },
+ "ophthalmic-surgery-eye-surgery-information-for-parents": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "d6b4e844d68713b2",
+  "status": "no-date",
+  "title": "Ophthalmic Surgery (Eye Surgery) – Information for Parents"
+ },
+ "ophthalmology-virtual-retinal-clinics": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "d2796b353f6b5d21",
+  "status": "no-date",
+  "title": "Ophthalmology Virtual Retinal Clinics"
+ },
+ "opioid-medicines": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "82384dbd0f957db1",
+  "status": "no-date",
+  "title": "Opioid Medicines"
+ },
+ "optic-neuritis": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "a3117f5397b1b8e3",
+  "status": "no-date",
+  "title": "Optic neuritis"
+ },
+ "optimising-diabetes-before-cardiac-surgery-a-crucial-step-pre-op-assessment-team": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "444e523d3c774465",
+  "status": "no-date",
+  "title": "Optimising Diabetes before Cardiac Surgery – A Crucial Step Pre-op Assessment Team"
+ },
+ "oral-and-maxillofacial-surgery-post-operative-instructions": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "51cfdb6a5c63a790",
+  "status": "no-date",
+  "title": "Oral and Maxillofacial Surgery – Post-operative Instructions"
+ },
+ "oral-biopsy": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "5bd7bfbbb3d4de66",
+  "status": "no-date",
+  "title": "Oral Biopsy"
+ },
+ "oral-health-advice-people-intestinal-failure": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "4d15217aacc4d12e",
+  "status": "no-date",
+  "title": "Oral Health Advice for People with Intestinal Failure"
+ },
+ "oral-sedation-advice-leaflet": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "51aad607c13d2b6b",
+  "status": "no-date",
+  "title": "Paediatric Oral Sedation Advice Leaflet"
+ },
+ "oral-suction-information-for-patients-and-carers": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "c4db9f087666b22f",
+  "status": "no-date",
+  "title": "Oral Suction – Information for Patients and Carers"
+ },
+ "orchidopexy-fixation-of-testes-information-for-parents": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "a4248c26a8935c82",
+  "status": "no-date",
+  "title": "Orchidopexy (Fixation of Testes) – Information for Parents"
+ },
+ "otoplasty-information-for-parents": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "645b0c8f75d13623",
+  "status": "no-date",
+  "title": "Otoplasty – Information for Parents"
+ },
+ "outpatient-consultation-pregnancy-advisory-service-pas": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "6eb0b48dec808113",
+  "status": "no-date",
+  "title": "Your Outpatient Consultation Pregnancy Advisory Service (PAS)"
+ },
+ "outpatient-parenteral-antibiotic-therapy-opat": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "c0e1554919b81d3d",
+  "status": "no-date",
+  "title": "OPAT – Outpatient Parenteral Antibiotic Therapy"
+ },
+ "pacemaker-implantation": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "b06ceadcb64c0673",
+  "status": "no-date",
+  "title": "Pacemaker Implantation"
+ },
+ "paediatric-adenoidectomy-advice-for-parents": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "a7e0d2165e74c1cc",
+  "status": "no-date",
+  "title": "Paediatric Adenoidectomy – Advice for Parents"
+ },
+ "paediatric-diabetes-team-appointments": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "083e833f375e47f0",
+  "status": "no-date",
+  "title": "Paediatric Diabetes Team Appointments"
+ },
+ "paediatric-distal-radius-fracture-wrist-bone-advice-regarding-healing-and-recovery": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "3ab885cc4073314b",
+  "status": "no-date",
+  "title": "Paediatric distal radius fracture (wrist bone) – Advice regarding healing and recovery"
+ },
+ "paediatric-oncology-shared-care": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "c90aec49ea164c90",
+  "status": "no-date",
+  "title": "Paediatric Oncology Shared Care, Hull"
+ },
+ "paediatric-surgery-correction-of-chordee": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "3cb66d6c3c7b0d46",
+  "status": "no-date",
+  "title": "Paediatric Surgery – Correction of Chordee"
+ },
+ "paediatric-surgery-cystoscopy": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "8f40334633e14b58",
+  "status": "no-date",
+  "title": "Paediatric Surgery – Cystoscopy"
+ },
+ "paediatric-surgery-hypospadias": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "8611b680abf8f503",
+  "status": "no-date",
+  "title": "Paediatric Surgery – Hypospadias"
+ },
+ "pain-management-programme": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "15d3a8d7fb5600c0",
+  "status": "no-date",
+  "title": "Pain Management Programme"
+ },
+ "pain-relief-medication-while-in-hospital": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "3d802b3a6b9f91d9",
+  "status": "no-date",
+  "title": "Pain Relief Medication While in Hospital"
+ },
+ "panretinal-photocoagulation-laser-prp": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "259373301cdeefe8",
+  "status": "no-date",
+  "title": "Panretinal Photocoagulation Laser (PRP)"
+ },
+ "parkinsons-disease-and-progressive-supranuclear-palsy-psp": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "728054dde61f95fb",
+  "status": "no-date",
+  "title": "Parkinson’s disease and Progressive Supranuclear Palsy (PSP)"
+ },
+ "patch-testing-for-contact-dermatitis": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "cb65def7699036fd",
+  "status": "no-date",
+  "title": "Patch Testing for Contact Dermatitis"
+ },
+ "patella-dislocation-advice-regarding-healing-and-recovery": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "70c1546b020995cd",
+  "status": "no-date",
+  "title": "Patella dislocation – Advice regarding healing and recovery"
+ },
+ "patient-advice-and-liaison-service-pals-information-leaflet": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "98686a6f5de176ba",
+  "status": "no-date",
+  "title": "Patient Advice and Liaison Service (PALS) Information Leaflet"
+ },
+ "patient-controlled-epidural-analgesia-pcea": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "1ce77be5bddbe06c",
+  "status": "no-date",
+  "title": "Patient Controlled Epidural Analgesia (PCEA)"
+ },
+ "patient-decision-aid-for-direct-oral-anticoagulants-doacs-and-warfarin": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "576b30a9fe0d6145",
+  "status": "no-date",
+  "title": "Patient decision aid for Direct Oral Anticoagulants (DOACs) and Warfarin"
+ },
+ "patient-information-leaflet-for-patient-initiated-follow-up": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "7f2099751022582a",
+  "status": "no-date",
+  "title": "Patient Information Leaflet for Patient Initiated Follow-Up – Rheumatology Therapies"
+ },
+ "patient-information-total-partial-gastrectomy": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "5905702b3d8e5910",
+  "status": "no-date",
+  "title": "Total or Partial Gastrectomy (Removal of all or part of your Stomach)"
+ },
+ "patient-initiated-follow-up-pifu": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "6366cf85a0a5512a",
+  "status": "no-date",
+  "title": "Patient Initiated Follow-Up (PIFU) – Speech and Language"
+ },
+ "patient-initiated-follow-up-pifu-for-physiotherapy-for-pelvic-floor-dysfunction-including-pelvic-organ-prolapse-urinary-incontinence-urinary-urgency": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "1f080ac81a6c3b0d",
+  "status": "no-date",
+  "title": "Patient Initiated Follow-up (PIFU) for Physiotherapy for Pelvic Floor Dysfunction (Including: Pelvic Organ Prolapse, Urinary Incontinence & Urinary Urgency)"
+ },
+ "patient-initiated-follow-up-pifu-information-for-patients-from-physiotherapy": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "d816dbc7a63073c2",
+  "status": "no-date",
+  "title": "Patient Initiated Follow-Up (PIFU) – Information for patients from Physiotherapy"
+ },
+ "patient-initiated-follow-up-pifu-information-for-patients-under-the-care-of-the-dietitian": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "9dcecfef0b1fe29f",
+  "status": "no-date",
+  "title": "Patient Initiated Follow-up (PIFU) – Information for patients under the care of the Dietitian"
+ },
+ "patient-initiated-follow-up-pifu-leaflet-pelvic-health-physiotherapy": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "d65f6e65866c352d",
+  "status": "no-date",
+  "title": "Patient Initiated Follow Up (PIFU) Leaflet – Pelvic Health Physiotherapy"
+ },
+ "patient-initiated-follow-up-pifu-physiotherapy": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "fa455054cb5eebcb",
+  "status": "no-date",
+  "title": "Patient Initiated Follow-Up (PIFU) – Physiotherapy"
+ },
+ "paul-brain-food-recipe-guide": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "b7e325b16df631da",
+  "status": "no-date",
+  "title": "PAUL – Brain Food and Recipe Guide"
+ },
+ "paul-brain-injury-mission": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "dcd31161034861d9",
+  "status": "no-date",
+  "title": "PAUL for Brain Injury – Our Mission"
+ },
+ "paul-brain-recovery-located": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "7f98bd7366747479",
+  "status": "no-date",
+  "title": "PAUL for Brain Recovery – Where We Are Located"
+ },
+ "pelvic-floor-muscle-exercises-and-advice-a-guide-for-trans-men-trans-masculine-and-non-binary-people-who-were-assigned-female-at-birth": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "6b91dc3b323e922f",
+  "status": "no-date",
+  "title": "Pelvic floor muscle exercises and advice – A guide for trans men, trans masculine and non-binary people (who were assigned female at birth)"
+ },
+ "pelvic-floor-muscle-exercises-and-advice-a-guide-for-trans-women-trans-feminine-and-non-binary-people-who-were-assigned-male-at-birth": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "5fd8bf8fc67ea95b",
+  "status": "no-date",
+  "title": "Pelvic floor muscle exercises and advice – A guide for trans women, trans feminine and non-binary people (who were assigned male at birth)"
+ },
+ "pelvic-floor-muscle-exercises-and-advice-for-men": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "d6c296a47374487d",
+  "status": "no-date",
+  "title": "Pelvic Floor Muscle Exercises and Advice for Men"
+ },
+ "pelvic-floor-muscle-exercises-for-women": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "553ca1b77abf7ec0",
+  "status": "no-date",
+  "title": "Pelvic Floor Muscle Exercises (for women)"
+ },
+ "pelvic-girdle-pain-and-pregnancy": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "d5cd5bbb3c4de872",
+  "status": "no-date",
+  "title": "Pelvic girdle pain and pregnancy"
+ },
+ "pelvic-organ-prolapse": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "58e1746892fec6c1",
+  "status": "no-date",
+  "title": "Pelvic Organ Prolapse"
+ },
+ "penthrox-for-pain-relief-children-and-young-people": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "23d60a0ee011d13f",
+  "status": "no-date",
+  "title": "Penthrox for Pain Relief (Children and Young People)"
+ },
+ "percutaneous-endoscopic-gastrostomy-peg": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "efbcf30dd714390d",
+  "status": "no-date",
+  "title": "Percutaneous Endoscopic Gastrostomy (PEG)"
+ },
+ "performing-a-pregnancy-test-information-for-patients": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "66f12b71a913b0a2",
+  "status": "no-date",
+  "title": "Performing a Pregnancy Test Information for Patients"
+ },
+ "peripheral-angiography-angioplasty": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "7bb6d1db2c88a148",
+  "status": "no-date",
+  "title": "Renal Angiography / Angioplasty"
+ },
+ "peripherally-inserted-central-catheter-picc": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "4ea6f2b7a95c93d0",
+  "status": "no-date",
+  "title": "Peripherally Inserted Central Catheter (PICC) – General information to prepare you for a PICC placement"
+ },
+ "peritoneal-dialysis-information-booklet": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "982b426025864d41",
+  "status": "no-date",
+  "title": "Peritoneal Dialysis Information Booklet"
+ },
+ "permanent-sacral-nerve-neuromodulation-treatment-urinary-disorders-faecal-incontinence-constipation-pelvic-floor-disorders-pain": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "adc4a6819d544551",
+  "status": "no-date",
+  "title": "Permanent Sacral Nerve Neuromodulation – For the Treatment of Faecal Incontinence Pelvic Floor Disorders"
+ },
+ "perthes": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "53dabac485dcbfda",
+  "status": "no-date",
+  "title": "Perthes"
+ },
+ "pharmacy-centre-pain-medicine": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "fb22b03af2bb48cd",
+  "status": "no-date",
+  "title": "Transdermal Buprenorphine Patch (Butrans, Transtec)"
+ },
+ "physiotherapy-frame-information": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "2b358aeadae38f30",
+  "status": "no-date",
+  "title": "Physiotherapy Frame Information"
+ },
+ "physiotherapy-musculoskeletal-msk-outpatients-patient-initiated-follow-up": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "c3a9734638808815",
+  "status": "no-date",
+  "title": "Physiotherapy Musculoskeletal (MSK) Outpatients: Patient Initiated Follow-Up"
+ },
+ "pilates-in-womens-health-physiotherapy": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "56122c2a0fce5363",
+  "status": "no-date",
+  "title": "Pilates in Women’s Health Physiotherapy"
+ },
+ "pituitary-surgery": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "666c673ca81453e0",
+  "status": "no-date",
+  "title": "Pituitary Surgery"
+ },
+ "plagiocephaly-and-head-turning-preference": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "d21a9de75e4a2a64",
+  "status": "no-date",
+  "title": "Plagiocephaly and head turning preference"
  },
  "plantar-fasciitis": {
   "checked": "2026-07-21T02:35:11+01:00",
@@ -1967,11 +4374,971 @@
   "status": "no-date",
   "title": "Acute Onset of Plantar Fasciitis"
  },
+ "plaster-cast-instructions": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "6b60bb7658b9ad1e",
+  "status": "no-date",
+  "title": "Plaster Cast Instructions"
+ },
+ "please-help-us-reduce-unnecessary-cancellations": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "57b10352ef9f97d7",
+  "status": "no-date",
+  "title": "Please Help to Reduce Unnecessary Cancellations"
+ },
+ "pleural-effusion": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "8a557aff9a644e44",
+  "status": "no-date",
+  "title": "Pleural Effusion"
+ },
+ "positional-talipes-equino-varus": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "d52b1dc505a23cb5",
+  "status": "no-date",
+  "title": "Positional Talipes Equino Varus"
+ },
+ "possible-swallowing-problems-during-and-after-radiotherapy-to-the-head-and-neck": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "07de02326fa39127",
+  "status": "no-date",
+  "title": "Possible swallowing problems during and after radiotherapy to the head and neck"
+ },
+ "post-covid-syndrome-and-your-voice": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "b545c48b1a6e6525",
+  "status": "no-date",
+  "title": "Post-Covid Syndrome and your voice"
+ },
+ "post-discharge-bariatric-information-for-general-practitioners-and-patients": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "83a8f6ee1764fdf5",
+  "status": "no-date",
+  "title": "Post-Discharge Bariatric Information Leaflet for General Practitioners and Patients"
+ },
+ "post-hip-injection-physiotherapy-advice-home-exercises-guidance-while-waiting-for-physiotherapy": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "2a33afe171e2d4a3",
+  "status": "no-date",
+  "title": "Post-Hip Injection Physiotherapy Advice: Home Exercises Guidance While Waiting for Physiotherapy"
+ },
+ "post-operative-care-following-squint-surgery-in-adults": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "10382d3c7e61794a",
+  "status": "no-date",
+  "title": "Post-operative care following squint surgery in adults"
+ },
+ "post-operative-care-following-squint-surgery-in-children": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "fc621c86b46d65f5",
+  "status": "no-date",
+  "title": "Post-operative Care Following Squint Surgery in Children"
+ },
+ "post-operative-wound-care-instructions-following-minor-skin-surgery": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "08dec0cf45d1be64",
+  "status": "no-date",
+  "title": "Post-operative wound care instructions following minor skin surgery"
+ },
+ "post-routine-cataract-surgery-patient-initiated-follow-up-pifu-guide-card": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "8e427cca88f79ec0",
+  "status": "no-date",
+  "title": "Post Routine Cataract Surgery: Patient Initiated Follow Up (PIFU) Guide Card"
+ },
+ "post-tunnelled-haemodialysis-line-insertion": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "7cee3b3f97c607ff",
+  "status": "no-date",
+  "title": "Post Tunnelled Haemodialysis Line Insertion"
+ },
+ "posterior-vitreous-detachment": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "249cc69921092e20",
+  "status": "no-date",
+  "title": "Posterior Vitreous Detachment"
+ },
+ "postoperative-advice-and-exercises-following-deep-inferior-epigastric-perforators-diep-surgery": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "c2a302f541843fda",
+  "status": "no-date",
+  "title": "Postoperative Advice and Exercises following Deep Inferior Epigastric Perforators (DIEP) Surgery"
+ },
+ "pre-operative-assessment-breast-surgery": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "ba17945c9a0924e6",
+  "status": "no-date",
+  "title": "Pre-operative Assessment for Breast Surgery"
+ },
+ "pregabalin": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "a0515079d8005461",
+  "status": "no-date",
+  "title": "Pregabalin"
+ },
+ "pregnancy-and-birth-personal-care-plans": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "760332413fabf1dc",
+  "status": "no-date",
+  "title": "Pregnancy and birth personal care plans"
+ },
+ "pregnancy-immunisations": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "de7d0bb8d7fd2256",
+  "status": "no-date",
+  "title": "Pregnancy Immunisations"
+ },
+ "pregnancy-loss-what-can-i-expect-following-my-pregnancy-loss": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "2791ec634254c242",
+  "status": "no-date",
+  "title": "Pregnancy Loss – What can I expect following my pregnancy loss?"
+ },
+ "pregnancy-testing-surgery": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "cf19eccd083091c3",
+  "status": "no-date",
+  "title": "Pregnancy Testing Before Surgery – Information for Patients"
+ },
+ "prenatal-array-cgh": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "8d3e41792cf74495",
+  "status": "no-date",
+  "title": "Prenatal Array CGH – Information for Parents"
+ },
+ "pressure-ulcers-and-sores": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "3f032ae785a6ec2d",
+  "status": "no-date",
+  "title": "Pressure Ulcers and Sores – Information for Carers"
+ },
+ "procedural-or-conscious-sedation-adults": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "13eb9f44185922bc",
+  "status": "no-date",
+  "title": "Procedural or Conscious Sedation – Adults"
+ },
+ "procedural-sedation-children": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "3c07566e6296ec4d",
+  "status": "no-date",
+  "title": "Procedural Sedation In Children"
+ },
+ "progesterone-in-early-pregnancy": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "eccbf1421cb964b2",
+  "status": "no-date",
+  "title": "Progesterone in Early Pregnancy"
+ },
+ "prolonged-purple-crying-in-babies-information-for-parents-and-carers": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "4c9f8bf3bcdf4756",
+  "status": "no-date",
+  "title": "Prolonged (PURPLE) Crying in Babies: Information for Parents and Carers"
+ },
+ "protecting-your-baby-from-infection": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "b910393ca2a25ebe",
+  "status": "no-date",
+  "title": "Protecting Your Baby from Infection"
+ },
+ "protecting-your-baby-from-low-blood-glucose": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "d29cc36f17c5c5dd",
+  "status": "no-date",
+  "title": "Protecting your Baby from Low Blood Glucose"
+ },
+ "protocol-for-collecting-saliva-in-salivette-tubes-at-home": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "63f738ca06ba7b76",
+  "status": "no-date",
+  "title": "Protocol for collecting saliva in salivette tubes at home"
+ },
+ "pseudo-squint": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "89a5763db2f72ddb",
+  "status": "no-date",
+  "title": "Pseudo-squint"
+ },
+ "psychology-appointment-elective-risk-reducing-breast-surgery": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "ce9cf2fcf7e8e7f0",
+  "status": "no-date",
+  "title": "Psychology Appointment: Elective Risk-Reducing Breast Surgery"
+ },
+ "pterygium-excision": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "862dae8177baaed7",
+  "status": "no-date",
+  "title": "Pterygium Excision"
+ },
+ "ptosis-in-children": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "d0dc948b4888a8fa",
+  "status": "no-date",
+  "title": "Ptosis in Children"
+ },
+ "pulled-elbow": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "67a8974d7daa4c76",
+  "status": "no-date",
+  "title": "Pulled Elbow"
+ },
+ "pulmonary-hypertension": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "5d613c15bc1ef9f4",
+  "status": "no-date",
+  "title": "Pulmonary Hypertension"
+ },
+ "pulmonary-lung-nodules": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "57fb040947800c49",
+  "status": "no-date",
+  "title": "Pulmonary (Lung) Nodule(s)"
+ },
+ "radial-head-or-neck-fracture-advice-regarding-healing-and-recovery": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "f05e4f14bf3b75ec",
+  "status": "no-date",
+  "title": "Radial Head or Neck Fracture – Including Occult Elbow Fractures"
+ },
+ "radical-hysterectomy": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "f47fa8de51f2f4a9",
+  "status": "no-date",
+  "title": "Radical Hysterectomy"
+ },
+ "radiotherapy-for-gynaecological-cancers": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "9b87fe6cd7a28dfc",
+  "status": "no-date",
+  "title": "Radiotherapy for Gynaecological Cancers"
+ },
+ "radiotherapy-heterotopic-ossification-advice-sheet": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "734e7a2c694607b5",
+  "status": "no-date",
+  "title": "Radiotherapy in Heterotopic Ossification – Advice Sheet"
+ },
+ "radiotherapy-to-the-prostate": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "334510181a84075a",
+  "status": "no-date",
+  "title": "Radiotherapy to the Prostate"
+ },
+ "rapid-access-tia-clinic": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "d559ab668c6e3ae4",
+  "status": "no-date",
+  "title": "Rapid Access TIA Clinic"
+ },
+ "rapid-diagnostic-service-rds-cdc-ct-post-care-information-leaflet": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "91601b465e8fb465",
+  "status": "no-date",
+  "title": "Rapid Diagnostic Service (RDS) CDC (CT) Post Care Information Leaflet"
+ },
+ "rapid-diagnostic-service-rds-cdc-us-cxr-post-care-information-leaflet": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "88a2ab9f472c265c",
+  "status": "no-date",
+  "title": "Rapid Diagnostic Service (RDS) CDC (US + CXR) Post Care Information Leaflet"
+ },
+ "rapid-diagnostic-service-rds-non-cdc-post-care-information-leaflet": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "1898950f7324fb1c",
+  "status": "no-date",
+  "title": "Rapid Diagnostic Service (RDS) Non-CDC Post Care Information Leaflet"
+ },
+ "rapid-diagnostic-service-rds-non-cdc-pre-appointment-information": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "7238f8bcdf07c046",
+  "status": "no-date",
+  "title": "Rapid Diagnostic Service (RDS) Non-CDC Pre Appointment Information"
+ },
+ "rapid-diagnostic-service-rds-pre-appointment-information": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "17a903ca8ed95cb3",
+  "status": "no-date",
+  "title": "Rapid Diagnostic Service (RDS) Pre appointment information"
+ },
+ "rcpch-following-a-first-seizure-without-fever-in-children-and-young-people": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "8742d901bec3ffe9",
+  "status": "no-date",
+  "title": "RCPCH Following a first seizure without fever in children and young people"
+ },
+ "receiving-brca1-brca2-test-result-identifies-mutation": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "9dd46397785e7f9f",
+  "status": "no-date",
+  "title": "Receiving a BRCA1 and BRCA2 Test Result that Identifies a Mutation"
+ },
+ "receiving-brca1-brca2-test-result-identifies-variant-unknown-significance-vus": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "7d2777feb901cb4e",
+  "status": "no-date",
+  "title": "Receiving a BRCA1 and BRCA2 test result that identifies a Variant of Unknown Significance (VUS)"
+ },
+ "receiving-normal-brca1-brca2-test-result": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "e62aea8f12b9bebf",
+  "status": "no-date",
+  "title": "Receiving a Normal BRCA1 and BRCA2 Test Result"
+ },
+ "recommended-summary-plan-for-emergency-care-treatment-respect": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "df62770af6d82c61",
+  "status": "no-date",
+  "title": "Recommended Summary Plan for Emergency Care and Treatment"
+ },
+ "recovering-from-a-broken-hip": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "f047cc3493c29ed6",
+  "status": "no-date",
+  "title": "Recovering from a Broken Hip and supporting your discharge following surgery"
+ },
+ "reducing-and-stopping-opioid-medicines": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "8927038674c6cc4c",
+  "status": "no-date",
+  "title": "Reducing and Stopping Opioid Medicines"
+ },
+ "reducing-risk-infection-whilst-chemotherapy-vaccinations-around": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "1597f97fd23d509e",
+  "status": "no-date",
+  "title": "Reducing your risk of infection whilst on chemotherapy – Vaccination of your household contacts"
+ },
+ "refer-to-pharmacy-refer-to-pharmacy-support-with-your-medicines-when-you-leave-hospital": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "f35da8d354672bb5",
+  "status": "no-date",
+  "title": "Refer to Pharmacy Discharge Medicines Service (DMS)"
+ },
+ "regional-pinnt-support-group": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "58d53da36d5b05fb",
+  "status": "no-date",
+  "title": "Regional PINNT Support Group"
+ },
+ "registering-as-sight-impaired": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "79ebc60c671d74e6",
+  "status": "no-date",
+  "title": "Registering as sight impaired"
+ },
+ "rehabilitation-and-goal-setting": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "ae24742cd9cc0e46",
+  "status": "no-date",
+  "title": "Rehabilitation and Goal Setting"
+ },
+ "release-of-tendons-flexor-tenotomies-information-for-parents": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "26af08ac76172f87",
+  "status": "no-date",
+  "title": "Release of Tendons (Flexor Tenotomies) – Information for Parents"
+ },
+ "release-of-tongue-tie-ent-advice-for-parents": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "b14a1afc20db947b",
+  "status": "no-date",
+  "title": "Release of Tongue Tie (ENT) – Advice for Parents"
+ },
+ "release-of-trigger-thumb-finger-information-for-parents": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "8af0b93fce2b7f70",
+  "status": "no-date",
+  "title": "Release of Trigger Thumb/Finger- Information for Parents"
+ },
+ "relieving-constipation-and-promoting-healthy-bowels-improving-you-bowel-health": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "a0891416c019f882",
+  "status": "no-date",
+  "title": "Relieving constipation and promoting healthy bowels – Improving you bowel health"
+ },
+ "removal-facial-skin-lesion": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "e9099bc29f3a19e4",
+  "status": "no-date",
+  "title": "Removal of Facial Skin Lesion"
+ },
+ "removal-of-grommet-adult-advice-sheet": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "b0838baa733bfb62",
+  "status": "no-date",
+  "title": "Removal of Grommet (Adult) – Advice Sheet"
+ },
+ "removal-of-grommet-bobbin-or-t-tube-child-advice-for-parents": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "25a5897c5351a633",
+  "status": "no-date",
+  "title": "Removal of Grommet / Bobbin or T-Tube (Child) – Advice for Parents"
+ },
+ "removal-of-k-wires-information-for-parents": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "96662fb21a081388",
+  "status": "no-date",
+  "title": "Removal of K Wires- Information for Parents"
+ },
+ "removal-of-metalwork-information-for-parents": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "adb4979640221308",
+  "status": "no-date",
+  "title": "Removal of Metalwork- Information for Parents"
+ },
+ "removal-parotid-gland": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "01007008b8e388b6",
+  "status": "no-date",
+  "title": "Removal of Parotid Gland"
+ },
+ "removal-submandibular-gland": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "f3edf4eb52447787",
+  "status": "no-date",
+  "title": "Removal of Submandibular Gland"
+ },
+ "removal-wisdom-teeth": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "6936f6897ac8ec60",
+  "status": "no-date",
+  "title": "Removal of Wisdom Teeth (Third Molars)"
+ },
+ "renal-anaemia-management-patient-guide-iron-epo-therapy": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "58c1480cd7379dab",
+  "status": "no-date",
+  "title": "Renal Anaemia Management – A Patient Guide to Anaemia Treatments"
+ },
+ "renal-food-diary-providing-information-on-your-usual-diet-for-your-nutritional-care": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "2f63be07aaa62f73",
+  "status": "no-date",
+  "title": "Renal Food Diary – Providing information on your usual diet for your nutritional care"
+ },
+ "retinal-detachment-surgery": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "d3d0ab2ad19cce6f",
+  "status": "no-date",
+  "title": "Retinal Detachment Surgery"
+ },
+ "retinal-photodynamic-therapy-pdt": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "caf207fab3141c9d",
+  "status": "no-date",
+  "title": "Retinal Photodynamic Therapy (PDT)"
+ },
+ "retinopathy-of-prematurity": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "52ec5008bdf88413",
+  "status": "no-date",
+  "title": "Retinopathy of Prematurity – ROP Screening on the Neonatal Unit"
+ },
+ "return-to-sport-following-a-first-time-shoulder-dislocation": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "3144850f14009e71",
+  "status": "no-date",
+  "title": "Return To Sport: Following a first-time shoulder dislocation."
+ },
+ "rhinoplasty-discharge-advice": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "5369dc73c2ef04ec",
+  "status": "no-date",
+  "title": "Rhinoplasty – Discharge Advice"
+ },
+ "right-heart-catheterisation": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "b8988b8aa867124e",
+  "status": "no-date",
+  "title": "Right Heart Catheterisation"
+ },
+ "risks-benefits-cataract-surgery": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "ed901d489b6176b7",
+  "status": "no-date",
+  "title": "Risks and Benefits of Cataract Surgery"
+ },
+ "rituximab": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "aebbe2a998197319",
+  "status": "no-date",
+  "title": "Rituximab"
+ },
+ "robotic-thoracic-lung-resection-surgery": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "4889fd860caf3130",
+  "status": "no-date",
+  "title": "Robotic Thoracic Lung Resection Surgery"
+ },
+ "routine-testing-for-hepatitis-b-hepatitis-c-and-hiv-in-emergency-departments": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "37899f7402f4a165",
+  "status": "no-date",
+  "title": "Routine testing for Hepatitis B, Hepatitis C and HIV in Emergency Departments"
+ },
+ "routine-vision-screening": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "3d33e0ab598daf1c",
+  "status": "no-date",
+  "title": "Routine Vision Screening"
+ },
+ "sacroiliac-joint-injections": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "11944bcaec961969",
+  "status": "no-date",
+  "title": "Sacroiliac Joint Injections"
+ },
+ "safe-use-of-bed-rails-in-community": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "ab4f8a2698196374",
+  "status": "no-date",
+  "title": "Safe use of Bed Rails in Community"
+ },
+ "scalp-puva-gel-phototherapy": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "674f723f40d87bc5",
+  "status": "no-date",
+  "title": "Scalp PUVA Gel Phototherapy"
+ },
+ "scar-care-information-for-patient-carers-and-relatives": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "cac48e2e776a399c",
+  "status": "no-date",
+  "title": "Scar Care: Information for Patient, Carers and Relatives"
+ },
+ "scar-information": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "123951715210b04c",
+  "status": "no-date",
+  "title": "Scar Information – Caring For Your Scar"
+ },
+ "screening-tests-baby": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "39a0cd6f7962c662",
+  "status": "no-date",
+  "title": "Screening Tests For You And Your Baby"
+ },
+ "sedation-information-for-patients-undergoing-pain-procedures": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "6070d62f136b819e",
+  "status": "no-date",
+  "title": "Sedation information for patients undergoing pain procedures"
+ },
+ "seizure-in-adults": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "0b885f09817805f0",
+  "status": "no-date",
+  "title": "Seizure in Adults"
+ },
+ "selective-laser-trabeculoplasty-slt": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "df81350a6dce3f69",
+  "status": "no-date",
+  "title": "Selective Laser Trabeculoplasty (SLT)"
+ },
+ "sensitive-arrangements-following-loss-baby-information-parents": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "d942e3c1f4a17a3b",
+  "status": "no-date",
+  "title": "Sensitive Arrangements Following the Loss of a Baby – Information for Parents"
+ },
+ "sensitive-disposal-arrangements-pregnancy-remains": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "3890d79e6cee4caf",
+  "status": "no-date",
+  "title": "Sensitive Disposal Arrangements for Pregnancy Remains"
+ },
+ "sentinel-lymph-node-biopsy-malignant-melanoma": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "7941b50e1197e3db",
+  "status": "no-date",
+  "title": "Sentinel Lymph Node Biopsy – Malignant Melanoma"
+ },
+ "sentinel-lymph-node-surgery": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "e7fca532cf97da2f",
+  "status": "no-date",
+  "title": "Sentinel Lymph Node Biopsy"
+ },
+ "sepsis-safety-netting-advice-for-adults-aged-16-years": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "86e04f30eddb2bd6",
+  "status": "no-date",
+  "title": "Sepsis Safety Netting Advice: For Adults (aged 16+ years)"
+ },
+ "sepsis-safety-netting-advice-for-children-aged-0-15-years-old-their-parents-guardian": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "8c6162667e3ae5c1",
+  "status": "no-date",
+  "title": "Sepsis Safety Netting Advice: For Children (aged 0 to 15 years old) and their Parents/Guardian"
+ },
+ "sepsis-telephone-clinic": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "664e9780fdcd07e5",
+  "status": "no-date",
+  "title": "Sepsis Follow-Up Telephone Clinic"
+ },
+ "short-synacthen-test": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "1a0066c55d9b7381",
+  "status": "no-date",
+  "title": "Short Synacthen Test"
+ },
+ "shoulder-dystocia": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "1c937d2d82786deb",
+  "status": "no-date",
+  "title": "Shoulder dystocia"
+ },
+ "shoulder-injection-therapy": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "2497e43447feaff7",
+  "status": "no-date",
+  "title": "Injection Therapy"
+ },
+ "shrinker-socks": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "7c9687ff4712976b",
+  "status": "no-date",
+  "title": "Shrinker Socks"
+ },
+ "sight-loss-what-we-needed-to-know": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "98dc40f4133e0b51",
+  "status": "no-date",
+  "title": "Sight loss: What we needed to know"
+ },
+ "skin-nodal-self-examination": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "6c3ee6dd5d6ebb6d",
+  "status": "no-date",
+  "title": "Skin and Nodal Self Examination"
+ },
+ "skin-tunnelled-lines": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "dbf8f05d0e3e5a32",
+  "status": "no-date",
+  "title": "Skin Tunnelled Line placement for parenteral nutrition of intravenous fluids"
+ },
+ "slit-lamp-examination": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "4abf1b35b1abe6a3",
+  "status": "no-date",
+  "title": "Slit Lamp Examination"
+ },
+ "small-bowel-capsule-endoscopy": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "c05deb236938613c",
+  "status": "no-date",
+  "title": "Small Bowel Capsule Endoscopy"
+ },
+ "smoking": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "47308ef497d4b066",
+  "status": "no-date",
+  "title": "Smoking"
+ },
+ "soft-tissue-injury-ankle-sprain": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "c73b955087cb2f79",
+  "status": "no-date",
+  "title": "Soft Tissue Injury: Ankle Sprain"
+ },
+ "soft-tissue-injury-calf-strain": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "8f22386a89691a5d",
+  "status": "no-date",
+  "title": "Soft Tissue Injury: Calf Strain"
+ },
+ "soft-tissue-injury-elbow": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "3077339a35bed1bb",
+  "status": "no-date",
+  "title": "Soft Tissue Injury: Elbow"
+ },
+ "soft-tissue-injury-finger": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "a19544638822fecc",
+  "status": "no-date",
+  "title": "Soft Tissue Injury: Finger"
+ },
+ "soft-tissue-injury-knee": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "ebd4ebd31bac6c30",
+  "status": "no-date",
+  "title": "Soft Tissue Injury: Knee"
+ },
+ "soft-tissue-injury-neck-pain": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "520be4802c6e5488",
+  "status": "no-date",
+  "title": "Neck Pain"
+ },
+ "soft-tissue-injury-shoulder": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "e51946d0c8aee15f",
+  "status": "no-date",
+  "title": "Soft Tissue Injury: Shoulder"
+ },
+ "soft-tissue-injury-thumb": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "766336b2420cc73b",
+  "status": "no-date",
+  "title": "Soft Tissue Injury: Thumb"
+ },
+ "soft-tissue-injury-use-of-elbow-crutches": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "6b2211ef2d9508e2",
+  "status": "no-date",
+  "title": "Use of Elbow Crutches"
+ },
+ "soft-tissue-injury-wrist-hand": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "1df4defba4fc5f26",
+  "status": "no-date",
+  "title": "Soft Tissue Injury: Wrist and Hand"
+ },
+ "sound-sensitivity-in-children": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "54f8e299ae51bea6",
+  "status": "no-date",
+  "title": "Sound Sensitivity in Children (Hyperacusis)"
+ },
+ "specialist-continence-pelvic-floor-service": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "ca317da0274693ce",
+  "status": "no-date",
+  "title": "Specialist Continence and Pelvic Floor Service"
+ },
+ "specialist-pain-psychology": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "827465a54d828499",
+  "status": "no-date",
+  "title": "Pain Psychology"
+ },
+ "specialist-palliative-care-team": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "8fc24b5ea5c45e21",
+  "status": "no-date",
+  "title": "Hospital Specialist Palliative Care Team"
+ },
+ "spinal-bracing-aftercare": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "0a9bcc9dbaf2c9bb",
+  "status": "no-date",
+  "title": "Managing your Recent Spinal Fracture"
+ },
+ "spinal-fracture-pathway-patient-initiated-follow-up-pifu": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "a6996d8ece0e15e4",
+  "status": "no-date",
+  "title": "Spinal Fracture Pathway Patient-Initiated Follow-Up (PIFU)"
+ },
+ "spiritual-pastoral-care": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "1f9468725620d4c8",
+  "status": "no-date",
+  "title": "Pastoral and Spiritual Care"
+ },
+ "splint-management-care-patients-carers-patients-splints": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "04a35a678b0424aa",
+  "status": "no-date",
+  "title": "Splint Management Care – For Patients/Carers Of Patients With Splints"
+ },
+ "sports-eyewear": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "a25cfd096607cebd",
+  "status": "no-date",
+  "title": "Sports Eyewear"
+ },
+ "squints-squint-surgery-adults": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "e0ec79c9f8158380",
+  "status": "no-date",
+  "title": "Squints and Squint Surgery in Adults"
+ },
+ "squints-squint-surgery-children": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "2d37c1098dbf47de",
+  "status": "no-date",
+  "title": "Squints and Squint Surgery in Children"
+ },
+ "standing-frame-information": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "2770d2947b93e6af",
+  "status": "no-date",
+  "title": "Standing Frame Information"
+ },
+ "stellate-ganglion-block": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "9dc3d0ecb0317f74",
+  "status": "no-date",
+  "title": "Stellate Ganglion Block"
+ },
+ "stereotactic-ablative-body-radiotherapy-sabr-to-the-prostate": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "530a817c0d974540",
+  "status": "no-date",
+  "title": "Stereotactic Ablative Body Radiotherapy (SABR) to the Prostate"
+ },
  "steroid-deficiency-information": {
   "checked": "2026-07-23T02:30:21+01:00",
   "content_hash": "580d8134be43f290",
   "status": "no-date",
   "title": "BSPED Adrenal Insufficiency Consensus Guidelines"
+ },
+ "stoma-care-advice-following-laryngectomy": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "07ceee4aa9d52d47",
+  "status": "no-date",
+  "title": "Stoma Care advice following Laryngectomy"
+ },
+ "suction-clearance-examination-under-anaesthetic-eua-of-the-ears-advice-for-parents": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "08e1f486d7148ae3",
+  "status": "no-date",
+  "title": "Suction Clearance / Examination under Anaesthetic (EUA) of the Ears Advice for Parents"
+ },
+ "sudden-sensorineural-hearing-loss-ssnhl": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "b2ef03cc41f850ea",
+  "status": "no-date",
+  "title": "Sudden Sensorineural Hearing Loss (SSNHL)"
+ },
+ "supplementary-sheet-down-syndrome": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "2b86c2cd13d66fc7",
+  "status": "no-date",
+  "title": "Supplementary Sheet – Down Syndrome"
+ },
+ "supplementary-sheet-surrogacy": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "0fbf2ec80e2d9319",
+  "status": "no-date",
+  "title": "Supplementary Sheet – Surrogacy"
+ },
+ "supported-self-management-follow-up-for-breast-cancer-and-ductal-carcinoma-in-situ-dcis": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "c911cf7aaa685cef",
+  "status": "no-date",
+  "title": "Supported Self-Management – Follow Up for Breast Cancer and Ductal Carcinoma In-Situ (DCIS)"
+ },
+ "supporting-choices-for-pregnancy-and-birth": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "19cbe611a06abf76",
+  "status": "no-date",
+  "title": "Supporting Choices for Pregnancy and Birth"
+ },
+ "surgery-pelvic-mass": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "cacb6a5a6be22f7a",
+  "status": "no-date",
+  "title": "Surgery for Pelvic Mass – Information For Patients"
+ },
+ "surgery-vulval-cancer": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "36ff56aa45abe04d",
+  "status": "no-date",
+  "title": "Surgery For Vulval Cancer"
+ },
+ "surgical-management-ectopic-pregnancy": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "b6f7e76b4a7844bb",
+  "status": "no-date",
+  "title": "Surgical Management of an Ectopic Pregnancy"
+ },
+ "surgical-termination-pregnancy-local-general-anaesthetic": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "7695c19857699f2d",
+  "status": "no-date",
+  "title": "Surgical Termination of Pregnancy (Local and General Anaesthetic)"
+ },
+ "suspected-scaphoid-fracture-advice-regarding-healing-and-recovery": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "64451784d1afece8",
+  "status": "no-date",
+  "title": "Suspected Scaphoid fracture – Advice regarding healing and recovery"
+ },
+ "swallowed-objects": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "876f1993e4d30d0b",
+  "status": "no-date",
+  "title": "Swallowed Objects"
+ },
+ "swallowing-and-voice-problems-after-anterior-cervical-surgery": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "77de5bef2215fda5",
+  "status": "no-date",
+  "title": "Swallowing and Voice Problems after Anterior Cervical Surgery"
+ },
+ "sweat-tests-scarborough-hull-york-pathology-service": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "fc997eaa131743f7",
+  "status": "no-date",
+  "title": "Sweat Tests (Scarborough Hull York Pathology Service)"
+ },
+ "syphilis-positive-screening-result-mean": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "9245e23b5e719d50",
+  "status": "no-date",
+  "title": "Syphilis: What Does My Positive Screening Result Mean?"
+ },
+ "taking-care-of-your-skin": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "b452342a2933d3e0",
+  "status": "no-date",
+  "title": "Taking care of your skin"
+ },
+ "talipes-calcaneo-valgus": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "435c2efb20863956",
+  "status": "no-date",
+  "title": "Talipes Calcaneo Valgus"
+ },
+ "taste-changes": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "76ecd3425520cb90",
+  "status": "no-date",
+  "title": "Taste changes"
+ },
+ "telemetry-electroencephalogram-eeg": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "a1c66081a60693ee",
+  "status": "no-date",
+  "title": "Telemetry Electroencephalogram (EEG) – Child"
+ },
+ "telephone-advice-line-01482-674674-multiple-sclerosis-nursing-service": {
+  "checked": "2026-07-28T02:30:44+01:00",
+  "content_hash": "3ea249fa3b1147b1",
+  "status": "no-date",
+  "title": "Multiple Sclerosis Nursing Service – Telephone Advice Line"
+ },
+ "temporary-sacral-nerve-neuromodulation-treatment-urinary-disorders-faecal-incontinence-constipation-pelvic-floor-disorders-pain": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "3f7e58ae61629f82",
+  "status": "no-date",
+  "title": "Temporary Sacral Nerve Neuromodulation – For the treatment of faecal incontinence and urgency."
+ },
+ "tendon-repairs-what-to-expect-next": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "24f2fbf64b61fe55",
+  "status": "no-date",
+  "title": "Tendon Repairs: What to expect next"
+ },
+ "termination-of-pregnancy-information-for-partner-carers": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "861ba5fdaf7b013b",
+  "status": "no-date",
+  "title": "Termination of Pregnancy – Information for Partner/Carers/Supporting Adults"
+ },
+ "tetanus-advice-sheet": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "41c729eec6b3f98d",
+  "status": "no-date",
+  "title": "Tetanus Advice Sheet"
  },
  "the-anlaby-suite": {
   "checked": "2026-07-23T02:30:21+01:00",
@@ -1979,10 +5346,758 @@
   "status": "no-date",
   "title": "Child Protection – The Anlaby Suite"
  },
+ "the-duchess-of-kent-day-surgery-unit-advice-for-parents": {
+  "checked": "2026-07-27T02:30:19+01:00",
+  "content_hash": "44ddda27b6581212",
+  "status": "no-date",
+  "title": "Important Information about coming to Day Surgery – Paediatrics"
+ },
+ "the-frailty-intervention-team-fit": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "919c5ac3162ba615",
+  "status": "no-date",
+  "title": "The Frailty Intervention Team (FIT)"
+ },
+ "the-role-of-botulinum-toxin": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "b921550ca9302e18",
+  "status": "no-date",
+  "title": "The role of Botulinum Toxin"
+ },
+ "the-treatment-of-amblyopia-lazy-eye-by-atropine": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "6c6ecc4b14381534",
+  "status": "no-date",
+  "title": "The Treatment of Amblyopia (Lazy Eye) by Atropine"
+ },
+ "the-treatment-of-lazy-eye-by-occlusion-therapy-patching": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "17d8dc609dc45dc0",
+  "status": "no-date",
+  "title": "The Treatment of “lazy eye” by occlusion therapy (patching)"
+ },
+ "thermal-radiofrequency-treatmentdenervation": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "d8224069c247d53c",
+  "status": "no-date",
+  "title": "Thermal Radiofrequency Treatment/Denervation"
+ },
+ "thyroid-tests-and-treatments-the-recommended-low-iodine-diet": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "8f5c1fecbc621d8a",
+  "status": "no-date",
+  "title": "Thyroid Tests and Treatments: The Recommended Low Iodine Diet"
+ },
+ "tibial-nerve-neuromodulation-treatment-urinary-disorders-faecal-incontinence-constipation-pelvic-floor-disorders-pain": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "bbfe6b27eb3fb6f5",
+  "status": "no-date",
+  "title": "Percutaneous Tibial Nerve Neuromodulation (PTNS)"
+ },
+ "tips-to-help-with-eating-problems-after-critical-illness": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "516be78fe31a02c5",
+  "status": "no-date",
+  "title": "Tips to help with eating problems after critical illness"
+ },
+ "toddlers-fracture-information-for-parents-and-carers": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "a54d628fd58894c2",
+  "status": "no-date",
+  "title": "Toddler’s Fracture: Information for Parents and Carers"
+ },
+ "toe-injuries": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "32192a3d712b6075",
+  "status": "no-date",
+  "title": "Toe Injuries"
+ },
+ "tongue-tie": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "5a0f0d18b46d192c",
+  "status": "no-date",
+  "title": "Tongue Tie – Information for Parents"
+ },
+ "tongue-tie-information-for-parents": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "8b755d68d26e9df9",
+  "status": "no-date",
+  "title": "Tongue Tie – Information for Parents"
+ },
+ "tonsillectomy-advice-sheet-for-parents": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "a5f9ed4fe4911716",
+  "status": "no-date",
+  "title": "Tonsillectomy in Children"
+ },
+ "tonsillitis": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "95f9d97a93e1877d",
+  "status": "no-date",
+  "title": "Tonsillitis"
+ },
+ "total-hip-replacement-benefits-risks-outcome": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "bb41464abd4c3338",
+  "status": "no-date",
+  "title": "Total Hip Replacement – Benefits, Risks and Outcome"
+ },
+ "total-knee-replacement-arthritis": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "c6bcd46ee40c402c",
+  "status": "no-date",
+  "title": "Total Knee Replacement for Arthritis"
+ },
+ "totally-implantable-venous-access-devices-tivad-port-a-cath": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "34a56cd72ec62f4b",
+  "status": "no-date",
+  "title": "Totally Implantable Venous Access Devices (TIVAD) PORT-A-Cath"
+ },
+ "trabeculectomy-surgery": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "8d3593d1a6fd58b3",
+  "status": "no-date",
+  "title": "Trabeculectomy Surgery"
+ },
+ "trans-urethral-resection-prostate": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "3d92e675d393d169",
+  "status": "no-date",
+  "title": "Trans-Urethral Resection of Prostate"
+ },
+ "transcatheter-aortic-valve-implantation-tavi": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "befacac0fb6d27e5",
+  "status": "no-date",
+  "title": "Transcatheter Aortic Valve Implantation (TAVI)"
+ },
+ "transcatheter-aortic-valve-implantation-tavi-patient-discharge-information-cardiac-services": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "2d29e6c4e22d64e7",
+  "status": "no-date",
+  "title": "Transcatheter Aortic Valve Implantation (TAVI) Patient Discharge Information – Cardiac Services"
+ },
+ "transferring-to-another-hospital-during-pregnancy": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "89aa6622c250b8fd",
+  "status": "no-date",
+  "title": "Transferring to Another Hospital During Pregnancy"
+ },
+ "transitional-care-unit": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "c4e606e600de2697",
+  "status": "no-date",
+  "title": "Transitional Care Unit – Information for Parents and Carers"
+ },
+ "transoral-laser-resection-of-the-vocal-cords-advice-for-patients": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "90f10f56a306c9d3",
+  "status": "no-date",
+  "title": "Transoral Laser Resection of the Vocal Cords – Advice for Patients"
+ },
+ "transoral-laser-resection-vocal-cords-advice-patients": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "b76b8b972a1d29d9",
+  "status": "no-date",
+  "title": "Trans-Oral Laser Resection of the Vocal Cords"
+ },
+ "transperineal-ultrasound-guided-prostate-biopsy-under-local-anaesthetic": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "b364c1d2375ece3a",
+  "status": "no-date",
+  "title": "Transperineal Ultrasound Guided Prostate Biopsy under Local Anaesthetic"
+ },
+ "transplant-kidney-biopsy": {
+  "checked": "2026-07-26T02:30:21+01:00",
+  "content_hash": "4f46e4fa86863b83",
+  "status": "no-date",
+  "title": "Having A Transplant Kidney Biopsy"
+ },
+ "treating-haemangiomas-with-propranolol": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "87f0f094d039c15e",
+  "status": "no-date",
+  "title": "Treating Haemangiomas with Propranolol"
+ },
+ "treatment-central-retinal-vein-occlusion-crvo": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "1d1f861b4ca30c21",
+  "status": "no-date",
+  "title": "Treatments for Central Retinal Vein Occlusion (CRVO)"
+ },
+ "treatment-options-branch-retinal-vein-occlusion-brvo-2": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "e7288ee2b0baaca7",
+  "status": "no-date",
+  "title": "Treatment Options for Branch Retinal Vein Occlusion (BRVO)"
+ },
+ "treatment-radium-223-dichloride-xofigo-information-treatment": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "c41a52995afa78fb",
+  "status": "no-date",
+  "title": "Treatment with Radium-223 Dichloride (Xofigo) Information About Your Treatment"
+ },
+ "treatment-with-botulinum-toxin": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "7b42f3092e5af132",
+  "status": "no-date",
+  "title": "Treatment with Botulinum Toxin"
+ },
+ "treatment-with-iodine-131-i-131-for-benign-thyroid-diseases": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "183552e00b43e135",
+  "status": "no-date",
+  "title": "Treatment with Iodine-131 (I-131) for Benign Thyroid Diseases"
+ },
+ "treatment-with-iodine-131-i-131-for-thyroid-cancer": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "806a80e301229a4b",
+  "status": "no-date",
+  "title": "Treatment with Iodine-131 (I-131) for Thyroid Cancer"
+ },
+ "treatments": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "1a9a1e4db5d6811b",
+  "status": "no-date",
+  "title": "Treatment for macular conditions"
+ },
+ "treatments-patients-diabetic-macular-oedema-dmo": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "e3aae5ca76f46b82",
+  "status": "no-date",
+  "title": "Treatments for Patients with Diabetic Macular Oedema (DMO)"
+ },
+ "treatments-patients-wet-age-related-macular-degeneration": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "6a4ba9b607e6b989",
+  "status": "no-date",
+  "title": "Treatments for Patients with Wet Age-Related Macular Degeneration"
+ },
+ "trial-without-catheter": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "e0ef9b313f82a002",
+  "status": "no-date",
+  "title": "Trial Without Catheter"
+ },
+ "tricylics-antidepressants-pain-relief": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "dd55c9b7ed119506",
+  "status": "no-date",
+  "title": "Tricyclics Anti-depressants for Pain Relief"
+ },
+ "tunnelled-haemodialysis-line-insertion": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "568636c536486d0f",
+  "status": "no-date",
+  "title": "Tunnelled Haemodialysis Line Insertion"
+ },
+ "undergoing-awake-craniotomy": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "903d22d521a43373",
+  "status": "no-date",
+  "title": "Undergoing an Awake Craniotomy"
+ },
+ "undergoing-hysteroscopy-outpatient-department": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "94193e49ec48fa16",
+  "status": "no-date",
+  "title": "Undergoing a Hysteroscopy in the Outpatient Department"
+ },
+ "understanding-and-interacting-with-people-in-post-traumatic-amnesia": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "1475a05d7b2d4fc5",
+  "status": "no-date",
+  "title": "Understanding and Interacting with People in Post-Traumatic Amnesia"
+ },
+ "understanding-care-in-the-last-days-of-life": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "e287015419c635ca",
+  "status": "no-date",
+  "title": "Understanding Care in the Last Days of life"
+ },
+ "understanding-neuro-oncology-multi-disciplinary-team": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "924e53d5fd08d390",
+  "status": "no-date",
+  "title": "Understanding the Neuro-oncology Multi-Disciplinary Team (MDT)"
+ },
+ "understanding-thoracic-aortic-aneurysm": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "669823293637dda4",
+  "status": "no-date",
+  "title": "Understanding Thoracic Aortic Aneurysm"
+ },
  "understanding-your-ward-move": {
   "checked": "2026-07-24T17:28:27+01:00",
   "content_hash": "0095b1c6576b18d2",
   "status": "no-date",
   "title": "During your hospital stay"
+ },
+ "undisplaced-great-toe-fracture-advice-regarding-healing-and-recovery": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "e32b6bf3077e425f",
+  "status": "no-date",
+  "title": "Undisplaced Great Toe Fracture – Advice regarding healing and recovery"
+ },
+ "unlicensed-off-label-medicines": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "7247d491060c157e",
+  "status": "no-date",
+  "title": "“Unlicensed” and “Off-Label” Medicines"
+ },
+ "updated-advice-on-covid-19-vaccination-in-pregnancy-and-women-who-are-breastfeeding": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "260291f7d56a8c5d",
+  "status": "no-date",
+  "title": "Updated advice on COVID-19 vaccination in pregnancy and women who are breastfeeding"
+ },
+ "upper-body-lymphoedema": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "9449b221807996c7",
+  "status": "no-date",
+  "title": "Upper Body Lymphoedema"
+ },
+ "upper-gastrointestinal-gi-endoscopy": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "a4ba652469f4769a",
+  "status": "no-date",
+  "title": "Upper Gastrointestinal (GI) Endoscopy"
+ },
+ "upper-gi-sedation-advice-sheet": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "78a3c01b6f50a111",
+  "status": "no-date",
+  "title": "Upper GI Sedation Report and Useful Information"
+ },
+ "upper-limb-cast-care-information-patientscarers-patient": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "0de7fd405d9623df",
+  "status": "no-date",
+  "title": "Upper Limb Cast Care Information – For Patients and Carers of a Patient"
+ },
+ "upper-limb-plaster-of-paris-cast-care-information": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "6c6a983d830c7355",
+  "status": "no-date",
+  "title": "Upper Limb Plaster of Paris Cast Care Information"
+ },
+ "ureteric-stent-removal-local-anaesthetic-discharge-advice": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "df8e5ada5744935b",
+  "status": "no-date",
+  "title": "Ureteric Stent Removal under Local Anaesthetic – Discharge Advice"
+ },
+ "urgent-two-week-wait-referral-hospital-information-patients": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "a4c61d23b58f6dac",
+  "status": "no-date",
+  "title": "‘Urgent Suspected Cancer’ Referral to Hospital – Information for Patients"
+ },
+ "urticaria-and-angioedema": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "d1d6ca325d767ac4",
+  "status": "no-date",
+  "title": "Urticaria and Angioedema – Information for Parents and Carers"
+ },
+ "using-artificial-larynx-advice-sheet": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "0ad0b524accfe4dd",
+  "status": "no-date",
+  "title": "Using an Artificial Larynx – Advice Sheet"
+ },
+ "using-glyceryl-trinitrate-gtn-spray-to-treat-your-chest-pain": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "4c5d84ae3c56d7ed",
+  "status": "no-date",
+  "title": "Using Glyceryl Trinitrate (GTN) spray to treat your chest pain"
+ },
+ "using-glyceryl-trinitrate-gtn-tablets-to-treat-chest-pain": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "f70c28805a6d79cc",
+  "status": "no-date",
+  "title": "Using Glyceryl Trinitrate (GTN) tablets to treat chest pain"
+ },
+ "using-technology": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "eeac2798a02f8b56",
+  "status": "no-date",
+  "title": "Using Technology"
+ },
+ "using-your-inhaler-with-a-spacer": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "a73009c2c5ceda80",
+  "status": "no-date",
+  "title": "Using your Inhaler with a Spacer"
+ },
+ "vacuum-assisted-biopsy-vab": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "a74678ae0eeeb691",
+  "status": "no-date",
+  "title": "Vacuum Assisted Biopsy (VAB)"
+ },
+ "vaginal-brachytherapy": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "fdb8f15803458595",
+  "status": "no-date",
+  "title": "Vaginal Brachytherapy"
+ },
+ "vaginal-dilator-information-leaflet": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "fc77cba7b13d6d94",
+  "status": "no-date",
+  "title": "Vaginal Dilator Information"
+ },
+ "vancomycin-resistant-enterococci-vre": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "dcf3a450894fcdc9",
+  "status": "no-date",
+  "title": "Vancomycin Resistant Enterococci (VRE)"
+ },
+ "varicocele-embolisation": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "b0b2fe85911937af",
+  "status": "no-date",
+  "title": "Varicocele Embolisation"
+ },
+ "vascular-surgery-treatment-of-the-superficial-veins-of-the-leg-including-radiofrequency-ablation-laser-ablation-foam-sclerotherapy-surgical-ligation-and-stripping-phlebectomy-endovenous-glue": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "2a769287131cebbe",
+  "status": "no-date",
+  "title": "Vascular Surgery – Treatment of the Superficial Veins of the Leg including: Radiofrequency Ablation, Laser Ablation, Foam Sclerotherapy, Surgical Ligation and Stripping, Phlebectomy, Endovenous Glue"
+ },
+ "venous-thromboembolism-vte": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "27d504e6f97dc925",
+  "status": "no-date",
+  "title": "Venous Thromboembolism (VTE) – Information For Women About VTE Prevention And Reducing The Risk In Pregnancy And The Postnatal Period"
+ },
+ "venous-thromboembolism-vte-reducing-risk": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "e997928d6184d27c",
+  "status": "no-date",
+  "title": "Venous Thromboembolism (VTE) – Reducing the Risk"
+ },
+ "venous-thromboembolism-vte-reducing-the-risk-orthopaedic-department": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "6d6af096b3dbd6d3",
+  "status": "no-date",
+  "title": "Venous Thromboembolism (VTE) Reducing the Risk– Orthopaedic Department"
+ },
+ "vertebroplasty-procedure": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "54a04e3e68fcd58e",
+  "status": "no-date",
+  "title": "Vertebroplasty Procedure"
+ },
+ "vestibular-physiotherapy-outpatients": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "19b1f58d7749af78",
+  "status": "no-date",
+  "title": "Vestibular Physiotherapy Outpatients"
+ },
+ "vestibular-physiotherapy-outpatients-patient-initiated-follow-up-pifu": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "8ce59ae3c5863ced",
+  "status": "no-date",
+  "title": "Vestibular Physiotherapy Outpatients: Patient Initiated Follow UP (PIFU)"
+ },
+ "vestibulodynia": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "e6a59e66ca027ec8",
+  "status": "no-date",
+  "title": "Vestibulodynia"
+ },
+ "veteransreservists-dependents-can-help": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "ceba2da85c52de8d",
+  "status": "no-date",
+  "title": "Veterans/Reservists and Dependents – How you can help"
+ },
+ "video-assisted-pleural-lung-biopsy-leaflet": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "8506ec8a96acbb1e",
+  "status": "no-date",
+  "title": "Video Assisted Pleural Lung Biopsy leaflet"
+ },
+ "videofluoroscopy": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "4b03263c081cc314",
+  "status": "no-date",
+  "title": "Videofluoroscopy"
+ },
+ "viral-induced-wheeze": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "51c4fc87b7727be6",
+  "status": "no-date",
+  "title": "Viral Induced Wheeze"
+ },
+ "virtual-fracture-clinic-knee-soft-tissue-injury": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "7896003d4065a098",
+  "status": "no-date",
+  "title": "Virtual Fracture Clinic: Knee Soft Tissue Injury"
+ },
+ "virtual-fracture-clinic-referral": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "1bc91a470279946b",
+  "status": "no-date",
+  "title": "Virtual Fracture Clinic Referral"
+ },
+ "virtual-fracture-clinic-shoulder-soft-tissue-injury": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "b4e714e073223d3b",
+  "status": "no-date",
+  "title": "Virtual Fracture Clinic: Shoulder Soft Tissue Injury"
+ },
+ "visiting-and-birth-companions-on-rowan-ward": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "40078ee114ba489a",
+  "review_due": "2026-04",
+  "review_due_text": "April 2026",
+  "status": "ok",
+  "title": "Visiting and Birth Companions on Rowan Ward"
+ },
+ "visiting-patients-in-hospital": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "1365ff2b2f7eb3c4",
+  "status": "no-date",
+  "title": "Visiting Patients in Hospital"
+ },
+ "visual-hallucinations": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "e3b715b2efe5e86f",
+  "status": "no-date",
+  "title": "Visual Hallucinations"
+ },
+ "vitamin-k-konakion-mm-babies-information-parents": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "ca576e0ce5a8bf93",
+  "status": "no-date",
+  "title": "Vitamin K (Konakion MM) For Babies – Information For Parents"
+ },
+ "vitrectomy-surgery-2": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "5083b25f5a75260f",
+  "status": "no-date",
+  "title": "Vitrectomy Surgery"
+ },
+ "voice-clinics": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "defa461c30d0adc2",
+  "status": "no-date",
+  "title": "Voice Clinics – Information for Patients"
+ },
+ "volar-plate-injury-of-the-finger-patient-initiated-follow-up-pifu": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "4823aceb15a36dce",
+  "status": "no-date",
+  "title": "Volar Plate Injury of the Finger – Patient Initiated Follow-up (PIFU)"
+ },
+ "vulval-discomfort": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "8924d5d754f51be0",
+  "status": "no-date",
+  "title": "Vulval Discomfort"
+ },
+ "vulvoscopy-andor-vulval-biopsy": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "61a8df952539ade6",
+  "status": "no-date",
+  "title": "Vulvoscopy and / or Vulval Biopsy"
+ },
+ "ward-16-castle-hill-hospital": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "42f550e0ca61cb32",
+  "status": "no-date",
+  "title": "Ward 16, Castle Hill Hospital"
+ },
+ "water-deprivation-test": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "80234c394a36cdc0",
+  "status": "no-date",
+  "title": "Water Deprivation Test"
+ },
+ "wear-x-ray-orthopaedic-outpatient-department": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "fef07990114f319c",
+  "status": "no-date",
+  "title": "What To Wear For An X-ray? – Orthopaedic Outpatient Department"
+ },
+ "weber-a-fracture-of-the-fibula-ankle-advice-regarding-healing-and-recovery": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "76ca53c04984bce2",
+  "status": "no-date",
+  "title": "Weber A Fracture of the Fibula (Ankle) – Advice regarding healing and recovery"
+ },
+ "welcome-acute-medical-unit-amu": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "4bbe39d60f41d1ae",
+  "status": "no-date",
+  "title": "Welcome to the Acute Medical Unit (AMU)"
+ },
+ "welcome-ambulatory-care-unit-acu": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "99016a9104b62992",
+  "status": "no-date",
+  "title": "Welcome to the Same Day Care Unit (SDCU"
+ },
+ "welcome-orthoptic-department": {
+  "checked": "2026-07-30T02:30:31+01:00",
+  "content_hash": "c66103dcda67b890",
+  "status": "no-date",
+  "title": "Welcome to the Orthoptic Department"
+ },
+ "welcome-to-ward-39-cardiology": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "0cc3048508833169",
+  "status": "no-date",
+  "title": "Welcome to Ward 39 (Cardiology)"
+ },
+ "what-is-a-forceps-birth-information-for-patients-easy-read": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "a7cbaca0f4d6006b",
+  "status": "no-date",
+  "title": "What is a Forceps Birth? Information for patients (Easy Read)"
+ },
+ "what-is-a-ventouse-birth-information-for-patients-easy-read": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "48f7cc643f97d417",
+  "status": "no-date",
+  "title": "What is a Ventouse Birth? Information for patients (Easy Read)"
+ },
+ "what-is-abuse": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "600ed347b443f610",
+  "status": "no-date",
+  "title": "What is Abuse?"
+ },
+ "when-treatment-ends": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "0778639b6111a175",
+  "status": "no-date",
+  "title": "When Treatment Ends…"
+ },
+ "where-should-i-have-my-baby": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "b24aafe8878d243d",
+  "review_due": "2026-04",
+  "review_due_text": "April 2026",
+  "status": "ok",
+  "title": "Where Should I Have My Baby?"
+ },
+ "working-together-patients-carers-prevent-pressure-ulcers-2": {
+  "checked": "2026-07-29T02:30:51+01:00",
+  "content_hash": "b5f566beacb10364",
+  "status": "no-date",
+  "title": "Preventing Pressure Ulcers – Working Together with Patients and Carers to Prevent Pressure Ulcers"
+ },
+ "wound-care-instructions-following-minor-surgery": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "a5dd1cfc3e3ee254",
+  "status": "no-date",
+  "title": "Wound Care – Instructions following minor surgery"
+ },
+ "wound-closure": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "3bf1664cd5e75fcd",
+  "status": "no-date",
+  "title": "Wound Closure"
+ },
+ "wrist-and-hand-soft-tissue-injury-pifu": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "beba176da1c0f0ec",
+  "status": "no-date",
+  "title": "Wrist and Hand Soft Tissue Injury (PIFU)"
+ },
+ "you-and-your-anaesthetic": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "e0134a470e04cacd",
+  "status": "no-date",
+  "title": "You And Your Anaesthetic"
+ },
+ "your-care-in-the-gynaecology-department-during-the-covid-19-pandemic": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "e09aee0ce6af766f",
+  "status": "no-date",
+  "title": "Your care in the Gynaecology Department during the COVID-19 Pandemic"
+ },
+ "your-childs-glasses-information-for-parents-and-guardians": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "42c4288bc1ddc2c3",
+  "status": "no-date",
+  "title": "Your Child’s Glasses – Information for Parents and Guardians"
+ },
+ "your-guide-to-age-related-macular-degeneration-amd": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "20936528c1df57ec",
+  "status": "no-date",
+  "title": "Your guide to Age-Related Macular Degeneration (AMD)"
+ },
+ "your-guide-to-contraceptive-choices-after-youve-had-your-baby": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "5553ba082689c9df",
+  "status": "no-date",
+  "title": "Your guide to Contraceptive Choices-after you’ve had your Baby"
+ },
+ "your-guide-to-diabetic-macular-oedema": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "ad5b71eedeb4e2bf",
+  "status": "no-date",
+  "title": "Your Guide to Diabetic Macular Oedema"
+ },
+ "your-guide-to-making-the-most-of-your-food-advice-for-patients-and-carers": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "e9b3cab1c3e16309",
+  "status": "no-date",
+  "title": "Your Guide To Making the Most of Your Food – advice for patients and carers"
+ },
+ "your-guide-to-parenteral-nutrition-pn": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "ebac36d196f7045b",
+  "status": "no-date",
+  "title": "Your Guide to Parenteral Nutrition (PN)"
+ },
+ "your-hospital-discharge-another-place-of-care": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "970a0ad3194b6f40",
+  "status": "no-date",
+  "title": "Your hospital discharge: another place of care"
+ },
+ "your-hospital-discharge-going-home": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "c8b261392bb1a12c",
+  "status": "no-date",
+  "title": "Your hospital discharge: going home"
+ },
+ "your-mental-health-in-pregnancy-and-after-birth-information-for-patients-easy-read": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "bb2df1d658a64057",
+  "status": "no-date",
+  "title": "Your mental health in pregnancy and after birth: Information for patients (Easy Read)"
+ },
+ "your-milk-is-medicine": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "1a274dfd3fa20c67",
+  "status": "no-date",
+  "title": "Your Milk is Medicine"
+ },
+ "your-mri-scan": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "e885849dc6c987f8",
+  "status": "no-date",
+  "title": "Your MRI Scan"
+ },
+ "your-visit-to-the-nuclear-medicine-department": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "86cffcb16e7a9f02",
+  "status": "no-date",
+  "title": "Your visit to the Nuclear Medicine Department"
+ },
+ "your-voice-and-how-to-look-after-it": {
+  "checked": "2026-07-31T02:30:24+01:00",
+  "content_hash": "461d9f90f107c879",
+  "status": "no-date",
+  "title": "Your Voice and How To Look After it"
  }
 }
