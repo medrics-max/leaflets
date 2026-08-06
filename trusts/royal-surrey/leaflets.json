@@ -485,9 +485,9 @@
     "slug": "carers-and-comforters-of-a-patient-undergoing-a-diagnostic-nuclear-medicine-study-with-a-ct-scan"
   },
   {
-    "title": "Caring for facial skin wounds",
+    "title": "Caring for facial and other skin wounds",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=2949&media_type=10",
-    "slug": "caring-for-facial-skin-wounds"
+    "slug": "caring-for-facial-and-other-skin-wounds"
   },
   {
     "title": "Caring for skin wounds after surgery",
@@ -875,11 +875,6 @@
     "slug": "dysarthria"
   },
   {
-    "title": "Dysphagia (swallowing problems) – Aspiration vs Choking",
-    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=23387&media_type=10",
-    "slug": "dysphagia-swallowing-problems-aspiration-vs-choking"
-  },
-  {
     "title": "Dysphagia (swallowing problems) – Choking management: Advice for people living in their own homes and those looking after them",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=23746&media_type=10",
     "slug": "dysphagia-swallowing-problems-choking-management-advice-for-people-living-in-their-own-homes-and-those-looking-after-them"
@@ -898,6 +893,11 @@
     "title": "Eating bread and sandwiches when you have dysphagia (swallowing difficulties",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=23391&media_type=10",
     "slug": "eating-bread-and-sandwiches-when-you-have-dysphagia-swallowing-difficulties"
+  },
+  {
+    "title": "Eating, drinking and swallowing when someone is nearing the end of their life",
+    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=30587&media_type=10",
+    "slug": "eating-drinking-and-swallowing-when-someone-is-nearing-the-end-of-their-life"
   },
   {
     "title": "EEG (Electroencephalogram)",
@@ -1390,9 +1390,9 @@
     "slug": "intravenous-iron"
   },
   {
-    "title": "Irritable hip",
+    "title": "Irritable Hip / Transient Synovitis",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=868&media_type=10",
-    "slug": "irritable-hip"
+    "slug": "irritable-hip-transient-synovitis"
   },
   {
     "title": "Jaundice",
@@ -1690,11 +1690,6 @@
     "slug": "patient-advice-liaison-service-pals-complaints"
   },
   {
-    "title": "Patient Lateral Flow guidance",
-    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=17467&media_type=10",
-    "slug": "patient-lateral-flow-guidance"
-  },
-  {
     "title": "Peripherally Inserted Central Catheter (PICC)",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=6057&media_type=10",
     "slug": "peripherally-inserted-central-catheter-picc"
@@ -1748,6 +1743,11 @@
     "title": "Radiotherapy information for patients with Lymphoma",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=991&media_type=10",
     "slug": "radiotherapy-information-for-patients-with-lymphoma"
+  },
+  {
+    "title": "Radiotherapy to the Abdomen",
+    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=992&media_type=10",
+    "slug": "radiotherapy-to-the-abdomen"
   },
   {
     "title": "ReSPECT",

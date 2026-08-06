@@ -40,6 +40,16 @@
     "slug": "pulmonary-rehabilitation-guide-worcestershire-copd-team"
   },
   {
+    "title": "A Parent’s Guide to Auditory Brainstem (ABR) Testing",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/a-parents-guide-to-auditory-brainstem-abr-testing/",
+    "slug": "a-parents-guide-to-auditory-brainstem-abr-testing"
+  },
+  {
+    "title": "A Parent’s Guide to the Audiology Appointment",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/parents-guide-to-the-audiology-appointment/",
+    "slug": "parents-guide-to-the-audiology-appointment"
+  },
+  {
     "title": "A Patients Guide to Enucleation",
     "url": "https://www.worcsacute.nhs.uk/leaflets/a-patients-guide-to-enucleation/",
     "slug": "a-patients-guide-to-enucleation"
@@ -98,6 +108,11 @@
     "title": "Adult Head Injury",
     "url": "https://www.worcsacute.nhs.uk/leaflets/adult-head-injury-waht-pi-2187/",
     "slug": "adult-head-injury-waht-pi-2187"
+  },
+  {
+    "title": "Adult Hyperacusis and Sound Sensitivity",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/adult-hyperacusis-and-sound-sensitivity/",
+    "slug": "adult-hyperacusis-and-sound-sensitivity"
   },
   {
     "title": "Adult oral suction (Yankeur/soft catheter)",
@@ -360,14 +375,39 @@
     "slug": "backache-waht-pi-2107"
   },
   {
+    "title": "Balance and Anxiety",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/balance-and-anxiety/",
+    "slug": "balance-and-anxiety"
+  },
+  {
     "title": "Benign paroxysmal positional vertigo (BPPV)",
     "url": "https://www.worcsacute.nhs.uk/leaflets/benign-paroxysmal-positional-vertigo-bppv-waht-pi-2343/",
     "slug": "benign-paroxysmal-positional-vertigo-bppv-waht-pi-2343"
   },
   {
+    "title": "Better Hearing with Both Ears",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/better-hearing-with-both-ears/",
+    "slug": "better-hearing-with-both-ears"
+  },
+  {
     "title": "Bier’s block (Intravenous Regional Anaesthesia)",
     "url": "https://www.worcsacute.nhs.uk/leaflets/biers-block-intravenous-regional-anaesthesia/",
     "slug": "biers-block-intravenous-regional-anaesthesia"
+  },
+  {
+    "title": "Birch Unit Discharge following Kidney Lesion Biopsy",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/birch-unit-discharge-following-kidney-lesion-biopsy/",
+    "slug": "birch-unit-discharge-following-kidney-lesion-biopsy"
+  },
+  {
+    "title": "Birch Unit Discharge following Perkustay/Pleurex Drain",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/birch-unit-discharge-following-perkustay-pleurex-drain/",
+    "slug": "birch-unit-discharge-following-perkustay-pleurex-drain"
+  },
+  {
+    "title": "Birch Unit Discharge following Surgery",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/birch-unit-discharge-following-surgery/",
+    "slug": "birch-unit-discharge-following-surgery"
   },
   {
     "title": "Bleeding after the menopause (Post-menopausal bleeding)",
@@ -435,6 +475,11 @@
     "slug": "breathing-pattern-disorder"
   },
   {
+    "title": "Breathing to Manage Anxiety",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/breathing-to-manage-anxiety/",
+    "slug": "breathing-to-manage-anxiety"
+  },
+  {
     "title": "Broken Nose",
     "url": "https://www.worcsacute.nhs.uk/leaflets/broken-nose/",
     "slug": "broken-nose"
@@ -493,6 +538,11 @@
     "title": "Burns Injury",
     "url": "https://www.worcsacute.nhs.uk/leaflets/burns-injury-waht-pi-2099-2/",
     "slug": "burns-injury-waht-pi-2099-2"
+  },
+  {
+    "title": "C2 Hear Online – Website Links for Patients",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/c2-hear-online-website-links-for-patients/",
+    "slug": "c2-hear-online-website-links-for-patients"
   },
   {
     "title": "Caesarean Scar Pregnancy",
@@ -685,6 +735,11 @@
     "slug": "comments-compliments-and-complaints-how-are-we-doing-easy-read"
   },
   {
+    "title": "Communication Tactics",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/communication-tactics/",
+    "slug": "communication-tactics"
+  },
+  {
     "title": "Completing Radiotherapy Treatment",
     "url": "https://www.worcsacute.nhs.uk/leaflets/completing-radiotherapy-treatment/",
     "slug": "completing-radiotherapy-treatment"
@@ -693,6 +748,11 @@
     "title": "Conservative Management Cervical Intraepithelial Neoplasia Grade 2 (CIN2)",
     "url": "https://www.worcsacute.nhs.uk/leaflets/conservative-management-cervical-intraepithelial-neoplasia-grade-2-cin2/",
     "slug": "conservative-management-cervical-intraepithelial-neoplasia-grade-2-cin2"
+  },
+  {
+    "title": "Contact Mini Device",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/contact-mini-device/",
+    "slug": "contact-mini-device"
   },
   {
     "title": "Contrast Echocardiography",
@@ -723,6 +783,11 @@
     "title": "CPE (Carbapenease-producing Enterbacteriaceae)- Contact",
     "url": "https://www.worcsacute.nhs.uk/leaflets/cpe-carbapenease-producing-enterbacteriaceae-contact/",
     "slug": "cpe-carbapenease-producing-enterbacteriaceae-contact"
+  },
+  {
+    "title": "Cros Hearing Aid System",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/cros-hearing-aid-system/",
+    "slug": "cros-hearing-aid-system"
   },
   {
     "title": "Croup",
@@ -848,6 +913,11 @@
     "title": "Disease Modifying Anti Rheumatic Drugs (DMARDS) and Blood Test Monitoring Explained",
     "url": "https://www.worcsacute.nhs.uk/leaflets/disease-modifying-anti-rheumatic-drugs-dmards-and-blood-test-monitoring-explained/",
     "slug": "disease-modifying-anti-rheumatic-drugs-dmards-and-blood-test-monitoring-explained"
+  },
+  {
+    "title": "Disposal of Sharps Bins",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/disposal-of-sharps-bins/",
+    "slug": "disposal-of-sharps-bins"
   },
   {
     "title": "Distal Radius Fracture – A Rehabilitation Guide",
@@ -993,6 +1063,11 @@
     "title": "Endoscopic ultrasound (EUS) – Investigative procedure information",
     "url": "https://www.worcsacute.nhs.uk/leaflets/endoscopic-ultrasound-eus/",
     "slug": "endoscopic-ultrasound-eus"
+  },
+  {
+    "title": "Energy Management for Better Balance",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/energy-management-for-better-balance/",
+    "slug": "energy-management-for-better-balance"
   },
   {
     "title": "Enoxaparin",
@@ -1210,6 +1285,11 @@
     "slug": "fractured-pubic-rami-waht-pi-2231"
   },
   {
+    "title": "Furniture Height Request Form",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/furniture-height-request-form/",
+    "slug": "furniture-height-request-form"
+  },
+  {
     "title": "Gastroscopy and Colonoscopy",
     "url": "https://www.worcsacute.nhs.uk/leaflets/gastroscopy-and-colonoscopy/",
     "slug": "gastroscopy-and-colonoscopy"
@@ -1375,6 +1455,21 @@
     "slug": "healthy-weight-advice"
   },
   {
+    "title": "Hearing Aid Battery Collection and Hearing Aid Repairs",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/hearing-aid-battery-collection-and-hearing-aid-repairs/",
+    "slug": "hearing-aid-battery-collection-and-hearing-aid-repairs"
+  },
+  {
+    "title": "Heart Failure Team",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/heart-failure-team/",
+    "slug": "heart-failure-team"
+  },
+  {
+    "title": "Help a Loved One to Better Hearing",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/help-a-loved-one-to-better-hearing/",
+    "slug": "help-a-loved-one-to-better-hearing"
+  },
+  {
     "title": "Helping your child eat better",
     "url": "https://www.worcsacute.nhs.uk/leaflets/helping-your-child-eat-better/",
     "slug": "helping-your-child-eat-better"
@@ -1460,6 +1555,11 @@
     "slug": "how-to-manage-a-flare-of-inflammatory-arthritis"
   },
   {
+    "title": "How to retube your Hearing Aid Ear Mould",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/how-to-retube-your-hearing-aid-ear-mould/",
+    "slug": "how-to-retube-your-hearing-aid-ear-mould"
+  },
+  {
     "title": "How to take Moviprep Bowel Prep",
     "url": "https://www.worcsacute.nhs.uk/leaflets/how-to-take-moviprep-bowel-prep/",
     "slug": "how-to-take-moviprep-bowel-prep"
@@ -1473,6 +1573,11 @@
     "title": "How to take the medications that you have been given along with your chemotherapy?",
     "url": "https://www.worcsacute.nhs.uk/leaflets/how-to-take-the-medications-that-you-have-been-given-along-with-your-chemotherapy/",
     "slug": "how-to-take-the-medications-that-you-have-been-given-along-with-your-chemotherapy"
+  },
+  {
+    "title": "How to use a Doorline Ramp",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/how-to-use-a-doorline-ramp/",
+    "slug": "how-to-use-a-doorline-ramp"
   },
   {
     "title": "How to use Potassium Permanganate solution soaks",
@@ -1815,6 +1920,11 @@
     "slug": "localised-image-guided-wide-local-excision"
   },
   {
+    "title": "Lost Hearing Aid",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/lost-hearing-aid/",
+    "slug": "lost-hearing-aid"
+  },
+  {
     "title": "Low fibre diet",
     "url": "https://www.worcsacute.nhs.uk/leaflets/low-fibre-diet/",
     "slug": "low-fibre-diet"
@@ -2025,6 +2135,11 @@
     "slug": "mindful-eating"
   },
   {
+    "title": "Mindfulness Apps",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/mindfulness-apps/",
+    "slug": "mindfulness-apps"
+  },
+  {
     "title": "Mirena Coil for Heavy Menstrual Bleeding",
     "url": "https://www.worcsacute.nhs.uk/leaflets/mirena-coil-for-heavy-menstrual-bleeding/",
     "slug": "mirena-coil-for-heavy-menstrual-bleeding"
@@ -2088,6 +2203,11 @@
     "title": "My transition plan – Set Up",
     "url": "https://www.worcsacute.nhs.uk/leaflets/my-transition-plan-set-up/",
     "slug": "my-transition-plan-set-up"
+  },
+  {
+    "title": "My trip to see the Audiologist",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/my-trip-to-see-the-audiologist/",
+    "slug": "my-trip-to-see-the-audiologist"
   },
   {
     "title": "Myopia (short sight) in children",
@@ -2570,6 +2690,11 @@
     "slug": "patients-in-plaster-child"
   },
   {
+    "title": "Penthrox® (Child)",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/penthrox-for-procedures-and-pain-relief-in-children-and-young-people-waht-pi-2391/",
+    "slug": "penthrox-for-procedures-and-pain-relief-in-children-and-young-people-waht-pi-2391"
+  },
+  {
     "title": "Peony Room – Alexandra Hospital",
     "url": "https://www.worcsacute.nhs.uk/leaflets/peony-room-alexandra-hospital/",
     "slug": "peony-room-alexandra-hospital"
@@ -2965,6 +3090,11 @@
     "slug": "registering-with-a-general-practitioner-gp"
   },
   {
+    "title": "Relaxation",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/relaxation/",
+    "slug": "relaxation"
+  },
+  {
     "title": "Renal Ablation",
     "url": "https://www.worcsacute.nhs.uk/leaflets/renal-ablation/",
     "slug": "renal-ablation"
@@ -3080,6 +3210,11 @@
     "slug": "self-harm-waht-pi-2117"
   },
   {
+    "title": "Self Help for Tinnitus",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/self-help-for-tinnitus/",
+    "slug": "self-help-for-tinnitus"
+  },
+  {
     "title": "Semi-permanent micro pigmentation of nipple/areola complex and after care advice",
     "url": "https://www.worcsacute.nhs.uk/leaflets/semi-permanent-micro-pigmentation-of-nipple-areola-complex-and-after-care-advice/",
     "slug": "semi-permanent-micro-pigmentation-of-nipple-areola-complex-and-after-care-advice"
@@ -3170,6 +3305,11 @@
     "slug": "sore-or-dry-mouth"
   },
   {
+    "title": "Sound Sensitivity Practical Ways to Help your Child",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/sound-sensitivity-practical-ways-to-help-your-child/",
+    "slug": "sound-sensitivity-practical-ways-to-help-your-child"
+  },
+  {
     "title": "Squint Surgery (Child)",
     "url": "https://www.worcsacute.nhs.uk/leaflets/squint-surgery-child/",
     "slug": "squint-surgery-child"
@@ -3233,6 +3373,11 @@
     "title": "Substance Misuse",
     "url": "https://www.worcsacute.nhs.uk/leaflets/substance-misuse-waht-pi-2177/",
     "slug": "substance-misuse-waht-pi-2177"
+  },
+  {
+    "title": "Suppliers of Assistive Devices",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/suppliers-of-assistive-devices/",
+    "slug": "suppliers-of-assistive-devices"
   },
   {
     "title": "Supported Home-Based Exercise Programme for Intermittent Claudication",
@@ -3380,6 +3525,11 @@
     "slug": "tia-transient-ischaemic-attack-waht-pi-2159"
   },
   {
+    "title": "Tinnitus and Sound Sensitivity Contacts, Support, Books and Apps",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/tinnitus-and-sound-sensitivity-contacts-support-books-and-apps/",
+    "slug": "tinnitus-and-sound-sensitivity-contacts-support-books-and-apps"
+  },
+  {
     "title": "Toe Fracture or Dislocation",
     "url": "https://www.worcsacute.nhs.uk/leaflets/toe-fracture-or-dislocation/",
     "slug": "toe-fracture-or-dislocation"
@@ -3403,6 +3553,11 @@
     "title": "Totally Implanted Central Venous Access Device (Port-a-Cath)",
     "url": "https://www.worcsacute.nhs.uk/leaflets/totally-implanted-central-venous-access-device-port-a-cath/",
     "slug": "totally-implanted-central-venous-access-device-port-a-cath"
+  },
+  {
+    "title": "Transition to Adult Hearing Services",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/transition-to-adult-hearing-services/",
+    "slug": "transition-to-adult-hearing-services"
   },
   {
     "title": "Treatment for MRSA and MSSA",
@@ -3610,6 +3765,11 @@
     "slug": "vre-vancomycin-resistant-enterococci"
   },
   {
+    "title": "Ward 16 Discharge following surgery",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/ward-16-discharge-following-surgery/",
+    "slug": "ward-16-discharge-following-surgery"
+  },
+  {
     "title": "Welcome to Alexandra Hospital",
     "url": "https://www.worcsacute.nhs.uk/leaflets/welcome-to-the-alexandra-hospital/",
     "slug": "welcome-to-the-alexandra-hospital"
@@ -3693,6 +3853,11 @@
     "title": "Wheelchair hire in Worcestershire",
     "url": "https://www.worcsacute.nhs.uk/leaflets/wheelchair-hire-in-worcestershire/",
     "slug": "wheelchair-hire-in-worcestershire"
+  },
+  {
+    "title": "Why Am I Scared of Sounds",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/why-am-i-scared-of-sounds/",
+    "slug": "why-am-i-scared-of-sounds"
   },
   {
     "title": "Wide local excision",

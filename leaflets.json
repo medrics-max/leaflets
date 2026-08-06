@@ -190,11 +190,6 @@
     "slug": "information-about-anaemia-and-its-treatments-patients-chronic-kidney-disease-ghpi0392_11_17"
   },
   {
-    "title": "Anaesthetic for children",
-    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/anaesthetic-for-children/",
-    "slug": "anaesthetic-for-children"
-  },
-  {
     "title": "Anal cancer",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/anal-cancer/",
     "slug": "anal-cancer"
@@ -800,11 +795,6 @@
     "slug": "discharge-advice-following-a-gastroscopy-and-colonoscopy-flexible-sigmoidoscopy-with-sedation"
   },
   {
-    "title": "Discharge advice following a Gastroscopy and Radio Frequency Ablation (RFA) or Endoscopic Mucosal Resection (EMR) with sedation",
-    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/discharge-advice-following-gastroscopy-and-rfa-or-emr-sedation/",
-    "slug": "discharge-advice-following-gastroscopy-and-rfa-or-emr-sedation"
-  },
-  {
     "title": "Discharge advice following a gastroscopy with sedation",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/discharge-advice-following-a-gastroscopy-with-sedation/",
     "slug": "discharge-advice-following-a-gastroscopy-with-sedation"
@@ -823,11 +813,6 @@
     "title": "Discharge advice following a nonsedated colonoscopy / flexible sigmoidoscopy",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/discharge-advice-following-non-sedated-colonoscopy-flexible-sigmoidoscopy/",
     "slug": "discharge-advice-following-non-sedated-colonoscopy-flexible-sigmoidoscopy"
-  },
-  {
-    "title": "Discharge advice following a sedated colonoscopy / flexible sigmoidoscopy",
-    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/discharge-advice-following-sedated-colonoscopy-flexible-sigmoidoscopy/",
-    "slug": "discharge-advice-following-sedated-colonoscopy-flexible-sigmoidoscopy"
   },
   {
     "title": "Discharge advice following a Thoracoscopy",
@@ -2950,6 +2935,11 @@
     "slug": "spironolactone-for-acne-women"
   },
   {
+    "title": "Spironolactone for Hidradenitis suppurativa",
+    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/spironolactone-for-hidradenitis-suppurativa/",
+    "slug": "spironolactone-for-hidradenitis-suppurativa"
+  },
+  {
     "title": "Spontaneous primary pneumothorax",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/spontaneous-primary-pneumothorax/",
     "slug": "spontaneous-primary-pneumothorax"
@@ -3473,16 +3463,6 @@
     "title": "Your child’s eye drops",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/your-childs-eye-drops/",
     "slug": "your-childs-eye-drops"
-  },
-  {
-    "title": "Your new hip handbook",
-    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/your-new-hip-handbook/",
-    "slug": "your-new-hip-handbook"
-  },
-  {
-    "title": "Your new knee handbook",
-    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/your-new-knee/",
-    "slug": "your-new-knee"
   },
   {
     "title": "Your Vascular Surgery",

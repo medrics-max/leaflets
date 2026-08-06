@@ -34,6 +34,12 @@
   "status": "no-date",
   "title": "A guide to posterior vitreous detachment"
  },
+ "a-parents-guide-to-auditory-brainstem-abr-testing": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "718ce9cff28265c3",
+  "status": "no-date",
+  "title": "A Parent’s Guide to Auditory Brainstem (ABR) Testing"
+ },
  "a-patients-guide-to-enucleation": {
   "checked": "2026-07-11T02:30:11+01:00",
   "status": "no-date",
@@ -98,6 +104,12 @@
   "checked": "2026-07-11T02:30:11+01:00",
   "status": "no-date",
   "title": "Adult Head Injury"
+ },
+ "adult-hyperacusis-and-sound-sensitivity": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "fe482943e6c75de7",
+  "status": "no-date",
+  "title": "Adult Hyperacusis and Sound Sensitivity"
  },
  "adult-oral-suction-yankeur-soft-catheter": {
   "checked": "2026-07-11T02:30:11+01:00",
@@ -362,6 +374,12 @@
   "status": "no-date",
   "title": "Back Pain"
  },
+ "balance-and-anxiety": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "682b6410a3e9217c",
+  "status": "no-date",
+  "title": "Balance and Anxiety"
+ },
  "being-open-and-the-duty-of-candour": {
   "checked": "2026-07-14T02:30:06+01:00",
   "content_hash": "3b200cf9359abd3c",
@@ -373,10 +391,34 @@
   "status": "no-date",
   "title": "Benign paroxysmal positional vertigo (BPPV)"
  },
+ "better-hearing-with-both-ears": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "fa96a8a39da2ba42",
+  "status": "no-date",
+  "title": "Better Hearing with Both Ears"
+ },
  "biers-block-intravenous-regional-anaesthesia": {
   "checked": "2026-07-11T02:30:11+01:00",
   "status": "no-date",
   "title": "Bier’s block (Intravenous Regional Anaesthesia)"
+ },
+ "birch-unit-discharge-following-kidney-lesion-biopsy": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "130bd1f1dd97c8bb",
+  "status": "no-date",
+  "title": "Birch Unit Discharge following Kidney Lesion Biopsy"
+ },
+ "birch-unit-discharge-following-perkustay-pleurex-drain": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "fef992d978fa285d",
+  "status": "no-date",
+  "title": "Birch Unit Discharge following Perkustay/Pleurex Drain"
+ },
+ "birch-unit-discharge-following-surgery": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "a216766e71596af7",
+  "status": "no-date",
+  "title": "Birch Unit Discharge following Surgery"
  },
  "bleeding-after-the-menopause-post-menopausal-bleeding": {
   "checked": "2026-07-11T02:30:11+01:00",
@@ -445,6 +487,12 @@
   "status": "no-date",
   "title": "Breathing pattern disorder"
  },
+ "breathing-to-manage-anxiety": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "6e7aecca79538ada",
+  "status": "no-date",
+  "title": "Breathing to Manage Anxiety"
+ },
  "broken-nose": {
   "checked": "2026-07-11T02:30:11+01:00",
   "status": "no-date",
@@ -504,6 +552,12 @@
   "checked": "2026-07-11T02:30:11+01:00",
   "status": "no-date",
   "title": "Burns Injury"
+ },
+ "c2-hear-online-website-links-for-patients": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "be1c493ab084f1af",
+  "status": "no-date",
+  "title": "C2 Hear Online – Website Links for Patients"
  },
  "caesarean-scar-pregnancy": {
   "checked": "2026-07-11T02:30:11+01:00",
@@ -691,6 +745,12 @@
   "status": "no-date",
   "title": "Comments, concerns & complaints"
  },
+ "communication-tactics": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "2060384f92bfa2f9",
+  "status": "no-date",
+  "title": "Communication Tactics"
+ },
  "completing-radiotherapy-treatment": {
   "checked": "2026-07-11T02:30:11+01:00",
   "status": "no-date",
@@ -700,6 +760,12 @@
   "checked": "2026-07-11T02:30:11+01:00",
   "status": "no-date",
   "title": "Conservative Management Cervical Intraepithelial Neoplasia Grade 2 (CIN2)"
+ },
+ "contact-mini-device": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "e66167ad56ef1b83",
+  "status": "no-date",
+  "title": "Contact Mini Device"
  },
  "contrast-echocardiography": {
   "checked": "2026-07-11T02:30:11+01:00",
@@ -730,6 +796,12 @@
   "checked": "2026-07-11T02:30:11+01:00",
   "status": "no-date",
   "title": "CPE (Carbapenease-producing Enterbacteriaceae)- Contact"
+ },
+ "cros-hearing-aid-system": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "c9ad4760bb4cb8cd",
+  "status": "no-date",
+  "title": "Cros Hearing Aid System"
  },
  "croup-waht-pi-2161": {
   "checked": "2026-07-11T02:30:11+01:00",
@@ -861,6 +933,12 @@
   "checked": "2026-07-12T02:30:10+01:00",
   "status": "no-date",
   "title": "Disease Modifying Anti Rheumatic Drugs (DMARDS) and Blood Test Monitoring Explained"
+ },
+ "disposal-of-sharps-bins": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "09e1946559edfa9d",
+  "status": "no-date",
+  "title": "Disposal of Sharps Bins"
  },
  "donating-breast-milk-after-loss": {
   "checked": "2026-07-12T02:30:10+01:00",
@@ -996,6 +1074,12 @@
   "checked": "2026-07-12T02:30:10+01:00",
   "status": "no-date",
   "title": "Endoscopic ultrasound (EUS) – Investigative procedure information"
+ },
+ "energy-management-for-better-balance": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "8fdd9d2b28df1ccd",
+  "status": "no-date",
+  "title": "Energy Management for Better Balance"
  },
  "enoxaparin-waht-pi-2115": {
   "checked": "2026-07-12T02:30:10+01:00",
@@ -1219,6 +1303,12 @@
   "status": "no-date",
   "title": "Fractured Pubic Rami"
  },
+ "furniture-height-request-form": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "417812abc1c2ecfa",
+  "status": "no-date",
+  "title": "Furniture Height Request Form"
+ },
  "gastroscopy-and-colonoscopy": {
   "checked": "2026-07-12T02:30:10+01:00",
   "status": "no-date",
@@ -1361,6 +1451,24 @@
   "status": "no-date",
   "title": "Healthy Weight Advice"
  },
+ "hearing-aid-battery-collection-and-hearing-aid-repairs": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "0cd73dad5ac5f294",
+  "status": "no-date",
+  "title": "Hearing Aid Battery Collection and Hearing Aid Repairs"
+ },
+ "heart-failure-team": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "0e9a11812c079eb1",
+  "status": "no-date",
+  "title": "Heart Failure Team"
+ },
+ "help-a-loved-one-to-better-hearing": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "2e68309b82d12d3b",
+  "status": "no-date",
+  "title": "Help a Loved One to Better Hearing"
+ },
  "helping-your-child-eat-better": {
   "checked": "2026-07-12T02:30:10+01:00",
   "status": "no-date",
@@ -1442,6 +1550,12 @@
   "status": "no-date",
   "title": "How to Manage a Flare of Inflammatory Arthritis"
  },
+ "how-to-retube-your-hearing-aid-ear-mould": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "2695668ffd0bb7b8",
+  "status": "no-date",
+  "title": "How to retube your Hearing Aid Ear Mould"
+ },
  "how-to-take-moviprep-bowel-prep": {
   "checked": "2026-07-12T02:30:10+01:00",
   "status": "no-date",
@@ -1456,6 +1570,12 @@
   "checked": "2026-07-12T02:30:10+01:00",
   "status": "no-date",
   "title": "How to take the medications that you have been given along with your chemotherapy?"
+ },
+ "how-to-use-a-doorline-ramp": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "2461c6b54365b6a7",
+  "status": "no-date",
+  "title": "How to use a Doorline Ramp"
  },
  "how-to-use-potassium-permanganate-solution-soaks": {
   "checked": "2026-07-12T02:30:10+01:00",
@@ -1850,6 +1970,12 @@
   "status": "no-date",
   "title": "Localised (Image Guided) Wide Local Excision"
  },
+ "lost-hearing-aid": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "f935d194183ccd7f",
+  "status": "no-date",
+  "title": "Lost Hearing Aid"
+ },
  "low-fibre-diet": {
   "checked": "2026-07-12T22:22:48+01:00",
   "content_hash": "9f601572a0acf7c8",
@@ -2120,6 +2246,12 @@
   "status": "no-date",
   "title": "Mindful Eating"
  },
+ "mindfulness-apps": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "6ddff09e2992322a",
+  "status": "no-date",
+  "title": "Mindfulness Apps"
+ },
  "mirena-coil-for-heavy-menstrual-bleeding": {
   "checked": "2026-07-12T22:56:56+01:00",
   "content_hash": "a5d9b59b1cda5930",
@@ -2202,6 +2334,12 @@
   "content_hash": "fb8d1c5be58c64c7",
   "status": "no-date",
   "title": "My transition plan – Set Up"
+ },
+ "my-trip-to-see-the-audiologist": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "33995c9f76ca46fd",
+  "status": "no-date",
+  "title": "My trip to see the Audiologist"
  },
  "myopia-short-sight-in-children": {
   "checked": "2026-07-12T22:56:56+01:00",
@@ -2737,6 +2875,12 @@
   "status": "no-date",
   "title": "Parent Information – Transition to Adult Diabetes Service: What’s it all about?"
  },
+ "parents-guide-to-the-audiology-appointment": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "49c473f247f52794",
+  "status": "no-date",
+  "title": "A Parent’s Guide to the Audiology Appointment"
+ },
  "partially-sleep-deprived-eeg": {
   "checked": "2026-07-13T00:29:53+01:00",
   "content_hash": "e4441f6d2def42c1",
@@ -2790,6 +2934,12 @@
   "content_hash": "56390ac9722ef27a",
   "status": "no-date",
   "title": "Vaginal Pelvic Floor Exercises"
+ },
+ "penthrox-for-procedures-and-pain-relief-in-children-and-young-people-waht-pi-2391": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "1b797bb7c4cdd32f",
+  "status": "no-date",
+  "title": "Penthrox® (Child)"
  },
  "peony-room-alexandra-hospital": {
   "checked": "2026-07-21T02:35:11+01:00",
@@ -3252,6 +3402,12 @@
   "status": "no-date",
   "title": "Registering with a General Practitioner"
  },
+ "relaxation": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "4fda1fcfc2cb33c6",
+  "status": "no-date",
+  "title": "Relaxation"
+ },
  "renal-ablation": {
   "checked": "2026-07-13T02:30:06+01:00",
   "content_hash": "a8541d7ecafb662e",
@@ -3402,6 +3558,12 @@
   "status": "no-date",
   "title": "Self Harm"
  },
+ "self-help-for-tinnitus": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "1cae198bf4acb44f",
+  "status": "no-date",
+  "title": "Self Help for Tinnitus"
+ },
  "semi-permanent-micro-pigmentation-of-nipple-areola-complex-and-after-care-advice": {
   "checked": "2026-07-13T02:30:06+01:00",
   "content_hash": "84a27d386e3b89bf",
@@ -3516,6 +3678,12 @@
   "status": "no-date",
   "title": "Sore or dry mouth"
  },
+ "sound-sensitivity-practical-ways-to-help-your-child": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "5e96d125e29ede88",
+  "status": "no-date",
+  "title": "Sound Sensitivity Practical Ways to Help your Child"
+ },
  "squint-lazy-eye-what-is-it-and-can-it-be-treated": {
   "checked": "2026-07-13T02:41:44+01:00",
   "content_hash": "3871f3f5ff469fad",
@@ -3581,6 +3749,12 @@
   "content_hash": "7720debf009ffaa8",
   "status": "no-date",
   "title": "Substance Misuse"
+ },
+ "suppliers-of-assistive-devices": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "1b5af9407ef4ec28",
+  "status": "no-date",
+  "title": "Suppliers of Assistive Devices"
  },
  "supported-home-based-exercise-programme-diary": {
   "checked": "2026-07-12T02:30:10+01:00",
@@ -3771,6 +3945,12 @@
   "status": "no-date",
   "title": "TIA – Transient Ischaemic Attack"
  },
+ "tinnitus-and-sound-sensitivity-contacts-support-books-and-apps": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "5278c9dfb54ded5d",
+  "status": "no-date",
+  "title": "Tinnitus and Sound Sensitivity Contacts, Support, Books and Apps"
+ },
  "toe-fracture-or-dislocation": {
   "checked": "2026-07-13T02:41:44+01:00",
   "content_hash": "ac3b9a0e8af99b9c",
@@ -3800,6 +3980,12 @@
   "content_hash": "09550547bb3e4911",
   "status": "no-date",
   "title": "Totally Implanted Central Venous Access Device (Port-a-Cath)"
+ },
+ "transition-to-adult-hearing-services": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "9f6721e662fc61dd",
+  "status": "no-date",
+  "title": "Transition to Adult Hearing Services"
  },
  "treatment-for-mrsa-and-mssa": {
   "checked": "2026-07-13T02:41:44+01:00",
@@ -4046,6 +4232,12 @@
   "status": "no-date",
   "title": "Campylobacter"
  },
+ "ward-16-discharge-following-surgery": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "b9972003868ecba5",
+  "status": "no-date",
+  "title": "Ward 16 Discharge following surgery"
+ },
  "welcome-to-kidderminster-treatment-centre": {
   "checked": "2026-07-14T02:30:06+01:00",
   "content_hash": "2d8394f8fe9c0b0f",
@@ -4141,6 +4333,12 @@
   "content_hash": "6d6eb2c86c61b6b5",
   "status": "no-date",
   "title": "Wheelchair hire in Worcestershire"
+ },
+ "why-am-i-scared-of-sounds": {
+  "checked": "2026-08-04T02:33:47+01:00",
+  "content_hash": "9e40d2fb17f5ab59",
+  "status": "no-date",
+  "title": "Why Am I Scared of Sounds"
  },
  "wide-local-excision": {
   "checked": "2026-07-14T02:30:06+01:00",

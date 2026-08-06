@@ -121,7 +121,7 @@
   },
   {
     "title": "Apicectomy",
-    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/26002.pdf?last-updated=20260624",
+    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/26002.pdf?last-updated=20260731",
     "slug": "apicectomy"
   },
   {
@@ -278,11 +278,6 @@
     "title": "Blood Pressure Monitor",
     "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/24006.pdf?last-updated=20260608",
     "slug": "blood-pressure-monitor"
-  },
-  {
-    "title": "Blood Test",
-    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25868.pdf?last-updated=20250228",
-    "slug": "blood-test"
   },
   {
     "title": "Bone Anchored Hearing Aid Appointment",
@@ -1538,6 +1533,11 @@
     "title": "Homemade fortified drinks and desserts",
     "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25635.pdf?last-updated=20260501",
     "slug": "homemade-fortified-drinks-and-desserts"
+  },
+  {
+    "title": "Hospital requested blood test",
+    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25868.pdf?last-updated=20260731",
+    "slug": "hospital-requested-blood-test"
   },
   {
     "title": "Hot Flushes in Patients Treated for Breast Cancer, Management of",
@@ -3093,11 +3093,6 @@
     "title": "Synacthen Test - Information for parents / carers. Short Stay Paediatric Assessment Unit",
     "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25311.pdf?last-updated=20180622",
     "slug": "synacthen-test-information-for-parents-carers-short-stay-paediatric-assessment-unit"
-  },
-  {
-    "title": "Take Charge of Your Health with Patients Know Best",
-    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25042.pdf?last-updated=20210604",
-    "slug": "take-charge-of-your-health-with-patients-know-best"
   },
   {
     "title": "Taking strong opioids in palliative care",

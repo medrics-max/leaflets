@@ -756,7 +756,7 @@
   },
   {
     "title": "Cystogram",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/radiology/Cystogram.pdf",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/radiology/cystogram.pdf",
     "slug": "cystogram"
   },
   {
@@ -983,6 +983,11 @@
     "title": "Exercise in the community",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/dpc/20_exercise_in_the_community_308-21.pdf",
     "slug": "exercise-in-the-community"
+  },
+  {
+    "title": "Extravasation: information for patients receiving SACT",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/cancer-services/extravasation-sact.pdf",
+    "slug": "extravasation-information-for-patients-receiving-sact"
   },
   {
     "title": "Falls guidance for amputees",
@@ -1780,6 +1785,11 @@
     "slug": "metatarsus-adductus"
   },
   {
+    "title": "Metformin (children)",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/diabetes/metformin.pdf",
+    "slug": "metformin-children"
+  },
+  {
     "title": "Methotrexate treatment for Ectopic Pregnancy",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/women-health/methotrexate-ectopic-pregnancy.pdf",
     "slug": "methotrexate-treatment-for-ectopic-pregnancy"
@@ -1860,6 +1870,11 @@
     "slug": "neck-exercise-programme"
   },
   {
+    "title": "Nerve root injections",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/radiology/nerve-root-injections.pdf",
+    "slug": "nerve-root-injections"
+  },
+  {
     "title": "Neuromuscular Electrical Stimulation (Estim) - shoulder subluxation",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/stroke/Neuromuscular-Electrical-Stimulation-Shoulder-Subluxation.pdf",
     "slug": "neuromuscular-electrical-stimulation-estim-shoulder-subluxation"
@@ -1926,7 +1941,7 @@
   },
   {
     "title": "Oesophageal investigation Manometry and pH/pH Impedance Measurement",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/radiology/Oesophageal-investigation-Manometry-and-pH-and-Z.pdf",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/radiology/oesophageal-investigation-manometry-and-ph-and-z.pdf",
     "slug": "oesophageal-investigation-manometry-and-ph-ph-impedance-measurement"
   },
   {
@@ -2135,9 +2150,19 @@
     "slug": "pelvic-girdle-pain-related-to-pregnancy"
   },
   {
+    "title": "Pelvic vein embolisation",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/radiology/pelvic-vein-embolisation.pdf",
+    "slug": "pelvic-vein-embolisation"
+  },
+  {
     "title": "Percussions",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/Respiratory_therapy/Percussion.pdf",
     "slug": "percussions"
+  },
+  {
+    "title": "Percutaneous Nephrostomy",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/radiology/percutaneous-nephrostomy.pdf",
+    "slug": "percutaneous-nephrostomy"
   },
   {
     "title": "Perichondritis",
@@ -2253,6 +2278,11 @@
     "title": "Polyps in the Bowel",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/186-23_Polyps-in-the-Bowel.pdf",
     "slug": "polyps-in-the-bowel"
+  },
+  {
+    "title": "Portacath insertion",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/radiology/portacath-insertion.pdf",
+    "slug": "portacath-insertion"
   },
   {
     "title": "Positional Talipes Calcaneo-valgus",
@@ -2580,6 +2610,11 @@
     "slug": "rubber-band-ligation-of-haemorrhoids"
   },
   {
+    "title": "SABR / PACE prostate radiotherapy preparation",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/cancer-services/sabr-pace-prostate-radiotherapy-prep.pdf",
+    "slug": "sabr-pace-prostate-radiotherapy-preparation"
+  },
+  {
     "title": "Sample menu plan for the day before your hydrogen breath test",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/radiology/HBT_sample_menu.pdf",
     "slug": "sample-menu-plan-for-the-day-before-your-hydrogen-breath-test"
@@ -2598,6 +2633,11 @@
     "title": "Sclerotherapy (foam injections) for varicose veins",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/surgery/sclerotherapy-foam-injections-varicose-veins.pdf",
     "slug": "sclerotherapy-foam-injections-for-varicose-veins"
+  },
+  {
+    "title": "Sclerotherapy for low flow vascular malformations",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/radiology/sclerotherapy.pdf",
+    "slug": "sclerotherapy-for-low-flow-vascular-malformations"
   },
   {
     "title": "Second Degree Tear during Childbirth",
@@ -2875,6 +2915,11 @@
     "slug": "tactile-perception"
   },
   {
+    "title": "Talc Pleurodesis",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/Respiratory_therapy/talc-pleurodesis.pdf",
+    "slug": "talc-pleurodesis"
+  },
+  {
     "title": "Teeth brushing advice",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/Childrens_therapy/185-21_tooth-brushing.pdf",
     "slug": "teeth-brushing-advice"
@@ -2943,6 +2988,11 @@
     "title": "Thoracic and lumbar spine ROM exercises",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/Childrens_therapy/Childrens_physiotherapy/Thoracic_and_Lumbar_Spine_ROM_exercise_programme_done_2019.pdf",
     "slug": "thoracic-and-lumbar-spine-rom-exercises"
+  },
+  {
+    "title": "Thoracoscopy",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/Respiratory_therapy/thoracoscopy.pdf",
+    "slug": "thoracoscopy"
   },
   {
     "title": "Thumb exercises",
@@ -3073,6 +3123,11 @@
     "title": "Ultralign + TLSO brace instructions",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/orthopaedics/ULTRAlign_A4_Leaflet_March_2017.pdf",
     "slug": "ultralign-tlso-brace-instructions"
+  },
+  {
+    "title": "Understanding anxiety and ways we can manage it",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/Childrens_therapy/understanding-managing-anxiety.pdf",
+    "slug": "understanding-anxiety-and-ways-we-can-manage-it"
   },
   {
     "title": "Unilateral cerebral palsy",
@@ -3318,6 +3373,11 @@
     "title": "Wrist Replacement",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/orthopaedics/wrist_replacement.pdf",
     "slug": "wrist-replacement"
+  },
+  {
+    "title": "Young People’s Diabetes Service (YPDS)",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/diabetes/young-peoples-diabetes-service-type1.pdf",
+    "slug": "young-people-s-diabetes-service-ypds"
   },
   {
     "title": "Your baby's movements in pregnancy",
