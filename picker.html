@@ -208,7 +208,7 @@
 <footer>
   <a href="https://docs.google.com/forms/d/e/1FAIpQLScPaGRxAf61Mp2P2laqGLZnGTKN-51yiXehssngljz-qATeUA/viewform" target="_blank" rel="noopener" style="color:#005eb8; font-weight:600;">Feedback on this tool</a>
   <br><br>
-  <span id="credits">Clinical lead: Dr Tom Mitchell, Consultant in Emergency Medicine &amp; Clinical Medical Information Officer</span><br>
+  <span id="credits" hidden></span><br>
   Software &amp; design: Dr Oscar Harrison<br><br>
   For clinician use. An independent tool by Medrics linking to patient information published by<br>
   <span id="trustfoot">Gloucestershire Hospitals NHS Foundation Trust</span> — not provided or endorsed by the trust.
@@ -667,17 +667,21 @@ let CHOICES = [];   // trusts shown in the dropdown this visit
 
 function isDemo() { return TRUST && TRUST.listed === false; }
 
-// Credit lines are per-trust: Dr Mitchell is the clinical lead for the trust
-// that appointed him to that role (credits.clinical_lead in trusts.json) and a
-// clinical contributor everywhere else — a new trust names its own lead by
-// adding credits to its registry entry.
-const CONTRIBUTOR_CREDIT = "Clinical contributor: Dr Tom Mitchell, Consultant in Emergency Medicine";
-
+// Credit lines are strictly per-trust (trusts.json credits): a trust that
+// appointed a clinical lead names them via credits.clinical_lead, a named
+// contributor via credits.clinical_contributor. NO global fallback — a
+// clinician is credited only on trusts they actually work with (Oscar,
+// 2026-08-07: Dr Mitchell is Gloucestershire's lead and is not involved
+// with other trusts' previews).
 function renderCredits() {
   const el = $("credits");
   if (!el) return;
-  const lead = TRUST && TRUST.credits && TRUST.credits.clinical_lead;
-  el.textContent = lead ? "Clinical lead: " + lead : CONTRIBUTOR_CREDIT;
+  const c = (TRUST && TRUST.credits) || {};
+  const line = c.clinical_lead ? "Clinical lead: " + c.clinical_lead
+             : c.clinical_contributor ? "Clinical contributor: " + c.clinical_contributor
+             : "";
+  el.textContent = line;
+  el.hidden = !line;
 }
 
 function pickTrust(id) {
