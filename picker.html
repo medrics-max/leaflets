@@ -233,7 +233,7 @@ const MEDRICS_LOGO = "medrics-logo.png";   // falls back to the text label if ab
 const TRUST_KEY = "medrics_trust";
 // Say where each result comes from, not just what it is — a clinician choosing
 // between "DVT" entries needs to see trust leaflet vs national NHS page at a glance.
-const TAGLABEL = { leaflet:"Trust leaflet", medicines:"NHS medicine", advice:"Local advice", service:"Trust service", nhs:"NHS info page", gov:"Official advice", trusted:"Trusted charity" };
+const TAGLABEL = { leaflet:"Trust leaflet", medicines:"NHS medicine", advice:"Local advice", service:"Trust service", nhs:"NHS info page", gov:"Official advice", trusted:"Trusted source" };
 
 // Trust registry (trusts.json). Fallback keeps the page working if it can't load.
 let REGISTRY = null, TRUST = null;
@@ -660,6 +660,7 @@ async function load() {
     const type = sources[i][1];
     arr.forEach(d => {
       const it = { title: d.title, slug: d.slug, type: d.type || type,
+                   source: d.source,
                    _title: fold(d.title), _hay: fold(d.title + " " + d.slug) };
       ITEMS.push(it); bySlug.set(d.slug, it);
     });
