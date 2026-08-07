@@ -418,7 +418,10 @@ function renderResolved(items, demo) {
   const advice = items.filter(i => i.type === "advice");
   const medicines = items.filter(i => i.type === "medicines");
   const services = items.filter(i => i.type === "service");
-  const nhs = items.filter(i => i.type === "nhs");
+  // 'trusted' = named reputable UK charities/bodies (Diabetes UK, Epilepsy
+  // Action…) — rendered with the NHS layer under the same reputable-sources
+  // heading; filtering by type must never silently drop a selected item.
+  const nhs = items.filter(i => i.type === "nhs" || i.type === "trusted");
   const gov = items.filter(i => i.type === "gov");
 
   const leafletSection = leaflets.length
