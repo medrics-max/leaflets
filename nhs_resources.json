@@ -1104,5 +1104,68 @@
   "slug": "scs-about-sickle-cell",
   "type": "trusted",
   "source": "Sickle Cell Society"
+ },
+ {
+  "title": "Corneal abrasion (scratched eye) (Moorfields Eye Hospital)",
+  "url": "https://www.moorfields.nhs.uk/eye-conditions/corneal-abrasion",
+  "slug": "mf-corneal-abrasion",
+  "type": "trusted",
+  "source": "Moorfields Eye Hospital"
+ },
+ {
+  "title": "Conjunctivitis (Moorfields Eye Hospital)",
+  "url": "https://www.moorfields.nhs.uk/eye-conditions/conjunctivitis",
+  "slug": "mf-conjunctivitis",
+  "type": "trusted",
+  "source": "Moorfields Eye Hospital"
+ },
+ {
+  "title": "Stye (Moorfields Eye Hospital)",
+  "url": "https://www.moorfields.nhs.uk/eye-conditions/stye",
+  "slug": "mf-stye",
+  "type": "trusted",
+  "source": "Moorfields Eye Hospital"
+ },
+ {
+  "title": "Blepharitis (Moorfields Eye Hospital)",
+  "url": "https://www.moorfields.nhs.uk/eye-conditions/blepharitis",
+  "slug": "mf-blepharitis",
+  "type": "trusted",
+  "source": "Moorfields Eye Hospital"
+ },
+ {
+  "title": "Chalazion (eyelid cyst) (Moorfields Eye Hospital)",
+  "url": "https://www.moorfields.nhs.uk/eye-conditions/chalazion",
+  "slug": "mf-chalazion",
+  "type": "trusted",
+  "source": "Moorfields Eye Hospital"
+ },
+ {
+  "title": "Retinal detachment (Moorfields Eye Hospital)",
+  "url": "https://www.moorfields.nhs.uk/eye-conditions/retinal-detachment",
+  "slug": "mf-retinal-detachment",
+  "type": "trusted",
+  "source": "Moorfields Eye Hospital"
+ },
+ {
+  "title": "Uveitis (eye inflammation) (Moorfields Eye Hospital)",
+  "url": "https://www.moorfields.nhs.uk/eye-conditions/uveitis",
+  "slug": "mf-uveitis",
+  "type": "trusted",
+  "source": "Moorfields Eye Hospital"
+ },
+ {
+  "title": "Dry eye (Moorfields Eye Hospital)",
+  "url": "https://www.moorfields.nhs.uk/eye-conditions/dry-eye",
+  "slug": "mf-dry-eye",
+  "type": "trusted",
+  "source": "Moorfields Eye Hospital"
+ },
+ {
+  "title": "Flashes and floaters (Moorfields Eye Hospital)",
+  "url": "https://www.moorfields.nhs.uk/eye-conditions/flashes-and-floaters",
+  "slug": "mf-flashes-and-floaters",
+  "type": "trusted",
+  "source": "Moorfields Eye Hospital"
  }
 ]
