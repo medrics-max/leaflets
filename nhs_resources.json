@@ -1020,5 +1020,33 @@
   "slug": "gov-drv-dizziness",
   "type": "gov",
   "source": "GOV.UK"
+ },
+ {
+  "title": "Where to get urgent help for mental health — crisis support (NHS)",
+  "url": "https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/",
+  "slug": "nhs-urgent-mental-health-crisis",
+  "type": "nhs",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Falls — causes, prevention and what to do (NHS)",
+  "url": "https://www.nhs.uk/conditions/falls/",
+  "slug": "nhs-falls",
+  "type": "nhs",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Diabetes when you're ill — sick day rules and ketones (Diabetes UK)",
+  "url": "https://www.diabetes.org.uk/guide-to-diabetes/life-with-diabetes/illness",
+  "slug": "duk-diabetes-sick-day-rules",
+  "type": "trusted",
+  "source": "Diabetes UK"
+ },
+ {
+  "title": "What are seizures? — information for adults (Epilepsy Action)",
+  "url": "https://www.epilepsy.org.uk/info/seizures",
+  "slug": "ea-what-are-seizures",
+  "type": "trusted",
+  "source": "Epilepsy Action"
  }
 ]

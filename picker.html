@@ -138,6 +138,7 @@
   .tag.service { background:#e8f0fb; color:#00437a; }
   .tag.nhs { background:#eef1f5; color:#444; }
   .tag.gov { background:#e8f0fb; color:#00437a; }
+  .tag.trusted { background:#f3ecf9; color:#5b2d84; }
   .tag.stale { background:#fdecea; color:#7a271a; }
   .actions { position: sticky; bottom: 0; background: #fff; padding: 12px 0 4px; border-top: 1px solid #eef1f5; margin-top: 8px; }
   button.primary {
@@ -232,7 +233,7 @@ const MEDRICS_LOGO = "medrics-logo.png";   // falls back to the text label if ab
 const TRUST_KEY = "medrics_trust";
 // Say where each result comes from, not just what it is — a clinician choosing
 // between "DVT" entries needs to see trust leaflet vs national NHS page at a glance.
-const TAGLABEL = { leaflet:"Trust leaflet", medicines:"NHS medicine", advice:"Local advice", service:"Trust service", nhs:"NHS info page", gov:"Official advice" };
+const TAGLABEL = { leaflet:"Trust leaflet", medicines:"NHS medicine", advice:"Local advice", service:"Trust service", nhs:"NHS info page", gov:"Official advice", trusted:"Trusted charity" };
 
 // Trust registry (trusts.json). Fallback keeps the page working if it can't load.
 let REGISTRY = null, TRUST = null;
@@ -353,7 +354,7 @@ function reEsc(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
 
 // Ranking: trust's own content first, then locally-authored advice, then the
 // shared national layer.
-const TYPE_BOOST = { leaflet: 6, advice: 5, medicines: 3, service: 2, nhs: 1 };
+const TYPE_BOOST = { leaflet: 6, advice: 5, medicines: 3, service: 2, nhs: 1, trusted: 1 };
 
 // Break the query into term groups. An item matches when EVERY group has at
 // least one alternative present; alternatives marked wb (abbreviations) must
@@ -1160,7 +1161,7 @@ function itemLi(it) {
   return `
     <li data-s="${esc(it.slug)}">
       <input type="checkbox" ${selected.has(it.slug) ? "checked" : ""}>
-      <span class="t">${esc(it.title)}<span class="tag ${it.type}">${TAGLABEL[it.type]||""}</span>${stale}${broken}
+      <span class="t">${esc(it.title)}<span class="tag ${it.type}">${it.type === "trusted" && it.source ? esc(it.source) : (TAGLABEL[it.type]||"")}</span>${stale}${broken}
       <a class="openpg" href="${esc(patientUrl(it.slug))}" target="_blank" rel="noopener" title="Open the patient page to check it">↗</a></span>
     </li>`;
 }
