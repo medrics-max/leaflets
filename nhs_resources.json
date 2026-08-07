@@ -1048,5 +1048,61 @@
   "slug": "ea-what-are-seizures",
   "type": "trusted",
   "source": "Epilepsy Action"
+ },
+ {
+  "title": "Eye injuries — urgent eye problems and when to get help (NHS)",
+  "url": "https://www.nhs.uk/conditions/eye-injuries/",
+  "slug": "nhs-eye-injuries-urgent",
+  "type": "nhs",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Stroke — information and support (Stroke Association)",
+  "url": "https://www.stroke.org.uk/what-is-stroke",
+  "slug": "sa-stroke-information",
+  "type": "trusted",
+  "source": "Stroke Association"
+ },
+ {
+  "title": "Asthma — advice and support (Asthma + Lung UK)",
+  "url": "https://www.asthmaandlung.org.uk/conditions/asthma",
+  "slug": "alu-asthma",
+  "type": "trusted",
+  "source": "Asthma + Lung UK"
+ },
+ {
+  "title": "Chronic obstructive pulmonary disease (COPD) — advice and support (Asthma + Lung UK)",
+  "url": "https://www.asthmaandlung.org.uk/conditions/copd-chronic-obstructive-pulmonary-disease",
+  "slug": "alu-copd",
+  "type": "trusted",
+  "source": "Asthma + Lung UK"
+ },
+ {
+  "title": "Heart attack — symptoms, causes and treatment (British Heart Foundation)",
+  "url": "https://www.bhf.org.uk/informationsupport/conditions/heart-attack",
+  "slug": "bhf-heart-attack",
+  "type": "trusted",
+  "source": "British Heart Foundation"
+ },
+ {
+  "title": "Miscarriage — information and support (Miscarriage Association)",
+  "url": "https://www.miscarriageassociation.org.uk/information/miscarriage/",
+  "slug": "ma-miscarriage",
+  "type": "trusted",
+  "source": "Miscarriage Association"
+ },
+ {
+  "title": "About sepsis — symptoms and what to do (The UK Sepsis Trust)",
+  "url": "https://sepsistrust.org/about-sepsis/",
+  "slug": "ust-about-sepsis",
+  "type": "trusted",
+  "source": "The UK Sepsis Trust"
+ },
+ {
+  "title": "About sickle cell and trait (Sickle Cell Society)",
+  "url": "https://www.sicklecellsociety.org/about-sickle-cell/",
+  "slug": "scs-about-sickle-cell",
+  "type": "trusted",
+  "source": "Sickle Cell Society"
  }
 ]
