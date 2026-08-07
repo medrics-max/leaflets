@@ -1,11 +1,11 @@
 {
- "version": 2,
+ "version": 3.1,
  "comment": "Interactive DVLA driving-advice trees for the picker (Oscar's design, 2026-08-01: when a selected condition has driving implications, a 'Driving advice' option appears — the tool asks the clinician the licence-group / severity questions the DVLA tables turn on, then shows the relevant rule VERBATIM with a link to the DVLA source page to double-check). RULES: every 'quote'/'quote2' is copied EXACTLY from the fetched gov.uk chapter named in the module's source (guidance_watch.py stores the page texts and re-verifies every quote here on its weekly sweep — a reworded chapter raises an alert instead of silently stale advice). 'note' fields are OUR framing and are shown as such. Questions only ever route between published DVLA rows — they never compute clinical conclusions. Clinician-facing decision support; the quote never auto-inserts into a patient handout. SCOPE (Oscar 2026-08-01 (2)): conditions normally advised by the discharging SPECIALIST team, or whose DVLA rules are too multi-branch for a quick tree, get a 'specialist: true' card that says so and links the chapter instead of pretending — and genuinely complex territory (e.g. pulmonary arterial hypertension) is deliberately NOT covered at all.",
  "clinical_signoff": {
-  "status": "signed",
-  "by": "Dr Oscar Harrison (clinical lead)",
-  "date": "2026-08-06",
-  "_doc": "Signed off 2026-08-06 after Oscar personally walked the trees in the test console across two evenings (dx-confirmation gates, verdict-first cards, verdict-mapped flying answers, disclaimers) and instructed 'push the changes to be live'. The nightly two-model clinical review continues on every content change."
+  "status": "draft",
+  "by": null,
+  "date": null,
+  "_doc": "v3 was signed by Dr Oscar Harrison 2026-08-06. On 2026-08-07 Oscar instructed applying all 12 confirmed findings from the 2026-08-07 nightly two-model clinical review (TIA/stroke suspected paths now ask licence group; unstable-angina and complicated-MI flying branches added; heart-failure G2 class-IV quote corrected; anchors fixed; pneumothorax drain-in-situ split out; dizziness definitions shown on the Yes branch; first-seizure G2 restoration condition added). Status returns to draft pending Oscar's testing and re-sign; the nightly review re-runs daily on this content."
  },
  "modules": [
   {
@@ -165,7 +165,8 @@
      "verdict": "must_not",
      "quote": "Must not drive and must notify DVLA. Driving must cease for 5 years from the date of the seizure. If, after 5 years, a neurologist has made a recent assessment and clinical factors or investigation results (for example, EEG or brain scan) indicate no annual risk greater than 2% of a further seizure, the licence may then be restored.",
      "anchor": "epilepsy-and-seizures",
-     "note": "The specialist's diagnosis decides which DVLA row ultimately applies — advise no driving pending their review, with the rule above as the default meanwhile."
+     "note": "The specialist's diagnosis decides which DVLA row ultimately applies — advise no driving pending their review, with the rule above as the default meanwhile.",
+     "quote2": "Such licensing also requires that there has been no need for epilepsy medication throughout the 5 years up to the date of the licence being restored."
     },
     "q-group-p": {
      "question": "Which licence group?",
@@ -339,7 +340,7 @@
      "quote": "May drive and need not notify DVLA.",
      "quote2": "Depending on the likely cause for heart failure, exercise or other functional testing may be required irrespective of the NYHA class",
      "note": "The functional-testing caveat (second quote) applies whatever the NYHA class.",
-     "anchor": "congenital-complete-heart-block"
+     "anchor": "heart-failure-including-ischaemic-cardiomyopathy-and-dilated-cardiomyopathy"
     },
     "a1-23": {
      "verdict": "conditional",
@@ -398,8 +399,8 @@
     },
     "a2-4": {
      "verdict": "must_not",
-     "quote": "Relicensing can only be considered if symptoms controlled and in NYHA 1, II or III. ✘ - Must not drive and must notify DVLA. Licence will be refused or revoked. Relicensing can only be considered if symptoms controlled and in NYHA 1 or II, and left ventricular ejection fraction is at least 40%.",
-     "note": "The Group 2 class-IV cell follows the class-IV heading — the span quoted covers both cells; the Group 2 rule is the second sentence onwards (relicensing only in NYHA I or II with LVEF ≥40%).",
+     "quote": "Must not drive and must notify DVLA. Licence will be refused or revoked. Relicensing can only be considered if symptoms controlled and in NYHA 1 or II, and left ventricular ejection fraction is at least 40%.",
+     "note": "The Group 2 class-IV cell — stricter than Group 1's class-IV rule (which allows relicensing in NYHA I–III).",
      "anchor": "heart-failure-including-ischaemic-cardiomyopathy-and-dilated-cardiomyopathy"
     },
     "r": {
@@ -471,7 +472,7 @@
       },
       {
        "label": "Suspected — awaiting the TIA clinic",
-       "next": "a-await"
+       "next": "q-await-group"
       },
       {
        "label": "Not listed — open the chapter",
@@ -483,7 +484,35 @@
      "verdict": "must_not",
      "quote": "Must not drive for 1 month but need not notify DVLA. Where more than one TIA is experienced, 1 month off driving is required following each episode of TIA.",
      "anchor": "stroke-transient-ischaemic-attack-tia-and-cerebral-venous-thrombosis--including-amaurosis-fugax-and-retinal-artery-occlusion",
-     "note": "Do not drive until the TIA clinic / stroke specialist has seen you.",
+     "note": "Do not drive until the TIA clinic / stroke specialist has seen you. (Group 1 rule shown.)",
+     "note_first": true,
+     "fly": {
+      "module": "fly-cardiac-neuro",
+      "node": "a-cva"
+     }
+    },
+    "q-await-group": {
+     "question": "Which licence group? (suspected — awaiting specialist review)",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "a-await"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "a-await-2"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-await-2": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. A licence will be refused or revoked for 1 year following a stroke or TIA. Relicensing after 1 year may be considered if: ■ there is no debarring residual impairment likely to affect safe driving and ■ there are no other significant risk factors.",
+     "anchor": "stroke-transient-ischaemic-attack-tia-and-cerebral-venous-thrombosis--including-amaurosis-fugax-and-retinal-artery-occlusion",
+     "note": "Do not drive until the TIA clinic / stroke specialist has seen you. If the diagnosis is confirmed, this Group 2 rule applies — DVLA notification and a 1-year revocation.",
      "note_first": true,
      "fly": {
       "module": "fly-cardiac-neuro",
@@ -579,7 +608,7 @@
       },
       {
        "label": "Suspected — awaiting the stroke team",
-       "next": "a-await"
+       "next": "q-await-group"
       },
       {
        "label": "Not listed — open the chapter",
@@ -591,7 +620,35 @@
      "verdict": "must_not",
      "quote": "Must not drive but may not need to notify DVLA. Driving may resume after 1 month if there has been satisfactory clinical recovery. DVLA does not need to be notified unless there is residual neurological deficit 1 month after the episode and, in particular: ■ visual field defects ■ cognitive defects ■ impaired limb function",
      "anchor": "stroke-transient-ischaemic-attack-tia-and-cerebral-venous-thrombosis--including-amaurosis-fugax-and-retinal-artery-occlusion",
-     "note": "Do not drive until the stroke team has seen you.",
+     "note": "Do not drive until the stroke team has seen you. (Group 1 rule shown.)",
+     "note_first": true,
+     "fly": {
+      "module": "fly-cardiac-neuro",
+      "node": "a-cva"
+     }
+    },
+    "q-await-group": {
+     "question": "Which licence group? (suspected — awaiting specialist review)",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "a-await"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "a-await-2"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-await-2": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. A licence will be refused or revoked for 1 year following a stroke or TIA. Relicensing after 1 year may be considered if: ■ there is no debarring residual impairment likely to affect safe driving and ■ there are no other significant risk factors.",
+     "anchor": "stroke-transient-ischaemic-attack-tia-and-cerebral-venous-thrombosis--including-amaurosis-fugax-and-retinal-artery-occlusion",
+     "note": "Do not drive until the stroke team has seen you. If the diagnosis is confirmed, this Group 2 rule applies — DVLA notification and a 1-year revocation.",
      "note_first": true,
      "fly": {
       "module": "fly-cardiac-neuro",
@@ -756,7 +813,7 @@
     "a-cabg-2": {
      "verdict": "must_not",
      "quote": "Must not drive and must notify DVLA. Licence will be refused or revoked. May be relicensed/licensed after 3 months if: ■ LV ejection fraction is at least 40% ■ the requirements for exercise or other functional tests can be met (see Appendix C ), at least 3 months postoperatively ■ there is no other disqualifying condition",
-     "anchor": "elective-percutaneous-coronary-intervention-pci"
+     "anchor": "coronary-artery-bypass-graft-cabg"
     },
     "r": {
      "refer": true
@@ -973,12 +1030,14 @@
     "a1": {
      "verdict": "must_not",
      "quote": "Must not drive on presentation and must notify DVLA. When satisfactory control of symptoms has been achieved, relicensing may be considered for restoration of the ’til 70 licence.",
-     "anchor": "dizziness--liability-to-sudden-and-unprovoked-or-unprecipitated-episodes-of-disabling-dizziness"
+     "anchor": "dizziness--liability-to-sudden-and-unprovoked-or-unprecipitated-episodes-of-disabling-dizziness",
+     "quote2": "Sudden is defined as ‘without sufficient warning to allow safe evasive action when driving’ and disabling is defined as ‘unable to continue safely with the activity being performed’."
     },
     "a2": {
      "verdict": "must_not",
      "quote": "Must not drive on presentation and must notify DVLA. If there are sudden and disabling symptoms, the licence will be refused or revoked. If an underlying diagnosis is likely to cause recurrence, the patient must be asymptomatic and completely controlled for 1 year from an episode before reapplying for their licence.",
-     "anchor": "dizziness--liability-to-sudden-and-unprovoked-or-unprecipitated-episodes-of-disabling-dizziness"
+     "anchor": "dizziness--liability-to-sudden-and-unprovoked-or-unprecipitated-episodes-of-disabling-dizziness",
+     "quote2": "Sudden is defined as ‘without sufficient warning to allow safe evasive action when driving’ and disabling is defined as ‘unable to continue safely with the activity being performed’."
     },
     "a-def": {
      "verdict": "conditional",
@@ -1191,7 +1250,7 @@
      "verdict": "info",
      "quote": "the key determinant for deep venous thrombosis is immobilisation and the risk of thrombosis is increased by travel of greater than 4 hours",
      "quote2": "Simple, effective measures are to move about the aircraft cabin and to carry out the lower limb exercises shown in airline videos and in-flight magazines.",
-     "note": "For the highest-risk cases the page lists fitted anti-embolism stockings and LMWH."
+     "note": "For the highest-risk cases the page lists fitted anti-embolism stockings and LMWH — and, in extremely high risk cases, oral anticoagulation."
     },
     "a-asp": {
      "verdict": "info",
@@ -1223,8 +1282,12 @@
      "question": "Current state of the pneumothorax?",
      "options": [
       {
-       "label": "Present now (undrained, or drain in situ)",
+       "label": "Present now — undrained",
        "next": "a-current"
+      },
+      {
+       "label": "Chest drain in situ now",
+       "next": "a-drain"
       },
       {
        "label": "Drained, with FULL lung re-expansion confirmed",
@@ -1238,8 +1301,7 @@
     },
     "a-current": {
      "verdict": "must_not",
-     "quote": "The presence of a pneumothorax is an absolute contraindication to air travel as trapped air may expand and result in a tension pneumothorax.",
-     "quote2": "If there is a need to travel earlier, safe travel is possible using a one-way Heimlich valve attached to the chest drain."
+     "quote": "The presence of a pneumothorax is an absolute contraindication to air travel as trapped air may expand and result in a tension pneumothorax."
     },
     "a-drained": {
      "verdict": "conditional",
@@ -1248,6 +1310,12 @@
     },
     "r": {
      "refer": true
+    },
+    "a-drain": {
+     "verdict": "conditional",
+     "quote": "If there is a need to travel earlier, safe travel is possible using a one-way Heimlich valve attached to the chest drain.",
+     "quote2": "The presence of a pneumothorax is an absolute contraindication to air travel as trapped air may expand and result in a tension pneumothorax.",
+     "note": "Specialist-led — earlier travel with a drain in situ is possible only via a one-way Heimlich valve arrangement agreed with the treating team and the airline."
     }
    },
    "patient_slug": "caa-air-travel-your-health"
@@ -1279,8 +1347,8 @@
      "question": "Which event?",
      "options": [
       {
-       "label": "Myocardial infarction / ACS",
-       "next": "a-mi"
+       "label": "Myocardial infarction / acute coronary syndrome",
+       "next": "q-mi"
       },
       {
        "label": "Uncomplicated PCI / stent",
@@ -1293,6 +1361,10 @@
       {
        "label": "Arrhythmia (incl. atrial fibrillation)",
        "next": "q-arr"
+      },
+      {
+       "label": "Check the CAA contraindication list (Table 2)",
+       "next": "i-general"
       },
       {
        "label": "Something else — open the chapter",
@@ -1353,6 +1425,37 @@
      "verdict": "info",
      "quote": "Uncomplicated myocardial infarction within 7 days Complicated myocardial infarction within 4-6 weeks Unstable angina Decompensated congestive heart failure Uncontrolled hypertension CABG within 10 days CVA within 3 days Uncontrolled cardiac arrhythmia Severe symptomatic valvular heart disease",
      "note": "If any of these applies, do not fly — ask your clinician."
+    },
+    "q-mi": {
+     "question": "Which best describes it?",
+     "options": [
+      {
+       "label": "Uncomplicated myocardial infarction",
+       "next": "a-mi"
+      },
+      {
+       "label": "Complicated myocardial infarction",
+       "next": "a-mi-comp"
+      },
+      {
+       "label": "Unstable angina",
+       "next": "a-ua"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-mi-comp": {
+     "verdict": "must_not",
+     "quote": "Uncomplicated myocardial infarction within 7 days Complicated myocardial infarction within 4-6 weeks Unstable angina Decompensated congestive heart failure Uncontrolled hypertension CABG within 10 days CVA within 3 days Uncontrolled cardiac arrhythmia Severe symptomatic valvular heart disease",
+     "note": "'Complicated myocardial infarction within 4-6 weeks' is on the CAA contraindication list (Table 2) — must not fly within that window; individual assessment after."
+    },
+    "a-ua": {
+     "verdict": "must_not",
+     "quote": "Uncomplicated myocardial infarction within 7 days Complicated myocardial infarction within 4-6 weeks Unstable angina Decompensated congestive heart failure Uncontrolled hypertension CABG within 10 days CVA within 3 days Uncontrolled cardiac arrhythmia Severe symptomatic valvular heart disease",
+     "note": "'Unstable angina' is on the CAA contraindication list (Table 2) — a contraindication to commercial flight until stabilised."
     }
    },
    "patient_slug": "caa-air-travel-your-health",
