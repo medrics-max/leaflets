@@ -1419,5 +1419,54 @@
   "slug": "mf-uveal-melanoma",
   "type": "trusted",
   "source": "Moorfields Eye Hospital"
+ },
+ {
+  "title": "Scabies (British Association of Dermatologists)",
+  "url": "https://www.bad.org.uk/pils/scabies",
+  "slug": "bad-scabies",
+  "type": "trusted",
+  "source": "British Association of Dermatologists"
+ },
+ {
+  "title": "Head lice (British Association of Dermatologists)",
+  "url": "https://www.bad.org.uk/pils/head-lice",
+  "slug": "bad-head-lice",
+  "type": "trusted",
+  "source": "British Association of Dermatologists"
+ },
+ {
+  "title": "Impetigo (British Association of Dermatologists)",
+  "url": "https://www.bad.org.uk/pils/impetigo",
+  "slug": "bad-impetigo",
+  "type": "trusted",
+  "source": "British Association of Dermatologists"
+ },
+ {
+  "title": "Urticaria and angioedema (hives) (British Association of Dermatologists)",
+  "url": "https://www.bad.org.uk/pils/urticaria-and-angioedema",
+  "slug": "bad-urticaria-and-angioedema",
+  "type": "trusted",
+  "source": "British Association of Dermatologists"
+ },
+ {
+  "title": "Atopic eczema (British Association of Dermatologists)",
+  "url": "https://www.bad.org.uk/pils/atopic-eczema",
+  "slug": "bad-atopic-eczema",
+  "type": "trusted",
+  "source": "British Association of Dermatologists"
+ },
+ {
+  "title": "Eczema herpeticum (British Association of Dermatologists)",
+  "url": "https://www.bad.org.uk/pils/eczema-herpeticum",
+  "slug": "bad-eczema-herpeticum",
+  "type": "trusted",
+  "source": "British Association of Dermatologists"
+ },
+ {
+  "title": "Shingles (herpes zoster) (British Association of Dermatologists)",
+  "url": "https://www.bad.org.uk/pils/shingles-herpes-zoster",
+  "slug": "bad-shingles-herpes-zoster",
+  "type": "trusted",
+  "source": "British Association of Dermatologists"
  }
 ]
