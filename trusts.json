@@ -108,7 +108,7 @@
     "min_expected": 300,
     "review_dates": true
    },
-   "listed": false
+   "listed": true
   },
   {
    "id": "hull",

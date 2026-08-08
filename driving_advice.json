@@ -1,11 +1,11 @@
 {
- "version": 3.1,
+ "version": 3.2,
  "comment": "Interactive DVLA driving-advice trees for the picker (Oscar's design, 2026-08-01: when a selected condition has driving implications, a 'Driving advice' option appears — the tool asks the clinician the licence-group / severity questions the DVLA tables turn on, then shows the relevant rule VERBATIM with a link to the DVLA source page to double-check). RULES: every 'quote'/'quote2' is copied EXACTLY from the fetched gov.uk chapter named in the module's source (guidance_watch.py stores the page texts and re-verifies every quote here on its weekly sweep — a reworded chapter raises an alert instead of silently stale advice). 'note' fields are OUR framing and are shown as such. Questions only ever route between published DVLA rows — they never compute clinical conclusions. Clinician-facing decision support; the quote never auto-inserts into a patient handout. SCOPE (Oscar 2026-08-01 (2)): conditions normally advised by the discharging SPECIALIST team, or whose DVLA rules are too multi-branch for a quick tree, get a 'specialist: true' card that says so and links the chapter instead of pretending — and genuinely complex territory (e.g. pulmonary arterial hypertension) is deliberately NOT covered at all.",
  "clinical_signoff": {
-  "status": "draft",
-  "by": null,
-  "date": null,
-  "_doc": "v3 was signed by Dr Oscar Harrison 2026-08-06. On 2026-08-07 Oscar instructed applying all 12 confirmed findings from the 2026-08-07 nightly two-model clinical review (TIA/stroke suspected paths now ask licence group; unstable-angina and complicated-MI flying branches added; heart-failure G2 class-IV quote corrected; anchors fixed; pneumothorax drain-in-situ split out; dizziness definitions shown on the Yes branch; first-seizure G2 restoration condition added). Status returns to draft pending Oscar's testing and re-sign; the nightly review re-runs daily on this content."
+  "status": "signed",
+  "by": "Dr Oscar Harrison (clinical lead)",
+  "date": "2026-08-08",
+  "_doc": "Signed off 2026-08-08 on Oscar's instruction in session ('sign off the driving advice'), after: walking the v3 trees in the test console (2026-08-06), ordering and testing the v3.1 fixes for all 12 of the 2026-08-07 nightly-review findings, and the v3.2 fixes for all 4 of the 2026-08-08 overnight findings (SCAD branch added, eye-surgery flying verdict corrected to conditional, elective-PCI G2 quote trimmed, pulmonary-oedema match term removed) — applied and byte-verified BEFORE signing, so no known confirmed finding is unaddressed at sign-off. The nightly two-model clinical review continues on every content change."
  },
  "modules": [
   {
@@ -281,7 +281,6 @@
    "label": "Heart failure",
    "match": [
     "heart failure",
-    "pulmonary oedema",
     "dilated cardiomyopathy",
     "ischaemic cardiomyopathy",
     "left ventricular failure"
@@ -694,6 +693,10 @@
        "next": "q-cabg"
       },
       {
+       "label": "Spontaneous coronary artery dissection (SCAD)",
+       "next": "q-scad"
+      },
+      {
        "label": "Something else — open the chapter",
        "next": "r"
       }
@@ -784,8 +787,8 @@
     },
     "a-epci-2": {
      "verdict": "must_not",
-     "quote": "Must not drive and must notify DVLA. Licence will be refused or revoked. May be relicensed/licensed after at least 6 weeks if: ■ LV ejection fraction is at least 40% ■ the requirements for exercise or other functional tests can be met (see Appendix C ) ■ there is no other disqualifying condition Coronary artery bypass graft (CABG)",
-     "note": "The Group 2 elective-PCI cell is the quoted rule (6 weeks, LVEF ≥40%, functional tests); the span ends where the CABG section begins.",
+     "quote": "Must not drive and must notify DVLA. Licence will be refused or revoked. May be relicensed/licensed after at least 6 weeks if: ■ LV ejection fraction is at least 40% ■ the requirements for exercise or other functional tests can be met (see Appendix C ) ■ there is no other disqualifying condition",
+     "note": "The Group 2 elective-PCI cell: 6 weeks, LVEF ≥40%, functional tests.",
      "anchor": "elective-percutaneous-coronary-intervention-pci"
     },
     "q-cabg": {
@@ -817,6 +820,34 @@
     },
     "r": {
      "refer": true
+    },
+    "q-scad": {
+     "question": "Which licence group? (SCAD has its own DVLA row — the ACS/PCI rules do not apply)",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "a-scad-1"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "a-scad-2"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-scad-1": {
+     "verdict": "must_not",
+     "quote": "Must not drive but need not notify DVLA. Driving may resume 4 weeks after recovery from the acute event, provided there is no other disqualifying condition.",
+     "anchor": "spontaneous-coronary-artery-dissection-scad",
+     "note": "'Recovery from the acute event' is a clinical judgement — the 4 weeks runs from recovery, not from the event itself."
+    },
+    "a-scad-2": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. Licence will be refused/revoked. Relicensing will be considered upon individual assessment.",
+     "anchor": "spontaneous-coronary-artery-dissection-scad"
     }
    },
    "patient_slug": "gov-drv-heart-attack",
@@ -1531,7 +1562,7 @@
      "note": "Trapped intracranial gas expands at altitude — normally specialist-team territory; open the source. The general post-operative caveat also applies."
     },
     "a-eye": {
-     "verdict": "must_not",
+     "verdict": "conditional",
      "quote": "Ophthalmological procedures for retinal detachment also involve the introduction of gas by intra-ocular injections, which temporarily increase intra-ocular pressure. Depending on the gas, it may be necessary to delay travel for approximately 2 weeks if sulphur hexafluoride is used and 6 weeks with the use of perfluoropropane. For other intra-ocular procedure and penetrating eye injuries, 1 week should elapse before flying.",
      "note": "The longest published delays in the chapter (up to 6 weeks with perfluoropropane) — normally ophthalmology-led; open the source."
     },
