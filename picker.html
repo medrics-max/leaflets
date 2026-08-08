@@ -72,6 +72,9 @@
   .drivepanel .verdict {
     display: inline-block; padding: 2px 10px; border-radius: 12px;
     font-weight: 700; font-size: 0.85rem; margin-bottom: 8px; color: #fff;
+    /* default background so an unknown verdict value from a newer advice
+       build stays legible, never white-on-white (2026-08-08 review) */
+    background: #5f6b76;
   }
   .drivepanel .verdict.must_not { background: #c0392b; }
   .drivepanel .verdict.may { background: #1e7d32; }
@@ -196,7 +199,8 @@
 <div id="selected" class="chips"></div>
 <div id="related" class="related"></div>
 <div id="driving" class="driving"></div>
-<p class="count" id="count">Loading…</p>
+<div id="loadwarn"></div>
+<p class="count" id="count" aria-live="polite">Loading…</p>
 <ul id="results" class="results"></ul>
 
 <div class="actions">
@@ -505,6 +509,16 @@ function noteNoResults(q) {
   // Letters-and-clinical-punctuation only. A single digit anywhere (NHS
   // number, DOB, hospital number) means this never leaves the device.
   if (!/^[a-z #&+'\-]{2,30}$/.test(clean)) return;
+  // (2026-08-08 review) a NAME is pure letters and would pass the digit
+  // filter. Multi-word free text where any word matches nothing we know
+  // (no synonym, no title, no slug) is name-shaped — it never leaves the
+  // device. Single unknown words stay: they ARE the content-gap signal.
+  const toks = clean.split(/\s+/).filter(Boolean);
+  if (toks.length > 1) {
+    const known = w => { const fw = fold(w);
+      return !!SYN_FOLDED[fw] || ITEMS.some(it => it._hay.includes(fw)); };
+    if (!toks.every(known)) return;
+  }
   _nrTimer = setTimeout(() => {
     const cur = $("search").value.trim().toLowerCase();
     if (cur !== clean || _sentQueries.has(clean)) return;
@@ -633,19 +647,40 @@ let _loadSeq = 0;   // guards against a slow older load overwriting a newer trus
 async function load() {
   const seq = ++_loadSeq;
   ITEMS = []; bySlug.clear(); selected.clear();
+  // A walked driving-advice verdict must not survive a trust switch: the
+  // official GOV.UK/CAA pages exist at every trust, so a stale pick could
+  // ride into a later QR the moment that page is re-selected.
+  drvPicks.clear(); driveState = null;
   renderSelected(); $("out").innerHTML = ""; $("results").innerHTML = "";
   $("count").textContent = "Loading…";
   const sources = sourcesFor(TRUST);
   // no-cache: a clinician must never search against a stale cached copy after
   // a correction is published (revalidates via ETag, so unchanged files cost a
   // 304, not a full re-download).
+  // (2026-08-08 review) a failed layer must not silently present as an empty
+  // layer: the clinician would search a list missing the trust's own leaflets
+  // (or the driving advice) with no hint it is incomplete. 404s on OPTIONAL
+  // per-trust files (services/advice at trusts that have none) stay quiet;
+  // network errors always flag, and the trust-leaflet layer flags on any
+  // failure.
+  const failedLayers = [];
+  const LAYER_LABEL = { leaflet: "the trust's own leaflets", service: "trust service pages",
+                        advice: "local advice cards", nhs: "national NHS resources",
+                        medicines: "medicines pages" };
   const [all, reviews, bundles, profiles, driving] = await Promise.all([
-    Promise.all(sources.map(([f]) =>
-      fetch(f, { cache: "no-cache" }).then(r => r.ok ? r.json() : []).catch(() => []))),
+    Promise.all(sources.map(([f, ty]) =>
+      fetch(f, { cache: "no-cache" })
+        .then(r => {
+          if (!r.ok) { if (ty === "leaflet") failedLayers.push(LAYER_LABEL[ty]); return []; }
+          return r.json();
+        })
+        .catch(() => { failedLayers.push(LAYER_LABEL[ty] || ty); return []; }))),
     fetch(dirFor(TRUST) + "reviews.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
     fetch("related_bundles.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
     fetch("specialty_profiles.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
-    fetch("driving_advice.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+    fetch("driving_advice.json", { cache: "no-cache" })
+      .then(r => { if (!r.ok) throw 0; return r.json(); })
+      .catch(() => { failedLayers.push("driving/flying advice"); return {}; }),
   ]);
   // A newer load started while we were fetching (rapid trust switch): drop
   // this response, or trust A's data could render under trust B's banner.
@@ -666,6 +701,12 @@ async function load() {
     });
   });
   $("count").textContent = ITEMS.length + " items available. Type to search.";
+  $("loadwarn").innerHTML = failedLayers.length
+    ? `<p style="background:#fdecea;border-left:4px solid #c0392b;border-radius:0 8px 8px 0;` +
+      `padding:8px 12px;color:#7a271a"><strong>⚠ Some content failed to load:</strong> ` +
+      `${esc([...new Set(failedLayers)].join(", "))} — this list is incomplete. ` +
+      `Reload the page before relying on it.</p>`
+    : "";
   renderResults();
 }
 
@@ -1059,6 +1100,7 @@ function renderDrivePanel() {
           return `<div class="drvfly">✈ <strong>Flying: ${esc(FVLAB[fn.verdict] || "see rule")}</strong> — ` +
             `<details class="drvrule" style="display:inline-block"><summary>See the CAA rule</summary>` +
             `<blockquote>“${esc(fn.quote)}”</blockquote>` +
+            (fn.quote2 ? `<blockquote>“${esc(fn.quote2)}”</blockquote>` : "") +
             (fn.note ? `<p class="drvnote">Our note: ${esc(fn.note)}</p>` : "") +
             `</details> ` +
             `<a class="drvsrc" href="${esc(fsrc.url)}" target="_blank" rel="noopener">CAA source ↗</a></div>`;
@@ -1074,7 +1116,14 @@ function renderDrivePanel() {
       you rely on it. Wrong path? ← Back, ☰ All conditions, or the source.</p>` +
       ((() => { window._pslug = node.patient_slug || m.patient_slug; return window._pslug && bySlug.has(window._pslug); })()
         ? `<div>` +
-          (drvPicks.get(m.id) && drvPicks.get(m.id).node === driveState.node
+          // "✓ On the QR" must mirror generate()'s actual filter — the pick
+          // only rides while its official page is still SELECTED. A pick
+          // whose page was removed is deleted here so the ＋ button returns
+          // instead of asserting advice that would silently not be issued
+          // (2026-08-08 review).
+          ((() => { const p = drvPicks.get(m.id);
+             if (p && !selected.has(p.pslug)) { drvPicks.delete(m.id); return false; }
+             return p && p.node === driveState.node; })()
             ? `<button class="drvadd" disabled>✓ On the QR</button> `
             : `<button class="drvadd" data-add="${esc(window._pslug)}">＋ Add this advice to the QR</button> `) +
           `</div>`
@@ -1165,7 +1214,7 @@ function itemLi(it) {
     : "";
   return `
     <li data-s="${esc(it.slug)}">
-      <input type="checkbox" ${selected.has(it.slug) ? "checked" : ""}>
+      <input type="checkbox" aria-label="${esc(it.title)}" ${selected.has(it.slug) ? "checked" : ""}>
       <span class="t">${esc(it.title)}<span class="tag ${it.type}">${it.type === "trusted" && it.source ? esc(it.source) : (TAGLABEL[it.type]||"")}</span>${stale}${broken}
       <a class="openpg" href="${esc(patientUrl(it.slug))}" target="_blank" rel="noopener" title="Open the patient page to check it">↗</a></span>
     </li>`;
@@ -1241,7 +1290,11 @@ function renderResults() {
 }
 
 function generate() {
-  $("out").dataset.fresh = "1";   // survive the renderSelected below
+  // (2026-08-08 review) do NOT set out.dataset.fresh here: nothing in
+  // generate() re-renders the selection, so the flag survived into the FIRST
+  // post-generate selection change and disarmed the "Selection changed —
+  // generate again" stale-QR warning exactly once — the 2026-08-01 failure
+  // mode the warning exists to prevent.
   bumpFreq([...selected.keys()]);
   noteSpecialtyHints([...selected.keys()]);
   telemetry("generate", [...selected.keys()].join(","));   // content slugs only

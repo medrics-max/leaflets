@@ -211,16 +211,23 @@
 </style>
 </head>
 <body>
-<div id="app" class="loading">Loading…</div>
+<div id="app" class="loading">Loading your information…
+  If this message does not go away, check your connection and reload.
+  If you feel worse, or you are worried, call 111 — or 999 in an emergency.
+  <noscript><br><br>This page needs JavaScript, which your browser has turned off.
+  Ask your care team for a printed copy of your information.
+  If you feel worse, or you are worried, call 111 — or 999 in an emergency.</noscript>
+</div>
 <footer>
   Patient information published by<br>
   <span id="trustfoot">Gloucestershire Hospitals NHS Foundation Trust</span><br>
   This page is an independent service by Medrics and is not provided or endorsed by the trust.<br>
-  Privacy: this page collects nothing about you and never knows who you are. The web address
-  does show the information topics — if you share this device with others, clear it from the
-  browser history when you are done.
+  Privacy: this page collects nothing about you and never knows who you are. If you tap
+  Yes or No below, we record only that answer and the hospital — nothing else, and nothing
+  that could identify you. The web address does show the information topics — if you share
+  this device with others, clear it from the browser history when you are done.
   <div class="credits">
-    <span id="creditline">Clinical lead: Dr Tom Mitchell, Consultant in Emergency Medicine &amp; Clinical Medical Information Officer</span><br>
+    <span id="creditline" hidden></span><br>
     Software &amp; design: Dr Oscar Harrison
   </div>
   <div id="brand" style="margin-top:10px;"></div>
@@ -270,18 +277,21 @@ const LOG_VIEWS = false;
 function logEvent(event, value) {
   if (!ANALYTICS_URL) return;
   try {
+    // (2026-08-08 review) PATIENT-side events carry NO slugs and no
+    // millisecond timestamp: a trust + exact time + topic list (e.g. a
+    // miscarriage leaflet + a seizure card) is quasi-identifying health
+    // data, and the footer promises this page collects nothing about the
+    // patient. Demand measurement comes from the CLINICIAN-side generate
+    // event in picker.html — never from here. credentials:'omit' so no
+    // cookie the origin might ever set can link repeat scans (sendBeacon
+    // always sends cookies, so it is deliberately not used).
     const payload = JSON.stringify({
       event: event,
       value: value || "",
-      slugs: (new URLSearchParams(window.location.search)).get("slugs") || "",
-      trust: (new URLSearchParams(window.location.search)).get("t") || "",
-      ts: Date.now()
+      trust: (new URLSearchParams(window.location.search)).get("t") || ""
     });
-    if (navigator.sendBeacon) {
-      navigator.sendBeacon(ANALYTICS_URL, payload);
-    } else {
-      fetch(ANALYTICS_URL, { method: "POST", mode: "no-cors", body: payload });
-    }
+    fetch(ANALYTICS_URL, { method: "POST", mode: "no-cors", body: payload,
+                           keepalive: true, credentials: "omit" });
   } catch (e) { /* never let analytics break the page */ }
 }
 
@@ -311,6 +321,20 @@ function shareThisPage() {
   } else {
     window.prompt("Copy this link to text or email to yourself:", url);
   }
+}
+
+// Credits are strictly per-project (Oscar 2026-08-08: Dr Mitchell is
+// Gloucestershire's clinical lead — a different project from Royal Surrey's
+// preview): the line renders only what THAT trust's registry entry names.
+function setCreditLine(trust) {
+  const cl = document.getElementById("creditline");
+  if (!cl) return;
+  const c = (trust && trust.credits) || {};
+  const line = c.clinical_lead ? "Clinical lead: " + c.clinical_lead
+             : c.clinical_contributor ? "Clinical contributor: " + c.clinical_contributor
+             : "";
+  cl.textContent = line;
+  cl.hidden = !line;
 }
 
 function render(html) {
@@ -463,15 +487,24 @@ function renderResolved(items, demo) {
   // the ADVICE words carry the bold, not the whole sentence
   const advIntro = c => {
     const act = c.kind === "flying" ? "flying" : "driving";
+    const verb = act === "flying" ? "fly" : "drive";
     if (c.implied)
-      return `This condition can also affect ${act} — <strong>check before you ${act === "flying" ? "fly" : "drive"}</strong>.`;
+      return `This condition can also affect ${act} — <strong>check before you ${verb}</strong>.`;
     if (c.await_specialist)
-      return `Your clinician's advice — <strong>do not ${act === "flying" ? "fly" : "drive"} until the specialist team has seen you</strong>.`;
+      return `Your clinician's advice — <strong>do not ${verb} until the specialist team has seen you</strong>.`;
     if (c.verdict === "may")
       return `Your clinician has checked — <strong>no ${act} restriction applies to you</strong>.`;
     if (c.verdict === "must_not")
-      return `Your clinician has checked — <strong>you must not ${act === "flying" ? "fly" : "drive"} for now</strong>.`;
-    return `Your clinician has checked — <strong>a ${act} rule with conditions applies to you</strong>.`;
+      return `Your clinician has checked — <strong>you must not ${verb} for now</strong>.`;
+    if (c.verdict === "conditional")
+      return `Your clinician has checked — <strong>a ${act} rule with conditions applies to you</strong>.`;
+    // 'info' nodes are official information, NOT restrictions (e.g. the CAA
+    // aspirin note) — and an unknown verdict from a newer advice build must
+    // never be dressed up as one. (2026-08-08 review: the old fallthrough
+    // told patients an info note was "a rule with conditions".)
+    if (c.verdict === "info")
+      return `Your clinician has shared this official ${act} information with you.`;
+    return `Your clinician has shared an official ${act} rule — <strong>read it below and check with your care team</strong>.`;
   };
   const advCards = ADV_CARDS.map(c => `
     <div class="advice-card">
@@ -484,10 +517,20 @@ function renderResolved(items, demo) {
       <p style="background:#fff8e6;border-left:3px solid #b07d00;border-radius:0 6px 6px 0;padding:5px 8px;margin:8px 0;font-size:0.85rem;color:#5a4a00">Check this advice applies to you — if unsure, ask your clinician.</p>
       <a class="advice-text" href="${escapeHtml(c.url)}" target="_blank" rel="noopener" style="display:inline-block;background:#005eb8;color:#fff;border-radius:8px;padding:8px 14px;text-decoration:none">Open the ${escapeHtml(c.org)} guidance${c.anchor ? " (exact section)" : ""} ↗</a>
     </div>`).join("");
-  const govSection = (gov.length || ADV_CARDS.length)
+  // A clinician-chosen verdict that failed to resolve renders a caution, not
+  // silence — "no advice shown" must never read as "no restriction".
+  const advMissing = (typeof ADV_DROPPED !== "undefined" && ADV_DROPPED)
+    ? `<div class="advice-card"><p class="advice-text">Your clinician also chose official
+       driving or flying advice that could not be shown here. <strong>Do not assume you may
+       drive or fly</strong> — check with your clinician, or read the official guidance:
+       <a href="https://www.gov.uk/health-conditions-and-driving" target="_blank" rel="noopener"
+       style="color:#005eb8">Health conditions and driving (GOV.UK) ↗</a></p></div>`
+    : "";
+  const govSection = (gov.length || ADV_CARDS.length || advMissing)
     ? `<p class="section-title">Official driving and travel advice</p>
        <p class="section-sub">Official government and aviation-authority advice — some conditions affect when you may drive or fly.</p>
        ${advCards}
+       ${advMissing}
        ${gov.map(g => cardFor(g, "Open")).join("")}`
     : "";
 
@@ -495,6 +538,13 @@ function renderResolved(items, demo) {
     ${demo ? '<p class="demobanner"><strong>Demonstration only.</strong> This is a preview of the service and is not in clinical use at this trust. Do not rely on it for your care.</p>' : ""}
     <h1>Information from your visit</h1>
     <p class="subtitle">Selected for you by your clinician.</p>
+    ${(typeof MISSING_ITEMS !== "undefined" && MISSING_ITEMS)
+      ? `<p class="demobanner">${(typeof LAYERS_FAILED !== "undefined" && LAYERS_FAILED.length)
+          ? "Some of your information could not be loaded right now — please try again in a few minutes."
+          : (MISSING_ITEMS === 1
+             ? "One item your clinician chose is not available at the moment. Please ask your care team about it."
+             : MISSING_ITEMS + " items your clinician chose are not available at the moment. Please ask your care team about them.")}</p>`
+      : ""}
     ${leafletSection}
     ${adviceSection}
     ${medicineSection}
@@ -509,7 +559,7 @@ function renderResolved(items, demo) {
       <button onclick="rateHelpful('no')">👎 No</button>
     </div>
     <a class="feedback" href="${FEEDBACK_FORM_URL}">Give more feedback</a>
-    <p class="notice">Feedback is fully anonymous. <strong>Please do not include your name, NHS number, or any personal details.</strong>${ANALYTICS_URL ? " This service also collects anonymous usage statistics (which information is viewed) to help improve it — no personal details, and nothing that could identify you, are collected." : ""}</p>
+    <p class="notice">Feedback is fully anonymous. <strong>Please do not include your name, NHS number, or any personal details.</strong>${ANALYTICS_URL ? " If you tap Yes or No, this service records only that answer and the hospital — anonymously, with no personal details and nothing that could identify you." : ""}</p>
     <p class="langhint">To read this in another language, use your phone or browser's translate option.</p>
   `);
 }
@@ -549,13 +599,14 @@ async function main() {
       demo = trust.listed === false;
       const foot = document.getElementById("trustfoot");
       if (foot) foot.textContent = trust.name;
-      // Credits are per-trust: "clinical lead" only where the registry says
-      // so; elsewhere Dr Mitchell is credited as a clinical contributor.
-      const cl = document.getElementById("creditline");
-      if (cl) cl.textContent = (trust.credits && trust.credits.clinical_lead)
-        ? "Clinical lead: " + trust.credits.clinical_lead
-        : "Clinical contributor: Dr Tom Mitchell, Consultant in Emergency Medicine";
+      setCreditLine(trust);
       trustResolved = true;
+    } else if (registry && !tParam) {
+      // Default-trust QR (no ?t=): the credit belongs to the default trust's
+      // own project team (Gloucestershire — Dr Mitchell IS its clinical
+      // lead), read from the registry like any other trust.
+      const dt = (registry.trusts || []).find(x => x.id === registry.default);
+      if (dt) setCreditLine(dt);
     }
   } catch (e) { /* registry unavailable — handled below for ?t= QRs */ }
   // A ?t= QR we can't resolve (renamed trust id, or the registry fetch failed)
@@ -573,39 +624,59 @@ async function main() {
   let leaflets, services, nhs, advice, medicines, overrides, reviews, redirects,
       drivingAdvice;
   ADV_CARDS = [];
+  // (2026-08-08 review) a failed layer fetch must not be silently identical
+  // to an empty layer: if a requested item then fails to resolve, the page
+  // must blame the outage, not the QR code.
+  const layersFailed = [];
+  // A 404 on an OPTIONAL per-trust file (services/advice at trusts that have
+  // none) is normal and stays quiet; any other failure — network error,
+  // server error, bad JSON — flags, so a requested item that then fails to
+  // resolve blames the outage, not the QR.
+  const layer = (url, opts, name, empty) =>
+    fetch(url, opts).then(r => {
+      if (r.status === 404) return empty;
+      if (!r.ok) { layersFailed.push(name); return empty; }
+      return r.json().catch(() => { layersFailed.push(name); return empty; });
+    }).catch(() => { layersFailed.push(name); return empty; });
   try {
     [leaflets, services, nhs, advice, medicines, overrides, reviews, redirects] = await Promise.all([
       fetch(dir + "leaflets.json", { cache: "no-cache" }).then(r => r.json()),
-      fetch(dir + "services.json", { cache: "no-cache" }).then(r => r.json()).catch(() => []),
+      layer(dir + "services.json", { cache: "no-cache" }, "services", []),
       // no-cache (revalidate, 304 when unchanged): a cached copy of this
       // file made a just-published resource invisible on a patient page
       // while the QR link was correct (2026-08-01)
-      fetch("nhs_resources.json", { cache: "no-cache" }).then(r => r.json()).catch(() => []),
+      layer("nhs_resources.json", { cache: "no-cache" }, "resources", []),
       // no-store: this file carries crisis numbers and opening hours — a
       // returning patient must never be shown a stale cached copy after a
       // correction. It is small (~12 KB); the leaflet indexes stay cacheable.
-      fetch(dir + "local_advice.json", { cache: "no-store" }).then(r => r.json()).catch(() => []),
-      fetch("medicines.json", { cache: "no-cache" }).then(r => r.json()).catch(() => []),
+      layer(dir + "local_advice.json", { cache: "no-store" }, "advice", []),
+      layer("medicines.json", { cache: "no-cache" }, "medicines", []),
       fetch(dir + "manual_overrides.json").then(r => r.json()).catch(() => ({})),
       fetch(dir + "reviews.json").then(r => r.json()).catch(() => ({})),
       fetch(dir + "redirects.json").then(r => r.json()).catch(() => ({}))
     ]);
-    drivingAdvice = await fetch("driving_advice.json", { cache: "no-cache" })
-      .then(r => r.json()).catch(() => ({ modules: [] }));
+    drivingAdvice = await layer("driving_advice.json", { cache: "no-cache" },
+                                "driving advice", { modules: [] });
     // clinician-chosen verdicts (?adv=module.node,…): validated against the
     // published trees — unknown ids are ignored, and only the verbatim
     // quote/source ever render (the clinician-facing notes never do)
     ADV_CARDS = [];
-    for (let pick of (params.get("adv") || "").split(",").filter(Boolean).slice(0, 6)) {
+    // (2026-08-08 review) a clinician-chosen verdict that fails to resolve
+    // (renamed node in a newer advice build, failed fetch, or the >6 cap)
+    // must not vanish — ADV_DROPPED drives a visible caution card so the
+    // patient never assumes "no advice shown" means "no restriction".
+    const advRequested = (params.get("adv") || "").split(",").filter(Boolean);
+    ADV_DROPPED = 0;
+    for (let pick of advRequested.slice(0, 6)) {
       // "~i" = implied (rode along with a driving sign-off) — neutral
       // wording, never "your clinician has checked"
       const implied = pick.endsWith("~i");
       if (implied) pick = pick.slice(0, -2);
       const dot = pick.lastIndexOf(".");
-      if (dot < 1) continue;
+      if (dot < 1) { ADV_DROPPED++; continue; }
       const mod = (drivingAdvice.modules || []).find(x => x.id === pick.slice(0, dot));
       const node = mod && (mod.nodes || {})[pick.slice(dot + 1)];
-      if (!mod || !node || !node.quote) continue;
+      if (!mod || !node || !node.quote) { ADV_DROPPED++; continue; }
       const src = node.source || mod.source || {};
       ADV_CARDS.push({
         org: mod.kind === "flying" ? "CAA" : "DVLA",
@@ -617,8 +688,10 @@ async function main() {
         anchor: !!node.anchor,
       });
     }
+    ADV_DROPPED += Math.max(0, advRequested.length - 6);
   } catch (e) {
-    render(`<h1 class="error">Could not load leaflets</h1><p>Please try again in a moment.</p>`);
+    render(`<h1 class="error">Could not load leaflets</h1><p>Please try again in a moment.</p>
+      <p>If you feel worse, or you are worried, call 111 — or 999 in an emergency.</p>`);
     return;
   }
 
@@ -630,6 +703,9 @@ async function main() {
   for (const m of medicines) bySlug.set(m.slug, { ...m, type: "medicines" });
 
   const resolved = [];
+  MISSING_ITEMS = 0;   // requested slugs that resolved to nothing (renamed,
+                       // withdrawn, or their layer failed to load) — rendered
+                       // as a notice, never silently dropped (2026-08-08)
   for (const slug of requested) {
     // A slug missing from the index may have been replaced by a newer
     // version of the same leaflet — redirects.json (written by the fortnightly
@@ -642,7 +718,7 @@ async function main() {
       replaced = true;
     }
     const item = bySlug.get(lookup);
-    if (!item) continue;
+    if (!item) { MISSING_ITEMS++; continue; }
     const override = overrides[lookup] || overrides[slug];
     resolved.push({
       slug: lookup,
@@ -659,7 +735,17 @@ async function main() {
   }
 
   if (resolved.length === 0) {
-    render(`<h1 class="error">Leaflets not found</h1><p>This QR code may be out of date. Please ask your clinician for a new one.</p>`);
+    // Blame the right thing: if a data layer failed to load, the QR code is
+    // probably fine — say so instead of sending the patient back for a new
+    // code that would fail identically (2026-08-08 review).
+    render(layersFailed.length
+      ? `<h1 class="error">Could not load your information</h1>
+         <p>Part of this service is not loading right now. Your QR code is probably fine —
+         please try again in a few minutes.</p>
+         <p>If you feel worse, or you are worried, call 111 — or 999 in an emergency.</p>`
+      : `<h1 class="error">Leaflets not found</h1>
+         <p>This QR code may be out of date. Please ask your clinician for a new one.</p>
+         <p>If you feel worse, or you are worried, call 111 — or 999 in an emergency.</p>`);
     return;
   }
 
@@ -679,13 +765,19 @@ async function main() {
         const ps = m.patient_slug;
         if (ps && !have.has(ps) && bySlug.has(ps)) {
           const g = bySlug.get(ps);
-          resolved.push({ slug: ps, title: g.title, url: g.url, type: g.type });
+          // same construction as the requested loop: a moved official page
+          // must follow its manual override here too (2026-08-08 review)
+          const ov = overrides[ps];
+          resolved.push({ slug: ps, title: g.title,
+                          url: (ov && ov.url) ? ov.url : g.url,
+                          type: g.type, review: reviews[ps] });
           have.add(ps);
         }
       }
     }
   } catch (e) { /* signposting must never break the bundle */ }
 
+  LAYERS_FAILED = layersFailed;
   renderResolved(resolved, demo);
   if (LOG_VIEWS) logEvent("view");
 }
