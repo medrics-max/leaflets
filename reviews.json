@@ -241,7 +241,8 @@
   "title": "After Critical Care"
  },
  "after-dribble-post-micturition-dribble": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "62d6efafc69507a6",
   "ref": "GHPI0679_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -249,7 +250,8 @@
   "title": "After dribble (post micturition dribble)"
  },
  "after-having-endometrial-biopsy-and-or-hysteroscopy-ghpi0782": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "f3ce09712c9613c7",
   "ref": "GHPI0782_03_26",
   "review_due": "2029-03",
   "review_due_text": "March 2029",
@@ -257,7 +259,8 @@
   "title": "After having an endometrial biopsy and/or a hysteroscopy"
  },
  "after-your-plaster-has-been-removed": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "910b14dd5d09ef60",
   "ref": "GHPI0033_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -265,7 +268,8 @@
   "title": "After your plaster has been removed"
  },
  "aftercare-following-insertion-of-a-peg-feeding-tube-ghpi1636": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "6d7d1cd62e95b287",
   "ref": "GHPI1636_03_24",
   "review_due": "2027-03",
   "review_due_text": "March 2027",
@@ -273,7 +277,8 @@
   "title": "Aftercare following insertion of a PEG feeding tube"
  },
  "allergen-challenges-paediatric-investigations-unit": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "febe94ea7e506a1d",
   "ref": "GHPI1312_09_25",
   "review_due": "2028-09",
   "review_due_text": "September 2028",
@@ -281,7 +286,8 @@
   "title": "Allergen challenges Paediatric Day Unit"
  },
  "allergic-reaction-radiology-patients": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "8de2c3bbd98e077d",
   "ref": "GHPI1451_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -289,7 +295,8 @@
   "title": "Allergic reactions for radiology patients"
  },
  "an-introduction-to-the-gloucestershire-and-herefordshire-pain-management-service": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "1ed5954c0e7009f7",
   "ref": "GHPI1610_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -297,7 +304,8 @@
   "title": "An introduction to the Gloucestershire and Herefordshire Pain Management Service"
  },
  "anal-cancer": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "2578f13ea79b0913",
   "ref": "GHPI1251_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -305,7 +313,8 @@
   "title": "Anal cancer"
  },
  "anal-sphincter-exercises-for-men": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "259c5f71446818e9",
   "ref": "GHPI1245_03_26",
   "review_due": "2029-03",
   "review_due_text": "March 2029",
@@ -313,7 +322,8 @@
   "title": "Anal sphincter exercises for men"
  },
  "anal-sphincter-exercises-women": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "9363cd74f669630e",
   "ref": "GHPI1244_06_25",
   "review_due": "2028-06",
   "review_due_text": "June 2028",
@@ -321,7 +331,8 @@
   "title": "Anal sphincter exercises for women"
  },
  "anorectal-manometry": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "5e63d5732cba27be",
   "ref": "GHPI0565_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -329,7 +340,8 @@
   "title": "Anorectal Manometry"
  },
  "anterior-resection": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "4aded1ba513e4139",
   "ref": "GHPI0513_08_25",
   "review_due": "2028-08",
   "review_due_text": "August 2028",
@@ -346,7 +358,8 @@
   "title": "Anti-D following early pregnancy loss"
  },
  "anti-mullerian-hormone-amh-assessment": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "827cd871f6455ce2",
   "ref": "GHPI1889_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -354,7 +367,8 @@
   "title": "Anti-Mullerian Hormone (AMH) Assessment"
  },
  "antibacterial-suppression-treatment-for-use-before-your-cardiology-procedure": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "234080fe5861afe6",
   "ref": "GHPI1183_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",
@@ -362,7 +376,8 @@
   "title": "Antibacterial Suppression Treatment For use before your cardiology procedure"
  },
  "aorto-bi-femoral-and-axillo-bifemoral-bypass-surgery": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "52edb48903fbbacd",
   "ref": "GHPI1802_09_23",
   "review_due": "2026-09",
   "review_due_text": "September 2026",
@@ -370,7 +385,8 @@
   "title": "Aorto-bi femoral and axillo-bifemoral bypass surgery"
  },
  "apixaban-for-atrial-fibrillation": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "5809e9c0e5547653",
   "ref": "GHPI1870_09_24",
   "review_due": "2027-09",
   "review_due_text": "September 2027",
@@ -378,7 +394,8 @@
   "title": "Apixaban for atrial fibrillation"
  },
  "apixaban-vte-medication": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "b39173b110b1fc0c",
   "ref": "GHPI1843_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -386,7 +403,8 @@
   "title": "Apixaban VTE medication"
  },
  "appendicitis": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "d9d8268e4498e1cc",
   "ref": "GHPI1830_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -394,7 +412,8 @@
   "title": "Appendicitis"
  },
  "asthma-action-plan-and-peak-flow-diary": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "d5341910043dee16",
   "ref": "GHPI0786_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -402,7 +421,8 @@
   "title": "Asthma Action Plan and Peak Flow Diary"
  },
  "attending-our-emergency-department": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "3171a42dc15c2941",
   "ref": "GHPI1942_02_26",
   "review_due": "2029-02",
   "review_due_text": "February 2029",
@@ -410,7 +430,8 @@
   "title": "Attending Our Emergency Department"
  },
  "autonomic-blocks": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "209b5cb60dab8551",
   "ref": "GHPI1608_08_23",
   "review_due": "2026-08",
   "review_due_text": "August 2026",
@@ -418,7 +439,8 @@
   "title": "Autonomic blocks"
  },
  "azoospermia-or-severe-oligospermia": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "9f2b7076860eaf4d",
   "ref": "GHPI0455_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -426,7 +448,8 @@
   "title": "Azoospermia or severe oligospermia"
  },
  "babies-with-a-positive-direct-antibody-test-dat": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "04e597faa06098a3",
   "ref": "GHPI1858_08_24",
   "review_due": "2027-08",
   "review_due_text": "August 2027",
@@ -434,7 +457,8 @@
   "title": "Babies with a positive direct antibody test (DAT)"
  },
  "baby-resuscitation-ghpi1581": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "fbc439c95127aaf1",
   "ref": "GHPI1581_02_26",
   "review_due": "2029-02",
   "review_due_text": "February 2029",
@@ -450,7 +474,8 @@
   "title": "Lower Back Pain"
  },
  "banding-piles": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "c32addbff52be8d6",
   "ref": "GHPI0997_11_23",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -458,7 +483,8 @@
   "title": "Banding of piles"
  },
  "barium-swallow-aftercare-instructions": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "f2abfecb60948d38",
   "ref": "GHPI1913_09_25",
   "review_due": "2028-09",
   "review_due_text": "September 2028",
@@ -466,7 +492,8 @@
   "title": "Barium swallow aftercare instructions"
  },
  "bcgoncotice-treatment-for-bladder-cancer": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "68829b04700198e4",
   "ref": "GHPI1725_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -474,7 +501,8 @@
   "title": "BCG/Oncotice treatment for bladder cancer"
  },
  "being-control-your-own-medication": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "3226df1b7a9da0fe",
   "ref": "GHPI1358_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -482,7 +510,8 @@
   "title": "Being in control of your own medication"
  },
  "bereavement": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "f13cdfa409a3e539",
   "ref": "GHPI1092_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -2858,7 +2887,8 @@
   "title": "Indwelling pleural catheters"
  },
  "information-about-anaemia-and-its-treatments-patients-chronic-kidney-disease-ghpi0392_11_17": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-11T02:36:10+01:00",
+  "content_hash": "ee38d48927804634",
   "ref": "GHPI0392_08_24",
   "review_due": "2027-09",
   "review_due_text": "September 2027",
