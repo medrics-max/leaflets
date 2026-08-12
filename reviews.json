@@ -519,7 +519,8 @@
   "title": "Bereavement"
  },
  "bereavement-guide-the-emergency-department": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "d60e5896d6d0cccc",
   "ref": "GHPI0250_08_25",
   "review_due": "2028-08",
   "review_due_text": "August 2028",
@@ -527,7 +528,8 @@
   "title": "Bereavement guide - The Emergency Department"
  },
  "bilevel-positive-air-pressure-therapy-bipap": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "a7bdb2e6ad53a92d",
   "ref": "GHPI1540_12_25",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
@@ -535,7 +537,8 @@
   "title": "Bilevel Positive Air Pressure Therapy (BiPAP)"
  },
  "bimatoprost": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "d6b0315218fff2ee",
   "ref": "GHPI1533_01_26",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
@@ -543,7 +546,8 @@
   "title": "Bimatoprost"
  },
  "biofeedback-therapy": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "98ddc0d2c9d29746",
   "ref": "GHPI0567_06_25",
   "review_due": "2028-06",
   "review_due_text": "June 2028",
@@ -551,7 +555,8 @@
   "title": "Biofeedback therapy"
  },
  "bladder-urgency-and-overactive-bladder-syndrome-oab": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "837bfc6b8cd79309",
   "ref": "GHPI0531_07_24",
   "review_due": "2027-07",
   "review_due_text": "July 2027",
@@ -559,7 +564,8 @@
   "title": "Bladder urgency and Overactive Bladder (OAB)"
  },
  "blepharitis-ghpi0182": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "b608f632368a731d",
   "ref": "GHPI0182_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -567,7 +573,8 @@
   "title": "Blepharitis"
  },
  "blepharospasm-ghpi0183": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "5d9647ec5bf38501",
   "ref": "GHPI0183_03_24",
   "review_due": "2027-03",
   "review_due_text": "March 2027",
@@ -575,7 +582,8 @@
   "title": "Blepharospasm"
  },
  "blood-monitoring-for-biologic-and-dmard-treatment": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "7534b01e132b353c",
   "ref": "GHPI1847_06_24",
   "review_due": "2027-06",
   "review_due_text": "June 2027",
@@ -583,7 +591,8 @@
   "title": "Blood monitoring for biologic and DMARD treatment"
  },
  "blood-monitoring-for-paediatric-rheumatology": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "b7192382da22218a",
   "ref": "GHPI1707_10_24",
   "review_due": "2027-10",
   "review_due_text": "October 2027",
@@ -591,7 +600,8 @@
   "title": "Blood monitoring for paediatric rheumatology"
  },
  "bmi-and-fertility": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "29ba0b1140af90e7",
   "ref": "GHPI0773_12_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -599,7 +609,8 @@
   "title": "Body Mass Index (BMI) and fertility"
  },
  "bone-marrow-biopsy": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "870fefbb3ccecefe",
   "ref": "GHPI0368_06_24",
   "review_due": "2027-06",
   "review_due_text": "June 2027",
@@ -607,7 +618,8 @@
   "title": "Bone marrow biopsy"
  },
  "botox-for-the-treatment-of-an-over-active-bladder-oab": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "f89b85901621d45b",
   "ref": "GHPI1123_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -615,7 +627,8 @@
   "title": "Botox - for the treatment of an Over-Active Bladder (OAB)"
  },
  "bravo-reflux-testing": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "553275552ae060b2",
   "ref": "GHPI1679_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -623,7 +636,8 @@
   "title": "Bravo™ reflux testing"
  },
  "breastfeeding-after-you-have-an-intravenous-contrast-agent-injection": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "14433d233ac98faf",
   "ref": "GHPI1428_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -631,7 +645,8 @@
   "title": "Breastfeeding after you have an intravenous contrast agent injection"
  },
  "breathing-exercises-chest-clearance": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "695364d6be396f98",
   "ref": "GHPI0346_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -639,7 +654,8 @@
   "title": "Breathing exercises for chest clearance"
  },
  "bubble-contrast-echocardiogram-echo": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "72b745dd1f4c82bd",
   "ref": "GHPI1293_02_26",
   "review_due": "2029-02",
   "review_due_text": "February 2029",
@@ -647,7 +663,8 @@
   "title": "Bubble contrast echocardiogram (echo"
  },
  "buckle-fracture": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "e78028b1d4b278dc",
   "ref": "GHPI1327_03_24",
   "review_due": "2027-03",
   "review_due_text": "March 2027",
@@ -655,7 +672,8 @@
   "title": "Buckle fracture"
  },
  "caesarean-section-wound-care": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "ea0f60f6eb028089",
   "ref": "GHPI1903_04_25",
   "review_due": "2028-04",
   "review_due_text": "April 2028",
@@ -663,7 +681,8 @@
   "title": "Caesarean section wound care"
  },
  "candidozyma-auris-c-auris": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "bd518814fd2ab95d",
   "ref": "GHPI1912_06_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -671,7 +690,8 @@
   "title": "Candidozyma auris (C. auris)"
  },
  "capsule-sponge-test": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "0c20273a59eefe48",
   "ref": "GHPI1906_05_25",
   "review_due": "2028-05",
   "review_due_text": "May 2028",
@@ -679,7 +699,8 @@
   "title": "Capsule Sponge Test"
  },
  "carbapenemase-producing-enterobacterales-cpe": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "e5ba89fb95ce60c6",
   "ref": "GHPI1807_11_23",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -687,7 +708,8 @@
   "title": "Carbapenemase-Producing Enterobacterales (CPE)"
  },
  "carbohydrate-counting-and-diabetes-education-for-people-with-type-1-diabetes": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "f41d4add80be7c9c",
   "ref": "GHPI1006_07_24",
   "review_due": "2027-07",
   "review_due_text": "July 2027",
@@ -695,7 +717,8 @@
   "title": "Carbohydrate Counting and Diabetes Education for people with type 1 diabetes"
  },
  "carbohydrate-portion-sizes-in-pregnancy": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "af5e5ba682c00052",
   "ref": "GHPI1637_06_24",
   "review_due": "2027-06",
   "review_due_text": "June 2027",
@@ -703,7 +726,8 @@
   "title": "Carbohydrate portion sizes in pregnancy"
  },
  "cardiac-catheterisation": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "69a9c4717f1c47e6",
   "ref": "GHPI0349_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -711,7 +735,8 @@
   "title": "Cardiac catheterisation"
  },
  "cardiac-catheterisation-discharge-information-cgh": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "02c3e51d3a4e609d",
   "ref": "GHPI0097_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -719,7 +744,8 @@
   "title": "Cardiac catheterisation discharge information"
  },
  "cardiac-ct-aftercare": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "2ce58a22edf861d7",
   "ref": "GHPI1459_03_24",
   "review_due": "2027-03",
   "review_due_text": "March 2027",
@@ -727,7 +753,8 @@
   "title": "Cardiac CT aftercare"
  },
  "care-your-cast": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "0b438e73d42d012d",
   "ref": "GHPI0058_09_25",
   "review_due": "2028-09",
   "review_due_text": "September 2028",
@@ -735,7 +762,8 @@
   "title": "Care of your cast"
  },
  "care-your-haemodialysis-catheter": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "2fb67619967a0a92",
   "ref": "GHPI1319_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -743,7 +771,8 @@
   "title": "Care of your haemodialysis catheter"
  },
  "care-your-skin": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "f4d1bb544c40ba84",
   "ref": "GHPI1008_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -4246,7 +4275,8 @@
   "title": "Psoriasis and your heart"
  },
  "psychology-service-people-affected-cancer": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-12T02:30:45+01:00",
+  "content_hash": "c973474e1156e96a",
   "ref": "GHPI1042_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
