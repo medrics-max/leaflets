@@ -1058,7 +1058,8 @@
   "title": "Contrast echocardiogram (echo)"
  },
  "contrast-enhanced-mammography": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "ce180533a73414fd",
   "ref": "GHPI1827_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -1075,7 +1076,8 @@
   "title": "Convergence exercises"
  },
  "coping-with-dying": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "9961d2bc4f6be040",
   "ref": "GHPI1918_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -1083,7 +1085,8 @@
   "title": "Coping With Dying"
  },
  "corneal-abrasion": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "177bd0bb3a942164",
   "ref": "GHPI0184_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -1091,7 +1094,8 @@
   "title": "Corneal abrasion"
  },
  "coronary-angioplasty-cgh": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "6f8ff51d90916ea9",
   "ref": "GHPI0229_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -1099,7 +1103,8 @@
   "title": "Coronary angioplasty"
  },
  "covid-19-advice-for-patients-in-hospital-and-after-discharge": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "e4d85706187afc5f",
   "ref": "GHPI1756_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -1107,7 +1112,8 @@
   "title": "COVID-19 advice for patients in hospital and after discharge"
  },
  "critical-care-follow-up-clinic": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "68f8b83d6a6b9710",
   "ref": "GHPI1805_12_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -1115,7 +1121,8 @@
   "title": "Critical Care Follow-up Clinic"
  },
  "cryotherapy": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "97fb611d2635d26e",
   "ref": "GHPI0879_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -1123,7 +1130,8 @@
   "title": "Cryotherapy"
  },
  "ct-colonoscopy": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "b24b7f7343715aa9",
   "ref": "GHPI1376_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -1131,7 +1139,8 @@
   "title": "CT colonoscopy"
  },
  "ct-colonoscopy-aftercare": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "5387f5819053add3",
   "ref": "GHPI1465_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -1139,7 +1148,8 @@
   "title": "CT colonoscopy aftercare"
  },
  "ct-colonoscopy-virtual-colonoscopy": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "c20dc7a832fa41dd",
   "ref": "GHPI1376_09_23",
   "review_due": "2026-09",
   "review_due_text": "September 2026",
@@ -1147,7 +1157,8 @@
   "title": "CT colonoscopy"
  },
  "ct-computed-tomography-ablation": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "a6c57a9148ee1bd6",
   "ref": "GHPI1641_06_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -1155,7 +1166,8 @@
   "title": "CT (Computed Tomography) Ablation"
  },
  "ct-computed-tomography-guided-abdominalpelvic-biopsy": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "3339e5e3758b288c",
   "ref": "GHPI1635_09_25",
   "review_due": "2028-09",
   "review_due_text": "September 2028",
@@ -1163,7 +1175,8 @@
   "title": "CT (Computed Tomography) guided abdominal/pelvic biopsy"
  },
  "ct-computed-tomography-guided-bone-biopsy": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "59b14ff3c1bdaf1f",
   "ref": "GHPI1632_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -1171,7 +1184,8 @@
   "title": "CT (Computed Tomography) guided bone biopsy"
  },
  "ct-computed-tomography-guided-lung_pleural-biopsy": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "7b147cfcfad89134",
   "ref": "GHPI1154_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -1179,7 +1193,8 @@
   "title": "CT (Computed Tomography) guided lung/pleural biopsy"
  },
  "ct-computed-tomography-guided-lungpleural-biopsy-aftercare": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "91bb13ac5f634397",
   "ref": "GHPI1512_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -1187,13 +1202,15 @@
   "title": "CT guided lung biopsy aftercare"
  },
  "ct-guided-abdominal-biopsy-aftercare-ghpi1633": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "be6d9cbb973db5aa",
   "ref": "GHPI1633_04_24",
   "status": "no-date",
   "title": "CT guided abdominal biopsy aftercare"
  },
  "ct-guided-ablation-aftercare": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "3c196c2eafaf7f29",
   "ref": "GHPI1642_06_25",
   "review_due": "2028-06",
   "review_due_text": "June 2028",
@@ -1201,7 +1218,8 @@
   "title": "CT guided ablation aftercare"
  },
  "ct-guided-bone-biopsy-aftercare": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "fedd6630bf626302",
   "ref": "GHPI1634_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -1209,7 +1227,8 @@
   "title": "CT guided bone biopsy aftercare"
  },
  "cystoscopy--urethroscopy": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "f4318b09e6ee1d6a",
   "ref": "GHPI0112_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -1217,7 +1236,8 @@
   "title": "Cystoscopy and urethroscopy"
  },
  "dacryocystorhinostomy-dcr-an-operation-for-a-blocked-tear-duct": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "45d9a71650c46fe2",
   "ref": "GHPI0535_02_26",
   "review_due": "2029-02",
   "review_due_text": "February 2029",
@@ -1225,7 +1245,8 @@
   "title": "Dacryocystorhinostomy (DCR) An operation for a blocked tear duct"
  },
  "day-case-laparoscopic-hysterectomy": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "40ebebaf28add87a",
   "ref": "GHPI1920_08_25",
   "review_due": "2028-08",
   "review_due_text": "August 2028",
@@ -1233,7 +1254,8 @@
   "title": "Day Case Laparoscopic Hysterectomy"
  },
  "day-case-percutaneous-endoscopic-gastrostomy-peg-tube-procedure": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "c6adaba17c5c7b19",
   "ref": "GHPI1117_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -1241,7 +1263,8 @@
   "title": "Day case Percutaneous Endoscopic Gastrostomy (PEG) Tube procedure"
  },
  "de-quervains-syndrome-of-the-wrist": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "65d33c57e60c3034",
   "ref": "GHPI1134_07_24",
   "review_due": "2027-07",
   "review_due_text": "July 2027",
@@ -1249,7 +1272,8 @@
   "title": "De Quervain’s syndrome of the wrist"
  },
  "deep-sclerectomy-treatment-glaucoma": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "34e1675f8609c5f0",
   "ref": "GHPI1336_01_26",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
@@ -1257,7 +1281,8 @@
   "title": "Deep sclerectomy treatment"
  },
  "deep-vein-thrombosis-dvt": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "7545555d4ab86906",
   "ref": "GHPI0652_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -1265,7 +1290,8 @@
   "title": "Deep Vein Thrombosis (DVT)"
  },
  "delirium-ghpi1174": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "f4f11e80ea9e2bb4",
   "ref": "GHPI1174_11_23",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -1273,7 +1299,8 @@
   "title": "Delirium"
  },
  "denosumab": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "2f014166d8210797",
   "ref": "GHPI1871_09_24",
   "review_due": "2027-09",
   "review_due_text": "September 2027",
@@ -1281,7 +1308,8 @@
   "title": "Denosumab"
  },
  "dental-assessment-clinic-for-patients-receiving-head-and-neck-radiotherapy": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "980af3e0ad55d8d0",
   "ref": "GHPI1460_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -1289,7 +1317,8 @@
   "title": "Dental Assessment Clinic - For patients receiving head and neck radiotherapy"
  },
  "dental-care-information-for-patients-who-will-receive-head-and-neck-radiotherapy": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "701f72cb8800dfb6",
   "ref": "GHPI1457_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -2150,7 +2179,8 @@
   "title": "Surgical insertion of a Peritoneal Dialysis (PD) catheter"
  },
  "ghpi1462-cystinuria-and-stone-prevention": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "51337ba55dd42c61",
   "ref": "GHPI1462_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",

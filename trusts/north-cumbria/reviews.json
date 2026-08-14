@@ -126,38 +126,38 @@
   "title": "Nuclear Medicine: DMSA Kidney Scan"
  },
  "Day-Case-Unit-West-Cumberland-Hospital": {
-  "checked": "2026-07-12T22:22:48+01:00",
-  "content_hash": "f66864832d3015e0",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "9de2701df4554965",
   "status": "no-date",
   "title": "Day Case Unit: West Cumberland Hospital"
  },
  "Diabetic-Eye-Screening": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "31f303864060b41b",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "8ad406fc71cec409",
   "status": "no-date",
   "title": "Diabetic Eye Screening"
  },
  "Diabetic-foot-clinic": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "05d34c767c7c3d81",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "5d8a895058ecd8bc",
   "status": "no-date",
   "title": "Diabetic foot clinic"
  },
  "Discharge-to-Assess": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "53c4bb65c8c5cf0e",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "fe50e56365126411",
   "status": "no-date",
   "title": "Discharge to Assess"
  },
  "Easy-read-Complaints": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "1cc403bc6e6de070",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "1bda1b2bfeb7bcd5",
   "status": "no-date",
   "title": "Easy read : Complaints"
  },
  "Easy-read-Confidentiality": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "05fe324520679fb8",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "77f31be62810eca1",
   "status": "no-date",
   "title": "Easy read : Confidentiality"
  },
@@ -252,8 +252,8 @@
   "title": "General surgery: Haemorrhoids"
  },
  "Gynaecology-Bleeding-and-or-pain-in-early-pregnancy": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "cba056f773446d0c",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "d76e6b15ac706b58",
   "status": "no-date",
   "title": "Early Pregnancy: Bleeding and/or pain in early pregnancy"
  },
@@ -282,8 +282,8 @@
   "title": "Gynaecology: Out patients Hysteroscopy"
  },
  "Gynaecology-Outpatient-medical-termination-of-pregnancy": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "9e6046b978e8c8ed",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "495c5f085d92a069",
   "status": "no-date",
   "title": "Early Pregnancy: Outpatient medical termination of pregnancy"
  },
@@ -912,26 +912,26 @@
   "title": "Compliments, Comments, Concerns and Complaints"
  },
  "confidentiality-families-carers": {
-  "checked": "2026-07-12T22:22:48+01:00",
-  "content_hash": "858306a50c6d9deb",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "aa025390020c90cd",
   "status": "no-date",
   "title": "Confidentiality: Families and carers"
  },
  "confidentiality-people-who-use-our-services": {
-  "checked": "2026-07-12T22:22:48+01:00",
-  "content_hash": "57fd3bad7135c057",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "764b840b6e864e61",
   "status": "no-date",
   "title": "Confidentiality: People who use our services"
  },
  "confidentiality-report-concerns": {
-  "checked": "2026-07-12T22:22:48+01:00",
-  "content_hash": "1edd1cebe000fb04",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "7a04cdb2ccfda075",
   "status": "no-date",
   "title": "Confidentiality: Report concerns"
  },
  "consent-guide-patients-service-users": {
-  "checked": "2026-07-12T22:22:48+01:00",
-  "content_hash": "9f4c4fb2762ca244",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "19eff3a8076e51bc",
   "status": "no-date",
   "title": "Consent: A guide for patients and service users"
  },
@@ -942,20 +942,20 @@
   "title": "Anaesthetics: Contraception advice after having Sugammadex"
  },
  "covid-cognitive-problems-post-covid-19": {
-  "checked": "2026-07-12T22:22:48+01:00",
-  "content_hash": "74054ce77328208a",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "001e60f6c4cbf86e",
   "status": "no-date",
   "title": "Covid: Cognitive problems post Covid-19"
  },
  "covid-voice-problems": {
-  "checked": "2026-07-12T22:22:48+01:00",
-  "content_hash": "7cb7efc1891c4a5e",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "ab317c784e43ea70",
   "status": "no-date",
   "title": "Covid: Voice problems"
  },
  "data-protection-how-use-your-information": {
-  "checked": "2026-07-12T22:22:48+01:00",
-  "content_hash": "f6903f4d3a455ecb",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "fe0d34ad641b3370",
   "status": "no-date",
   "title": "Data Protection: How we use your information"
  },
@@ -966,56 +966,56 @@
   "title": "Community Dental Service: Denture Care Instructions for Plastic (Acrylic) Dentures"
  },
  "diabetes-charcot-foot": {
-  "checked": "2026-07-12T22:22:48+01:00",
-  "content_hash": "ca36638b7946112b",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "9a38b64c2b2d92be",
   "status": "no-date",
   "title": "Diabetes: Charcot foot"
  },
  "diabetes-foot-care-patients-high-risk": {
-  "checked": "2026-07-12T22:22:48+01:00",
-  "content_hash": "7f3954669d4ab6c4",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "3987315090342213",
   "status": "no-date",
   "title": "Diabetes: Foot care for patients at high risk"
  },
  "diabetes-foot-care-patients-low-risk": {
-  "checked": "2026-07-12T22:22:48+01:00",
-  "content_hash": "b823d2bc94a43917",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "ac067bf3a71a2662",
   "status": "no-date",
   "title": "Diabetes: Foot care for patients at low risk"
  },
  "diabetes-foot-care-patients-medium-risk": {
-  "checked": "2026-07-12T22:22:48+01:00",
-  "content_hash": "0439047757890dc2",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "5c1e3910c5664d1c",
   "status": "no-date",
   "title": "Diabetes: Foot care for patients at medium risk"
  },
  "diabetes-foot-ulcers": {
-  "checked": "2026-07-12T22:22:48+01:00",
-  "content_hash": "bc103f7473f554b4",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "c88e6785e991bed0",
   "status": "no-date",
   "title": "Diabetes: Foot ulcers"
  },
  "diabetes-looking-after-your-foot-remission": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "940de55a3ac53e47",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "2ca3f5dde1fca443",
   "status": "no-date",
   "title": "Diabetes: Looking after your foot in remission"
  },
  "diabetes-multidisciplinary-foot-clinic": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "105b9c26f25caf0a",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "51c1e473de00bd17",
   "status": "no-date",
   "title": "Diabetes: Multidisciplinary foot clinic"
  },
  "diabetes-plaster-fibreglass-casting-foot-ulcers": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "eaf898814a0310b6",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "eb67e2be8cd2ac33",
   "status": "no-date",
   "title": "Diabetes: Plaster or fibreglass casting of foot ulcers"
  },
  "diabetes-the-effects-exercise-sugar-levels": {
-  "checked": "2026-07-12T22:22:48+01:00",
-  "content_hash": "a92427502b5ab2d4",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "08b6af43d5662672",
   "status": "no-date",
   "title": "Diabetes: Exercise and sugar levels"
  },
@@ -1026,14 +1026,14 @@
   "title": "Young Adult Diabetes Service: 19 - 25 Years"
  },
  "district-nursing": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "b59a28e7d519abbe",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "f3266fd0e3eaf9ff",
   "status": "no-date",
   "title": "District nursing"
  },
  "duty-candour-being-open": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "fc01c5f7d6561cea",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "309ae68e17ec0bd1",
   "status": "no-date",
   "title": "Duty of Candour: Being open"
  },
@@ -1434,8 +1434,8 @@
   "title": "X-ray: NHS"
  },
  "natural-management-of-miscarriage-1": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "1b46aee92c53599a",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "b69a17cb9744a128",
   "status": "no-date",
   "title": "Early Pregnancy: Natural Management of Miscarriage"
  },
@@ -1818,20 +1818,20 @@
   "title": "Women's Outpatient: Postmenopausal Bleeding"
  },
  "pregnancy-manual-vacuum-aspiration-miscarriage": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "91b6c961d36d422c",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "222646707665bfa3",
   "status": "no-date",
   "title": "Early Pregnancy: Manual Vacuum Aspiration Miscarriage"
  },
  "pregnancy-termination": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "287949c86ce7722e",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "378af962e10b2fbf",
   "status": "no-date",
   "title": "Early Pregnancy: Termination"
  },
  "pregnancy-termination-mva": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "a401faa221957811",
+  "checked": "2026-08-14T02:34:46+01:00",
+  "content_hash": "e9a7ea52f50c6e6c",
   "status": "no-date",
   "title": "Early Pregnancy: Termination MVA"
  },
