@@ -162,68 +162,68 @@
   "title": "Easy read : Confidentiality"
  },
  "Easy-read-Consent": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "9805c5a8c7c05e8b",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "8ae532ffa15981ec",
   "status": "no-date",
   "title": "Easy read : Consent"
  },
  "Easy-read-Ophthalmology-Eye-check": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "78bda1db6ce27bf5",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "6db36d11c3b5af00",
   "status": "no-date",
   "title": "Easy read : Ophthalmology: Eye check"
  },
  "End-of-life-Taste-for-pleasure": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "df1f180b29e67eb3",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "da39ae110d970df4",
   "status": "no-date",
   "title": "End of life: Taste for pleasure"
  },
  "Endoscopy-Colonoscopy": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "acf185702aad1253",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "9908d3292d6e22ca",
   "status": "no-date",
   "title": "Endoscopy: Colonoscopy"
  },
  "Endoscopy-Combined-Gastroscopy-Oesophago-gastro-duodenoscopy-OGD-and-Colonoscopy": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "b714532eebf286e0",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "173cda17e48110ce",
   "status": "no-date",
   "title": "Endoscopy: Combined - Gastroscopy Oesophago-gastro duodenoscopy (OGD) and Colonoscopy"
  },
  "Endoscopy-ERC-Endoscopic-Retrograde-Cholangiopancreatography": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "fb26a1f7e16a8d9d",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "73c1486af3f5a1e9",
   "status": "no-date",
   "title": "Endoscopy: ERCP (Endoscopic Retrograde Cholangiopancreatography)"
  },
  "Endoscopy-Flexible-Sigmoidoscopy-Enema-Preparation": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "224c42c8bfd1230c",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "1fda4d868e7f7470",
   "status": "no-date",
   "title": "Endoscopy: Flexible Sigmoidoscopy (Enema Preparation)"
  },
  "Endoscopy-Gastroscopy-Oesophago-gastro-duodenoscopy-OGD": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "34505cd987088e86",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "769778b4f471d860",
   "status": "no-date",
   "title": "Endoscopy: Gastroscopy - Oesophago-gastro duodenoscopy (OGD)"
  },
  "Endoscopy-Low-residue-diet": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "1fdadde6dcbea065",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "af4dfaea9c7a00e8",
   "status": "no-date",
   "title": "Endoscopy: Low residue diet"
  },
  "Endoscopy-Moviprep-afternoon": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "cc92e31c4a852ab2",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "d56b48f0dab66fe7",
   "status": "no-date",
   "title": "Endoscopy: Moviprep - afternoon"
  },
  "Endoscopy-Moviprep-morning": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "818b303f90eb2ebb",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "c69b34d94539af5b",
   "status": "no-date",
   "title": "Endoscopy: Moviprep- morning"
  },
@@ -240,14 +240,14 @@
   "title": "Nuclear Medicine: Gastric Emptying Scan"
  },
  "General-surgery-Anal-Fissures": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "9e04867b088c5625",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "aeb2317de435702e",
   "status": "no-date",
   "title": "General surgery: Anal fissures"
  },
  "General-surgery-Haemorrhoids": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "783706c1615077ed",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "01ac5bc820cf7dc5",
   "status": "no-date",
   "title": "General surgery: Haemorrhoids"
  },
@@ -1038,56 +1038,56 @@
   "title": "Duty of Candour: Being open"
  },
  "ent-anosmia": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "82a0bd3c7ff7b380",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "de612802900261b1",
   "status": "no-date",
   "title": "ENT: Anosmia (Loss of smell)"
  },
  "ent-benign-paroxysmal-positional-vertigo": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "7d21f31a0be0d487",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "36ad108da9ea14d2",
   "status": "no-date",
   "title": "ENT: Benign Paroxysmal Positional Vertigo"
  },
  "ent-betnovate-lotion": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "184f60e87ce89d6b",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "2f185b769075dd38",
   "status": "no-date",
   "title": "ENT: Betnovate Lotion"
  },
  "ent-brandt-daroff-exercises": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "c4957141fd086b21",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "ed52810a607de7d4",
   "status": "no-date",
   "title": "ENT: Brandt Daroff exercises"
  },
  "ent-douching": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "97a95ec6c7457f01",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "58e9d8eb6b8e8fad",
   "status": "no-date",
   "title": "ENT: Douching"
  },
  "ent-eardrops": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "31dcd8c98f4ba4f4",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "560afdf810a52297",
   "status": "no-date",
   "title": "ENT: Eardrops"
  },
  "ent-exercises-regain-balance": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "a6d25a1c99720c6a",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "e0f29aa0ed1be5ed",
   "status": "no-date",
   "title": "ENT: Exercises to regain balance"
  },
  "ent-laryngopharyngeal-reflux": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "0a012f53c2293271",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "212b222a81a4fe94",
   "status": "no-date",
   "title": "ENT: Laryngopharyngeal Reflux – LPR"
  },
  "epidural-blood-patch": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "4b510650752b5da4",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "a1de4ba918af17d7",
   "status": "no-date",
   "title": "Epidural: Blood patch"
  },
@@ -1098,26 +1098,26 @@
   "title": "Maternity: Fetal heart monitoring during labour"
  },
  "fibroscan-ultrasound": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "aade1d194a521b3d",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "8ab5b9cc305e90dc",
   "status": "no-date",
   "title": "Fibroscan: Ultrasound"
  },
  "freedom-information": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "8f177dca9273719a",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "71a20da5a5d6ca90",
   "status": "no-date",
   "title": "Freedom of information"
  },
  "general-data-protection-regulation-uk": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "e1a9149e030ae60d",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "68c26354f75e6e5d",
   "status": "no-date",
   "title": "General Data Protection Regulation UK"
  },
  "going-from-hospital-to-a-temporary-care-home": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "80780a98bbf7f579",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "1099b855b271cc3b",
   "status": "no-date",
   "title": "Going from hospital to a temporary care home"
  },
@@ -1632,26 +1632,26 @@
   "title": "Wound care"
  },
  "patient-information-template-13": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "8f5b9f294e7ff7c0",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "2e4ef50d5a8f65b1",
   "status": "no-date",
   "title": "General surgery: Rectus abdominus divartication"
  },
  "patient-information-template-4": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "3085bc6b01d38d57",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "6a5e66195d8e5ccb",
   "status": "no-date",
   "title": "End of life: When someone is dying"
  },
  "patient-information-template-5": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "4766d01a3ab09320",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "a783b51cfec8db4d",
   "status": "no-date",
   "title": "End of life: Information for bereaved relatives"
  },
  "patient-information-template-6": {
-  "checked": "2026-07-12T22:56:56+01:00",
-  "content_hash": "6b91cd967b6aaf42",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "11f5c28d6e552750",
   "status": "no-date",
   "title": "Elective Care Suite: Cumberland Infirmary"
  },

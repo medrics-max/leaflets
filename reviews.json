@@ -18,7 +18,8 @@
   "title": "5th Metacarpal Fracture"
  },
  "Discharge-advice-for-a-sedated-gastroscopy-with-Bravo-capsule-placement": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "db1334f5f4393859",
   "ref": "GHPI1681_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -1326,7 +1327,8 @@
   "title": "Dental care information for patients who will receive head and neck radiotherapy"
  },
  "diagnostic-laparoscopy-ghpi0863_05_18": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "24bc3b98b97bb974",
   "ref": "GHPI0863_06_26",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
@@ -1334,7 +1336,8 @@
   "title": "Diagnostic laparoscopy"
  },
  "diphencyprone-dcp-treatment": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "d52cf67de76b89b0",
   "ref": "GHPI1415_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -1342,7 +1345,8 @@
   "title": "Diphencyprone (DCP) treatment"
  },
  "direct-current-cardioversion": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "21a74868a7313b45",
   "ref": "GHPI1235_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",
@@ -1350,7 +1354,8 @@
   "title": "Direct Current (DC) Cardioversion"
  },
  "discharge-advice-carers-adults-who-have-sustained-head-injury": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "87db96c3536f352b",
   "ref": "GHPI0840_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -1367,7 +1372,8 @@
   "title": "Discharge advice following a bronchoscopy"
  },
  "discharge-advice-following-a-gastroscopy-and-colonoscopy-flexible-sigmoidoscopy-with-sedation": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "90f37c0b5101987d",
   "ref": "GHPI1735_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -1375,7 +1381,8 @@
   "title": "Discharge advice following a gastroscopy and colonoscopy/flexible sigmoidoscopy with sedation"
  },
  "discharge-advice-following-a-gastroscopy-and-colonoscopy-flexible-sigmoidoscopy-without-sedation": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "2f69625f976040ce",
   "ref": "GHPI1736_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -1383,7 +1390,8 @@
   "title": "Discharge advice following a gastroscopy and colonoscopy/ flexible sigmoidoscopy without sedation"
  },
  "discharge-advice-following-a-gastroscopy-with-sedation": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "bd12ddbe62fb2972",
   "ref": "GHPI1518_03_26",
   "review_due": "2029-03",
   "review_due_text": "March 2029",
@@ -1391,7 +1399,8 @@
   "title": "Discharge advice following a gastroscopy with sedation"
  },
  "discharge-advice-following-a-gastrostomy-tube-removal": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "d69511d9d0f8692d",
   "ref": "GHPI1589_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",
@@ -1399,7 +1408,8 @@
   "title": "Discharge advice following a gastrostomy tube removal"
  },
  "discharge-advice-following-a-thoracoscopy-ghpi1646": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "0a5799eb96027afb",
   "ref": "GHPI1646_08_24",
   "review_due": "2027-08",
   "review_due_text": "August 2027",
@@ -1407,7 +1417,8 @@
   "title": "Discharge advice following a Thoracoscopy"
  },
  "discharge-advice-following-a-trans-nasal-endoscopy": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "e9ccc8cf320ddf88",
   "ref": "GHPI1901_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -1415,15 +1426,17 @@
   "title": "Discharge advice following a trans-nasal endoscopy"
  },
  "discharge-advice-following-an-oesophageal-stent-insertion": {
-  "checked": "2026-07-11T00:51:30+01:00",
-  "ref": "GHPI1815_10_23",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "986f5b918ae56410",
+  "ref": "GHPI1815_07_26",
   "review_due": "2026-10",
   "review_due_text": "October 2026",
   "status": "ok",
   "title": "Discharge advice following an oesophageal stent insertion"
  },
  "discharge-advice-following-banding-piles-haemorrhoids": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "f6a2c7afa5d8fc55",
   "ref": "GHPI1521_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -1431,7 +1444,8 @@
   "title": "Discharge advice following banding of piles"
  },
  "discharge-advice-following-ercp-procedure": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "406a0742f00e310a",
   "ref": "GHPI1517_02_26",
   "review_due": "2029-02",
   "review_due_text": "February 2029",
@@ -1447,7 +1461,8 @@
   "title": "Having a colonoscopy and polyp removal as an outpatient"
  },
  "discharge-advice-following-gastroscopy-without-sedation": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "fe5b70d2e5cbc429",
   "ref": "GHPI1519_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -1464,7 +1479,8 @@
   "title": "Discharge advice following a nonsedated colonoscopy / flexible sigmoidoscopy"
  },
  "discharge-advice-following-therapeutic-gastroscopy-inc-banding-varices-endoscopic-dilatation": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "d8fc47cb02ea461b",
   "ref": "GHPI1522_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -1472,7 +1488,8 @@
   "title": "Discharge advice following therapeutic gastroscopy including banding of varices/endoscopic dilatation"
  },
  "discharge-information-following-a-glossectomy-and-radial-free-forearm-flap-ghpi1671_06_21": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "37bee3147e4a0eb2",
   "ref": "GHPI1671_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -1480,7 +1497,8 @@
   "title": "Discharge information following a Glossectomy"
  },
  "discharge-information-following-a-hemimandibulectomy-ghpi1667_06_21": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "2c5e9a32bc67d27b",
   "ref": "GHPI1667_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -1488,7 +1506,8 @@
   "title": "Discharge information following a Mandibulectomy"
  },
  "discharge-information-following-a-laser-excision-ghpi1670_06_21": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "604af683ad71826f",
   "ref": "GHPI1670_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -1496,7 +1515,8 @@
   "title": "Discharge Information following a Laser Excision"
  },
  "discharge-information-following-a-neck-dissection-ghpi1669_06_21": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "27d1a860e7733a62",
   "ref": "GHPI1669_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -1504,7 +1524,8 @@
   "title": "Discharge information following a Neck Dissection"
  },
  "discharge-information-following-a-nosebleed-epistaxis": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "abd71a951c62426b",
   "ref": "GHPI1452_08_24",
   "review_due": "2027-08",
   "review_due_text": "August 2027",
@@ -1512,7 +1533,8 @@
   "title": "Discharge information following a nosebleed (epistaxis)"
  },
  "discharge-information-following-a-parotidectomy-ghpi1668_06_21": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "21447b186ba64687",
   "ref": "GHPI1668_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -1520,7 +1542,8 @@
   "title": "Discharge information following a Parotidectomy"
  },
  "discharge-information-following-a-robotic-assisted-laparoscopic-prostatectomy": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "d026407be79db7ce",
   "ref": "GHPI1648_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -1528,7 +1551,8 @@
   "title": "Discharge information following a Robotic-Assisted Laparoscopic Prostatectomy"
  },
  "discharge-medicines-service": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "c40e428a560bb54d",
   "ref": "GHPI1823_11_23",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -1536,7 +1560,8 @@
   "title": "Discharge Medicines Service"
  },
  "dissolving-uric-acid-stones-using-potassium-citrate": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "43cfa4dd18f57ba5",
   "ref": "GHPI1838_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -1544,13 +1569,15 @@
   "title": "Dissolving Uric Acid Stones using Potassium Citrate"
  },
  "dissolving-uric-acid-stones-using-sodium-bicarbonate": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "44885b102f1ff5d0",
   "ref": "GHPI1839_04_24",
   "status": "no-date",
   "title": "Dissolving Uric Acid Stones using Sodium Bicarbonate"
  },
  "do-i-have-a-penicillin-allergy": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "c6735d22620596d7",
   "ref": "GHPI1874_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -1558,7 +1585,8 @@
   "title": "Do I have a penicillin allergy?"
  },
  "dobutamine-stress-echocardiogram-dse": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "4abe926ad2ac7bae",
   "ref": "GHPI1876_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -1566,7 +1594,8 @@
   "title": "Dobutamine Stress Echocardiogram (DSE)"
  },
  "doppler-scan": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "51b3c230f106d0e2",
   "ref": "GHPI1859_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -3159,7 +3188,8 @@
   "title": "Instructions for collection of 24 hour urine samples"
  },
  "instructions-going-home-after-having-received-sedation": {
-  "checked": "2026-07-11T00:51:30+01:00",
+  "checked": "2026-08-15T02:30:29+01:00",
+  "content_hash": "2e3c2a93dd197d49",
   "ref": "GHPI1027_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
