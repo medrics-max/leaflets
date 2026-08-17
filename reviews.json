@@ -1855,7 +1855,8 @@
   "title": "Exacerbation of COPD and what to expect after discharge"
  },
  "exercise-stress-echocardiogram-ese": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "006e75ae05d403df",
   "ref": "GHPI1877_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -1863,7 +1864,8 @@
   "title": "Exercise Stress echocardiogram (ESE)"
  },
  "exposure-of-impacted-upper-canine-eye-tooth": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "bb410ea2c06162ec",
   "ref": "GHPI0427_06_26",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
@@ -1871,7 +1873,8 @@
   "title": "Exposure of impacted upper canine (eye tooth)"
  },
  "extravasation": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "0069c1a1995b00df",
   "ref": "GHPI1450_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -1879,7 +1882,8 @@
   "title": "Extravasation"
  },
  "extravasation-accidental-leaking-of-drugs": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "fc92de0b183a1612",
   "ref": "GHPI0561_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -1887,7 +1891,8 @@
   "title": "Extravasation (Accidental leaking of drugs)"
  },
  "eye-drop-instructions-and-advice-following-eye-surgery": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "124b985783941dec",
   "ref": "GHPI1458_03_24",
   "review_due": "2027-03",
   "review_due_text": "March 2027",
@@ -1895,7 +1900,8 @@
   "title": "Eye drop instructions and advice following eye surgery"
  },
  "eye-drops-ghpi0067": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "f32599f0f830168e",
   "ref": "GHPI0067_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -1903,7 +1909,8 @@
   "title": "Eye drops"
  },
  "eye-laser-treatment-selective-laser-trabeculoplasty-slt": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "fd51a1cafe987d9c",
   "ref": "GHPI1888_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -1911,7 +1918,8 @@
   "title": "Eye laser treatment – Selective Laser Trabeculoplasty (SLT)"
  },
  "eye-laser-treatment-yag-iridotomy": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "acb31647d9babe1b",
   "ref": "GHPI0353_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -1919,13 +1927,15 @@
   "title": "Eye laser treatment - Yag iridotomy"
  },
  "eyelid-surgery": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "ae3a116da586613f",
   "ref": "GHPI0188_02_25",
   "status": "no-date",
   "title": "Eyelid surgery"
  },
  "faecal-microbiota-transplant-fmt": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "f958c86cc3fc6594",
   "ref": "GHPI1734_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -1933,7 +1943,8 @@
   "title": "Faecal Microbiota Transplant (FMT)"
  },
  "fainting-vasovagal-syncope": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "7ccb11b21b908a6e",
   "ref": "GHPI0721_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -1941,7 +1952,8 @@
   "title": "Fainting (vasovagal syncope)"
  },
  "falls-clinic": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "14a04df9eaad8b2e",
   "ref": "GHPI1385_01_26",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
@@ -1949,7 +1961,8 @@
   "title": "Falls Clinic"
  },
  "female-fertility-preservation": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "f7fab68e9bf62c8a",
   "ref": "GHPI1770_12_25",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
@@ -1957,7 +1970,8 @@
   "title": "Female fertility preservation"
  },
  "female-sterilisation": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "533d1e038112e1cb",
   "ref": "GHPI0768_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -1965,7 +1979,8 @@
   "title": "Female sterilisation"
  },
  "femoral-endarterectomy": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "65c2d52aac9f0c4d",
   "ref": "GHPI1716_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -1973,7 +1988,8 @@
   "title": "Femoral endarterectomy"
  },
  "ferinjectr-iron-infusion": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "49a5bf62a287ca8d",
   "ref": "GHPI0991_08_23",
   "review_due": "2026-08",
   "review_due_text": "August 2026",
@@ -1981,7 +1997,8 @@
   "title": "Ferinject® iron infusion"
  },
  "fever-advice-children-and-young-people": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "9061a83fd51067d5",
   "ref": "GHPI1213_07_24",
   "review_due": "2027-07",
   "review_due_text": "July 2027",
@@ -1989,12 +2006,14 @@
   "title": "Fever advice for children and young people"
  },
  "fgm-information-for-families": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "475a717f726efe43",
   "status": "no-date",
   "title": "FGM - information for families"
  },
  "finasteride-for-women": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "5d5b955e4cd3bb47",
   "ref": "GHPI1510_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -2002,7 +2021,8 @@
   "title": "Finasteride for women"
  },
  "finishing-your-radiotherapy-treatment": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "80e00364bbbfb444",
   "ref": "GHPI0212_07_24",
   "review_due": "2027-07",
   "review_due_text": "July 2027",
@@ -2010,7 +2030,8 @@
   "title": "Finishing your radiotherapy treatment"
  },
  "first-seizure-children-or-young-people": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "d824b17cc5aebbae",
   "ref": "GHPI1128_11_25",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -2018,7 +2039,8 @@
   "title": "First seizure in children or young people"
  },
  "fistulogram-fistuloplasty-renal-patient-information": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "9dd6b420375b86c8",
   "ref": "GHPI1153_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -2026,7 +2048,8 @@
   "title": "Fistulogram or Fistuloplasty"
  },
  "flexible-cystoscopy": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "21bc06bfab7ec40b",
   "ref": "GHPI0109_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -2034,7 +2057,8 @@
   "title": "Flexible cystoscopy"
  },
  "flexitrus": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "49003eeceb2384ce",
   "ref": "GHPI1664_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -2042,7 +2066,8 @@
   "title": "FlexiTRUS"
  },
  "fluid-and-caffeine-intake-bladder-and-bowel-health-ghpi0533": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "77a1497728b992af",
   "ref": "GHPI0533_03_26",
   "review_due": "2029-03",
   "review_due_text": "March 2029",
@@ -2050,7 +2075,8 @@
   "title": "Fluid and caffeine intake for bladder and bowel health"
  },
  "fluorescein-ffa-and-indocyanine-green-icg-angiography-procedure": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "f6a1f82d173c78e8",
   "ref": "GHPI0497_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -2058,7 +2084,8 @@
   "title": "Fluorescein and indocyanine green angiography"
  },
  "fluoroquinolone-antibiotics": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "e9bde58e0804a4a0",
   "ref": "GHPI1936_12_25",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
@@ -2075,7 +2102,8 @@
   "title": "Foam sclerotherapy for varicose veins"
  },
  "follow-appointments-and-advice-recurrence-gynaecological-cancer-ghpi0953_09_17": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "bce617a97ec86273",
   "ref": "GHPI0953_05_25",
   "review_due": "2028-05",
   "review_due_text": "May 2028",
@@ -2083,7 +2111,8 @@
   "title": "Follow up appointments and advice on recurrence of gynaecological cancer"
  },
  "following-diagnosis-stomach-gastric-or-oesophageal-gullet-cancer": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "164208fae333f52f",
   "ref": "GHPI1302_06_25",
   "review_due": "2028-06",
   "review_due_text": "June 2028",
@@ -5352,8 +5381,9 @@
   "title": "Having an enteroscopy"
  },
  "undergoing-flexible-sigmoidoscopy-outpatient": {
-  "checked": "2026-07-11T00:54:27+01:00",
-  "ref": "GHPI1079_04_26",
+  "checked": "2026-08-17T02:30:56+01:00",
+  "content_hash": "272611e0a370e2c1",
+  "ref": "GHPI1079_05_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
   "status": "ok",
