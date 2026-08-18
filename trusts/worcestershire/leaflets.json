@@ -750,6 +750,11 @@
     "slug": "conservative-management-cervical-intraepithelial-neoplasia-grade-2-cin2"
   },
   {
+    "title": "Constipation in adults",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/constipation-in-adults/",
+    "slug": "constipation-in-adults"
+  },
+  {
     "title": "Contact Mini Device",
     "url": "https://www.worcsacute.nhs.uk/leaflets/contact-mini-device/",
     "slug": "contact-mini-device"
@@ -960,9 +965,19 @@
     "slug": "dysarthria"
   },
   {
+    "title": "Dysphagia Passport",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/dysphagia-passport/",
+    "slug": "dysphagia-passport"
+  },
+  {
     "title": "Early Pregnancy Assessment Unit (EPAU)",
     "url": "https://www.worcsacute.nhs.uk/leaflets/early-pregnancy-assessment-unit-epau/",
     "slug": "early-pregnancy-assessment-unit-epau"
+  },
+  {
+    "title": "Easy to Chew – Level 7",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/easy-to-chew-level-7/",
+    "slug": "easy-to-chew-level-7"
   },
   {
     "title": "Eat All Through (EAT) Radiation Treatment",
@@ -973,6 +988,11 @@
     "title": "Eating and Drinking in the Last hours to Days of Life, including Taste for Pleasure",
     "url": "https://www.worcsacute.nhs.uk/leaflets/taste-for-pleasure/",
     "slug": "taste-for-pleasure"
+  },
+  {
+    "title": "Eating and Drinking with Acknowledged Risks",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/feeding-at-risk-eating-and-drinking-with-acknowledged-risks/",
+    "slug": "feeding-at-risk-eating-and-drinking-with-acknowledged-risks"
   },
   {
     "title": "Eating when it is more difficult",
@@ -1193,11 +1213,6 @@
     "title": "Falls Risk Reduction in Hospital",
     "url": "https://www.worcsacute.nhs.uk/leaflets/falls-prevention-in-hospital/",
     "slug": "falls-prevention-in-hospital"
-  },
-  {
-    "title": "Feeding at Risk (Eating and Drinking with Acknowledged Risks)",
-    "url": "https://www.worcsacute.nhs.uk/leaflets/feeding-at-risk-eating-and-drinking-with-acknowledged-risks/",
-    "slug": "feeding-at-risk-eating-and-drinking-with-acknowledged-risks"
   },
   {
     "title": "Ferinject (Iron injection/infusion)",
@@ -1503,11 +1518,6 @@
     "title": "Home Introduction of Cow’s Milk",
     "url": "https://www.worcsacute.nhs.uk/leaflets/home-introduction-of-cows-milk/",
     "slug": "home-introduction-of-cows-milk"
-  },
-  {
-    "title": "Home-Based Exercise Programme Diary",
-    "url": "https://www.worcsacute.nhs.uk/leaflets/supported-home-based-exercise-programme-diary/",
-    "slug": "supported-home-based-exercise-programme-diary"
   },
   {
     "title": "Homebirth",
@@ -1900,6 +1910,11 @@
     "slug": "lifestyle-advice-for-fertility-patients"
   },
   {
+    "title": "Liquidised – Level 3",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/liquidised-level-3/",
+    "slug": "liquidised-level-3"
+  },
+  {
     "title": "Local Anaesthetic Day Surgery Patient Discharge Information",
     "url": "https://www.worcsacute.nhs.uk/leaflets/local-anaesthetic-day-surgery/",
     "slug": "local-anaesthetic-day-surgery"
@@ -2128,6 +2143,11 @@
     "title": "Mid Urethral Vaginal Tape (MUT)",
     "url": "https://www.worcsacute.nhs.uk/leaflets/mid-urethral-vaginal-tape-mut/",
     "slug": "mid-urethral-vaginal-tape-mut"
+  },
+  {
+    "title": "Minced & Moist – Level 5",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/minced-moist-level-5/",
+    "slug": "minced-moist-level-5"
   },
   {
     "title": "Mindful Eating",
@@ -2990,6 +3010,11 @@
     "slug": "pulmonary-nodules"
   },
   {
+    "title": "Pureed Diet – Level 4",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/pureed-diet-level-4/",
+    "slug": "pureed-diet-level-4"
+  },
+  {
     "title": "Radial Head/ Radial Neck Fractures",
     "url": "https://www.worcsacute.nhs.uk/leaflets/radial-head-radial-neck-fractures/",
     "slug": "radial-head-radial-neck-fractures"
@@ -3080,6 +3105,11 @@
     "slug": "radiotherapy-treatment-at-the-worcestershire-oncology-centre-easy-read"
   },
   {
+    "title": "Rapid Tranquilisation",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/rapid-tranquilisation/",
+    "slug": "rapid-tranquilisation"
+  },
+  {
     "title": "Referral to Fracture Clinic (VFC)",
     "url": "https://www.worcsacute.nhs.uk/leaflets/virtual-fracture-clinic-vfc/",
     "slug": "virtual-fracture-clinic-vfc"
@@ -3103,6 +3133,11 @@
     "title": "Renal Biopsy",
     "url": "https://www.worcsacute.nhs.uk/leaflets/renal-biopsy/",
     "slug": "renal-biopsy"
+  },
+  {
+    "title": "Renal Dialysis Unit – Welcome Leaflet",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/renal-dialysis-unit-welcome-leaflet/",
+    "slug": "renal-dialysis-unit-welcome-leaflet"
   },
   {
     "title": "Repair of an umbilical hernia (child)",
@@ -3285,6 +3320,11 @@
     "slug": "smoking-cessation-for-parents-carers"
   },
   {
+    "title": "Soft & Bite-sized – Level 6",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/soft-bite-sized-level-6/",
+    "slug": "soft-bite-sized-level-6"
+  },
+  {
     "title": "Soft Tissue Injury to Hip",
     "url": "https://www.worcsacute.nhs.uk/leaflets/soft-tissue-injury-to-hip/",
     "slug": "soft-tissue-injury-to-hip"
@@ -3378,11 +3418,6 @@
     "title": "Suppliers of Assistive Devices",
     "url": "https://www.worcsacute.nhs.uk/leaflets/suppliers-of-assistive-devices/",
     "slug": "suppliers-of-assistive-devices"
-  },
-  {
-    "title": "Supported Home-Based Exercise Programme for Intermittent Claudication",
-    "url": "https://www.worcsacute.nhs.uk/leaflets/supported-home-based-exercise-programme-for-intermittent-claudication/",
-    "slug": "supported-home-based-exercise-programme-for-intermittent-claudication"
   },
   {
     "title": "Supporting your baby’s development 26-28 weeks",
@@ -3553,6 +3588,16 @@
     "title": "Totally Implanted Central Venous Access Device (Port-a-Cath)",
     "url": "https://www.worcsacute.nhs.uk/leaflets/totally-implanted-central-venous-access-device-port-a-cath/",
     "slug": "totally-implanted-central-venous-access-device-port-a-cath"
+  },
+  {
+    "title": "Transcervical Resection of Fibroids",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/transcervical-resection-of-fibroids/",
+    "slug": "transcervical-resection-of-fibroids"
+  },
+  {
+    "title": "Transferring Your Allergy Care",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/transferring-your-allergy-care/",
+    "slug": "transferring-your-allergy-care"
   },
   {
     "title": "Transition to Adult Hearing Services",
