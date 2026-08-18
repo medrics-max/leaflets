@@ -70,24 +70,9 @@
     "slug": "advice-for-amputees-on-returning-to-driving"
   },
   {
-    "title": "Advice for patients and carers about having a Endoscopic Mucosal Resection (EMR) During Gastroscopy",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/063-23_Endoscopic_Mucosal_Resection_063-23.pdf",
-    "slug": "advice-for-patients-and-carers-about-having-a-endoscopic-mucosal-resection-emr-during-gastroscopy"
-  },
-  {
     "title": "Advice for patients and carers about having a Gastroscopy (OGD) and Colonoscopy",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/185-23_Gastroscopy-Colonoscopy.pdf",
     "slug": "advice-for-patients-and-carers-about-having-a-gastroscopy-ogd-and-colonoscopy"
-  },
-  {
-    "title": "Advice for patients and carers about having an Endoscopic Ultrasound (EUS) with or without fine needle aspiration/biopsy (FNA/B) /coeliac plexus neurolysis (CPN)",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/170-23_Endoscopic-ultrasound.pdf",
-    "slug": "advice-for-patients-and-carers-about-having-an-endoscopic-ultrasound-eus-with-or-without-fine-needle-aspiration-biopsy-fna-b-coeliac-plexus-neurolysis-cpn"
-  },
-  {
-    "title": "Advice for patients and carers about having an Oesophageal Dilatation during Gastroscopy",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/066-23_Oesophageal-dilation.pdf",
-    "slug": "advice-for-patients-and-carers-about-having-an-oesophageal-dilatation-during-gastroscopy"
   },
   {
     "title": "Advice for patients with diabetes having a flexible sigmoidoscopy or colonoscopy",
@@ -220,11 +205,6 @@
     "slug": "argon-plasma-coagulation-apc"
   },
   {
-    "title": "Argon plasma coagulation (APC)",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/141-22_argon-plasma-coagulation.pdf",
-    "slug": "argon-plasma-coagulation-apc-2"
-  },
-  {
     "title": "Arm sling information",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/emergency-department/060-23_arm-sling.pdf",
     "slug": "arm-sling-information"
@@ -293,11 +273,6 @@
     "title": "Barrett's Oesophagus",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/187-23_Barretts-oesophagus.pdf",
     "slug": "barrett-s-oesophagus"
-  },
-  {
-    "title": "Barrett's oesophagus surveillance",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/137-23_Barrett-oesophagus-surveillance_cytosponge.pdf",
-    "slug": "barrett-s-oesophagus-surveillance-2"
   },
   {
     "title": "Barrett’s oesophagus surveillance",
@@ -428,11 +403,6 @@
     "title": "Blood Groups and Red Cell Antibodies in Pregnancy",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/maternity/Blood_Groups_and_Red_Cell_Antibodies_in_Pregnancy.pdf",
     "slug": "blood-groups-and-red-cell-antibodies-in-pregnancy"
-  },
-  {
-    "title": "Botox injection",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/139-22_Botox-Injection.pdf",
-    "slug": "botox-injection"
   },
   {
     "title": "Botox injection during gastroscopy",
@@ -660,19 +630,9 @@
     "slug": "clavicle-fracture-management"
   },
   {
-    "title": "Colon capsule endoscopy",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/231-21_Colon-Capsule-Endoscopy.pdf",
-    "slug": "colon-capsule-endoscopy"
-  },
-  {
     "title": "Colonoscopy",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/endoscopy/colonoscopy.pdf",
     "slug": "colonoscopy"
-  },
-  {
-    "title": "Colonoscopy advice leaflet",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/135-22_Colonoscopy.pdf",
-    "slug": "colonoscopy-advice-leaflet"
   },
   {
     "title": "Colposcopy Outpatient clinic",
@@ -820,6 +780,11 @@
     "slug": "direct-oral-anticoagulation-doac-therapy-apixaban-for-atrial-fibrillation"
   },
   {
+    "title": "Direct oral anticoagulation (DOAC) therapy - Apixaban for blood clots",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/radiology/direct-oral-anticoagulation-therapy-apixaban-venous-thromboembolism.pdf",
+    "slug": "direct-oral-anticoagulation-doac-therapy-apixaban-for-blood-clots"
+  },
+  {
     "title": "Direct oral anticoagulation (DOAC) therapy - Rivaroxaban for Atrial Fibrillation",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/radiology/doac-therapy-rivaroxaban-atrial-fibrillation.pdf",
     "slug": "direct-oral-anticoagulation-doac-therapy-rivaroxaban-for-atrial-fibrillation"
@@ -891,13 +856,8 @@
   },
   {
     "title": "Early Pregnancy Assessment Unit (EPAU) patient information",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/maternity/429-21-patient-information-early-pregnancy-assessment-unit.pdf",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/women-health/patient-information-early-pregnancy-assessment-unit.pdf",
     "slug": "early-pregnancy-assessment-unit-epau-patient-information"
-  },
-  {
-    "title": "Early Pregnancy Assessment Unit - Patient Information",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/women-health/Patient-information-Early-Pregnancy-Assessment-Unit.pdf",
-    "slug": "early-pregnancy-assessment-unit-patient-information"
   },
   {
     "title": "Elbow / wrist fracture under 5's",
@@ -1045,11 +1005,6 @@
     "slug": "flexible-sigmoidoscopy"
   },
   {
-    "title": "Flexible sigmoidoscopy advice leaflet",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/133-22_flexible-sigmoidoscopy.pdf",
-    "slug": "flexible-sigmoidoscopy-advice-leaflet"
-  },
-  {
     "title": "Food fun play",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/Childrens_therapy/food_fun.pdf",
     "slug": "food-fun-play"
@@ -1106,13 +1061,8 @@
   },
   {
     "title": "Gastroscopy (OGD) and colonoscopy",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/endoscopy/gastroscopy-colonoscopy.pdf",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/endoscopy/Gastroscopy-Colonoscopy.pdf",
     "slug": "gastroscopy-ogd-and-colonoscopy"
-  },
-  {
-    "title": "Gastroscopy advice leaflet",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/137-22_Gastroscopy.pdf",
-    "slug": "gastroscopy-advice-leaflet"
   },
   {
     "title": "Genu valgum/varum (knock-knees / bowed legs)",
@@ -1138,6 +1088,11 @@
     "title": "Going home from hospital (Royal Bournemouth Hospital)",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/surgery/going-home-from-hospital.pdf",
     "slug": "going-home-from-hospital-royal-bournemouth-hospital"
+  },
+  {
+    "title": "Going home with ureteric stent",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/urology/going-home-ureteric-stent.pdf",
+    "slug": "going-home-with-ureteric-stent"
   },
   {
     "title": "Groin dissection for skin cancer",
@@ -1915,6 +1870,16 @@
     "slug": "nourishing-diet-for-people-that-need-to-gain-weight"
   },
   {
+    "title": "Nutrition and neuroendocrine tumours (NETs): bowel surgery",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/diabetes/neuroendocrine-tumours-bowel-surgery.pdf",
+    "slug": "nutrition-and-neuroendocrine-tumours-nets-bowel-surgery"
+  },
+  {
+    "title": "Nutrition and neuroendocrine tumours (NETs): carcinoid syndrome and somatostatin analogues (SSAs)",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/diabetes/nets-diet-sheet-carcinoid-ssa.pdf",
+    "slug": "nutrition-and-neuroendocrine-tumours-nets-carcinoid-syndrome-and-somatostatin-analogues-ssas"
+  },
+  {
     "title": "Obstetric Cholestasis",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/maternity/Obstetric_Cholestasis.pdf",
     "slug": "obstetric-cholestasis"
@@ -1948,6 +1913,11 @@
     "title": "Oesophageal Stricture",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/041-22_Oesophageal-Stricture.pdf",
     "slug": "oesophageal-stricture"
+  },
+  {
+    "title": "Older Person's Same Day Emergency Clinic",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/sdec/sdec.pdf",
+    "slug": "older-person-s-same-day-emergency-clinic"
   },
   {
     "title": "On arrival into hospital",
@@ -2361,7 +2331,7 @@
   },
   {
     "title": "Preparation for colonoscopy with sodium picosulfate powder: Morning appointment",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/021-22_colonoscopy-with-picolax-am.pdf",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/021-22-colonoscopy-with-picolax-am.pdf",
     "slug": "preparation-for-colonoscopy-with-sodium-picosulfate-powder-morning-appointment"
   },
   {
@@ -2815,11 +2785,6 @@
     "slug": "skin-graft-wound-care"
   },
   {
-    "title": "Small bowel capsule endoscopy",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/Small_Bowel_Capsule_Endoscopy_123-22.pdf",
-    "slug": "small-bowel-capsule-endoscopy"
-  },
-  {
     "title": "Smoking and cervical cancer: The facts",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/women-health/smoking-and-cervical-cancer.pdf",
     "slug": "smoking-and-cervical-cancer-the-facts"
@@ -3153,6 +3118,11 @@
     "title": "Upper limb stretching programme",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/Childrens_therapy/Childrens_physiotherapy/Upper_limb_stretching_sheet_2019_done.pdf",
     "slug": "upper-limb-stretching-programme"
+  },
+  {
+    "title": "Ureteric stent removal using a string",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/urology/ureteric-stent-removal-using-string.pdf",
+    "slug": "ureteric-stent-removal-using-a-string"
   },
   {
     "title": "Urethral bulking",

@@ -1775,11 +1775,6 @@
     "slug": "sdec-same-day-emergency-care"
   },
   {
-    "title": "Self-Administration of Medications",
-    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=25583&media_type=10",
-    "slug": "self-administration-of-medications"
-  },
-  {
     "title": "Skin Tunnelled Catheter",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=739&media_type=10",
     "slug": "skin-tunnelled-catheter"
@@ -1913,6 +1908,11 @@
     "title": "Type 2 Diabetes treated with tablets",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=23650&media_type=10",
     "slug": "type-2-diabetes-treated-with-tablets"
+  },
+  {
+    "title": "Unlicensed and off-label medicines",
+    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=5261&media_type=10",
+    "slug": "unlicensed-and-off-label-medicines"
   },
   {
     "title": "Urodynamics Studies",

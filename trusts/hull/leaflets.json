@@ -130,6 +130,11 @@
     "slug": "adapting-to-monocular-vision-using-the-sight-from-one-eye-only"
   },
   {
+    "title": "Administration of Octenisan Universal Decolonisation Treatment",
+    "url": "https://www.hey.nhs.uk/patient-leaflet/administration-of-octenisan-universal-decolonisation-treatment/",
+    "slug": "administration-of-octenisan-universal-decolonisation-treatment"
+  },
+  {
     "title": "Admission for Radio Iodine Ablation Treatment",
     "url": "https://www.hey.nhs.uk/patient-leaflet/admission-for-radio-iodine-ablatio-treatment/",
     "slug": "admission-for-radio-iodine-ablatio-treatment"
@@ -328,6 +333,26 @@
     "title": "Anticholinergic Burden (ACB)",
     "url": "https://www.hey.nhs.uk/patient-leaflet/anticholinergic-burden-acb/",
     "slug": "anticholinergic-burden-acb"
+  },
+  {
+    "title": "APCP Calcaneal Apophysitis / Severs",
+    "url": "https://www.hey.nhs.uk/patient-leaflet/apcp-calcaneal-apophysitis-severs/",
+    "slug": "apcp-calcaneal-apophysitis-severs"
+  },
+  {
+    "title": "APCP Information – Flat Feet",
+    "url": "https://www.hey.nhs.uk/patient-leaflet/apcp-information-flat-feet/",
+    "slug": "apcp-information-flat-feet"
+  },
+  {
+    "title": "APCP Information – Intoeing Gait",
+    "url": "https://www.hey.nhs.uk/patient-leaflet/apcp-information-intoeing-gait/",
+    "slug": "apcp-information-intoeing-gait"
+  },
+  {
+    "title": "APCP Information – Osgood Schlatter / Traction Apophysitis",
+    "url": "https://www.hey.nhs.uk/patient-leaflet/apcp-information-osgood-schlatter-traction-apophysitis/",
+    "slug": "apcp-information-osgood-schlatter-traction-apophysitis"
   },
   {
     "title": "Are you Diabetic? Are you having Heart Surgery? Patient Poster",
@@ -773,11 +798,6 @@
     "title": "Closer Monitoring and Treatment for Diabetic Retinopathy",
     "url": "https://www.hey.nhs.uk/patient-leaflet/closer-monitoring-treatment-diabetic-retinopathy/",
     "slug": "closer-monitoring-treatment-diabetic-retinopathy"
-  },
-  {
-    "title": "Clostridium Difficile – Information for patients, relatives and carers",
-    "url": "https://www.hey.nhs.uk/patient-leaflet/clostridium-difficile/",
-    "slug": "clostridium-difficile"
   },
   {
     "title": "Coblation adenoidectomy and intracapsular tonsillectomy",
@@ -1705,11 +1725,6 @@
     "slug": "following-cataract-surgery-post-operative-eye-care-advice"
   },
   {
-    "title": "Formation of Arterio-venous Fistula",
-    "url": "https://www.hey.nhs.uk/patient-leaflet/formation-of-arterio-venous-fistula/",
-    "slug": "formation-of-arterio-venous-fistula"
-  },
-  {
     "title": "Formation of Fistula for Haemodialysis",
     "url": "https://www.hey.nhs.uk/patient-leaflet/formation-fistula-haemodialysis/",
     "slug": "formation-fistula-haemodialysis"
@@ -2170,6 +2185,11 @@
     "slug": "hydrogen-breath-test"
   },
   {
+    "title": "Hygiene and Water Safety",
+    "url": "https://www.hey.nhs.uk/patient-leaflet/hygiene-and-water-safety/",
+    "slug": "hygiene-and-water-safety"
+  },
+  {
     "title": "Hyperemesis Gravidarum (Excessive nausea and vomiting in pregnancy)",
     "url": "https://www.hey.nhs.uk/patient-leaflet/hyperemesis-gravidarum/",
     "slug": "hyperemesis-gravidarum"
@@ -2361,23 +2381,23 @@
   },
   {
     "title": "Information, Advice and Exercises for Patients having Breast Reconstruction Surgery",
-    "url": "https://www.hey.nhs.uk/patient-leaflet/information-advice-exercises-patients-breast-reconstruction-surgery/",
-    "slug": "information-advice-exercises-patients-breast-reconstruction-surgery"
-  },
-  {
-    "title": "Information, Advice and Exercises for Patients having Breast Reconstruction Surgery",
     "url": "https://www.hey.nhs.uk/patient-leaflet/information-advice-and-exercises-for-patients-having-breast-reconstruction-surgery/",
     "slug": "information-advice-and-exercises-for-patients-having-breast-reconstruction-surgery"
   },
   {
-    "title": "Information, Advice and Exercises for Patients Having Breast Surgery",
-    "url": "https://www.hey.nhs.uk/patient-leaflet/information-advice-and-exercises-for-patients-having-breast-surgery/",
-    "slug": "information-advice-and-exercises-for-patients-having-breast-surgery"
+    "title": "Information, Advice and Exercises for Patients having Breast Reconstruction Surgery",
+    "url": "https://www.hey.nhs.uk/patient-leaflet/information-advice-exercises-patients-breast-reconstruction-surgery/",
+    "slug": "information-advice-exercises-patients-breast-reconstruction-surgery"
   },
   {
     "title": "Information, Advice and Exercises for Patients Having Breast Surgery",
     "url": "https://www.hey.nhs.uk/patient-leaflet/information-advice-exercises-patients-breast-surgery/",
     "slug": "information-advice-exercises-patients-breast-surgery"
+  },
+  {
+    "title": "Information, Advice and Exercises for Patients Having Breast Surgery",
+    "url": "https://www.hey.nhs.uk/patient-leaflet/information-advice-and-exercises-for-patients-having-breast-surgery/",
+    "slug": "information-advice-and-exercises-for-patients-having-breast-surgery"
   },
   {
     "title": "Information, Advice and Exercises for Patients having Breast Surgery Involving Axillary Node Dissections",
@@ -3265,6 +3285,11 @@
     "slug": "pain-relief-medication-while-in-hospital"
   },
   {
+    "title": "Pancreatic Enzyme Replacement Therapy",
+    "url": "https://www.hey.nhs.uk/patient-leaflet/pancreatic-enzyme-replacement-therapy/",
+    "slug": "pancreatic-enzyme-replacement-therapy"
+  },
+  {
     "title": "Panretinal Photocoagulation Laser (PRP)",
     "url": "https://www.hey.nhs.uk/patient-leaflet/panretinal-photocoagulation-laser-prp/",
     "slug": "panretinal-photocoagulation-laser-prp"
@@ -3623,6 +3648,11 @@
     "title": "Pressure Ulcers and Sores – Information for Carers",
     "url": "https://www.hey.nhs.uk/patient-leaflet/pressure-ulcers-and-sores/",
     "slug": "pressure-ulcers-and-sores"
+  },
+  {
+    "title": "Preterm Birth – Patient Information Leaflet",
+    "url": "https://www.hey.nhs.uk/patient-leaflet/preterm-birth-patient-information-leaflet/",
+    "slug": "preterm-birth-patient-information-leaflet"
   },
   {
     "title": "Preventing Pressure Ulcers – Working Together with Patients and Carers to Prevent Pressure Ulcers",
@@ -4425,12 +4455,12 @@
     "slug": "tonsillitis"
   },
   {
-    "title": "Total Hip Replacement – Benefits, Risks and Outcome",
+    "title": "Total Hip Replacement",
     "url": "https://www.hey.nhs.uk/patient-leaflet/total-hip-replacement-benefits-risks-outcome/",
     "slug": "total-hip-replacement-benefits-risks-outcome"
   },
   {
-    "title": "Total Knee Replacement for Arthritis",
+    "title": "Total Knee Replacement",
     "url": "https://www.hey.nhs.uk/patient-leaflet/total-knee-replacement-arthritis/",
     "slug": "total-knee-replacement-arthritis"
   },
@@ -4860,14 +4890,14 @@
     "slug": "welcome-acute-medical-unit-amu"
   },
   {
+    "title": "Welcome to the medical Same Day Emergency Care (mSDEC)",
+    "url": "https://www.hey.nhs.uk/patient-leaflet/welcome-ambulatory-care-unit-acu/",
+    "slug": "welcome-ambulatory-care-unit-acu"
+  },
+  {
     "title": "Welcome to the Orthoptic Department",
     "url": "https://www.hey.nhs.uk/patient-leaflet/welcome-orthoptic-department/",
     "slug": "welcome-orthoptic-department"
-  },
-  {
-    "title": "Welcome to the Same Day Care Unit (SDCU",
-    "url": "https://www.hey.nhs.uk/patient-leaflet/welcome-ambulatory-care-unit-acu/",
-    "slug": "welcome-ambulatory-care-unit-acu"
   },
   {
     "title": "Welcome to Ward 39 (Cardiology)",
