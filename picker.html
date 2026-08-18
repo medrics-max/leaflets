@@ -458,11 +458,15 @@ let REVIEWS = {};
 let BUNDLES = [];
 
 // ---- Improvement telemetry (anonymous, dormant until a URL is pasted) -------
-// Two events, both designed so a trust IG reviewer can approve on sight:
+// Three events, all designed so a trust IG reviewer can approve on sight:
 //   no_results — the search text ONLY when a search found nothing, because a
 //                failed query is a synonym or content gap written by the user.
 //   generate   — the content slugs issued on a QR generation (content stats,
 //                no free text), to improve starter packs and bundles.
+//   view       — one ping per page load carrying the trust id only (no free
+//                text). Added 2026-08-18 for pilot adoption measurement:
+//                generate-only telemetry cannot tell "tester never opened
+//                the link" from "opened but did not generate".
 // STRICT BY CONSTRUCTION:
 //   * No identifiers of any kind: no device id, no session id, no cookie, and
 //     Apps Script does not expose the caller's IP — rows can never be linked
@@ -534,9 +538,9 @@ function telemetryNotice() {
   if (!f || document.getElementById("telnote")) return;
   const p = document.createElement("div");
   p.id = "telnote";
-  p.textContent = "Improvement analytics: this page counts searches that found "
-    + "nothing and which leaflets are issued — anonymously, with no identifiers. "
-    + "Nothing about you or any patient is collected.";
+  p.textContent = "Improvement analytics: this page counts when it is opened, "
+    + "searches that found nothing, and which leaflets are issued — anonymously, "
+    + "with no identifiers. Nothing about you or any patient is collected.";
   f.appendChild(p);
 }
 // -----------------------------------------------------------------------------
@@ -764,6 +768,10 @@ async function init() {
   if (param && valid(param)) pickTrust(param);        // per-trust link, e.g. picker.html?t=<id>
   else if (saved && valid(saved)) pickTrust(saved);   // remembered choice (unlisted needs ?preview)
   else pickTrust(REGISTRY.default);                   // first visit — default trust, switch via dropdown
+  // One ping per page load, initial trust only (a later dropdown switch is
+  // not a new open). Trust id + timestamp, nothing else — same no-identifier
+  // contract as the other events.
+  telemetry("view", "");
 }
 
 function renderSelected() {
