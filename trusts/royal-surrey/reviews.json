@@ -2775,14 +2775,6 @@
   "status": "ok",
   "title": "SDEC – Same Day Emergency Care"
  },
- "self-administration-of-medications": {
-  "checked": "2026-07-26T02:30:21+01:00",
-  "content_hash": "ceb330cb7f873ac5",
-  "review_due": "2026-08",
-  "review_due_text": "August 2026",
-  "status": "ok",
-  "title": "Self-Administration of Medications"
- },
  "skin-tunnelled-catheter": {
   "checked": "2026-07-26T02:30:21+01:00",
   "content_hash": "994118e168ea81f9",
@@ -2986,6 +2978,14 @@
   "content_hash": "aac72c46243506fa",
   "status": "no-date",
   "title": "Type 2 Diabetes treated with tablets"
+ },
+ "unlicensed-and-off-label-medicines": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "07353f434807b4bd",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Unlicensed and off-label medicines"
  },
  "urodynamics-studies": {
   "checked": "2026-07-27T02:30:19+01:00",

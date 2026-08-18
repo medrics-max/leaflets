@@ -114,7 +114,8 @@
   "title": "Adrenal Insufficiency Sick Day Rule Information – Information for patients on long-term steroid hormone replacement therapy (e.g.: Hydrocortisone, prednisolone, dexamethasone)."
  },
  "adult-head-injury-anticoagulant-antiplatelet": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "2140285b95eb9cda",
   "status": "no-date",
   "title": "Head Injury – Anticoagulant/Antiplatelet"
  },
@@ -892,6 +893,12 @@
   "status": "no-date",
   "title": "Conservative Management Cervical Intraepithelial Neoplasia Grade 2 (CIN2)"
  },
+ "constipation-in-adults": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "02b16949511cd1d6",
+  "status": "no-date",
+  "title": "Constipation in adults"
+ },
  "contact-mini-device": {
   "checked": "2026-08-04T02:33:47+01:00",
   "content_hash": "e66167ad56ef1b83",
@@ -1079,7 +1086,8 @@
   "title": "Discharge advice following your surgery – gynaecology"
  },
  "discharge-information-for-patients-going-home-with-opioid-medication-for-acute-pain-relief": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "b18b1a08694213ca",
   "status": "no-date",
   "title": "Going Home with Opioid Painkillers"
  },
@@ -1143,11 +1151,23 @@
   "status": "no-date",
   "title": "Dysarthria"
  },
+ "dysphagia-passport": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "952d509fce0cdb14",
+  "status": "no-date",
+  "title": "Dysphagia Passport"
+ },
  "early-pregnancy-assessment-unit-epau": {
   "checked": "2026-08-15T02:30:29+01:00",
   "content_hash": "042d639acdb108b4",
   "status": "no-date",
   "title": "Early Pregnancy Assessment Unit (EPAU)"
+ },
+ "easy-to-chew-level-7": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "733f81ada7d36e5e",
+  "status": "no-date",
+  "title": "Easy to Chew – Level 7"
  },
  "eat-all-through-eat-radiation-treatment": {
   "checked": "2026-08-15T02:30:29+01:00",
@@ -1582,17 +1602,20 @@
   "title": "Glaucoma Data Capture Clinic (GDCC)"
  },
  "glyceryl-trinitrate-gtn-sprays-and-tablets": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "8e6a1783d6f77dda",
   "status": "no-date",
   "title": "Glyceryl Trinitrate (GTN) Sprays Tablets"
  },
  "gnrh-analogues": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "f9753072dd912862",
   "status": "no-date",
   "title": "GnRH analogues"
  },
  "going-home-after-an-autologous-stem-cell-transplant": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "992a37a48f1f5d7b",
   "status": "no-date",
   "title": "Going Home after an Autologous Stem Cell Transplant"
  },
@@ -1609,67 +1632,80 @@
   "title": "Going home from Hospital with oxygen"
  },
  "going-home-nasogastric-tube-feeding": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "aa49b4694d9c9377",
   "status": "no-date",
   "title": "Going home NG tube feeding with the Neonatal Outreach Service"
  },
  "going-home-on-oxygen": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "657c0745a9402f47",
   "status": "no-date",
   "title": "Going home on oxygen"
  },
  "guidelines-on-vitamin-and-mineral-supplementation-after-gastric-bypass-and-sleeve-gastrectomy": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "fbb4d6ad6eafe62f",
   "status": "no-date",
   "title": "Guidelines on vitamin and mineral supplementation after gastric bypass and sleeve gastrectomy"
  },
  "gynaecology-enhanced-recovery-programme": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "78813bba01007ae3",
   "status": "no-date",
   "title": "Gynaecology Enhanced Recovery Programme"
  },
  "habit-cough-in-children": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "035a9ca923662bfb",
   "status": "no-date",
   "title": "Habit Cough in Children"
  },
  "having-an-operation-information-for-patients-awaiting-surgery-at-kidderminster-treatment-centre": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "697c9cd20602e2e6",
   "status": "no-date",
   "title": "Having an operation- Information for patients awaiting surgery at Kidderminster Treatment Centre"
  },
  "having-an-x-ray-information-for-children-and-adults-with-learning-disabilities": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "849bcd8228ef536e",
   "status": "no-date",
   "title": "Having an X-ray – Information for patients with learning disabilities"
  },
  "having-endometrial-ablation-under-local-anaesthesia": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "15553e4de5fb0871",
   "status": "no-date",
   "title": "Having Endometrial Ablation under Local Anaesthesia"
  },
  "head-injury-child-waht-pi-2105": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "e8864d077b4e20f8",
   "status": "no-date",
   "title": "Head Injury (Child)"
  },
  "head-injury-concussion-waht-pi-2178": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "47e648f8532da8b5",
   "status": "no-date",
   "title": "Head Injury – Concussion"
  },
  "head-injury-information-adult": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "ac95e0caa6d90ced",
   "status": "no-date",
   "title": "Head Injury Information (Adult)"
  },
  "headaches-waht-pi-2238": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "81f6154ca45db1cd",
   "status": "no-date",
   "title": "Headaches"
  },
  "healthier-takeaways-convenience-foods": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "7bd2ce0c89f75095",
   "status": "no-date",
   "title": "Healthier Takeaways / Convenience Foods"
  },
@@ -2180,6 +2216,12 @@
   "status": "no-date",
   "title": "Lifestyle advice for fertility patients"
  },
+ "liquidised-level-3": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "2b3c35c2c72580a1",
+  "status": "no-date",
+  "title": "Liquidised – Level 3"
+ },
  "local-anaesthetic-day-surgery": {
   "checked": "2026-07-12T22:22:48+01:00",
   "content_hash": "dbbc8565d1396a07",
@@ -2473,6 +2515,12 @@
   "content_hash": "ea02ee6aa2c1fc55",
   "status": "no-date",
   "title": "Mid Urethral Vaginal Tape (MUT)"
+ },
+ "minced-moist-level-5": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "367352e24bbc80c5",
+  "status": "no-date",
+  "title": "Minced & Moist – Level 5"
  },
  "mindful-eating": {
   "checked": "2026-07-12T22:56:56+01:00",
@@ -3524,6 +3572,12 @@
   "status": "no-date",
   "title": "A Guide to Pulmonary Rehabilitation – Worcestershire COPD Team"
  },
+ "pureed-diet-level-4": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "b60bf3f986eddb8e",
+  "status": "no-date",
+  "title": "Pureed Diet – Level 4"
+ },
  "radial-head-radial-neck-fractures": {
   "checked": "2026-07-13T02:30:06+01:00",
   "content_hash": "578e68bf0647cc63",
@@ -3632,6 +3686,12 @@
   "status": "no-date",
   "title": "Radiotherapy treatment at the Worcestershire oncology centre easy read"
  },
+ "rapid-tranquilisation": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "5296fe1d5fe022ac",
+  "status": "no-date",
+  "title": "Rapid Tranquilisation"
+ },
  "registering-with-a-general-practitioner-gp": {
   "checked": "2026-07-13T02:30:06+01:00",
   "content_hash": "ee0678e51cc9508f",
@@ -3655,6 +3715,12 @@
   "content_hash": "8e45856209cf623b",
   "status": "no-date",
   "title": "Renal Biopsy"
+ },
+ "renal-dialysis-unit-welcome-leaflet": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "daf2a980b08b1e33",
+  "status": "no-date",
+  "title": "Renal Dialysis Unit – Welcome Leaflet"
  },
  "repair-of-an-umbilical-hernia-child": {
   "checked": "2026-07-13T02:30:06+01:00",
@@ -3890,6 +3956,12 @@
   "status": "no-date",
   "title": "Smoking Cessation for parents/carers"
  },
+ "soft-bite-sized-level-6": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "449b684adeed8989",
+  "status": "no-date",
+  "title": "Soft & Bite-sized – Level 6"
+ },
  "soft-tissue-injury-to-hip": {
   "checked": "2026-07-13T02:41:44+01:00",
   "content_hash": "2e4fe5000d335048",
@@ -3991,17 +4063,6 @@
   "content_hash": "1b5af9407ef4ec28",
   "status": "no-date",
   "title": "Suppliers of Assistive Devices"
- },
- "supported-home-based-exercise-programme-diary": {
-  "checked": "2026-07-12T02:30:10+01:00",
-  "status": "no-date",
-  "title": "Home-Based Exercise Programme Diary"
- },
- "supported-home-based-exercise-programme-for-intermittent-claudication": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "cf24d73745f7d78f",
-  "status": "no-date",
-  "title": "Supported Home-Based Exercise Programme for Intermittent Claudication"
  },
  "supporting-your-babys-development-26-28-weeks": {
   "checked": "2026-07-13T02:41:44+01:00",
@@ -4218,6 +4279,18 @@
   "content_hash": "09550547bb3e4911",
   "status": "no-date",
   "title": "Totally Implanted Central Venous Access Device (Port-a-Cath)"
+ },
+ "transcervical-resection-of-fibroids": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "6dae12041a567767",
+  "status": "no-date",
+  "title": "Transcervical Resection of Fibroids"
+ },
+ "transferring-your-allergy-care": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "58368282adda698a",
+  "status": "no-date",
+  "title": "Transferring Your Allergy Care"
  },
  "transition-to-adult-hearing-services": {
   "checked": "2026-08-04T02:33:47+01:00",
@@ -4712,7 +4785,8 @@
   "title": "Your colposcopy procedure – Punch Biopsy"
  },
  "your-hand-surgery-information-for-patients": {
-  "checked": "2026-07-12T02:30:10+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "db291a4800bb71b4",
   "status": "no-date",
   "title": "Hand Surgery – Information for Patients"
  },

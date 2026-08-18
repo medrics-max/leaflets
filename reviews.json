@@ -1960,6 +1960,15 @@
   "status": "ok",
   "title": "Falls Clinic"
  },
+ "feelings-after-cancer-treatment": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "9e426187f27c4a81",
+  "ref": "GHPI1957_07_26",
+  "review_due": "2029-07",
+  "review_due_text": "July 2029",
+  "status": "ok",
+  "title": "Feelings after cancer treatment"
+ },
  "female-fertility-preservation": {
   "checked": "2026-08-17T02:30:56+01:00",
   "content_hash": "f7fab68e9bf62c8a",
@@ -2120,7 +2129,8 @@
   "title": "Following diagnosis of stomach (gastric) or oesophageal (gullet) cancer"
  },
  "forming-arterio-venous-av-fistula": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "88726642ad308088",
   "ref": "GHPI0340_06_25",
   "review_due": "2028-06",
   "review_due_text": "June 2028",
@@ -2128,7 +2138,8 @@
   "title": "Forming an Arterio-Venous (AV) fistula"
  },
  "fracture-of-the-upper-jaw": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "540ce027d61630d9",
   "ref": "GHPI1119_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -2136,7 +2147,8 @@
   "title": "Fracture of the upper jaw"
  },
  "fractured-clavicle-and-acromioclavicular-ac-joint-injuries": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "af16ad78f12cb4d4",
   "ref": "GHPI0034_07_24",
   "review_due": "2027-07",
   "review_due_text": "July 2027",
@@ -2144,7 +2156,8 @@
   "title": "Fractured clavicle and acromioclavicular (AC) joint injuries"
  },
  "fractured-lower-jaw": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "6e7f21a40d5d9c14",
   "ref": "GHPI1200_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -2152,7 +2165,8 @@
   "title": "Fractured lower jaw"
  },
  "fractures-of-the-cheek-bone": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "2bac5155a7a86e05",
   "ref": "GHPI1120_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -2160,7 +2174,8 @@
   "title": "Fractures of the cheek bone"
  },
  "functional-endoscopic-sinus-surgery": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "3245e43b0e5cb043",
   "ref": "GHPI1909_06_25",
   "review_due": "2028-06",
   "review_due_text": "June 2028",
@@ -2168,7 +2183,8 @@
   "title": "Functional endoscopic sinus surgery"
  },
  "functional-neurological-symptoms": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "c4ef184badb4bd34",
   "ref": "GHPI1553_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -2176,7 +2192,8 @@
   "title": "Functional Neurological Symptoms"
  },
  "gabapentin-for-the-treatment-of-vulvodynia": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "34cbc53f11cfa877",
   "ref": "GHPI1882_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -2184,7 +2201,8 @@
   "title": "Gabapentin for the treatment of vulvodynia"
  },
  "gastroscopy-radiofrequency-ablation-rfa-oesophageal-dysplasia": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "f130105339a25e6f",
   "ref": "GHPI1215_11_25",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -2209,7 +2227,8 @@
   "title": "MRI scan for children"
  },
  "genetic-testing-for-inherited-bowel-and-gynaecological-cancers-r210-lynch-syndrome": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "a2ae0142e7961b8d",
   "ref": "GHPI1932_01_26",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
@@ -2217,7 +2236,8 @@
   "title": "Genetic testing for inherited bowel and gynaecological cancers R210 (Lynch Syndrome)"
  },
  "gestational-diabetes-mellitus-gdm": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "22445b7df5101b75",
   "ref": "GHPI0358_01_26",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
@@ -2225,7 +2245,8 @@
   "title": "Gestational Diabetes Mellitus (GDM)"
  },
  "getting-the-best-out-of-medication-for-persistent-chronic-and-long-term-pain": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "186495e334602452",
   "ref": "GHPI1613_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -2284,7 +2305,8 @@
   "title": "Advice for when you go home after having gynaecological surgery"
  },
  "gloucestershire-brain-injury-team-outpatient-services": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "4a98391562d7638a",
   "ref": "GHPI0871_02_26",
   "review_due": "2029-02",
   "review_due_text": "February 2029",
@@ -2292,7 +2314,8 @@
   "title": "Gloucestershire Brain Injury Team Outpatient Services"
  },
  "gloucestershire-long-covid-psychology-service": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "69d298a2cef108d8",
   "ref": "GHPI1933_11_25",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -2300,7 +2323,8 @@
   "title": "Gloucestershire Long Covid Psychology Service"
  },
  "gloucestershire-urology-assessment-clinic-ghpi1212": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "e70045935bee1c25",
   "ref": "GHPI1212_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -2308,7 +2332,8 @@
   "title": "Gloucestershire Urology Assessment Clinic"
  },
  "going-home-after-stem-cell-transplant": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "953ab856d921d16d",
   "ref": "GHPI1333_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -2316,12 +2341,14 @@
   "title": "Going home after stem cell transplant"
  },
  "going-home-hospital-after-you-have-had-coronavirus-easy-read": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "2b7efc0d8d7847d0",
   "status": "no-date",
   "title": "Going home from hospital after you have had coronavirus (easy read)"
  },
  "going-home-with-a-cadd-pump": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "c591d38d0e3d4b0b",
   "ref": "GHPI1854_09_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -2329,12 +2356,14 @@
   "title": "Going home with Blinatumomab in a CADD pump"
  },
  "going-hospital-coronavirus-easy-read": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "df9ca108229b101d",
   "status": "no-date",
   "title": "Going to hospital with coronavirus (easy read)"
  },
  "gonadotrophin-ovulation-induction-ghpi1085": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "fd41c2eac3f68af8",
   "ref": "GHPI1085_12_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -2342,7 +2371,8 @@
   "title": "Gonadotrophin ovulation induction"
  },
  "good-hair-care-advice": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "08b367e41c7ff6a4",
   "ref": "GHPI1694_09_24",
   "review_due": "2027-09",
   "review_due_text": "September 2027",
@@ -2350,7 +2380,8 @@
   "title": "Good hair care advice"
  },
  "grazax-for-grass-pollen-allergy-hay-fever": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "ee18ffcc0a3c7e28",
   "ref": "GHPI1939_12_25",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
@@ -2358,7 +2389,8 @@
   "title": "GRAZAX® for Grass Pollen Allergy (Hay Fever)"
  },
  "great-big-toe-fracture-or-injury": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "63ac57b6ce19176d",
   "ref": "GHPI1855_07_24",
   "review_due": "2027-07",
   "review_due_text": "July 2027",
@@ -2375,7 +2407,8 @@
   "title": "A guide to vestibular rehabilitation"
  },
  "gynaecological-cancer-services-gloucestershire-ghpi1273_05_17": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "a27108fde20f37bc",
   "ref": "GHPI1273_10_24",
   "review_due": "2027-10",
   "review_due_text": "October 2027",
@@ -2383,7 +2416,8 @@
   "title": "Gynaecological Cancer Services in Gloucestershire"
  },
  "gynaecology-rapid-access-clinic": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "5b72689d91395490",
   "ref": "GHPI1945_02_26",
   "review_due": "2029-02",
   "review_due_text": "February 2029",
@@ -2391,7 +2425,8 @@
   "title": "Gynaecology Rapid Access Clinic"
  },
  "h-ow-to-take-your-bowel-preparation-for-a-standard-morning-appointment": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "f536261da7372e88",
   "ref": "GHPI1136_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -3389,6 +3424,15 @@
   "review_due_text": "April 2027",
   "status": "ok",
   "title": "Laparoscopy and dye test"
+ },
+ "laser-treatment-for-diabetic-retinopathy-and-maculopathy": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "3fc00be8bb136845",
+  "ref": "GHPI1958_06_26",
+  "review_due": "2029-07",
+  "review_due_text": "July 2029",
+  "status": "ok",
+  "title": "Laser treatment for diabetic retinopathy and maculopathy"
  },
  "learning-disabilities-hospital-liaison-nurse-team": {
   "checked": "2026-07-11T00:57:12+01:00",
@@ -4920,6 +4964,15 @@
   "status": "ok",
   "title": "Spironolactone for Acne (Women)"
  },
+ "spironolactone-for-female-pattern-hair-loss": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "34ba9ba979ef176b",
+  "ref": "GHPI1956_07_26",
+  "review_due": "2029-07",
+  "review_due_text": "July 2029",
+  "status": "ok",
+  "title": "Spironolactone for female pattern hair loss"
+ },
  "spironolactone-for-hidradenitis-suppurativa": {
   "checked": "2026-08-04T02:33:47+01:00",
   "content_hash": "abf4a4143441b7b2",
@@ -5016,6 +5069,15 @@
   "review_due_text": "March 2029",
   "status": "ok",
   "title": "Supporting a person living with dementia and their carer in Outpatient Department"
+ },
+ "supporting-you-while-you-recover-from-major-trauma": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "d9681a0943c90ae8",
+  "ref": "GHPI1921_07_26",
+  "review_due": "2029-07",
+  "review_due_text": "July 2029",
+  "status": "ok",
+  "title": "Supporting you while you recover from major trauma"
  },
  "surgical-management-miscarriage": {
   "checked": "2026-07-11T01:00:00+01:00",
