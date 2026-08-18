@@ -521,6 +521,12 @@
   "status": "no-date",
   "title": "Adapting to Monocular Vision (using the sight from one eye only)"
  },
+ "administration-of-octenisan-universal-decolonisation-treatment": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "cd5e8d4f11081409",
+  "status": "no-date",
+  "title": "Administration of Octenisan Universal Decolonisation Treatment"
+ },
  "admission-for-radio-iodine-ablatio-treatment": {
   "checked": "2026-07-21T02:35:11+01:00",
   "content_hash": "499a4c052287b8f3",
@@ -760,6 +766,30 @@
   "content_hash": "221e8fe6f0b93653",
   "status": "no-date",
   "title": "Anticholinergic Burden (ACB)"
+ },
+ "apcp-calcaneal-apophysitis-severs": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "0dcc6a5753c7bd64",
+  "status": "no-date",
+  "title": "APCP Calcaneal Apophysitis / Severs"
+ },
+ "apcp-information-flat-feet": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "d8a8a97cca25489d",
+  "status": "no-date",
+  "title": "APCP Information – Flat Feet"
+ },
+ "apcp-information-intoeing-gait": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "ddb78c0e92597241",
+  "status": "no-date",
+  "title": "APCP Information – Intoeing Gait"
+ },
+ "apcp-information-osgood-schlatter-traction-apophysitis": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "035baa938a3c186a",
+  "status": "no-date",
+  "title": "APCP Information – Osgood Schlatter / Traction Apophysitis"
  },
  "are-you-diabetic-are-you-having-heart-surgery-patient-poster": {
   "checked": "2026-07-21T02:35:11+01:00",
@@ -1270,12 +1300,6 @@
   "content_hash": "b1e3d9d68b146c90",
   "status": "no-date",
   "title": "Closer Monitoring and Treatment for Diabetic Retinopathy"
- },
- "clostridium-difficile": {
-  "checked": "2026-07-23T02:30:21+01:00",
-  "content_hash": "b1e2057409dfd708",
-  "status": "no-date",
-  "title": "Clostridium Difficile – Information for patients, relatives and carers"
  },
  "coblation-adenoidectomy-and-intracapsular-tonsillectomy": {
   "checked": "2026-07-23T02:30:21+01:00",
@@ -2321,12 +2345,6 @@
   "status": "no-date",
   "title": "Formation of Fistula for Haemodialysis"
  },
- "formation-of-arterio-venous-fistula": {
-  "checked": "2026-07-26T02:30:21+01:00",
-  "content_hash": "4254ca5fd645cea0",
-  "status": "no-date",
-  "title": "Formation of Arterio-venous Fistula"
- },
  "fracture-lower-jaw": {
   "checked": "2026-07-26T02:30:21+01:00",
   "content_hash": "b0182bb1b79782a5",
@@ -2895,6 +2913,12 @@
   "content_hash": "f749bfe688824c4e",
   "status": "no-date",
   "title": "Hydrogen Breath Test"
+ },
+ "hygiene-and-water-safety": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "7d2083ec2549c698",
+  "status": "no-date",
+  "title": "Hygiene and Water Safety"
  },
  "hyperemesis-gravidarum": {
   "checked": "2026-07-27T02:30:19+01:00",
@@ -4140,6 +4164,12 @@
   "status": "no-date",
   "title": "Pain Relief Medication While in Hospital"
  },
+ "pancreatic-enzyme-replacement-therapy": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "d7de6932dfddfe44",
+  "status": "no-date",
+  "title": "Pancreatic Enzyme Replacement Therapy"
+ },
  "panretinal-photocoagulation-laser-prp": {
   "checked": "2026-07-28T02:30:44+01:00",
   "content_hash": "259373301cdeefe8",
@@ -4511,6 +4541,12 @@
   "content_hash": "3f032ae785a6ec2d",
   "status": "no-date",
   "title": "Pressure Ulcers and Sores – Information for Carers"
+ },
+ "preterm-birth-patient-information-leaflet": {
+  "checked": "2026-08-18T02:34:06+01:00",
+  "content_hash": "30e5ffb820dcba53",
+  "status": "no-date",
+  "title": "Preterm Birth – Patient Information Leaflet"
  },
  "procedural-or-conscious-sedation-adults": {
   "checked": "2026-07-29T02:30:51+01:00",
