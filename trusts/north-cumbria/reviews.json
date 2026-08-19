@@ -408,8 +408,8 @@
   "title": "Nuclear Medicine: Octreotide/Tektrotyd Scan"
  },
  "Ophthalmology-Dilating-eye-drops-for-children": {
-  "checked": "2026-07-13T00:29:53+01:00",
-  "content_hash": "9b1f295913cb419b",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "64f70f7ee0d877c1",
   "status": "no-date",
   "title": "Ophthalmology: Dilating eye drops for children"
  },
@@ -420,50 +420,50 @@
   "title": "Physiotherapy: Orthostatic Hypertension: Dropping Blood Pressure"
  },
  "Paediatric-minor-injuries-Broken-scaphoid-bone": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "2a92d42fe1497144",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "cd8f012864efd86a",
   "status": "no-date",
   "title": "Paediatric minor injuries: Broken scaphoid bone"
  },
  "Paediatric-minor-injuries-Buckle-fracture-soft-cast": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "ab9bdaf903c8cbef",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "63620778e4d70ff3",
   "status": "no-date",
   "title": "Paediatric minor injuries: Buckle fracture soft cast"
  },
  "Paediatric-minor-injuries-Buckle-fracture-splint": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "ee8d03271d79dda4",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "af7007630c50d4e4",
   "status": "no-date",
   "title": "Paediatric minor injuries: Buckle fracture splint"
  },
  "Paediatric-minor-injuries-Minor-fracture-to-finger": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "d9da2785bbb724bd",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "048c9efb5c3c0fcf",
   "status": "no-date",
   "title": "Paediatric minor injuries: Minor fracture to finger"
  },
  "Paediatric-minor-injuries-Salter-Harris-fracture-Wrist": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "1783efaaca67d44e",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "fd0824132bd5ee8e",
   "status": "no-date",
   "title": "Paediatric minor injuries: Salter Harris fracture - Wrist"
  },
  "Paediatric-minor-injuries-Soft-tissue-injury": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "b16c032b029d4bb9",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "41a046f33a0b4187",
   "status": "no-date",
   "title": "Paediatric minor injuries: Soft tissue injury"
  },
  "Paediatric-minor-injuries-Soft-tissue-knee-injury": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "54c82fc0bc71d935",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "516454319914fa6a",
   "status": "no-date",
   "title": "Paediatric minor injuries: Soft tissue knee injury"
  },
  "Palliative-Care-Buprenorphine-Patches": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "fa2146563400a172",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "e93a9b82b3ad0bf2",
   "status": "no-date",
   "title": "Palliative Care: Buprenorphine Patches"
  },
@@ -474,8 +474,8 @@
   "title": "Nuclear Medicine: Parathyroid Scan"
  },
  "Peadiatric-minor-injuries-Greenstick-Fracture-Distal-Radius-and-or-Ulna": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "5781de6519e9c400",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "bc8cbbab780dd2d3",
   "status": "no-date",
   "title": "Paediatric minor injuries: Greenstick fracture: Distal radius and/or Ulna"
  },
@@ -1464,20 +1464,20 @@
   "title": "Ophthalmology: Contact Lenses for Keratoconus"
  },
  "ophthalmology-corneal-cross-linking": {
-  "checked": "2026-07-13T00:29:53+01:00",
-  "content_hash": "d3a3c3120254e804",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "9b3eb359a4ea3d37",
   "status": "no-date",
   "title": "Ophthalmology: Corneal cross-linking"
  },
  "ophthalmology-soft-contact-lens": {
-  "checked": "2026-07-13T00:29:53+01:00",
-  "content_hash": "f55b3e77c9a65b7a",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "4a7bafb8f38438f4",
   "status": "no-date",
   "title": "Ophthalmology: Soft contact lens"
  },
  "ophthalmology-spectacles-children": {
-  "checked": "2026-07-13T00:29:53+01:00",
-  "content_hash": "d53cc4e1654047da",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "eaa5f81e910fd030",
   "status": "no-date",
   "title": "Ophthalmology: Spectacles for children"
  },
@@ -1488,92 +1488,92 @@
   "title": "Ophthalmology: Contact lenses"
  },
  "orthodontics-andibular-advancement-devices-obstructive-sleep-apnoea": {
-  "checked": "2026-07-13T00:29:53+01:00",
-  "content_hash": "6791912457cc4864",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "f9b2077b2dad2c00",
   "status": "no-date",
   "title": "Orthodontics: Mandibular advancement devices for obstructive sleep apnoea"
  },
  "orthodontics-cover-plates-impacted-canines": {
-  "checked": "2026-07-13T00:29:53+01:00",
-  "content_hash": "04f4523ab32987f5",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "0cf156e30ff6988f",
   "status": "no-date",
   "title": "Orthodontics: Cover plates for impacted canines"
  },
  "orthodontics-fixed-brace-instructions": {
-  "checked": "2026-07-13T00:29:53+01:00",
-  "content_hash": "76c1c7035df1c75e",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "da200a8c1c331f40",
   "status": "no-date",
   "title": "Orthodontics: Fixed brace instructions"
  },
  "orthodontics-jaw-joint-problems": {
-  "checked": "2026-07-13T00:29:53+01:00",
-  "content_hash": "ff09e6d703b335dc",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "47688781aeb0a968",
   "status": "no-date",
   "title": "Orthodontics: Jaw joint problems"
  },
  "orthodontics-jaw-surgery": {
-  "checked": "2026-07-13T00:29:53+01:00",
-  "content_hash": "3ef72e90c842b783",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "14160fae5029dba0",
   "status": "no-date",
   "title": "Orthodontics: Jaw surgery"
  },
  "orthodontics-keeping-teeth-braces-clean": {
-  "checked": "2026-07-13T00:29:53+01:00",
-  "content_hash": "6388ecebdeddfc58",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "eb350e40c5a31f9c",
   "status": "no-date",
   "title": "Orthodontics: Keeping your teeth and braces clean"
  },
  "orthodontics-looking-after-functional-brace": {
-  "checked": "2026-07-13T00:29:53+01:00",
-  "content_hash": "f494a94ef8b3f4d2",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "0cbc291680bd0e77",
   "status": "no-date",
   "title": "Orthodontics: Looking after your functional brace"
  },
  "orthodontics-looking-after-removable-retainers": {
-  "checked": "2026-07-13T00:29:53+01:00",
-  "content_hash": "8525f3f789d6202c",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "527d6ec38419f451",
   "status": "no-date",
   "title": "Orthodontics: Looking after your removable retainers"
  },
  "orthodontics-rapid-maxillary-expansion": {
-  "checked": "2026-07-13T00:29:53+01:00",
-  "content_hash": "4db1ae59eb3a4f54",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "4cac696045716a39",
   "status": "no-date",
   "title": "Orthodontics: Rapid maxillary expansion"
  },
  "orthodontics-removable-brace": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "d62bafbd887cf7ab",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "227dd8f5439178be",
   "status": "no-date",
   "title": "Orthodontics: Removable brace"
  },
  "palliative-care-fentanyl-patches": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "1a55d548567d9a5d",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "0700fb0bbe9d96bd",
   "status": "no-date",
   "title": "Palliative Care: Fentanyl Patches"
  },
  "palliative-care-just-case-medication": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "2a08885ec47df518",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "01beac3ddfd5dfe0",
   "status": "no-date",
   "title": "Palliative Care: Just in Case Medication"
  },
  "palliative-care-medication-driving-advice": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "bbc48a5c2a18559c",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "2c9539297a038440",
   "status": "no-date",
   "title": "Palliative Care: Medication and Driving Advice"
  },
  "palliative-care-oral-morphine-oxycodone": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "f3a32e1176a10d88",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "0a77af0d4620a1e1",
   "status": "no-date",
   "title": "Palliative Care: Oral Morphine or Oxycodone"
  },
  "palliative-care-pregabalin": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "eb33f61397910ac1",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "37b5d0aa8c5492fb",
   "status": "no-date",
   "title": "Palliative Care: Pregabalin"
  },
@@ -1644,8 +1644,8 @@
   "title": "Elective Care Suite: Cumberland Infirmary"
  },
  "patient-information-template-7": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "f1e444e30924df0d",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "ec80132e779f933a",
   "status": "no-date",
   "title": "Palliative Care: Administering Buccolam"
  },
@@ -1656,8 +1656,8 @@
   "title": "Maternity: Glucose tolerance test"
  },
  "patient-information-template-92": {
-  "checked": "2026-07-13T00:29:53+01:00",
-  "content_hash": "73b08caab6de361b",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "7216cf0a57d723a0",
   "status": "no-date",
   "title": "Orthodontics: Jaw Surgery (Orthognathic)"
  },

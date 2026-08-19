@@ -1453,7 +1453,8 @@
   "title": "Discharge advice following an ERCP procedure"
  },
  "discharge-advice-following-gastroscopy-sedation": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "c9b9555972b3d6b5",
   "ref": "GHPI1586_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -2434,7 +2435,8 @@
   "title": "H ow to take your bowel preparation for a standard morning appointment"
  },
  "haematology-clinics": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "e1ee9a6e46e56a99",
   "ref": "GHPI0135_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -2442,7 +2444,8 @@
   "title": "Haematology Clinics"
  },
  "hair-care-for-eczema-of-the-scalp": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "f4eef32c3628dbaf",
   "ref": "GHPI1846_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -2450,7 +2453,8 @@
   "title": "Hair care for eczema of the scalp"
  },
  "handling-and-care-rgp-contact-lenses-ghpi0588": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "7735e9117574fce9",
   "ref": "GHPI0588_11_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -2458,7 +2462,8 @@
   "title": "Handling and care of RGP contact lenses"
  },
  "handling-and-care-scleral-contact-lenses-ghpi0587": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "60e54dcfaba09cff",
   "ref": "GHPI0587_11_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -2466,7 +2471,8 @@
   "title": "Handling and care of scleral contact lenses"
  },
  "handling-and-care-soft-contact-lenses-ghpi0589": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "b62b54e6beb5b318",
   "ref": "GHPI0589_11_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -2474,7 +2480,8 @@
   "title": "Handling and care of soft contact lenses"
  },
  "having-a-bladder-and-bowel-assessment": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "2c426d782d6ba36b",
   "ref": "GHPI0530_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -2482,7 +2489,8 @@
   "title": "Having a bladder and bowel assessment"
  },
  "having-a-brother-or-sister-in-the-neonatal-unit-nnu-ghpi1628": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "6d200adc20673a8f",
   "ref": "GHPI1628_11_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -2490,7 +2498,8 @@
   "title": "Having a brother or sister in the Neonatal Unit (NNU)"
  },
  "having-a-colonoscopy-as-an-inpatient": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "91efaf5104ab1795",
   "ref": "GHPI1719_11_25",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -2498,21 +2507,24 @@
   "title": "Having a colonoscopy as an inpatient"
  },
  "having-a-ct-ablation-easy-read": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "eb13f2e05dfbd1ed",
   "review_due": "2026-09",
   "review_due_text": "September 2026",
   "status": "ok",
   "title": "Having a CT ablation (easy read)"
  },
  "having-a-ct-scan-of-your-bowel-easy-read": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "1f4f9edbc44d380a",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
   "status": "ok",
   "title": "Having a CT scan of your bowel (easy read)"
  },
  "having-a-diagnostic-gastroscopy-as-an-outpatient": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "0ccd8ee88115cab3",
   "ref": "GHPI1081_11_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -2520,7 +2532,8 @@
   "title": "Having a diagnostic gastroscopy as an outpatient"
  },
  "having-a-fibroscan": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "4c24526515b104fd",
   "ref": "GHPI1488_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -2528,7 +2541,8 @@
   "title": "Having a fibroscan"
  },
  "having-a-flexible-sigmoidoscopy-as-an-inpatient": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "c5817a40515be86a",
   "ref": "GHPI1720_11_25",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -2536,7 +2550,8 @@
   "title": "Having a flexible sigmoidoscopy as an inpatient"
  },
  "having-a-gastroscopy-and-colonoscopy": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "f4b6dfc92a83c47a",
   "ref": "GHPI1210_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -2544,7 +2559,8 @@
   "title": "Having a gastroscopy and colonoscopy"
  },
  "having-a-gastroscopy-as-an-inpatient": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "9ead84a8d47a2c54",
   "ref": "GHPI1717_11_25",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -2561,7 +2577,8 @@
   "title": "Having a gastroscopy (OGD) as an inpatient"
  },
  "having-a-naso-gastroscopy-as-an-outpatient": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "02e1ef5d5269db9f",
   "ref": "GHPI1673_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",
@@ -2569,7 +2586,8 @@
   "title": "Having a trans-nasal endoscopy as an outpatient"
  },
  "having-a-therapeutic-gastroscopy-as-an-outpatient": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "5b98b51ef61d3f96",
   "ref": "GHPI1693_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -2577,7 +2595,8 @@
   "title": "Having a therapeutic gastroscopy as an outpatient"
  },
  "having-a-ureteric-stent": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "1bbd6440938d468d",
   "ref": "GHPI1718_01_26",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
@@ -2585,7 +2604,8 @@
   "title": "Having a ureteric stent"
  },
  "having-an-ercp-as-an-inpatient": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "6f7cadc9976d0f9c",
   "ref": "GHPI1814_11_23",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -2593,7 +2613,8 @@
   "title": "Having an ERCP as an inpatient"
  },
  "having-an-oesophageal-stent-inserted": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "c265647d1c9e19a4",
   "ref": "GHPI1813_01_24",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -2601,7 +2622,8 @@
   "title": "Having an oesophageal stent inserted"
  },
  "having-an-operation-at-gloucestershire-hospitals-nhs-foundation-trust": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "3efcd3f58c370f0e",
   "ref": "GHPI1615_01_26",
   "review_due": "2028-04",
   "review_due_text": "April 2028",
@@ -2609,7 +2631,8 @@
   "title": "Having an operation at Gloucestershire Hospitals NHS Foundation Trust"
  },
  "having-angiogram-or-angioplasty-ghpi0203_11_19": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "3aec30f57bdc4a5d",
   "ref": "GHPI0203_11_25",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -2617,7 +2640,8 @@
   "title": "Having an angiogram or angioplasty"
  },
  "having-bone-densitometry-scan-adults": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "2d8b3438a4e4bae7",
   "ref": "GHPI0616_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -2634,7 +2658,8 @@
   "title": "Having a bronchoscopy"
  },
  "having-chemotherapy-through-an-ambulatory-pump": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "f480562784f332d2",
   "ref": "GHPI0235_09_25",
   "review_due": "2028-09",
   "review_due_text": "September 2028",
@@ -2642,14 +2667,16 @@
   "title": "Having chemotherapy through an ambulatory pump"
  },
  "having-ct-guided-abdominal-or-pelvic-biopsy-easy-read": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "d57e5e8774692237",
   "review_due": "2026-09",
   "review_due_text": "September 2026",
   "status": "ok",
   "title": "Having CT guided abdominal or pelvic biopsy (easy read)"
  },
  "having-sweat-test-children-ghpi0712_11_18": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "4796a949e0ad4f52",
   "ref": "GHPI0712_07_24",
   "review_due": "2027-07",
   "review_due_text": "July 2027",
@@ -4612,7 +4639,8 @@
   "title": "Rapid Access Skin Assessment Clinic"
  },
  "receiving-an-iron-infusion-ghpi1337": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "fae20e20cd0b4fdf",
   "ref": "GHPI1337_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -5437,7 +5465,8 @@
   "title": "Ultrasound Viability Scan"
  },
  "undergoing-enteroscopy": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "d65488989cf1b77a",
   "ref": "GHPI1246_02_26",
   "status": "no-date",
   "title": "Having an enteroscopy"
@@ -5452,7 +5481,8 @@
   "title": "Flexible sigmoidoscopy as an outpatient"
  },
  "undergoing-video-capsule-endoscopy-vce": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-19T02:31:45+01:00",
+  "content_hash": "003eff3f58b6d754",
   "ref": "GHPI1247_08_24",
   "review_due": "2027-08",
   "review_due_text": "August 2027",
