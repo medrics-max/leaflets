@@ -2684,7 +2684,8 @@
   "title": "Having a sweat test"
  },
  "having-your-baby-in-gloucestershire": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "14269f968c5480da",
   "ref": "GHPI1264_09_23",
   "review_due": "2026-09",
   "review_due_text": "September 2026",
@@ -2700,7 +2701,8 @@
   "title": "Macmillan Head and Neck Clinical Nurse Specialist (CNS) Team"
  },
  "healthnet-homecare-delivery": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "5f49639843e56b53",
   "ref": "GHPI1557_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -2724,7 +2726,8 @@
   "title": "Useful information for new Peritoneal Dialysis (PD) patients"
  },
  "helping-you-to-prepare-for-your-treatment": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "3fc890c4f652f486",
   "ref": "GHPI1922_01_26",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
@@ -2732,7 +2735,8 @@
   "title": "Helping you to prepare for your treatment"
  },
  "hemi-thyroidectomy": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "b867e6e9a0fb068c",
   "ref": "GHPI1207_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -2740,7 +2744,8 @@
   "title": "Hemi-thyroidectomy"
  },
  "hernia-surgery-adults-ghpi0747_08_18": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "f4403cd2082029b7",
   "ref": "GHPI0747_11_25",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -2748,15 +2753,17 @@
   "title": "Hernia surgery in adults"
  },
  "hidradenitis-suppurativa-ghpi1624": {
-  "checked": "2026-07-11T00:54:27+01:00",
-  "ref": "GHPI1624_10_23",
-  "review_due": "2026-10",
-  "review_due_text": "October 2026",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "da84455e8e427c20",
+  "ref": "GHPI1624_07_26",
+  "review_due": "2029-07",
+  "review_due_text": "July 2029",
   "status": "ok",
   "title": "Hidradenitis Suppurativa"
  },
  "high-flow-nasal-oxygen": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "78ddcc7a25bdd639",
   "ref": "GHPI1489_09_24",
   "review_due": "2027-09",
   "review_due_text": "September 2027",
@@ -2764,7 +2771,8 @@
   "title": "High Flow Nasal Oxygen"
  },
  "high-risk-protocol-for-kidney-cancer": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "2da3c9af1bf8ed0e",
   "ref": "GHPI1738_01_26",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
@@ -2772,7 +2780,8 @@
   "title": "High Risk Protocol for Kidney Cancer"
  },
  "home-blood-pressure-monitoring-for-expectant-parents": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "17d219b0830fe0ab",
   "ref": "GHPI1578_01_26",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
@@ -2780,7 +2789,8 @@
   "title": "Home Blood Pressure Monitoring for Expectant Parents"
  },
  "home-enteral-feeding-team-heft-service": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "96098ce18bb03c3b",
   "ref": "GHPI1468_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -2788,7 +2798,8 @@
   "title": "Home Enteral Feeding Team (HEFT) Service"
  },
  "homecare-delivery-of-medicines-from-alcura": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "c0ae0754eda62448",
   "ref": "GHPI1731_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -2796,7 +2807,8 @@
   "title": "Homecare delivery of medicines from Alcura"
  },
  "homelessness-gloucestershire": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "a7487e30a08b4d61",
   "ref": "GHPI1532_12_25",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
@@ -2804,13 +2816,15 @@
   "title": "Homelessness in Gloucestershire"
  },
  "how-find-good-quality-health-information-internet": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "a60537f2cee3c494",
   "ref": "GHPI1418_03_19",
   "status": "no-date",
   "title": "How to find good quality health information on the internet GHPI1418_03_19"
  },
  "how-look-after-your-dialysis-access-and-wound-after-discharge-hospital": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "99f4c326b4effb5f",
   "ref": "GHPI1240_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -2818,7 +2832,8 @@
   "title": "How to look after your dialysis access"
  },
  "how-produce-patient-information": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "dfbeffa158107213",
   "ref": "GHPI1024_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -2826,15 +2841,17 @@
   "title": "How to produce patient information"
  },
  "how-take-best-photographs-your-skin-lesion-or-rash-ghpi1577": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "a61b0629de595f4e",
   "ref": "GHPI1577_12_25",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
   "status": "ok",
-  "title": "How to take the best photos of  your skin lesion or rash"
+  "title": "How to take the best photos of your skin lesion or rash"
  },
  "how-take-klean-prep-your-gynaecological-cancer-surgery": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "7ddf84c9c701040d",
   "ref": "GHPI1434_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -2850,7 +2867,8 @@
   "title": "How to take your bowel preparation for an afternoon appointment using Plenvu®"
  },
  "how-take-your-bowel-preparation-gastroscopy-and-colonoscopy-afternoon-appointment-using-plenvu": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "0778fc6d67b12fd1",
   "ref": "GHPI1493_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -2858,7 +2876,8 @@
   "title": "How to take your bowel preparation for a gastroscopy and colonoscopy afternoon appointment using Plenvu®"
  },
  "how-take-your-bowel-preparation-gastroscopy-and-colonoscopy-morning-appointment-using-plenvu": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "4a69018c9b520be0",
   "ref": "GHPI1494_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -2866,7 +2885,8 @@
   "title": "How to take your bowel preparation for a gastroscopy and colonoscopy morning appointment using Plenvu®"
  },
  "how-to-find-the-endoscopy-unit-cheltenham-general-hospital": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "c8cc5c356512c3ba",
   "ref": "GHPI1654_05_24",
   "review_due": "2027-06",
   "review_due_text": "June 2027",
@@ -2874,7 +2894,8 @@
   "title": "How to find the Endoscopy Unit, Cheltenham General Hospital"
  },
  "how-to-find-the-endoscopy-unit-gloucestershire-royal-hospital": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "7798b8ab05ac1833",
   "ref": "GHPI1655_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",
@@ -2882,7 +2903,8 @@
   "title": "How to find the Endoscopy Unit, Gloucestershire Royal Hospital"
  },
  "how-to-raise-an-informal-concern-or-share-a-compliment-with-our-patient-advice-and-liaison-service-pals": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "47cbb1a3e9d37a1b",
   "ref": "GHPI1880_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -2890,7 +2912,8 @@
   "title": "How to raise an informal concern or share a compliment with our Patient Advice and Liaison Service (PALS)"
  },
  "how-to-take-your-bowel-preparation-for-a-gastroscopy-and-colonoscopy-afternoon-appointment-using-moviprep": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "a816a2994764755c",
   "ref": "GHPI1892_02_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -2898,7 +2921,8 @@
   "title": "How to take your bowel preparation for a gastroscopy and colonoscopy afternoon appointment using Moviprep"
  },
  "how-to-take-your-bowel-preparation-for-a-gastroscopy-and-colonoscopy-morning-appointment-using-moviprep": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "db1fb5d2da8b5ac6",
   "ref": "GHPI1893_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -2906,13 +2930,15 @@
   "title": "How to take your bowel preparation for a gastroscopy and colonoscopy morning appointment using Moviprep"
  },
  "how-to-take-your-bowel-preparation-for-a-gastroscopy-and-colonoscopy-standard-afternoon-appointment": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "7dccaf319431d297",
   "ref": "GHPI1166_02_26",
   "status": "no-date",
   "title": "How to take your bowel preparation for a gastroscopy and colonoscopy standard afternoon appointment"
  },
  "how-to-take-your-bowel-preparation-for-a-gastroscopy-and-colonoscopy-standard-morning-appointment": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "33662913e9d83e16",
   "ref": "GHPI1167_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -2920,7 +2946,8 @@
   "title": "How to take your bowel preparation for a gastroscopy and colonoscopy standard morning appointment"
  },
  "how-to-take-your-bowel-preparation-for-a-morning-appointment-using-moviprep": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "6533b5c08bec1ed5",
   "ref": "GHPI1894_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -2928,7 +2955,8 @@
   "title": "How to take your bowel preparation for a morning appointment using Moviprep"
  },
  "how-to-take-your-bowel-preparation-for-a-morning-appointment-using-plenvu": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "d930e2ed61702251",
   "ref": "GHPI1495_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -2936,7 +2964,8 @@
   "title": "How to take your bowel preparation for a morning appointment using Plenvu®"
  },
  "how-to-take-your-bowel-preparation-for-a-standard-afternoon-appointment": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "6eb9bb14f63558a8",
   "ref": "GHPI1135_02_26",
   "review_due": "2029-02",
   "review_due_text": "February 2029",
@@ -2944,7 +2973,8 @@
   "title": "How to take your bowel preparation for a standard afternoon appointment"
  },
  "how-to-take-your-bowel-preparation-for-an-afternoon-appointment-using-moviprep": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-20T02:33:33+01:00",
+  "content_hash": "e62c74e2a2dc257f",
   "ref": "GHPI1895_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
