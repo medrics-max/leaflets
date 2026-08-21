@@ -2272,12 +2272,13 @@
   "title": "Exercise advice following gynaecological, bladder and pelvic floor surgery"
  },
  "ghpi0502-information-and-support-following-loss-your-baby-end-24-weeks": {
-  "checked": "2026-07-11T00:54:27+01:00",
-  "ref": "GHPI0502_01_24",
-  "review_due": "2027-01",
-  "review_due_text": "January 2027",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "18a14ceacda52301",
+  "ref": "GHPI0502_07_26",
+  "review_due": "2029-07",
+  "review_due_text": "July 2029",
   "status": "ok",
-  "title": "Information and support following the loss of your baby (before the end of 24 weeks of pregnancy with no signs of life)"
+  "title": "Information and support for you following the loss of your baby (up to 23 weeks and 6 days)"
  },
  "ghpi1345-surgical-insertion-peritoneal-dialysis-catheter": {
   "checked": "2026-07-11T01:00:00+01:00",
@@ -2859,7 +2860,8 @@
   "title": "How to take bowel prep for your gynaecological cancer surgery"
  },
  "how-take-your-bowel-preparation-afternoon-appointment-using-plenvu": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "7e3392b854123ab1",
   "ref": "GHPI1496_01_26",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
@@ -2982,7 +2984,8 @@
   "title": "How to take your bowel preparation for an afternoon appointment using Moviprep"
  },
  "how-to-take-your-extended-bowel-preparation-for-a-gastroscopy-and-colonoscopy-afternoon-appointment": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "9a8b2b25757e2084",
   "ref": "GHPI1848_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -2990,7 +2993,8 @@
   "title": "How to take your extended bowel preparation for a gastroscopy and colonoscopy afternoon appointment"
  },
  "how-to-take-your-extended-bowel-preparation-for-a-gastroscopy-and-colonoscopy-morning-appointment": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "9d5d3be57657001a",
   "ref": "GHPI1849_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -2998,7 +3002,8 @@
   "title": "How to take your extended bowel preparation for a gastroscopy and colonoscopy morning appointment"
  },
  "how-to-take-your-extended-bowel-preparation-for-a-morning-colonoscopy-appointment": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "07334383dd2d1035",
   "ref": "GHPI1850_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -3006,7 +3011,8 @@
   "title": "How to take your extended bowel preparation for a morning colonoscopy appointment"
  },
  "how-to-take-your-extended-bowel-preparation-for-an-afternoon-colonoscopy-appointment": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "d89736d9039a19e0",
   "ref": "GHPI1851_06_24",
   "review_due": "2027-06",
   "review_due_text": "June 2027",
@@ -3014,7 +3020,8 @@
   "title": "How to take your extended bowel preparation for an afternoon colonoscopy appointment"
  },
  "how-use-crutches": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "5cbd10da471f32d6",
   "ref": "GHPI0023_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -3022,7 +3029,8 @@
   "title": "How to use crutches"
  },
  "how-use-your-mrsa-screen-postal-kit": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "dc695209e68288a0",
   "ref": "GHPI1057_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -3030,7 +3038,8 @@
   "title": "How to use your MRSA screen postal kit"
  },
  "how-we-handle-your-information": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "10b2862e82f43386",
   "ref": "GHPI1311_12_24",
   "review_due": "2027-12",
   "review_due_text": "December 2027",
@@ -3038,7 +3047,8 @@
   "title": "How we handle your information"
  },
  "hpv-human-papilloma-virus-ghpi0787": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "6bfdbafac567aa7c",
   "ref": "GHPI0787_06_24",
   "review_due": "2027-06",
   "review_due_text": "June 2027",
@@ -3046,7 +3056,8 @@
   "title": "HPV (Human Papilloma Virus)"
  },
  "hypoglycaemia": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "eeacaf1fad474636",
   "ref": "GHPI1143_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -3054,7 +3065,8 @@
   "title": "Hypoglycaemia"
  },
  "hysterectomy": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "bcb1d0b549c617ed",
   "ref": "GHPI0159_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -3062,7 +3074,8 @@
   "title": "Hysterectomy"
  },
  "hysteroscopic-removal-fibroid-ghpi0634_08_19": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "dd97bf38465f489a",
   "ref": "GHPI0634_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -3070,7 +3083,8 @@
   "title": "Hysteroscopic removal of fibroid"
  },
  "hysteroscopy-clinic-menstrual-disorders1": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "6d341e615ceea6f0",
   "ref": "GHPI1026_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -3078,7 +3092,8 @@
   "title": "Hysteroscopy Clinic for menstrual disorders"
  },
  "hysteroscopy-ghpi0522": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "2c2dfd48b4a7df86",
   "ref": "GHPI0522_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -3086,7 +3101,8 @@
   "title": "Hysteroscopy"
  },
  "ice-and-heat-treatment": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "03e7fa9432f8d05f",
   "ref": "GHPI0659_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -3094,12 +3110,14 @@
   "title": "Ice and heat treatment"
  },
  "if-youre-admitted-hospital-coronavirus-easy-read": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "8eb68701d99ca1d7",
   "status": "no-date",
   "title": "If you're admitted to hospital with coronavirus (easy read)"
  },
  "image-guided-fine-needle-aspiration-fna": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "89cf36bf81e75d8d",
   "ref": "GHPI1558_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",
@@ -3107,7 +3125,8 @@
   "title": "Image guided Fine Needle Aspiration (FNA)"
  },
  "immunoglobulin-treatment-ghpi0290_11_18": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "fb1d5271c4634494",
   "ref": "GHPI0290_09_24",
   "review_due": "2027-09",
   "review_due_text": "September 2027",
@@ -3115,7 +3134,8 @@
   "title": "Immunoglobulin treatment"
  },
  "implantable-cardioverter-defibrillator-icd": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "67006d068ad34f68",
   "ref": "GHPI1020_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",
@@ -3123,7 +3143,8 @@
   "title": "Implantable Cardioverter Defibrillator (ICD)"
  },
  "improving-bowel-function-and-control": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "76c5017ee4b548b7",
   "ref": "GHPI1412_09_24",
   "review_due": "2027-09",
   "review_due_text": "September 2027",
@@ -3131,7 +3152,8 @@
   "title": "Improving bowel function and control"
  },
  "improving-control-your-bladder-after-transurethral-resection-prostate-gland-turp-or-bladder-neck-incision-bni": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "9f7227bc2a3accb3",
   "ref": "GHPI0534_12_25",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
@@ -3139,7 +3161,8 @@
   "title": "Improving control of your bladder after bladder outflow obstruction surgery"
  },
  "induction-of-labour": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "967c76aad2f03202",
   "ref": "GHPI1907_05_25",
   "review_due": "2028-05",
   "review_due_text": "May 2028",
@@ -3147,7 +3170,8 @@
   "title": "Induction of Labour"
  },
  "indwelling-pleural-catheters-0": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "5b72e924dde62fc0",
   "ref": "GHPI1300_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -3164,21 +3188,26 @@
   "title": "Anaemia and its treatments for patients with chronic kidney disease"
  },
  "information-about-day-case-ercp-endoscopic-retrograde-cholangio-pancreatography": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "d8a20b0b2456eb6a",
   "ref": "GHPI0546_02_26",
-  "status": "no-date",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
+  "status": "ok",
   "title": "Information about day case ERCP (Endoscopic Retrograde Cholangio-Pancreatography)"
  },
  "information-and-support-for-you-following-the-loss-of-your-baby-24-weeks-and-over": {
-  "checked": "2026-07-11T00:54:27+01:00",
-  "ref": "GHPI0020_03_26",
-  "review_due": "2029-03",
-  "review_due_text": "March 2029",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "1b173c8bb42f22f6",
+  "ref": "GHPI0020_07_26",
+  "review_due": "2029-07",
+  "review_due_text": "July 2029",
   "status": "ok",
   "title": "Information and Support for You Following the Loss of Your Baby (24 Weeks and Over)"
  },
  "information-following-cervical-biopsy-ghpi0788": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "a095b134f87f1dce",
   "ref": "GHPI0788_06_24",
   "review_due": "2027-06",
   "review_due_text": "June 2027",
@@ -3186,7 +3215,8 @@
   "title": "Information following a cervical biopsy"
  },
  "information-following-cervical-smear-test": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "fe7a5c1c34cc3af2",
   "ref": "GHPI0781_06_24",
   "review_due": "2027-06",
   "review_due_text": "June 2027",
@@ -3194,7 +3224,8 @@
   "title": "Information following a cervical screening test"
  },
  "information-for-adults-with-extra-needs-who-are-having-treatment-on-their-teeth-under-general-anaesthetic": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "931a1aca321f952b",
   "ref": "GHPI1832_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -5703,7 +5734,8 @@
   "title": "Vitrectomy surgery"
  },
  "vitro-fertilisation-ivf": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "4fc942b19f5824a3",
   "ref": "GHPI0456_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
