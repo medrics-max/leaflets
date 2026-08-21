@@ -582,86 +582,86 @@
   "title": "Nuclear Medicine: Sentinel Node Localisation"
  },
  "Sepsis": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "2f92bd5c13c7da20",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "bba3cd61c339f281",
   "status": "no-date",
   "title": "Sepsis"
  },
  "Sexual-Health-Coil-Fitting": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "a2453961d19f94f5",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "c8d4ff0346e325de",
   "status": "no-date",
   "title": "Sexual Health: Coil fitting"
  },
  "Sexual-Health-FSRH-CEU-Statement-Mirena-52mg-LNG-IUD": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "15bc25e74f415993",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "50e96089f26c7eb5",
   "status": "no-date",
   "title": "Sexual Health: FSRH CEU Statement: Mirena® 52mg LNG-IUD"
  },
  "South-Lakes-and-Furness-Children-s-Community-Nursing-team": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "8b078dfaeddda090",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "115698f2a9c75815",
   "status": "no-date",
   "title": "South Lakes and Furness Children's Community Nursing team"
  },
  "Speech-Language-Normal-voice": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "dcf433d22d988512",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "6c3c16ccba0bee25",
   "status": "no-date",
   "title": "Speech and Language: Normal voice"
  },
  "Speech-Language-Persistent-throat-symptoms": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "efbe6dde0f9e9915",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "7262f3897089be92",
   "status": "no-date",
   "title": "Speech and Language: Persistent throat symptoms"
  },
  "Stroke-Driving-after-stroke": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "007c26e5cafaf62b",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "e189316f296ac0c8",
   "status": "no-date",
   "title": "Stroke: Driving after stroke"
  },
  "Stroke-Transient-Ischaemic-Attack": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "a0338963e05ac297",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "0481b96ed987cc71",
   "status": "no-date",
   "title": "Stroke: Transient Ischaemic Attack (TIA)"
  },
  "Testosterone-replacement-therapy": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "0a1a1d277d56d184",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "b3c2fce85ad0659a",
   "status": "no-date",
   "title": "Testosterone replacement therapy: (TRT)"
  },
  "Vascular-Preventing-Venous-Thromboembolism": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "fa811911ca12703f",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "fd387cf7cccdd809",
   "status": "no-date",
   "title": "Vascular: Preventing Venous Thromboembolism"
  },
  "Virtual-ward": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "46e2cf2e28b10d87",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "a81ab48239fc2120",
   "status": "no-date",
   "title": "Virtual ward"
  },
  "Virtual-ward-Hypercapnia": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "4726bce067d846cd",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "dc6d733531d98e3e",
   "status": "no-date",
   "title": "Virtual ward: Hypercapnia"
  },
  "Virtual-ward-Oxygen-weaning": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "dcb238a4dc97c597",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "abba239be0338e8b",
   "status": "no-date",
   "title": "Virtual ward: Oxygen weaning"
  },
  "Virtual-ward-Traffic-light-pathway": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "06a4a20122025424",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "87458ae644202c75",
   "status": "no-date",
   "title": "Virtual ward: Traffic light pathway"
  },
@@ -1428,14 +1428,14 @@
   "title": "Early Pregnancy: Natural Management of Miscarriage"
  },
  "nephrectomy-post-nephrectomy-advice": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "eba9e65c341eca13",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "34a6c4fd8a8219f3",
   "status": "no-date",
   "title": "Urology: Nephrectomy"
  },
  "nephrostomy-tube-discharge-information": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "cea8dc690128ebde",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "bb1e04b5659aed4d",
   "status": "no-date",
   "title": "Urology: Nephrostomy Tube"
  },
@@ -1608,14 +1608,14 @@
   "title": "Community Dental Service: Oral Hygiene"
  },
  "patient-information-template-11": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "9eb8d06683f1c5db",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "a99983c917b95b7d",
   "status": "no-date",
   "title": "Unexpected death: Useful information"
  },
  "patient-information-template-12": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "146953bd15c79cbf",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "e06ce37c1b730be3",
   "status": "no-date",
   "title": "Wound care"
  },
@@ -1668,8 +1668,8 @@
   "title": "Physiotherapy: The AerobiKA® Mucus Clearance Patient Guide"
  },
  "patient-information-travel-costs": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "319884b765359003",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "57cb65bb2d21af2c",
   "status": "no-date",
   "title": "Travel Costs for Appointments"
  },
@@ -1704,8 +1704,8 @@
   "title": "Physiotherapy: Pubic Rami Fracture"
  },
  "postmenopausal-bleeding": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "a902b91dd794dabd",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "f1d7dfc528027ffb",
   "status": "no-date",
   "title": "Women's Outpatient: Postmenopausal Bleeding"
  },
@@ -1758,50 +1758,50 @@
   "title": "Same Day Emergency Care (SDEC): Cumberland Infirmary"
  },
  "same-day-emergency-care-west-cumberland-hospital": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "5a14598e06fb2c68",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "dc535ae17faf34be",
   "status": "no-date",
   "title": "Same Day Emergency Care (SDEC): West Cumberland Hospital"
  },
  "sexual-health-care-genital-skin": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "1b66d2a8fdc313a1",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "c18c8b3315526fe6",
   "status": "no-date",
   "title": "Sexual Health: Care of genital skin"
  },
  "speech-language-coughing": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "f474349ad696cb66",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "88f3abf7b0209c0e",
   "status": "no-date",
   "title": "Speech and Language: Coughing"
  },
  "stroke-continence-following-stroke": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "ffde77cb894a7ce7",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "8c8b1f14f046ef80",
   "status": "no-date",
   "title": "Stroke: Continence Following a Stroke"
  },
  "stroke-early-supported-stroke-discharge-team": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "7706b741869d9d82",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "35a1e4fa1716d68d",
   "status": "no-date",
   "title": "Stroke: Early Supported Stroke Discharge Team"
  },
  "stroke-emotional-wellbeing-after-stroke": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "d9f2165048f82966",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "162d6a6412ec89c9",
   "status": "no-date",
   "title": "Stroke: Emotional Wellbeing After a Stroke"
  },
  "stroke-relationships-intimacy-after-stroke": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "f223e50ce5d72462",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "42ab593aea09ec14",
   "status": "no-date",
   "title": "Stroke: Relationships and Intimacy After a Stroke"
  },
  "stroke-wellbeing-service": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "23d1f28216033350",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "ac7b32ebe84109a3",
   "status": "no-date",
   "title": "Stroke: Stroke Wellbeing Service"
  },
@@ -1812,8 +1812,8 @@
   "title": "Palliative Care: The Specialist Palliative Care Service"
  },
  "urology-eliminating-bladder-irritants": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "7faf50caeca1ef5c",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "3324fcdee40da464",
   "status": "no-date",
   "title": "Urology: Eliminating bladder Irritants"
  },
@@ -1824,8 +1824,8 @@
   "title": "Acquired Brain Injury: What is an ABI?"
  },
  "womens-outpatients-cervical-ectopy": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "90d1d88d38723d57",
+  "checked": "2026-08-21T02:42:32+01:00",
+  "content_hash": "6aff1181de12df98",
   "status": "no-date",
   "title": "Women's Outpatients: Cervical Ectopy"
  },
