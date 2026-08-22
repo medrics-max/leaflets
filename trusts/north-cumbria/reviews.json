@@ -258,8 +258,9 @@
   "title": "Early Pregnancy: Bleeding and/or pain in early pregnancy"
  },
  "Gynaecology-Endometrial-Pipelle-Biopsy": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "a146b8d64bf9bf7c",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_changed": "2026-08-22",
+  "content_hash": "a4b5758b261a67f3",
   "status": "no-date",
   "title": "​​​​​​​Gynaecology: Endometrial Pipelle Biopsy"
  },
@@ -1008,8 +1009,9 @@
   "title": "Diabetes: Exercise and sugar levels"
  },
  "diabetes-transition-service-19-25-years": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "526a5c5107bf1262",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_changed": "2026-08-22",
+  "content_hash": "8523b0275b388d60",
   "status": "no-date",
   "title": "Young Adult Diabetes Service: 19 - 25 Years"
  },
@@ -1416,8 +1418,9 @@
   "title": "Minor injuries: Radial head or neck fracture"
  },
  "my-x-ray-nhs": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "513ea5afb5512bfa",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_changed": "2026-08-22",
+  "content_hash": "41933fad9663ee3d",
   "status": "no-date",
   "title": "X-ray: NHS"
  },
@@ -1596,8 +1599,9 @@
   "title": "Community Dental Service: After Care Following The Extraction Of Teeth"
  },
  "patient-information-diabetes-transition-service-16-19-years": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "9e7c8e68f2d972c3",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_changed": "2026-08-22",
+  "content_hash": "ad5a508bc9587295",
   "status": "no-date",
   "title": "Young Adult Diabetes Transition Service: 16 - 19 Years"
  },
@@ -1830,8 +1834,9 @@
   "title": "Women's Outpatients: Cervical Ectopy"
  },
  "x-rays-during-pregnancy": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "e70ccdc22c968801",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_changed": "2026-08-22",
+  "content_hash": "191baaa4c3afa0c2",
   "status": "no-date",
   "title": "X-Rays: During pregnancy"
  }

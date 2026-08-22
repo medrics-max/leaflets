@@ -3233,7 +3233,8 @@
   "title": "Information for adults with extra needs who are having treatment on their teeth under general anaesthetic - Easy Read"
  },
  "information-for-head-and-neck-cancer-patients-about-your-hospital-stay-ghpi1672_06_21": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "471af53b447b115e",
   "ref": "GHPI1672_05_24",
   "review_due": "2027-06",
   "review_due_text": "June 2027",
@@ -3241,7 +3242,8 @@
   "title": "Information for Head and Neck Cancer patients about your hospital stay"
  },
  "information-for-patients-receiving-homecare-delivery-of-medicines-from-lloyds-pharmacy-clinical-homecare-lpch": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "141cff9a33f245c4",
   "ref": "GHPI1259_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -3249,7 +3251,8 @@
   "title": "Information for patients receiving homecare delivery of medicines from Lloyds Pharmacy Clinical Homecare (LPCH)"
  },
  "information-for-patients-receiving-homecare-delivery-of-medicines-from-sciensus": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "10be03fbab9b487d",
   "ref": "GHPI1279_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -3257,7 +3260,8 @@
   "title": "Information for patients receiving homecare delivery of medicines from Sciensus"
  },
  "information-for-patients-taking-unlicensed-medicines": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "80e1c743c064d18e",
   "ref": "GHPI0452_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -3265,7 +3269,8 @@
   "title": "Information for patients taking unlicensed medicines"
  },
  "information-for-patients-who-have-had-surgery-in-the-mouth": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "457159f9b06ca2de",
   "ref": "GHPI0208_06_26",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
@@ -3273,7 +3278,8 @@
   "title": "Information for patients who have had surgery in the mouth"
  },
  "information-for-people-who-care-for-a-child-who-has-extra-needs-and-is-having-teeth-out-under-a-general-anaesthetic": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "e6b4e28b9e0e5c97",
   "ref": "GHPI1833_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -3281,7 +3287,8 @@
   "title": "Information for people who care for a child who has extra needs and is having teeth out under a general anaesthetic - Easy Read"
  },
  "information-for-people-who-care-for-a-child-who-is-having-teeth-out-under-a-general-anaesthetic": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "58f4a43449a58a43",
   "ref": "GHPI1834_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -3289,7 +3296,8 @@
   "title": "Information for people who care for a child who is having teeth out under a general anaesthetic"
  },
  "information-for-veterans-and-armed-forces-families-attending-gloucestershire-hospitals-nhs-foundation-trust": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "5cd577a5b26de876",
   "ref": "GHPI1821_04_24",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -3297,7 +3305,8 @@
   "title": "Information for Veterans and Armed Forces Families attending Gloucestershire Hospitals NHS Foundation Trust"
  },
  "information-parents-about-fluorescein-ffa-and-indocyanine-green-icg-angiography-procedure-ghpi1501": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "377be8b80c2b5e93",
   "ref": "GHPI1501_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -3305,7 +3314,8 @@
   "title": "Information for parents about Fluorescein (FFA) and Indocyanine Green (ICG) angiography procedure"
  },
  "information-patients-following-loop-diathermy-treatment-ghpi0789": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "798eff1056f0ade8",
   "ref": "GHPI0789_06_24",
   "review_due": "2027-06",
   "review_due_text": "June 2027",
@@ -3321,7 +3331,8 @@
   "title": "Transport and parking"
  },
  "injection-piles": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "9eaa3ede909cae8d",
   "ref": "GHPI0881_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -3329,7 +3340,8 @@
   "title": "Injection treatment for piles"
  },
  "injury-to-the-throat": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "b325289bdaab309f",
   "ref": "GHPI1605_11_23",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -3337,7 +3349,8 @@
   "title": "Injury to the throat"
  },
  "insertion-of-a-temporary-dialysis-catheter-haemodialysis": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "43feed91f289ddef",
   "ref": "GHPI1241_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -3345,7 +3358,8 @@
   "title": "Insertion of a temporary dialysis catheter (haemodialysis line)"
  },
  "insertion-of-a-tunnelled-dialysis-catheter-haemodialysis-line": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "b8407aef42f76d47",
   "ref": "GHPI0321_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -3353,7 +3367,8 @@
   "title": "Insertion of a tunnelled dialysis catheter (haemodialysis line)"
  },
  "insertion-peritoneal-dialysis-pd-catheter-under-local-anaesthetics": {
-  "checked": "2026-07-11T00:54:27+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "fe36a8cb5725e57e",
   "ref": "GHPI1382_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -3361,7 +3376,8 @@
   "title": "Insertion of a Peritoneal Dialysis (PD) catheter under local anaesthetic"
  },
  "instructions-collection-24-hour-urine-samples": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "521ce92853068cfc",
   "ref": "GHPI0992_03_24",
   "review_due": "2027-03",
   "review_due_text": "March 2027",
@@ -3378,7 +3394,8 @@
   "title": "Discharge instructions after having received sedation"
  },
  "intermediate-risk-protocol-for-kidney-cancer": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "b61c74df22653458",
   "ref": "GHPI1739_06_25",
   "review_due": "2028-06",
   "review_due_text": "June 2028",
@@ -3386,7 +3403,8 @@
   "title": "Intermediate Risk Protocol for Kidney Cancer"
  },
  "intermittent-claudication": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "ab80339c2b2ca04b",
   "ref": "GHPI1715_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -3394,7 +3412,8 @@
   "title": "Intermittent claudication"
  },
  "intermittent-self-catheterisation-isc-adults": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "3d82f0233f4d8fb4",
   "ref": "GHPI0855_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -3402,7 +3421,8 @@
   "title": "Intermittent Self-Catheterisation (ISC) for adults"
  },
  "intermittent-self-dilatation-isd-adults": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "5fc19715d3527f40",
   "ref": "GHPI0900_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -3410,7 +3430,8 @@
   "title": "Intermittent Self-Dilatation (ISD) for adults"
  },
  "interval-debulking-surgery-ids-ovarian-cancer-ghpi1564": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "d06da695d7bfd7dd",
   "ref": "GHPI1564_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",
@@ -3418,7 +3439,8 @@
   "title": "Interval Debulking Surgery (IDS) for ovarian cancer"
  },
  "introduction-mindfulness-persistent-pain-ghpi1609": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "852928fe1d7eaa2f",
   "ref": "GHPI1609_09_25",
   "review_due": "2028-09",
   "review_due_text": "September 2028",
@@ -3426,7 +3448,8 @@
   "title": "Introduction to mindfulness for persistent pain"
  },
  "iohexal-glomerular-filtration-rate-igfr-test": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "cd9173270f59a616",
   "ref": "GHPI1607_06_26",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
@@ -3434,7 +3457,8 @@
   "title": "Iohexol Glomerular Filtration Rate (IGFR) test"
  },
  "karyotyping-and-cystic-fibrosis-screening-ghpi0775_11_18": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "47273694f359d14a",
   "ref": "GHPI0775_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -3442,7 +3466,8 @@
   "title": "Karyotyping and cystic fibrosis screening"
  },
  "knee-arthroscopy-ghpi0558_04_19": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "8092709b89da9727",
   "ref": "GHPI0558_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",
@@ -3450,7 +3475,8 @@
   "title": "Knee arthroscopy"
  },
  "laparoscopic-anti-reflux-surgery": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "51030c4f17ffadd9",
   "ref": "GHPI0009_11_25",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -3458,7 +3484,8 @@
   "title": "Laparoscopic anti-reflux surgery"
  },
  "laparoscopic-bilateral-salpingo-oophorectomy-ghpi1567": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "a5ae98892330a488",
   "ref": "GHPI1567_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -3466,7 +3493,8 @@
   "title": "Laparoscopic bilateral salpingo- oophorectomy (Removal of fallopian tubes and ovaries)"
  },
  "laparoscopic-cholecystectomy-removal-of-the-gallbladder": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "9598551c83661793",
   "ref": "GHPI0007_11_25",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -3482,7 +3510,8 @@
   "title": "Laparoscopic Hysteropexy"
  },
  "laparoscopic-keyhole-surgery-endometriosis-ghpi0796_02_19": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "945fb61b5cf093ff",
   "ref": "GHPI0796_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -5014,7 +5043,8 @@
   "title": "Specialist Palliative Care Psychology Service"
  },
  "sperm-injection-icsi": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-22T02:30:55+01:00",
+  "content_hash": "9a92b2ee39e3a453",
   "ref": "GHPI0466_03_24",
   "review_due": "2027-03",
   "review_due_text": "March 2027",
