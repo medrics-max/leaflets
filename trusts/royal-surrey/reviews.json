@@ -568,7 +568,7 @@
   "title": "Brachial plexus nerve blocks for upper limb surgery"
  },
  "bravo-wireless-capsule-ph-monitoring": {
-  "checked": "2026-07-22T02:35:25+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "7ce401e18a7acc04",
   "review_due": "2028-04",
   "review_due_text": "April 2028",
@@ -576,7 +576,7 @@
   "title": "BRAVO Wireless Capsule pH Monitoring"
  },
  "breast-ultrasound": {
-  "checked": "2026-07-22T02:35:25+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "52b223c4d843116c",
   "review_due": "2027-03",
   "review_due_text": "March 2027",
@@ -584,7 +584,7 @@
   "title": "Breast Ultrasound"
  },
  "breast-ultrasound-core-biopsy": {
-  "checked": "2026-07-22T02:35:25+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "e8d02ce3b0a8253f",
   "review_due": "2025-08",
   "review_due_text": "August 2025",
@@ -592,13 +592,13 @@
   "title": "Breast Ultrasound core biopsy"
  },
  "breastfeeding-in-the-early-days-what-to-expect": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "d4d700bda4c8c001",
   "status": "no-date",
   "title": "Breastfeeding in the early days – What to expect"
  },
  "bring-back-clinic": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "f49063c9fce036c1",
   "review_due": "2028-09",
   "review_due_text": "September 2028",
@@ -606,7 +606,7 @@
   "title": "Bring Back Clinic"
  },
  "broad-arm-sling": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "604102b858c285a2",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -614,7 +614,7 @@
   "title": "Broad arm sling"
  },
  "bronchiolitis": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "c7068155551f396c",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -622,13 +622,13 @@
   "title": "Bronchiolitis"
  },
  "bsaci-how-to-nasal-douching-sop-032017": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "f41951ce703d303e",
   "status": "no-date",
   "title": "BSACI - how to nasal douching SOP 032017"
  },
  "bunions": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "f744c1db8c79f37f",
   "review_due": "2028-09",
   "review_due_text": "September 2028",
@@ -636,15 +636,16 @@
   "title": "Bunions"
  },
  "burns-and-scalds": {
-  "checked": "2026-07-23T02:30:21+01:00",
-  "content_hash": "518d980ba49ff48a",
-  "review_due": "2025-09",
-  "review_due_text": "September 2025",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_changed": "2026-08-23",
+  "content_hash": "9de4fa03eeb6bbc8",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
   "status": "ok",
   "title": "Burns and scalds"
  },
  "calcium-for-infants-and-children": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "917624cb9f4b7f7f",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -652,7 +653,7 @@
   "title": "Calcium for infants and children"
  },
  "call-4-concern-are-you-concerned-about-a-patient": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "733b0a09df2828a2",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
@@ -660,7 +661,7 @@
   "title": "Call 4 Concern: Are you concerned about a patient?"
  },
  "carbapenem-resistant-organisms": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "c741734d0f411afc",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -668,7 +669,7 @@
   "title": "Carbapenem Resistant Organisms"
  },
  "carbohydrates-leaflet-1": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "8b7e841d862d695b",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -676,7 +677,7 @@
   "title": "Carbohydrates Leaflet 1"
  },
  "carbohydrates-leaflet-2": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "b176cb200e60934a",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -684,7 +685,7 @@
   "title": "Carbohydrates Leaflet 2"
  },
  "cardiac-magnetic-resonance-imaging-mri": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "377a306d8b39a045",
   "review_due": "2027-03",
   "review_due_text": "March 2027",
@@ -692,7 +693,7 @@
   "title": "Cardiac Magnetic Resonance Imaging (MRI)"
  },
  "cardiac-magnetic-resonance-imaging-stress-perfusion": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "18e308cda139aedc",
   "review_due": "2027-03",
   "review_due_text": "March 2027",
@@ -700,7 +701,7 @@
   "title": "Cardiac Magnetic Resonance Imaging Stress Perfusion"
  },
  "cardioversion": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "496b5249c9643d9b",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -708,7 +709,7 @@
   "title": "Cardioversion"
  },
  "care-after-cervical-cancer-treatment": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "8d1ced32391083f3",
   "review_due": "2025-11",
   "review_due_text": "November 2025",
@@ -716,7 +717,7 @@
   "title": "Care after Cervical cancer treatment"
  },
  "care-after-endometrium-cancer-treatment": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "f8126356743d681f",
   "review_due": "2025-11",
   "review_due_text": "November 2025",
@@ -724,7 +725,7 @@
   "title": "Care after Endometrium cancer treatment"
  },
  "care-after-ovarian-cancer-treatment": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "49c94282df182f45",
   "review_due": "2025-11",
   "review_due_text": "November 2025",
@@ -732,7 +733,7 @@
   "title": "Care after ovarian cancer treatment"
  },
  "care-after-vulva-cancer-treatment": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "62ff43aec9799cdb",
   "review_due": "2025-11",
   "review_due_text": "November 2025",
@@ -740,7 +741,7 @@
   "title": "Care after Vulva cancer treatment"
  },
  "care-of-your-naso-jejunal-tube-njt": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "9dee38c4369bda0c",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -748,7 +749,7 @@
   "title": "Care of your Naso-jejunal tube (NJT)"
  },
  "carer-passport-for-family-members": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "9821dd6caef083bd",
   "review_due": "2027-06",
   "review_due_text": "June 2027",
@@ -756,7 +757,7 @@
   "title": "Carer passport for family members"
  },
  "carers-and-comforters-of-a-patient-undergoing-a-diagnostic-nuclear-medicine-study-with-a-ct-scan": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "8f605e66121c81ac",
   "review_due": "2027-07",
   "review_due_text": "July 2027",
@@ -772,7 +773,7 @@
   "title": "Caring for facial and other skin wounds"
  },
  "caring-for-skin-wounds-after-surgery": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "edb082ac2d962445",
   "review_due": "2028-04",
   "review_due_text": "April 2028",
@@ -780,7 +781,7 @@
   "title": "Caring for skin wounds after surgery"
  },
  "caring-for-the-mouth-after-dental-injury": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "8b8d1c01265f7939",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -788,7 +789,7 @@
   "title": "Caring for the mouth after dental injury"
  },
  "carpal-tunnel-decompression": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "7b5c4a5fa11a45ba",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -796,7 +797,7 @@
   "title": "Carpal Tunnel Decompression"
  },
  "carpal-tunnel-syndrome": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "e17d37f5a5ffcb0d",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -804,7 +805,7 @@
   "title": "Carpal Tunnel Syndrome"
  },
  "cataract-surgery-discharge-advice": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "ae2fcb4c903948c9",
   "review_due": "2026-10",
   "review_due_text": "October 2026",
@@ -812,7 +813,7 @@
   "title": "Cataract surgery discharge advice"
  },
  "cataracts": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "0a4939e2efda9d25",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
@@ -820,7 +821,7 @@
   "title": "Cataracts"
  },
  "caudal-epidural-steroid-injection": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "0b398bda34972449",
   "review_due": "2027-07",
   "review_due_text": "July 2027",
@@ -828,7 +829,7 @@
   "title": "Caudal Epidural Steroid Injection"
  },
  "cellulitis": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "70a29f090cf189f9",
   "review_due": "2026-10",
   "review_due_text": "October 2026",
@@ -836,7 +837,7 @@
   "title": "Cellulitis"
  },
  "cellulitis-podiatry": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "30500ca754d4b9de",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -844,7 +845,7 @@
   "title": "Cellulitis Podiatry"
  },
  "central-slip-injury": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "647730326a5009fe",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -852,7 +853,7 @@
   "title": "Central Slip Injury"
  },
  "central-venous-catheter-cvc-central-line": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "fd12c0036211e298",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -860,7 +861,7 @@
   "title": "Central Venous Catheter- CVC (Central line)"
  },
  "cervical-dizziness": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "211ed88accd8a674",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -868,15 +869,16 @@
   "title": "Cervical dizziness"
  },
  "cheilectomy": {
-  "checked": "2026-07-23T02:30:21+01:00",
-  "content_hash": "08a4147eb5d2a943",
-  "review_due": "2025-11",
-  "review_due_text": "November 2025",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_changed": "2026-08-23",
+  "content_hash": "904aed92a4307eb4",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
   "status": "ok",
   "title": "Cheilectomy"
  },
  "chilblains": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "8744bf949b7cd79f",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -884,7 +886,7 @@
   "title": "Chilblains"
  },
  "child-development-centre": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "b3952e2f95c1d04d",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
@@ -892,7 +894,7 @@
   "title": "Child Development Centre"
  },
  "child-development-centre-psychology-patient-initiated-follow-up-pifu": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "9f1c36601a02c642",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -900,7 +902,7 @@
   "title": "Child Development Centre Psychology Patient Initiated Follow-Up (PIFU)"
  },
  "child-dmsa-kidney-scan": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "c3a7cfa1093637cf",
   "review_due": "2027-09",
   "review_due_text": "September 2027",
@@ -908,13 +910,13 @@
   "title": "Child DMSA Kidney scan"
  },
  "children-with-a-high-temperature": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "fecd0228007900b9",
   "status": "no-date",
   "title": "Children with a high temperature"
  },
  "choosing-a-chair": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "5859eb6da1ed7a20",
   "review_due": "2025-12",
   "review_due_text": "December 2025",
@@ -922,7 +924,7 @@
   "title": "Choosing a chair"
  },
  "circumcision": {
-  "checked": "2026-07-23T02:30:21+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "5b1d6b899fdbd530",
   "review_due": "2028-01",
   "review_due_text": "January 2028",

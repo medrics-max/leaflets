@@ -467,7 +467,8 @@
   "title": "Baby resuscitation"
  },
  "back-pain": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "be3a0dd5f3d85729",
   "ref": "GHPI0051_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -2255,7 +2256,8 @@
   "title": "Getting the best out of medication for persistent (chronic and long term) pain"
  },
  "ghpi0161-maintaining-healthy-skin-and-pressure-ulcer-prevention": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "9962e89ea7c5333f",
   "ref": "GHPI0161_06_26",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
@@ -2694,7 +2696,8 @@
   "title": "Having your baby in Gloucestershire"
  },
  "head-and-neck-macmillan-clinical-nurse-specialist": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "5e3f96bda5de3efc",
   "ref": "GHPI0388_06_24",
   "review_due": "2027-08",
   "review_due_text": "August 2027",
@@ -3502,7 +3505,8 @@
   "title": "Laparoscopic cholecystectomy Removal of the gallbladder"
  },
  "laparoscopic-hysteropexy-ghpi1282_09_21": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "97c555f9514b7739",
   "ref": "GHPI1282_08_25",
   "review_due": "2028-08",
   "review_due_text": "August 2028",
@@ -3519,7 +3523,8 @@
   "title": "Laparoscopic (keyhole) surgery for endometriosis"
  },
  "laparoscopic-nephrectomy-and-nephroureterectomy": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "9a04ba3d41c16b43",
   "ref": "GHPI1318_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -3527,7 +3532,8 @@
   "title": "Laparoscopic nephrectomy and nephroureterectomy"
  },
  "laparoscopic-ovarian-diathermy-lod-ghpi0462_09_18": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "5cd58e13b76d07bc",
   "ref": "GHPI0462_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -3535,7 +3541,8 @@
   "title": "Laparoscopic Ovarian Diathermy (LOD)"
  },
  "laparoscopy-and-dye-test": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "1949e632cfbd80cc",
   "ref": "GHPI0457_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -3552,7 +3559,8 @@
   "title": "Laser treatment for diabetic retinopathy and maculopathy"
  },
  "learning-disabilities-hospital-liaison-nurse-team": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "bdb9855583076d43",
   "ref": "GHPI1179_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -3560,7 +3568,8 @@
   "title": "Learning Disabilities Hospital Liaison Nurses"
  },
  "leaving-hospital-nephrostomy-tube-ghpi1611": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "7c28d46b4ce86344",
   "ref": "GHPI1611_09_23",
   "review_due": "2026-09",
   "review_due_text": "September 2026",
@@ -3568,7 +3577,8 @@
   "title": "Leaving hospital with a nephrostomy tube"
  },
  "left-hemicolectomy": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "bad8011a1ee42283",
   "ref": "GHPI0580_08_25",
   "review_due": "2028-08",
   "review_due_text": "August 2028",
@@ -3576,7 +3586,8 @@
   "title": "Left hemicolectomy"
  },
  "leg-ulcer-prevention": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "05bb2722d67cde36",
   "ref": "GHPI0698_06_24",
   "review_due": "2027-06",
   "review_due_text": "June 2027",
@@ -3593,7 +3604,8 @@
   "title": "A lesser toe fracture (any toe apart from your big toe)"
  },
  "lets-put-stop-pj-paralysis": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "4d4be384610722ff",
   "ref": "GHPI1445_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -3601,7 +3613,8 @@
   "title": "Let’s put a stop to PJ Paralysis"
  },
  "linc-haematology-psychology-service": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "ee4cefd2937d7c11",
   "ref": "GHPI1824_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -3609,7 +3622,8 @@
   "title": "Linc Haematology Psychology Service"
  },
  "listening-difficulties-and-auditory-processing-disorder": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "44c694893dccd004",
   "ref": "GHPI1789_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -3617,15 +3631,17 @@
   "title": "Listening difficulties and Auditory Processing Disorder"
  },
  "listening-game-practise": {
-  "checked": "2026-07-11T00:57:12+01:00",
-  "ref": "GHPI1952_06_26",
-  "review_due": "2029-06",
-  "review_due_text": "June 2029",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "7397ada025037a31",
+  "ref": "GHPI1952_07_26",
+  "review_due": "2029-07",
+  "review_due_text": "July 2029",
   "status": "ok",
   "title": "Listening game practise"
  },
  "lithotripsy-treatment-kidney-stones-ghpi0624": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "5e138c3a11afbec0",
   "ref": "GHPI0624_11_23",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -3633,7 +3649,8 @@
   "title": "Lithotripsy treatment for kidney stones"
  },
  "local-steroid-injections": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "77dd624a5728fda0",
   "ref": "GHPI1526_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -3641,7 +3658,8 @@
   "title": "Local steroid injections"
  },
  "looking-after-your-back-and-pelvis-in-pregnancy-": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "c78a58982a855290",
   "ref": "GHPI0629_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -3649,7 +3667,8 @@
   "title": "Looking after your back and pelvis in pregnancy"
  },
  "looking-after-your-injured-knee": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "8df94404209da756",
   "ref": "GHPI0052_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -3657,7 +3676,8 @@
   "title": "Looking after your injured knee"
  },
  "lost-hearing-aid-charges": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "d09ecb46cf91ae75",
   "ref": "GHPI1304_12_25",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
@@ -3665,7 +3685,8 @@
   "title": "Lost hearing aid charges"
  },
  "low-fibre-diets-for-patients-with-colorectal-cancer": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "f893ceaa6f3c3024",
   "ref": "GHPI1728_11_23",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -3673,7 +3694,8 @@
   "title": "Low fibre diet"
  },
  "low-risk-protocol-for-kidney-cancer": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "898d9fe1233c9e93",
   "ref": "GHPI1740_06_25",
   "review_due": "2028-06",
   "review_due_text": "June 2028",
@@ -3681,7 +3703,8 @@
   "title": "Low Risk Protocol for Kidney Cancer"
  },
  "low-vision-aid-clinic-ghpi0196": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "467399071faf9ea3",
   "ref": "GHPI0196_06_26",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
@@ -3689,7 +3712,8 @@
   "title": "Low Vision Aid Clinic"
  },
  "lower-back-surgery": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "ce7d10192ad014e5",
   "ref": "GHPI0692_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -3697,7 +3721,8 @@
   "title": "Lower back surgery"
  },
  "lower-limb-amputation-ghpi1405": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "ddcaa363d87334ee",
   "ref": "GHPI1405_05_24",
   "review_due": "2027-06",
   "review_due_text": "June 2027",
@@ -3705,7 +3730,8 @@
   "title": "Lower Limb Amputation"
  },
  "lower-limb-cellulitis": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "e8c59810b37e9e75",
   "ref": "GHPI1307_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -3713,7 +3739,8 @@
   "title": "Lower limb cellulitis"
  },
  "lung-function-tests": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "1494ec6cb8fd4b30",
   "ref": "GHPI0949_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -3721,7 +3748,8 @@
   "title": "Lung function tests"
  },
  "magnesium-sulfate-mgs04-pregnancy-ghpi1373": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "8a677efd7c0ccd6b",
   "ref": "GHPI1373_07_24",
   "review_due": "2027-07",
   "review_due_text": "July 2027",
@@ -3729,7 +3757,8 @@
   "title": "Magnesium sulphate (MgS04) in pregnancy"
  },
  "major-head-and-neck-surgery-ghpi0592": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "44a2b58cfb2ca79a",
   "ref": "GHPI0592_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -3737,7 +3766,8 @@
   "title": "Major head and neck surgery"
  },
  "making-your-stay-with-us-safe": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-23T02:30:57+01:00",
+  "content_hash": "17bc6564bd71ae9d",
   "ref": "GHPI1417_11_25",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
