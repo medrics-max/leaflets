@@ -4342,7 +4342,8 @@
   "title": "Patient Photograph/Video Submissions"
  },
  "patients-know-best": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "89116e38b57759f3",
   "ref": "GHPI1762_12_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -4350,7 +4351,8 @@
   "title": "Patients Know Best"
  },
  "pavlik-harness-ghpi0826": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "0afee2d69e36fb2d",
   "ref": "GHPI0826_04_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -4358,7 +4360,8 @@
   "title": "Pavlik harness"
  },
  "peg-removal-information-and-aftercare-advice": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "1a3e43a9e80765c3",
   "ref": "GHPI1680_08_24",
   "review_due": "2027-08",
   "review_due_text": "August 2027",
@@ -4366,7 +4369,8 @@
   "title": "PEG removal information and aftercare advice"
  },
  "pelvic-floor-exercises-men": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "eae2c135764d7db4",
   "ref": "GHPI0322_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -4374,7 +4378,8 @@
   "title": "Pelvic floor exercises for men"
  },
  "pelvic-floor-exercises-women": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "c77eafe9898c788c",
   "ref": "GHPI0259_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -4382,7 +4387,8 @@
   "title": "Pelvic floor exercises for women"
  },
  "pelvic-organ-prolapse": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "b3ab7a2e5b3dd305",
   "ref": "GHPI1334_12_24",
   "review_due": "2027-12",
   "review_due_text": "December 2027",
@@ -4390,23 +4396,26 @@
   "title": "Pelvic organ prolapse"
  },
  "penicillin-allergy-testing-result-negative": {
-  "checked": "2026-07-11T00:57:12+01:00",
-  "ref": "GHPI1886_01_25",
-  "review_due": "2028-01",
-  "review_due_text": "January 2028",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "c3e52a790cca114b",
+  "ref": "GHPI1887_08_26",
+  "review_due": "2029-08",
+  "review_due_text": "August 2029",
   "status": "ok",
   "title": "Penicillin allergy testing result: Negative"
  },
  "penicillin-allergy-testing-result-positive": {
-  "checked": "2026-07-11T00:57:12+01:00",
-  "ref": "GHPI1887_01_25",
-  "review_due": "2028-01",
-  "review_due_text": "January 2028",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "81b87781d427daf6",
+  "ref": "GHPI1887_08_26",
+  "review_due": "2029-08",
+  "review_due_text": "August 2029",
   "status": "ok",
   "title": "Penicillin allergy testing result: Positive"
  },
  "pentoxifylline-and-tocopherol-vitamin-e-for-osteradionecrosis": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "5c465e7fb0106037",
   "ref": "GHPI1927_09_25",
   "review_due": "2028-09",
   "review_due_text": "September 2028",
@@ -4414,7 +4423,8 @@
   "title": "Pentoxifylline and Tocopherol (Vitamin E) for Osteradionecrosis"
  },
  "perianal-abscess-and-fistula": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "df731310b1bdaabb",
   "ref": "GHPI1869_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -4422,7 +4432,8 @@
   "title": "Perianal abscess and fistula"
  },
  "peripheral-intravenous-iv-cannula": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "fdf72ac1375c6119",
   "ref": "GHPI0935_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -4430,7 +4441,8 @@
   "title": "Peripheral intravenous (IV) cannula"
  },
  "pharyngectomy": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "a32137bf3674069f",
   "ref": "GHPI1935_12_25",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
@@ -4438,7 +4450,8 @@
   "title": "Pharyngectomy"
  },
  "phlebitis-information": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "36241e6b87fb1251",
   "ref": "GHPI1484_08_25",
   "review_due": "2028-08",
   "review_due_text": "August 2028",
@@ -4446,7 +4459,8 @@
   "title": "Phlebitis"
  },
  "photodynamic-therapy-pdt-for-age-related-eye-conditions": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "5e0ae25570a63881",
   "ref": "GHPI0574_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -4454,7 +4468,8 @@
   "title": "Photodynamic Therapy (PDT) for age-related eye conditions"
  },
  "pioglitazone": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "28dbfc879d74dc21",
   "ref": "GHPI1546_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -4462,7 +4477,8 @@
   "title": "Pioglitazone"
  },
  "plantar-fasciitis": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "010a1da62ecea32e",
   "ref": "GHPI0632_09_24",
   "review_due": "2027-09",
   "review_due_text": "September 2027",
@@ -4470,7 +4486,8 @@
   "title": "Plantar fasciitis"
  },
  "pleural-aspiration-pleural-tap": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "aeebe1047d8c46f0",
   "ref": "GHPI1291_05_24",
   "review_due": "2027-06",
   "review_due_text": "June 2027",
@@ -4478,7 +4495,8 @@
   "title": "Pleural aspiration (Pleural tap)"
  },
  "pneumonia-and-what-to-expect-after-discharge-ghpi1645": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "2aa6eb289cea8b55",
   "ref": "GHPI1645_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -4486,7 +4504,8 @@
   "title": "Pneumonia and what to expect after discharge"
  },
  "polycystic-ovarian-syndrome-pcos-ghpi0772_11_18": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "13c41d1d4fb46bf1",
   "ref": "GHPI0772_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -4494,7 +4513,8 @@
   "title": "Polycystic ovarian syndrome (PCOS)"
  },
  "port-a-cath-insertion": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "bf27594fd14f4baa",
   "ref": "GHPI1826_12_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -4502,7 +4522,8 @@
   "title": "Port-a-cath insertion"
  },
  "post-operative-posturing-following-vitreoretinal-surgery": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "535d7a1e07106000",
   "ref": "GHPI1775_06_26",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
@@ -4510,7 +4531,8 @@
   "title": "Post-operative posturing following Vitreoretinal surgery"
  },
  "posterior-vitreous-detachment-ghpi1588": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "396ce65a0539b6a8",
   "ref": "GHPI1588_08_23",
   "review_due": "2026-08",
   "review_due_text": "August 2026",
@@ -4518,7 +4540,8 @@
   "title": "Posterior vitreous detachment"
  },
  "postnatal-exercises": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "865eaa41c311546d",
   "ref": "GHPI0325_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -4526,7 +4549,8 @@
   "title": "Postnatal exercises"
  },
  "postnatal-information-for-you-and-your-baby-after-birth": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "5db9ca2ec40f0f56",
   "ref": "GHPI1917_09_25",
   "review_due": "2028-09",
   "review_due_text": "September 2028",
@@ -4534,7 +4558,8 @@
   "title": "Postnatal Information for You and Your Baby After Birth"
  },
  "pre-malignant-conditions-of-the-vulva": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "35d3a646ac1122d5",
   "ref": "GHPI1853_08_24",
   "review_due": "2027-08",
   "review_due_text": "August 2027",
@@ -4542,7 +4567,8 @@
   "title": "Pre-malignant conditions of the vulva"
  },
  "pre-operative-anaemia": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "39b844940194c9bb",
   "ref": "GHPI1425_11_25",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -4550,7 +4576,8 @@
   "title": "Pre-operative anaemia"
  },
  "pre-treatment-information-loop-diathermy-lletz-ghpi0790": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "65815acb6b1226b5",
   "ref": "GHPI0790_06_24",
   "review_due": "2027-06",
   "review_due_text": "June 2027",
@@ -4558,7 +4585,8 @@
   "title": "Pre-treatment information on Loop Diathermy (LLETZ)"
  },
  "pregabalin-following-pharyngectomy": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "53fc6289e49a950f",
   "ref": "GHPI1934_12_25",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
@@ -4566,7 +4594,8 @@
   "title": "Pregabalin following pharyngectomy"
  },
  "pregabalin-for-the-treatment-of-vulvodynia": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "e4ea1a9e19f2d33c",
   "ref": "GHPI1884_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -4574,7 +4603,8 @@
   "title": "Pregabalin for the treatment of vulvodynia"
  },
  "preparation-for-ophthalmology-surgery-at-cheltenham-general-hospital-or-tewkesbury-community-hospital": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-26T02:30:54+01:00",
+  "content_hash": "97b5a0a6055df54f",
   "ref": "GHPI1724_04_25",
   "review_due": "2028-04",
   "review_due_text": "April 2028",
