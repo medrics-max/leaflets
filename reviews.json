@@ -4612,23 +4612,26 @@
   "title": "Preparation for Ophthalmology Surgery at Cheltenham General Hospital or Tewkesbury community Hospital"
  },
  "preparation-for-surgery-at-gloucestershire-royal-hospital-or-cheltenham-general-hospital": {
-  "checked": "2026-07-11T00:57:12+01:00",
-  "ref": "GHPI0251_04_25",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "e164c85d0bc766e9",
+  "ref": "GHPI0251_07_26",
   "review_due": "2028-05",
   "review_due_text": "May 2028",
   "status": "ok",
   "title": "Preparation for surgery at Gloucestershire Royal Hospital or Cheltenham General Hospital"
  },
  "preparing-your-skin-before-vascular-surgery": {
-  "checked": "2026-07-11T00:57:12+01:00",
-  "ref": "GHPI1793_09_23",
-  "review_due": "2026-09",
-  "review_due_text": "September 2026",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "1281355a6cdd71ed",
+  "ref": "GHPI1793_08_26",
+  "review_due": "2029-08",
+  "review_due_text": "August 2029",
   "status": "ok",
   "title": "Preparing your skin before Vascular surgery"
  },
  "preterm-premature-birth": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "2d49af53bc2c5dc7",
   "ref": "GHPI1842_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -4636,7 +4639,8 @@
   "title": "Preterm (premature) birth"
  },
  "preventing-falls-during-your-stay-in-hospital": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "6bb39448d4047976",
   "ref": "GHPI0927_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -4644,7 +4648,8 @@
   "title": "Preventing falls during your stay in hospital"
  },
  "preventing-pressure-ulces-children-and-young-people-ghpi1438_10_17": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "c6d07e71083106c8",
   "ref": "GHPI1438_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -4652,7 +4657,8 @@
   "title": "Preventing pressure ulcers in children and young people"
  },
  "procedure-and-care-peripherally-inserted-central-venous-catheter-picc-ghpi0180": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "f9803c6b2a54abb2",
   "ref": "GHPI0180_05_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -4660,7 +4666,8 @@
   "title": "Procedure and care of a Peripherally Inserted Central Venous Catheter (PICC)"
  },
  "prophylactic-cranial-irradiation-pci-ghpi1687_10_21": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "eb08281456cc0a08",
   "ref": "GHPI1687_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -4668,7 +4675,8 @@
   "title": "Prophylactic Cranial Irradiation (PCI)"
  },
  "propofol-sedation-for-endoscopic-procedures-ghpi1658": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "64c735ca3f2a565d",
   "ref": "GHPI1658_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -4676,7 +4684,8 @@
   "title": "Propofol sedation for endoscopic procedures"
  },
  "prostap-and-zoladex-injections": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "95bdaf0e2c2fdfd7",
   "ref": "GHPI1710_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -4684,7 +4693,8 @@
   "title": "Prostap® and Zoladex® injections"
  },
  "proximal-humeral-fracture": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "3aa34ef3c0c7f226",
   "ref": "GHPI1844_06_24",
   "review_due": "2027-06",
   "review_due_text": "June 2027",
@@ -4692,7 +4702,8 @@
   "title": "Proximal Humeral fracture"
  },
  "pseudomonas-aeruginosa-in-high-risk-areas": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "5c9c0a699b3683dd",
   "ref": "GHPI1808_11_23",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -4700,7 +4711,8 @@
   "title": "Pseudomonas aeruginosa in high-risk areas"
  },
  "psoriasis-and-your-heart-ghpi1467_10_18": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "daa7c4e8416199af",
   "ref": "GHPI1467_09_24",
   "review_due": "2027-10",
   "review_due_text": "October 2027",
@@ -4717,7 +4729,8 @@
   "title": "Cancer Psychology Service"
  },
  "pulled-elbow-radial-head-subluxation": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "78fe6d195e0a5265",
   "ref": "GHPI0839_09_24",
   "review_due": "2027-09",
   "review_due_text": "September 2027",
@@ -4725,7 +4738,8 @@
   "title": "Pulled elbow"
  },
  "pulmonary-embolism": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "a39b99c2d5d7953f",
   "ref": "GHPI1285_06_25",
   "review_due": "2028-06",
   "review_due_text": "June 2028",
@@ -4733,7 +4747,8 @@
   "title": "Pulmonary Embolism"
  },
  "qutenza-treatment": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "9fe0d6295136cf35",
   "ref": "GHPI1317_06_25",
   "review_due": "2028-06",
   "review_due_text": "June 2028",
@@ -4741,7 +4756,8 @@
   "title": "Qutenza® treatment"
  },
  "radical-radiotherapy-for-cancers-of-the-upper-abdomen-ghpi1688_10_21": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "b3a05ba0f2007e3e",
   "ref": "GHPI1688_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -4749,7 +4765,8 @@
   "title": "Radical radiotherapy for cancers of the upper abdomen"
  },
  "radical-trachelectomy-ghpi0670": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "6ca027379f01c15a",
   "ref": "GHPI0670_05_25",
   "review_due": "2028-05",
   "review_due_text": "May 2028",
@@ -4757,7 +4774,8 @@
   "title": "Radical trachelectomy"
  },
  "radioactive-iodine-therapy-rai-treatment-thyroxicosis-ghpi1298_06_18": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "f8ff69b966e9d5c6",
   "ref": "GHPI1298_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -4765,7 +4783,8 @@
   "title": "Radioactive Iodine therapy (RAI) treatment for thyrotoxicosis"
  },
  "radiofrequency-ablation-rfa-varicose-vein-treatment": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "e79575640ef650ee",
   "ref": "GHPI1498_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -4773,7 +4792,8 @@
   "title": "Radiofrequency Ablation (RFA) for varicose vein treatment"
  },
  "radiotherapy-for-benign-conditions-ghpi1689_10_21": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "d1e10ffe1d02ae5f",
   "ref": "GHPI1689_12_24",
   "review_due": "2027-12",
   "review_due_text": "December 2027",
@@ -4781,7 +4801,8 @@
   "title": "Radiotherapy for benign conditions"
  },
  "radiotherapy-for-cancers-of-the-penis": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "6b4f8d5c058214fb",
   "ref": "GHPI1931_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -4789,15 +4810,17 @@
   "title": "Radiotherapy for cancers of the penis"
  },
  "radiotherapy-for-lymphoma-hodgkin-lymphoma-or-non-hodgkin-lymphoma": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "bd3a07ef851d3b80",
   "ref": "GHPI1897_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
   "status": "ok",
-  "title": "Radiotherapy for Lymphoma  (Hodgkin Lymphoma or Non-Hodgkin Lymphoma)"
+  "title": "Radiotherapy for Lymphoma (Hodgkin Lymphoma or Non-Hodgkin Lymphoma)"
  },
  "radiotherapy-for-skin-cancer-ghpi1690_10_21": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "feb640524c692e39",
   "ref": "GHPI1690_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -4805,7 +4828,8 @@
   "title": "Radiotherapy for skin cancer"
  },
  "radiotherapy-frequently-asked-questions-ghpi1691_10_21": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "c7da35105a9ec63e",
   "ref": "GHPI1691_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -4813,7 +4837,8 @@
   "title": "Radiotherapy frequently asked questions"
  },
  "radiotherapy-late-effects-service": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "45c1fd59dfa90dba",
   "ref": "GHPI1764_11_25",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -4821,7 +4846,8 @@
   "title": "Radiotherapy Late Effects Service"
  },
  "radiotherapy-to-the-head-and-neck-ghpi1692_10_21": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "a909ff29bc8d284f",
   "ref": "GHPI1692_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -4829,7 +4855,8 @@
   "title": "Radiotherapy to the Head and Neck"
  },
  "radiotherapy-to-the-oesophagus-ghpi1682_10_21": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "47df7a743fd243d7",
   "ref": "GHPI1682_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -4837,7 +4864,8 @@
   "title": "Radiotherapy to the oesophagus"
  },
  "rapid-access-prostate-imaging-and-diagnosis-rapid-ghpi1603": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "5e8766e0afd956c3",
   "ref": "GHPI1603_12_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -4845,7 +4873,8 @@
   "title": "Rapid Access Prostate Imaging and Diagnosis (RAPID) Service"
  },
  "rapid-access-skin-assessment-clinic": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "b9030da2c25dea03",
   "ref": "GHPI1440_08_24",
   "review_due": "2027-08",
   "review_due_text": "August 2027",
@@ -4862,7 +4891,8 @@
   "title": "Having an iron infusion"
  },
  "rectal-cancer": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-27T02:30:51+01:00",
+  "content_hash": "292fd213ad273e20",
   "ref": "GHPI0584_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
