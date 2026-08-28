@@ -4900,7 +4900,8 @@
   "title": "Rectal cancer"
  },
  "recurrent-pregnancy-loss": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "656bccd6aec85a5a",
   "ref": "GHPI1639_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",
@@ -4908,7 +4909,8 @@
   "title": "Recurrent Pregnancy Loss"
  },
  "reflex-neurally-mediated-syncope": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "b17ecb673e111d1d",
   "ref": "GHPI0319_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -4916,7 +4918,8 @@
   "title": "Reflex (Neurally Mediated) Syncope"
  },
  "refusal-blood-transfusion-or-blood-products-adults": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "18581e3f41c9166d",
   "ref": "GHPI1354_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -4924,7 +4927,8 @@
   "title": "Refusal of a blood transfusion or blood products (adults)"
  },
  "rehabilitation-following-your-hip-fracture-2018": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "3e29bd1c78d9d383",
   "ref": "GHPI0273_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -4932,7 +4936,8 @@
   "title": "Rehabilitation following your hip fracture"
  },
  "remembering-your-baby": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "87125896826fcbb7",
   "ref": "GHPI0846_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -4940,7 +4945,8 @@
   "title": "Remembering Your Baby"
  },
  "renal-assessment-procedure-unit-rapu": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "e06ddee0ab2995bf",
   "ref": "GHPI1925_09_25",
   "review_due": "2028-09",
   "review_due_text": "September 2028",
@@ -4948,15 +4954,17 @@
   "title": "Renal Assessment & Procedure Unit (RAPU)"
  },
  "renal-biopsy": {
-  "checked": "2026-07-11T00:57:12+01:00",
-  "ref": "GHPI0098_11_23",
-  "review_due": "2026-12",
-  "review_due_text": "December 2026",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "31435e4411953ab9",
+  "ref": "GHPI0098_08_26",
+  "review_due": "2029-08",
+  "review_due_text": "August 2029",
   "status": "ok",
   "title": "Renal biopsy"
  },
  "renal-psychology-service-for-kidney-patients": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "358798266dd897bd",
   "ref": "GHPI1572_12_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -4964,7 +4972,8 @@
   "title": "Renal Psychology Service for kidney patients"
  },
  "retina-eye-imaging-appointment": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "fa111d7dfa4e220a",
   "ref": "GHPI1916_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -4972,7 +4981,8 @@
   "title": "Retina (Eye) Imaging Appointment"
  },
  "reversal-of-hartmanns-procedure": {
-  "checked": "2026-07-11T00:57:12+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "7d9eef8feac9c988",
   "ref": "GHPI0761_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -4980,15 +4990,17 @@
   "title": "Reversal of Hartmann’s procedure"
  },
  "rifampicin-and-clindamycin-treatment-for-hidradenitis-suppurativa-ghpi1625": {
-  "checked": "2026-07-11T01:00:00+01:00",
-  "ref": "GHPI1625_10_23",
-  "review_due": "2026-10",
-  "review_due_text": "October 2026",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "9fc33db15e537040",
+  "ref": "GHPI1625_07_26",
+  "review_due": "2029-07",
+  "review_due_text": "July 2029",
   "status": "ok",
   "title": "Rifampicin and Clindamycin treatment for Hidradenitis Suppurativa"
  },
  "right-hemicolectomy-or-extended-right-hemicolectomy": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "a5988cfe9873a414",
   "ref": "GHPI0582_08_25",
   "review_due": "2028-08",
   "review_due_text": "August 2028",
@@ -4996,7 +5008,8 @@
   "title": "Right hemicolectomy or extended right hemicolectomy"
  },
  "risks-of-having-x-rays-and-ct-scans-during-pregnancy": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "f0c865793811ba1f",
   "ref": "GHPI1899_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -5004,7 +5017,8 @@
   "title": "Risks of having X-rays and CT scans during pregnancy"
  },
  "robotic-assisted-laparoscopic-radical-prostatectomy": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "4e75f3f9915478f1",
   "ref": "GHPI1286_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -5012,15 +5026,17 @@
   "title": "Robotic assisted laparoscopic radical prostatectomy"
  },
  "robotically-assisted-total-laparoscopic-hysterectomy-tlh-ghpi1562": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "fa765af730eb7b3e",
   "ref": "GHPI1562_12_25",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
   "status": "ok",
-  "title": "Robotically assisted Total  Laparoscopic Hysterectomy (RATLH)"
+  "title": "Robotically assisted Total Laparoscopic Hysterectomy (RATLH)"
  },
  "sacrocolpopexy-ghpi1283_09_21": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "ae885eccfde8688f",
   "ref": "GHPI1283_08_25",
   "review_due": "2028-08",
   "review_due_text": "August 2028",
@@ -5028,7 +5044,8 @@
   "title": "Sacrocolpopexy"
  },
  "sacrospinous-fixation-and-pelvic-floor-repair": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "9d02ed1ce1c642b8",
   "ref": "GHPI0084_12_24",
   "review_due": "2027-12",
   "review_due_text": "December 2027",
@@ -5036,7 +5053,8 @@
   "title": "Sacrospinous fixation and pelvic floor repair"
  },
  "same-day-emergency-care-sdec": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "a0464a8480fb8ae7",
   "ref": "GHPI1758_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -5053,15 +5071,17 @@
   "title": "Endoscopy: Self-administration of a phosphate enema"
  },
  "self-administration-of-subcutaneous-systemic-anticancer-therapy-sact": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "f81af53dd829feb4",
   "ref": "GHPI1937_12_25",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
   "status": "ok",
-  "title": "Self-administration of  Subcutaneous Systemic AntiCancer Therapy (SACT)"
+  "title": "Self-administration of Subcutaneous Systemic AntiCancer Therapy (SACT)"
  },
  "self-discharge-ghpi1697_10_21": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "fd7ce6c70a444f78",
   "ref": "GHP11697_08_24",
   "review_due": "2027-08",
   "review_due_text": "August 2027",
@@ -5069,7 +5089,8 @@
   "title": "Self-discharge"
  },
  "self-titration-of-basal-insulin-at-home-for-gestational-diabetes-gdm": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "5bceae97b1c86f76",
   "ref": "GHPI1928_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -5077,7 +5098,8 @@
   "title": "Self-titration of basal insulin at home for Gestational Diabetes (GDM)"
  },
  "semen-analysis-andrology-producing-a-sample-of-semen-for-examination": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "c65bd90b863cc470",
   "ref": "GHPI0464_11_23",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -5085,7 +5107,8 @@
   "title": "Semen analysis (Andrology) Producing a sample of semen for examination"
  },
  "septoplasty-aftercare-advice-ent": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "39075444b3572040",
   "ref": "GHPI1910_06_25",
   "review_due": "2028-06",
   "review_due_text": "June 2028",
@@ -5093,7 +5116,8 @@
   "title": "Septoplasty aftercare advice (ENT)"
  },
  "services-and-charities-providing-support-for-people-with-skin-conditions": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "1460775e64f25e10",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
   "status": "ok",
@@ -5109,7 +5133,8 @@
   "title": "Short Synacthen Test (SST)"
  },
  "simple-exercises-encourage-weight-loss": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "9d2ddb57d43d618f",
   "ref": "GHPI1401_03_26",
   "review_due": "2029-03",
   "review_due_text": "March 2029",
@@ -5117,7 +5142,8 @@
   "title": "Simple exercises to encourage weight loss"
  },
  "sip-til-send-what-do-l-need-to-know": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "4ba4cc0502e54892",
   "ref": "GHPI1904_04_25",
   "review_due": "2028-04",
   "review_due_text": "April 2028",
@@ -5125,7 +5151,8 @@
   "title": "Sip Til Send - What do l need to know?"
  },
  "skeletal-survey-and-head-scans-for-children-under-2-years-of-age-ghpi1630": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "34b61fe33ba9a62e",
   "ref": "GHPI1630_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -5133,7 +5160,8 @@
   "title": "Skeletal survey and head scans for children under 2 years of age"
  },
  "skin-care-advice-for-patients-who-are-having-radiotherapy-treatment": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "e626fea094ab803a",
   "ref": "GHPI1730_05_25",
   "review_due": "2028-05",
   "review_due_text": "May 2028",
@@ -5141,7 +5169,8 @@
   "title": "Skin care advice for patients who are having radiotherapy treatment"
  },
  "sleep-apnoea-screening": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "f8ebc970978bc621",
   "ref": "GHPI0948_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -5149,7 +5178,8 @@
   "title": "Sleep apnoea screening"
  },
  "smoking-and-pregnancy": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-28T02:32:08+01:00",
+  "content_hash": "84dc98d90d26cbfd",
   "ref": "GHPI1948_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",
