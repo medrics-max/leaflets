@@ -2284,7 +2284,8 @@
   "title": "Information and support for you following the loss of your baby (up to 23 weeks and 6 days)"
  },
  "ghpi1345-surgical-insertion-peritoneal-dialysis-catheter": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "09c33e3c81cd4b99",
   "ref": "GHPI1345_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -5187,7 +5188,8 @@
   "title": "Smoking and Pregnancy"
  },
  "soft-tissue-injuries-affecting-wrist-and-hand": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "29972b02d4209297",
   "ref": "GHPI0878_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -5195,7 +5197,8 @@
   "title": "Soft tissue injuries affecting the wrist and hand"
  },
  "soft-tissue-injuries-to-the-foot-and-ankle": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "696202160db80d01",
   "ref": "GHPI0028_03_24",
   "review_due": "2027-03",
   "review_due_text": "March 2027",
@@ -5203,7 +5206,8 @@
   "title": "Soft tissue injuries to the foot and ankle"
  },
  "sound-sensitivity-children-ghpi1602": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "d2686e37049d4c57",
   "ref": "GHPI1602_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",
@@ -5211,7 +5215,8 @@
   "title": "Sound sensitivity in children"
  },
  "specialist-nursing-support-for-people-with-secondary-breast-cancer-ghpi1638": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "f0c28d73b1775cf8",
   "ref": "GHPI1638_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -5219,7 +5224,8 @@
   "title": "Specialist nursing support for people with Secondary Breast Cancer"
  },
  "specialist-palliative-care-psychology-service": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "256e3c75bc0ca7af",
   "ref": "GHPI1879_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -5236,7 +5242,8 @@
   "title": "Intracytoplasmic Sperm Injection (ICSI)"
  },
  "sperm-storage-patients-undergoing-radiotherapy-or-chemotherapy": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "12cce9c38e9a2768",
   "ref": "GHPI0145_12_25",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
@@ -5244,7 +5251,8 @@
   "title": "Sperm storage for patients having cancer treatment"
  },
  "spiking": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "2771f142f228283d",
   "ref": "GHPI1714_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -5252,7 +5260,8 @@
   "title": "Spiking"
  },
  "spiritual-care-for-patients-families-carers-and-staff": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "88e6679a6a4b74a1",
   "ref": "GHPI1316_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -5260,7 +5269,8 @@
   "title": "Spiritual Care for patients, families, carers and staff"
  },
  "spironolactone-for-acne-women": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "74088022d84195c9",
   "ref": "GHPI1915_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -5286,7 +5296,8 @@
   "title": "Spironolactone for Hidradenitis suppurativa"
  },
  "spontaneous-primary-pneumothorax": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "d988544899d58241",
   "ref": "GHPI1005_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -5294,7 +5305,8 @@
   "title": "Spontaneous primary pneumothorax"
  },
  "squeezy-connect-maternity": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "5c674dfd33ea488c",
   "ref": "GHPI1891_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -5302,7 +5314,8 @@
   "title": "Squeezy Connect ‘Maternity’"
  },
  "st-marks-formula-electrolyte-drink": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "1a36078575410ac6",
   "ref": "GHPI0247_02_23",
   "review_due": "2027-07",
   "review_due_text": "July 2027",
@@ -5310,7 +5323,8 @@
   "title": "St Mark’s formula electrolyte drink"
  },
  "stereotactic-ablative-body-radiotherapy-sabr-for-limited-spread-of-cancer-oligometastases": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "76490812dd144379",
   "ref": "GHPI1684_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -5318,7 +5332,8 @@
   "title": "Stereotactic Ablative Body Radiotherapy (SABR) For limited spread of cancer (oligometastases)"
  },
  "stereotactic-ablative-body-radiotherapy-sabr-ghpi1683_10_21": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "fd2cdf7b30dc3a74",
   "ref": "GHPI1683_12_24",
   "review_due": "2027-12",
   "review_due_text": "December 2027",
@@ -5326,7 +5341,8 @@
   "title": "Stereotactic Ablative Body Radiotherapy (SABR) For non-small cell lung cancer"
  },
  "sterile-biobag-larvae-maggots-for-use-in-the-removal-of-unwanted-tissue": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "b8379c1f499f4c38",
   "ref": "GHPI0155_12_24",
   "review_due": "2027-12",
   "review_due_text": "December 2027",
@@ -5334,7 +5350,8 @@
   "title": "Sterile Biobag Larvae (maggots) for use in the removal of unwanted tissue"
  },
  "stroke-discharge-care-plan": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "0c627da91f150816",
   "ref": "GHPI1224_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -5342,7 +5359,8 @@
   "title": "Stroke Discharge Care Plan"
  },
  "subconjunctival-haemorrhage": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "ac0a0541623d7a17",
   "ref": "GHPI0195_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -5350,7 +5368,8 @@
   "title": "Subconjunctival haemorrhage"
  },
  "support-for-carers-of-people-living-with-dementia": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "3e7b3f99bc148903",
   "ref": "GHPI1852_06_24",
   "review_due": "2027-06",
   "review_due_text": "June 2027",
@@ -5358,7 +5377,8 @@
   "title": "Support for carers of people living with dementia"
  },
  "support-newly-diagnosed-babies-hearing-loss": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "c52ef99337d04a96",
   "ref": "GHPI1254_10_25",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -5366,7 +5386,8 @@
   "title": "Support for newly diagnosed babies with hearing loss"
  },
  "supporting-a-person-living-with-dementia-and-their-carer-in-outpatient-department": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "ab175b38755425f8",
   "ref": "GHPI1524_03_26",
   "review_due": "2029-03",
   "review_due_text": "March 2029",
@@ -5383,7 +5404,8 @@
   "title": "Supporting you while you recover from major trauma"
  },
  "surgical-management-miscarriage": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "d45dc5beeb3ca41b",
   "ref": "GHPI1454_05_25",
   "review_due": "2028-05",
   "review_due_text": "May 2028",
@@ -5391,7 +5413,8 @@
   "title": "Surgical management of miscarriage under local anaesthesia (MVA)"
  },
  "surgical-management-miscarriage-using-general-anaesthesia-ghpi1223": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "f48a29f5fcea75ef",
   "ref": "GHPI1223_11_23",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -5399,7 +5422,8 @@
   "title": "Surgical management of miscarriage using general anaesthesia"
  },
  "surgical-wounds-and-preventing-infections": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "3729221a768999e0",
   "ref": "GHPI1431_06_26",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
@@ -5407,7 +5431,8 @@
   "title": "Surgical wounds and preventing infections"
  },
  "suspected-broken-nose-nasal-fracture": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "4242b39869b9c5ab",
   "ref": "GHPI1612_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -5415,7 +5440,8 @@
   "title": "Suspected broken nose (nasal fracture)"
  },
  "suspected-first-seizure": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "2dc27db283e56936",
   "ref": "GHPI1514_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",
@@ -5423,7 +5449,8 @@
   "title": "Suspected first seizure"
  },
  "suspected-testicular-cancer-pathway": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "6b904d4044d186b8",
   "ref": "GHPI1947_03_26",
   "review_due": "2029-03",
   "review_due_text": "March 2029",
@@ -5431,7 +5458,8 @@
   "title": "Suspected Testicular Cancer Pathway"
  },
  "taking-children-or-young-people-home-after-sedation": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "572400b4f4a5ba11",
   "ref": "GHPI1432_09_23",
   "review_due": "2026-09",
   "review_due_text": "September 2026",
@@ -5439,7 +5467,8 @@
   "title": "Taking children or young people home after sedation"
  },
  "taking-your-baby-home-following-their-death-ghpi0700": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "ea12f095e4ae1585",
   "ref": "GHPI0700_03_26",
   "review_due": "2029-03",
   "review_due_text": "March 2029",
@@ -5447,7 +5476,8 @@
   "title": "Taking your baby home following their death"
  },
  "temporal-artery-biopsy-ghpi1651": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-29T02:39:54+01:00",
+  "content_hash": "995f9e188dede51c",
   "ref": "GHPI1651_06_24",
   "review_due": "2027-07",
   "review_due_text": "July 2027",
