@@ -3834,14 +3834,14 @@
   "title": "Routine EEG"
  },
  "sabr-for-bone-and-nodal-oligometastases": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "3eefebb5f0278ab7",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "620436c9e38f3a2f",
   "status": "no-date",
   "title": "Stereotactic Ablative Radiotherapy (SABR) For Bone & Nodal Oligometastases"
  },
  "sabr-to-the-chest-lung-area-radiotherapy": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "f7dae4fb73758918",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "00720dc05e2e672e",
   "status": "no-date",
   "title": "Stereotactic Ablative Radiotherapy (SABR) to the Chest/ Lung Area"
  },
@@ -3912,56 +3912,56 @@
   "title": "Semi-permanent micro pigmentation of nipple/areola complex and after care advice"
  },
  "sentinel-lymph-node-biopsy-slnb": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "e5e6107a75e15eb9",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "7e47b8921687a5ef",
   "status": "no-date",
   "title": "Sentinel Lymph Node Biopsy (SLNB)"
  },
  "sepsis-waht-pi-2190": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "48dbec5b8bbfa1e9",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "d24c9f7642c8d5b8",
   "status": "no-date",
   "title": "Sepsis"
  },
  "short-synacthen-test": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "9aa8ca0effcc876b",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "93fb23f46d25efc6",
   "status": "no-date",
   "title": "Short Synacthen Test (for patients on steroids)"
  },
  "short-synacthen-test-paediatrics": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "7e7cea7613fc2491",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "bed9c97e84eafae9",
   "status": "no-date",
   "title": "Short Synacthen Test Patient Information for Children and Young People"
  },
  "shoulder-dislocation": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "4de7f9529717eca0",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "7a0f58f8b395a9ee",
   "status": "no-date",
   "title": "Shoulder dislocation"
  },
  "shoulder-dislocation-waht-pi-2155": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "941b9cda02c1190e",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "da82b949d33a1760",
   "status": "no-date",
   "title": "Shoulder Dislocation"
  },
  "shoulder-injury": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "96097e8c31e24b73",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "e99f3a5fc655cb0a",
   "status": "no-date",
   "title": "Shoulder injury"
  },
  "shoulder-injury-waht-pi-2095": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "21f430290f5ae8b4",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "1af1b5ae6d0e3114",
   "status": "no-date",
   "title": "Shoulder Injury"
  },
  "shoulder-surface-replacement": {
-  "checked": "2026-07-13T02:30:06+01:00",
-  "content_hash": "219648cd75b6d231",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "833cb50fc16ccbfa",
   "status": "no-date",
   "title": "Shoulder Replacement Surgery"
  },
@@ -3972,26 +3972,26 @@
   "title": "Upper Limb Simple Lymphatic Drainage – SLD"
  },
  "skin-surgery-post-operative-care": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "65bc5fac18a6c76a",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "d51c10780f9611f5",
   "status": "no-date",
   "title": "Skin Surgery Post-Operative Care"
  },
  "skin-traction": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "fc0df46bc7a975a7",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "cbee8fb61c08acd1",
   "status": "no-date",
   "title": "Skin Traction"
  },
  "sleep-hygiene": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "0c9fe6ce650cff6e",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "fb20bff0e6f3028a",
   "status": "no-date",
   "title": "Sleep Hygiene"
  },
  "smoking-cessation-for-parents-carers": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "3a1874fa1b8f8ce6",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "812cd6217bea6028",
   "status": "no-date",
   "title": "Smoking Cessation for parents/carers"
  },
@@ -4002,26 +4002,26 @@
   "title": "Soft & Bite-sized – Level 6"
  },
  "soft-tissue-injury-to-hip": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "2e4fe5000d335048",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "0aeb3281c5e4f6fe",
   "status": "no-date",
   "title": "Soft Tissue Injury to Hip"
  },
  "soft-tissue-injury-to-the-ankle-or-foot": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "6389286cea0d02de",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "878d0608c84d1cce",
   "status": "no-date",
   "title": "Soft Tissue Injury to the Ankle or Foot"
  },
  "somatosensory-evoked-potential": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "07be43dc7af9a361",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "9ba6012fb853dd8e",
   "status": "no-date",
   "title": "Somatosensory evoked potential"
  },
  "sore-or-dry-mouth": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "4582c44144670e00",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "0e46bc40450778f7",
   "status": "no-date",
   "title": "Sore or dry mouth"
  },
@@ -4032,26 +4032,26 @@
   "title": "Sound Sensitivity Practical Ways to Help your Child"
  },
  "squint-lazy-eye-what-is-it-and-can-it-be-treated": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "3871f3f5ff469fad",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "7e94444059638cd1",
   "status": "no-date",
   "title": "Squint/Lazy Eye – What is it and can it be treated?"
  },
  "squint-surgery-child": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "257e31627e6e6ac0",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "2ba03ebcfaf30ddc",
   "status": "no-date",
   "title": "Squint Surgery (Child)"
  },
  "starting-insulin-when-you-have-gestational-diabetes-waht-pi-2310": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "51484b3fcf09901d",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "efdfefeae4d506f2",
   "status": "no-date",
   "title": "Starting Insulin when you have Gestational Diabetes"
  },
  "stop-smoking-waht-pi-2225": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "a4440470f5719bfc",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "ec825d29dfc8f987",
   "status": "no-date",
   "title": "Stop Smoking"
  },
@@ -4062,38 +4062,38 @@
   "title": "Strength and Balance Exercise Programme"
  },
  "stress-echocardiography": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "b30707896ef228c9",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "8c9f674b69688abb",
   "status": "no-date",
   "title": "Stress Echocardiography"
  },
  "stretching-exercises-physiotherapy": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "971a1dd1dcc7c31b",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "8f5c0f27158b3e56",
   "status": "no-date",
   "title": "Stretching exercises"
  },
  "stretching-exercises-with-assistance-physiotherapy": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "8a4bc886099d3f0b",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "5b04fb91e72c9136",
   "status": "no-date",
   "title": "Stretching exercises with assistance"
  },
  "stroke-thrombolysis": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "516b578f57cfe5a8",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "835a27d5be387814",
   "status": "no-date",
   "title": "Stroke Thrombolysis"
  },
  "subarachnoid-haemorrhage-sah": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "77ff36fc72f163fb",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "bb136699ed223222",
   "status": "no-date",
   "title": "Subarachnoid Haemorrhage (SAH) Investigation"
  },
  "substance-misuse-waht-pi-2177": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "7720debf009ffaa8",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "10d031b39d9287a7",
   "status": "no-date",
   "title": "Substance Misuse"
  },
@@ -4104,8 +4104,8 @@
   "title": "Suppliers of Assistive Devices"
  },
  "supporting-your-babys-development-26-28-weeks": {
-  "checked": "2026-07-13T02:41:44+01:00",
-  "content_hash": "6edc2614fb9d89f4",
+  "checked": "2026-08-30T02:30:57+01:00",
+  "content_hash": "6c737baae2a26a2b",
   "status": "no-date",
   "title": "Supporting your baby’s development 26-28 weeks"
  },
