@@ -1204,10 +1204,11 @@
   "title": "CT guided lung biopsy aftercare"
  },
  "ct-guided-abdominal-biopsy-aftercare-ghpi1633": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "be6d9cbb973db5aa",
+  "checked": "2026-08-30T20:49:42+01:00",
+  "content_hash": "d583db5075d4a06b",
   "ref": "GHPI1633_04_24",
-  "status": "no-date",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
   "title": "CT guided abdominal biopsy aftercare"
  },
  "ct-guided-ablation-aftercare": {
@@ -1571,10 +1572,11 @@
   "title": "Dissolving Uric Acid Stones using Potassium Citrate"
  },
  "dissolving-uric-acid-stones-using-sodium-bicarbonate": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "44885b102f1ff5d0",
+  "checked": "2026-08-30T20:49:43+01:00",
+  "content_hash": "c2f08e7f614a9138",
   "ref": "GHPI1839_04_24",
-  "status": "no-date",
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
   "title": "Dissolving Uric Acid Stones using Sodium Bicarbonate"
  },
  "do-i-have-a-penicillin-allergy": {
@@ -1929,10 +1931,11 @@
   "title": "Eye laser treatment - Yag iridotomy"
  },
  "eyelid-surgery": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "ae3a116da586613f",
+  "checked": "2026-08-30T20:49:44+01:00",
+  "content_hash": "d955b71a980d2602",
   "ref": "GHPI0188_02_25",
-  "status": "no-date",
+  "review_due": "2028-02",
+  "review_due_text": "February 2028",
   "title": "Eyelid surgery"
  },
  "faecal-microbiota-transplant-fmt": {
@@ -2017,9 +2020,9 @@
   "title": "Fever advice for children and young people"
  },
  "fgm-information-for-families": {
-  "checked": "2026-08-17T02:30:56+01:00",
+  "checked": "2026-08-30T20:49:51+01:00",
   "content_hash": "475a717f726efe43",
-  "status": "no-date",
+  "status": "broken",
   "title": "FGM - information for families"
  },
  "finasteride-for-women": {
@@ -2347,7 +2350,7 @@
   "title": "Going home after stem cell transplant"
  },
  "going-home-hospital-after-you-have-had-coronavirus-easy-read": {
-  "checked": "2026-08-18T02:34:06+01:00",
+  "checked": "2026-08-30T20:49:52+01:00",
   "content_hash": "2b7efc0d8d7847d0",
   "status": "no-date",
   "title": "Going home from hospital after you have had coronavirus (easy read)"
@@ -2362,7 +2365,7 @@
   "title": "Going home with Blinatumomab in a CADD pump"
  },
  "going-hospital-coronavirus-easy-read": {
-  "checked": "2026-08-18T02:34:06+01:00",
+  "checked": "2026-08-30T20:49:53+01:00",
   "content_hash": "df9ca108229b101d",
   "status": "no-date",
   "title": "Going to hospital with coronavirus (easy read)"
@@ -2716,7 +2719,8 @@
   "title": "HealthNet Homecare Delivery"
  },
  "hearing-services-vestibular-assessment": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "3ee83db98bcf184d",
   "ref": "GHPI1047_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -2724,7 +2728,8 @@
   "title": "Vestibular balance assessment"
  },
  "helpful-information-new-peritoneal-dialysis-pd-patients-ghpi0536_09_17": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "db4482eee7f7bbda",
   "ref": "GHPI0536_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -2822,10 +2827,10 @@
   "title": "Homelessness in Gloucestershire"
  },
  "how-find-good-quality-health-information-internet": {
-  "checked": "2026-08-20T02:33:33+01:00",
+  "checked": "2026-08-30T20:50:01+01:00",
   "content_hash": "a60537f2cee3c494",
   "ref": "GHPI1418_03_19",
-  "status": "no-date",
+  "status": "broken",
   "title": "How to find good quality health information on the internet GHPI1418_03_19"
  },
  "how-look-after-your-dialysis-access-and-wound-after-discharge-hospital": {
@@ -2937,10 +2942,11 @@
   "title": "How to take your bowel preparation for a gastroscopy and colonoscopy morning appointment using Moviprep"
  },
  "how-to-take-your-bowel-preparation-for-a-gastroscopy-and-colonoscopy-standard-afternoon-appointment": {
-  "checked": "2026-08-20T02:33:33+01:00",
-  "content_hash": "7dccaf319431d297",
+  "checked": "2026-08-30T20:50:01+01:00",
+  "content_hash": "39a2379e9d93a4f9",
   "ref": "GHPI1166_02_26",
-  "status": "no-date",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
   "title": "How to take your bowel preparation for a gastroscopy and colonoscopy standard afternoon appointment"
  },
  "how-to-take-your-bowel-preparation-for-a-gastroscopy-and-colonoscopy-standard-morning-appointment": {
@@ -3115,7 +3121,7 @@
   "title": "Ice and heat treatment"
  },
  "if-youre-admitted-hospital-coronavirus-easy-read": {
-  "checked": "2026-08-21T02:42:32+01:00",
+  "checked": "2026-08-30T20:50:02+01:00",
   "content_hash": "8eb68701d99ca1d7",
   "status": "no-date",
   "title": "If you're admitted to hospital with coronavirus (easy read)"
@@ -5734,7 +5740,8 @@
   "title": "Tunnelled Central Venous Catheter (CVC)"
  },
  "ultrasound-anomaly-scan": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "abefb5e0121754c3",
   "ref": "GHPI1860_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -5742,7 +5749,8 @@
   "title": "Ultrasound Anomaly Scan"
  },
  "ultrasound-cervical-length-assessment-scan": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "7aa353185ba5b542",
   "ref": "GHPI1861_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -5750,7 +5758,8 @@
   "title": "Ultrasound Cervical Length Assessment Scan"
  },
  "ultrasound-dating-scan": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "fa25983986303659",
   "ref": "GHPI1862_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -5758,7 +5767,8 @@
   "title": "Ultrasound Dating Scan"
  },
  "ultrasound-growth-scan": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "b49205672748cb07",
   "ref": "GHPI1863_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -5766,7 +5776,8 @@
   "title": "Ultrasound Growth Scan"
  },
  "ultrasound-placental-site-scan": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "c90d8b3737d6739e",
   "ref": "GHPI1864_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -5774,7 +5785,8 @@
   "title": "Ultrasound Placental Site Scan"
  },
  "ultrasound-repeat-anomaly-scan": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "31f9f1fbcf891e85",
   "ref": "GHPI1865_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -5782,7 +5794,8 @@
   "title": "Ultrasound Repeat Anomaly Scan"
  },
  "ultrasound-scan-with-fetal-medicine": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "11833ced48b9e547",
   "ref": "GHPI1866_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -5790,7 +5803,8 @@
   "title": "Ultrasound Scan with Fetal Medicine"
  },
  "ultrasound-viability-scan": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "9124381a9f230e25",
   "ref": "GHPI1867_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -5798,10 +5812,11 @@
   "title": "Ultrasound Viability Scan"
  },
  "undergoing-enteroscopy": {
-  "checked": "2026-08-19T02:31:45+01:00",
-  "content_hash": "d65488989cf1b77a",
+  "checked": "2026-08-30T20:50:04+01:00",
+  "content_hash": "0537be2c288cb489",
   "ref": "GHPI1246_02_26",
-  "status": "no-date",
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
   "title": "Having an enteroscopy"
  },
  "undergoing-flexible-sigmoidoscopy-outpatient": {
@@ -5823,15 +5838,17 @@
   "title": "Having a Video Capsule Endoscopy (VCE)"
  },
  "understanding-benign-paroxysmal-positional-vertigo-bppv": {
-  "checked": "2026-07-11T01:00:00+01:00",
-  "ref": "GHPI0243_10_23",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "e0561c8c8c85ecc7",
+  "ref": "GHPI0243_07_26",
   "review_due": "2026-10",
   "review_due_text": "October 2026",
   "status": "ok",
   "title": "Understanding Benign Paroxysmal Positional Vertigo (BPPV)"
  },
  "understanding-under-breast-soreness-intertrigo": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "c7960f9a07f89329",
   "ref": "GHPI1768_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -5839,7 +5856,8 @@
   "title": "Understanding under-breast soreness (Candida Intertrigo)"
  },
  "ureteroscopy-ghpi1677_07_21": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "24f11fe7cee596c9",
   "ref": "GHPI1677_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -5856,7 +5874,8 @@
   "title": "Urethral bulking agent (Bulkamid®) for the treatment of stress incontinence"
  },
  "urgent-urology-cancer-exclusion": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "4101dfc4a16b061e",
   "ref": "GHPI1856_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -5864,7 +5883,8 @@
   "title": "Urgent Suspected Urology Cancer Exclusion"
  },
  "urinary-tract-infection-ghpi1662": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "5ea27e2459947545",
   "ref": "GHPI1662_01_26",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
@@ -5872,7 +5892,8 @@
   "title": "Urinary Tract Infection"
  },
  "urodynamic-investigation": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "22e4e5be35a2aa13",
   "ref": "GHPI0622_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -5889,7 +5910,8 @@
   "title": "The use of metformin in Polycystic Ovaries"
  },
  "use-of-heparins-during-pregnancy-and-after-birth-faith-and-personal-choices": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "9cfec872cf7f92fd",
   "ref": "GHPI1943_02_26",
   "review_due": "2029-02",
   "review_due_text": "February 2029",
@@ -5897,7 +5919,8 @@
   "title": "Use of Heparins during pregnancy and after birth Faith and personal choices"
  },
  "using-sling": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "e0f92ae9b61c585c",
   "ref": "GHPI0941_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -5905,7 +5928,8 @@
   "title": "Using a sling"
  },
  "uterine-fibroids-leiomyomas": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "6c35329bb8fa53ed",
   "ref": "GHPI0461_09_23",
   "review_due": "2026-09",
   "review_due_text": "September 2026",
@@ -5913,7 +5937,8 @@
   "title": "Uterine fibroids (leiomyomas)"
  },
  "vaccination-against-hepatitis-b-renal-patients": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "0b1405418e5c828f",
   "ref": "GHPI0783_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -5921,7 +5946,8 @@
   "title": "Vaccination against Hepatitis B for renal patients"
  },
  "vaginal-bleeding-and-pain-in-early-pregnancy": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "1cffd1b96ab8c34c",
   "ref": "GHPI1203_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -5929,7 +5955,8 @@
   "title": "Vaginal bleeding and pain in early pregnancy"
  },
  "vaginal-dilators-and-sexual-care-ghpi1685_10_21": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "45734c15f24a8db8",
   "ref": "GHPI1685_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -5937,7 +5964,8 @@
   "title": "Vaginal Dilators and Sexual Care"
  },
  "vaginal-hysterectomy-and-pelvic-floor-repair-ghpi0714_06_19": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "6415dd8602fc07c5",
   "ref": "GHPI0714_12_24",
   "review_due": "2027-12",
   "review_due_text": "December 2027",
@@ -5945,7 +5973,8 @@
   "title": "Vaginal hysterectomy and pelvic floor repair"
  },
  "vaginal-pessary-for-pelvic-organ-prolapse": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "ef755a43f88f60da",
   "ref": "GHPI1878_12_24",
   "review_due": "2027-12",
   "review_due_text": "December 2027",
@@ -5953,13 +5982,16 @@
   "title": "Vaginal pessary for pelvic organ prolapse"
  },
  "varenicline": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-30T20:50:05+01:00",
+  "content_hash": "6f08fc99754ef65b",
   "ref": "GHPI1926_09_25",
-  "status": "no-date",
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
   "title": "Varenicline"
  },
  "varicose-vein-surgery-ghpi0204": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "74d9d604320a7088",
   "ref": "GHPI0204_02_26",
   "review_due": "2029-02",
   "review_due_text": "February 2029",
@@ -5967,7 +5999,8 @@
   "title": "Varicose vein surgery"
  },
  "venous-thrombo-embolism-vte": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "78c013e5cc9ebb36",
   "ref": "GHPI1040_02_26",
   "review_due": "2029-02",
   "review_due_text": "February 2029",
@@ -5975,7 +6008,8 @@
   "title": "Venous Thrombo-Embolism (VTE)"
  },
  "viral-gastroenteritis": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "a41304965b8afb90",
   "ref": "GHPI0550_09_25",
   "review_due": "2028-09",
   "review_due_text": "September 2028",
@@ -5983,7 +6017,8 @@
   "title": "Viral gastroenteritis"
  },
  "viscopaste": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "ce026fd335be23d3",
   "ref": "GHPI1743_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -5991,7 +6026,8 @@
   "title": "Viscopaste"
  },
  "visiting-a-patient-in-the-critical-care-department": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "a324e21b93dc3b4d",
   "ref": "GHPI1905_06_25",
   "review_due": "2028-06",
   "review_due_text": "June 2028",
@@ -5999,7 +6035,8 @@
   "title": "Visiting a patient in the Critical Care Department"
  },
  "vitrectomy-surgery": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-08-31T02:30:57+01:00",
+  "content_hash": "07f2fa2f95a1c0a4",
   "ref": "GHPI0649_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -6079,8 +6116,8 @@
   "title": "What to do after a CT scan of your bowel (easy read)"
  },
  "when-your-waters-break-early": {
-  "checked": "2026-07-11T01:00:00+01:00",
-  "status": "no-date",
+  "checked": "2026-08-30T20:50:13+01:00",
+  "status": "broken",
   "title": "When your waters break early"
  },
  "wide-local-excision-wle-vulval-lesion-ghpi1566": {
