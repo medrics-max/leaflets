@@ -260,11 +260,6 @@
     "slug": "attending-our-emergency-department"
   },
   {
-    "title": "Autonomic blocks",
-    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/autonomic-blocks/",
-    "slug": "autonomic-blocks"
-  },
-  {
     "title": "Azoospermia or severe oligospermia",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/azoospermia-or-severe-oligospermia/",
     "slug": "azoospermia-or-severe-oligospermia"
@@ -1155,19 +1150,9 @@
     "slug": "femoral-endarterectomy"
   },
   {
-    "title": "Ferinject® iron infusion",
-    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/ferinjectr-iron-infusion/",
-    "slug": "ferinjectr-iron-infusion"
-  },
-  {
     "title": "Fever advice for children and young people",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/fever-advice-children-and-young-people/",
     "slug": "fever-advice-children-and-young-people"
-  },
-  {
-    "title": "FGM - information for families",
-    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/fgm-information-for-families/",
-    "slug": "fgm-information-for-families"
   },
   {
     "title": "Finasteride for women",
@@ -1465,6 +1450,11 @@
     "slug": "having-a-gastroscopy-as-an-inpatient"
   },
   {
+    "title": "Having a leg bypass operation",
+    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/having-leg-bypass-operation-ghpi0337/",
+    "slug": "having-leg-bypass-operation-ghpi0337"
+  },
+  {
     "title": "Having a sweat test",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/having-sweat-test-children-ghpi0712_11_18/",
     "slug": "having-sweat-test-children-ghpi0712_11_18"
@@ -1588,11 +1578,6 @@
     "title": "Homelessness in Gloucestershire",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/homelessness-gloucestershire/",
     "slug": "homelessness-gloucestershire"
-  },
-  {
-    "title": "How to find good quality health information on the internet GHPI1418_03_19",
-    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/how-find-good-quality-health-information-internet/",
-    "slug": "how-find-good-quality-health-information-internet"
   },
   {
     "title": "How to find the Endoscopy Unit, Cheltenham General Hospital",
@@ -2550,11 +2535,6 @@
     "slug": "post-operative-posturing-following-vitreoretinal-surgery"
   },
   {
-    "title": "Posterior vitreous detachment",
-    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/posterior-vitreous-detachment-ghpi1588/",
-    "slug": "posterior-vitreous-detachment-ghpi1588"
-  },
-  {
     "title": "Postnatal exercises",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/postnatal-exercises/",
     "slug": "postnatal-exercises"
@@ -3065,11 +3045,6 @@
     "slug": "temporal-artery-biopsy-ghpi1651"
   },
   {
-    "title": "Temporary changes (easy read)",
-    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/temporary-changes-easy-read/",
-    "slug": "temporary-changes-easy-read"
-  },
-  {
     "title": "Temporary tracheostomy",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/temporary-tracheostomy-ghpi0547_09_18/",
     "slug": "temporary-tracheostomy-ghpi0547_09_18"
@@ -3413,11 +3388,6 @@
     "title": "What to do after a CT scan of your bowel (easy read)",
     "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/what-to-do-after-a-ct-scan-of-your-bowel-easy-read/",
     "slug": "what-to-do-after-a-ct-scan-of-your-bowel-easy-read"
-  },
-  {
-    "title": "When your waters break early",
-    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/when-your-waters-break-early/",
-    "slug": "when-your-waters-break-early"
   },
   {
     "title": "Wide Local Excision (WLE) of a vulval lesion",

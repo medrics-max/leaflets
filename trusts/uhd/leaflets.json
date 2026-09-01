@@ -795,6 +795,16 @@
     "slug": "direct-oral-anticoagulation-doac-therapy-rivaroxaban-for-blood-clots"
   },
   {
+    "title": "Direct oral anticoagulation (DOAC) therapy following surgery for prevention of blood clots",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/radiology/doac-therapy-following-surgery-bloodclot-prevention.pdf",
+    "slug": "direct-oral-anticoagulation-doac-therapy-following-surgery-for-prevention-of-blood-clots"
+  },
+  {
+    "title": "Discharge advice for colon capsule endoscopy",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/endoscopy/discharge-advice-for-colon-capsule-endoscopy.pdf",
+    "slug": "discharge-advice-for-colon-capsule-endoscopy"
+  },
+  {
     "title": "Discharge advice for small bowel capsule endoscopy",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/endoscopy/discharge-advice-for-capsule-endoscopy.pdf",
     "slug": "discharge-advice-for-small-bowel-capsule-endoscopy"
@@ -828,6 +838,11 @@
     "title": "Diverticular Disease",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/gastro/115-23_diverticular-disease.pdf",
     "slug": "diverticular-disease"
+  },
+  {
+    "title": "Dorset adult integrated respiratory service (DAIRS) Respiratory Hospital at Home",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/Respiratory_therapy/dairs.pdf",
+    "slug": "dorset-adult-integrated-respiratory-service-dairs-respiratory-hospital-at-home"
   },
   {
     "title": "Dorset Discharge Home from Hospital Process - poster",
@@ -1880,6 +1895,11 @@
     "slug": "nutrition-and-neuroendocrine-tumours-nets-carcinoid-syndrome-and-somatostatin-analogues-ssas"
   },
   {
+    "title": "Nutrition and neuroendocrine tumours (NETs): pancreas surgery",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/diabetes/pancreatic-surgery.pdf",
+    "slug": "nutrition-and-neuroendocrine-tumours-nets-pancreas-surgery"
+  },
+  {
     "title": "Obstetric Cholestasis",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/maternity/Obstetric_Cholestasis.pdf",
     "slug": "obstetric-cholestasis"
@@ -2350,6 +2370,11 @@
     "slug": "preparation-for-radiotherapy-treatment"
   },
   {
+    "title": "Preparing for your surgery",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/surgery/preparing-for-your-surgery.pdf",
+    "slug": "preparing-for-your-surgery"
+  },
+  {
     "title": "Pressure ulcers",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/dpc/29_pressure-ulcers.pdf",
     "slug": "pressure-ulcers"
@@ -2366,7 +2391,7 @@
   },
   {
     "title": "Problem solving",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/Childrens_therapy/Problem_Solving.pdf",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/Childrens_therapy/problem-solving.pdf",
     "slug": "problem-solving"
   },
   {
@@ -2836,7 +2861,7 @@
   },
   {
     "title": "Starting school",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/Childrens_therapy/Starting_school.pdf",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/Childrens_therapy/starting-school.pdf",
     "slug": "starting-school"
   },
   {
@@ -3150,11 +3175,6 @@
     "slug": "vibrations"
   },
   {
-    "title": "Video-Urodynamics Investigation",
-    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/women-health/Video_Urodynamics_Information.pdf",
-    "slug": "video-urodynamics-investigation"
-  },
-  {
     "title": "Videofluoroscopy",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/radiology/Videofluoroscopy.pdf",
     "slug": "videofluoroscopy"
@@ -3353,6 +3373,11 @@
     "title": "Your baby's movements in pregnancy",
     "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/maternity/Your_babys_movements_in_pregnancy.pdf",
     "slug": "your-baby-s-movements-in-pregnancy"
+  },
+  {
+    "title": "Your bladder test called video-urodynamics",
+    "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/women-health/your-bladder-test-called-video-urodynamics.pdf",
+    "slug": "your-bladder-test-called-video-urodynamics"
   },
   {
     "title": "Your Dupuytren's fasciectomy",
