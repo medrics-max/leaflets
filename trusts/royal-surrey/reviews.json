@@ -716,14 +716,6 @@
   "status": "ok",
   "title": "Care after Cervical cancer treatment"
  },
- "care-after-endometrium-cancer-treatment": {
-  "checked": "2026-08-23T02:30:57+01:00",
-  "content_hash": "f8126356743d681f",
-  "review_due": "2025-11",
-  "review_due_text": "November 2025",
-  "status": "ok",
-  "title": "Care after Endometrium cancer treatment"
- },
  "care-after-ovarian-cancer-treatment": {
   "checked": "2026-08-23T02:30:57+01:00",
   "content_hash": "49c94282df182f45",
@@ -731,14 +723,6 @@
   "review_due_text": "November 2025",
   "status": "ok",
   "title": "Care after ovarian cancer treatment"
- },
- "care-after-vulva-cancer-treatment": {
-  "checked": "2026-08-23T02:30:57+01:00",
-  "content_hash": "62ff43aec9799cdb",
-  "review_due": "2025-11",
-  "review_due_text": "November 2025",
-  "status": "ok",
-  "title": "Care after Vulva cancer treatment"
  },
  "care-of-your-naso-jejunal-tube-njt": {
   "checked": "2026-08-23T02:30:57+01:00",
@@ -1164,14 +1148,13 @@
   "status": "ok",
   "title": "Cystoscopy cystodiathermy and urethral dilation"
  },
- "da-vinci-robotic-hysterectomy-and-removal-of-ovaries": {
-  "checked": "2026-08-24T02:30:55+01:00",
-  "content_changed": "2026-08-24",
+ "da-vinci-robotic-hysterectomy-and-removal-of-ovaries-oophorectomy-with-discharge-advice": {
+  "checked": "2026-09-01T02:35:36+01:00",
   "content_hash": "d968a933a2555b6c",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
   "status": "ok",
-  "title": "Da Vinci Robotic Hysterectomy and removal of ovaries"
+  "title": "Da Vinci Robotic Hysterectomy and removal of ovaries (oophorectomy) with discharge advice"
  },
  "de-quervain-s-tenosynovitis": {
   "checked": "2026-08-24T02:30:55+01:00",
@@ -1777,6 +1760,14 @@
   "status": "ok",
   "title": "Guidelines for management of young people with a suspected eating disorder"
  },
+ "gynae-post-surgery-supra-pubic-catheter-care": {
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "82164f6d4e4b43a1",
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Gynae Post Surgery – Supra-Pubic Catheter Care"
+ },
  "gynaecology-minor-skin-surgery": {
   "checked": "2026-08-26T02:30:54+01:00",
   "content_hash": "6b9b3ae80304a793",
@@ -2212,14 +2203,6 @@
   "review_due_text": "September 2028",
   "status": "ok",
   "title": "Joint Hypermobility"
- },
- "laparoscopic-hysterectomy": {
-  "checked": "2026-08-27T02:30:51+01:00",
-  "content_hash": "76b06d6cf3f371e9",
-  "review_due": "2026-04",
-  "review_due_text": "April 2026",
-  "status": "ok",
-  "title": "Laparoscopic Hysterectomy"
  },
  "laparoscopy-dye-test-division-of-adhesions": {
   "checked": "2026-08-27T02:30:51+01:00",
@@ -2972,6 +2955,12 @@
   "status": "no-date",
   "title": "Type 1 or Type 3c Diabetes on 2 injections of insulin per day"
  },
+ "type-1-or-type-3c-diabetes-on-2-injections-of-insulin-per-day-2": {
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "9eda27aec1116220",
+  "status": "no-date",
+  "title": "Type 1 or Type 3c Diabetes on 2 injections of insulin per day"
+ },
  "type-1-or-type-3c-diabetes-on-4-or-more-injections-per-day": {
   "checked": "2026-08-29T02:39:54+01:00",
   "content_hash": "aae82fb91cb01ce5",
@@ -3095,6 +3084,14 @@
   "review_due_text": "November 2026",
   "status": "ok",
   "title": "What to expect when having a pacemaker implantation"
+ },
+ "where-to-inject-insulin": {
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "c349421885b56e33",
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Where to inject insulin"
  },
  "writing-an-advance-care-plan": {
   "checked": "2026-08-30T02:30:57+01:00",

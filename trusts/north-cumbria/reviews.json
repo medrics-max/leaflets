@@ -1027,6 +1027,12 @@
   "status": "no-date",
   "title": "Duty of Candour: Being open"
  },
+ "easy-read-patient-initiated-follow-pifu": {
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "3356326bc0aa216a",
+  "status": "no-date",
+  "title": "Easy Read: Patient initiated follow-up (PIFU)"
+ },
  "ent-anosmia": {
   "checked": "2026-08-15T02:30:29+01:00",
   "content_hash": "de612802900261b1",
@@ -1676,6 +1682,12 @@
   "content_hash": "57cb65bb2d21af2c",
   "status": "no-date",
   "title": "Travel Costs for Appointments"
+ },
+ "patient-initiated-follow-giving-you-control-book-your-own-follow-hospital-appointments": {
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "f8be80cb6792888e",
+  "status": "no-date",
+  "title": "Patient Initiated Follow-up: giving you control to book your own follow-up hospital appointments"
  },
  "physiotherapy-abdominal-surgery": {
   "checked": "2026-08-20T02:33:33+01:00",
