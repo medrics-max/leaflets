@@ -350,8 +350,9 @@
   "title": "Anterior resection"
  },
  "anti-d-following-early-pregnancy-loss": {
-  "checked": "2026-07-21T02:35:11+01:00",
-  "content_hash": "7b4eb879ac8d120b",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_changed": "2026-09-01",
+  "content_hash": "4f501b4eb2b0fcb5",
   "ref": "GHPI1951_06_26",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
@@ -429,15 +430,6 @@
   "review_due_text": "February 2029",
   "status": "ok",
   "title": "Attending Our Emergency Department"
- },
- "autonomic-blocks": {
-  "checked": "2026-08-11T02:36:10+01:00",
-  "content_hash": "209b5cb60dab8551",
-  "ref": "GHPI1608_08_23",
-  "review_due": "2026-08",
-  "review_due_text": "August 2026",
-  "status": "ok",
-  "title": "Autonomic blocks"
  },
  "azoospermia-or-severe-oligospermia": {
   "checked": "2026-08-11T02:36:10+01:00",
@@ -2001,15 +1993,6 @@
   "status": "ok",
   "title": "Femoral endarterectomy"
  },
- "ferinjectr-iron-infusion": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "49a5bf62a287ca8d",
-  "ref": "GHPI0991_08_23",
-  "review_due": "2026-08",
-  "review_due_text": "August 2026",
-  "status": "ok",
-  "title": "Ferinject® iron infusion"
- },
  "fever-advice-children-and-young-people": {
   "checked": "2026-08-17T02:30:56+01:00",
   "content_hash": "9061a83fd51067d5",
@@ -2018,12 +2001,6 @@
   "review_due_text": "July 2027",
   "status": "ok",
   "title": "Fever advice for children and young people"
- },
- "fgm-information-for-families": {
-  "checked": "2026-08-30T20:49:51+01:00",
-  "content_hash": "475a717f726efe43",
-  "status": "broken",
-  "title": "FGM - information for families"
  },
  "finasteride-for-women": {
   "checked": "2026-08-17T02:30:56+01:00",
@@ -2107,8 +2084,9 @@
   "title": "Fluoroquinolone antibiotics"
  },
  "foam-sclerotherapy-varicose-veins-ghpi0993": {
-  "checked": "2026-07-21T02:35:11+01:00",
-  "content_hash": "bc807a96bb09c2a4",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_changed": "2026-09-01",
+  "content_hash": "454bb7feb38590bb",
   "ref": "GHPI0993_01_26",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
@@ -2576,8 +2554,9 @@
   "title": "Having a gastroscopy as an inpatient"
  },
  "having-a-gastroscopy-ogd-as-an-inpatient": {
-  "checked": "2026-07-21T02:35:11+01:00",
-  "content_hash": "e438d93b03ab3c8b",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_changed": "2026-09-01",
+  "content_hash": "0a3b23f13ef0d1ef",
   "ref": "GHPI1477_06_26",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
@@ -2681,6 +2660,15 @@
   "review_due_text": "September 2026",
   "status": "ok",
   "title": "Having CT guided abdominal or pelvic biopsy (easy read)"
+ },
+ "having-leg-bypass-operation-ghpi0337": {
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "ec27e2aea3bae136",
+  "ref": "GHPI0337_08_26",
+  "review_due": "2029-08",
+  "review_due_text": "August 2029",
+  "status": "ok",
+  "title": "Having a leg bypass operation"
  },
  "having-sweat-test-children-ghpi0712_11_18": {
   "checked": "2026-08-19T02:31:45+01:00",
@@ -2825,13 +2813,6 @@
   "review_due_text": "December 2028",
   "status": "ok",
   "title": "Homelessness in Gloucestershire"
- },
- "how-find-good-quality-health-information-internet": {
-  "checked": "2026-08-30T20:50:01+01:00",
-  "content_hash": "a60537f2cee3c494",
-  "ref": "GHPI1418_03_19",
-  "status": "broken",
-  "title": "How to find good quality health information on the internet GHPI1418_03_19"
  },
  "how-look-after-your-dialysis-access-and-wound-after-discharge-hospital": {
   "checked": "2026-08-20T02:33:33+01:00",
@@ -3865,8 +3846,9 @@
   "title": "Managing Type 1 Diabetes at home"
  },
  "managing-type-2-diabetes-at-home": {
-  "checked": "2026-07-21T02:35:11+01:00",
-  "content_hash": "d512aac2fc7d0454",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_changed": "2026-09-01",
+  "content_hash": "75c17ddb0bf3d99d",
   "ref": "GHPI1505_06_26",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
@@ -4018,7 +4000,8 @@
   "title": "My Catheter Passport"
  },
  "my-medical-record-prostate-specific-antigen-psa-tracker": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "f547053697efdc9e",
   "ref": "GHPI1480_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -4341,8 +4324,9 @@
   "title": "Patient Initiated Follow-Up from SDEC"
  },
  "patient-media-photo-or-video-submission-ghpi1530": {
-  "checked": "2026-07-21T02:35:11+01:00",
-  "content_hash": "1b841bedabd4370c",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_changed": "2026-09-01",
+  "content_hash": "49ad6f2652786d8f",
   "ref": "GHPI1530_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -4537,15 +4521,6 @@
   "review_due_text": "June 2029",
   "status": "ok",
   "title": "Post-operative posturing following Vitreoretinal surgery"
- },
- "posterior-vitreous-detachment-ghpi1588": {
-  "checked": "2026-08-26T02:30:54+01:00",
-  "content_hash": "396ce65a0539b6a8",
-  "ref": "GHPI1588_08_23",
-  "review_due": "2026-08",
-  "review_due_text": "August 2026",
-  "status": "ok",
-  "title": "Posterior vitreous detachment"
  },
  "postnatal-exercises": {
   "checked": "2026-08-26T02:30:54+01:00",
@@ -5491,11 +5466,6 @@
   "status": "ok",
   "title": "Temporal Artery Biopsy"
  },
- "temporary-changes-easy-read": {
-  "checked": "2026-08-30T02:30:57+01:00",
-  "status": "error:404",
-  "title": "Temporary changes (easy read)"
- },
  "temporary-tracheostomy-ghpi0547_09_18": {
   "checked": "2026-08-30T02:30:57+01:00",
   "content_hash": "48c9b5c4df1c3755",
@@ -6053,7 +6023,8 @@
   "title": "In Vitro Fertilisation (IVF)"
  },
  "vulvectomy-ghpi1565": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "f1022abc92eac526",
   "ref": "GHPI1565_03_26",
   "review_due": "2029-03",
   "review_due_text": "March 2029",
@@ -6061,7 +6032,8 @@
   "title": "Vulvectomy"
  },
  "vulvodynia": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "a56b664cd96fc53b",
   "ref": "GHPI1660_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -6069,7 +6041,8 @@
   "title": "Vulvodynia"
  },
  "vulvovaginal-lichen-planus": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "90866f7b3dc37c0e",
   "ref": "GHPI1769_02_26",
   "review_due": "2029-02",
   "review_due_text": "February 2029",
@@ -6077,7 +6050,8 @@
   "title": "Vulvovaginal Lichen Planus"
  },
  "welcome-to-the-cardiac-ward-and-coronary-care-unit-at-cheltenham-general-hospital": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "39f58bf324fb77ec",
   "ref": "GHPI1790_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -6085,7 +6059,8 @@
   "title": "Welcome to Cardiology Wards 1 & 2 at Gloucestershire Royal Hospital"
  },
  "welcome-to-transitional-care": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "6108105cff060ddc",
   "ref": "GHPI1806_09_23",
   "review_due": "2026-09",
   "review_due_text": "September 2026",
@@ -6093,7 +6068,8 @@
   "title": "Welcome to Transitional Care"
  },
  "welcome-to-ward-7a-gloucestershire-royal-hospital": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "c390cb89974618b3",
   "ref": "GHPI1320_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -6101,7 +6077,8 @@
   "title": "Welcome to Ward 7a Gloucestershire Royal Hospital"
  },
  "what-is-a-cataract": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "6e6e07fa4e0e45d6",
   "ref": "GHPI0100_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -6109,19 +6086,16 @@
   "title": "What is a cataract?"
  },
  "what-to-do-after-a-ct-scan-of-your-bowel-easy-read": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "d35f823f03714cb7",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
   "status": "ok",
   "title": "What to do after a CT scan of your bowel (easy read)"
  },
- "when-your-waters-break-early": {
-  "checked": "2026-08-30T20:50:13+01:00",
-  "status": "broken",
-  "title": "When your waters break early"
- },
  "wide-local-excision-wle-vulval-lesion-ghpi1566": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "e94eb3afde456484",
   "ref": "GHPI1566_03_26",
   "review_due": "2029-03",
   "review_due_text": "March 2029",
@@ -6129,7 +6103,8 @@
   "title": "Wide Local Excision (WLE) of a vulval lesion"
  },
  "wound-care": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "2b5a5c6bc2b91472",
   "ref": "GHPI0767_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -6137,7 +6112,8 @@
   "title": "Wound care advice"
  },
  "wound-care-advice-following-skin-surgery-ent": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "76960625c540ea82",
   "ref": "GHPI1911_06_25",
   "review_due": "2028-06",
   "review_due_text": "June 2028",
@@ -6145,7 +6121,8 @@
   "title": "Wound care advice following skin surgery (ENT)"
  },
  "wound-care-advice-following-the-removal-of-a-skin-lesion": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "e1fe6c1c0e72c1b5",
   "ref": "GHPI1760_01_26",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
@@ -6153,7 +6130,8 @@
   "title": "Wound care advice following the removal of a skin lesion"
  },
  "wound-care-after-skin-surgery": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "03a8a524279bb626",
   "ref": "GHPI1426_11_25",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -6161,7 +6139,8 @@
   "title": "Wound care after skin surgery"
  },
  "x-ray-or-ultrasound-guided-steroid-joint-injections": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "d09ae027bb08e5e1",
   "ref": "GHPI1560_09_25",
   "review_due": "2028-09",
   "review_due_text": "September 2028",
@@ -6169,7 +6148,8 @@
   "title": "X-ray or ultrasound guided steroid joint injections"
  },
  "yag-laser-capsulotomy-ghpi0354": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "2293e8674538878d",
   "ref": "GHPI0354_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -6177,7 +6157,8 @@
   "title": "Yag laser capsulotomy"
  },
  "your-anaesthetic-ghpi0005_10_21pdf": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "97b9f8d2a46d7b90",
   "ref": "GHPI0005_08_24",
   "review_due": "2027-08",
   "review_due_text": "August 2027",
@@ -6185,7 +6166,8 @@
   "title": "Your anaesthetic"
  },
  "your-breast-care-psychology-appointment": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "42bb3f0b5610db14",
   "ref": "GHPI753_08_25",
   "review_due": "2028-08",
   "review_due_text": "August 2028",
@@ -6193,7 +6175,8 @@
   "title": "Your breast care psychology appointment"
  },
  "your-broken-hip": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "355cacc4896d1a91",
   "ref": "GHPI1763_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -6201,7 +6184,8 @@
   "title": "Your broken hip"
  },
  "your-child-has-had-a-successful-allergen-challenge": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "abf8af1311b1ea56",
   "ref": "GHPI1313_09_25",
   "review_due": "2028-09",
   "review_due_text": "September 2028",
@@ -6209,7 +6193,8 @@
   "title": "Your child has had a successful allergen challenge"
  },
  "your-child-has-had-an-unsuccessful-allergen-challenge": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "d3dadcd57e5a19c0",
   "ref": "GHPI1314_09_25",
   "review_due": "2028-09",
   "review_due_text": "September 2028",
@@ -6217,7 +6202,8 @@
   "title": "Your child has had an unsuccessful allergen challenge"
  },
  "your-childs-eye-drops": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "108bdcdde47b5798",
   "ref": "GHPI1499_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -6225,7 +6211,8 @@
   "title": "Your child’s eye drops"
  },
  "your-vascular-surgery-ghpi1627": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "51841ec3b1526b1e",
   "ref": "GHPI1627_08_25",
   "review_due": "2028-08",
   "review_due_text": "August 2028",
@@ -6233,7 +6220,8 @@
   "title": "Your Vascular Surgery"
  },
  "zipzocs": {
-  "checked": "2026-07-11T01:00:00+01:00",
+  "checked": "2026-09-01T02:35:36+01:00",
+  "content_hash": "dd03bb507b195000",
   "ref": "GHPI1744_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
