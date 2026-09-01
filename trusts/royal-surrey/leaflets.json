@@ -455,19 +455,9 @@
     "slug": "care-after-cervical-cancer-treatment"
   },
   {
-    "title": "Care after Endometrium cancer treatment",
-    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=831&media_type=10",
-    "slug": "care-after-endometrium-cancer-treatment"
-  },
-  {
     "title": "Care after ovarian cancer treatment",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=830&media_type=10",
     "slug": "care-after-ovarian-cancer-treatment"
-  },
-  {
-    "title": "Care after Vulva cancer treatment",
-    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=832&media_type=10",
-    "slug": "care-after-vulva-cancer-treatment"
   },
   {
     "title": "Care of your Naso-jejunal tube (NJT)",
@@ -740,9 +730,9 @@
     "slug": "cystoscopy-cystodiathermy-and-urethral-dilation"
   },
   {
-    "title": "Da Vinci Robotic Hysterectomy and removal of ovaries",
+    "title": "Da Vinci Robotic Hysterectomy and removal of ovaries (oophorectomy) with discharge advice",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=833&media_type=10",
-    "slug": "da-vinci-robotic-hysterectomy-and-removal-of-ovaries"
+    "slug": "da-vinci-robotic-hysterectomy-and-removal-of-ovaries-oophorectomy-with-discharge-advice"
   },
   {
     "title": "De Quervain’s Tenosynovitis",
@@ -1135,6 +1125,11 @@
     "slug": "guidelines-for-management-of-young-people-with-a-suspected-eating-disorder"
   },
   {
+    "title": "Gynae Post Surgery – Supra-Pubic Catheter Care",
+    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=33370&media_type=10",
+    "slug": "gynae-post-surgery-supra-pubic-catheter-care"
+  },
+  {
     "title": "Gynaecology minor skin surgery",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=29291&media_type=10",
     "slug": "gynaecology-minor-skin-surgery"
@@ -1408,11 +1403,6 @@
     "title": "Joint Hypermobility",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=32352&media_type=10",
     "slug": "joint-hypermobility"
-  },
-  {
-    "title": "Laparoscopic Hysterectomy",
-    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=28292&media_type=10",
-    "slug": "laparoscopic-hysterectomy"
   },
   {
     "title": "Laparoscopy Dye Test Division of Adhesions",
@@ -1885,9 +1875,14 @@
     "slug": "trial-without-catheter-twoc"
   },
   {
+    "title": "TYPE 1 OR TYPE 3c DIABETES on 2 injections of insulin per day",
+    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=586&media_type=10",
+    "slug": "type-1-or-type-3c-diabetes-on-2-injections-of-insulin-per-day"
+  },
+  {
     "title": "Type 1 or Type 3c Diabetes on 2 injections of insulin per day",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=23649&media_type=10",
-    "slug": "type-1-or-type-3c-diabetes-on-2-injections-of-insulin-per-day"
+    "slug": "type-1-or-type-3c-diabetes-on-2-injections-of-insulin-per-day-2"
   },
   {
     "title": "Type 1 or Type 3c Diabetes on 4 or more injections per day",
@@ -1973,6 +1968,11 @@
     "title": "What to expect when having a pacemaker implantation",
     "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=584&media_type=10",
     "slug": "what-to-expect-when-having-a-pacemaker-implantation"
+  },
+  {
+    "title": "Where to inject insulin",
+    "url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=33318&media_type=10",
+    "slug": "where-to-inject-insulin"
   },
   {
     "title": "Writing an Advance Care Plan",

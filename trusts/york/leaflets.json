@@ -325,11 +325,6 @@
     "slug": "attending-for-a-cpet-test"
   },
   {
-    "title": "Attending for an Annual Cystic Fibrosis CPET Test",
-    "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=7210",
-    "slug": "attending-for-an-annual-cystic-fibrosis-cpet-test"
-  },
-  {
     "title": "Attending the FibroScan clinic",
     "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=8015",
     "slug": "attending-the-fibroscan-clinic"
@@ -1535,6 +1530,11 @@
     "slug": "having-a-small-bowel-capsule-endoscopy"
   },
   {
+    "title": "Having a Transperineal Prostate Biopsy",
+    "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=8400",
+    "slug": "having-a-transperineal-prostate-biopsy"
+  },
+  {
     "title": "Having a Vasectomy",
     "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=6136",
     "slug": "having-a-vasectomy"
@@ -2520,6 +2520,11 @@
     "slug": "orchidopexy-for-undescended-testis-child"
   },
   {
+    "title": "Orthopaedic patient initiated follow-up (PIFU)",
+    "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=8740",
+    "slug": "orthopaedic-patient-initiated-follow-up-pifu"
+  },
+  {
     "title": "Orthoptic exercises",
     "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=6637",
     "slug": "orthoptic-exercises"
@@ -2735,11 +2740,6 @@
     "slug": "post-dural-puncture-headache"
   },
   {
-    "title": "Post-operative confusion",
-    "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=2695",
-    "slug": "post-operative-confusion"
-  },
-  {
     "title": "Postural Hypotension",
     "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=7282",
     "slug": "postural-hypotension"
@@ -2910,14 +2910,9 @@
     "slug": "pruritus-ani"
   },
   {
-    "title": "PSA Clinic (Trans-Rectal Ultrasound & Biopsy of the Prostate)",
-    "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=8400",
-    "slug": "psa-clinic-trans-rectal-ultrasound-biopsy-of-the-prostate"
-  },
-  {
-    "title": "PSA Test for Prostate Cancer…. Your decision",
+    "title": "PSA Clinic - Testing for Prostate Cancer",
     "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=7264",
-    "slug": "psa-test-for-prostate-cancer-your-decision"
+    "slug": "psa-clinic-testing-for-prostate-cancer"
   },
   {
     "title": "Pseudostrabismus",
@@ -3223,6 +3218,11 @@
     "title": "Sodium Hyaluronate Bladder Treatments (Hyacyst/Cystistat/iAluril)",
     "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=5328",
     "slug": "sodium-hyaluronate-bladder-treatments-hyacyst-cystistat-ialuril"
+  },
+  {
+    "title": "Soft and Moist Diet",
+    "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=8726",
+    "slug": "soft-and-moist-diet"
   },
   {
     "title": "Soft Tissue and Sports Injuries",
@@ -3638,6 +3638,11 @@
     "title": "Undergoing laser treatment",
     "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=2335",
     "slug": "undergoing-laser-treatment"
+  },
+  {
+    "title": "Understanding Incidentally High Blood Sugar Readings in the Emergency Department",
+    "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=8734",
+    "slug": "understanding-incidentally-high-blood-sugar-readings-in-the-emergency-department"
   },
   {
     "title": "Understanding Oesophageal Manometry",

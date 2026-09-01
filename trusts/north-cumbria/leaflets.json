@@ -460,6 +460,11 @@
     "slug": "Easy-read-Ophthalmology-Eye-check"
   },
   {
+    "title": "Easy Read: Patient initiated follow-up (PIFU)",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/easy-read-patient-initiated-follow-pifu",
+    "slug": "easy-read-patient-initiated-follow-pifu"
+  },
+  {
     "title": "Elective Care Suite: Cumberland Infirmary",
     "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-information-template-6",
     "slug": "patient-information-template-6"
@@ -1218,6 +1223,11 @@
     "title": "Palliative Care: The Specialist Palliative Care Service",
     "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/the-palliative-care-service",
     "slug": "the-palliative-care-service"
+  },
+  {
+    "title": "Patient Initiated Follow-up: giving you control to book your own follow-up hospital appointments",
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-initiated-follow-giving-you-control-book-your-own-follow-hospital-appointments",
+    "slug": "patient-initiated-follow-giving-you-control-book-your-own-follow-hospital-appointments"
   },
   {
     "title": "Physiotherapy: Abdominal surgery",

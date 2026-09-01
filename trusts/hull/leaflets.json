@@ -190,11 +190,6 @@
     "slug": "advice-inpatient-smokers"
   },
   {
-    "title": "Advice on: Information about your X-ray/Scan",
-    "url": "https://www.hey.nhs.uk/patient-leaflet/advice-information-x-rayscan/",
-    "slug": "advice-information-x-rayscan"
-  },
-  {
     "title": "Advice on: Pre-tibial Lacerations",
     "url": "https://www.hey.nhs.uk/patient-leaflet/advice-on-pre-tibial-lacerations/",
     "slug": "advice-on-pre-tibial-lacerations"
@@ -365,11 +360,6 @@
     "slug": "areola-micro-pigmentation-following-breast-reconstruction-surgery"
   },
   {
-    "title": "Arteriovenous Fistula",
-    "url": "https://www.hey.nhs.uk/patient-leaflet/arteriovenous-fistula/",
-    "slug": "arteriovenous-fistula"
-  },
-  {
     "title": "Arthroplasty Patient Initiated Follow Up",
     "url": "https://www.hey.nhs.uk/patient-leaflet/arthroplasty-patient-initiated-follow-up/",
     "slug": "arthroplasty-patient-initiated-follow-up"
@@ -438,11 +428,6 @@
     "title": "Being Active in Hospital",
     "url": "https://www.hey.nhs.uk/patient-leaflet/being-active-in-hospital/",
     "slug": "being-active-in-hospital"
-  },
-  {
-    "title": "Best Practice: How to hand wash step by step images",
-    "url": "https://www.hey.nhs.uk/patient-leaflet/best-practice-how-to-hand-wash-step-by-step-images/",
-    "slug": "best-practice-how-to-hand-wash-step-by-step-images"
   },
   {
     "title": "Biofeedback Therapy – Therapy for patients with faecal incontinence and/or constipation",
@@ -870,6 +855,11 @@
     "slug": "community-needle-stick-injury-in-children"
   },
   {
+    "title": "Complex Care Information Folder",
+    "url": "https://www.hey.nhs.uk/patient-leaflet/complex-care-information-folder/",
+    "slug": "complex-care-information-folder"
+  },
+  {
     "title": "Computed Tomography (CT) Colonoscopy",
     "url": "https://www.hey.nhs.uk/patient-leaflet/computed-tomography-ct-colonoscopy/",
     "slug": "computed-tomography-ct-colonoscopy"
@@ -1055,11 +1045,6 @@
     "slug": "day-surgery-unit-3-aftercare-advice-sheet"
   },
   {
-    "title": "Day Surgery Unit 3 (DSU3)",
-    "url": "https://www.hey.nhs.uk/patient-leaflet/day-surgery-unit-3-dsu3/",
-    "slug": "day-surgery-unit-3-dsu3"
-  },
-  {
     "title": "Decolonisation Pre-Central Line Insertion – Patient Information",
     "url": "https://www.hey.nhs.uk/patient-leaflet/decolonisation-pre-central-line-insertion-patient-information/",
     "slug": "decolonisation-pre-central-line-insertion-patient-information"
@@ -1088,11 +1073,6 @@
     "title": "Developmental Dyplasia of the Hip (DDH)",
     "url": "https://www.hey.nhs.uk/patient-leaflet/developmental-dyplasia-of-the-hip-ddh/",
     "slug": "developmental-dyplasia-of-the-hip-ddh"
-  },
-  {
-    "title": "Diabetes and eye problems (diabetic retinopathy)",
-    "url": "https://www.hey.nhs.uk/patient-leaflet/guide-diabetic-retinopathy/",
-    "slug": "guide-diabetic-retinopathy"
   },
   {
     "title": "Diabetes And Ramadan – Guidance for Fasting During the Holy Month",
@@ -1585,6 +1565,11 @@
     "slug": "eye-injuries-infections"
   },
   {
+    "title": "Facial Exercises and Stretches",
+    "url": "https://www.hey.nhs.uk/patient-leaflet/facial-exercises-and-stretches/",
+    "slug": "facial-exercises-and-stretches"
+  },
+  {
     "title": "Facial Wounds – Discharge Advice",
     "url": "https://www.hey.nhs.uk/patient-leaflet/facial-wounds/",
     "slug": "facial-wounds"
@@ -1723,6 +1708,11 @@
     "title": "Following Cataract Surgery – Post-operative Eye Care And Advice",
     "url": "https://www.hey.nhs.uk/patient-leaflet/following-cataract-surgery-post-operative-eye-care-advice/",
     "slug": "following-cataract-surgery-post-operative-eye-care-advice"
+  },
+  {
+    "title": "Fondaparinux in Pregnancy and After Birth",
+    "url": "https://www.hey.nhs.uk/patient-leaflet/fondaparinux-in-pregnancy-and-after-birth/",
+    "slug": "fondaparinux-in-pregnancy-and-after-birth"
   },
   {
     "title": "Formation of Fistula for Haemodialysis",
@@ -2095,16 +2085,6 @@
     "slug": "helping-you-to-protect-your-daughter-from-female-genital-mutilation-fgm"
   },
   {
-    "title": "Helping your ankle to recover after cast removal",
-    "url": "https://www.hey.nhs.uk/patient-leaflet/ankle-cast-removal/",
-    "slug": "ankle-cast-removal"
-  },
-  {
-    "title": "Helping your wrist recover after cast or splint removal",
-    "url": "https://www.hey.nhs.uk/patient-leaflet/helping-your-wrist-recover-after-cast-or-splint-removal/",
-    "slug": "helping-your-wrist-recover-after-cast-or-splint-removal"
-  },
-  {
     "title": "Hepatitis B Vaccination",
     "url": "https://www.hey.nhs.uk/patient-leaflet/hepatitis-b-vaccination/",
     "slug": "hepatitis-b-vaccination"
@@ -2313,6 +2293,11 @@
     "title": "Information about your Diagnosis and Treatment Plan",
     "url": "https://www.hey.nhs.uk/patient-leaflet/information-diagnosis-treatment-plan/",
     "slug": "information-diagnosis-treatment-plan"
+  },
+  {
+    "title": "Information about your X-ray/Scan",
+    "url": "https://www.hey.nhs.uk/patient-leaflet/advice-information-x-rayscan/",
+    "slug": "advice-information-x-rayscan"
   },
   {
     "title": "Information and Guidance for Patients Having Heart Surgery",
@@ -3770,6 +3755,11 @@
     "slug": "radiotherapy-to-the-prostate"
   },
   {
+    "title": "Rapid Access Falls and Trauma Team",
+    "url": "https://www.hey.nhs.uk/patient-leaflet/rapid-access-falls-and-trauma-team/",
+    "slug": "rapid-access-falls-and-trauma-team"
+  },
+  {
     "title": "Rapid Access TIA Clinic",
     "url": "https://www.hey.nhs.uk/patient-leaflet/rapid-access-tia-clinic/",
     "slug": "rapid-access-tia-clinic"
@@ -4436,13 +4426,13 @@
   },
   {
     "title": "Tongue Tie – Information for Parents",
-    "url": "https://www.hey.nhs.uk/patient-leaflet/tongue-tie/",
-    "slug": "tongue-tie"
+    "url": "https://www.hey.nhs.uk/patient-leaflet/tongue-tie-information-for-parents/",
+    "slug": "tongue-tie-information-for-parents"
   },
   {
     "title": "Tongue Tie – Information for Parents",
-    "url": "https://www.hey.nhs.uk/patient-leaflet/tongue-tie-information-for-parents/",
-    "slug": "tongue-tie-information-for-parents"
+    "url": "https://www.hey.nhs.uk/patient-leaflet/tongue-tie/",
+    "slug": "tongue-tie"
   },
   {
     "title": "Tonsillectomy in Children",
@@ -4633,11 +4623,6 @@
     "title": "Unsuspected Pulmonary Embolism in Cancer Patients",
     "url": "https://www.hey.nhs.uk/patient-leaflet/incidental-pulmonary-embolism-in-cancer-patients/",
     "slug": "incidental-pulmonary-embolism-in-cancer-patients"
-  },
-  {
-    "title": "Updated advice on COVID-19 vaccination in pregnancy and women who are breastfeeding",
-    "url": "https://www.hey.nhs.uk/patient-leaflet/updated-advice-on-covid-19-vaccination-in-pregnancy-and-women-who-are-breastfeeding/",
-    "slug": "updated-advice-on-covid-19-vaccination-in-pregnancy-and-women-who-are-breastfeeding"
   },
   {
     "title": "Upper Body Lymphoedema",
