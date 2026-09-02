@@ -1007,7 +1007,7 @@
   "title": "Caring for your skin after interventional radiation procedures"
  },
  "conscious-sedation-for-outpatient-oral-and-maxillofacial-surgery": {
-  "checked": "2026-08-01T03:54:58+01:00",
+  "checked": "2026-09-02T02:31:38+01:00",
   "content_hash": "45978c1b04291106",
   "ref": "GHPI0387_06_26",
   "review_due": "2029-06",
@@ -1061,7 +1061,7 @@
   "title": "Contrast Enhanced Mammography"
  },
  "convergence-exercises": {
-  "checked": "2026-08-01T03:54:58+01:00",
+  "checked": "2026-09-02T02:31:38+01:00",
   "content_hash": "84bf09e50af1fa16",
   "ref": "GHPI1238_07_26",
   "review_due": "2029-07",
@@ -1357,11 +1357,12 @@
   "title": "Discharge advice for carers of adults who have sustained a head injury"
  },
  "discharge-advice-following-a-bronchoscopy-ghpi1631": {
-  "checked": "2026-08-01T03:54:58+01:00",
-  "content_hash": "b8b0228426b8664f",
-  "ref": "GHPI1631_10_23",
-  "review_due": "2026-10",
-  "review_due_text": "October 2026",
+  "checked": "2026-09-02T02:31:38+01:00",
+  "content_changed": "2026-09-02",
+  "content_hash": "ae415a8a48a2f8b0",
+  "ref": "GHPI1631_07_26",
+  "review_due": "2029-07",
+  "review_due_text": "July 2029",
   "status": "ok",
   "title": "Discharge advice following a bronchoscopy"
  },
@@ -1465,7 +1466,7 @@
   "title": "Discharge advice following a gastroscopy without sedation"
  },
  "discharge-advice-following-non-sedated-colonoscopy-flexible-sigmoidoscopy": {
-  "checked": "2026-08-01T04:15:28+01:00",
+  "checked": "2026-09-02T02:31:38+01:00",
   "content_hash": "c852e8f6db9435dc",
   "ref": "GHPI1520_04_26",
   "review_due": "2029-04",
@@ -2193,7 +2194,7 @@
   "title": "Gastroscopy with Radiofrequency Ablation (RFA) for oesophageal dysplasia"
  },
  "general-anaesthetic-for-children-having-ct-or-mri-scans": {
-  "checked": "2026-08-01T04:15:28+01:00",
+  "checked": "2026-09-02T02:31:38+01:00",
   "content_hash": "90ea714fec0fc1ea",
   "ref": "GHPI1292_10_25",
   "review_due": "2028-10",
@@ -2636,7 +2637,7 @@
   "title": "Having a Bone Densitometry Scan"
  },
  "having-bronchoscopy": {
-  "checked": "2026-08-01T03:54:58+01:00",
+  "checked": "2026-09-02T02:31:38+01:00",
   "content_hash": "1848f0ef1f7fb2aa",
   "ref": "GHPI0559_07_26",
   "review_due": "2029-07",
@@ -5107,8 +5108,9 @@
   "title": "Services and charities providing support for people with skin conditions"
  },
  "short-synacthen-test-sst-ghpi1547": {
-  "checked": "2026-07-21T02:35:11+01:00",
-  "content_hash": "165beac3103a02e7",
+  "checked": "2026-09-02T02:31:38+01:00",
+  "content_changed": "2026-09-02",
+  "content_hash": "a44deb75eeace00d",
   "ref": "GHPI1547_06_26",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
@@ -5835,7 +5837,7 @@
   "title": "Ureteroscopy"
  },
  "urethral-bulking-agent-bulkamid-for-the-treatment-of-stress-incontinence": {
-  "checked": "2026-08-01T03:54:58+01:00",
+  "checked": "2026-09-02T02:31:38+01:00",
   "content_hash": "e0d459b605f12d24",
   "ref": "GHPI1583_07_26",
   "review_due": "2029-07",
