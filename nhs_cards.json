@@ -8010,6 +8010,45 @@
      "visible": false
     },
     {
+     "tier": "info",
+     "headline": "Common side effects",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "Doses of amitriptyline for pain are lower than the doses for depression. This means the common side effects tend to be milder and go away within a few days."
+      },
+      {
+       "kind": "p",
+       "text": "Some of the common side effects of amitriptyline gradually improve as your body gets used to the medicine."
+      },
+      {
+       "kind": "li",
+       "text": "Constipation"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling dizzy"
+      },
+      {
+       "kind": "li",
+       "text": "Dry mouth"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sleepy or tired"
+      },
+      {
+       "kind": "li",
+       "text": "Difficulty peeing"
+      },
+      {
+       "kind": "li",
+       "text": "Headache"
+      }
+     ],
+     "visible": false
+    },
+    {
      "tier": "emergency",
      "headline": "Call 999 if:",
      "lines": [
@@ -8337,6 +8376,37 @@
      "visible": false
     },
     {
+     "tier": "info",
+     "headline": "Common side effects",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of ciprofloxacin happen in more than 1 in 100 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sick (nausea)"
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "Redness or discomfort in the eye"
+      },
+      {
+       "kind": "li",
+       "text": "Bad taste in the mouth"
+      },
+      {
+       "kind": "li",
+       "text": "White specks on the surface of your eye"
+      }
+     ],
+     "visible": false
+    },
+    {
      "tier": "emergency",
      "headline": "Call 999 or go to A&E if:",
      "lines": [
@@ -8456,6 +8526,37 @@
       {
        "kind": "p",
        "text": "Go to 111 online or call 111"
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "info",
+     "headline": "Common side effects",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of co-codamol happen in more than 1 in 100 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Constipation"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling or being sick (nausea or vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling dizzy"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sleepy"
+      },
+      {
+       "kind": "li",
+       "text": "Headaches"
       }
      ],
      "visible": false
@@ -8642,6 +8743,33 @@
      "visible": false
     },
     {
+     "tier": "info",
+     "headline": "Common side effects",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of dexamethasone happen in more than 1 in 100 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Weight gain"
+      },
+      {
+       "kind": "li",
+       "text": "Indigestion"
+      },
+      {
+       "kind": "li",
+       "text": "Sleep problems"
+      },
+      {
+       "kind": "li",
+       "text": "Mild mood changes"
+      }
+     ],
+     "visible": false
+    },
+    {
      "tier": "emergency",
      "headline": "Call 999 or go to A&E if:",
      "lines": [
@@ -8734,6 +8862,45 @@
      "visible": false
     },
     {
+     "tier": "info",
+     "headline": "Common side effects",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of digoxin happen in more than 1 in 100 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling dizzy"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling or being sick (nausea or vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "Changes in your vision (including blurred vision and not being able to look at bright light)"
+      },
+      {
+       "kind": "li",
+       "text": "Skin rashes"
+      },
+      {
+       "kind": "li",
+       "text": "Important"
+      },
+      {
+       "kind": "li",
+       "text": "Serious side effects"
+      }
+     ],
+     "visible": false
+    },
+    {
      "tier": "emergency",
      "headline": "Call 999 or go to A&E now if:",
      "lines": [
@@ -8782,6 +8949,41 @@
       {
        "kind": "li",
        "text": "become unconscious"
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "info",
+     "headline": "Common side effects",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of dihydrocodeine happen in more than 1 in 100 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Constipation"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling or being sick (nausea or vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sleepy"
+      },
+      {
+       "kind": "li",
+       "text": "Confusion, feeling dizzy and vertigo (a sensation of spinning)"
+      },
+      {
+       "kind": "li",
+       "text": "Dry mouth"
+      },
+      {
+       "kind": "li",
+       "text": "Headaches"
       }
      ],
      "visible": false
@@ -9081,6 +9283,33 @@
      "visible": false
     },
     {
+     "tier": "info",
+     "headline": "Common side effects",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of glyceryl trinitrate (GTN) happen in more than 1 in 100 people, but some are less likely if you're using skin patches. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Headaches (very common)"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling dizzy, weak, tired or sleepy"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sick (nausea)"
+      },
+      {
+       "kind": "li",
+       "text": "Red face (flushing)"
+      }
+     ],
+     "visible": false
+    },
+    {
      "tier": "emergency",
      "headline": "Call 999 or go to A&E now if:",
      "lines": [
@@ -9295,6 +9524,57 @@
       }
      ],
      "visible": false
+    },
+    {
+     "tier": "info",
+     "headline": "Sensitivity to sunlight",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "Your skin may become very sensitive to sunlight while you’re taking methotrexate. This can cause a reaction that looks and feels like sunburn."
+      },
+      {
+       "kind": "p",
+       "text": "To reduce the chance of this side effect, stay out of bright sun, use a high factor sunscreen (SPF 30 or above) and wear clothes that protect you from the sun. Do not use a sun lamp or sun beds."
+      },
+      {
+       "kind": "li",
+       "text": "Loss of appetite"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling or being sick"
+      },
+      {
+       "kind": "li",
+       "text": "Stomach pain or indigestion"
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "Headaches"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling tired or drowsy"
+      },
+      {
+       "kind": "li",
+       "text": "Hair loss"
+      },
+      {
+       "kind": "li",
+       "text": "Meds New IA (H4) - serious allergic reaction"
+      },
+      {
+       "kind": "li",
+       "text": "Long-term side effects"
+      }
+     ],
+     "visible": false
     }
    ]
   },
@@ -9458,6 +9738,45 @@
    "about": [],
    "cards": [
     {
+     "tier": "info",
+     "headline": "Common side effects of nitrofurantoin",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "Nitrofurantoin may cause your pee to turn dark yellow or a brownish colour. This is normal and is not a reason to stop taking the medicine. Your pee will return to its usual colour once you stop taking nitrofurantoin."
+      },
+      {
+       "kind": "p",
+       "text": "There are things you can do to help cope with some of the common side effects of nitrofurantoin:"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sick (nausea)"
+      },
+      {
+       "kind": "li",
+       "text": "Being sick (vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "Loss of appetite"
+      },
+      {
+       "kind": "li",
+       "text": "Headaches"
+      },
+      {
+       "kind": "li",
+       "text": "Dizziness or feeling sleepy"
+      }
+     ],
+     "visible": false
+    },
+    {
      "tier": "emergency",
      "headline": "Call 999 or go to A&E if:",
      "lines": [
@@ -9572,6 +9891,41 @@
    ],
    "cards": [
     {
+     "tier": "info",
+     "headline": "Common side effects",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of prednisolone happen in more than 1 in 100 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Weight gain"
+      },
+      {
+       "kind": "li",
+       "text": "Indigestion"
+      },
+      {
+       "kind": "li",
+       "text": "Problems sleeping (insomnia)"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling restless"
+      },
+      {
+       "kind": "li",
+       "text": "Sweating a lot"
+      },
+      {
+       "kind": "li",
+       "text": "Mild mood changes"
+      }
+     ],
+     "visible": false
+    },
+    {
      "tier": "emergency",
      "headline": "Call 999 or go to A&E if:",
      "lines": [
@@ -9627,6 +9981,45 @@
       }
      ],
      "visible": false
+    },
+    {
+     "tier": "info",
+     "headline": "Common side effects",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "Side effects of prochlorperazine are usually mild and go away by themselves. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sleepy or drowsy"
+      },
+      {
+       "kind": "li",
+       "text": "Blurred vision"
+      },
+      {
+       "kind": "li",
+       "text": "Dry mouth"
+      },
+      {
+       "kind": "li",
+       "text": "Headaches"
+      },
+      {
+       "kind": "li",
+       "text": "Stuffy nose"
+      },
+      {
+       "kind": "li",
+       "text": "Meds New IA (H4) - serious allergic reaction"
+      },
+      {
+       "kind": "li",
+       "text": "Other side effects"
+      }
+     ],
+     "visible": false
     }
    ]
   },
@@ -9637,6 +10030,49 @@
    "retrieved": "2026-09-03",
    "about": [],
    "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "There are things you can do to help cope with these common side effects of Utrogestan:"
+      },
+      {
+       "kind": "li",
+       "text": "Changes in your periods, including spotting or bleeding between periods"
+      },
+      {
+       "kind": "li",
+       "text": "Headaches"
+      },
+      {
+       "kind": "li",
+       "text": "Breast pain or tenderness"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling tired or dizzy"
+      },
+      {
+       "kind": "li",
+       "text": "Mood changes, including low mood or depression"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sick (nausea)"
+      },
+      {
+       "kind": "li",
+       "text": "Mild rash or itchy skin"
+      },
+      {
+       "kind": "li",
+       "text": "Acne"
+      }
+     ],
+     "visible": false
+    },
     {
      "tier": "emergency",
      "headline": "Call 999 or go to A&E now if:",
@@ -9733,6 +10169,29 @@
       }
      ],
      "visible": false
+    },
+    {
+     "tier": "info",
+     "headline": "Common side effects of salbutamol",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "More than 1 in 100 people have these side effects after taking 1 or 2 puffs of their salbutamol inhaler. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling shaky"
+      },
+      {
+       "kind": "li",
+       "text": "Faster heartbeat that gets better quickly"
+      },
+      {
+       "kind": "li",
+       "text": "Headaches"
+      }
+     ],
+     "visible": false
     }
    ]
   },
@@ -9760,6 +10219,53 @@
       }
      ],
      "visible": false
+    },
+    {
+     "tier": "info",
+     "headline": "Common side effects",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of sumatriptan happen in more than 1 in 100 people. They're usually mild and do not last long. Some of the side effects are similar to the symptoms of migraine or cluster headaches. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling or being sick (nausea or vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling dizzy, unsteady on your feet or tired"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling hot or cold, face flushes red"
+      },
+      {
+       "kind": "li",
+       "text": "Irritation or burning in your nose or throat after using the nasal spray"
+      },
+      {
+       "kind": "li",
+       "text": "Nosebleeds after using the nasal spray"
+      },
+      {
+       "kind": "li",
+       "text": "Bad taste in your mouth after using the nasal spray"
+      },
+      {
+       "kind": "li",
+       "text": "Bruising or swelling where you gave yourself the injection"
+      },
+      {
+       "kind": "li",
+       "text": "Meds New IA (H4) - serious allergic reaction"
+      },
+      {
+       "kind": "li",
+       "text": "Other side effects"
+      }
+     ],
+     "visible": false
     }
    ]
   },
@@ -9770,6 +10276,45 @@
    "retrieved": "2026-09-03",
    "about": [],
    "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects of tramadol",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of tramadol happen to more than 1 in 100 people. There are things you can do to help cope with them."
+      },
+      {
+       "kind": "li",
+       "text": "Headaches"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sleepy, tired, dizzy or \"spaced out\""
+      },
+      {
+       "kind": "li",
+       "text": "Feeling or being sick (nausea or vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "Constipation"
+      },
+      {
+       "kind": "li",
+       "text": "Dry mouth"
+      },
+      {
+       "kind": "li",
+       "text": "Sweating"
+      },
+      {
+       "kind": "li",
+       "text": "Low energy"
+      }
+     ],
+     "visible": false
+    },
     {
      "tier": "emergency",
      "headline": "Call 999 if:",
@@ -9973,7 +10518,35 @@
     "Beclometasone is a type of medicine known as a steroid (also called a corticosteroid). It's mainly used for asthma , but also sometimes for chronic obstructive pulmonary disease (COPD).",
     "Steroids closely copy the effects of natural hormones produced in your adrenal glands. The adrenal glands are above your kidneys."
    ],
-   "cards": []
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of beclometasone inhalers may happen in more than 1 in 100 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Oral thrush"
+      },
+      {
+       "kind": "li",
+       "text": "Dry or sore throat, or hoarse voice"
+      },
+      {
+       "kind": "li",
+       "text": "Meds New IA (H4) - serious allergic reaction"
+      },
+      {
+       "kind": "li",
+       "text": "Children and teenagers"
+      }
+     ],
+     "visible": false
+    }
+   ]
   },
   "med-cefalexin": {
    "url": "https://www.nhs.uk/medicines/cefalexin/",
@@ -9984,7 +10557,39 @@
     "Cefalexin is an antibiotic. It belongs to a group of antibiotics called cephalosporins.",
     "It's used to treat bacterial infections, such as pneumonia and other chest infections , skin infections and urinary tract infections (UTIs) ."
    ],
-   "cards": []
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of cefalexin happen in around 1 in 10 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sick (nausea)"
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "Stomach pain"
+      },
+      {
+       "kind": "li",
+       "text": "Meds New IA (H4) - serious allergic reaction"
+      },
+      {
+       "kind": "li",
+       "text": "Other side effects"
+      }
+     ],
+     "visible": false
+    }
+   ]
   },
   "med-lactulose": {
    "url": "https://www.nhs.uk/medicines/lactulose/",
@@ -9995,7 +10600,51 @@
     "Lactulose is a laxative taken to treat constipation (difficulty pooing).",
     "It's also taken to help a condition caused by severe liver disease called hepatic encephalopathy."
    ],
-   "cards": []
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "A very common side effect of lactulose, particularly at high doses, is diarrhoea. This happens in more than 1 in 10 people."
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "Bloating"
+      },
+      {
+       "kind": "li",
+       "text": "Wind (farting and burping)"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sick (nausea)"
+      },
+      {
+       "kind": "li",
+       "text": "Being sick (vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "Stomach pain"
+      },
+      {
+       "kind": "li",
+       "text": "Meds New IA (H4) - serious allergic reaction"
+      },
+      {
+       "kind": "li",
+       "text": "Other side effects"
+      }
+     ],
+     "visible": false
+    }
+   ]
   },
   "med-phenoxymethylpenicillin": {
    "url": "https://www.nhs.uk/medicines/phenoxymethylpenicillin/",
@@ -10006,7 +10655,43 @@
     "Phenoxymethylpenicillin is a type of penicillin antibiotic.",
     "It's used to treat bacterial infections, including ear , chest , throat and skin infections."
    ],
-   "cards": []
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of phenoxymethylpenicillin happen in 1 in 10 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sick (nausea)"
+      },
+      {
+       "kind": "li",
+       "text": "Being sick (vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "Stomach pain"
+      },
+      {
+       "kind": "li",
+       "text": "Meds New IA (H4) - serious allergic reaction"
+      },
+      {
+       "kind": "li",
+       "text": "Other side effects"
+      }
+     ],
+     "visible": false
+    }
+   ]
   },
   "med-senna": {
    "url": "https://www.nhs.uk/medicines/senna/",
@@ -10017,7 +10702,715 @@
     "Senna is a natural laxative made from the leaves and fruit of the senna plant. It's used to treat difficulty pooing ( constipation ). It works by stimulating the muscles in your gut.",
     "Before trying senna, it's better to try other ways to help your constipation by:"
    ],
-   "cards": []
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "Common side effects of senna, which happen in more than 1 in 100 people, are stomach cramps and diarrhoea."
+      },
+      {
+       "kind": "p",
+       "text": "You are particularly likely to get stomach cramps and diarrhoea with senna if you have constipation related to irritable bowel syndrome (IBS) ."
+      },
+      {
+       "kind": "li",
+       "text": "Meds New IA (H4) - serious allergic reaction"
+      },
+      {
+       "kind": "li",
+       "text": "Long-term side effects"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-amoxicillin": {
+   "url": "https://www.nhs.uk/medicines/amoxicillin/",
+   "title": "Amoxicillin (antibiotic)",
+   "dateModified": "2025-08-14",
+   "retrieved": "2026-09-03",
+   "about": [],
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects of amoxicillin",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of amoxicillin can happen in up to 1 in 10 people who take the medicine. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Skin rash"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sick (nausea)"
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-buscopan": {
+   "url": "https://www.nhs.uk/medicines/buscopan-hyoscine-butylbromide/",
+   "title": "Buscopan / hyoscine butylbromide (for cramps and colic)",
+   "dateModified": "2025-09-02",
+   "retrieved": "2026-09-03",
+   "about": [],
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects of Buscopan",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of Buscopan happen in more than 1 in 100 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Dry mouth"
+      },
+      {
+       "kind": "li",
+       "text": "Constipation"
+      },
+      {
+       "kind": "li",
+       "text": "Blurred vision"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-cetirizine": {
+   "url": "https://www.nhs.uk/medicines/cetirizine/",
+   "title": "Cetirizine (antihistamine)",
+   "dateModified": "2025-02-20",
+   "retrieved": "2026-09-03",
+   "about": [],
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects of cetirizine",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "The most common side effect of cetirizine is feeling sleepy and tired. This happens in more than 1 in 10 people."
+      },
+      {
+       "kind": "p",
+       "text": "Other common side effects of cetirizine happen in more than 1 in 100 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sleepy or tired"
+      },
+      {
+       "kind": "li",
+       "text": "Headaches"
+      },
+      {
+       "kind": "li",
+       "text": "Dry mouth"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sick (nausea)"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling dizzy"
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "Sore throat"
+      },
+      {
+       "kind": "li",
+       "text": "Sneezing or blocked and runny nose"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-chloramphenicol": {
+   "url": "https://www.nhs.uk/medicines/chloramphenicol/",
+   "title": "Chloramphenicol eye drops/ointment",
+   "dateModified": "2026-02-25",
+   "retrieved": "2026-09-03",
+   "about": [],
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Side effects of chloramphenicol",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "There are things you can do to help cope with these side effects of chloramphenicol."
+      },
+      {
+       "kind": "li",
+       "text": "Stinging or burning in the eye, or blurred vision"
+      },
+      {
+       "kind": "li",
+       "text": "Change in eye colour or the eye surface becoming cloudy"
+      },
+      {
+       "kind": "li",
+       "text": "Mild stinging, irritation, burning or itching in the ear"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-chlorphenamine": {
+   "url": "https://www.nhs.uk/medicines/chlorphenamine-including-piriton/",
+   "title": "Chlorphenamine / Piriton (antihistamine)",
+   "dateModified": "2025-07-23",
+   "retrieved": "2026-09-03",
+   "about": [],
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects of chlorphenamine",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of chlorphenamine happen in more than 1 in 100 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sleepy during the daytime"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sick (nausea)"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling dizzy or difficulty concentrating"
+      },
+      {
+       "kind": "li",
+       "text": "Dry mouth"
+      },
+      {
+       "kind": "li",
+       "text": "Headaches"
+      },
+      {
+       "kind": "li",
+       "text": "Blurred vision"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-clarithromycin": {
+   "url": "https://www.nhs.uk/medicines/clarithromycin/",
+   "title": "Clarithromycin (antibiotic)",
+   "dateModified": "2026-04-30",
+   "retrieved": "2026-09-03",
+   "about": [],
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects of clarithromycin",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of clarithromycin happen to more than 1 in 100 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling or being sick"
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "Bloating and indigestion"
+      },
+      {
+       "kind": "li",
+       "text": "Headaches"
+      },
+      {
+       "kind": "li",
+       "text": "Difficulty sleeping (insomnia)"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-clopidogrel": {
+   "url": "https://www.nhs.uk/medicines/clopidogrel/",
+   "title": "Clopidogrel (antiplatelet / blood thinner)",
+   "dateModified": "2026-07-10",
+   "retrieved": "2026-09-03",
+   "about": [],
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects of clopidogrel",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of clopidogrel happen in more than 1 in 100 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Bleeding more easily than normal"
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "Stomach pain"
+      },
+      {
+       "kind": "li",
+       "text": "Indigestion or heartburn"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-fexofenadine": {
+   "url": "https://www.nhs.uk/medicines/fexofenadine/",
+   "title": "Fexofenadine (antihistamine)",
+   "dateModified": "2025-04-29",
+   "retrieved": "2026-09-03",
+   "about": [],
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects of fexofenadine",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of fexofenadine happen in more than 1 in 100 people."
+      },
+      {
+       "kind": "p",
+       "text": "There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sick"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sleepy"
+      },
+      {
+       "kind": "li",
+       "text": "Headaches"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling dizzy"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-flucloxacillin": {
+   "url": "https://www.nhs.uk/medicines/flucloxacillin/",
+   "title": "Flucloxacillin (antibiotic)",
+   "dateModified": "2025-07-16",
+   "retrieved": "2026-09-03",
+   "about": [],
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects of flucloxacillin",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of flucloxacillin happen in more than 1 in 100 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling or being sick"
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "Bloating and indigestion"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-gabapentin": {
+   "url": "https://www.nhs.uk/medicines/gabapentin/",
+   "title": "Gabapentin (for nerve pain)",
+   "dateModified": "2026-02-26",
+   "retrieved": "2026-09-03",
+   "about": [],
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects of gabapentin",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of gabapentin may happen in more than 1 in 100 people. They're usually mild and go away by themselves."
+      },
+      {
+       "kind": "p",
+       "text": "There are things you can do to help cope with them."
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sleepy, tired or dizzy"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sick (nausea)"
+      },
+      {
+       "kind": "li",
+       "text": "Being sick (vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "Mood changes"
+      },
+      {
+       "kind": "li",
+       "text": "Swollen arms and legs"
+      },
+      {
+       "kind": "li",
+       "text": "Blurred vision"
+      },
+      {
+       "kind": "li",
+       "text": "Dry mouth"
+      },
+      {
+       "kind": "li",
+       "text": "Difficulty getting an erection"
+      },
+      {
+       "kind": "li",
+       "text": "Weight gain"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-lansoprazole": {
+   "url": "https://www.nhs.uk/medicines/lansoprazole/",
+   "title": "Lansoprazole (for stomach acid / heartburn)",
+   "dateModified": "2026-01-14",
+   "retrieved": "2026-09-03",
+   "about": [],
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects of lansoprazole",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of lansoprazole may happen in more than 1 in 100 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Headaches"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling or being sick (nausea or vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "Stomach pain"
+      },
+      {
+       "kind": "li",
+       "text": "Constipation"
+      },
+      {
+       "kind": "li",
+       "text": "Farting"
+      },
+      {
+       "kind": "li",
+       "text": "Itchy or mild rash"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling dizzy or tired"
+      },
+      {
+       "kind": "li",
+       "text": "Dry mouth or throat"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-loratadine": {
+   "url": "https://www.nhs.uk/medicines/loratadine/",
+   "title": "Loratadine (antihistamine)",
+   "dateModified": "2025-07-23",
+   "retrieved": "2026-09-03",
+   "about": [],
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects of loratadine",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "The most common side effect of loratadine is feeling sleepy. This happens in more than 1 in 100 people."
+      },
+      {
+       "kind": "p",
+       "text": "There are things you can do to help cope with these common side effects:"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sleepy and tired"
+      },
+      {
+       "kind": "li",
+       "text": "Headaches"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling tired or nervous"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-metronidazole": {
+   "url": "https://www.nhs.uk/medicines/metronidazole/",
+   "title": "Metronidazole (antibiotic)",
+   "dateModified": "2026-01-12",
+   "retrieved": "2026-09-03",
+   "about": [],
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects of metronidazole",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "There are things you can do to help cope with these common side effects of metronidazole."
+      },
+      {
+       "kind": "li",
+       "text": "Feeling or being sick (nausea or vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "A metallic taste in your mouth or a furry tongue"
+      },
+      {
+       "kind": "li",
+       "text": "Problems with your skin"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-pregabalin": {
+   "url": "https://www.nhs.uk/medicines/pregabalin/",
+   "title": "Pregabalin (for nerve pain)",
+   "dateModified": "2026-02-19",
+   "retrieved": "2026-09-03",
+   "about": [],
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects of pregabalin",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of pregabalin may happen in more than 1 in 100 people. They're usually mild and go away by themselves."
+      },
+      {
+       "kind": "p",
+       "text": "There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Headaches"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling sleepy, tired or dizzy"
+      },
+      {
+       "kind": "li",
+       "text": "Difficulty sleeping (insomnia)"
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "Mood changes"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling or being sick (nausea or vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "Swollen hands, arms, legs and feet"
+      },
+      {
+       "kind": "li",
+       "text": "Blurred vision"
+      },
+      {
+       "kind": "li",
+       "text": "Difficulty getting an erection"
+      },
+      {
+       "kind": "li",
+       "text": "Weight gain"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-ramipril": {
+   "url": "https://www.nhs.uk/medicines/ramipril/",
+   "title": "Ramipril (ACE inhibitor, blood pressure / heart)",
+   "dateModified": "2026-07-03",
+   "retrieved": "2026-09-03",
+   "about": [],
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects of ramipril",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of ramipril happen in more than 1 in 100 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "A dry, persistent cough that does not get better"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling dizzy or lightheaded, especially when you stand up or sit up quickly"
+      },
+      {
+       "kind": "li",
+       "text": "Headaches"
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "Being sick (vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "A mild skin rash"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-trimethoprim": {
+   "url": "https://www.nhs.uk/medicines/trimethoprim/",
+   "title": "Trimethoprim (antibiotic for urine infections)",
+   "dateModified": "2026-03-24",
+   "retrieved": "2026-09-03",
+   "about": [],
+   "cards": [
+    {
+     "tier": "info",
+     "headline": "Common side effects of trimethoprim",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "These common side effects of trimethoprim happen to more than 1 in 100 people. There are things you can do to help cope with them:"
+      },
+      {
+       "kind": "li",
+       "text": "Itching or a mild rash"
+      },
+      {
+       "kind": "li",
+       "text": "Feeling or being sick (nausea or vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "Diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "Thrush"
+      },
+      {
+       "kind": "li",
+       "text": "Headaches"
+      }
+     ],
+     "visible": false
+    }
+   ]
   }
  }
 }
