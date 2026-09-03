@@ -98,7 +98,8 @@
   /* collapsible NHS sections: a bold line to tap, the detail underneath */
   .nhscard { border: 1px solid #d8dde3; border-radius: 10px; margin: 8px 0; background: #f4f7fa; }
   .nhscard-emergency { border-left: 4px solid #d5281b; background: #fdecea; }
-  .nhscard-urgent { border-left: 4px solid #b07d00; background: #fff8e6; }
+  .nhscard-urgent, .nhscard-serious { border-left: 4px solid #b07d00; background: #fff8e6; }
+  .nhsabout-l { margin: 0 0 10px 22px; padding: 0; }
   .nhscard-treatment, .nhscard-selfcare { background: #f2faf3; border-color: #cfe3d3; }
   .nhscard-info { background: #f5f5f5; border-color: #ddd; }
   .nhscard > summary {
@@ -631,11 +632,14 @@ function findCompanion(item, pages) {
 const INFO_TIERS = { symptoms: "🔍", causes: "❓", treatment: "🩺", selfcare: "🏠", prevention: "🛡️",
   diagnosis: "🔬", complications: "📋", outlook: "📈", contagious: "🤝", living: "🌱", types: "📑",
   usage: "⏰", suitability: "👤", howitworks: "⚙️", interactions: "🔗", pregnancy: "🤰", info: "💊" };
-const HELP_TIERS = { emergency: "🚨", urgent: "⚠️", gp: "ℹ️", advice: "ℹ️" };
+const HELP_TIERS = { emergency: "🚨", serious: "⚠️", urgent: "⚠️", gp: "ℹ️", advice: "ℹ️" };   // serious = NHS's own "Serious side effects" list, the symptoms that make the 111 card actionable
 let HELP_GROUPS = [];   // rebuilt on every render — {title, url, page, cards}
 function nhsFresh(pg) {
   const age = (Date.now() - new Date((pg && pg.retrieved) || "x").getTime()) / 86400000;
-  return age >= 0 && age <= 10;
+  // a bare date parses as UTC midnight — 01:00 BST — so a store retrieved
+  // "today" looks like the future for viewers ahead of UTC (2026-09-04, the
+  // whole NHS block vanished at 00:47): a day of slack, never more
+  return age >= -1 && age <= 10;
 }
 function nhsHref(pg, fallback) {
   try { const u = new URL((pg && pg.url) || fallback || ""); if (u.protocol === "https:" && u.hostname === "www.nhs.uk") return u.href; } catch (e) {}
@@ -677,11 +681,22 @@ function nhsInfoHtml(item, pg) {
   // = the medicine the clinician clicked, shown as the pointer below.
   const chosen = (pg.url || "").includes("/conditions/")
     ? chosenTreatments({ title: pg.title || item.title || "", slug: item.slug || "" }) : [];
-  const cards = (pg.cards || []).filter(c => INFO_TIERS[c.tier] && c.tier !== "treatment" && c.tier !== "diagnosis");
+  // outlook/recovery sections presume the pathway too ("After surgery for
+  // appendicitis", "wear your plaster cast" — Codex 2026-09-03): hidden as well
+  const cards = (pg.cards || []).filter(c => INFO_TIERS[c.tier] && !["treatment", "diagnosis", "outlook"].includes(c.tier));
   const help = (pg.cards || []).filter(c => HELP_TIERS[c.tier]);
   if (help.length) HELP_GROUPS.push({ title: pg.title || item.title, page: pg, cards: help });
-  const about = (pg.about || []).filter(t => t && !/:\s*$/.test(t)).slice(0, 2)
-    .map(t => `<p class="nhsabout">${escapeHtml(t)}</p>`).join("");
+  // intro lines: a paragraph ending ':' is kept only when NHS's own bullets
+  // ("• …" lines) follow it; bullets render as a list
+  const al = (pg.about || []).filter(Boolean);
+  let about = "", inList = false;
+  al.forEach((t, i) => {
+    if (t.startsWith("• ")) { if (!inList) { about += `<ul class="nhsabout-l">`; inList = true; } about += `<li>${escapeHtml(t.slice(2))}</li>`; return; }
+    if (inList) { about += "</ul>"; inList = false; }
+    if (/:\s*$/.test(t) && !(al[i + 1] || "").startsWith("• ")) return;
+    about += `<p class="nhsabout">${escapeHtml(t)}</p>`;
+  });
+  if (inList) about += "</ul>";
   if (!about && !cards.length) return "";
   // collapsed by default (Oscar 2026-09-03: "collapsible points so the
   // information is not too overwhelming"); the intro stays visible
