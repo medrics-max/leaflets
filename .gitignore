@@ -93,3 +93,7 @@ driving_advice_review_state.json
 # medrics-authored, clinical_signoff draft, portal review lane ONLY — a
 # draft leaflet in the public repo would read as a published one.
 proposed/
+
+# nhs_cards.py private state + change log (the public product is nhs_cards.json)
+nhs_cards_state.json
+nhs_cards_history.jsonl

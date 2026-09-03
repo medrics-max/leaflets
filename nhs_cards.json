@@ -1,0 +1,7071 @@
+{
+ "_doc": "Verbatim NHS.uk 'when to get help' cards, one entry per NHS page in nhs_resources.json, rendered on the patient page with attribution and the link. Every line is byte-verified against the live page on each run; changes are logged privately. Built by nhs_cards.py (weekly). Reuse of NHS website content under the Open Government Licence v3.0.",
+ "licence": {
+  "licence": "Open Government Licence v3.0",
+  "attribution": "Information from the NHS website",
+  "statement": "Information from the NHS website is licensed under the Open Government Licence v3.0",
+  "terms": "https://www.nhs.uk/our-policies/terms-and-conditions/",
+  "rule": "unmodified content, attributed with the date, refreshed at least every 7 days"
+ },
+ "retrieved": "2026-09-03",
+ "pages": {
+  "nhs-fever-in-children": {
+   "url": "https://www.nhs.uk/conditions/fever-in-children/",
+   "title": "High temperature (fever) in children",
+   "dateModified": "2026-08-07",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Call 111 if your child:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "is under 3 months old and has a temperature of 38C or higher, or you think they have a high temperature"
+      },
+      {
+       "kind": "li",
+       "text": "is 3 to 6 months old and has a temperature of 39C or higher, or you think they have a high temperature"
+      },
+      {
+       "kind": "li",
+       "text": "has other signs of illness, such as a rash , as well as a high temperature"
+      },
+      {
+       "kind": "li",
+       "text": "has a high temperature that's lasted for 5 days or more"
+      },
+      {
+       "kind": "li",
+       "text": "does not want to eat, or is not their usual self and you're worried"
+      },
+      {
+       "kind": "li",
+       "text": "is dehydrated – such as nappies that are not very wet, sunken eyes, and no tears when they're crying"
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if your child:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "has a stiff neck"
+      },
+      {
+       "kind": "li",
+       "text": "has a rash that does not fade when you press a glass against it"
+      },
+      {
+       "kind": "li",
+       "text": "is bothered by light"
+      },
+      {
+       "kind": "li",
+       "text": "has a fit ( febrile seizure ) for the first time (they cannot stop shaking)"
+      },
+      {
+       "kind": "li",
+       "text": "has unusually cold hands and feet"
+      },
+      {
+       "kind": "li",
+       "text": "has changes to their skin colour such as blue, grey, paler than usual or blotchy skin (this may be harder to see on brown or black skin), or blue, grey or paler than usual lips or tongue"
+      },
+      {
+       "kind": "li",
+       "text": "is drowsy and hard to wake"
+      },
+      {
+       "kind": "li",
+       "text": "is extremely agitated (does not stop crying) or is confused"
+      },
+      {
+       "kind": "li",
+       "text": "has difficulty breathing (you may notice grunting noises or their stomach sucking under their ribcage), breathlessness or breathing very fast"
+      },
+      {
+       "kind": "li",
+       "text": "is not responding like they normally do, or is not interested in feeding or normal activities"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-croup": {
+   "url": "https://www.nhs.uk/conditions/croup/",
+   "title": "Croup",
+   "dateModified": "2026-08-27",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think your child may have croup – the doctor may give your child medicine to shorten the illness"
+      },
+      {
+       "kind": "li",
+       "text": "your child is getting worse or not getting better after seeing a GP"
+      },
+      {
+       "kind": "p",
+       "text": "Occasionally, your child may be referred to hospital if they're more seriously ill or they're under the age of 3 months."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if your child:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "is struggling to breathe (you may notice grunting noises, see their tummy sucking under their ribcage, or their breathing may sound different)"
+      },
+      {
+       "kind": "li",
+       "text": "has blue, grey, pale or blotchy skin, lips or tongue – on brown or black skin, this may be easier to see on the palms of the hands or soles of the feet"
+      },
+      {
+       "kind": "li",
+       "text": "is sleepier than normal or difficult to wake"
+      },
+      {
+       "kind": "li",
+       "text": "is unusually quiet and still"
+      },
+      {
+       "kind": "li",
+       "text": "is limp, floppy or not responding like they normally do (their head may fall to the side, backwards or forwards, or they may find it difficult to lift their head or focus on your face)"
+      },
+      {
+       "kind": "li",
+       "text": "is very upset or restless, is having difficulty breathing and can't be calmed down"
+      },
+      {
+       "kind": "li",
+       "text": "is unwell and drooling more than they normally do, finding it hard to swallow, or wants to sit rather than lie down"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-bronchiolitis": {
+   "url": "https://www.nhs.uk/conditions/bronchiolitis/",
+   "title": "Bronchiolitis",
+   "dateModified": "2026-09-01",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your child is having difficulty breathing – you may notice grunting noises, their tummy sucking under their ribs or they may be breathing quickly"
+      },
+      {
+       "kind": "li",
+       "text": "there are pauses when your child breathes"
+      },
+      {
+       "kind": "li",
+       "text": "your child's skin, tongue or lips are blue or grey – on brown or black skin, this may be easier to see on the palms of the hands, soles of the feet, lips, gums and inside the eyelids"
+      },
+      {
+       "kind": "li",
+       "text": "your child is floppy and will not wake up or stay awake"
+      },
+      {
+       "kind": "p",
+       "text": "As a parent, you may know if your child seems seriously unwell and should trust your own judgement."
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or call 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your child has had a cold and it's getting worse"
+      },
+      {
+       "kind": "li",
+       "text": "your child is feeding or eating much less than normal"
+      },
+      {
+       "kind": "li",
+       "text": "your child has had a dry nappy for 12 hours or more, or shows other signs of dehydration"
+      },
+      {
+       "kind": "li",
+       "text": "your baby is under 3 months and has a temperature of 38C, or is older than 3 months and has a temperature of 39C or higher"
+      },
+      {
+       "kind": "li",
+       "text": "your baby feels hotter than usual when you touch their back or chest, or feels sweaty"
+      },
+      {
+       "kind": "li",
+       "text": "your child has a very high or low temperature, feels hot or cold to the touch, or is shivering"
+      },
+      {
+       "kind": "li",
+       "text": "your child is very tired, irritable or does not seem themselves"
+      },
+      {
+       "kind": "li",
+       "text": "you're worried about your child"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-febrile-seizures": {
+   "url": "https://www.nhs.uk/conditions/febrile-seizures/",
+   "title": "Febrile seizures (febrile convulsions)",
+   "dateModified": "2026-08-07",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if your child:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "has a seizure for the first time"
+      },
+      {
+       "kind": "li",
+       "text": "has a seizure that lasts more than 5 minutes"
+      },
+      {
+       "kind": "li",
+       "text": "is having difficulty breathing"
+      },
+      {
+       "kind": "li",
+       "text": "has stiffness and twitching on only 1 side of their body"
+      },
+      {
+       "kind": "li",
+       "text": "is more sleepy than usual for more than 1 hour after the seizure stops"
+      },
+      {
+       "kind": "li",
+       "text": "has more than 1 seizure within 24 hours"
+      },
+      {
+       "kind": "p",
+       "text": "Do not take your child to A&E if they are still having a seizure or are unconscious, call 999 instead."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-diarrhoea-and-vomiting": {
+   "url": "https://www.nhs.uk/conditions/diarrhoea-and-vomiting/",
+   "title": "Diarrhoea and vomiting",
+   "dateModified": "2026-07-09",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Call 111 now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're worried about a baby under 12 months"
+      },
+      {
+       "kind": "li",
+       "text": "your child stops breast or bottle feeding while they're ill"
+      },
+      {
+       "kind": "li",
+       "text": "a child under 5 years has signs of dehydration , such as fewer wet nappies"
+      },
+      {
+       "kind": "li",
+       "text": "you or your child (aged 5 years or over) still have signs of dehydration after using oral rehydration sachets"
+      },
+      {
+       "kind": "li",
+       "text": "you or your child keep being sick and cannot keep fluid down"
+      },
+      {
+       "kind": "li",
+       "text": "you or your child have bloody diarrhoea or bleeding from the bottom"
+      },
+      {
+       "kind": "li",
+       "text": "you or your child have diarrhoea for more than 7 days or vomiting for more than 2 days"
+      },
+      {
+       "kind": "p",
+       "text": "111 will tell you what to do. They can arrange a phone call from a nurse or doctor if you need one."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if you or your child:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "vomit blood or have vomit that looks like ground coffee"
+      },
+      {
+       "kind": "li",
+       "text": "have green vomit (adults)"
+      },
+      {
+       "kind": "li",
+       "text": "have yellow-green or green vomit (children)"
+      },
+      {
+       "kind": "li",
+       "text": "may have swallowed something poisonous"
+      },
+      {
+       "kind": "li",
+       "text": "have a stiff neck and pain when looking at bright lights"
+      },
+      {
+       "kind": "li",
+       "text": "have a sudden, severe headache"
+      },
+      {
+       "kind": "li",
+       "text": "have a sudden, severe tummy ache"
+      },
+      {
+       "kind": "li",
+       "text": "have blue, grey, pale or blotchy skin, lips or tongue - on brown or black skin this may be easier to see on the palms of the hands or soles of the feet"
+      },
+      {
+       "kind": "li",
+       "text": "are having severe difficulty breathing, or taking lots of quick, short breaths"
+      },
+      {
+       "kind": "li",
+       "text": "are confused or not responding as usual"
+      },
+      {
+       "kind": "li",
+       "text": "always there and so bad it's hard to think or talk"
+      },
+      {
+       "kind": "li",
+       "text": "you cannot sleep"
+      },
+      {
+       "kind": "li",
+       "text": "it's very hard to move, get out of bed, go to the bathroom, wash or dress"
+      },
+      {
+       "kind": "li",
+       "text": "always there"
+      },
+      {
+       "kind": "li",
+       "text": "makes it hard to concentrate or sleep"
+      },
+      {
+       "kind": "li",
+       "text": "you can manage to get up, wash or dress"
+      },
+      {
+       "kind": "li",
+       "text": "comes and goes"
+      },
+      {
+       "kind": "li",
+       "text": "is annoying but does not stop you doing daily activities"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-sprains-and-strains": {
+   "url": "https://www.nhs.uk/conditions/sprains-and-strains/",
+   "title": "Sprains and strains",
+   "dateModified": "2026-07-09",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You've had an injury and:"
+      },
+      {
+       "kind": "li",
+       "text": "it's very painful, or the pain is getting worse"
+      },
+      {
+       "kind": "li",
+       "text": "there's a large amount of swelling or bruising, or the swelling or bruising is getting worse"
+      },
+      {
+       "kind": "li",
+       "text": "you cannot put any weight on it or walk more than a few steps"
+      },
+      {
+       "kind": "li",
+       "text": "it feels very stiff or is difficult to move"
+      },
+      {
+       "kind": "li",
+       "text": "it's not feeling any better after treating it yourself"
+      },
+      {
+       "kind": "li",
+       "text": "you also have a very high temperature, or feel hot, cold or shivery – this could be an infection"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      },
+      {
+       "kind": "p",
+       "text": "You could also go to an urgent treatment centre."
+      }
+     ]
+    },
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think you have a sprain or strain and it's getting worse or not feeling better after treating it yourself"
+      },
+      {
+       "kind": "p",
+       "text": "In many areas you may be able to get help, such as physiotherapy, from NHS community musculoskeletal (MSK) services without needing a referral from a GP."
+      },
+      {
+       "kind": "p",
+       "text": "Get NHS help for back or joint problems"
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you heard a crack when you had your injury"
+      },
+      {
+       "kind": "li",
+       "text": "the injured body part has changed shape or is pointing at an odd angle"
+      },
+      {
+       "kind": "li",
+       "text": "the injured body part is numb, tingling or has pins and needles"
+      },
+      {
+       "kind": "li",
+       "text": "the skin around the injury has changed colour, such as looking blue or grey, or is cold to touch"
+      },
+      {
+       "kind": "p",
+       "text": "You may have broken a bone and will need an X-ray."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-dislocated-shoulder": {
+   "url": "https://www.nhs.uk/conditions/dislocated-shoulder/",
+   "title": "Dislocated shoulder",
+   "dateModified": "2026-04-13",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You've injured your shoulder and:"
+      },
+      {
+       "kind": "li",
+       "text": "you cannot move your arm"
+      },
+      {
+       "kind": "li",
+       "text": "your shoulder looks out of place or has changed shape"
+      },
+      {
+       "kind": "li",
+       "text": "your shoulder is painful, bruised or swollen"
+      },
+      {
+       "kind": "p",
+       "text": "Call 999 for an ambulance if you cannot get to A&E by yourself."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-migraine": {
+   "url": "https://www.nhs.uk/conditions/migraine/",
+   "title": "Migraine",
+   "dateModified": "2026-06-12",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your migraine attacks are severe or getting worse, or lasting longer than usual"
+      },
+      {
+       "kind": "li",
+       "text": "you have migraine attacks more than once a week"
+      },
+      {
+       "kind": "li",
+       "text": "you're finding it difficult to control your migraine"
+      },
+      {
+       "kind": "li",
+       "text": "you regularly get migraine before or during your period"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have a migraine attack and:"
+      },
+      {
+       "kind": "li",
+       "text": "it's lasted longer than 72 hours"
+      },
+      {
+       "kind": "li",
+       "text": "aura symptoms last longer than 1 hour at a time"
+      },
+      {
+       "kind": "li",
+       "text": "you're pregnant or just had a baby"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if you or your child:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "have a headache that came on suddenly and is extremely painful"
+      },
+      {
+       "kind": "li",
+       "text": "have problems speaking or remembering things"
+      },
+      {
+       "kind": "li",
+       "text": "lose your vision, or have blurred or double vision"
+      },
+      {
+       "kind": "li",
+       "text": "feel drowsy or confused"
+      },
+      {
+       "kind": "li",
+       "text": "have a seizure or fit"
+      },
+      {
+       "kind": "li",
+       "text": "have a very high temperature and symptoms of meningitis"
+      },
+      {
+       "kind": "li",
+       "text": "cannot move or have weakness in the arms or legs on 1 side of your body, or 1 side of your face"
+      },
+      {
+       "kind": "li",
+       "text": "have recently had a head injury"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-gout": {
+   "url": "https://www.nhs.uk/conditions/gout/",
+   "title": "Gout",
+   "dateModified": "2026-05-06",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have symptoms of gout for the first time"
+      },
+      {
+       "kind": "li",
+       "text": "you have gout and your usual treatments are not helping"
+      },
+      {
+       "kind": "p",
+       "text": "An attack of gout usually lasts 1 to 2 weeks if left untreated. If you do not get treatment, future attacks may last even longer. Leaving gout untreated may cause lasting damage to joints."
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have a sudden pain and swelling in a joint and:"
+      },
+      {
+       "kind": "li",
+       "text": "the pain is getting worse"
+      },
+      {
+       "kind": "li",
+       "text": "you also have a very high temperature (or you feel hot, cold or shivery)"
+      },
+      {
+       "kind": "li",
+       "text": "you also feel sick or cannot eat"
+      },
+      {
+       "kind": "p",
+       "text": "These symptoms could mean you have an infection inside your joint and need urgent medical help."
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-earache": {
+   "url": "https://www.nhs.uk/conditions/earache/",
+   "title": "Earache",
+   "dateModified": "2025-12-09",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "A pharmacist can help with earaches",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "A pharmacist can tell you:"
+      },
+      {
+       "kind": "li",
+       "text": "what you can do to treat earache yourself"
+      },
+      {
+       "kind": "li",
+       "text": "if you can buy anything to help (for example, eardrops)"
+      },
+      {
+       "kind": "li",
+       "text": "if you need to see a GP"
+      },
+      {
+       "kind": "li",
+       "text": "if they can treat an infection of the middle ear in children aged 1 to 17"
+      },
+      {
+       "kind": "p",
+       "text": "They can provide some treatments if you need it without you seeing a GP."
+      }
+     ]
+    },
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you or your child keep getting earache"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You or your child have earache and:"
+      },
+      {
+       "kind": "li",
+       "text": "have had it for more than 2 to 3 days"
+      },
+      {
+       "kind": "li",
+       "text": "become generally unwell"
+      },
+      {
+       "kind": "li",
+       "text": "have a very high temperature, or feel hot, cold or shivery"
+      },
+      {
+       "kind": "li",
+       "text": "have swelling around the ear"
+      },
+      {
+       "kind": "li",
+       "text": "have fluid coming from the ear"
+      },
+      {
+       "kind": "li",
+       "text": "have hearing loss or a change in hearing"
+      },
+      {
+       "kind": "li",
+       "text": "have something stuck in the ear"
+      },
+      {
+       "kind": "li",
+       "text": "your child is under 2 and has earache in both ears"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online . Call 111 if you need advice for a child under 5 years old."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-sore-throat": {
+   "url": "https://www.nhs.uk/conditions/sore-throat/",
+   "title": "Sore throat",
+   "dateModified": "2026-05-12",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a pharmacist if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you need help for a sore throat"
+      },
+      {
+       "kind": "li",
+       "text": "your child is aged 5 years or over and needs help for a sore throat"
+      },
+      {
+       "kind": "p",
+       "text": "A pharmacist can give the same antibiotic treatment as a GP for a sore throat, if you need it. They can also give advice or direct you to other medical help."
+      }
+     ]
+    },
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your child aged under 5 years needs help for a sore throat"
+      },
+      {
+       "kind": "li",
+       "text": "you or your child's sore throat does not improve after a week"
+      },
+      {
+       "kind": "li",
+       "text": "you often get a sore throat"
+      },
+      {
+       "kind": "li",
+       "text": "you have a sore throat and symptoms like a lump in your mouth or neck, or a mouth ulcer that lasts for more than 3 weeks"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get advice from 111 now if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You or your child have a sore throat and:"
+      },
+      {
+       "kind": "li",
+       "text": "you're worried about your symptoms"
+      },
+      {
+       "kind": "li",
+       "text": "you have a very high temperature, or you feel hot, cold or shivery"
+      },
+      {
+       "kind": "li",
+       "text": "you have signs of dehydration, such as peeing less than usual or dark, strong-smelling pee"
+      },
+      {
+       "kind": "li",
+       "text": "you have a weakened immune system – for example, because of diabetes or chemotherapy"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E now if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You or your child:"
+      },
+      {
+       "kind": "li",
+       "text": "have difficulty breathing or are unable to swallow"
+      },
+      {
+       "kind": "li",
+       "text": "are drooling – this can be a sign of not being able to swallow"
+      },
+      {
+       "kind": "li",
+       "text": "are making a high-pitched sound as you breathe (called stridor)"
+      },
+      {
+       "kind": "li",
+       "text": "have severe symptoms and are getting worse quickly"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-constipation": {
+   "url": "https://www.nhs.uk/conditions/constipation/",
+   "title": "Constipation",
+   "dateModified": "2026-07-03",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if you:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "are constipated and it's not getting better with treatment"
+      },
+      {
+       "kind": "li",
+       "text": "are regularly constipated"
+      },
+      {
+       "kind": "li",
+       "text": "are regularly bloated"
+      },
+      {
+       "kind": "li",
+       "text": "have blood in your poo"
+      },
+      {
+       "kind": "li",
+       "text": "have lost weight without trying"
+      },
+      {
+       "kind": "li",
+       "text": "are constipated and feel tired all the time"
+      },
+      {
+       "kind": "li",
+       "text": "are taking medicine that's causing constipation – such as opioid painkillers"
+      },
+      {
+       "kind": "li",
+       "text": "notice sudden changes in the how you poo (your bowel habits)"
+      },
+      {
+       "kind": "li",
+       "text": "have tummy pain"
+      },
+      {
+       "kind": "p",
+       "text": "Speak to the GP before you stop taking any prescribed medicine."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-cuts-and-grazes": {
+   "url": "https://www.nhs.uk/conditions/cuts-and-grazes/",
+   "title": "Cuts and grazes",
+   "dateModified": "2026-07-08",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "a wound has soil, pus or body fluids in it, or it's still dirty after cleaning it"
+      },
+      {
+       "kind": "li",
+       "text": "you were bitten by a person or a wild or stray animal"
+      },
+      {
+       "kind": "li",
+       "text": "a cut is swollen, red and getting more painful or pus is coming out of it"
+      },
+      {
+       "kind": "li",
+       "text": "a cut is larger than around 5cm (2 inches)"
+      },
+      {
+       "kind": "li",
+       "text": "you've cut yourself and also feel generally unwell or have a high temperature"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have a cut and cannot stop the bleeding"
+      },
+      {
+       "kind": "li",
+       "text": "the blood comes out in spurts and is bright red and hard to control"
+      },
+      {
+       "kind": "li",
+       "text": "you lose feeling near the wound or have trouble moving it"
+      },
+      {
+       "kind": "li",
+       "text": "you have a bad cut on your face or the palm of your hand"
+      },
+      {
+       "kind": "li",
+       "text": "the wound is very large or deep"
+      },
+      {
+       "kind": "li",
+       "text": "there's something stuck in the cut, such as a shard of glass – do not try to take it out yourself"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-animal-and-human-bites": {
+   "url": "https://www.nhs.uk/conditions/animal-and-human-bites/",
+   "title": "Animal and human bites",
+   "dateModified": "2026-04-13",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You've been bitten and:"
+      },
+      {
+       "kind": "li",
+       "text": "you think there may be objects like teeth, hair or dirt in the wound"
+      },
+      {
+       "kind": "li",
+       "text": "the bite is hot or swollen (it may also be painful, red or darker than the surrounding skin, which may be harder to see on black or brown skin)"
+      },
+      {
+       "kind": "li",
+       "text": "you have a high temperature, or feel hot, cold or shivery"
+      },
+      {
+       "kind": "li",
+       "text": "fluid is leaking from the bite"
+      },
+      {
+       "kind": "li",
+       "text": "the bite smells unpleasant"
+      },
+      {
+       "kind": "li",
+       "text": "you were bitten on your hands, feet, face or head"
+      },
+      {
+       "kind": "li",
+       "text": "you were bitten by a person"
+      },
+      {
+       "kind": "li",
+       "text": "you have not had a tetanus vaccine in the last 10 years"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You've been bitten by an animal or person and:"
+      },
+      {
+       "kind": "li",
+       "text": "the wound is large or deep"
+      },
+      {
+       "kind": "li",
+       "text": "you cannot stop the bleeding"
+      },
+      {
+       "kind": "p",
+       "text": "If a body part, such as part of a finger or ear has been torn off, wrap it in clean tissue and put it in a plastic bag. Put some ice around the bag and take it with you to hospital."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-anaphylaxis": {
+   "url": "https://www.nhs.uk/conditions/anaphylaxis/",
+   "title": "Anaphylaxis",
+   "dateModified": "2026-05-06",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your lips, mouth, throat or tongue suddenly become swollen"
+      },
+      {
+       "kind": "li",
+       "text": "you're breathing very fast or struggling to breathe (you may become very wheezy or feel like you're choking or gasping for air)"
+      },
+      {
+       "kind": "li",
+       "text": "your throat feels tight or you're struggling to swallow"
+      },
+      {
+       "kind": "li",
+       "text": "your skin, tongue or lips turn blue, grey or pale (if you have black or brown skin, this may be easier to see on the palms of your hands or soles of your feet)"
+      },
+      {
+       "kind": "li",
+       "text": "you suddenly become very confused, drowsy or dizzy"
+      },
+      {
+       "kind": "li",
+       "text": "someone faints and cannot be woken up"
+      },
+      {
+       "kind": "li",
+       "text": "a child is limp, floppy or not responding like they normally do (their head may fall to the side, backwards or forwards, or they may find it difficult to lift their head or focus on your face)"
+      },
+      {
+       "kind": "p",
+       "text": "You or the person who's unwell may also have a rash that's swollen, raised or itchy."
+      },
+      {
+       "kind": "p",
+       "text": "These can be signs of a serious allergic reaction and may need immediate treatment in hospital."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-sunburn": {
+   "url": "https://www.nhs.uk/conditions/sunburn/",
+   "title": "Sunburn",
+   "dateModified": "2026-07-13",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You've been out in the sun and:"
+      },
+      {
+       "kind": "li",
+       "text": "your skin is blistered or swollen"
+      },
+      {
+       "kind": "li",
+       "text": "your temperature is very high, or you feel hot, cold or shivery"
+      },
+      {
+       "kind": "li",
+       "text": "you feel very tired, dizzy or sick"
+      },
+      {
+       "kind": "li",
+       "text": "you have a headache"
+      },
+      {
+       "kind": "li",
+       "text": "you have muscle cramps"
+      },
+      {
+       "kind": "li",
+       "text": "your baby or young child has sunburn"
+      },
+      {
+       "kind": "p",
+       "text": "Severe sunburn can lead to heat exhaustion and heatstroke, which can be very serious."
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online . Call 111 if you need advice for a child under 5 years old."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-chest-pain": {
+   "url": "https://www.nhs.uk/conditions/chest-pain/",
+   "title": "Chest pain",
+   "dateModified": "2026-06-25",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you get sudden pain or discomfort in your chest that does not go away – the pain can feel like squeezing or pressure inside your chest, burning or indigestion"
+      },
+      {
+       "kind": "li",
+       "text": "you get pain that spreads to your left or right arm, or your neck, jaw, stomach or back"
+      },
+      {
+       "kind": "li",
+       "text": "you have chest pain and you feel sweaty, sick, light headed or short of breath"
+      },
+      {
+       "kind": "p",
+       "text": "You could be having a heart attack. Call 999 straight away as you need immediate treatment in hospital."
+      }
+     ]
+    },
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have chest pain that comes and goes"
+      },
+      {
+       "kind": "li",
+       "text": "you have chest pain that goes away quickly but you're still worried"
+      },
+      {
+       "kind": "p",
+       "text": "It's important to get medical advice to make sure it's nothing serious."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-high-blood-pressure": {
+   "url": "https://www.nhs.uk/conditions/high-blood-pressure-hypertension/",
+   "title": "High blood pressure (hypertension)",
+   "dateModified": "2026-08-13",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "Get your blood pressure checked at a pharmacy or GP surgery if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think you might have high blood pressure or might be at risk of having high blood pressure"
+      },
+      {
+       "kind": "li",
+       "text": "you're aged 40 or over and have not had your blood pressure checked for more than 5 years"
+      },
+      {
+       "kind": "p",
+       "text": "Some pharmacies may charge for a blood pressure check."
+      },
+      {
+       "kind": "p",
+       "text": "Some workplaces also offer blood pressure checks. Check with your employer."
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you often have headaches or blurred vision"
+      },
+      {
+       "kind": "li",
+       "text": "you have chest pain that comes and goes"
+      },
+      {
+       "kind": "li",
+       "text": "you have other symptoms you're worried could be caused by high blood pressure"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you get sudden pain or discomfort in your chest that does not go away – the pain can feel like squeezing or pressure inside your chest, burning or indigestion"
+      },
+      {
+       "kind": "li",
+       "text": "you get pain that spreads to your left or right arm, or your neck, jaw, stomach or back"
+      },
+      {
+       "kind": "li",
+       "text": "you have chest pain and you feel sweaty, sick, light headed or short of breath"
+      },
+      {
+       "kind": "p",
+       "text": "You could be having a heart attack. Call 999 straight away as you need immediate treatment in hospital."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-heartburn-and-acid-reflux": {
+   "url": "https://www.nhs.uk/conditions/heartburn-and-acid-reflux/",
+   "title": "Heartburn and acid reflux",
+   "dateModified": "2026-08-17",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "lifestyle changes and pharmacy medicines are not helping your heartburn"
+      },
+      {
+       "kind": "li",
+       "text": "you have heartburn most days"
+      },
+      {
+       "kind": "li",
+       "text": "you also have other symptoms, like food getting stuck in your throat, frequently being sick, or losing weight for no reason"
+      },
+      {
+       "kind": "p",
+       "text": "A GP can provide alternative or stronger treatments and help rule out any more serious causes of your symptoms."
+      },
+      {
+       "kind": "p",
+       "text": "If at any time you feel your symptoms are getting worse, contact a GP, go to 111.nhs.uk or call 111."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-angina": {
+   "url": "https://www.nhs.uk/conditions/angina/",
+   "title": "Angina",
+   "dateModified": "2026-07-08",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've been diagnosed with angina and have chest pain that does not stop after resting for a few minutes or after taking your angina medicine"
+      },
+      {
+       "kind": "li",
+       "text": "you get sudden pain or discomfort in your chest that does not go away – the pain can feel like squeezing or pressure inside your chest, burning or indigestion"
+      },
+      {
+       "kind": "li",
+       "text": "you get pain that spreads to your left or right arm, or your neck, jaw, shoulder, stomach or back"
+      },
+      {
+       "kind": "li",
+       "text": "you have chest pain and you feel sweaty, sick, light-headed or short of breath"
+      },
+      {
+       "kind": "p",
+       "text": "You could be having a heart attack. Call 999 straight away as you need immediate treatment in hospital."
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have chest pain or other symptoms of angina that come and go"
+      },
+      {
+       "kind": "li",
+       "text": "you've been diagnosed with angina and it feels worse than before, is happening more often, lasts longer or happens when you're resting"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-headaches": {
+   "url": "https://www.nhs.uk/conditions/headaches/",
+   "title": "Headaches",
+   "dateModified": "2026-07-09",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've tried treating a headache yourself and it's not getting better or is getting worse"
+      },
+      {
+       "kind": "li",
+       "text": "you regularly get headaches"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you or a child has a headache and vision or eye problems"
+      },
+      {
+       "kind": "li",
+       "text": "you or a child has a headache triggered or made worse by coughing, sneezing, bending down or exercising"
+      },
+      {
+       "kind": "li",
+       "text": "you or a child has a headache and is being sick (vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "a child has a headache that's getting worse or wakes them at night"
+      },
+      {
+       "kind": "li",
+       "text": "you have a headache and jaw pain when eating or a sore or tender scalp"
+      },
+      {
+       "kind": "li",
+       "text": "you or a child has any other symptoms you're worried about"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online . Call 111 if you need advice for a child under 5 years old."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You or a child has a headache and:"
+      },
+      {
+       "kind": "li",
+       "text": "has had a seizure (fit)"
+      },
+      {
+       "kind": "li",
+       "text": "has numbness or weakness in the body or face"
+      },
+      {
+       "kind": "li",
+       "text": "it started suddenly and is extremely painful"
+      },
+      {
+       "kind": "li",
+       "text": "has had a head injury within the last 3 months – for example, from a fall or accident"
+      },
+      {
+       "kind": "li",
+       "text": "are finding it difficult to speak, balance, walk or remember things"
+      },
+      {
+       "kind": "li",
+       "text": "are drowsy or confused"
+      },
+      {
+       "kind": "li",
+       "text": "has loss of vision"
+      },
+      {
+       "kind": "li",
+       "text": "has a rash that does not fade when a glass is rolled over it"
+      },
+      {
+       "kind": "li",
+       "text": "has a very high temperature, a stiff neck, or bright lights are bothering you"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-heart-palpitations": {
+   "url": "https://www.nhs.uk/conditions/heart-palpitations/",
+   "title": "Heart palpitations",
+   "dateModified": "2026-06-12",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You've had heart palpitations and feel well but:"
+      },
+      {
+       "kind": "li",
+       "text": "they keep coming back or they are happening more often"
+      },
+      {
+       "kind": "li",
+       "text": "they last longer than a few minutes"
+      },
+      {
+       "kind": "li",
+       "text": "you have a heart condition"
+      },
+      {
+       "kind": "li",
+       "text": "you have a history of heart problems in your family"
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You currently have heart palpitations and they do not go away or you also have any of these symptoms:"
+      },
+      {
+       "kind": "li",
+       "text": "chest pain"
+      },
+      {
+       "kind": "li",
+       "text": "shortness of breath"
+      },
+      {
+       "kind": "li",
+       "text": "feeling faint or fainting"
+      },
+      {
+       "kind": "p",
+       "text": "If you've had these symptoms but they've now stopped, ask your GP surgery for an urgent appointment, call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-vertigo": {
+   "url": "https://www.nhs.uk/conditions/vertigo/",
+   "title": "Vertigo",
+   "dateModified": "2025-11-25",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have vertigo that will not go away or keeps coming back"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have vertigo and:"
+      },
+      {
+       "kind": "li",
+       "text": "have a severe headache"
+      },
+      {
+       "kind": "li",
+       "text": "are being sick or feel very sick"
+      },
+      {
+       "kind": "li",
+       "text": "have a very high temperature, or feel hot, cold or shivery"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have vertigo and:"
+      },
+      {
+       "kind": "li",
+       "text": "double vision or loss of vision"
+      },
+      {
+       "kind": "li",
+       "text": "hearing loss"
+      },
+      {
+       "kind": "li",
+       "text": "trouble speaking"
+      },
+      {
+       "kind": "li",
+       "text": "leg or arm weakness, numbness or tingling"
+      },
+      {
+       "kind": "p",
+       "text": "Always take someone who cannot be woken up to A&E or call 999."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-nosebleed": {
+   "url": "https://www.nhs.uk/conditions/nosebleed/",
+   "title": "Nosebleed",
+   "dateModified": "2026-03-05",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "a child under 2 years old has had a nosebleed"
+      },
+      {
+       "kind": "li",
+       "text": "you have regular nosebleeds"
+      },
+      {
+       "kind": "li",
+       "text": "you have symptoms of anaemia – such as a faster heartbeat (palpitations), shortness of breath and skin that is paler than normal for you"
+      },
+      {
+       "kind": "li",
+       "text": "you have a nosebleed and you're taking a medicine that helps prevent blood clots, such as warfarin"
+      },
+      {
+       "kind": "li",
+       "text": "you have a nosebleed and you have a condition that means your blood cannot clot properly, such as haemophilia"
+      },
+      {
+       "kind": "p",
+       "text": "The GP might want to test you for haemophilia or for other conditions like anaemia."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have a nosebleed and:"
+      },
+      {
+       "kind": "li",
+       "text": "your nosebleed lasts longer than 10 to 15 minutes"
+      },
+      {
+       "kind": "li",
+       "text": "the bleeding seems excessive"
+      },
+      {
+       "kind": "li",
+       "text": "you're swallowing a large amount of blood that makes you vomit"
+      },
+      {
+       "kind": "li",
+       "text": "the bleeding started after a blow to your head"
+      },
+      {
+       "kind": "li",
+       "text": "you're feeling weak or dizzy"
+      },
+      {
+       "kind": "li",
+       "text": "you're having difficulty breathing"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-cellulitis": {
+   "url": "https://www.nhs.uk/conditions/cellulitis/",
+   "title": "Cellulitis (skin infection)",
+   "dateModified": "2026-05-12",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your skin is painful, hot and swollen"
+      },
+      {
+       "kind": "p",
+       "text": "Early treatment with antibiotics can stop cellulitis becoming more serious."
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have cellulitis with:"
+      },
+      {
+       "kind": "li",
+       "text": "a very high temperature, or you feel hot, cold or shivery"
+      },
+      {
+       "kind": "li",
+       "text": "a fast heartbeat or fast breathing"
+      },
+      {
+       "kind": "li",
+       "text": "purple patches on your skin, but this may be less obvious on brown or black skin"
+      },
+      {
+       "kind": "li",
+       "text": "feeling dizzy or faint"
+      },
+      {
+       "kind": "li",
+       "text": "confusion or disorientation"
+      },
+      {
+       "kind": "li",
+       "text": "cold, clammy or pale skin"
+      },
+      {
+       "kind": "li",
+       "text": "unresponsiveness or loss of consciousness"
+      },
+      {
+       "kind": "p",
+       "text": "These are symptoms of serious complications, which can be life threatening."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-burns-and-scalds": {
+   "url": "https://www.nhs.uk/conditions/burns-and-scalds/",
+   "title": "Burns and scalds",
+   "dateModified": "2026-08-27",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have a burn or scald that:"
+      },
+      {
+       "kind": "li",
+       "text": "is very large or deep"
+      },
+      {
+       "kind": "li",
+       "text": "is on your face, genitals or bottom"
+      },
+      {
+       "kind": "li",
+       "text": "has been caused by an acid or chemical, or by electricity"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you or your child has a burn or scald and you're not sure what to do"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online . Call 111 if you need advice for a child under 5 years old."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-stomach-ache": {
+   "url": "https://www.nhs.uk/conditions/stomach-ache/",
+   "title": "Stomach ache and abdominal pain",
+   "dateModified": "2025-10-02",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have a stomach ache and:"
+      },
+      {
+       "kind": "li",
+       "text": "it gets much worse"
+      },
+      {
+       "kind": "li",
+       "text": "it does not go away or keeps coming back"
+      },
+      {
+       "kind": "li",
+       "text": "you have bloating that does not go away or keeps coming back"
+      },
+      {
+       "kind": "li",
+       "text": "you have problems with swallowing food"
+      },
+      {
+       "kind": "li",
+       "text": "you're pregnant"
+      },
+      {
+       "kind": "li",
+       "text": "you're losing weight without trying to"
+      },
+      {
+       "kind": "li",
+       "text": "you suddenly pee more often or less often"
+      },
+      {
+       "kind": "li",
+       "text": "peeing is suddenly painful"
+      },
+      {
+       "kind": "li",
+       "text": "you bleed from your bottom"
+      },
+      {
+       "kind": "li",
+       "text": "you have unusual bleeding or abnormal discharge from your vagina"
+      },
+      {
+       "kind": "li",
+       "text": "you have diarrhoea that does not go away after a few days"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "a stomach ache came on very suddenly or is severe"
+      },
+      {
+       "kind": "li",
+       "text": "it hurts when you touch your stomach"
+      },
+      {
+       "kind": "li",
+       "text": "you're vomiting blood or your vomit looks like ground coffee"
+      },
+      {
+       "kind": "li",
+       "text": "your poo is bloody or black and sticky and extremely smelly"
+      },
+      {
+       "kind": "li",
+       "text": "you cannot pee"
+      },
+      {
+       "kind": "li",
+       "text": "you cannot poo or fart"
+      },
+      {
+       "kind": "li",
+       "text": "you cannot breathe"
+      },
+      {
+       "kind": "li",
+       "text": "you have chest pain"
+      },
+      {
+       "kind": "li",
+       "text": "you have diabetes and you're vomiting"
+      },
+      {
+       "kind": "li",
+       "text": "someone has collapsed"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-shingles": {
+   "url": "https://www.nhs.uk/conditions/shingles/",
+   "title": "Shingles",
+   "dateModified": "2026-07-07",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a pharmacist if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have symptoms of shingles and you're 18 years old or older"
+      },
+      {
+       "kind": "p",
+       "text": "Try to see a pharmacist within 3 days of the rash appearing. If you need medicine, it can help to speed up your recovery and avoid longer-lasting problems."
+      },
+      {
+       "kind": "p",
+       "text": "A pharmacist can give the same antiviral medicines as a GP. They can also give advice or direct you to other medical help, if needed."
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have symptoms of shingles and:"
+      },
+      {
+       "kind": "li",
+       "text": "you're pregnant"
+      },
+      {
+       "kind": "li",
+       "text": "you're breastfeeding and the shingles rash is on your breasts"
+      },
+      {
+       "kind": "li",
+       "text": "the rash is on your eye or nose"
+      },
+      {
+       "kind": "li",
+       "text": "you have changes to your vision"
+      },
+      {
+       "kind": "li",
+       "text": "you have a severely weakened immune system, for example, from chemotherapy"
+      },
+      {
+       "kind": "li",
+       "text": "you're 17 years old or younger"
+      },
+      {
+       "kind": "p",
+       "text": "You might need medicine to help speed up your recovery and avoid longer-lasting problems."
+      },
+      {
+       "kind": "p",
+       "text": "This works best if you start taking it within 3 days of the shingles rash appearing."
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-chickenpox": {
+   "url": "https://www.nhs.uk/conditions/chickenpox/",
+   "title": "Chickenpox",
+   "dateModified": "2026-05-22",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're not sure it's chickenpox"
+      },
+      {
+       "kind": "li",
+       "text": "you're breastfeeding and have chickenpox symptoms"
+      },
+      {
+       "kind": "p",
+       "text": "Contact the GP surgery before you go in, and tell the receptionist you think it might be chickenpox."
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "the symptoms get worse, such as red, hot or painful skin around the blisters (redness may be harder to see on brown or black skin)"
+      },
+      {
+       "kind": "li",
+       "text": "your child has chickenpox and is showing signs of dehydration , such as fewer wet nappies"
+      },
+      {
+       "kind": "li",
+       "text": "you've been near someone with chickenpox and you have a weakened immune system or you're pregnant"
+      },
+      {
+       "kind": "li",
+       "text": "you think your newborn baby has chickenpox or has been near someone with chickenpox"
+      },
+      {
+       "kind": "li",
+       "text": "you have chickenpox and you're more short of breath than usual"
+      },
+      {
+       "kind": "li",
+       "text": "you or your child have any other symptoms you're worried about"
+      },
+      {
+       "kind": "p",
+       "text": "Some people may be able to take medicine to prevent complications from chickenpox. It needs to be started within 24 hours of the spots appearing."
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online . Call 111 if you need advice for a child under 5 years old."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-bells-palsy": {
+   "url": "https://www.nhs.uk/conditions/bells-palsy/",
+   "title": "Bell’s palsy (facial weakness)",
+   "dateModified": "2024-11-27",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "somebody's face droops on 1 side (the mouth or eye may have drooped)"
+      },
+      {
+       "kind": "li",
+       "text": "a person cannot lift up both arms and keep them there"
+      },
+      {
+       "kind": "li",
+       "text": "a person has difficulty speaking (speech may be slurred or garbled)"
+      },
+      {
+       "kind": "p",
+       "text": "These can be signs of a stroke , which is a medical emergency."
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have symptoms of Bell's palsy"
+      },
+      {
+       "kind": "p",
+       "text": "It's important to get help as soon as possible because treatment for Bell's palsy is more effective if started early (within 72 hours)."
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-conjunctivitis": {
+   "url": "https://www.nhs.uk/conditions/conjunctivitis/",
+   "title": "Conjunctivitis (red eye)",
+   "dateModified": "2025-05-14",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your baby has red, sticky eyes – get an urgent appointment if your baby is less than 30 days old"
+      },
+      {
+       "kind": "li",
+       "text": "you wear contact lenses and have conjunctivitis symptoms as well as spots on your eyelids – you might be allergic to the lenses"
+      },
+      {
+       "kind": "li",
+       "text": "you have conjunctivitis and your symptoms have not cleared up within 7 days"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if you have:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "pain in your eyes"
+      },
+      {
+       "kind": "li",
+       "text": "sensitivity to light"
+      },
+      {
+       "kind": "li",
+       "text": "changes in your vision, like wavy lines or flashing"
+      },
+      {
+       "kind": "li",
+       "text": "very red eyes (1 eye or both eyes)"
+      },
+      {
+       "kind": "li",
+       "text": "a baby less than 30 days old with red, sticky eyes"
+      },
+      {
+       "kind": "p",
+       "text": "These can be signs of a more serious eye problem."
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online . Call 111 if you need help for a child under 5."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-insect-bites-and-stings": {
+   "url": "https://www.nhs.uk/conditions/insect-bites-and-stings/",
+   "title": "Insect bites and stings",
+   "dateModified": "2026-07-02",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a pharmacist if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You or your child aged 1 year or older has an insect bite or sting and:"
+      },
+      {
+       "kind": "li",
+       "text": "skin around it feels hot when you touch it or looks red – redness can be harder to see on brown and black skin"
+      },
+      {
+       "kind": "li",
+       "text": "it's painful"
+      },
+      {
+       "kind": "li",
+       "text": "the area looks swollen"
+      },
+      {
+       "kind": "li",
+       "text": "there's pus or fluid coming out of the bite or sting"
+      },
+      {
+       "kind": "p",
+       "text": "A pharmacist can recommend treatments, such as antihistamines and steroid creams, and give the same antibiotics as a GP if the bite or sting is infected. They can also give advice or direct you to other medical help if you need it."
+      }
+     ]
+    },
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "a child under 1 year old has an insect bite or sting"
+      },
+      {
+       "kind": "li",
+       "text": "you think you or your child have been bitten by a tick and have flu-like symptoms, or a round or oval rash that may look like a bullseye"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You or your child has been bitten or stung by an insect and:"
+      },
+      {
+       "kind": "li",
+       "text": "your symptoms get worse or are not getting any better"
+      },
+      {
+       "kind": "li",
+       "text": "you were stung in your mouth or throat, or near your eyes"
+      },
+      {
+       "kind": "li",
+       "text": "you have tummy pain and are being sick"
+      },
+      {
+       "kind": "li",
+       "text": "you feel dizzy or lightheaded"
+      },
+      {
+       "kind": "li",
+       "text": "you have a high temperature and swollen glands"
+      },
+      {
+       "kind": "li",
+       "text": "you were stung more than once"
+      },
+      {
+       "kind": "li",
+       "text": "you've had a serious allergic reaction to an insect bite or sting before"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online . Call 111 to get advice about a child under 5 years old."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your lips, mouth, throat or tongue suddenly become swollen"
+      },
+      {
+       "kind": "li",
+       "text": "you're breathing very fast or struggling to breathe (you may become very wheezy or feel like you're choking or gasping for air)"
+      },
+      {
+       "kind": "li",
+       "text": "your throat feels tight or you're struggling to swallow"
+      },
+      {
+       "kind": "li",
+       "text": "your skin, tongue or lips turn blue, grey or pale (if you have black or brown skin, this may be easier to see on the palms of your hands or soles of your feet)"
+      },
+      {
+       "kind": "li",
+       "text": "you suddenly become very confused, drowsy or dizzy"
+      },
+      {
+       "kind": "li",
+       "text": "someone faints and cannot be woken up"
+      },
+      {
+       "kind": "li",
+       "text": "a child is limp, floppy or not responding like they normally do (their head may fall to the side, backwards or forwards, or they may find it difficult to lift their head or focus on your face)"
+      },
+      {
+       "kind": "p",
+       "text": "You or the person who's unwell may also have a rash that's swollen, raised or itchy."
+      },
+      {
+       "kind": "p",
+       "text": "These can be signs of a serious allergic reaction and may need immediate treatment in hospital."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-atrial-fibrillation": {
+   "url": "https://www.nhs.uk/conditions/atrial-fibrillation/",
+   "title": "Atrial fibrillation",
+   "dateModified": "2026-07-08",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think you may have symptoms of atrial fibrillation"
+      },
+      {
+       "kind": "li",
+       "text": "you have heart palpitations that keep happening or are getting worse"
+      },
+      {
+       "kind": "li",
+       "text": "you have been diagnosed with atrial fibrillation and treatment is not helping your symptoms"
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You currently have a fast or irregular heartbeat, and any of these symptoms:"
+      },
+      {
+       "kind": "li",
+       "text": "chest pain"
+      },
+      {
+       "kind": "li",
+       "text": "shortness of breath"
+      },
+      {
+       "kind": "li",
+       "text": "sweating"
+      },
+      {
+       "kind": "li",
+       "text": "feeling or being sick"
+      },
+      {
+       "kind": "li",
+       "text": "fainting, feeling dizzy or falling over"
+      },
+      {
+       "kind": "li",
+       "text": "a severe headache"
+      },
+      {
+       "kind": "li",
+       "text": "weakness or numbness on one side of your face or body"
+      },
+      {
+       "kind": "li",
+       "text": "blurred vision or loss of sight"
+      },
+      {
+       "kind": "li",
+       "text": "confusion or difficulty speaking"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-sciatica": {
+   "url": "https://www.nhs.uk/conditions/sciatica/",
+   "title": "Sciatica",
+   "dateModified": "2026-08-27",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have sciatica and the pain:"
+      },
+      {
+       "kind": "li",
+       "text": "has not improved after trying home treatments for a few weeks"
+      },
+      {
+       "kind": "li",
+       "text": "is getting worse"
+      },
+      {
+       "kind": "li",
+       "text": "is stopping you doing your normal activities"
+      },
+      {
+       "kind": "p",
+       "text": "In many areas you may be able to get help, such as physiotherapy, from NHS community musculoskeletal (MSK) services without needing a referral from a GP."
+      },
+      {
+       "kind": "p",
+       "text": "Get NHS help for back or joint problems"
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E or call 999 if you:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "have sciatica on both sides"
+      },
+      {
+       "kind": "li",
+       "text": "have weakness or numbness in both legs that's severe or getting worse"
+      },
+      {
+       "kind": "li",
+       "text": "have numbness around or under your genitals, or around your bottom (anus)"
+      },
+      {
+       "kind": "li",
+       "text": "find it hard to start peeing, cannot pee or cannot control when you pee – and this is not normal for you"
+      },
+      {
+       "kind": "li",
+       "text": "do not notice when you need to poo or cannot control when you poo – and this is not normal for you"
+      },
+      {
+       "kind": "p",
+       "text": "These could be symptoms of a serious back problem that needs to be treated in hospital as soon as possible."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-hand-foot-mouth-disease": {
+   "url": "https://www.nhs.uk/conditions/hand-foot-mouth-disease/",
+   "title": "Hand, foot and mouth disease",
+   "dateModified": "2025-12-09",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "symptoms of hand, foot and mouth disease do not improve after 7 to 10 days"
+      },
+      {
+       "kind": "li",
+       "text": "you're pregnant and get hand, foot and mouth disease"
+      },
+      {
+       "kind": "p",
+       "text": "Hand, foot and mouth disease can be spread to other people."
+      },
+      {
+       "kind": "p",
+       "text": "Check with your GP surgery before going. They may suggest a phone consultation."
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you or your child has a very high temperature, or feels hot, cold or shivery"
+      },
+      {
+       "kind": "li",
+       "text": "you're worried about your child's hand, foot and mouth disease symptoms"
+      },
+      {
+       "kind": "li",
+       "text": "your child has hand, foot and mouth disease and is peeing less than usual (they may be becoming dehydrated)"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-impetigo": {
+   "url": "https://www.nhs.uk/conditions/impetigo/",
+   "title": "Impetigo",
+   "dateModified": "2025-06-25",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a pharmacist if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have symptoms of impetigo"
+      },
+      {
+       "kind": "li",
+       "text": "your child is aged 12 months or over and has symptoms of impetigo"
+      },
+      {
+       "kind": "p",
+       "text": "A pharmacist can give the same medicines as a GP to treat impetigo. They can also give advice or direct you to to other medical help if you need it."
+      }
+     ]
+    },
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You or your child have symptoms of impetigo and:"
+      },
+      {
+       "kind": "li",
+       "text": "your child is aged 11 months or younger"
+      },
+      {
+       "kind": "li",
+       "text": "you're breastfeeding and the impetigo sores are on your breasts"
+      },
+      {
+       "kind": "li",
+       "text": "have a weakened immune system, for example, from chemotherapy"
+      },
+      {
+       "kind": "li",
+       "text": "have had treatment but the symptoms have changed or become worse"
+      },
+      {
+       "kind": "li",
+       "text": "have had impetigo in the past year and it has come back"
+      },
+      {
+       "kind": "p",
+       "text": "Impetigo is very infectious. Check with the GP surgery before you go in. They may suggest a phone consultation."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-gallstones": {
+   "url": "https://www.nhs.uk/conditions/gallstones/",
+   "title": "Gallstones",
+   "dateModified": "2025-11-25",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have pain in your tummy that lasts longer than 30 minutes"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have sudden, severe pain in your tummy"
+      },
+      {
+       "kind": "li",
+       "text": "you have pain that spreads from your tummy to your back, and are being sick"
+      },
+      {
+       "kind": "li",
+       "text": "your temperature is very high, or you feel hot, cold or shivery"
+      },
+      {
+       "kind": "li",
+       "text": "your skin or the white part of your eyes looks yellow"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-piles-haemorrhoids": {
+   "url": "https://www.nhs.uk/conditions/piles-haemorrhoids/",
+   "title": "Piles (haemorrhoids)",
+   "dateModified": "2026-07-14",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have symptoms of piles and they're getting worse or there's no improvement after trying treatments at home"
+      },
+      {
+       "kind": "li",
+       "text": "you keep getting piles"
+      },
+      {
+       "kind": "li",
+       "text": "you notice a change around your anus that is not normal for you"
+      },
+      {
+       "kind": "p",
+       "text": "The GP may prescribe stronger medicines for piles or constipation. They may also check your symptoms are not being caused by something else."
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have piles and:"
+      },
+      {
+       "kind": "li",
+       "text": "your temperature is very high, or you feel hot, cold or shivery and generally unwell"
+      },
+      {
+       "kind": "li",
+       "text": "painless bleeding from the bottom"
+      },
+      {
+       "kind": "li",
+       "text": "pus is leaking from your piles"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E or call 999 if you have piles and:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you are bleeding non-stop"
+      },
+      {
+       "kind": "li",
+       "text": "there is a lot of blood or you see large blood clots"
+      },
+      {
+       "kind": "li",
+       "text": "you are in severe pain"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-sepsis": {
+   "url": "https://www.nhs.uk/conditions/sepsis/",
+   "title": "Sepsis",
+   "dateModified": "2026-07-06",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "is breathing very fast or having difficulty breathing – they may make grunting noises or their tummy may be sucking under their ribcage when they breathe"
+      },
+      {
+       "kind": "li",
+       "text": "has blue, grey, pale or blotchy skin, lips or tongue – on black or brown skin, this may be easier to see on the palms of the hands or soles of the feet"
+      },
+      {
+       "kind": "li",
+       "text": "has a rash that does not fade when you press it"
+      },
+      {
+       "kind": "li",
+       "text": "has a very high temperature – 38C or more in babies under 3 months old, or 39C or more in babies 3 to 6 months old"
+      },
+      {
+       "kind": "li",
+       "text": "has a very low temperature – less than 36C, or feels cold to the touch or is shivery"
+      },
+      {
+       "kind": "li",
+       "text": "has a weak, high-pitched or continuous cry"
+      },
+      {
+       "kind": "li",
+       "text": "is not responding like they normally do, is not feeding, is difficult to wake or is more sleepy than usual"
+      },
+      {
+       "kind": "li",
+       "text": "has not had a pee for the last 12 hours"
+      },
+      {
+       "kind": "li",
+       "text": "has symptoms you're worried might be sepsis"
+      },
+      {
+       "kind": "li",
+       "text": "is breathing very fast"
+      },
+      {
+       "kind": "li",
+       "text": "is confused, has slurred speech, or is not making sense"
+      },
+      {
+       "kind": "li",
+       "text": "has blue, pale or blotchy skin – on black or brown skin, this may be easier to see on the palms of the hands or soles of the feet"
+      },
+      {
+       "kind": "li",
+       "text": "has a very high or very low temperature, feels hot or cold to the touch, or is shivery"
+      },
+      {
+       "kind": "li",
+       "text": "has a rash that does not fade when you press it"
+      },
+      {
+       "kind": "li",
+       "text": "has symptoms you're worried might be sepsis"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you or your child have had sepsis in the past 12 months and have symptoms of an infection, such as a very high temperature, or feeling hot, cold or shivery"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-toothache": {
+   "url": "https://www.nhs.uk/conditions/toothache/",
+   "title": "Toothache and dental pain",
+   "dateModified": "2026-05-12",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a dentist if you have toothache:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "that lasts more than 2 days"
+      },
+      {
+       "kind": "li",
+       "text": "that does not go away when you take painkillers"
+      },
+      {
+       "kind": "li",
+       "text": "with a high temperature, pain when you bite, red gums, or a bad taste in your mouth"
+      },
+      {
+       "kind": "li",
+       "text": "and your cheek or jaw is swollen"
+      },
+      {
+       "kind": "p",
+       "text": "Do not go to your GP as they will not be able to give you dental treatment."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E if you have toothache and:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "the area around your eye or your neck is swollen"
+      },
+      {
+       "kind": "li",
+       "text": "swelling in your mouth or neck is making it difficult for you to breathe, swallow or speak"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-joint-hypermobility": {
+   "url": "https://www.nhs.uk/conditions/joint-hypermobility-syndrome/",
+   "title": "Joint hypermobility syndrome",
+   "dateModified": "2026-07-09",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think you or your child have joint hypermobility syndrome"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-tendonitis": {
+   "url": "https://www.nhs.uk/conditions/tendonitis/",
+   "title": "Tendonitis (including Achilles tendon)",
+   "dateModified": "2026-04-15",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have injured a joint and your symptoms do not improve within a few weeks"
+      },
+      {
+       "kind": "p",
+       "text": "In many areas you may be able to get help, such as physiotherapy, from NHS community musculoskeletal (MSK) services without needing a referral from a GP."
+      },
+      {
+       "kind": "p",
+       "text": "Get NHS help for back or joint problems"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're in a lot of pain"
+      },
+      {
+       "kind": "li",
+       "text": "you think you have ruptured a tendon"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-temporal-arteritis": {
+   "url": "https://www.nhs.uk/conditions/temporal-arteritis/",
+   "title": "Giant cell arteritis (temporal arteritis)",
+   "dateModified": "2026-07-13",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think you might have temporal arteritis"
+      },
+      {
+       "kind": "p",
+       "text": "It can lead to serious problems like stroke and blindness if not treated quickly."
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-heart-failure": {
+   "url": "https://www.nhs.uk/conditions/heart-failure/",
+   "title": "Heart failure",
+   "dateModified": "2026-07-31",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have symptoms of heart failure"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appoint or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you feel breathless when lying down or from everyday activity"
+      },
+      {
+       "kind": "li",
+       "text": "you're coughing up frothy pink phlegm"
+      },
+      {
+       "kind": "li",
+       "text": "you have suddenly gained weight"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're having severe difficulty breathing – you're gasping, choking or not able to get words out"
+      },
+      {
+       "kind": "li",
+       "text": "your lips or skin are pale, blue or grey – on brown or black skin this may be easier to see on the palms of the hands, soles of the feet or gums"
+      },
+      {
+       "kind": "li",
+       "text": "someone has passed out and is not responding normally"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-iron-deficiency-anaemia": {
+   "url": "https://www.nhs.uk/conditions/iron-deficiency-anaemia/",
+   "title": "Iron deficiency anaemia",
+   "dateModified": "2026-05-06",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think you might have iron deficiency anaemia"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-svt": {
+   "url": "https://www.nhs.uk/conditions/supraventricular-tachycardia-svt/",
+   "title": "Supraventricular tachycardia (SVT)",
+   "dateModified": "2024-07-01",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you keep getting a fast heartbeat"
+      },
+      {
+       "kind": "p",
+       "text": "It's important to get it checked out. You might need a test, such as an electrocardiogram (ECG) , to find out what's going on."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've been diagnosed with supraventricular tachycardia (SVT) and your episode has lasted longer than usual"
+      },
+      {
+       "kind": "li",
+       "text": "you have a fast heartbeat with shortness of breath, chest pain or feeling faint"
+      },
+      {
+       "kind": "p",
+       "text": "You need to go to hospital for treatment immediately."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-pleurisy": {
+   "url": "https://www.nhs.uk/conditions/pleurisy/",
+   "title": "Pleurisy",
+   "dateModified": "2026-05-13",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have sharp chest pain that comes and goes, or only happens when breathing or coughing"
+      },
+      {
+       "kind": "li",
+       "text": "you have sharp chest pain that has not got better after a few days"
+      },
+      {
+       "kind": "li",
+       "text": "you've coughed up a few small spots, flecks or streaks of blood, or noticed blood in your phlegm or on a handkerchief"
+      },
+      {
+       "kind": "li",
+       "text": "you're feeling short of breath regularly"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have sudden chest pain that lasts for 15 minutes or more"
+      },
+      {
+       "kind": "li",
+       "text": "you have sudden chest pain that spreads to your arms, back, neck or jaw"
+      },
+      {
+       "kind": "li",
+       "text": "you have difficulty breathing"
+      },
+      {
+       "kind": "li",
+       "text": "you're coughing up more than just a few spots or streaks of blood"
+      },
+      {
+       "kind": "li",
+       "text": "you're coughing up blood and finding it hard to breathe, have a very fast heartbeat, or have pain in your chest or upper back"
+      },
+      {
+       "kind": "p",
+       "text": "These symptoms could be a sign of a more serious problem, such as a heart attack or a blood clot in the lungs ( pulmonary embolism )."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-hypoglycaemia": {
+   "url": "https://www.nhs.uk/conditions/low-blood-sugar-hypoglycaemia/",
+   "title": "Low blood sugar (hypoglycaemia)",
+   "dateModified": "2026-08-12",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You think someone has very low blood sugar and they're not responding normally or they're unconscious, and:"
+      },
+      {
+       "kind": "li",
+       "text": "a glucagon injection is not available or you do not know how to use it"
+      },
+      {
+       "kind": "li",
+       "text": "you've given a glucagon injection and they have not recovered within 10 minutes"
+      },
+      {
+       "kind": "li",
+       "text": "they've been drinking alcohol"
+      }
+     ]
+    },
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have diabetes and you get low blood sugar (hypos) often, you've had severe hypos or you've had hypos at night"
+      },
+      {
+       "kind": "li",
+       "text": "you have diabetes and you do not always recognise the symptoms when you have low blood sugar"
+      },
+      {
+       "kind": "li",
+       "text": "you do not have diabetes and you get symptoms of low blood sugar such as shaking, sweating, a fast heartbeat and feeling confused"
+      },
+      {
+       "kind": "p",
+       "text": "If you have diabetes, you can also speak to your diabetes care team for advice."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-mastitis": {
+   "url": "https://www.nhs.uk/conditions/mastitis/",
+   "title": "Mastitis",
+   "dateModified": "2026-07-14",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your symptoms do not get better 12 to 24 hours after treating it at home"
+      },
+      {
+       "kind": "li",
+       "text": "your symptoms do not get better 48 hours after taking antibiotics"
+      },
+      {
+       "kind": "li",
+       "text": "you get mastitis and you are not breastfeeding"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-epididymitis": {
+   "url": "https://www.nhs.uk/conditions/epididymitis/",
+   "title": "Epididymitis (testicular pain)",
+   "dateModified": "2026-05-08",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have a lump in your testicles"
+      },
+      {
+       "kind": "li",
+       "text": "you have swollen testicles"
+      },
+      {
+       "kind": "li",
+       "text": "there's a change in the shape of your testicles"
+      },
+      {
+       "kind": "li",
+       "text": "you notice a change in the way your testicles feel"
+      },
+      {
+       "kind": "li",
+       "text": "1 testicle becomes bigger than the other"
+      },
+      {
+       "kind": "li",
+       "text": "you get aching or discomfort in your testicles that does not go away"
+      },
+      {
+       "kind": "p",
+       "text": "Lumps in the testicles can be a sign of testicular cancer. This is easier to treat if it's found early."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you get sudden, unbearable pain in your testicles or tummy"
+      },
+      {
+       "kind": "p",
+       "text": "This could be caused by your testicle becoming twisted and needs to be treated in hospital as soon as possible."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-shortness-of-breath": {
+   "url": "https://www.nhs.uk/symptoms/shortness-of-breath/",
+   "title": "Shortness of breath",
+   "dateModified": "2026-07-02",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E immediately if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have severe difficulty breathing – you’re gasping, choking or not able to get words out"
+      },
+      {
+       "kind": "li",
+       "text": "your chest feels tight or heavy"
+      },
+      {
+       "kind": "li",
+       "text": "you have pain that spreads to your arms, back, neck and jaw"
+      },
+      {
+       "kind": "li",
+       "text": "your lips or skin are turning very pale, blue or grey – on brown or black skin, this may be easier to see on the palms of the hands"
+      },
+      {
+       "kind": "li",
+       "text": "you feel suddenly confused"
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E immediately if your child:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "has difficulty breathing – they may make grunting noises or suck their stomach in under their ribcage"
+      },
+      {
+       "kind": "li",
+       "text": "has lips or skin that are turning very pale, blue or grey – on brown or black skin, this may be easier to see on the palms of the hands"
+      },
+      {
+       "kind": "li",
+       "text": "is suddenly confused (agitated, behaving oddly or crying constantly)"
+      },
+      {
+       "kind": "li",
+       "text": "is limp, floppy or not responding like they normally do - their head may fall to the side, backwards or forwards, or they may find it difficult to lift their head or focus on your face"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Contact NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have difficulty breathing – you may be more short of breath than usual"
+      },
+      {
+       "kind": "li",
+       "text": "you feel sick or are being sick"
+      },
+      {
+       "kind": "li",
+       "text": "you're coughing up blood"
+      },
+      {
+       "kind": "li",
+       "text": "you have pain or swelling in 1 of your legs"
+      },
+      {
+       "kind": "li",
+       "text": "you have heart palpitations – this may feel like your heart is racing, going too slowly or skipping a beat or like a fluttering feeling in your chest"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online"
+      }
+     ]
+    },
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your shortness of breath gets worse when you've been doing your normal activities, or when you lie down"
+      },
+      {
+       "kind": "li",
+       "text": "you feel short of breath and have swollen ankles"
+      },
+      {
+       "kind": "li",
+       "text": "you've been coughing for 3 weeks or more"
+      },
+      {
+       "kind": "p",
+       "text": "It's important to get medical advice to make sure it's nothing serious. You're not wasting anyone's time by getting it checked out."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-dizziness": {
+   "url": "https://www.nhs.uk/symptoms/dizziness/",
+   "title": "Dizziness",
+   "dateModified": "2025-06-19",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're worried about your dizziness or vertigo"
+      },
+      {
+       "kind": "li",
+       "text": "it will not go away or it keeps coming back"
+      },
+      {
+       "kind": "li",
+       "text": "you're finding it harder to hear or speak"
+      },
+      {
+       "kind": "li",
+       "text": "there's ringing or other sounds in your ears (tinnitus)"
+      },
+      {
+       "kind": "li",
+       "text": "you have double vision, blurred vision or other changes in your eyesight"
+      },
+      {
+       "kind": "li",
+       "text": "your face, arms or legs feel numb or weak"
+      },
+      {
+       "kind": "li",
+       "text": "you have other symptoms like changes to your pulse, fainting or collapsing, headaches, feeling or being sick"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-fainting": {
+   "url": "https://www.nhs.uk/symptoms/fainting/",
+   "title": "Fainting",
+   "dateModified": "2026-08-19",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have fainted"
+      },
+      {
+       "kind": "p",
+       "text": "It’s probably nothing serious, but it’s important to get checked by a GP to find out what might have caused it."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if someone:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "is not breathing"
+      },
+      {
+       "kind": "li",
+       "text": "cannot be woken up within 1 minute"
+      },
+      {
+       "kind": "li",
+       "text": "has not fully recovered or has difficulty with speech or movement"
+      },
+      {
+       "kind": "li",
+       "text": "has chest pain or a pounding, fluttering or irregular heartbeat (heart palpitations)"
+      },
+      {
+       "kind": "li",
+       "text": "has seriously hurt themselves before or after fainting"
+      },
+      {
+       "kind": "li",
+       "text": "is shaking or jerking (having a seizure or fit)"
+      },
+      {
+       "kind": "li",
+       "text": "fainted while exercising"
+      },
+      {
+       "kind": "li",
+       "text": "fainted while lying down"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-head-injury": {
+   "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+   "title": "Head injury and concussion",
+   "dateModified": "2026-06-01",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "Someone has hit their head and:"
+      },
+      {
+       "kind": "li",
+       "text": "has been knocked out and has not woken up"
+      },
+      {
+       "kind": "li",
+       "text": "cannot stay awake or keep their eyes open"
+      },
+      {
+       "kind": "li",
+       "text": "has a fit (seizure)"
+      },
+      {
+       "kind": "li",
+       "text": "has fallen from a height of more than 1 metre or 5 stairs"
+      },
+      {
+       "kind": "li",
+       "text": "has problems with their vision or hearing"
+      },
+      {
+       "kind": "li",
+       "text": "has a black eye, but did not hit their eye"
+      },
+      {
+       "kind": "li",
+       "text": "has clear fluid coming from their ears or nose"
+      },
+      {
+       "kind": "li",
+       "text": "is bleeding from their ears or has bruising behind their ears"
+      },
+      {
+       "kind": "li",
+       "text": "has new numbness or weakness in any part of their body"
+      },
+      {
+       "kind": "li",
+       "text": "has problems with walking, balance, understanding, speaking or writing"
+      },
+      {
+       "kind": "li",
+       "text": "hit their head at high speed, such as in a road accident"
+      },
+      {
+       "kind": "li",
+       "text": "has a head wound with something inside it or has a dent in their head"
+      },
+      {
+       "kind": "li",
+       "text": "has a bruise, swelling or large cut on their head and they are under 1 year old"
+      },
+      {
+       "kind": "li",
+       "text": "their behaviour has changed, like being more irritable or distracted, or losing interest in things around them"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You or someone else have recently had a head injury and:"
+      },
+      {
+       "kind": "li",
+       "text": "are being sick (vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "feel dizzy"
+      },
+      {
+       "kind": "li",
+       "text": "have a condition that thins your blood or take medicine that thins your blood"
+      },
+      {
+       "kind": "li",
+       "text": "were drinking alcohol or taking drugs at the time of the injury"
+      },
+      {
+       "kind": "li",
+       "text": "have any other symptoms you're worried about"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online . Call 111 if you need advice for a child under 5 years old."
+      }
+     ]
+    },
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "symptoms of a head injury last more than 2 weeks"
+      },
+      {
+       "kind": "li",
+       "text": "you're not sure if it's safe to drive or return to work, school or sports after a head injury"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-back-pain": {
+   "url": "https://www.nhs.uk/conditions/back-pain/",
+   "title": "Back pain",
+   "dateModified": "2026-04-14",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have back pain and:"
+      },
+      {
+       "kind": "li",
+       "text": "it does not improve after treating it at home for a few weeks"
+      },
+      {
+       "kind": "li",
+       "text": "it's stopping you doing your day-to-day activities"
+      },
+      {
+       "kind": "li",
+       "text": "you're worried about the pain or you're struggling to cope"
+      },
+      {
+       "kind": "li",
+       "text": "you've lost weight without trying to"
+      },
+      {
+       "kind": "li",
+       "text": "there's a lump or swelling in your back, or your back has changed shape"
+      },
+      {
+       "kind": "li",
+       "text": "it does not improve after resting or is worse at night"
+      },
+      {
+       "kind": "li",
+       "text": "it's worse when sneezing, coughing or pooing"
+      },
+      {
+       "kind": "li",
+       "text": "it's coming from the top of your back (between your shoulders), rather than your lower back"
+      },
+      {
+       "kind": "p",
+       "text": "In many areas you may be able to get help, such as physiotherapy, from NHS community musculoskeletal (MSK) services without needing a referral from a GP."
+      },
+      {
+       "kind": "p",
+       "text": "Get NHS help for back or joint problems"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have back pain and:"
+      },
+      {
+       "kind": "li",
+       "text": "you feel hot, cold, shivery or generally unwell"
+      },
+      {
+       "kind": "li",
+       "text": "it's severe pain that starts suddenly, or it's getting worse quickly"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have back pain and:"
+      },
+      {
+       "kind": "li",
+       "text": "pain, tingling, weakness or numbness in both legs"
+      },
+      {
+       "kind": "li",
+       "text": "a loss of feeling around your genitals or anus"
+      },
+      {
+       "kind": "li",
+       "text": "changes in your bladder or bowels, such as difficulty peeing, or peeing or pooing yourself"
+      },
+      {
+       "kind": "li",
+       "text": "changes in how your penis or vagina feels during sex, not being able to get or keep an erection, or not being able to orgasm"
+      },
+      {
+       "kind": "li",
+       "text": "chest pain"
+      },
+      {
+       "kind": "li",
+       "text": "it started after a serious accident, such as a car accident"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-neck-pain": {
+   "url": "https://www.nhs.uk/symptoms/neck-pain-and-stiff-neck/",
+   "title": "Neck pain",
+   "dateModified": "2026-04-14",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "neck pain or stiffness does not go away after a few weeks"
+      },
+      {
+       "kind": "li",
+       "text": "painkillers like paracetamol or ibuprofen have not worked"
+      },
+      {
+       "kind": "li",
+       "text": "you're worried about the pain"
+      },
+      {
+       "kind": "li",
+       "text": "you have other symptoms, like pins and needles or a cold arm – this could be something more serious"
+      },
+      {
+       "kind": "p",
+       "text": "In many areas you may be able to get help, such as physiotherapy, from NHS community musculoskeletal (MSK) services without needing a referral from a GP."
+      },
+      {
+       "kind": "p",
+       "text": "Get NHS help for back or joint problems"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-testicle-lumps": {
+   "url": "https://www.nhs.uk/symptoms/testicle-lumps-and-swellings/",
+   "title": "Testicle lumps and swellings",
+   "dateModified": "2025-04-16",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if you have:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "a lump in your testicles"
+      },
+      {
+       "kind": "li",
+       "text": "swollen testicles"
+      },
+      {
+       "kind": "li",
+       "text": "a change in the shape of your testicles"
+      },
+      {
+       "kind": "li",
+       "text": "a change in the way your testicles feel"
+      },
+      {
+       "kind": "li",
+       "text": "1 testicle that has become bigger than the other"
+      },
+      {
+       "kind": "li",
+       "text": "aching or discomfort in your testicles that does not go away"
+      },
+      {
+       "kind": "p",
+       "text": "Lumps in the testicles can be a sign of testicular cancer . This is easier to treat if it's found early."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E immediately or call 999 if you have any of these symptoms:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "sudden, severe pain in a testicle"
+      },
+      {
+       "kind": "li",
+       "text": "testicle pain along with feeling sick, being sick or pain in your tummy"
+      },
+      {
+       "kind": "li",
+       "text": "testicle pain that has lasted more than an hour or continues when you're resting"
+      },
+      {
+       "kind": "p",
+       "text": "These can be signs of a serious problem that needs to be treated in hospital as soon as possible."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-testicle-pain": {
+   "url": "https://www.nhs.uk/symptoms/testicle-pain/",
+   "title": "Testicle pain",
+   "dateModified": "2025-07-04",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E immediately or call 999 if you have:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "sudden, severe pain in a testicle"
+      },
+      {
+       "kind": "li",
+       "text": "testicle pain along with feeling sick, being sick or pain in your tummy"
+      },
+      {
+       "kind": "li",
+       "text": "testicle pain that has lasted more than an hour or continues when you're resting"
+      },
+      {
+       "kind": "p",
+       "text": "These can be signs of a serious problem that needs to be treated in hospital as soon as possible."
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if you have:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "aching or discomfort in your testicles that you're worried about"
+      },
+      {
+       "kind": "li",
+       "text": "a lump in your testicles"
+      },
+      {
+       "kind": "li",
+       "text": "swollen testicles"
+      },
+      {
+       "kind": "li",
+       "text": "a change in the shape of your testicles"
+      },
+      {
+       "kind": "li",
+       "text": "a change in the way your testicles feel"
+      },
+      {
+       "kind": "li",
+       "text": "a testicle that has become bigger than the other"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-blood-in-urine": {
+   "url": "https://www.nhs.uk/symptoms/blood-in-urine/",
+   "title": "Blood in urine",
+   "dateModified": "2025-04-16",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have blood in your pee, even if:"
+      },
+      {
+       "kind": "li",
+       "text": "you do not have any other symptoms"
+      },
+      {
+       "kind": "li",
+       "text": "it's the first time it's happened"
+      },
+      {
+       "kind": "li",
+       "text": "there's only a small amount of blood"
+      },
+      {
+       "kind": "li",
+       "text": "you're not sure it's blood"
+      },
+      {
+       "kind": "p",
+       "text": "Blood in your pee may be bright pink, red or dark brown."
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-coughing-up-blood": {
+   "url": "https://www.nhs.uk/symptoms/coughing-up-blood/",
+   "title": "Coughing up blood (blood in phlegm)",
+   "dateModified": "2025-07-21",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've coughed up a few small spots, flecks or streaks of blood, or noticed blood in your phlegm or handkerchief"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E immediately if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're coughing up more than just a few spots or streaks of blood"
+      },
+      {
+       "kind": "li",
+       "text": "you're coughing up blood and finding it hard to breathe, have a very fast heartbeat or have pain in your chest or upper back"
+      },
+      {
+       "kind": "p",
+       "text": "These symptoms could be a sign of a more serious problem like a blood clot in the lungs ( pulmonary embolism )."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-fever-in-adults": {
+   "url": "https://www.nhs.uk/symptoms/fever-in-adults/",
+   "title": "High temperature (fever) in adults",
+   "dateModified": "2026-07-09",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if you have:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "a high temperature and you've been treating it at home but it's not getting better or is getting worse"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-meningitis": {
+   "url": "https://www.nhs.uk/conditions/meningitis/",
+   "title": "Meningitis",
+   "dateModified": "2026-08-27",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "has a very high or very low temperature, feels hot or cold to the touch, or is shivery"
+      },
+      {
+       "kind": "li",
+       "text": "has a very painful headache"
+      },
+      {
+       "kind": "li",
+       "text": "is confused, has slurred speech, or is not making sense"
+      },
+      {
+       "kind": "li",
+       "text": "has a stiff neck and cannot look at bright lights"
+      },
+      {
+       "kind": "li",
+       "text": "has a rash that does not fade when you press it"
+      },
+      {
+       "kind": "li",
+       "text": "has a seizure (fit) for the first time"
+      },
+      {
+       "kind": "li",
+       "text": "has symptoms you're worried might be meningitis"
+      },
+      {
+       "kind": "li",
+       "text": "has a very high temperature – 38C or more in babies under 3 months old, or 39C or more in babies 3 to 6 months old"
+      },
+      {
+       "kind": "li",
+       "text": "has a very low temperature – less than 36C, or feels cold to the touch or is shivery"
+      },
+      {
+       "kind": "li",
+       "text": "has a weak, high-pitched or continuous cry"
+      },
+      {
+       "kind": "li",
+       "text": "has a rash that does not fade when you press it"
+      },
+      {
+       "kind": "li",
+       "text": "is not responding like they normally do, is not feeding, or is floppy, difficult to wake or more sleepy than usual"
+      },
+      {
+       "kind": "li",
+       "text": "has symptoms you're worried might be meningitis"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-appendicitis": {
+   "url": "https://www.nhs.uk/conditions/appendicitis/",
+   "title": "Appendicitis",
+   "dateModified": "2025-04-02",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You or your child have pain in your abdomen (tummy) that:"
+      },
+      {
+       "kind": "li",
+       "text": "is gradually getting worse or does not go away"
+      },
+      {
+       "kind": "li",
+       "text": "moves to the lower right side of your abdomen"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You or your child have:"
+      },
+      {
+       "kind": "li",
+       "text": "severe pain in your abdomen (tummy)"
+      },
+      {
+       "kind": "li",
+       "text": "confusion, blotchy or paler than usual skin (on brown or black skin this may be easier to see on the palms of the hands or soles of the feet) or difficulty breathing – these could be signs of sepsis"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-dvt": {
+   "url": "https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/",
+   "title": "DVT (deep vein thrombosis)",
+   "dateModified": "2026-08-11",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think you have DVT (deep vein thrombosis)"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      },
+      {
+       "kind": "p",
+       "text": "If you're pregnant you can also call an early pregnancy unit (if you're less than 20 weeks) or your maternity unit, if you have the phone number."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have symptoms of DVT (deep vein thrombosis), such as pain and swelling, and:"
+      },
+      {
+       "kind": "li",
+       "text": "feel short of breath"
+      },
+      {
+       "kind": "li",
+       "text": "have chest pain"
+      },
+      {
+       "kind": "p",
+       "text": "DVT can be very serious because blood clots can travel to your lungs. This is called a pulmonary embolism ."
+      },
+      {
+       "kind": "p",
+       "text": "A pulmonary embolism can be life-threatening and needs treatment straight away."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-pulmonary-embolism": {
+   "url": "https://www.nhs.uk/conditions/pulmonary-embolism/",
+   "title": "Pulmonary embolism",
+   "dateModified": "2025-06-02",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have difficulty breathing which comes on suddenly"
+      },
+      {
+       "kind": "li",
+       "text": "you're coughing up blood"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have severe difficulty breathing"
+      },
+      {
+       "kind": "li",
+       "text": "you feel pain in your chest or upper back"
+      },
+      {
+       "kind": "li",
+       "text": "your heart is beating very fast"
+      },
+      {
+       "kind": "li",
+       "text": "someone has passed out"
+      },
+      {
+       "kind": "p",
+       "text": "These could be signs of a pulmonary embolism or another serious condition."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-uti": {
+   "url": "https://www.nhs.uk/conditions/urinary-tract-infections-utis/",
+   "title": "Urinary tract infections (UTIs)",
+   "dateModified": "2026-08-06",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a pharmacist if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think you have a urinary tract infection (UTI) and you are a woman or girl aged between 16 and 64 and are not pregnant or breastfeeding"
+      },
+      {
+       "kind": "p",
+       "text": "A pharmacist can give the same medicines as a GP to treat a UTI. They can also give advice or direct you to other medical help."
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You think you, your child or someone you care for may have a urinary tract infection (UTI) and:"
+      },
+      {
+       "kind": "li",
+       "text": "you're aged 65 or older"
+      },
+      {
+       "kind": "li",
+       "text": "your child is aged 15 or younger"
+      },
+      {
+       "kind": "li",
+       "text": "you have a very high or low temperature, feel hot or cold, or are shivering"
+      },
+      {
+       "kind": "li",
+       "text": "you're a man, or are trans or non-binary and were assigned male at birth"
+      },
+      {
+       "kind": "li",
+       "text": "you have diabetes"
+      },
+      {
+       "kind": "li",
+       "text": "your symptoms get worse quickly, or do not improve within 48 hours (2 days) of starting treatment or treating it yourself"
+      },
+      {
+       "kind": "li",
+       "text": "you keep getting UTIs (2 within 6 months, or 3 within 12 months)"
+      },
+      {
+       "kind": "li",
+       "text": "you use a catheter"
+      },
+      {
+       "kind": "li",
+       "text": "you're pregnant"
+      },
+      {
+       "kind": "li",
+       "text": "you have pain in the lower tummy or in the back, just under the ribs"
+      },
+      {
+       "kind": "li",
+       "text": "you have blood in your pee – your pee may look bright pink, red or dark brown"
+      },
+      {
+       "kind": "li",
+       "text": "you have a weakened immune system"
+      },
+      {
+       "kind": "p",
+       "text": "Some of these could be symptoms of a kidney infection , which can be serious if it's not treated as it could cause sepsis ."
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you or your child are confused, drowsy, or have difficulty speaking"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-kidney-infection": {
+   "url": "https://www.nhs.uk/conditions/kidney-infection/",
+   "title": "Kidney infection",
+   "dateModified": "2026-07-09",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if you or your child have:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "pain, burning or stinging when you pee"
+      },
+      {
+       "kind": "li",
+       "text": "needing to pee more often and urgently than usual"
+      },
+      {
+       "kind": "li",
+       "text": "pee that's dark or cloudy"
+      },
+      {
+       "kind": "li",
+       "text": "kidney infection symptoms that have not gone away after treatment with antibiotics"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You think you or your child may have a kidney infection and:"
+      },
+      {
+       "kind": "li",
+       "text": "have a very high temperature, or feel hot, cold or shivery"
+      },
+      {
+       "kind": "li",
+       "text": "have a very low temperature below 36C"
+      },
+      {
+       "kind": "li",
+       "text": "have pain in the lower tummy or in the back, just under the ribs"
+      },
+      {
+       "kind": "li",
+       "text": "have blood in your pee"
+      },
+      {
+       "kind": "li",
+       "text": "are feeling or being sick"
+      },
+      {
+       "kind": "li",
+       "text": "have not had a pee all day"
+      },
+      {
+       "kind": "li",
+       "text": "you are pregnant"
+      },
+      {
+       "kind": "p",
+       "text": "A kidney infection can be serious if it's not treated as it can cause sepsis ."
+      },
+      {
+       "kind": "p",
+       "text": "Call 111 or get help from 111 online if you cannot speak to or see a GP, or your symptoms are getting worse."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you are confused, drowsy or have difficulty speaking"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-pneumonia": {
+   "url": "https://www.nhs.uk/conditions/pneumonia/",
+   "title": "Pneumonia",
+   "dateModified": "2026-09-01",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've had a cough for up to 3 weeks"
+      },
+      {
+       "kind": "li",
+       "text": "you're coughing up yellow or green mucus (phlegm)"
+      },
+      {
+       "kind": "li",
+       "text": "you have chest pain that comes and goes, or happens when breathing or coughing"
+      },
+      {
+       "kind": "li",
+       "text": "you're feeling short of breath"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-asthma": {
+   "url": "https://www.nhs.uk/conditions/asthma/",
+   "title": "Asthma (including asthma attacks)",
+   "dateModified": "2025-04-10",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you or your child have asthma symptoms"
+      },
+      {
+       "kind": "li",
+       "text": "you or your child have asthma and treatments are not helping, you're needing to use your inhaler more often, or you need advice about using your inhaler"
+      },
+      {
+       "kind": "li",
+       "text": "you or your child have asthma and your symptoms are not improving or are stopping you doing your usual activities or waking you up at night"
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You or someone else is having an asthma attack and:"
+      },
+      {
+       "kind": "li",
+       "text": "start to feel worse at any time"
+      },
+      {
+       "kind": "li",
+       "text": "do not feel better after taking the maximum dose using an asthma reliever inhaler"
+      },
+      {
+       "kind": "li",
+       "text": "do not have an asthma inhaler"
+      },
+      {
+       "kind": "p",
+       "text": "If symptoms are no better after 10 minutes and an ambulance has not arrived, use an asthma inhaler again if you have one, taking up to the same maximum dose."
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've had an asthma attack and have recovered"
+      },
+      {
+       "kind": "p",
+       "text": "Even if you feel better, it's important to see a GP within 2 days to discuss your treatment and get advice to help prevent another asthma attack."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-alcohol-poisoning": {
+   "url": "https://www.nhs.uk/conditions/alcohol-poisoning/",
+   "title": "Alcohol poisoning",
+   "dateModified": "2026-08-07",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think someone has alcohol poisoning"
+      },
+      {
+       "kind": "li",
+       "text": "you or someone else has had a seizure or fit"
+      },
+      {
+       "kind": "li",
+       "text": "someone has lost consciousness"
+      },
+      {
+       "kind": "li",
+       "text": "someone has stopped breathing"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-dehydration": {
+   "url": "https://www.nhs.uk/conditions/dehydration/",
+   "title": "Dehydration",
+   "dateModified": "2026-05-27",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're feeling unusually tired (or your child seems drowsy)"
+      },
+      {
+       "kind": "li",
+       "text": "you feel dizzy when you stand up and it does not go away"
+      },
+      {
+       "kind": "li",
+       "text": "you have dark yellow pee or you're peeing less than normal (or your baby has fewer wet nappies)"
+      },
+      {
+       "kind": "li",
+       "text": "you or your child are breathing quickly or have a fast heart rate"
+      },
+      {
+       "kind": "li",
+       "text": "your baby or child have few or no tears when they cry"
+      },
+      {
+       "kind": "li",
+       "text": "your baby has a soft spot on their head that sinks inwards (sunken fontanelle)"
+      },
+      {
+       "kind": "p",
+       "text": "These can be signs of serious dehydration that need urgent treatment."
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online . Call 111 if you need advice for a child under 5 years old."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You or somebody else has signs of dehydration and:"
+      },
+      {
+       "kind": "li",
+       "text": "blue, grey, pale or blotchy skin, lips or tongue – on brown or black skin, this may be easier to see on the palms of the hands or soles of the feet"
+      },
+      {
+       "kind": "li",
+       "text": "skin that feels cold"
+      },
+      {
+       "kind": "li",
+       "text": "difficulty breathing, or is taking lots of quick breaths"
+      },
+      {
+       "kind": "li",
+       "text": "are confused"
+      },
+      {
+       "kind": "li",
+       "text": "are sleepier than normal or difficult to wake"
+      },
+      {
+       "kind": "p",
+       "text": "These could be signs of shock, which is a serious complication of dehydration."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-heat-exhaustion": {
+   "url": "https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/",
+   "title": "Heat exhaustion and heatstroke",
+   "dateModified": "2026-08-07",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you or someone else have symptoms of heat exhaustion that you're struggling to treat or you need advice about"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 now if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You or someone else have signs of heatstroke, including:"
+      },
+      {
+       "kind": "li",
+       "text": "still being unwell after 30 minutes of resting in a cool place, being cooled and drinking fluids"
+      },
+      {
+       "kind": "li",
+       "text": "a very high temperature"
+      },
+      {
+       "kind": "li",
+       "text": "hot skin that's not sweating and might look red (this can be harder to see on brown or black skin)"
+      },
+      {
+       "kind": "li",
+       "text": "a fast heartbeat"
+      },
+      {
+       "kind": "li",
+       "text": "fast breathing or shortness of breath"
+      },
+      {
+       "kind": "li",
+       "text": "confusion and lack of coordination"
+      },
+      {
+       "kind": "li",
+       "text": "a seizure or fit"
+      },
+      {
+       "kind": "li",
+       "text": "loss of consciousness"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-hypothermia": {
+   "url": "https://www.nhs.uk/conditions/hypothermia/",
+   "title": "Hypothermia",
+   "dateModified": "2025-05-22",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E or call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think you or your child have hypothermia"
+      },
+      {
+       "kind": "p",
+       "text": "Find your nearest A&E"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-miscarriage": {
+   "url": "https://www.nhs.uk/conditions/miscarriage/",
+   "title": "Miscarriage",
+   "dateModified": "2026-08-19",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get urgent medical help if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You’re pregnant and have either:"
+      },
+      {
+       "kind": "li",
+       "text": "light vaginal bleeding or spotting (but no, or only mild, tummy pain that does not stop you doing daily tasks)"
+      },
+      {
+       "kind": "li",
+       "text": "vaginal discharge that's unusual for you or fluid leaking from your vagina"
+      },
+      {
+       "kind": "p",
+       "text": "Call your maternity unit if you have the phone number."
+      },
+      {
+       "kind": "p",
+       "text": "If you’re less than 20 weeks pregnant, an early pregnancy unit may be able to help. You can find how to contact one on your local NHS trust website or in your maternity notes."
+      },
+      {
+       "kind": "p",
+       "text": "If you do not have a maternity unit yet or cannot contact an early pregnancy unit, call NHS 111."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You're pregnant, have vaginal bleeding and:"
+      },
+      {
+       "kind": "li",
+       "text": "you have severe pain in your tummy (you cannot do daily tasks or focus on TV or reading a book because of the pain)"
+      },
+      {
+       "kind": "li",
+       "text": "you have pain in your shoulder"
+      },
+      {
+       "kind": "li",
+       "text": "you feel sick, faint, dizzy or lose consciousness"
+      },
+      {
+       "kind": "li",
+       "text": "the bleeding is heavy (soaking a period pad soon after putting it on)"
+      },
+      {
+       "kind": "p",
+       "text": "These can be signs you need immediate treatment."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-pregnancy-vaginal-bleeding": {
+   "url": "https://www.nhs.uk/pregnancy/common-symptoms/vaginal-bleeding/",
+   "title": "Vaginal bleeding in pregnancy",
+   "dateModified": "2026-05-13",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get urgent help if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You're pregnant and have light bleeding or spotting with:"
+      },
+      {
+       "kind": "li",
+       "text": "no pain, or mild tummy pain (the pain does not stop you doing daily tasks)"
+      },
+      {
+       "kind": "li",
+       "text": "diarrhoea, or pain or pressure when you pee or poo"
+      },
+      {
+       "kind": "p",
+       "text": "Call your maternity unit if you have the phone number."
+      },
+      {
+       "kind": "p",
+       "text": "If you're less than 20 weeks pregnant, an early pregnancy unit may be able to help. You can find how to contact one on your local NHS trust website or in your maternity notes."
+      },
+      {
+       "kind": "p",
+       "text": "If you do not have a maternity unit yet or cannot contact an early pregnancy unit, call NHS 111."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You're pregnant and bleeding and:"
+      },
+      {
+       "kind": "li",
+       "text": "you have severe pain in your tummy (you cannot focus on TV, read a book or do daily tasks because of the pain)"
+      },
+      {
+       "kind": "li",
+       "text": "you have pain in your shoulder"
+      },
+      {
+       "kind": "li",
+       "text": "you feel sick, faint, dizzy or lose consciousness"
+      },
+      {
+       "kind": "li",
+       "text": "the bleeding is heavy (soaking a period pad soon after putting it on)"
+      },
+      {
+       "kind": "p",
+       "text": "These can be signs you need immediate treatment."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-whiplash": {
+   "url": "https://www.nhs.uk/conditions/whiplash/",
+   "title": "Whiplash",
+   "dateModified": "2026-08-21",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "symptoms of whiplash have not improved after 1 week"
+      },
+      {
+       "kind": "li",
+       "text": "painkillers like paracetamol or ibuprofen have not worked"
+      },
+      {
+       "kind": "li",
+       "text": "you're worried about the pain"
+      },
+      {
+       "kind": "p",
+       "text": "In many areas you may be able to get help, such as physiotherapy, from NHS community musculoskeletal (MSK) services without needing a referral from a GP."
+      },
+      {
+       "kind": "p",
+       "text": "Get NHS help for back or joint problems"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have injured your neck and:"
+      },
+      {
+       "kind": "li",
+       "text": "you have severe pain despite taking paracetamol or ibuprofen"
+      },
+      {
+       "kind": "li",
+       "text": "you have tingling or pins and needles on 1 or both sides of your body"
+      },
+      {
+       "kind": "li",
+       "text": "you have problems with walking or sitting upright"
+      },
+      {
+       "kind": "li",
+       "text": "you have a sudden \"electric shock\" feeling in your neck and back which may also go into your arms and legs"
+      },
+      {
+       "kind": "li",
+       "text": "your hands, arms or legs feel weak"
+      },
+      {
+       "kind": "p",
+       "text": "These symptoms could be caused by damage to the nerves in your neck or back. Do not do anything that could be dangerous, such as driving or cycling, until you have spoken to a GP or NHS 111."
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-broken-ankle": {
+   "url": "https://www.nhs.uk/conditions/broken-ankle/",
+   "title": "Broken ankle",
+   "dateModified": "2025-11-13",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You've injured your ankle and:"
+      },
+      {
+       "kind": "li",
+       "text": "it's very painful, or the pain is getting worse"
+      },
+      {
+       "kind": "li",
+       "text": "there's a large amount of swelling or bruising, or the swelling or bruising is getting worse"
+      },
+      {
+       "kind": "li",
+       "text": "it hurts to put weight on it"
+      },
+      {
+       "kind": "li",
+       "text": "it feels very stiff or is difficult to move"
+      },
+      {
+       "kind": "li",
+       "text": "you also have a very high temperature, or feel hot, cold or shivery – this could be an infection"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You've had an injury and:"
+      },
+      {
+       "kind": "li",
+       "text": "your ankle is at an odd angle"
+      },
+      {
+       "kind": "li",
+       "text": "a bone is sticking out of your ankle"
+      },
+      {
+       "kind": "li",
+       "text": "you have a bad cut or wound on your ankle"
+      },
+      {
+       "kind": "li",
+       "text": "you're in severe pain"
+      },
+      {
+       "kind": "li",
+       "text": "your toes look blue or white, or feel numb"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You're recovering from a broken ankle and:"
+      },
+      {
+       "kind": "li",
+       "text": "the pain in your ankle gets worse"
+      },
+      {
+       "kind": "li",
+       "text": "your temperature is very high, or you feel hot, cold or shivery"
+      },
+      {
+       "kind": "li",
+       "text": "your leg, foot or toes start to feel numb or like they're burning"
+      },
+      {
+       "kind": "li",
+       "text": "the plaster cast is too tight – your leg, foot or toes look swollen, or turn blue or white"
+      },
+      {
+       "kind": "li",
+       "text": "the plaster cast or boot is rubbing, or feels too loose"
+      },
+      {
+       "kind": "li",
+       "text": "there's a bad smell or discharge from under your cast"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-broken-arm-wrist": {
+   "url": "https://www.nhs.uk/conditions/broken-arm-or-wrist/",
+   "title": "Broken arm or wrist",
+   "dateModified": "2026-05-08",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You've injured your arm or wrist and:"
+      },
+      {
+       "kind": "li",
+       "text": "it's very painful, you cannot use it due to the pain, or the pain is getting worse"
+      },
+      {
+       "kind": "li",
+       "text": "there's a large amount of swelling or bruising, or the swelling or bruising is getting worse"
+      },
+      {
+       "kind": "li",
+       "text": "it feels very stiff or is difficult to move"
+      },
+      {
+       "kind": "li",
+       "text": "you also have a very high temperature, or feel hot, cold or shivery – this could be an infection"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E or call 999 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You've injured your arm or wrist and:"
+      },
+      {
+       "kind": "li",
+       "text": "the affected arm or wrist is numb, is tingling or has pins and needles"
+      },
+      {
+       "kind": "li",
+       "text": "you have a bad cut that is bleeding heavily"
+      },
+      {
+       "kind": "li",
+       "text": "a bone is sticking out of your skin"
+      },
+      {
+       "kind": "li",
+       "text": "your arm or wrist has changed shape or is at an odd angle"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "the pain in your arm or wrist gets worse"
+      },
+      {
+       "kind": "li",
+       "text": "your temperature is very high or you feel hot and shivery"
+      },
+      {
+       "kind": "li",
+       "text": "your cast breaks, or the cast feels too tight or too loose"
+      },
+      {
+       "kind": "li",
+       "text": "your fingers, wrist and arm start to feel numb"
+      },
+      {
+       "kind": "li",
+       "text": "your fingers, wrist and arm look swollen or turn blue or white"
+      },
+      {
+       "kind": "li",
+       "text": "there's a bad smell or discharge of liquid from under your cast"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-broken-collarbone": {
+   "url": "https://www.nhs.uk/conditions/broken-collarbone/",
+   "title": "Broken collarbone",
+   "dateModified": "2025-05-14",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You've been injured and:"
+      },
+      {
+       "kind": "li",
+       "text": "your shoulder is very painful"
+      },
+      {
+       "kind": "li",
+       "text": "your shoulder is very swollen or bruised"
+      },
+      {
+       "kind": "li",
+       "text": "you cannot use your arm normally"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You've been injured and:"
+      },
+      {
+       "kind": "li",
+       "text": "your shoulder has changed shape"
+      },
+      {
+       "kind": "li",
+       "text": "your shoulder has swollen very quickly"
+      },
+      {
+       "kind": "li",
+       "text": "your shoulder has bone sticking out from the skin"
+      },
+      {
+       "kind": "li",
+       "text": "you're bleeding heavily"
+      },
+      {
+       "kind": "li",
+       "text": "you're having difficulty breathing"
+      },
+      {
+       "kind": "li",
+       "text": "you have chest pain"
+      },
+      {
+       "kind": "li",
+       "text": "you're coughing up blood"
+      },
+      {
+       "kind": "p",
+       "text": "Call 999 if you're unable to get to A&E."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-broken-finger": {
+   "url": "https://www.nhs.uk/conditions/broken-finger/",
+   "title": "Broken finger or thumb",
+   "dateModified": "2026-04-13",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have injured your finger or thumb and it's:"
+      },
+      {
+       "kind": "li",
+       "text": "painful, swollen and bruised"
+      },
+      {
+       "kind": "li",
+       "text": "stiff or difficult to move"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have had an injury and the finger or thumb:"
+      },
+      {
+       "kind": "li",
+       "text": "is pointing at an odd angle"
+      },
+      {
+       "kind": "li",
+       "text": "looks blue or feels numb"
+      },
+      {
+       "kind": "li",
+       "text": "is cut and you can see bone through it"
+      },
+      {
+       "kind": "li",
+       "text": "is cut and there's bone poking out of it"
+      }
+     ]
+    },
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're worried the break is not healing properly"
+      },
+      {
+       "kind": "li",
+       "text": "the pain and swelling have not started to ease after a few days"
+      },
+      {
+       "kind": "li",
+       "text": "it hurts to use the finger or thumb once the cast or strapping is off"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-broken-leg": {
+   "url": "https://www.nhs.uk/conditions/broken-leg/",
+   "title": "Broken leg",
+   "dateModified": "2026-07-14",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You've injured your leg and:"
+      },
+      {
+       "kind": "li",
+       "text": "it's very painful, or the pain is getting worse"
+      },
+      {
+       "kind": "li",
+       "text": "there's a large amount of swelling or bruising, or the swelling or bruising is getting worse"
+      },
+      {
+       "kind": "li",
+       "text": "it hurts to put weight on it"
+      },
+      {
+       "kind": "li",
+       "text": "it feels very stiff or is difficult to move"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You've had an injury and:"
+      },
+      {
+       "kind": "li",
+       "text": "your leg is twisted or bent"
+      },
+      {
+       "kind": "li",
+       "text": "a bone is sticking out of your leg"
+      },
+      {
+       "kind": "li",
+       "text": "you have a bad cut or wound on your leg"
+      },
+      {
+       "kind": "li",
+       "text": "your skin is cold and sweaty"
+      },
+      {
+       "kind": "li",
+       "text": "you have a fast or weak pulse"
+      },
+      {
+       "kind": "li",
+       "text": "you’re having difficulty breathing, or your breathing is fast and shallow"
+      },
+      {
+       "kind": "li",
+       "text": "you have blue, grey, pale or blotchy skin, lips or tongue – on brown or black skin, this may be easier to see on the palms of the hands or soles of the feet"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You're recovering from a broken leg and:"
+      },
+      {
+       "kind": "li",
+       "text": "the pain in your leg gets worse"
+      },
+      {
+       "kind": "li",
+       "text": "your temperature is very high, or you feel hot, cold or shivery"
+      },
+      {
+       "kind": "li",
+       "text": "your leg, foot or toes start to feel numb or like they're burning"
+      },
+      {
+       "kind": "li",
+       "text": "your leg, foot or toes look swollen or turn blue or white"
+      },
+      {
+       "kind": "li",
+       "text": "your cast is rubbing or feels too tight or too loose"
+      },
+      {
+       "kind": "li",
+       "text": "there's a bad smell or it feels wet under your cast"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-broken-nose": {
+   "url": "https://www.nhs.uk/conditions/broken-nose/",
+   "title": "Broken nose",
+   "dateModified": "2026-04-13",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You think you have broken your nose and:"
+      },
+      {
+       "kind": "li",
+       "text": "your nose is crooked (not straight) after the injury"
+      },
+      {
+       "kind": "li",
+       "text": "the swelling has not started to go down after 3 days"
+      },
+      {
+       "kind": "li",
+       "text": "painkillers are not helping"
+      },
+      {
+       "kind": "li",
+       "text": "you're still finding it difficult to breathe through your nose after the swelling has gone"
+      },
+      {
+       "kind": "li",
+       "text": "you're having regular nosebleeds"
+      },
+      {
+       "kind": "li",
+       "text": "you have a very high temperature, or you feel hot, cold or shivery"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from NHS 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have a broken nose and:"
+      },
+      {
+       "kind": "li",
+       "text": "a nosebleed that will not stop"
+      },
+      {
+       "kind": "li",
+       "text": "a large cut or open wound on your nose or face, or something in the wound, such as glass"
+      },
+      {
+       "kind": "li",
+       "text": "clear, watery fluid trickling from your nose – this could be a sign of a serious head injury"
+      },
+      {
+       "kind": "li",
+       "text": "a severe headache with blurred or double vision"
+      },
+      {
+       "kind": "li",
+       "text": "eye pain and double vision"
+      },
+      {
+       "kind": "li",
+       "text": "neck pain or a stiff neck with numbness or tingling in your arms"
+      },
+      {
+       "kind": "li",
+       "text": "a purple swelling inside your nose – it may be painful or block your breathing"
+      },
+      {
+       "kind": "li",
+       "text": "other symptoms of a severe head injury – such as vomiting, collapsing (passing out) or difficulty speaking"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-broken-ribs": {
+   "url": "https://www.nhs.uk/conditions/broken-or-bruised-ribs/",
+   "title": "Broken or bruised ribs",
+   "dateModified": "2026-04-13",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have a broken or bruised rib and:"
+      },
+      {
+       "kind": "li",
+       "text": "your pain has not improved within a few weeks"
+      },
+      {
+       "kind": "li",
+       "text": "you're coughing up yellow or green mucus"
+      },
+      {
+       "kind": "li",
+       "text": "you have a very high temperature, or feel hot, cold or shivery"
+      },
+      {
+       "kind": "p",
+       "text": "You might need stronger painkillers or have a chest infection that needs antibiotics."
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have a broken or bruised rib and:"
+      },
+      {
+       "kind": "li",
+       "text": "your injury was caused by a serious accident, such as a car accident"
+      },
+      {
+       "kind": "li",
+       "text": "you have shortness of breath that's getting worse"
+      },
+      {
+       "kind": "li",
+       "text": "the chest pain is getting worse"
+      },
+      {
+       "kind": "li",
+       "text": "you have pain in your tummy or shoulder"
+      },
+      {
+       "kind": "li",
+       "text": "you're coughing up blood"
+      },
+      {
+       "kind": "p",
+       "text": "It could mean a broken rib has damaged something else, like your lung, liver or spleen."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-broken-toe": {
+   "url": "https://www.nhs.uk/conditions/broken-toe/",
+   "title": "Broken toe",
+   "dateModified": "2026-04-13",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have a bad cut or wound after injuring your toe"
+      },
+      {
+       "kind": "li",
+       "text": "you have severe toe pain"
+      },
+      {
+       "kind": "p",
+       "text": "You may need further treatment in hospital, such as a boot, cast or surgery."
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think you have broken your big toe"
+      },
+      {
+       "kind": "li",
+       "text": "your toe is pointing out at an odd angle"
+      },
+      {
+       "kind": "li",
+       "text": "the bone is sticking out of your toe"
+      },
+      {
+       "kind": "li",
+       "text": "you feel tingling in your toe or foot, or it feels numb"
+      },
+      {
+       "kind": "li",
+       "text": "your child has hurt or broken their toe"
+      }
+     ]
+    },
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "pain and swelling has not started to ease 5 days after you injured your toe"
+      },
+      {
+       "kind": "li",
+       "text": "it still hurts to walk 6 weeks after injuring your toe"
+      },
+      {
+       "kind": "li",
+       "text": "you have diabetes and have injured your toe – foot problems can be more serious if you have diabetes"
+      },
+      {
+       "kind": "p",
+       "text": "They may send you for an X-ray to see if you need any further treatment."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-pericarditis": {
+   "url": "https://www.nhs.uk/conditions/pericarditis/",
+   "title": "Pericarditis",
+   "dateModified": "2026-08-24",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have chest pain and it:"
+      },
+      {
+       "kind": "li",
+       "text": "is sharp or stabbing"
+      },
+      {
+       "kind": "li",
+       "text": "gets worse when you take a deep breath in, swallow, cough or lie down"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have sudden chest pain that:"
+      },
+      {
+       "kind": "li",
+       "text": "spreads to your arms, back, neck or jaw"
+      },
+      {
+       "kind": "li",
+       "text": "makes your chest feel tight or heavy"
+      },
+      {
+       "kind": "li",
+       "text": "also started with shortness of breath, sweating and feeling or being sick"
+      },
+      {
+       "kind": "li",
+       "text": "lasts more than 15 minutes"
+      },
+      {
+       "kind": "p",
+       "text": "You could be having a heart attack . Call 999 immediately as you need immediate treatment in hospital."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-costochondritis": {
+   "url": "https://www.nhs.uk/conditions/costochondritis/",
+   "title": "Costochondritis",
+   "dateModified": "2026-08-17",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think you have costochondritis"
+      },
+      {
+       "kind": "p",
+       "text": "It's important to get chest pain checked to rule out other, more serious conditions."
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if you have:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "chest pain that started suddenly, or spreads to your arm, neck or jaw, or your chest feels tight – this could be a heart attack"
+      },
+      {
+       "kind": "li",
+       "text": "chest pain with difficulty breathing, your heart beating fast, or you're coughing up blood – this could be a pulmonary embolism"
+      },
+      {
+       "kind": "li",
+       "text": "sudden chest or back pain that can feel like something being torn inside, and causes shortness of breath, and problems with walking, vision and speaking"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-tonsillitis": {
+   "url": "https://www.nhs.uk/conditions/tonsillitis/",
+   "title": "Tonsillitis (including quinsy)",
+   "dateModified": "2026-07-09",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "the symptoms of tonsillitis do not go away within 1 week"
+      },
+      {
+       "kind": "li",
+       "text": "you keep getting throat infections"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have pus-filled spots on your tonsils"
+      },
+      {
+       "kind": "li",
+       "text": "you have a sore throat so painful it's difficult to eat or drink"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have a severe sore throat that quickly gets worse"
+      },
+      {
+       "kind": "li",
+       "text": "you have swelling inside the mouth and throat"
+      },
+      {
+       "kind": "li",
+       "text": "you have difficulty speaking"
+      },
+      {
+       "kind": "li",
+       "text": "you cannot swallow"
+      },
+      {
+       "kind": "li",
+       "text": "you have difficulty breathing"
+      },
+      {
+       "kind": "li",
+       "text": "you have difficulty opening your mouth"
+      },
+      {
+       "kind": "p",
+       "text": "These are signs of quinsy."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-glandular-fever": {
+   "url": "https://www.nhs.uk/conditions/glandular-fever/",
+   "title": "Glandular fever",
+   "dateModified": "2026-07-02",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if you have:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "a very high temperature, or you feel hot, cold or shivery"
+      },
+      {
+       "kind": "li",
+       "text": "a severe sore throat"
+      },
+      {
+       "kind": "li",
+       "text": "swelling either side of your neck – swollen glands"
+      },
+      {
+       "kind": "li",
+       "text": "extreme tiredness or exhaustion"
+      },
+      {
+       "kind": "li",
+       "text": "a sore throat that's not getting better"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if you have:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "difficulty breathing – you may be more short of breath than usual"
+      },
+      {
+       "kind": "li",
+       "text": "difficulty and pain when swallowing"
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if you:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "cannot swallow, including your own spit (saliva)"
+      },
+      {
+       "kind": "li",
+       "text": "have severe difficulty breathing – you're gasping, choking or not able to get words out"
+      },
+      {
+       "kind": "li",
+       "text": "have severe stomach pain"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-sinusitis": {
+   "url": "https://www.nhs.uk/conditions/sinusitis-sinus-infection/",
+   "title": "Sinusitis (sinus infection)",
+   "dateModified": "2026-07-09",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a pharmacist if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think you have sinusitis"
+      },
+      {
+       "kind": "li",
+       "text": "your child is aged 12 years or older and you think they have sinusitis"
+      },
+      {
+       "kind": "p",
+       "text": "A pharmacist can give the same treatments as a GP for sinusitis. They can also give advice or direct you to other medical help if needed."
+      }
+     ]
+    },
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You, or a child, have sinusitis symptoms and:"
+      },
+      {
+       "kind": "li",
+       "text": "you do not get better after 7 days of treatment from a pharmacy or GP"
+      },
+      {
+       "kind": "li",
+       "text": "you do not get better after 3 weeks of treating symptoms yourself"
+      },
+      {
+       "kind": "li",
+       "text": "you keep getting sinusitis"
+      },
+      {
+       "kind": "li",
+       "text": "your child is aged 11 years or younger"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You, or a child, has sinusitis symptoms and:"
+      },
+      {
+       "kind": "li",
+       "text": "you are very unwell"
+      },
+      {
+       "kind": "li",
+       "text": "painkillers do not help or symptoms get worse"
+      },
+      {
+       "kind": "li",
+       "text": "you have a weakened immune system – for example, because you're having chemotherapy"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online . Call 111 if you need advice for a child under 5 years old."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-nausea": {
+   "url": "https://www.nhs.uk/symptoms/feeling-sick-nausea/",
+   "title": "Feeling sick (nausea)",
+   "dateModified": "2025-04-16",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if you:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "are feeling sick and do not feel better in a few days"
+      },
+      {
+       "kind": "li",
+       "text": "often feel sick (it keeps coming back)"
+      },
+      {
+       "kind": "p",
+       "text": "The GP can look for the cause and suggest treatments."
+      },
+      {
+       "kind": "p",
+       "text": "They may prescribe anti-sickness medicine if needed."
+      },
+      {
+       "kind": "p",
+       "text": "Call 111 for advice if you cannot see a GP."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You suddenly feel sick and have:"
+      },
+      {
+       "kind": "li",
+       "text": "chest pain that feels tight or heavy"
+      },
+      {
+       "kind": "li",
+       "text": "pain that spreads to your arms, back, neck or jaw"
+      },
+      {
+       "kind": "li",
+       "text": "shortness of breath"
+      },
+      {
+       "kind": "p",
+       "text": "This could be a heart attack."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-heart-attack": {
+   "url": "https://www.nhs.uk/conditions/heart-attack/",
+   "title": "Heart attack",
+   "dateModified": "2026-08-07",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have chest pain that feels tight or like squeezing on your chest"
+      },
+      {
+       "kind": "li",
+       "text": "you have chest pain that's spreading to your arms, neck or jaw"
+      },
+      {
+       "kind": "li",
+       "text": "you're having severe difficulty breathing – you're gasping, choking or not able to get words out"
+      },
+      {
+       "kind": "li",
+       "text": "your lips or skin are pale, blue or grey – on brown or black skin this may be easier to see on the palms of the hands"
+      },
+      {
+       "kind": "li",
+       "text": "someone has passed out and is not responding normally"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're suddenly more short of breath than usual"
+      },
+      {
+       "kind": "li",
+       "text": "you have chest pain and you feel sick or are being sick"
+      },
+      {
+       "kind": "li",
+       "text": "you have chest pain and you feel like your heart is racing, going too slowly, skipping a beat or have a fluttering feeling in your chest"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-poisoning": {
+   "url": "https://www.nhs.uk/conditions/poisoning/",
+   "title": "Poisoning (including overdose)",
+   "dateModified": "2026-08-07",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think you, a child, or someone else may have swallowed, touched or breathed in something harmful"
+      },
+      {
+       "kind": "li",
+       "text": "someone has lost consciousness"
+      },
+      {
+       "kind": "li",
+       "text": "someone has stopped breathing"
+      },
+      {
+       "kind": "li",
+       "text": "you or someone else has severe difficulty breathing - you're unable to get words out, or you're choking or gasping"
+      },
+      {
+       "kind": "li",
+       "text": "you or someone else has a seizure (fit)"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're not sure if something you or someone else have swallowed, touched or breathed in is harmful"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-vomiting-blood": {
+   "url": "https://www.nhs.uk/symptoms/vomiting-blood/",
+   "title": "Vomiting blood",
+   "dateModified": "2026-07-21",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You or your child are vomiting blood (or have vomited blood) and:"
+      },
+      {
+       "kind": "li",
+       "text": "feel generally unwell"
+      },
+      {
+       "kind": "li",
+       "text": "feel confused"
+      },
+      {
+       "kind": "li",
+       "text": "feel faint or dizzy"
+      },
+      {
+       "kind": "li",
+       "text": "have rapid or shallow breathing"
+      },
+      {
+       "kind": "li",
+       "text": "have cold, clammy, pale skin"
+      },
+      {
+       "kind": "li",
+       "text": "have tummy pain"
+      },
+      {
+       "kind": "li",
+       "text": "have black poo"
+      },
+      {
+       "kind": "p",
+       "text": "If you have stopped vomiting blood and had no other symptoms, ask for an urgent GP appointment, call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-rectal-bleeding": {
+   "url": "https://www.nhs.uk/symptoms/bleeding-from-the-bottom-rectal-bleeding/",
+   "title": "Bleeding from the bottom (rectal bleeding)",
+   "dateModified": "2025-07-21",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your child has blood in their poo"
+      },
+      {
+       "kind": "li",
+       "text": "you've had blood in your poo for 3 weeks"
+      },
+      {
+       "kind": "li",
+       "text": "your poo has been softer, thinner or longer than normal for 3 weeks"
+      },
+      {
+       "kind": "li",
+       "text": "you're in a lot of pain around the bottom"
+      },
+      {
+       "kind": "li",
+       "text": "you have a pain or lump in your tummy"
+      },
+      {
+       "kind": "li",
+       "text": "you've been more tired than usual"
+      },
+      {
+       "kind": "li",
+       "text": "you've lost weight for no reason"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your poo is black or dark red"
+      },
+      {
+       "kind": "li",
+       "text": "you have bloody diarrhoea"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E or call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're bleeding non-stop"
+      },
+      {
+       "kind": "li",
+       "text": "there's a lot of blood – for example, the toilet water turns red or you see large blood clots"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-lumbar-puncture": {
+   "url": "https://www.nhs.uk/conditions/lumbar-puncture/",
+   "title": "Lumbar puncture",
+   "dateModified": "2025-04-15",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or contact NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You've had a lumbar puncture and:"
+      },
+      {
+       "kind": "li",
+       "text": "you have severe pain"
+      },
+      {
+       "kind": "li",
+       "text": "you have a headache that does not go away"
+      },
+      {
+       "kind": "li",
+       "text": "you have a high temperature"
+      },
+      {
+       "kind": "li",
+       "text": "you're sweating more than usual"
+      },
+      {
+       "kind": "li",
+       "text": "your wound is bleeding or leaking clear fluid for more than 1 week"
+      },
+      {
+       "kind": "p",
+       "text": "You can also call 111 or get help from NHS 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your arms or legs feel weak or numb"
+      },
+      {
+       "kind": "li",
+       "text": "you're having problems peeing or pooing"
+      },
+      {
+       "kind": "li",
+       "text": "you're feeling confused"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-dental-abscess": {
+   "url": "https://www.nhs.uk/conditions/dental-abscess/",
+   "title": "Dental abscess",
+   "dateModified": "2026-04-13",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent dentist appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think you have a dental abscess"
+      },
+      {
+       "kind": "p",
+       "text": "Do not go to a GP surgery as they will not be able to give you dental treatment."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if you:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "are finding it hard to breathe, speak or swallow"
+      },
+      {
+       "kind": "li",
+       "text": "have a swollen or painful eye, or suddenly start having problems with your eyesight"
+      },
+      {
+       "kind": "li",
+       "text": "have a lot of swelling in your mouth"
+      },
+      {
+       "kind": "li",
+       "text": "are finding it hard to open your mouth"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-knocked-out-tooth": {
+   "url": "https://www.nhs.uk/conditions/broken-or-knocked-out-tooth/",
+   "title": "Broken or knocked-out tooth",
+   "dateModified": "2025-01-31",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a dentist if you or your child has:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "chipped, cracked or broken a tooth"
+      },
+      {
+       "kind": "p",
+       "text": "If a piece of tooth has broken off, put it in milk or saliva (by spitting into a container if it's your tooth, or having your child spit into a container if it's theirs) and take it to a dentist. The dentist may be able to glue the piece of tooth back on."
+      },
+      {
+       "kind": "p",
+       "text": "Do not go to a GP. They will not be able to give you dental treatment."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-dislocated-kneecap": {
+   "url": "https://www.nhs.uk/conditions/dislocated-kneecap/",
+   "title": "Dislocated kneecap",
+   "dateModified": "2026-04-13",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You've injured your knee and:"
+      },
+      {
+       "kind": "li",
+       "text": "it's very painful"
+      },
+      {
+       "kind": "li",
+       "text": "it's swollen or bruised"
+      },
+      {
+       "kind": "li",
+       "text": "you cannot stand up or move your knee"
+      },
+      {
+       "kind": "li",
+       "text": "you think your kneecap dislocated and then moved back into place"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You've injured your knee and:"
+      },
+      {
+       "kind": "li",
+       "text": "your knee has changed shape"
+      },
+      {
+       "kind": "li",
+       "text": "it becomes very swollen very quickly"
+      },
+      {
+       "kind": "li",
+       "text": "you felt a pop or snap in your knee"
+      },
+      {
+       "kind": "li",
+       "text": "you can see bone sticking out of your skin"
+      },
+      {
+       "kind": "li",
+       "text": "it's bleeding heavily"
+      },
+      {
+       "kind": "p",
+       "text": "Call 999 if you cannot get to A&E because you are unable to move your injured leg due to the pain."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-neck-pain-and-stiff-neck": {
+   "url": "https://www.nhs.uk/conditions/neck-pain-and-stiff-neck/",
+   "title": "Neck pain and stiff neck",
+   "dateModified": "2026-04-14",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "neck pain or stiffness does not go away after a few weeks"
+      },
+      {
+       "kind": "li",
+       "text": "painkillers like paracetamol or ibuprofen have not worked"
+      },
+      {
+       "kind": "li",
+       "text": "you're worried about the pain"
+      },
+      {
+       "kind": "li",
+       "text": "you have other symptoms, like pins and needles or a cold arm – this could be something more serious"
+      },
+      {
+       "kind": "p",
+       "text": "In many areas you may be able to get help, such as physiotherapy, from NHS community musculoskeletal (MSK) services without needing a referral from a GP."
+      },
+      {
+       "kind": "p",
+       "text": "Get NHS help for back or joint problems"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-limp-in-children": {
+   "url": "https://www.nhs.uk/conditions/limp-in-children/",
+   "title": "Limp in children",
+   "dateModified": "2025-11-27",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your child has a limp and you're not sure what's causing it"
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your child gets sudden pain in their hip, knee or thigh (hip problems can sometimes be felt in the thigh or knee)"
+      },
+      {
+       "kind": "li",
+       "text": "your child cannot put any weight on their leg"
+      },
+      {
+       "kind": "li",
+       "text": "the leg has changed shape or is pointing at an odd angle"
+      },
+      {
+       "kind": "li",
+       "text": "your child feels generally unwell and has a high temperature, or feels hot, cold or shivery"
+      },
+      {
+       "kind": "li",
+       "text": "your child also has severe pain in the lower part of their tummy"
+      },
+      {
+       "kind": "li",
+       "text": "your child's symptoms get worse"
+      },
+      {
+       "kind": "li",
+       "text": "always there and so bad it's hard to think or talk"
+      },
+      {
+       "kind": "li",
+       "text": "you cannot sleep"
+      },
+      {
+       "kind": "li",
+       "text": "it's very hard to move, get out of bed, go to the bathroom, wash or dress"
+      },
+      {
+       "kind": "li",
+       "text": "always there"
+      },
+      {
+       "kind": "li",
+       "text": "makes it hard to concentrate or sleep"
+      },
+      {
+       "kind": "li",
+       "text": "you can manage to get up, wash or dress"
+      },
+      {
+       "kind": "li",
+       "text": "comes and goes"
+      },
+      {
+       "kind": "li",
+       "text": "is annoying but does not stop you doing daily activities"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-atopic-eczema": {
+   "url": "https://www.nhs.uk/conditions/atopic-eczema/",
+   "title": "Atopic eczema",
+   "dateModified": "2026-09-02",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you or your child have symptoms of atopic eczema"
+      },
+      {
+       "kind": "li",
+       "text": "treatments are not helping your atopic eczema"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You or your child have atopic eczema and:"
+      },
+      {
+       "kind": "li",
+       "text": "it's blistered, crusty, leaking fluid or has spots filled with pus"
+      },
+      {
+       "kind": "li",
+       "text": "it's painful, swollen or feels warm"
+      },
+      {
+       "kind": "li",
+       "text": "it suddenly gets worse or gets bigger"
+      },
+      {
+       "kind": "li",
+       "text": "you have a high temperature or feel generally unwell"
+      },
+      {
+       "kind": "p",
+       "text": "These can be signs that your eczema is infected or you have a more serious condition called eczema herpeticum. You may need treatment such as antibiotics."
+      },
+      {
+       "kind": "p",
+       "text": "Check symptoms on 111 online (for anyone aged 5 and over) or call 111 (for children under 5)."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-inflammatory-bowel-disease": {
+   "url": "https://www.nhs.uk/conditions/inflammatory-bowel-disease/",
+   "title": "Inflammatory bowel disease",
+   "dateModified": "2026-08-24",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have diarrhoea that lasts more than 7 days"
+      },
+      {
+       "kind": "li",
+       "text": "you have tummy pain or bloating that will not go away or keeps coming back"
+      },
+      {
+       "kind": "li",
+       "text": "you have blood or mucus (clear slime) in your poo"
+      },
+      {
+       "kind": "li",
+       "text": "you've been losing a lot of weight without trying"
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have severe tummy pain"
+      },
+      {
+       "kind": "li",
+       "text": "you're bleeding non-stop from your bottom"
+      },
+      {
+       "kind": "li",
+       "text": "there's a lot of blood, for example, the toilet water turns red or you see large blood clots"
+      },
+      {
+       "kind": "li",
+       "text": "you're vomiting blood or poo, or your sick looks like coffee grounds or soil"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-stomach-ulcer": {
+   "url": "https://www.nhs.uk/conditions/stomach-ulcer/",
+   "title": "Stomach ulcer",
+   "dateModified": "2026-08-17",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have indigestion that does not go away with treatment"
+      },
+      {
+       "kind": "li",
+       "text": "your tummy pain keeps coming back"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have symptoms of a stomach ulcer and:"
+      },
+      {
+       "kind": "li",
+       "text": "your tummy pain is getting worse or does not go away"
+      },
+      {
+       "kind": "li",
+       "text": "you've lost your appetite"
+      },
+      {
+       "kind": "li",
+       "text": "you feel full after a very small amount of food"
+      },
+      {
+       "kind": "li",
+       "text": "you've lost weight without trying to"
+      },
+      {
+       "kind": "li",
+       "text": "it feels like you have a lump in your tummy"
+      },
+      {
+       "kind": "li",
+       "text": "it's painful or difficult to swallow"
+      },
+      {
+       "kind": "li",
+       "text": "you keep being sick (vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "you feel tired all the time"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're vomiting bright red blood or your vomit looks like ground coffee"
+      },
+      {
+       "kind": "li",
+       "text": "your poo has blood in it, or is black, sticky and very smelly"
+      },
+      {
+       "kind": "li",
+       "text": "you have severe tummy pain"
+      },
+      {
+       "kind": "li",
+       "text": "it's painful to touch your tummy"
+      },
+      {
+       "kind": "li",
+       "text": "you have chest pain that started suddenly"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-heavy-periods": {
+   "url": "https://www.nhs.uk/conditions/heavy-periods/",
+   "title": "Heavy periods",
+   "dateModified": "2026-07-02",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "heavy periods are affecting your life"
+      },
+      {
+       "kind": "li",
+       "text": "you've had heavy periods for some time"
+      },
+      {
+       "kind": "li",
+       "text": "you have severe pain during your periods"
+      },
+      {
+       "kind": "li",
+       "text": "you bleed between periods or after sex"
+      },
+      {
+       "kind": "li",
+       "text": "you have heavy periods and other symptoms, such as pain when peeing, pooing or having sex"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-pelvic-inflammatory-disease": {
+   "url": "https://www.nhs.uk/conditions/pelvic-inflammatory-disease-pid/",
+   "title": "Pelvic inflammatory disease",
+   "dateModified": "2025-12-17",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think you have symptoms of pelvic inflammatory disease (PID)"
+      },
+      {
+       "kind": "li",
+       "text": "you have pain in the area between your tummy and thighs (pelvic pain) that comes and goes"
+      },
+      {
+       "kind": "li",
+       "text": "you have symptoms of PID and you're pregnant or think you might be pregnant"
+      },
+      {
+       "kind": "li",
+       "text": "you've been diagnosed with PID and do not feel better after 3 days of taking antibiotics"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go straight to A&E if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You think you have symptoms of pelvic inflammatory disease (PID) and you:"
+      },
+      {
+       "kind": "li",
+       "text": "have pain in the area between your tummy and thighs (pelvic pain) that's severe, getting worse, or hurts when you move or touch the area"
+      },
+      {
+       "kind": "li",
+       "text": "have pelvic pain and heavy bleeding from your vagina"
+      },
+      {
+       "kind": "li",
+       "text": "have a sharp, sudden and intense pain in your lower tummy"
+      },
+      {
+       "kind": "li",
+       "text": "have pain under your ribs on the right side and in your right shoulder"
+      },
+      {
+       "kind": "li",
+       "text": "feel dizzy or faint"
+      },
+      {
+       "kind": "li",
+       "text": "have a very high temperature, or feel hot, cold or shivery"
+      },
+      {
+       "kind": "li",
+       "text": "are feeling or being sick, or are feeling very unwell"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-stis": {
+   "url": "https://www.nhs.uk/conditions/sexually-transmitted-infections-stis/",
+   "title": "Sexually transmitted infections (STIs)",
+   "dateModified": "2026-08-19",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "Go to a sexual health clinic if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think you may have an STI"
+      },
+      {
+       "kind": "li",
+       "text": "a sexual partner has symptoms of an STI"
+      },
+      {
+       "kind": "li",
+       "text": "you're worried after having sex without a condom or dental dam"
+      },
+      {
+       "kind": "li",
+       "text": "you're pregnant with symptoms of an STI"
+      },
+      {
+       "kind": "li",
+       "text": "you're having sex with new partners"
+      },
+      {
+       "kind": "p",
+       "text": "Do not have sex, including oral sex, without using a condom or dental dam until you've had a check-up or been tested."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-anal-pain": {
+   "url": "https://www.nhs.uk/conditions/anal-pain/",
+   "title": "Anal pain",
+   "dateModified": "2026-04-13",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your anal pain is severe"
+      },
+      {
+       "kind": "li",
+       "text": "the pain does not improve after a few days"
+      },
+      {
+       "kind": "li",
+       "text": "you have blood in your poo or bleeding from your bottom"
+      },
+      {
+       "kind": "p",
+       "text": "Do not feel embarrassed to see a GP. Anal pain is a common problem that they're used to treating."
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have severe anal pain and you have a high temperature, or feel hot, cold or shivery"
+      },
+      {
+       "kind": "li",
+       "text": "your poo is black or dark red"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E or call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're bleeding non-stop from your bottom"
+      },
+      {
+       "kind": "li",
+       "text": "there is a lot of blood coming from your bottom – for example, the toilet water turns red or you see large blood clots"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-anal-fissure": {
+   "url": "https://www.nhs.uk/conditions/anal-fissure/",
+   "title": "Anal fissure",
+   "dateModified": "2026-08-24",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you or your child have symptoms of an anal fissure and they're getting worse, or there's no improvement after 7 days of treating it yourself"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-hernia": {
+   "url": "https://www.nhs.uk/conditions/hernia/",
+   "title": "Hernia",
+   "dateModified": "2026-05-22",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you think you have a hernia"
+      },
+      {
+       "kind": "p",
+       "text": "They may refer you for tests or treatment if needed."
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You have a hernia and:"
+      },
+      {
+       "kind": "li",
+       "text": "pain in or around the hernia"
+      },
+      {
+       "kind": "li",
+       "text": "a bloated tummy"
+      },
+      {
+       "kind": "li",
+       "text": "you feel sick (nausea) or you're being sick (vomiting)"
+      },
+      {
+       "kind": "li",
+       "text": "you're vomiting blood or your vomit looks like coffee grounds"
+      },
+      {
+       "kind": "li",
+       "text": "you're constipated"
+      },
+      {
+       "kind": "li",
+       "text": "you have a high temperature, or you feel hot, cold or shivery"
+      },
+      {
+       "kind": "li",
+       "text": "you've suddenly become confused"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-falls": {
+   "url": "https://www.nhs.uk/conditions/falls/",
+   "title": "Falls — causes, prevention and what to do (NHS)",
+   "dateModified": "2025-03-19",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You or someone else has fallen and:"
+      },
+      {
+       "kind": "li",
+       "text": "may have injured the head, back, neck or hip"
+      },
+      {
+       "kind": "li",
+       "text": "cannot get up"
+      },
+      {
+       "kind": "p",
+       "text": "If someone else has fallen, keep them comfortable and warm. Carefully help them get up if they can, but do not try to lift them yourself."
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you or someone else has fallen and may be in pain, injured or unwell"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ]
+    },
+    {
+     "tier": "gp",
+     "headline": "See a GP if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're worried about your balance or mobility"
+      },
+      {
+       "kind": "li",
+       "text": "you've had a fall"
+      }
+     ]
+    }
+   ]
+  },
+  "nhs-eye-injuries-urgent": {
+   "url": "https://www.nhs.uk/conditions/eye-injuries/",
+   "title": "Eye injuries — urgent eye problems and when to get help (NHS)",
+   "dateModified": "2026-04-13",
+   "retrieved": "2026-09-03",
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E or call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "a strong chemical, such as oven cleaner or bleach, is in your eye – keep rinsing your eye with water while waiting for medical help, and take the container with you as the information on it may help with treatment"
+      },
+      {
+       "kind": "li",
+       "text": "a sharp object has pierced your eye"
+      },
+      {
+       "kind": "li",
+       "text": "something has hit your eye at high speed – for example, while using power tools or mowing the lawn"
+      },
+      {
+       "kind": "li",
+       "text": "there are any changes to your sight after an eye injury"
+      },
+      {
+       "kind": "li",
+       "text": "you have severe pain in your eye"
+      },
+      {
+       "kind": "li",
+       "text": "you have a headache or sensitivity to light"
+      },
+      {
+       "kind": "li",
+       "text": "you're feeling sick or being sick after an eye injury"
+      },
+      {
+       "kind": "li",
+       "text": "you cannot move your eye or keep it open"
+      },
+      {
+       "kind": "li",
+       "text": "blood or pus is coming from your eye"
+      }
+     ]
+    },
+    {
+     "tier": "urgent",
+     "headline": "Ask for an urgent GP appointment or get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've injured your eye and it is not getting better after 24 hours"
+      },
+      {
+       "kind": "li",
+       "text": "you're worried about an eye injury – particularly if it's a child that's injured"
+      },
+      {
+       "kind": "li",
+       "text": "it's very painful"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online . Always call 111 if you need help for a child under 5 years old."
+      },
+      {
+       "kind": "p",
+       "text": "You could also visit an optician for advice."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}
