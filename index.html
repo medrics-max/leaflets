@@ -59,6 +59,8 @@
   .fu-card .fu-note { font-size: 0.88rem; color: #333; margin: 8px 0 0; }
   .fu-card .fu-past { margin-top: 10px; font-size: 0.85rem; color: #6b5200; background: #fff8e6; border: 1px solid #f3d77a; border-radius: 8px; padding: 8px 10px; }
   .fu-card .fu-dest { font-size: 1.15rem; }
+  .fu-card .fu-leaf { margin-top: 10px; }
+  .fu-card .fu-leaf a { color: #005eb8; font-weight: 600; }
   .fu-card a.fu-phone { display: inline-block; background: #005eb8; color: #fff; border-radius: 6px; padding: 6px 14px; text-decoration: none; font-weight: 600; margin-top: 8px; margin-right: 8px; }
   .fu-card a.fu-find { display: inline-block; background: #005eb8; color: #fff; border-radius: 6px; padding: 6px 14px; text-decoration: none; font-weight: 600; margin-top: 8px; margin-right: 8px; }
   .fu-card button.fu-cal { display: inline-block; background: #fff; color: #005eb8; border: 1px solid #005eb8; border-radius: 6px; padding: 6px 14px; font-weight: 600; font-size: 0.95rem; margin-top: 8px; margin-right: 8px; cursor: pointer; font-family: inherit; }
@@ -416,6 +418,7 @@ function rateHelpful(value) {
 // saves/opens — nothing is sent anywhere.
 let FU_ICS = "";
 let FU_SUMMARY = "";   // one line for the banner: where and when
+let FU_LEAFLET = "";   // slug of the leaflet the follow-up card links — kept out of "Your leaflets"
 let TRUST_LABEL = "Your hospital";
 function icsText(s) {
   return String(s || "").replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
@@ -584,7 +587,11 @@ function findCompanion(item, pages) {
 // section at the bottom. Every line was parsed from the page NHS served this
 // week by nhs_cards.py; nothing is reworded; cards older than 10 days are
 // not shown (the licence expects a 7-day refresh).
-const INFO_TIERS = { treatment: "🩺", selfcare: "🏠", info: "💊" };
+// every NHS section a patient would want, folded closed (Oscar 2026-09-03:
+// "we can do more information now as we have collapsible headings")
+const INFO_TIERS = { symptoms: "🔍", causes: "❓", treatment: "🩺", selfcare: "🏠", prevention: "🛡️",
+  diagnosis: "🔬", complications: "📋", outlook: "📈", contagious: "🤝", living: "🌱", types: "📑",
+  usage: "⏰", suitability: "👤", howitworks: "⚙️", interactions: "🔗", pregnancy: "🤰", info: "💊" };
 const HELP_TIERS = { emergency: "🚨", urgent: "⚠️", gp: "ℹ️", advice: "ℹ️" };
 let HELP_GROUPS = [];   // rebuilt on every render — {title, url, page, cards}
 function nhsFresh(pg) {
@@ -599,6 +606,7 @@ function cardBody(c) {
   let out = "", open = false;
   for (const ln of c.lines) {
     if (ln.kind === "li") { if (!open) { out += "<ul>"; open = true; } out += `<li>${escapeHtml(ln.text)}</li>`; }
+    else if (ln.kind === "h") { if (open) { out += "</ul>"; open = false; } out += `<p class="nhs-h">${escapeHtml(ln.text)}</p>`; }
     else { if (open) { out += "</ul>"; open = false; } out += `<p>${escapeHtml(ln.text)}</p>`; }
   }
   if (open) out += "</ul>";
@@ -724,7 +732,7 @@ function adviceCard(item) {
 
 function renderResolved(items, demo) {
   HELP_GROUPS = [];
-  const leaflets = items.filter(i => i.type === "leaflet");
+  const leaflets = items.filter(i => i.type === "leaflet" && i.slug !== FU_LEAFLET);   // the follow-up card links its own leaflet
   const advice = items.filter(i => i.type === "advice");
   const medicines = items.filter(i => i.type === "medicines");
   const services = items.filter(i => i.type === "service");
@@ -1039,6 +1047,7 @@ async function main() {
       // source_url); the leaflet itself rides on the QR from the picker.
       const tel = String(dest.phone || "").replace(/[^+\d]/g, "");
       const leaf = dest.info_slug && (leaflets || []).find(l => l.slug === dest.info_slug);
+      FU_LEAFLET = leaf ? leaf.slug : "";
       FU_CARD = `<div class="fu-card">
         <p class="fu-dest">Call if you need us — no appointment is booked</p>
         <p class="fu-note"><strong>${escapeHtml(dest.name || dest.label)}</strong> will see you again if you need it.</p>
@@ -1052,6 +1061,8 @@ async function main() {
       </div>`;
     } else if (dest) {
       const tel = String(dest.phone || "").replace(/[^+\d]/g, "");
+      const leaf = dest.info_slug && (leaflets || []).find(l => l.slug === dest.info_slug);
+      FU_LEAFLET = leaf ? leaf.slug : "";
       // "Add to my calendar" (Oscar 2026-09-03): a written reminder in the
       // patient's own calendar — the .ics is built HERE, in the browser, and
       // never leaves the device (see addFollowupToCalendar)
@@ -1064,6 +1075,7 @@ async function main() {
         ${dest.note ? `<p class="fu-note">${escapeHtml(dest.note)}</p>` : ""}
         ${FU_ICS ? `<button type="button" class="fu-cal" onclick="addFollowupToCalendar()">📆 Add to my calendar</button>` : ""}
         ${findHref ? `<a class="fu-find" href="${escapeHtml(findHref)}" target="_blank" rel="noopener">📍 How to find it</a>` : ""}
+        ${leaf ? `<p class="fu-note fu-leaf">Before you come, read <a href="${encodeURI(leaf.url)}">${escapeHtml(leaf.title)}</a> <span class="src src-trust">${escapeHtml(TRUST_LABEL)} leaflet</span></p>` : ""}
         ${dest.phone ? `<a class="fu-phone" href="tel:${tel}">📞 ${escapeHtml(dest.phone)}</a>` : ""}
         ${past ? `<div class="fu-past">This date has passed. If you missed your visit, contact your care team.</div>` : ""}
         <p class="fu-note">If you cannot come, or you are unsure, ${dest.phone ? "call the number above" : "contact your care team"}.</p>
