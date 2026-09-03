@@ -1,0 +1,53 @@
+{
+ "_doc": "Learned companion suggestions per trust: for a chosen leaflet, the leaflets clinicians at that trust most often issue with it (from the picker's anonymous generate telemetry — slugs only, pairs seen in at least 3 QR codes, ranked by lift). Ranks only, never counts. Built weekly by Events/learned_bundles.py. Suggestions, not approvals — the clinician chooses every item.",
+ "built": "2026-09-03",
+ "k_min": 3,
+ "trusts": {
+  "gloucestershire": {
+   "apixaban-for-atrial-fibrillation": [
+    "gov-drv-arrhythmia",
+    "caa-air-travel-your-health"
+   ],
+   "gov-drv-arrhythmia": [
+    "apixaban-for-atrial-fibrillation",
+    "caa-air-travel-your-health"
+   ],
+   "caa-air-travel-your-health": [
+    "gov-drv-arrhythmia",
+    "apixaban-for-atrial-fibrillation"
+   ],
+   "lower-limb-cellulitis": [
+    "med-flucloxacillin",
+    "nhs-sepsis"
+   ],
+   "med-flucloxacillin": [
+    "lower-limb-cellulitis",
+    "nhs-sepsis"
+   ],
+   "nhs-sepsis": [
+    "med-flucloxacillin",
+    "lower-limb-cellulitis"
+   ]
+  },
+  "royal-surrey": {
+   "med-apixaban": [
+    "nhs-anticoagulants"
+   ],
+   "nhs-anticoagulants": [
+    "med-apixaban"
+   ],
+   "cellulitis": [
+    "med-flucloxacillin",
+    "sdec-same-day-emergency-care"
+   ],
+   "sdec-same-day-emergency-care": [
+    "cellulitis",
+    "med-flucloxacillin"
+   ],
+   "med-flucloxacillin": [
+    "cellulitis",
+    "sdec-same-day-emergency-care"
+   ]
+  }
+ }
+}

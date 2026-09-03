@@ -65,6 +65,8 @@
     font-weight: 400;
   }
   .related .chip:hover { background: var(--accent-tint); }
+  .related .learnedrow { margin-top: 2px; }
+  .related .chip.addall { border-style: solid; background: var(--accent-tint); font-weight: 600; }
   .driving { margin: 6px 0 4px; font-size: 13px; color: var(--muted); }
   .driving .rlabel { margin-right: 6px; }
   .driving .chip {
@@ -543,6 +545,30 @@ let fuPick = null;   // { id, date: "YYYY-MM-DD"|"", time: "HH:MM"|"" }
 // slugs of NHS.uk pages whose "when to get help" cards render verbatim on the
 // patient page (nhs_cards.json) — shown as a tag so the clinician can prefer them
 let NHS_CARDS = new Set();
+// Learned companions (Oscar 2026-09-03: "we learn from their choices and make
+// suggested bundles based on that, to speed up clinician time"). Two layers:
+//   LEARNED  — this trust's co-picks from anonymous telemetry (learned_bundles.json)
+//   PAIR_MAP — THIS DEVICE's own co-picks, in localStorage, bumped on generate;
+//              never sent anywhere (same contract as the frequently-used list)
+let LEARNED = {};
+const PAIR_KEY = "medrics_pairs";
+let PAIR_MAP = (() => { try { return JSON.parse(localStorage.getItem(PAIR_KEY) || "{}"); } catch (e) { return {}; } })();
+function bumpPairs(slugs) {
+  const s = [...slugs].sort();
+  for (let i = 0; i < s.length; i++) for (let j = i + 1; j < s.length; j++) {
+    const k = s[i] + "|" + s[j]; PAIR_MAP[k] = (PAIR_MAP[k] || 0) + 1;
+  }
+  try { localStorage.setItem(PAIR_KEY, JSON.stringify(PAIR_MAP)); } catch (e) {}
+}
+function devicePairs(slug, min) {
+  const out = [];
+  for (const [k, n] of Object.entries(PAIR_MAP)) {
+    if (n < min) continue;
+    const [a, b] = k.split("|");
+    if (a === slug) out.push([n, b]); else if (b === slug) out.push([n, a]);
+  }
+  return out.sort((x, y) => y[0] - x[0]).map(x => x[1]);
+}
 
 const $ = id => document.getElementById(id);
 
@@ -772,7 +798,7 @@ async function load() {
   const LAYER_LABEL = { leaflet: "the trust's own leaflets", service: "trust service pages",
                         advice: "local advice cards", nhs: "national NHS resources",
                         medicines: "medicines pages" };
-  const [all, reviews, bundles, profiles, driving, followups, nhsCards] = await Promise.all([
+  const [all, reviews, bundles, profiles, driving, followups, nhsCards, learned] = await Promise.all([
     Promise.all(sources.map(([f, ty]) =>
       fetch(f, { cache: "no-cache" })
         .then(r => {
@@ -797,6 +823,9 @@ async function load() {
     // which NHS.uk pages carry verbatim "when to get help" cards on the
     // patient page (nhs_cards.py) — a clinician's tie-breaker, so quiet on failure
     fetch("nhs_cards.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+    // what clinicians at this trust actually choose together (learned_bundles.py,
+    // anonymous telemetry, ranks only) — a suggestion row, never an approval
+    fetch("learned_bundles.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
   ]);
   // A newer load started while we were fetching (rapid trust switch): drop
   // this response, or trust A's data could render under trust B's banner.
@@ -804,6 +833,7 @@ async function load() {
   BUNDLES = (bundles && bundles.bundles) || [];
   DRIVING = (driving && driving.modules) || [];
   FOLLOWUPS = (followups && followups.destinations) || [];
+  LEARNED = ((learned && learned.trusts) || {})[TRUST.id] || {};
   NHS_CARDS = new Set(Object.entries((nhsCards && nhsCards.pages) || {})
     .filter(([, p]) => p && p.cards && p.cards.length).map(([slug]) => slug));
   PROFILES = (profiles && profiles.profiles) || {};
@@ -944,12 +974,28 @@ function renderRelated() {
     }
   }
   const top = [...picks.values()].slice(0, 6);
-  el.innerHTML = top.length
-    ? `<span class="rlabel">Often given together:</span>` + top.map(it =>
-        `<span class="chip" data-s="${esc(it.slug)}" role="button" tabindex="0" title="Add to selection">＋ ${esc(it.title)}</span>`).join(" ")
-    : "";
+  // learned rows: what this trust's clinicians add with what is ticked, then
+  // what THIS DEVICE usually adds (≥2 past QRs) — both skip anything already
+  // picked or already suggested above
+  const seen = new Set([...selected.keys(), ...top.map(it => it.slug)]);
+  const learnedRow = [], deviceRow = [];
+  for (const slug of selected.keys()) {
+    for (const s of (LEARNED[slug] || [])) { const it = bySlug.get(s); if (it && !seen.has(s)) { seen.add(s); learnedRow.push(it); } }
+    for (const s of devicePairs(slug, 2)) { const it = bySlug.get(s); if (it && !seen.has(s)) { seen.add(s); deviceRow.push(it); } }
+  }
+  const row = (label, items, cls) => items.length
+    ? `<div class="${cls}"><span class="rlabel">${label}</span> ` + items.slice(0, 5).map(it =>
+        `<span class="chip" data-s="${esc(it.slug)}" role="button" tabindex="0" title="Add to selection">＋ ${esc(it.title)}</span>`).join(" ") +
+      (items.length > 1 ? ` <span class="chip addall" data-all="${esc(items.slice(0, 5).map(it => it.slug).join(","))}" role="button" tabindex="0" title="Add every suggestion in this row">＋ Add all</span>` : "") +
+      `</div>` : "";
+  el.innerHTML = row("Often given together:", top, "") + row("Clinicians here often add:", learnedRow, "learnedrow")
+               + row("You usually add:", deviceRow, "learnedrow");
   el.querySelectorAll(".chip").forEach(c => {
-    const add = () => { const it = bySlug.get(c.dataset.s); if (it) { selected.set(it.slug, it); renderSelected(); renderResults(); } };
+    const add = () => {
+      const slugs = c.dataset.all ? c.dataset.all.split(",") : [c.dataset.s];
+      for (const s of slugs) { const it = bySlug.get(s); if (it) selected.set(it.slug, it); }
+      renderSelected(); renderResults();
+    };
     c.onclick = add;
     c.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); add(); } };
   });
@@ -1656,6 +1702,7 @@ function generate() {
   // generate again" stale-QR warning exactly once — the 2026-08-01 failure
   // mode the warning exists to prevent.
   bumpFreq([...selected.keys()]);
+  bumpPairs([...selected.keys()]);
   noteSpecialtyHints([...selected.keys()]);
   telemetry("generate", [...selected.keys()].join(","));   // content slugs only
   const slugs = [...selected.keys()].join(",");

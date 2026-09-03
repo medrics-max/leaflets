@@ -1,6 +1,6 @@
 {
  "version": 3,
- "comment": "Clinically-authored companion suggestions for the picker. PRINCIPLE (Oscar, 2026-07-14): suggest the PATHWAY, not just sibling leaflets — (1) the service/contact page (who to call: the epilepsy nurse via Neurology, the AHOU helpline), (2) the ambulatory route back in (SDEC, EPAU), (3) the safety-netting sheet (sepsis, cauda equina), (4) the discharge medicine. When a ticked item's folded title contains a `match` term, each `suggest` entry is resolved through the normal search scoring against the CURRENT trust's items — so suggestions adapt per trust and silently drop when a trust has no matching content. Bundles are concepts, not slugs: never hardcode slugs (they are per-trust). Shown as a subtle 'Often given together' row; the clinician decides. MEDICINE BUNDLES (Oscar 2026-09-03: 'link common treatments to conditions — bring up flucloxacillin when cellulitis is selected'): each presentation suggests its usual first-line discharge medicine(s) as NHS.uk medicine pages, and the medicine suggests its condition back. Suggestions prompt the clinician and never prescribe; the set is claude-authored and awaits Oscar's clinical review (entries carry 'by').",
+ "comment": "Clinically-authored companion suggestions for the picker. PRINCIPLE (Oscar, 2026-07-14): suggest the PATHWAY, not just sibling leaflets — (1) the service/contact page (who to call: the epilepsy nurse via Neurology, the AHOU helpline), (2) the ambulatory route back in (SDEC, EPAU), (3) the safety-netting sheet (sepsis, cauda equina), (4) the discharge medicine. When a ticked item's folded title contains a `match` term, each `suggest` entry is resolved through the normal search scoring against the CURRENT trust's items — so suggestions adapt per trust and silently drop when a trust has no matching content. Bundles are concepts, not slugs: never hardcode slugs (they are per-trust). Shown as a subtle 'Often given together' row; the clinician decides. MEDICINE BUNDLES (Oscar 2026-09-03: 'link common treatments to conditions — bring up flucloxacillin when cellulitis is selected'): each presentation suggests its usual first-line discharge medicine(s) as NHS.uk medicine pages, and the medicine suggests its condition back. Suggestions prompt the clinician and never prescribe; suggestions are not clinical approvals — the clinician chooses every item (Oscar 2026-09-03); from here the set grows from what clinicians actually pick together (learned_bundles.json).",
  "bundles": [
   {
    "id": "first-fit",
@@ -333,7 +333,7 @@
     "clarithromycin",
     "sepsis"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "tonsillitis",
@@ -347,7 +347,7 @@
     "clarithromycin",
     "paracetamol"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "chest-infection",
@@ -361,7 +361,7 @@
     "doxycycline",
     "clarithromycin"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "otitis-media",
@@ -374,7 +374,7 @@
     "paracetamol",
     "ibuprofen"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "sinusitis",
@@ -385,7 +385,7 @@
     "phenoxymethylpenicillin",
     "paracetamol"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "bite",
@@ -398,7 +398,7 @@
    "suggest": [
     "co-amoxiclav"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "dental-abscess",
@@ -412,7 +412,7 @@
     "metronidazole",
     "ibuprofen"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "impetigo",
@@ -422,7 +422,7 @@
    "suggest": [
     "flucloxacillin"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "shingles-herpes",
@@ -435,7 +435,7 @@
    "suggest": [
     "aciclovir"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "conjunctivitis",
@@ -445,7 +445,7 @@
    "suggest": [
     "chloramphenicol"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "gout",
@@ -456,7 +456,7 @@
     "naproxen",
     "colchicine"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "renal-colic",
@@ -470,7 +470,7 @@
     "paracetamol",
     "urology"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "migraine",
@@ -483,7 +483,7 @@
     "ibuprofen",
     "paracetamol"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "croup",
@@ -493,7 +493,7 @@
    "suggest": [
     "dexamethasone"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "anaphylaxis",
@@ -507,7 +507,7 @@
     "cetirizine",
     "chlorphenamine"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "urticaria",
@@ -520,7 +520,7 @@
     "fexofenadine",
     "loratadine"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "vertigo",
@@ -534,7 +534,7 @@
     "prochlorperazine",
     "cyclizine"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "nausea",
@@ -547,7 +547,7 @@
     "cyclizine",
     "metoclopramide"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "constipation",
@@ -559,7 +559,7 @@
     "senna",
     "lactulose"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "gord",
@@ -573,7 +573,7 @@
     "omeprazole",
     "lansoprazole"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "pid",
@@ -584,7 +584,7 @@
     "doxycycline",
     "metronidazole"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "epididymitis",
@@ -597,7 +597,7 @@
     "doxycycline",
     "ciprofloxacin"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "sprain",
@@ -611,7 +611,7 @@
     "paracetamol",
     "naproxen"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "angina-gtn",
@@ -622,7 +622,7 @@
     "gtn spray",
     "aspirin"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "med-flucloxacillin",
@@ -633,7 +633,7 @@
     "cellulitis",
     "impetigo"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "med-nitro-trim",
@@ -644,7 +644,7 @@
    "suggest": [
     "urinary tract infection"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "med-penv",
@@ -655,7 +655,7 @@
     "tonsillitis",
     "sore throat"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "med-aciclovir",
@@ -666,7 +666,7 @@
     "shingles",
     "cold sore"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "med-sumatriptan",
@@ -676,7 +676,7 @@
    "suggest": [
     "migraine"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
   {
    "id": "med-colchicine",
@@ -686,7 +686,7 @@
    "suggest": [
     "gout"
    ],
-   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+   "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   }
  ]
 }
