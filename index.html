@@ -429,21 +429,30 @@ let FU_LEAFLET = "";
 // medicines the clinician put on this QR
 let BUNDLES = [];
 let BUNDLE_MEDS = [];
+// every href on this page comes from our own JSON, but only http(s) may ever reach an href
+function safeHref(u) { return /^https?:\/\//i.test(String(u || "")) ? encodeURI(String(u)) : ""; }
 function foldT(s) { return String(s || "").toLowerCase().replace(/[’']/g, "").replace(/[-–—]/g, " "); }
 // medicines on this page that the condition's bundle names as its treatment —
 // data-driven, both directions of the bundle file, never a guess
-function chosenTreatments(item) {
+function chosenTreatments(cond) {
   if (!BUNDLE_MEDS.length || !BUNDLES.length) return [];
-  const ct = foldT(item.title + " " + item.slug);
+  const ct = foldT(cond.title + " " + cond.slug);
   const first = t => (t.split(/\s+/)[0] || "");
   const out = [];
   for (const m of BUNDLE_MEDS) {
-    const mt = foldT(m.title + " " + m.slug);
+    if (m.slug === cond.slug) continue;
+    const mt = foldT(m.title), ms = foldT(m.slug);
+    // a suggest term names this medicine when the WHOLE term is in its title
+    // ("anticoagulant") or its first word is the drug name in its slug
+    // ("apixaban vte" → med-apixaban). Codex 2026-09-03: first-word matching
+    // in the condition direction let "pulmonary embolism" claim enoxaparin
+    // for pulmonary hypertension — so that direction needs the whole term.
+    const namesMed = t => mt.includes(t) || (first(t).length >= 5 && ms.includes(first(t)));
+    const namesCond = t => t.length >= 4 && ct.includes(t);
     const hit = BUNDLES.some(b => {
       const match = (b.match || []).map(foldT), sug = (b.suggest || []).map(foldT);
-      // condition row → its suggested medicines; medicine row → the conditions it treats
-      return (match.some(t => ct.includes(t)) && sug.some(t => first(t).length >= 4 && mt.includes(first(t))))
-          || (match.some(t => mt.includes(t)) && sug.some(t => first(t).length >= 4 && ct.includes(first(t))));
+      return (match.some(t => ct.includes(t)) && sug.some(namesMed))      // condition row → its medicines
+          || (match.some(t => mt.includes(t) || ms.includes(t)) && sug.some(namesCond));   // medicine row → its conditions
     });
     if (hit && !out.includes(m)) out.push(m);
   }
@@ -475,7 +484,7 @@ function buildIcs(dest, dt, hasTime, findHref) {
           "SUMMARY:" + icsText("Follow-up: " + (dest.name || dest.label)),
           dest.where ? "LOCATION:" + icsText(dest.where) : "",
           desc ? "DESCRIPTION:" + icsText(desc) : "",
-          findHref ? "URL:" + findHref : "",
+          findHref ? "URL:" + String(findHref).replace(/[\r\n]/g, "") : "",
           "END:VEVENT", "END:VCALENDAR"].filter(Boolean).join("\r\n") + "\r\n";
 }
 // paper shows everything: open every collapsed section for print, restore after
@@ -570,8 +579,8 @@ function cardFor(item, openLabel) {
   return `
     <div id="item-${escapeHtml(item.slug)}" class="leaflet-card">
       <div class="lmain">
-        <span class="ltitle" data-url="${escapeHtml(item.url)}">${escapeHtml(item.title)}${sourceBadge(item)}</span>
-        <a class="read${item.type === "leaflet" ? "" : " open"}" href="${encodeURI(item.url)}">${openLabel}</a>
+        <span class="ltitle" data-url="${escapeHtml(safeHref(item.url))}">${escapeHtml(item.title)}${sourceBadge(item)}</span>
+        <a class="read${item.type === "leaflet" ? "" : " open"}" href="${safeHref(item.url)}">${escapeHtml(openLabel)}</a>
       </div>
       ${stale}${replaced}${nhsInfoHtml(item, item.nhsCards)}${companionHtml(item)}
     </div>
@@ -666,7 +675,8 @@ function nhsInfoHtml(item, pg) {
   // a pathway the patient may not have had — they stay on the linked NHS page.
   // Generic advice = NHS's own self-care section, still shown. Known treatment
   // = the medicine the clinician clicked, shown as the pointer below.
-  const chosen = item.type === "nhs" ? chosenTreatments(item) : [];
+  const chosen = (pg.url || "").includes("/conditions/")
+    ? chosenTreatments({ title: pg.title || item.title || "", slug: item.slug || "" }) : [];
   const cards = (pg.cards || []).filter(c => INFO_TIERS[c.tier] && c.tier !== "treatment" && c.tier !== "diagnosis");
   const help = (pg.cards || []).filter(c => HELP_TIERS[c.tier]);
   if (help.length) HELP_GROUPS.push({ title: pg.title || item.title, page: pg, cards: help });
@@ -676,12 +686,13 @@ function nhsInfoHtml(item, pg) {
   // collapsed by default (Oscar 2026-09-03: "collapsible points so the
   // information is not too overwhelming"); the intro stays visible
   const chosenLine = chosen.length
-    ? `<p class="nhs-chosen">💊 <strong>Your treatment:</strong> ${chosen.map(m => `<a href="#item-${escapeHtml(m.slug)}">${escapeHtml(m.title.replace(/\s*\(.*$/, ""))}</a>`).join(", ")} — chosen for you by your clinician. What it is, how to take it and side effects are under “About your medicines” below.</p>`
+    ? `<p class="nhs-chosen">💊 <strong>Your treatment:</strong> ${chosen.map(m => `<a href="#item-${escapeHtml(m.slug)}">${escapeHtml(m.title.replace(/\s*\(.*$/, ""))}</a>`).join(", ")} — added to this page by your clinician. What it is, how to take it and side effects are under “About your medicines” below.</p>`
     : "";
-  const body = chosenLine + cards.map(c => `<details class="nhscard nhscard-${escapeHtml(c.tier)}">
+  const body = cards.map(c => `<details class="nhscard nhscard-${escapeHtml(c.tier)}">
       <summary>${escapeHtml(c.headline)}</summary><div class="nhscard-b">${cardBody(c)}</div></details>`).join("");
   const helpNote = help.length ? ` — when to get help for this is <a href="#help">at the bottom of this page</a>` : "";
-  return `<div class="nhscards">${about}${body}${nhsAttribution(pg, helpNote)}</div>`;
+  // our one sentence sits OUTSIDE the NHS-attributed block (Codex 2026-09-03)
+  return `${chosenLine}<div class="nhscards">${about}${body}${nhsAttribution(pg, helpNote)}</div>`;
 }
 // The bottom section: every red-flag card from every NHS page on this
 // visit, in NHS order, grouped by condition, with the disclaimer.
@@ -1103,7 +1114,7 @@ async function main() {
         ${dest.phone ? `<a class="fu-phone" href="tel:${tel}">📞 ${escapeHtml(dest.phone)}</a>` : ""}
         ${dest.hours ? `<p class="fu-where">🕐 ${escapeHtml(dest.hours)}</p>` : ""}
         ${dest.where ? `<p class="fu-where">📍 ${escapeHtml(dest.where)}</p>` : ""}
-        ${leaf ? `<a class="fu-find" href="${encodeURI(leaf.url)}">📄 Read the hospital's leaflet</a>` : ""}
+        ${leaf ? `<a class="fu-find" href="${safeHref(leaf.url)}">📄 Read the hospital's leaflet</a>` : ""}
         ${findHref && !(leaf && findHref === leaf.url) ? `<a class="fu-find" href="${escapeHtml(findHref)}" target="_blank" rel="noopener">📍 How to find it</a>` : ""}
         <p class="fu-note">If you feel worse, or you are worried, call <strong>111</strong> — or <strong>999</strong> in an emergency.</p>
       </div>`;
@@ -1123,7 +1134,7 @@ async function main() {
         ${dest.note ? `<p class="fu-note">${escapeHtml(dest.note)}</p>` : ""}
         ${FU_ICS ? `<button type="button" class="fu-cal" onclick="addFollowupToCalendar()">📆 Add to my calendar</button>` : ""}
         ${findHref ? `<a class="fu-find" href="${escapeHtml(findHref)}" target="_blank" rel="noopener">📍 How to find it</a>` : ""}
-        ${leaf ? `<p class="fu-note fu-leaf">Before you come, read <a href="${encodeURI(leaf.url)}">${escapeHtml(leaf.title)}</a> <span class="src src-trust">${escapeHtml(TRUST_LABEL)} leaflet</span></p>` : ""}
+        ${leaf ? `<p class="fu-note fu-leaf">Before you come, read <a href="${safeHref(leaf.url)}">${escapeHtml(leaf.title)}</a> <span class="src src-trust">${escapeHtml(TRUST_LABEL)} leaflet</span></p>` : ""}
         ${dest.phone ? `<a class="fu-phone" href="tel:${tel}">📞 ${escapeHtml(dest.phone)}</a>` : ""}
         ${past ? `<div class="fu-past">This date has passed. If you missed your visit, contact your care team.</div>` : ""}
         <p class="fu-note">If you cannot come, or you are unsure, ${dest.phone ? "call the number above" : "contact your care team"}.</p>
