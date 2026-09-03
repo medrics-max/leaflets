@@ -1482,5 +1482,193 @@
   "slug": "via-gloucestershire",
   "type": "gov",
   "source": "Via (commissioned Gloucestershire service)"
+ },
+ {
+  "title": "BPPV and Home Epley manoeuvre (ENT UK)",
+  "url": "https://www.entuk.org/patients/conditions/90/bppv_and_home_epley_manoeuvre",
+  "slug": "entuk-bppv-and-home-epley-manoeuvre",
+  "type": "trusted",
+  "source": "ENT UK"
+ },
+ {
+  "title": "Dizziness (ENT UK)",
+  "url": "https://www.entuk.org/patients/conditions/3/dizziness_under_review",
+  "slug": "entuk-dizziness",
+  "type": "trusted",
+  "source": "ENT UK",
+  "note": "marked 'under review' by ENT UK on its index (2026-09-03)"
+ },
+ {
+  "title": "Facial Nerve Palsy (ENT UK)",
+  "url": "https://www.entuk.org/patients/conditions/117/facial_nerve_palsy",
+  "slug": "entuk-facial-nerve-palsy",
+  "type": "trusted",
+  "source": "ENT UK"
+ },
+ {
+  "title": "How to use ear drops or sprays (ENT UK)",
+  "url": "https://www.entuk.org/patients/conditions/74/how_to_use_ear_drops_or_sprays",
+  "slug": "entuk-how-to-use-ear-drops-or-sprays",
+  "type": "trusted",
+  "source": "ENT UK"
+ },
+ {
+  "title": "Middle Ear Infections (Otitis Media) (ENT UK)",
+  "url": "https://www.entuk.org/patients/conditions/10/middle_ear_infections_otitis_media_under_review",
+  "slug": "entuk-middle-ear-infections-otitis-media",
+  "type": "trusted",
+  "source": "ENT UK",
+  "note": "marked 'under review' by ENT UK on its index (2026-09-03)"
+ },
+ {
+  "title": "Outer ear infection or otitis externa (ENT UK)",
+  "url": "https://www.entuk.org/patients/conditions/99/outer_ear_infection_or_otitis_externa",
+  "slug": "entuk-outer-ear-infection-or-otitis-externa",
+  "type": "trusted",
+  "source": "ENT UK"
+ },
+ {
+  "title": "Recurrent acute otitis media (ENT UK)",
+  "url": "https://www.entuk.org/patients/conditions/114/recurrent_acute_otitis_media",
+  "slug": "entuk-recurrent-acute-otitis-media",
+  "type": "trusted",
+  "source": "ENT UK"
+ },
+ {
+  "title": "Vertigo (ENT UK)",
+  "url": "https://www.entuk.org/patients/conditions/18/vertigo_under_review",
+  "slug": "entuk-vertigo",
+  "type": "trusted",
+  "source": "ENT UK",
+  "note": "marked 'under review' by ENT UK on its index (2026-09-03)"
+ },
+ {
+  "title": "Blocked Nose (ENT UK)",
+  "url": "https://www.entuk.org/patients/conditions/36/blocked_nose_under_review",
+  "slug": "entuk-blocked-nose",
+  "type": "trusted",
+  "source": "ENT UK",
+  "note": "marked 'under review' by ENT UK on its index (2026-09-03)"
+ },
+ {
+  "title": "How to use nasal drops (ENT UK)",
+  "url": "https://www.entuk.org/patients/conditions/77/how_to_use_nasal_drops",
+  "slug": "entuk-how-to-use-nasal-drops",
+  "type": "trusted",
+  "source": "ENT UK"
+ },
+ {
+  "title": "How to use nasal ointment (ENT UK)",
+  "url": "https://www.entuk.org/patients/conditions/76/how_to_use_nasal_ointment",
+  "slug": "entuk-how-to-use-nasal-ointment",
+  "type": "trusted",
+  "source": "ENT UK"
+ },
+ {
+  "title": "How to use nasal sprays (ENT UK)",
+  "url": "https://www.entuk.org/patients/conditions/79/how_to_use_nasal_sprays",
+  "slug": "entuk-how-to-use-nasal-sprays",
+  "type": "trusted",
+  "source": "ENT UK"
+ },
+ {
+  "title": "Nasal injuries (ENT UK)",
+  "url": "https://www.entuk.org/patients/conditions/40/nasal_injuries_under_review",
+  "slug": "entuk-nasal-injuries",
+  "type": "trusted",
+  "source": "ENT UK",
+  "note": "marked 'under review' by ENT UK on its index (2026-09-03)"
+ },
+ {
+  "title": "Nosebleeds (Epistaxis) (ENT UK)",
+  "url": "https://www.entuk.org/patients/conditions/42/nosebleeds_epistaxis",
+  "slug": "entuk-nosebleeds-epistaxis",
+  "type": "trusted",
+  "source": "ENT UK"
+ },
+ {
+  "title": "Saline Rinses for the Nose (ENT UK)",
+  "url": "https://www.entuk.org/patients/conditions/98/saline_rinses_for_the_nose",
+  "slug": "entuk-saline-rinses-for-the-nose",
+  "type": "trusted",
+  "source": "ENT UK"
+ },
+ {
+  "title": "Sinus infection (Sinusitis) (ENT UK)",
+  "url": "https://www.entuk.org/patients/conditions/45/sinus_infection_sinusitis_under_review",
+  "slug": "entuk-sinus-infection-sinusitis",
+  "type": "trusted",
+  "source": "ENT UK",
+  "note": "marked 'under review' by ENT UK on its index (2026-09-03)"
+ },
+ {
+  "title": "Neck lump clinic (ENT UK)",
+  "url": "https://www.entuk.org/patients/conditions/60/neck_lump_clinic",
+  "slug": "entuk-neck-lump-clinic",
+  "type": "trusted",
+  "source": "ENT UK"
+ },
+ {
+  "title": "Blood in the urine (haematuria) (BAUS)",
+  "url": "https://www.baus.org.uk/patients/conditions/2/blood_in_the_urine_haematuria",
+  "slug": "baus-blood-in-the-urine-haematuria",
+  "type": "trusted",
+  "source": "BAUS"
+ },
+ {
+  "title": "Kidney stones (BAUS)",
+  "url": "https://www.baus.org.uk/patients/conditions/6/kidney_stones",
+  "slug": "baus-kidney-stones",
+  "type": "trusted",
+  "source": "BAUS"
+ },
+ {
+  "title": "Urinary infection (adult) (BAUS)",
+  "url": "https://www.baus.org.uk/patients/conditions/14/urinary_infection_adult",
+  "slug": "baus-urinary-infection-adult",
+  "type": "trusted",
+  "source": "BAUS"
+ },
+ {
+  "title": "Testicular lump (BAUS)",
+  "url": "https://www.baus.org.uk/patients/conditions/12/testicular_lump",
+  "slug": "baus-testicular-lump",
+  "type": "trusted",
+  "source": "BAUS"
+ },
+ {
+  "title": "Tight foreskin (phimosis) (BAUS)",
+  "url": "https://www.baus.org.uk/patients/conditions/13/tight_foreskin_phimosis",
+  "slug": "baus-tight-foreskin-phimosis",
+  "type": "trusted",
+  "source": "BAUS"
+ },
+ {
+  "title": "Fractures of the cheekbone (BAOMS)",
+  "url": "https://www.baoms.org.uk/patients/procedures/13/fractures_of_the_cheekbone",
+  "slug": "baoms-fractures-of-the-cheekbone",
+  "type": "trusted",
+  "source": "BAOMS"
+ },
+ {
+  "title": "Fractures of the lower jaw (BAOMS)",
+  "url": "https://www.baoms.org.uk/patients/procedures/15/fractures_of_the_lower_jaw",
+  "slug": "baoms-fractures-of-the-lower-jaw",
+  "type": "trusted",
+  "source": "BAOMS"
+ },
+ {
+  "title": "Fractures of the upper jaw (BAOMS)",
+  "url": "https://www.baoms.org.uk/patients/procedures/14/fractures_of_the_upper_jaw",
+  "slug": "baoms-fractures-of-the-upper-jaw",
+  "type": "trusted",
+  "source": "BAOMS"
+ },
+ {
+  "title": "Caring for your mouth after a dental injury (BAOMS)",
+  "url": "https://www.baoms.org.uk/patients/procedures/11/caring_for_your_mouth_after_a_dental_injury",
+  "slug": "baoms-caring-for-your-mouth-after-a-dental-injury",
+  "type": "trusted",
+  "source": "BAOMS"
  }
 ]

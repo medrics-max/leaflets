@@ -494,7 +494,8 @@ function cardFor(item, openLabel) {
 // job must fail to the link, never to old advice).
 function nhsCardsHtml(item) {
   const pg = item.nhsCards;
-  if (!pg || !pg.cards || !pg.cards.length) return "";
+  if (!pg || (!(pg.cards && pg.cards.length) && !(pg.about && pg.about.length))) return "";
+  pg.cards = pg.cards || [];
   // the licence expects a 7-day refresh: a card checked more than 10 days
   // ago (or with a missing/future date) is not shown — the link stays
   const age = (Date.now() - new Date(pg.retrieved || "x").getTime()) / 86400000;

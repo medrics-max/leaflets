@@ -1,60 +1,692 @@
 {
-  "version": 2,
-  "comment": "Clinically-authored companion suggestions for the picker. PRINCIPLE (Oscar, 2026-07-14): suggest the PATHWAY, not just sibling leaflets — (1) the service/contact page (who to call: the epilepsy nurse via Neurology, the AHOU helpline), (2) the ambulatory route back in (SDEC, EPAU), (3) the safety-netting sheet (sepsis, cauda equina), (4) the discharge medicine. When a ticked item's folded title contains a `match` term, each `suggest` entry is resolved through the normal search scoring against the CURRENT trust's items — so suggestions adapt per trust and silently drop when a trust has no matching content. Bundles are concepts, not slugs: never hardcode slugs (they are per-trust). Shown as a subtle 'Often given together' row; the clinician decides.",
-  "bundles": [
-    {"id": "first-fit", "match": ["seizure", "first fit", "epilep"],
-     "suggest": ["epilepsy team", "neurology", "same day emergency care"]},
-    {"id": "tia-stroke", "match": ["transient ischaem", "mini stroke", "stroke"],
-     "suggest": ["stroke medicine"]},
-    {"id": "dvt", "match": ["deep vein"],
-     "suggest": ["apixaban vte", "same day emergency care", "anticoagulant", "pulmonary embolism"]},
-    {"id": "pe", "match": ["pulmonary embol"],
-     "suggest": ["apixaban vte", "anticoagulant", "same day emergency care"]},
-    {"id": "af", "match": ["atrial fibrillation"],
-     "suggest": ["apixaban atrial fibrillation", "anticoagulant", "cardiology"]},
-    {"id": "anticoag", "match": ["warfarin", "apixaban", "rivaroxaban", "edoxaban", "dabigatran"],
-     "suggest": ["anticoagulant", "atrial fibrillation"]},
-    {"id": "chest-pain", "match": ["chest pain", "angina"],
-     "suggest": ["heart attack", "gtn", "cardiology"]},
-    {"id": "heart-attack", "match": ["heart attack"],
-     "suggest": ["gtn", "angina", "cardiology", "smoking"]},
-    {"id": "heart-failure", "match": ["heart failure"],
-     "suggest": ["cardiology", "furosemide"]},
-    {"id": "head-injury", "match": ["head injury"],
-     "suggest": ["concussion"]},
-    {"id": "uti", "match": ["urinary tract", "urine infection"],
-     "suggest": ["trimethoprim", "nitrofurantoin", "kidney infection", "sepsis"]},
-    {"id": "kidney-infection", "match": ["kidney infection", "pyelonephritis"],
-     "suggest": ["sepsis", "dehydration"]},
-    {"id": "diabetes-t1", "match": ["type 1 diabetes", "ketone"],
-     "suggest": ["sick day rules", "adult diabetes and endocrinology"]},
-    {"id": "diabetes-t2", "match": ["type 2 diabetes", "gestational diabetes"],
-     "suggest": ["adult diabetes and endocrinology"]},
-    {"id": "copd", "match": ["chronic obstructive", "copd"],
-     "suggest": ["respiratory medicine", "smoking", "pneumonia"]},
-    {"id": "asthma", "match": ["asthma"],
-     "suggest": ["respiratory medicine", "smoking"]},
-    {"id": "back-pain", "match": ["back pain"],
-     "suggest": ["cauda equina", "naproxen"]},
-    {"id": "fracture", "match": ["fracture", "broken"],
-     "suggest": ["cast", "sling", "ibuprofen"]},
-    {"id": "gastro", "match": ["gastroenter", "diarrhoea", "vomiting"],
-     "suggest": ["dehydration"]},
-    {"id": "alcohol", "match": ["alcohol"],
-     "suggest": ["drug and alcohol support", "mental health crisis"]},
-    {"id": "overdose", "match": ["poisoning", "overdose"],
-     "suggest": ["mental health crisis", "drug and alcohol support"]},
-    {"id": "self-harm", "match": ["mental health crisis", "self-harm"],
-     "suggest": ["drug and alcohol support"]},
-    {"id": "eye", "match": ["eye casualty", "urgent eye", "flashes and floaters"],
-     "suggest": ["flashes and floaters", "ophthalmology"]},
-    {"id": "early-pregnancy", "match": ["early pregnancy", "vaginal bleeding", "ectopic", "miscarriage"],
-     "suggest": ["early pregnancy assessment clinic", "ectopic", "miscarriage"]},
-    {"id": "maternity", "match": ["pregnan", "labour", "waters break"],
-     "suggest": ["contact the maternity team"]},
-    {"id": "falls-frailty", "match": ["falls", "walking aid"],
-     "suggest": ["fainting", "head injury", "frailty"]},
-    {"id": "oncology-hot", "match": ["sact", "chemotherapy", "neutropen"],
-     "suggest": ["acute haematology oncology unit", "sepsis"]}
-  ]
+ "version": 3,
+ "comment": "Clinically-authored companion suggestions for the picker. PRINCIPLE (Oscar, 2026-07-14): suggest the PATHWAY, not just sibling leaflets — (1) the service/contact page (who to call: the epilepsy nurse via Neurology, the AHOU helpline), (2) the ambulatory route back in (SDEC, EPAU), (3) the safety-netting sheet (sepsis, cauda equina), (4) the discharge medicine. When a ticked item's folded title contains a `match` term, each `suggest` entry is resolved through the normal search scoring against the CURRENT trust's items — so suggestions adapt per trust and silently drop when a trust has no matching content. Bundles are concepts, not slugs: never hardcode slugs (they are per-trust). Shown as a subtle 'Often given together' row; the clinician decides. MEDICINE BUNDLES (Oscar 2026-09-03: 'link common treatments to conditions — bring up flucloxacillin when cellulitis is selected'): each presentation suggests its usual first-line discharge medicine(s) as NHS.uk medicine pages, and the medicine suggests its condition back. Suggestions prompt the clinician and never prescribe; the set is claude-authored and awaits Oscar's clinical review (entries carry 'by').",
+ "bundles": [
+  {
+   "id": "first-fit",
+   "match": [
+    "seizure",
+    "first fit",
+    "epilep"
+   ],
+   "suggest": [
+    "epilepsy team",
+    "neurology",
+    "same day emergency care"
+   ]
+  },
+  {
+   "id": "tia-stroke",
+   "match": [
+    "transient ischaem",
+    "mini stroke",
+    "stroke"
+   ],
+   "suggest": [
+    "stroke medicine"
+   ]
+  },
+  {
+   "id": "dvt",
+   "match": [
+    "deep vein"
+   ],
+   "suggest": [
+    "apixaban vte",
+    "same day emergency care",
+    "anticoagulant",
+    "pulmonary embolism"
+   ]
+  },
+  {
+   "id": "pe",
+   "match": [
+    "pulmonary embol"
+   ],
+   "suggest": [
+    "apixaban vte",
+    "anticoagulant",
+    "same day emergency care"
+   ]
+  },
+  {
+   "id": "af",
+   "match": [
+    "atrial fibrillation"
+   ],
+   "suggest": [
+    "apixaban atrial fibrillation",
+    "anticoagulant",
+    "cardiology"
+   ]
+  },
+  {
+   "id": "anticoag",
+   "match": [
+    "warfarin",
+    "apixaban",
+    "rivaroxaban",
+    "edoxaban",
+    "dabigatran"
+   ],
+   "suggest": [
+    "anticoagulant",
+    "atrial fibrillation"
+   ]
+  },
+  {
+   "id": "chest-pain",
+   "match": [
+    "chest pain",
+    "angina"
+   ],
+   "suggest": [
+    "heart attack",
+    "gtn",
+    "cardiology",
+    "gtn spray",
+    "aspirin"
+   ]
+  },
+  {
+   "id": "heart-attack",
+   "match": [
+    "heart attack"
+   ],
+   "suggest": [
+    "gtn",
+    "angina",
+    "cardiology",
+    "smoking"
+   ]
+  },
+  {
+   "id": "heart-failure",
+   "match": [
+    "heart failure"
+   ],
+   "suggest": [
+    "cardiology",
+    "furosemide"
+   ]
+  },
+  {
+   "id": "head-injury",
+   "match": [
+    "head injury"
+   ],
+   "suggest": [
+    "concussion",
+    "paracetamol"
+   ]
+  },
+  {
+   "id": "uti",
+   "match": [
+    "urinary tract",
+    "urine infection"
+   ],
+   "suggest": [
+    "trimethoprim",
+    "nitrofurantoin",
+    "kidney infection",
+    "sepsis"
+   ]
+  },
+  {
+   "id": "kidney-infection",
+   "match": [
+    "kidney infection",
+    "pyelonephritis"
+   ],
+   "suggest": [
+    "sepsis",
+    "dehydration",
+    "cefalexin",
+    "co-amoxiclav"
+   ]
+  },
+  {
+   "id": "diabetes-t1",
+   "match": [
+    "type 1 diabetes",
+    "ketone"
+   ],
+   "suggest": [
+    "sick day rules",
+    "adult diabetes and endocrinology"
+   ]
+  },
+  {
+   "id": "diabetes-t2",
+   "match": [
+    "type 2 diabetes",
+    "gestational diabetes"
+   ],
+   "suggest": [
+    "adult diabetes and endocrinology"
+   ]
+  },
+  {
+   "id": "copd",
+   "match": [
+    "chronic obstructive",
+    "copd"
+   ],
+   "suggest": [
+    "respiratory medicine",
+    "smoking",
+    "pneumonia",
+    "prednisolone",
+    "doxycycline"
+   ]
+  },
+  {
+   "id": "asthma",
+   "match": [
+    "asthma"
+   ],
+   "suggest": [
+    "respiratory medicine",
+    "smoking",
+    "salbutamol",
+    "prednisolone"
+   ]
+  },
+  {
+   "id": "back-pain",
+   "match": [
+    "back pain"
+   ],
+   "suggest": [
+    "cauda equina",
+    "naproxen",
+    "paracetamol",
+    "co-codamol"
+   ]
+  },
+  {
+   "id": "fracture",
+   "match": [
+    "fracture",
+    "broken"
+   ],
+   "suggest": [
+    "cast",
+    "sling",
+    "ibuprofen",
+    "paracetamol"
+   ]
+  },
+  {
+   "id": "gastro",
+   "match": [
+    "gastroenter",
+    "diarrhoea",
+    "vomiting"
+   ],
+   "suggest": [
+    "dehydration",
+    "cyclizine"
+   ]
+  },
+  {
+   "id": "alcohol",
+   "match": [
+    "alcohol"
+   ],
+   "suggest": [
+    "drug and alcohol support",
+    "mental health crisis"
+   ]
+  },
+  {
+   "id": "overdose",
+   "match": [
+    "poisoning",
+    "overdose"
+   ],
+   "suggest": [
+    "mental health crisis",
+    "drug and alcohol support"
+   ]
+  },
+  {
+   "id": "self-harm",
+   "match": [
+    "mental health crisis",
+    "self-harm"
+   ],
+   "suggest": [
+    "drug and alcohol support"
+   ]
+  },
+  {
+   "id": "eye",
+   "match": [
+    "eye casualty",
+    "urgent eye",
+    "flashes and floaters"
+   ],
+   "suggest": [
+    "flashes and floaters",
+    "ophthalmology"
+   ]
+  },
+  {
+   "id": "early-pregnancy",
+   "match": [
+    "early pregnancy",
+    "vaginal bleeding",
+    "ectopic",
+    "miscarriage"
+   ],
+   "suggest": [
+    "early pregnancy assessment clinic",
+    "ectopic",
+    "miscarriage"
+   ]
+  },
+  {
+   "id": "maternity",
+   "match": [
+    "pregnan",
+    "labour",
+    "waters break"
+   ],
+   "suggest": [
+    "contact the maternity team"
+   ]
+  },
+  {
+   "id": "falls-frailty",
+   "match": [
+    "falls",
+    "walking aid"
+   ],
+   "suggest": [
+    "fainting",
+    "head injury",
+    "frailty"
+   ]
+  },
+  {
+   "id": "oncology-hot",
+   "match": [
+    "sact",
+    "chemotherapy",
+    "neutropen"
+   ],
+   "suggest": [
+    "acute haematology oncology unit",
+    "sepsis"
+   ]
+  },
+  {
+   "id": "cellulitis",
+   "match": [
+    "cellulitis",
+    "skin infection"
+   ],
+   "suggest": [
+    "flucloxacillin",
+    "clarithromycin",
+    "sepsis"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "tonsillitis",
+   "match": [
+    "tonsillitis",
+    "sore throat",
+    "quinsy"
+   ],
+   "suggest": [
+    "phenoxymethylpenicillin",
+    "clarithromycin",
+    "paracetamol"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "chest-infection",
+   "match": [
+    "pneumonia",
+    "chest infection",
+    "lower respiratory"
+   ],
+   "suggest": [
+    "amoxicillin",
+    "doxycycline",
+    "clarithromycin"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "otitis-media",
+   "match": [
+    "ear infection",
+    "otitis media"
+   ],
+   "suggest": [
+    "amoxicillin",
+    "paracetamol",
+    "ibuprofen"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "sinusitis",
+   "match": [
+    "sinusitis"
+   ],
+   "suggest": [
+    "phenoxymethylpenicillin",
+    "paracetamol"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "bite",
+   "match": [
+    "animal bite",
+    "human bite",
+    "dog bite",
+    "cat bite"
+   ],
+   "suggest": [
+    "co-amoxiclav"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "dental-abscess",
+   "match": [
+    "dental abscess",
+    "toothache",
+    "dental pain"
+   ],
+   "suggest": [
+    "amoxicillin",
+    "metronidazole",
+    "ibuprofen"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "impetigo",
+   "match": [
+    "impetigo"
+   ],
+   "suggest": [
+    "flucloxacillin"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "shingles-herpes",
+   "match": [
+    "shingles",
+    "cold sore",
+    "chickenpox",
+    "herpes"
+   ],
+   "suggest": [
+    "aciclovir"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "conjunctivitis",
+   "match": [
+    "conjunctivitis"
+   ],
+   "suggest": [
+    "chloramphenicol"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "gout",
+   "match": [
+    "gout"
+   ],
+   "suggest": [
+    "naproxen",
+    "colchicine"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "renal-colic",
+   "match": [
+    "kidney stone",
+    "renal colic",
+    "ureteric"
+   ],
+   "suggest": [
+    "naproxen",
+    "paracetamol",
+    "urology"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "migraine",
+   "match": [
+    "migraine",
+    "headache"
+   ],
+   "suggest": [
+    "sumatriptan",
+    "ibuprofen",
+    "paracetamol"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "croup",
+   "match": [
+    "croup"
+   ],
+   "suggest": [
+    "dexamethasone"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "anaphylaxis",
+   "match": [
+    "anaphylaxis",
+    "allergic reaction",
+    "allergy"
+   ],
+   "suggest": [
+    "adrenaline auto-injector",
+    "cetirizine",
+    "chlorphenamine"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "urticaria",
+   "match": [
+    "urticaria",
+    "hives"
+   ],
+   "suggest": [
+    "cetirizine",
+    "fexofenadine",
+    "loratadine"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "vertigo",
+   "match": [
+    "vertigo",
+    "bppv",
+    "labyrinth",
+    "dizz"
+   ],
+   "suggest": [
+    "prochlorperazine",
+    "cyclizine"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "nausea",
+   "match": [
+    "vomiting",
+    "nausea",
+    "gastroenteritis"
+   ],
+   "suggest": [
+    "cyclizine",
+    "metoclopramide"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "constipation",
+   "match": [
+    "constipation"
+   ],
+   "suggest": [
+    "macrogol",
+    "senna",
+    "lactulose"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "gord",
+   "match": [
+    "heartburn",
+    "reflux",
+    "gastritis",
+    "indigestion"
+   ],
+   "suggest": [
+    "omeprazole",
+    "lansoprazole"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "pid",
+   "match": [
+    "pelvic inflammatory"
+   ],
+   "suggest": [
+    "doxycycline",
+    "metronidazole"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "epididymitis",
+   "match": [
+    "epididym",
+    "orchitis",
+    "testic"
+   ],
+   "suggest": [
+    "doxycycline",
+    "ciprofloxacin"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "sprain",
+   "match": [
+    "sprain",
+    "soft tissue",
+    "strain"
+   ],
+   "suggest": [
+    "ibuprofen",
+    "paracetamol",
+    "naproxen"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "angina-gtn",
+   "match": [
+    "angina"
+   ],
+   "suggest": [
+    "gtn spray",
+    "aspirin"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "med-flucloxacillin",
+   "match": [
+    "flucloxacillin"
+   ],
+   "suggest": [
+    "cellulitis",
+    "impetigo"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "med-nitro-trim",
+   "match": [
+    "nitrofurantoin",
+    "trimethoprim"
+   ],
+   "suggest": [
+    "urinary tract infection"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "med-penv",
+   "match": [
+    "phenoxymethylpenicillin"
+   ],
+   "suggest": [
+    "tonsillitis",
+    "sore throat"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "med-aciclovir",
+   "match": [
+    "aciclovir"
+   ],
+   "suggest": [
+    "shingles",
+    "cold sore"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "med-sumatriptan",
+   "match": [
+    "sumatriptan"
+   ],
+   "suggest": [
+    "migraine"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  },
+  {
+   "id": "med-colchicine",
+   "match": [
+    "colchicine"
+   ],
+   "suggest": [
+    "gout"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction — first-line NHS medicine pages; clinical review pending"
+  }
+ ]
 }
