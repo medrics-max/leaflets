@@ -1670,5 +1670,54 @@
   "slug": "baoms-caring-for-your-mouth-after-a-dental-injury",
   "type": "trusted",
   "source": "BAOMS"
+ },
+ {
+  "title": "How to use your EpiPen — official device instructions (Viatris)",
+  "url": "https://www.epipen.co.uk/en-GB/patients/your-epipen/how-to-use-your-epipen",
+  "slug": "epipen-how-to-use",
+  "type": "trusted",
+  "source": "EpiPen (Viatris)"
+ },
+ {
+  "title": "Adrenaline auto-injectors — advice for patients (MHRA Drug Safety Update)",
+  "url": "https://www.gov.uk/drug-safety-update/adrenaline-auto-injector-advice-for-patients",
+  "slug": "mhra-aai-advice",
+  "type": "gov",
+  "source": "GOV.UK (MHRA)"
+ },
+ {
+  "title": "Clexane (enoxaparin) pre-filled syringes — official patient leaflet with injection steps (emc)",
+  "url": "https://www.medicines.org.uk/emc/product/4499/pil",
+  "slug": "emc-clexane-syringes-pil",
+  "type": "trusted",
+  "source": "emc — official medicine leaflet"
+ },
+ {
+  "title": "Inhixa (enoxaparin) pre-filled syringe — official patient leaflet with injection steps (emc)",
+  "url": "https://www.medicines.org.uk/emc/product/781/pil",
+  "slug": "emc-inhixa-pil",
+  "type": "trusted",
+  "source": "emc — official medicine leaflet"
+ },
+ {
+  "title": "Enoxaparin injections at home (Worcestershire Acute Hospitals NHS Trust leaflet)",
+  "url": "https://www.worcsacute.nhs.uk/leaflets/enoxaparin-waht-pi-2115/",
+  "slug": "worcs-enoxaparin-leaflet",
+  "type": "trusted",
+  "source": "Worcestershire Acute Hospitals NHS Trust"
+ },
+ {
+  "title": "How to inject enoxaparin (Inhixa) — Emergency Department leaflet (University Hospitals Dorset, PDF)",
+  "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/emergency-department/How-to-inject-Enoxaparin-Inhixa.pdf",
+  "slug": "uhd-how-to-inject-enoxaparin",
+  "type": "trusted",
+  "source": "University Hospitals Dorset NHS Foundation Trust"
+ },
+ {
+  "title": "Injectable anticoagulants (York and Scarborough Teaching Hospitals leaflet, PDF)",
+  "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=2953",
+  "slug": "york-injectable-anticoagulants",
+  "type": "trusted",
+  "source": "York and Scarborough Teaching Hospitals NHS Foundation Trust"
  }
 ]
