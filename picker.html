@@ -1328,7 +1328,7 @@ function renderFollowup() {
     chips.map(d =>
       `<span class="chip${fuPick && fuPick.id === d.id ? " on" : ""}" data-f="${esc(d.id)}" ` +
       `role="button" tabindex="0" title="Show a ${esc(d.label)} on the patient's page">` +
-      `${fuPick && fuPick.id === d.id ? "✓ " : ""}${esc(d.label)}</span>`).join(" ") +
+      `${fuPick && fuPick.id === d.id ? "✓ " : (d.kind === "pifu" ? "📞 " : "")}${esc(d.label)}</span>`).join(" ") +
     (rest.length
       ? ` <select id="fusel" aria-label="Choose a ward, clinic or unit for follow-up">` +
         `<option value="">${chips.length ? "Or a ward, clinic or unit…" : "Choose a ward, clinic or unit…"}</option>` +
@@ -1341,24 +1341,28 @@ function renderFollowup() {
       : "") +
     `<div id="fupanel"></div>`;
   el.querySelectorAll(".chip").forEach(c => {
-    const toggle = () => {
-      fuPick = (fuPick && fuPick.id === c.dataset.f) ? null
-             : { id: c.dataset.f, date: "", time: "" };
-      fuChanged();
-      // the row re-rendered under the keyboard user — land them on the
-      // natural next step instead of dropping focus to <body>
-      if (fuPick) { const dt = $("fudate"); if (dt) dt.focus(); }
-    };
+    const toggle = () => fuApplyPick((fuPick && fuPick.id === c.dataset.f) ? null : c.dataset.f);
     c.onclick = toggle;
     c.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); } };
   });
   const sel = $("fusel");
-  if (sel) sel.onchange = () => {
-    fuPick = sel.value ? { id: sel.value, date: "", time: "" } : null;
-    fuChanged();
-    if (fuPick) { const dt = $("fudate"); if (dt) dt.focus(); }
-  };
+  if (sel) sel.onchange = () => fuApplyPick(sel.value || null);
   renderFuPanel();
+}
+
+// One place for "the clinician chose a destination". A call-if-needed (pifu)
+// pathway IS its leaflet, so picking it puts the trust's own PIFU leaflet on
+// the QR — the tap on the chip is the consent act, and the panel says so.
+function fuApplyPick(id) {
+  fuPick = id ? { id, date: "", time: "" } : null;
+  const d = id && FOLLOWUPS.find(x => x.id === id);
+  if (d && d.kind === "pifu" && d.info_slug && bySlug.has(d.info_slug)) {
+    selected.set(d.info_slug, bySlug.get(d.info_slug));
+  }
+  fuChanged(); renderResults();
+  // the row re-rendered under the keyboard user — land them on the
+  // natural next step instead of dropping focus to <body>
+  if (fuPick && !(d && d.kind === "pifu")) { const dt = $("fudate"); if (dt) dt.focus(); }
 }
 
 // Patient-information suggestions for the picked pathway: the destination's
@@ -1381,7 +1385,13 @@ function fuSuggestions(d) {
       if (!out.has(hit.slug)) out.set(hit.slug, hit);
     }
   }
-  return [...out.values()].filter(it => !selected.has(it.slug)).slice(0, 4);
+  // safety-netting first (Oscar 2026-09-03): the evidence says comprehension
+  // of "when to get help" is what moves outcomes, so a trust page that IS the
+  // safety net for this pathway leads the row
+  const SAFETY = /when to (get|seek) (help|advice)|what to do if|worried|red flag|advice after|after your|going home/i;
+  return [...out.values()].filter(it => !selected.has(it.slug))
+    .sort((a, b) => (SAFETY.test(b.title) ? 1 : 0) - (SAFETY.test(a.title) ? 1 : 0))
+    .slice(0, 4);
 }
 
 // The top-n matches for a term by the normal search scoring (concise titles
@@ -1406,8 +1416,10 @@ function renderFuPanel() {
     + String(today.getMonth() + 1).padStart(2, "0") + "-"
     + String(today.getDate()).padStart(2, "0");
   const sugs = fuSuggestions(d);
-  host.innerHTML = `<div class="fupanel">
-    <p class="q">Follow-up: ${esc(d.name || d.label)}</p>
+  const pifu = d.kind === "pifu";
+  // a call-if-needed pathway has no day or time — the card carries the
+  // trust's own number, hours and window instead (Oscar 2026-09-03)
+  const dayTime = pifu ? "" : `
     <div class="fudays"><span class="rlabel">Day:</span> ${fuDayChips().map(c =>
         `<span class="chip${fuPick.date === c.iso ? " on" : ""}" data-d="${c.iso}" role="button" tabindex="0">${esc(c.lab)}</span>`).join(" ")}
       <label class="fuother">or another day
@@ -1416,12 +1428,19 @@ function renderFuPanel() {
     <div class="furow">
       <span><label for="futime">Time (optional)</label>
         <input type="time" id="futime" value="${esc(fuPick.time)}"${fuPick.date ? "" : " disabled"}></span>
-    </div>
-    <p class="fuhint">${fuPick.date
+    </div>`;
+  const hint = pifu
+    ? `No appointment. The patient's card says to call ${esc(d.phone || "the unit")}${d.hours ? " (" + esc(d.hours) + ")" : ""}` +
+      ` if symptoms get worse or don't improve${d.window_days ? " within " + d.window_days + " days" : ""}` +
+      ` — the hospital's own PIFU leaflet is on the QR.`
+    : (fuPick.date
       ? "The patient's page will show this day" + (fuPick.time ? " and time." : " — add a time if they have one.")
-      : "No day set — the patient's page will just say to come back, and where."}${
-      d.find_url ? " It includes a “How to find it” link to the hospital's own directions."
-      : (d.where ? "" : " ⚠ No published directions for this unit yet — tell the patient where to go.")}</p>
+      : "No day set — the patient's page will just say to come back, and where.") +
+      (d.find_url ? " It includes a “How to find it” link to the hospital's own directions."
+      : (d.where ? "" : " ⚠ No published directions for this unit yet — tell the patient where to go."));
+  host.innerHTML = `<div class="fupanel">
+    <p class="q">${pifu ? "📞 Call-if-needed: " : "Follow-up: "}${esc(d.name || d.label)}</p>${dayTime}
+    <p class="fuhint">${hint}</p>
     ${sugs.length
       ? `<div class="fusug"><span class="rlabel">Patient info for this pathway:</span> ` +
         sugs.map(it =>
@@ -1433,13 +1452,14 @@ function renderFuPanel() {
   </div>`;
   // the panel re-renders on every change — put focus back where a keyboard
   // user would expect it (day set → time is next; time set → stay put)
-  $("fudate").onchange = () => {
-    fuPick.date = $("fudate").value || "";
+  const fd = $("fudate"), ft = $("futime");   // absent on a call-if-needed panel
+  if (fd) fd.onchange = () => {
+    fuPick.date = fd.value || "";
     if (!fuPick.date) fuPick.time = "";   // a time with no day is meaningless
     fuChanged();
     $(fuPick.date ? "futime" : "fudate")?.focus();
   };
-  $("futime").onchange = () => { fuPick.time = $("futime").value || ""; fuChanged(); $("futime")?.focus(); };
+  if (ft) ft.onchange = () => { fuPick.time = ft.value || ""; fuChanged(); $("futime")?.focus(); };
   // one-tap day chips — typing a year into a date field is fiddly on a busy
   // shift; tapping the chip again clears the day (and with it the time)
   host.querySelectorAll(".fudays .chip").forEach(c => {

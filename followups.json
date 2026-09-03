@@ -1,31 +1,67 @@
 {
-  "about": "Follow-up destinations the picker can put on a QR (fu=id[.YYYYMMDD[.HHMM]]). Optional per-trust layer: no file = no follow-up row in the picker. 'where', 'phone' and 'note' render on the patient page only when present; 'find_url' renders a 'How to find it' button linking the trust's OWN published directions page (open and check the page before adding — never model memory); 'checked' is when the where/find facts were last read on that page. 'info_slug' offers the matching trust leaflet as a one-tap add. Added Oscar 2026-09-03; wayfinding links same day.",
-  "destinations": [
-    {
-      "id": "sdec-grh",
-      "label": "SDEC — Gloucestershire Royal",
-      "name": "Same Day Emergency Care (SDEC), Gloucestershire Royal Hospital",
-      "where": "First floor of the main outpatient department — use the Atrium entrance.",
-      "find_url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/same-day-emergency-care-sdec/",
-      "phone": "",
-      "note": "Bring your medicines and any letters you were given.",
-      "info_slug": "same-day-emergency-care-sdec",
-      "checked": "2026-09-03",
-      "featured": true,
-      "group": "Same day & assessment"
-    },
-    {
-      "id": "sdec-cgh",
-      "label": "SDEC — Cheltenham General",
-      "name": "Same Day Emergency Care (SDEC), Cheltenham General Hospital",
-      "where": "From the Emergency Department entrance (off College Road), along the corridor near the lifts.",
-      "find_url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/same-day-emergency-care-sdec/",
-      "phone": "",
-      "note": "Bring your medicines and any letters you were given.",
-      "info_slug": "same-day-emergency-care-sdec",
-      "checked": "2026-09-03",
-      "featured": true,
-      "group": "Same day & assessment"
-    }
-  ]
+ "about": "Follow-up destinations the picker can put on a QR (fu=id[.YYYYMMDD[.HHMM]]). Optional per-trust layer: no file = no follow-up row in the picker. 'where', 'phone' and 'note' render on the patient page only when present; 'find_url' renders a 'How to find it' button linking the trust's OWN published directions page (open and check the page before adding — never model memory); 'checked' is when the where/find facts were last read on that page. 'info_slug' offers the matching trust leaflet as a one-tap add. Added Oscar 2026-09-03; wayfinding links same day. kind='pifu' (Oscar 2026-09-03, patient-initiated follow-up): NO booked appointment — the card tells the patient to call the unit if symptoms worsen or don't improve; 'pifu_text', 'phone', 'hours' and 'window_days' are VERBATIM facts from the trust's own PIFU leaflet ('source_url', read on 'checked'); picking a pifu destination puts that leaflet on the QR.",
+ "destinations": [
+  {
+   "id": "sdec-grh",
+   "label": "SDEC — Gloucestershire Royal",
+   "name": "Same Day Emergency Care (SDEC), Gloucestershire Royal Hospital",
+   "where": "First floor of the main outpatient department — use the Atrium entrance.",
+   "find_url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/same-day-emergency-care-sdec/",
+   "phone": "",
+   "note": "Bring your medicines and any letters you were given.",
+   "info_slug": "same-day-emergency-care-sdec",
+   "checked": "2026-09-03",
+   "featured": true,
+   "group": "Same day & assessment"
+  },
+  {
+   "id": "sdec-cgh",
+   "label": "SDEC — Cheltenham General",
+   "name": "Same Day Emergency Care (SDEC), Cheltenham General Hospital",
+   "where": "From the Emergency Department entrance (off College Road), along the corridor near the lifts.",
+   "find_url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/same-day-emergency-care-sdec/",
+   "phone": "",
+   "note": "Bring your medicines and any letters you were given.",
+   "info_slug": "same-day-emergency-care-sdec",
+   "checked": "2026-09-03",
+   "featured": true,
+   "group": "Same day & assessment"
+  },
+  {
+   "id": "sdec-pifu-grh",
+   "kind": "pifu",
+   "label": "SDEC call-if-needed — Gloucestershire Royal",
+   "name": "Same Day Emergency Care (SDEC), Gloucestershire Royal Hospital",
+   "group": "No appointment — call if needed",
+   "featured": true,
+   "where": "First floor of the main outpatient department — use the Atrium entrance.",
+   "find_url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/patient-initiated-follow-up-from-sdec/",
+   "phone": "0300 422 6677",
+   "hours": "Monday to Friday 8am–11pm, Saturday and Sunday 8am–9pm",
+   "pifu_text": "If you feel that your symptoms have increased or not improved within the next 7 days, we would like you to contact the SDEC where you were seen.",
+   "window_days": 7,
+   "note": "",
+   "info_slug": "patient-initiated-follow-up-from-sdec",
+   "source_url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/patient-initiated-follow-up-from-sdec/",
+   "checked": "2026-09-03"
+  },
+  {
+   "id": "sdec-pifu-cgh",
+   "kind": "pifu",
+   "label": "SDEC call-if-needed — Cheltenham General",
+   "name": "Same Day Emergency Care (SDEC), Cheltenham General Hospital",
+   "group": "No appointment — call if needed",
+   "featured": true,
+   "where": "From the Emergency Department entrance (off College Road), along the corridor near the lifts.",
+   "find_url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/patient-initiated-follow-up-from-sdec/",
+   "phone": "0300 422 3618",
+   "hours": "Monday to Friday 8am–8pm",
+   "pifu_text": "If you feel that your symptoms have increased or not improved within the next 7 days, we would like you to contact the SDEC where you were seen.",
+   "window_days": 7,
+   "note": "",
+   "info_slug": "patient-initiated-follow-up-from-sdec",
+   "source_url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/patient-initiated-follow-up-from-sdec/",
+   "checked": "2026-09-03"
+  }
+ ]
 }

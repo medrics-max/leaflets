@@ -50,6 +50,7 @@
   .fu-card .fu-past { margin-top: 10px; font-size: 0.85rem; color: #6b5200; background: #fff8e6; border: 1px solid #f3d77a; border-radius: 8px; padding: 8px 10px; }
   .fu-card a.fu-phone { display: inline-block; background: #005eb8; color: #fff; border-radius: 6px; padding: 6px 14px; text-decoration: none; font-weight: 600; margin-top: 8px; margin-right: 8px; }
   .fu-card a.fu-find { display: inline-block; background: #005eb8; color: #fff; border-radius: 6px; padding: 6px 14px; text-decoration: none; font-weight: 600; margin-top: 8px; margin-right: 8px; }
+  .fu-card button.fu-cal { display: inline-block; background: #fff; color: #005eb8; border: 1px solid #005eb8; border-radius: 6px; padding: 6px 14px; font-weight: 600; font-size: 0.95rem; margin-top: 8px; margin-right: 8px; cursor: pointer; font-family: inherit; }
   .leaflet-card {
     border: 1px solid #d8dde3;
     border-radius: 12px;
@@ -351,6 +352,55 @@ function rateHelpful(value) {
     el.innerHTML = "👍 Thanks — glad it helped.";
   }
 }
+
+// ---- Follow-up → calendar (Oscar 2026-09-03) --------------------------------
+// A .ics built in the browser from the follow-up card. Floating local time
+// (no TZID/Z) so every phone calendar reads it as the patient's local time;
+// all-day when the clinician gave no time. Delivered as a Blob the user
+// saves/opens — nothing is sent anywhere.
+let FU_ICS = "";
+function icsText(s) {
+  return String(s || "").replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
+}
+function buildIcs(dest, dt, hasTime, findHref) {
+  const p2 = n => String(n).padStart(2, "0");
+  const ymd = d => d.getFullYear() + p2(d.getMonth() + 1) + p2(d.getDate());
+  const stamp = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+  const uid = stamp + "-" + Math.random().toString(36).slice(2, 10) + "@medrics-leaflets";
+  let dtLines;
+  if (hasTime) {
+    const end = new Date(dt.getTime() + 60 * 60 * 1000);
+    const hm = d => "T" + p2(d.getHours()) + p2(d.getMinutes()) + "00";
+    dtLines = ["DTSTART:" + ymd(dt) + hm(dt), "DTEND:" + ymd(end) + hm(end)];
+  } else {
+    const next = new Date(dt.getFullYear(), dt.getMonth(), dt.getDate() + 1);
+    dtLines = ["DTSTART;VALUE=DATE:" + ymd(dt), "DTEND;VALUE=DATE:" + ymd(next)];
+  }
+  const trustName = (document.getElementById("trustfoot") || {}).textContent || "";
+  const desc = [dest.note, findHref ? "How to find it: " + findHref : "", "From your hospital visit — " + trustName]
+    .filter(Boolean).join("\n");
+  return ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//medrics//patient leaflets//EN", "CALSCALE:GREGORIAN",
+          "BEGIN:VEVENT", "UID:" + uid, "DTSTAMP:" + stamp, ...dtLines,
+          "SUMMARY:" + icsText("Follow-up: " + (dest.name || dest.label)),
+          dest.where ? "LOCATION:" + icsText(dest.where) : "",
+          desc ? "DESCRIPTION:" + icsText(desc) : "",
+          findHref ? "URL:" + findHref : "",
+          "END:VEVENT", "END:VCALENDAR"].filter(Boolean).join("\r\n") + "\r\n";
+}
+function addFollowupToCalendar() {
+  if (!FU_ICS) return;
+  try {
+    const blob = new Blob([FU_ICS], { type: "text/calendar;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url; a.download = "follow-up.ics";
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 60000);
+  } catch (e) {
+    alert("Your browser could not save the calendar file. Please add the day and time by hand.");
+  }
+}
+// -----------------------------------------------------------------------------
 
 function shareThisPage() {
   const url = window.location.href;
@@ -776,7 +826,7 @@ async function main() {
   if (fuParam) {
     const [fid, fdate, ftime] = fuParam.split(".");
     const dest = ((followups || {}).destinations || []).find(x => x.id === fid);
-    let when = "", past = false;
+    let when = "", past = false, fuDt = null, fuHasTime = false;
     if (fdate && /^\d{8}$/.test(fdate)) {
       const y = +fdate.slice(0, 4), mo = +fdate.slice(4, 6) - 1, da = +fdate.slice(6, 8);
       const dt = new Date(y, mo, da);
@@ -790,6 +840,7 @@ async function main() {
         when = dt.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" })
                  .replace(",", "");   // "Thursday 10 September 2026", as an NHS letter would print it
         if (validTime) { when += " at " + ftime.slice(0, 2) + ":" + ftime.slice(2); dt.setHours(hh, mm, 0, 0); }
+        fuDt = dt; fuHasTime = validTime;
         // with a time, "passed" once the slot is an hour behind (they may
         // still be at the unit); day-only, once the day itself has passed
         if (validTime) past = dt.getTime() + 60 * 60 * 1000 < Date.now();
@@ -801,8 +852,30 @@ async function main() {
       try { const u = new URL(dest && dest.find_url || ""); return /^https?:$/.test(u.protocol) ? u.href : ""; }
       catch (e) { return ""; }
     })();
-    if (dest) {
+    if (dest && dest.kind === "pifu") {
+      // Patient-initiated follow-up (Oscar 2026-09-03): NO booked appointment.
+      // Every fact on this card — the wording, number, hours, window — is
+      // verbatim from the trust's own PIFU leaflet (followups.json
+      // source_url); the leaflet itself rides on the QR from the picker.
       const tel = String(dest.phone || "").replace(/[^+\d]/g, "");
+      const leaf = dest.info_slug && (leaflets || []).find(l => l.slug === dest.info_slug);
+      FU_CARD = `<div class="fu-card">
+        <p class="fu-kicker">📞 Your follow-up — call if you need us</p>
+        <p class="fu-dest">No appointment is booked — ${escapeHtml(dest.name || dest.label)} will see you again if you need it</p>
+        ${dest.pifu_text ? `<p class="fu-note">${escapeHtml(dest.pifu_text)}</p>` : ""}
+        ${dest.phone ? `<a class="fu-phone" href="tel:${tel}">📞 ${escapeHtml(dest.phone)}</a>` : ""}
+        ${dest.hours ? `<p class="fu-where">🕐 ${escapeHtml(dest.hours)}</p>` : ""}
+        ${dest.where ? `<p class="fu-where">📍 ${escapeHtml(dest.where)}</p>` : ""}
+        ${leaf ? `<a class="fu-find" href="${encodeURI(leaf.url)}">📄 Read the hospital's leaflet</a>` : ""}
+        ${findHref && !(leaf && findHref === leaf.url) ? `<a class="fu-find" href="${escapeHtml(findHref)}" target="_blank" rel="noopener">📍 How to find it</a>` : ""}
+        <p class="fu-note">If you feel worse, or you are worried, call <strong>111</strong> — or <strong>999</strong> in an emergency.</p>
+      </div>`;
+    } else if (dest) {
+      const tel = String(dest.phone || "").replace(/[^+\d]/g, "");
+      // "Add to my calendar" (Oscar 2026-09-03): a written reminder in the
+      // patient's own calendar — the .ics is built HERE, in the browser, and
+      // never leaves the device (see addFollowupToCalendar)
+      if (fuDt) FU_ICS = buildIcs(dest, fuDt, fuHasTime, findHref);
       FU_CARD = `<div class="fu-card">
         <p class="fu-kicker">📅 Your follow-up</p>
         <p class="fu-dest">Come back to ${escapeHtml(dest.name || dest.label)}</p>
@@ -810,6 +883,7 @@ async function main() {
                : `<p class="fu-note">Your care team will tell you when to come.</p>`}
         ${dest.where ? `<p class="fu-where">📍 ${escapeHtml(dest.where)}</p>` : ""}
         ${dest.note ? `<p class="fu-note">${escapeHtml(dest.note)}</p>` : ""}
+        ${FU_ICS ? `<button type="button" class="fu-cal" onclick="addFollowupToCalendar()">📆 Add to my calendar</button>` : ""}
         ${findHref ? `<a class="fu-find" href="${escapeHtml(findHref)}" target="_blank" rel="noopener">📍 How to find it</a>` : ""}
         ${dest.phone ? `<a class="fu-phone" href="tel:${tel}">📞 ${escapeHtml(dest.phone)}</a>` : ""}
         ${past ? `<div class="fu-past">This date has passed. If you missed your visit, contact your care team.</div>` : ""}
