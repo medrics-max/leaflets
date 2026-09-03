@@ -106,7 +106,8 @@
     "slug_from": "title",
     "max_pages": 500,
     "min_expected": 300,
-    "review_dates": true
+    "review_dates": true,
+    "direct_url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n{key}"
    },
    "listed": true
   },

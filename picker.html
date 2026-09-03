@@ -1688,7 +1688,10 @@ function generate() {
     // The demonstrate-and-check button (Oscar 2026-08-01): one click opens
     // exactly what the patient's phone will show after scanning the QR.
     '<a class="copy" id="openqr" href="' + esc(url) + '" target="_blank" rel="noopener" ' +
-    'style="display:inline-block;text-decoration:none">Open what the patient sees ↗</a>';
+    'style="display:inline-block;text-decoration:none">Open what the patient sees ↗</a>' +
+    // one in five patients may not manage a QR (Oscar 2026-09-03): the
+    // patient page has a Print button — say so where the clinician is looking
+    '<p class="hint">No phone, or not confident with a QR? Open what the patient sees and use its <strong>Print this page</strong> button.</p>';
   if (window.QRCode) {
     new QRCode($("qr"), { text: url, width: 240, height: 240, correctLevel: QRCode.CorrectLevel.M });
   } else {

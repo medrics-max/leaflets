@@ -91,6 +91,10 @@
   .nhscard li { margin-bottom: 3px; }
   .nhscard p { margin: 4px 0; }
   .nhscard-foot { font-size: 0.78rem; color: #666; margin: 6px 0 0; }
+  .nhscard-note { font-size: 0.82rem; color: #5a4a00; background: #fff8e6; border-left: 3px solid #b07d00; border-radius: 0 6px 6px 0; padding: 5px 8px; margin: 8px 0 0; }
+  .nhscard-info { border-left-color: #6b6b6b; background: #f5f5f5; }
+  .companion { margin-top: 10px; padding-top: 8px; border-top: 1px dashed #d8dde3; }
+  .companion .companion-h { font-size: 0.85rem; color: #555; margin: 0 0 4px; }
   .nhscard-foot a { color: #005eb8; }
   .leaflet-card a.read {
     display: inline-block;
@@ -213,6 +217,15 @@
     font-weight: 600;
     font-size: 1rem;
     cursor: pointer;
+  }
+  .sharebtn.printbtn { background: #fff; color: #005eb8; border: 1px solid #005eb8; margin-top: 10px; }
+  /* Print fallback (Oscar 2026-09-03): one in five patients may not manage a
+     QR — the printed page must carry the information, not the chrome */
+  @media print {
+    .sharebtn, .feedback, .helpful, .notice, .langhint, #brand, .leaflet-card a.read, .fu-card .fu-cal { display: none !important; }
+    body { padding: 0; max-width: none; font-size: 12pt; }
+    .leaflet-card, .fu-card, .advice-card, .nhscard { break-inside: avoid; }
+    .leaflet-card .ltitle::after { content: " — " attr(data-url); font-weight: 400; font-size: 9pt; color: #555; }
   }
   .feedback {
     display: block;
@@ -478,10 +491,10 @@ function cardFor(item, openLabel) {
   return `
     <div class="leaflet-card">
       <div class="lmain">
-        <span class="ltitle">${escapeHtml(item.title)}</span>
+        <span class="ltitle" data-url="${escapeHtml(item.url)}">${escapeHtml(item.title)}</span>
         <a class="read${item.type === "leaflet" ? "" : " open"}" href="${encodeURI(item.url)}">${openLabel}</a>
       </div>
-      ${stale}${replaced}${nhsCardsHtml(item)}
+      ${stale}${replaced}${nhsCardsHtml(item)}${companionHtml(item)}
     </div>
   `;
 }
@@ -492,6 +505,42 @@ function cardFor(item, openLabel) {
 // the live NHS page by nhs_cards.py; nothing is reworded. Cards older than 21
 // days are not shown (the licence expects a 7-day refresh; a stalled weekly
 // job must fail to the link, never to old advice).
+// A trust leaflet's NHS companion (Oscar 2026-09-03: "not seeing information
+// about their condition on our page, just the external leaflets"): when the
+// trust leaflet's title contains an NHS.uk page's title as whole words
+// ("Lower limb cellulitis" ⊃ "Cellulitis"), that NHS page's intro and cards
+// render beneath the leaflet, attributed. Conservative on purpose: the NHS
+// title must be at least two words or ≥ 7 letters, and the longest match wins,
+// so "Broken toe" never rides on an unrelated fracture leaflet.
+function companionHtml(item) {
+  if (!item.companion) return "";
+  const c = item.companion;
+  return `<div class="companion">
+    <p class="companion-h">From the NHS website — <strong>${escapeHtml(c.title || "")}</strong>:</p>
+    ${nhsCardsHtml({ nhsCards: c, url: c.url, title: c.title })}
+  </div>`;
+}
+function findCompanion(item, pages) {
+  if (item.nhsCards || !pages) return null;
+  if (!(item.type === "leaflet" || item.type === "service")) return null;
+  // plural-blind whole-word matching: "Sprains and strains" offers the
+  // alternatives "sprain" / "strain", so "Ankle sprain" finds it
+  const stemWords = s => " " + fold(s).replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter(Boolean)
+    .map(w => w.replace(/(ies|es|s)$/, "")).join(" ") + " ";
+  const t = stemWords(item.title);
+  let best = null;
+  for (const pg of Object.values(pages)) {
+    if (!pg || !(pg.cards && pg.cards.length) || !pg.title) continue;
+    const base = pg.title.replace(/\s*\(.*?\)\s*/g, " ").replace(/\s*[—–-]\s.*$/, "");
+    for (const alt of base.split(/\s+(?:and|or)\s+|\s*\/\s*/i)) {
+      const nt = stemWords(alt).trim();
+      if (nt.length < 4) continue;                      // "flu" alone is too loose
+      if (t.includes(" " + nt + " ") && (!best || nt.length > best.nt.length)) best = { nt, pg };
+    }
+  }
+  return best ? best.pg : null;
+}
+
 function nhsCardsHtml(item) {
   const pg = item.nhsCards;
   if (!pg || (!(pg.cards && pg.cards.length) && !(pg.about && pg.about.length))) return "";
@@ -503,7 +552,7 @@ function nhsCardsHtml(item) {
   // the NHS page must be a real NHS.uk address before it becomes a patient link
   let nhsHref = "";
   try { const u = new URL(pg.url || item.url); if (u.protocol === "https:" && u.hostname === "www.nhs.uk") nhsHref = u.href; } catch (e) {}
-  const LABEL = { emergency: "🚨", urgent: "⚠️", gp: "ℹ️", advice: "ℹ️" };
+  const LABEL = { emergency: "🚨", urgent: "⚠️", gp: "ℹ️", advice: "ℹ️", info: "💊" };
   // NHS order, never re-sorted — the sequence is part of their advice
   const cards = pg.cards;
   // hub conditions keep their advice on a sub-page — link every page a card
@@ -528,6 +577,7 @@ function nhsCardsHtml(item) {
   const about = (pg.about || []).filter(t => t && !/:\s*$/.test(t)).slice(0, 2)
     .map(t => `<p class="nhsabout">${escapeHtml(t)}</p>`).join("");
   return `<div class="nhscards">${about}${body}
+    <p class="nhscard-note">General NHS advice your clinician chose for you — not the result of your own tests. If unsure, ask your care team.</p>
     <p class="nhscard-foot">Information from the NHS website${pg.dateModified ? ", updated " + escapeHtml(pg.dateModified) : ""}
       (checked ${escapeHtml(pg.retrieved || "")})${srcs.length ? ` — read the full NHS page${srcs.length > 1 ? "s" : ""}: ` +
         srcs.map(u => `<a href="${escapeHtml(u)}">${escapeHtml(u.replace("https://www.nhs.uk", "").replace(/\/$/, "").split("/").pop() || "page")}</a>`).join(" · ") : ""}.
@@ -725,6 +775,7 @@ function renderResolved(items, demo) {
     ${govSection}
     <p class="safetynet">This information was chosen for you by your clinician. If you feel worse, or you are worried, call <strong>111</strong> — or <strong>999</strong> in an emergency.</p>
     <button class="sharebtn" onclick="shareThisPage()">Text or save this to read later</button>
+    <button class="sharebtn printbtn" onclick="window.print()">🖨 Print this page</button>
     <div id="helpful" class="helpful">
       <span>Was this helpful?</span><br>
       <button onclick="rateHelpful('yes')">👍 Yes</button>
@@ -1001,6 +1052,7 @@ async function main() {
       nhsCards: ((nhsCards || {}).pages || {})[lookup] || null,
     });
   }
+  for (const it of resolved) it.companion = findCompanion(it, (nhsCards || {}).pages);
 
   if (resolved.length === 0 && !FU_CARD) {   // a follow-up-only QR is valid
     // Blame the right thing: if a data layer failed to load, the QR code is
