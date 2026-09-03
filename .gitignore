@@ -25,6 +25,19 @@ estate_accessibility_history.jsonl
 estate_census.json
 language_context.json
 trust_standards.json
+evidence_literature.json
+evidence_watch_state.json
+# Per-trust compliance priorities (trust_compliance.py) — business intel,
+# derived from public sources but PRIVATE by the 2026-08-01 owner rule.
+trust_priorities.json
+trust_priorities_history.jsonl
+# NHS Website Content API Stage-1 probe output (Events/nhs_content_probe.py)
+# — gap-vs-NHS-page intelligence, business layer, never public.
+nhs_content_probe.json
+# NHS Find-a-dentist acceptance register + sweep state (dental_register.py)
+# — verbatim public facts, but the store is a medrics pipeline internal;
+# only the rendered advice-card section is public.
+dental_register.json
 weekly_scan_plan.md
 *.py
 *.gs
@@ -64,6 +77,7 @@ leaflet_telemetry.jsonl
 __pycache__/
 quality_scan.json
 quality_scan_state.json
+wcag_mechanics.json
 contradiction_scan.json
 contradiction_store.json
 contradiction_state.json
@@ -75,3 +89,7 @@ SCAN_PLAN.md
 scan_burst_notes.md
 driving_advice_review.json
 driving_advice_review_state.json
+# Remediation-draft rewrites (leaflet_rewrite.py) + earlier proposed drafts:
+# medrics-authored, clinical_signoff draft, portal review lane ONLY — a
+# draft leaflet in the public repo would read as a published one.
+proposed/

@@ -5,7 +5,15 @@
   "status": "signed",
   "by": "Dr Oscar Harrison (clinical lead)",
   "date": "2026-08-08",
-  "_doc": "Signed off 2026-08-08 on Oscar's instruction in session ('sign off the driving advice'), after: walking the v3 trees in the test console (2026-08-06), ordering and testing the v3.1 fixes for all 12 of the 2026-08-07 nightly-review findings, and the v3.2 fixes for all 4 of the 2026-08-08 overnight findings (SCAD branch added, eye-surgery flying verdict corrected to conditional, elective-PCI G2 quote trimmed, pulmonary-oedema match term removed) — applied and byte-verified BEFORE signing, so no known confirmed finding is unaddressed at sign-off. The nightly two-model clinical review continues on every content change."
+  "_doc": "Signed off 2026-08-08 on Oscar's instruction in session ('sign off the driving advice'), after: walking the v3 trees in the test console (2026-08-06), ordering and testing the v3.1 fixes for all 12 of the 2026-08-07 nightly-review findings, and the v3.2 fixes for all 4 of the 2026-08-08 overnight findings (SCAD branch added, eye-surgery flying verdict corrected to conditional, elective-PCI G2 quote trimmed, pulmonary-oedema match term removed) — applied and byte-verified BEFORE signing, so no known confirmed finding is unaddressed at sign-off. The nightly two-model clinical review continues on every content change.",
+  "amendments": [
+   {
+    "date": "2026-08-20",
+    "change": "drv-heart-failure: ICD/CRT-D triage question added before the NYHA rows (review finding: an HF-with-ICD patient could be given an NYHA 'may drive' verdict that ICD rules override). The a-icd advice node is a byte-identical copy of the already-verified arrhythmia a-icd quote, same chapter, same anchor.",
+    "by": "claude, on the clinical lead's instruction in-session",
+    "review": "nightly two-model adversarial review re-runs on the new content hash; weekly guidance_watch re-verifies the quote"
+   }
+  ]
  },
  "modules": [
   {
@@ -290,7 +298,7 @@
     "url": "https://www.gov.uk/guidance/cardiovascular-disorders-assessing-fitness-to-drive",
     "page_id": "dvla-cardiovascular"
    },
-   "start": "q-group",
+   "start": "q-icd",
    "nodes": {
     "q-group": {
      "question": "Which licence group? (LVAD / assist device, transplant, or hypertrophic/arrhythmogenic cardiomyopathy have their own rows — open the chapter for those.)",
@@ -404,6 +412,29 @@
     },
     "r": {
      "refer": true
+    },
+    "q-icd": {
+     "question": "Before NYHA: does the patient have an ICD (implanted defibrillator) or CRT-D — in place, indicated or recommended?",
+     "options": [
+      {
+       "label": "Yes — ICD/CRT-D in place, indicated or recommended",
+       "next": "a-icd"
+      },
+      {
+       "label": "No ICD",
+       "next": "q-group"
+      },
+      {
+       "label": "Not sure / CRT-P or other device — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-icd": {
+     "verdict": "must_not",
+     "quote": "Should a ventricular arrhythmia result in either a clinical indication or clinical recommendation for ICD implant, then a period of 6 months will be required off Group 1 driving (following the date of the last arrhythmic episode or the date of ICD implant). A Group 2 licence will be permanently revoked, even if implantation does not occur.",
+     "anchor": "arrhythmias",
+     "note": "ICD rules override the heart-failure rows whatever the NYHA class — added 2026-08-20 after a confirmed review finding, on the clinical lead's instruction. CRT-P (pacing without a defibrillator) has different rules — open the chapter."
     }
    },
    "patient_slug": "gov-drv-heart-failure"
@@ -1564,13 +1595,28 @@
     "a-eye": {
      "verdict": "conditional",
      "quote": "Ophthalmological procedures for retinal detachment also involve the introduction of gas by intra-ocular injections, which temporarily increase intra-ocular pressure. Depending on the gas, it may be necessary to delay travel for approximately 2 weeks if sulphur hexafluoride is used and 6 weeks with the use of perfluoropropane. For other intra-ocular procedure and penetrating eye injuries, 1 week should elapse before flying.",
-     "note": "The longest published delays in the chapter (up to 6 weeks with perfluoropropane) — normally ophthalmology-led; open the source."
+     "note": "The longest published delays in the chapter (up to 6 weeks with perfluoropropane) — normally ophthalmology-led; open the source.",
+     "quote2": "Concurrently, oxygen levels may be decreased or fixed in patients who are: elderly volume depleted anaemic or who have cardiopulmonary disease Consequently, for such patients it would be wise to delay air travel for several days or request oxygen to be provided."
     },
     "r": {
      "refer": true
     }
    },
    "patient_slug": "caa-air-travel-your-health"
+  }
+ ],
+ "amendments": [
+  {
+   "date": "2026-09-03",
+   "change": "fly-surgery a-eye: quote2 added — the chapter's general post-operative caveat (reduced/fixed oxygen levels in elderly, volume-depleted, anaemic or cardiopulmonary patients: delay several days or request oxygen). Closes the nightly review's confirmed HIGH finding (primary ollama, adjudicated codex-cli, 2026-08-27): the eye-gas delay was quoted without the caveat that applies on top of it. Verbatim, byte-verified against the live CAA surgical-conditions page before adding.",
+   "by": "claude, reviewing on Oscar's instruction in-session ('driving advice, you review')",
+   "review": "nightly two-model adversarial review re-runs on the new content hash; weekly guidance_watch re-verifies the quote"
+  },
+  {
+   "date": "2026-09-03",
+   "change": "fly-dvt a-prev: the review's confirmed LOW finding (absolute risk 'one in 4656 flights of more than 4 hours' not quoted) is ACCEPTED WITHOUT CHANGE — the node already carries two verbatim quotes and the absolute-risk sentence is not contiguous with either on the page, so it cannot be added verbatim; the card links the CAA chapter where it sits. Informational, not a restriction.",
+   "by": "claude, reviewing on Oscar's instruction in-session",
+   "review": "expected to be re-flagged by the nightly review on the new hash; this entry is the standing answer"
   }
  ]
 }

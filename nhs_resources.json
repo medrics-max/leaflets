@@ -1468,5 +1468,19 @@
   "slug": "bad-shingles-herpes-zoster",
   "type": "trusted",
   "source": "British Association of Dermatologists"
+ },
+ {
+  "title": "Mental health crisis support in Gloucestershire — 24/7 (call 111, option 2)",
+  "url": "https://www.ghc.nhs.uk/crisis/",
+  "slug": "ghc-crisis-support",
+  "type": "gov",
+  "source": "Gloucestershire Health and Care NHS FT"
+ },
+ {
+  "title": "Drug and alcohol support in Gloucestershire — Via (self-referral)",
+  "url": "https://www.viaorg.uk/services/gloucestershire/",
+  "slug": "via-gloucestershire",
+  "type": "gov",
+  "source": "Via (commissioned Gloucestershire service)"
  }
 ]
