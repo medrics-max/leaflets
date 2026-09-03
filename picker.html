@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Patient information — choose leaflets</title>
-<meta name="description" content="Clinician tool: search published patient-information leaflets, tick a set, and show a QR code the patient scans. No login, no patient data.">
+<meta name="description" content="Clinician tool: search published patient-information leaflets, tick a set, and show a QR code the patient scans. No login, no patient identity — no name, NHS number or contact details are ever entered.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -13,155 +13,179 @@
   "url": "https://medrics-max.github.io/leaflets/picker.html",
   "applicationCategory": "HealthApplication",
   "operatingSystem": "Any (web browser)",
-  "description": "A clinician searches published patient-information leaflets, ticks a set, and shows a QR code. The patient scans it and gets links to their trust's own published leaflets plus national NHS.uk content. No login, no patient data — nothing about an individual patient is entered, known, or processed.",
+  "description": "A clinician searches published patient-information leaflets, ticks a set, and shows a QR code. The patient scans it and gets links to their trust's own published leaflets plus national NHS.uk content. No login, no patient identity — no name, NHS number or contact details are ever entered; a clinician may add a follow-up day and time to the link.",
   "audience": { "@type": "MedicalAudience", "audienceType": "Clinicians" },
   "publisher": { "@type": "Organization", "name": "Medrics", "url": "https://medrics.co.uk" },
   "license": "https://medrics-max.github.io/leaflets/LICENSE"
 }
 </script>
 <style>
-  :root { color-scheme: light; }
+  :root {
+    color-scheme: light;
+    /* medrics warm-paper tokens — DESIGN.md is normative; no other hexes
+       (restyled from the NHS-blue original, Oscar 2026-09-03) */
+    --paper: #f7f6f2; --card: #ffffff; --ink: #1a1a1a; --muted: #6b6b6b;
+    --line: #e4e1d9; --accent: #2b5c8a; --accent-tint: #eaf1f7;
+    --green: #1f7a4d; --green-tint: #e6f4ec;
+    --amber: #b8860b; --amber-ink: #7a5a00; --amber-tint: #fdf3e0;
+    --red: #a4332a; --red-tint: #f7e7e6; --track: #ece8df;
+    --shadow: 0 1px 3px rgba(0,0,0,.05);
+  }
   * { box-sizing: border-box; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    margin: 0; padding: 18px 16px; background: #fff; color: #111;
-    max-width: 620px; margin-inline: auto; line-height: 1.4;
+    margin: 0; padding: 18px 16px; background: var(--paper); color: var(--ink);
+    max-width: 620px; margin-inline: auto; line-height: 1.5; font-size: 13.5px;
   }
-  h1 { font-size: 1.3rem; margin: 0 0 2px; color: #005eb8; }
-  .sub { color: #666; font-size: 0.9rem; margin: 0 0 16px; }
+  h1 { font-size: 20px; font-weight: 600; line-height: 1.3; margin: 0 0 2px; color: var(--ink); }
+  .sub { color: var(--muted); font-size: 13px; margin: 0 0 14px; }
+  a { color: var(--accent); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   #search {
-    width: 100%; padding: 12px 14px; font-size: 1rem;
-    border: 1px solid #c4ccd6; border-radius: 10px;
+    /* 16px stops iOS zooming the whole page when the search box is focused */
+    width: 100%; padding: 11px 14px; font-size: 16px;
+    border: 1px solid var(--line); border-radius: 8px;
+    background: var(--card); color: var(--ink);
   }
+  #search:focus { border-color: var(--accent); outline: none; }
   .chips { margin: 10px 0 4px; }
   .chip {
-    display: inline-block; background: #e8f0fb; color: #00437a;
-    border-radius: 16px; padding: 6px 12px; margin: 4px 4px 0; font-size: 0.85rem;
+    display: inline-block; background: var(--accent-tint); color: var(--accent);
+    border-radius: 999px; padding: 5px 12px; margin: 4px 4px 0; font-size: 12px; font-weight: 600;
   }
-  .chip button { border: none; background: none; color: #00437a; font-weight: 700; margin-left: 6px; cursor: pointer; font-size: 0.95rem; }
-  a.openpg { color: #00437a; text-decoration: none; font-weight: 700; margin-left: 6px; }
+  .chip button { border: none; background: none; color: var(--accent); font-weight: 700; margin-left: 6px; cursor: pointer; font-size: 13px; padding: 0; }
+  a.openpg { color: var(--accent); text-decoration: none; font-weight: 700; margin-left: 6px; }
   a.openpg:hover { text-decoration: underline; }
-  .related { margin: 2px 0 6px; font-size: 0.85rem; color: #555; }
+  .related { margin: 2px 0 6px; font-size: 12px; color: var(--muted); }
   .related .rlabel { margin-right: 6px; }
   .related .chip {
-    background: #fff;
-    border: 1px dashed #9db3c8;
-    color: #00437a;
+    background: var(--card);
+    border: 1px dashed var(--accent);
     cursor: pointer;
-    font-size: 0.85rem;
+    font-weight: 400;
   }
-  .related .chip:hover { background: #eef4fa; }
-  .driving { margin: 6px 0 4px; font-size: 0.92rem; color: #444; }
+  .related .chip:hover { background: var(--accent-tint); }
+  .driving { margin: 6px 0 4px; font-size: 13px; color: var(--muted); }
   .driving .rlabel { margin-right: 6px; }
   .driving .chip {
-    border: 1px dashed #b08c00; background: #fffdf2; color: #6b5400;
+    border: 1px dashed var(--amber); background: var(--amber-tint); color: var(--amber-ink);
     cursor: pointer; user-select: none;
   }
-  .driving .chip:hover { background: #fdf6dc; }
+  .driving .chip:hover { border-style: solid; }
   .drivepanel {
-    border: 1px solid #e0d6a8; border-radius: 8px; background: #fffdf5;
+    border: 1px solid var(--line); border-left: 4px solid var(--amber);
+    border-radius: 12px; background: var(--card); box-shadow: var(--shadow);
     padding: 12px 14px; margin: 8px 0; max-width: 720px;
+    color: var(--ink); font-size: 13.5px;
   }
-  .drivepanel .q { font-weight: 700; margin: 0 0 8px; color: #333; }
+  .drivepanel .q { font-weight: 600; margin: 0 0 8px; }
   .drivepanel .opts button {
     display: inline-block; margin: 0 8px 8px 0; padding: 7px 12px;
-    border: 1px solid #b08c00; border-radius: 6px; background: #fff;
-    color: #6b5400; cursor: pointer; font-size: 0.92rem;
+    border: 1px solid var(--line); border-radius: 8px; background: var(--card);
+    color: var(--ink); cursor: pointer; font-size: 13px;
   }
-  .drivepanel .opts button:hover { background: #fdf6dc; }
+  .drivepanel .opts button:hover { border-color: var(--accent); color: var(--accent); }
   .drivepanel .verdict {
-    display: inline-block; padding: 2px 10px; border-radius: 12px;
-    font-weight: 700; font-size: 0.85rem; margin-bottom: 8px; color: #fff;
+    display: inline-block; padding: 3px 10px; border-radius: 999px;
+    font-weight: 700; font-size: 12px; margin-bottom: 8px;
     /* default background so an unknown verdict value from a newer advice
        build stays legible, never white-on-white (2026-08-08 review) */
-    background: #5f6b76;
+    background: var(--track); color: var(--ink);
   }
-  .drivepanel .verdict.must_not { background: #c0392b; }
-  .drivepanel .verdict.may { background: #1e7d32; }
-  .drivepanel .verdict.conditional { background: #b07d00; }
-  .drivepanel .verdict.info { background: #5f6b76; }
+  /* solid fill is act-now only; passive states are tint + semantic text */
+  .drivepanel .verdict.must_not { background: var(--red); color: #fff; }
+  .drivepanel .verdict.may { background: var(--green-tint); color: var(--green); }
+  .drivepanel .verdict.conditional { background: var(--amber-tint); color: var(--amber-ink); }
+  .drivepanel .verdict.info { background: var(--track); color: var(--ink); }
   .drivepanel blockquote {
-    margin: 6px 0; padding: 8px 12px; border-left: 3px solid #b08c00;
-    background: #fff; font-style: normal; color: #222;
+    margin: 6px 0; padding: 8px 12px; border-left: 3px solid var(--amber);
+    background: var(--amber-tint); border-radius: 0 6px 6px 0;
+    font-style: normal; color: var(--ink);
   }
-  .drivepanel .drvnote { font-size: 0.85rem; color: #6b5400; margin: 6px 0; }
-  .drivepanel .drvfoot { font-size: 0.8rem; color: #666; margin-top: 8px; }
-  .drivepanel .drvfoot a { color: #00437a; font-weight: 600; }
+  .drivepanel .drvnote { font-size: 12px; color: var(--amber-ink); margin: 6px 0; }
+  .drivepanel .drvfoot { font-size: 12px; color: var(--muted); margin-top: 8px; }
+  .drivepanel .drvfoot a { color: var(--accent); font-weight: 600; }
   .drivepanel a.drvsrc {
-    display: inline-block; margin-top: 6px; padding: 8px 16px;
-    background: #005eb8; color: #fff; border-radius: 6px;
-    font-weight: 700; text-decoration: none; font-size: 0.92rem;
+    display: inline-block; margin-top: 6px; padding: 7px 14px;
+    background: var(--accent); color: #fff; border-radius: 8px;
+    font-weight: 600; text-decoration: none; font-size: 13px;
   }
-  .drivepanel a.drvsrc:hover { background: #00437a; }
-  .drivepanel .drvcheck { background: #fff8e6; border-left: 3px solid #b07d00;
+  .drivepanel a.drvsrc:hover { text-decoration: underline; }
+  .drivepanel .drvcheck { background: var(--amber-tint); border-left: 3px solid var(--amber);
     border-radius: 0 6px 6px 0; padding: 5px 8px; margin: 8px 0;
-    font-size: 0.8rem; color: #5a4a00; }
+    font-size: 12px; color: var(--amber-ink); }
   .drivepanel .drvfly { margin: 10px 0; padding: 6px 10px;
-    background: #eef4fb; border-radius: 6px; font-size: 0.92rem; }
+    background: var(--accent-tint); border-radius: 8px; font-size: 13px; }
   .drivepanel .drvrule { margin: 8px 0; }
-  .drivepanel .drvrule summary { cursor: pointer; font-size: 0.9rem;
-    color: #5a6b7b; padding: 4px 0; }
-  .drivepanel .drvrule summary:hover { color: #1a2b3c; }
+  .drivepanel .drvrule summary { cursor: pointer; font-size: 12px;
+    color: var(--muted); padding: 4px 0; }
+  .drivepanel .drvrule summary:hover { color: var(--ink); }
   .drivepanel .drvadd {
-    margin-top: 6px; padding: 7px 12px; border: 1px solid #1e7d32;
-    border-radius: 6px; background: #f2faf3; color: #1e7d32;
-    cursor: pointer; font-size: 0.88rem; font-weight: 600;
+    margin-top: 6px; padding: 7px 12px; border: 1px solid var(--green);
+    border-radius: 8px; background: var(--green-tint); color: var(--green);
+    cursor: pointer; font-size: 12px; font-weight: 600;
   }
-  .drivepanel .drvadd:hover { background: #e2f3e5; }
+  .drivepanel .drvadd:hover { border-style: solid; background: var(--card); }
   .drivepanel .drvctl { margin-top: 8px; }
   .drivepanel .drvctl button {
-    border: none; background: none; color: #00437a; cursor: pointer;
-    font-size: 0.85rem; margin-right: 10px; padding: 0; text-decoration: underline;
+    border: none; background: none; color: var(--accent); cursor: pointer;
+    font-size: 12px; margin-right: 10px; padding: 0; text-decoration: underline;
   }
-  .specrow { display: inline-flex; align-items: center; gap: 6px; margin-left: 10px; font-size: 0.85rem; color: #444; }
-  .specrow select { font-size: 0.85rem; padding: 3px 6px; border-radius: 6px; border: 1px solid #aab4bf; background: #fff; }
-  .spechint { font-size: 0.75rem; color: #888; border-bottom: 1px dotted #aaa; cursor: help; }
+  .specrow { display: inline-flex; align-items: center; gap: 6px; margin-left: 10px; font-size: 12px; color: var(--muted); }
+  .specrow select { font-size: 12px; padding: 3px 6px; border-radius: 6px; border: 1px solid var(--line); background: var(--card); color: var(--ink); }
+  .spechint { font-size: 11px; color: var(--muted); border-bottom: 1px dotted var(--muted); cursor: help; }
   .nudge {
-    background: #eef4fa; border: 1px solid #bcd2e8; border-radius: 8px;
-    padding: 8px 12px; margin: 8px 0; font-size: 0.9rem; color: #1c3d5a;
+    background: var(--accent-tint); border: 1px solid var(--line); border-radius: 8px;
+    padding: 8px 12px; margin: 8px 0; font-size: 13px; color: var(--ink);
   }
-  .nudge button { margin-left: 8px; font-size: 0.85rem; border-radius: 6px; border: 1px solid #005eb8; background: #fff; color: #005eb8; padding: 3px 10px; cursor: pointer; }
-  .nudge button.yes { background: #005eb8; color: #fff; }
-  .count { font-size: 0.85rem; color: #666; margin: 8px 0; }
-  .results { list-style: none; padding: 0; margin: 0; }
+  .nudge button { margin-left: 8px; font-size: 12px; border-radius: 8px; border: 1px solid var(--accent); background: var(--card); color: var(--accent); padding: 3px 10px; cursor: pointer; }
+  .nudge button.yes { background: var(--accent); color: #fff; }
+  .count { font-size: 12px; color: var(--muted); margin: 8px 0; }
+  .results { list-style: none; padding: 0; margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); }
+  .results:empty { display: none; border: none; box-shadow: none; }
   .results li {
     display: flex; align-items: flex-start; gap: 10px;
-    padding: 11px 6px; border-bottom: 1px solid #eef1f5; cursor: pointer;
+    padding: 10px 12px; border-bottom: 1px solid var(--line); cursor: pointer;
   }
-  .results li:active { background: #f5f8fc; }
-  .results input { margin-top: 3px; width: 20px; height: 20px; flex: none; }
-  .results .t { font-size: 0.97rem; }
+  .results li:last-child { border-bottom: none; }
+  .results li:hover { background: var(--paper); }
+  .results li:active { background: var(--accent-tint); }
+  .results li.hint { cursor: default; }
+  .results li.hint:hover { background: none; }
+  .results input { margin-top: 2px; width: 18px; height: 18px; flex: none; accent-color: var(--accent); }
+  .results .t { font-size: 13.5px; }
   .tag {
-    display: inline-block; font-size: 0.7rem; font-weight: 600; padding: 1px 7px;
-    border-radius: 10px; margin-left: 6px; vertical-align: middle;
+    display: inline-block; font-size: 11px; font-weight: 600; padding: 1px 8px;
+    border-radius: 999px; margin-left: 6px; vertical-align: middle; white-space: nowrap;
   }
-  .tag.leaflet { background:#e3f1e6; color:#1c6b2c; }
-  .tag.medicines { background:#fdeede; color:#9a5a00; }
-  .tag.advice { background:#e7e9fb; color:#33379a; }
-  .tag.service { background:#e8f0fb; color:#00437a; }
-  .tag.nhs { background:#eef1f5; color:#444; }
-  .tag.gov { background:#e8f0fb; color:#00437a; }
-  .tag.trusted { background:#f3ecf9; color:#5b2d84; }
-  .tag.stale { background:#fdecea; color:#7a271a; }
-  .actions { position: sticky; bottom: 0; background: #fff; padding: 12px 0 4px; border-top: 1px solid #eef1f5; margin-top: 8px; }
+  .tag.leaflet { background: var(--green-tint); color: var(--green); }
+  .tag.medicines { background: var(--amber-tint); color: var(--amber-ink); }
+  .tag.advice { background: var(--accent-tint); color: var(--accent); }
+  .tag.service { background: var(--accent-tint); color: var(--accent); }
+  .tag.nhs { background: var(--track); color: var(--muted); }
+  .tag.gov { background: var(--accent-tint); color: var(--accent); }
+  .tag.trusted { background: var(--track); color: var(--ink); }
+  .tag.stale { background: var(--red-tint); color: var(--red); }
+  .actions { position: sticky; bottom: 0; background: var(--paper); padding: 12px 0 4px; border-top: 1px solid var(--line); margin-top: 8px; }
   button.primary {
-    width: 100%; padding: 14px; font-size: 1.05rem; font-weight: 700;
-    background: #005eb8; color: #fff; border: none; border-radius: 10px; cursor: pointer;
+    width: 100%; padding: 13px; font-size: 15px; font-weight: 600;
+    background: var(--green); color: #fff; border: none; border-radius: 8px; cursor: pointer;
   }
-  button.primary:disabled { background: #aab7c6; }
-  .clear { background: none; border: none; color: #005eb8; font-size: 0.9rem; cursor: pointer; margin-top: 8px; }
+  button.primary:disabled { background: var(--track); color: var(--muted); cursor: default; }
+  .clear { background: none; border: none; color: var(--accent); font-size: 13px; cursor: pointer; margin-top: 8px; text-decoration: underline; }
   #out { text-align: center; margin-top: 18px; }
-  #qr { display: inline-block; padding: 12px; background: #fff; border: 1px solid #e0e5ec; border-radius: 12px; }
-  #link { font-size: 0.8rem; color: #555; word-break: break-all; margin-top: 10px; }
-  .copy { margin-top: 10px; padding: 8px 16px; border: 1px solid #005eb8; background: #fff; color: #005eb8; border-radius: 8px; cursor: pointer; }
-  .hint { font-size: 0.85rem; color: #888; }
-  footer { margin-top: 30px; font-size: 0.78rem; color: #999; text-align: center; }
+  #qr { display: inline-block; padding: 12px; background: #fff; border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); }
+  #link { font-size: 11px; color: var(--muted); word-break: break-all; margin-top: 10px; }
+  .copy { margin-top: 10px; padding: 8px 16px; border: 1px solid var(--accent); background: var(--card); color: var(--accent); border-radius: 8px; cursor: pointer; font-size: 13px; }
+  .hint { font-size: 12px; color: var(--muted); }
+  footer { margin-top: 30px; font-size: 11px; color: var(--muted); text-align: center; }
+  footer a { color: var(--accent); font-weight: 600; }
   .head { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
   #trustsel {
     flex: none; max-width: 46%; min-width: 130px;
-    padding: 8px 10px; font-size: 0.85rem; font-weight: 600;
-    color: #00437a; background: #e8f0fb;
-    border: 1px solid #c4ccd6; border-radius: 8px; cursor: pointer;
+    padding: 8px 10px; font-size: 12px; font-weight: 600;
+    color: var(--accent); background: var(--card);
+    border: 1px solid var(--line); border-radius: 8px; cursor: pointer;
     text-overflow: ellipsis;
   }
   @media (max-width: 480px) {
@@ -169,20 +193,71 @@
     #trustsel { max-width: 100%; }
   }
   #demobanner {
-    background: #fff8e6; border: 1px solid #f3d77a; border-radius: 8px;
-    padding: 10px 12px; margin: 0 0 14px; font-size: 0.85rem; color: #6b5200;
+    background: var(--amber-tint); border: 1px solid var(--amber); border-radius: 8px;
+    padding: 10px 12px; margin: 0 0 14px; font-size: 12px; color: var(--amber-ink);
     line-height: 1.45;
   }
   .demo-tag {
-    display: inline-block; background: #fdecea; color: #7a271a;
-    border: 1px solid #f3b8b0; border-radius: 8px;
-    padding: 6px 12px; margin: 0 0 10px; font-size: 0.85rem; font-weight: 700;
+    display: inline-block; background: var(--red-tint); color: var(--red);
+    border: 1px solid var(--red); border-radius: 8px;
+    padding: 6px 12px; margin: 0 0 10px; font-size: 12px; font-weight: 700;
+  }
+  .loadwarn-msg {
+    background: var(--red-tint); border-left: 4px solid var(--red);
+    border-radius: 0 8px 8px 0; padding: 8px 12px; color: var(--red); font-size: 13px;
+  }
+  /* follow-up on the QR (Oscar 2026-09-03: SDEC / EMMAC return visits) */
+  .fu { margin: 16px 0 4px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+  .fu:empty { display: none; }
+  .fu .rlabel { margin-right: 6px; color: var(--ink); font-weight: 600; }
+  .fupanel .fudays { margin: 4px 0 8px; }
+  .fupanel .fudays .rlabel { font-size: 12px; color: var(--muted); font-weight: 400; margin-right: 4px; }
+  .fupanel .fudays .chip { background: var(--card); border: 1px solid var(--line); color: var(--ink); cursor: pointer; font-weight: 400; }
+  .fupanel .fudays .chip:hover { border-color: var(--accent); }
+  .fupanel .fudays .chip.on { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .fupanel .fuother { display: inline-block; margin: 4px 4px 0; font-size: 12px; color: var(--muted); }
+  .fupanel .fuother input[type="date"] { margin-left: 4px; padding: 5px 8px; font-size: 14px; }
+  .fu .chip { border: 1px dashed var(--accent); background: var(--card); color: var(--accent); cursor: pointer; user-select: none; }
+  .fu .chip:hover { background: var(--accent-tint); }
+  .fu .chip.on { background: var(--accent); color: #fff; border-style: solid; }
+  #fusel {
+    margin: 4px 0 0; padding: 7px 10px; font-size: 13px; font-weight: 600;
+    color: var(--accent); background: var(--card);
+    border: 1px dashed var(--accent); border-radius: 999px; cursor: pointer;
+    max-width: 100%;
+  }
+  .fupanel .fusug { margin: 8px 0 2px; font-size: 12px; color: var(--muted); }
+  .fupanel .fusug .rlabel { margin-right: 6px; }
+  .fupanel .fusug .chip {
+    background: var(--card); border: 1px dashed var(--green); color: var(--green);
+    cursor: pointer; font-weight: 600;
+  }
+  .fupanel .fusug .chip:hover { background: var(--green-tint); }
+  .fupanel .fusug .chip .tag { margin-left: 4px; }
+  .fupanel {
+    border: 1px solid var(--line); border-left: 4px solid var(--accent);
+    border-radius: 12px; background: var(--card); box-shadow: var(--shadow);
+    padding: 12px 14px; margin: 8px 0; color: var(--ink);
+  }
+  .fupanel .q { font-weight: 600; margin: 0 0 8px; }
+  .fupanel .furow { display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-end; margin: 6px 0; }
+  .fupanel label { font-size: 12px; color: var(--muted); display: block; margin-bottom: 2px; }
+  .fupanel input[type="date"], .fupanel input[type="time"] {
+    padding: 8px 10px; font-size: 16px; border: 1px solid var(--line);
+    border-radius: 6px; background: var(--card); color: var(--ink);
+    font-variant-numeric: tabular-nums;
+  }
+  .fupanel input:disabled { background: var(--track); color: var(--muted); }
+  .fupanel .fuhint { font-size: 12px; color: var(--muted); margin: 6px 0 0; }
+  .fupanel .furemove {
+    border: 1px solid var(--red); background: var(--card); color: var(--red);
+    border-radius: 8px; padding: 6px 12px; cursor: pointer; font-size: 12px; margin-top: 8px;
   }
 </style>
 </head>
 <body>
 <div class="head">
-  <h1>Choose patient information</h1>
+  <h1>📋 Choose patient information</h1>
   <select id="trustsel" aria-label="Which trust are you working at?"></select>
 </div>
 <p class="sub">Search, tick what you want, then show the QR code to the patient to scan.
@@ -194,7 +269,7 @@
 <div id="specnudge" class="nudge" hidden></div>
 <div id="demobanner" hidden><strong>Demonstration preview.</strong> This trust has not yet approved this tool — for demonstration only, <strong>not for patient use</strong>.</div>
 
-<input id="search" type="search" placeholder="Search (e.g. cellulitis, flucloxacillin, first fit)…" autocomplete="off">
+<input id="search" type="search" aria-label="Search patient information leaflets" placeholder="Search (e.g. cellulitis, flucloxacillin, first fit)…" autocomplete="off">
 
 <div id="selected" class="chips"></div>
 <div id="related" class="related"></div>
@@ -202,6 +277,10 @@
 <div id="loadwarn"></div>
 <p class="count" id="count" aria-live="polite">Loading…</p>
 <ul id="results" class="results"></ul>
+<!-- Follow-up is step two — AFTER the results, just above Generate, so the
+     search box keeps its results directly beneath it (Oscar 2026-09-03:
+     "search bar then this EMMAC thing then the leaflets — not intuitive"). -->
+<div id="followup" class="fu"></div>
 
 <div class="actions">
   <button id="gen" class="primary" disabled>Generate QR code</button>
@@ -447,6 +526,16 @@ let ITEMS = [];
 const bySlug = new Map();
 const selected = new Map();   // slug -> item
 
+// Follow-up on the QR (Oscar 2026-09-03): the clinician can put a return
+// visit — a destination (SDEC, EMMAC…) and optionally a day and time — on
+// the QR. Destinations come from the trust's followups.json (an OPTIONAL
+// per-trust layer: no file = no follow-up row). The day/time lives ONLY in
+// the link the patient carries — it is never sent to telemetry and never
+// stored, but it IS about this patient's visit, so the privacy wording on
+// both pages now says a follow-up day/time may be in the link.
+let FOLLOWUPS = [];
+let fuPick = null;   // { id, date: "YYYY-MM-DD"|"", time: "HH:MM"|"" }
+
 const $ = id => document.getElementById(id);
 
 function esc(s){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
@@ -655,6 +744,10 @@ async function load() {
   // official GOV.UK/CAA pages exist at every trust, so a stale pick could
   // ride into a later QR the moment that page is re-selected.
   drvPicks.clear(); driveState = null;
+  // a follow-up must not survive a trust switch either — another trust's
+  // destination id could silently resolve to a different unit
+  fuPick = null; FOLLOWUPS = [];
+  renderFollowup();   // clear the old trust's chips NOW, not when the fetch lands
   renderSelected(); $("out").innerHTML = ""; $("results").innerHTML = "";
   $("count").textContent = "Loading…";
   const sources = sourcesFor(TRUST);
@@ -671,7 +764,7 @@ async function load() {
   const LAYER_LABEL = { leaflet: "the trust's own leaflets", service: "trust service pages",
                         advice: "local advice cards", nhs: "national NHS resources",
                         medicines: "medicines pages" };
-  const [all, reviews, bundles, profiles, driving] = await Promise.all([
+  const [all, reviews, bundles, profiles, driving, followups] = await Promise.all([
     Promise.all(sources.map(([f, ty]) =>
       fetch(f, { cache: "no-cache" })
         .then(r => {
@@ -685,12 +778,21 @@ async function load() {
     fetch("driving_advice.json", { cache: "no-cache" })
       .then(r => { if (!r.ok) throw 0; return r.json(); })
       .catch(() => { failedLayers.push("driving/flying advice"); return {}; }),
+    // optional per-trust layer: a missing file just means no follow-up row.
+    // no-store — it carries unit locations and phone numbers, like advice.
+    // 404 = no file = no row (optional layer); anything else — server error,
+    // bad JSON, network — must FLAG, not silently hide the row (2026-09-03
+    // Codex review: honest failure, same rule as the other layers)
+    fetch(dirFor(TRUST) + "followups.json", { cache: "no-store" })
+      .then(r => { if (r.status === 404) return {}; if (!r.ok) throw 0; return r.json(); })
+      .catch(() => { failedLayers.push("follow-up destinations"); return {}; }),
   ]);
   // A newer load started while we were fetching (rapid trust switch): drop
   // this response, or trust A's data could render under trust B's banner.
   if (seq !== _loadSeq) return;
   BUNDLES = (bundles && bundles.bundles) || [];
   DRIVING = (driving && driving.modules) || [];
+  FOLLOWUPS = (followups && followups.destinations) || [];
   PROFILES = (profiles && profiles.profiles) || {};
   initSpecialtyUI();
   telemetryNotice();
@@ -706,11 +808,11 @@ async function load() {
   });
   $("count").textContent = ITEMS.length + " items available. Type to search.";
   $("loadwarn").innerHTML = failedLayers.length
-    ? `<p style="background:#fdecea;border-left:4px solid #c0392b;border-radius:0 8px 8px 0;` +
-      `padding:8px 12px;color:#7a271a"><strong>⚠ Some content failed to load:</strong> ` +
+    ? `<p class="loadwarn-msg"><strong>⚠ Some content failed to load:</strong> ` +
       `${esc([...new Set(failedLayers)].join(", "))} — this list is incomplete. ` +
       `Reload the page before relying on it.</p>`
     : "";
+  renderFollowup();
   renderResults();
 }
 
@@ -785,10 +887,11 @@ function renderSelected() {
   }
   if (outEl) delete outEl.dataset.fresh;
   const el = $("selected");
-  if (!selected.size) { el.innerHTML = ""; $("gen").disabled = true; renderRelated(); renderDriving(); return; }
+  // a QR can carry a follow-up alone — no leaflets ticked is still a valid code
+  if (!selected.size) { el.innerHTML = ""; $("gen").disabled = !fuPick; renderRelated(); renderDriving(); return; }
   $("gen").disabled = false;
   el.innerHTML = [...selected.values()].map(it =>
-    `<span class="chip">${esc(it.title)}<a class="openpg" href="${esc(patientUrl(it.slug))}" target="_blank" rel="noopener" title="Open the patient page to check it">↗</a><button data-s="${esc(it.slug)}" aria-label="remove">×</button></span>`).join("");
+    `<span class="chip">${esc(it.title)}<a class="openpg" href="${esc(patientUrl(it.slug))}" target="_blank" rel="noopener" title="Open the patient page to check it">↗</a><button data-s="${esc(it.slug)}" aria-label="Remove ${esc(it.title)}">×</button></span>`).join("");
   el.querySelectorAll("button").forEach(b =>
     b.onclick = () => { selected.delete(b.dataset.s); renderSelected(); renderResults(); });
   renderRelated();
@@ -1201,6 +1304,184 @@ function renderDrivePanel() {
   }
 }
 
+// ---- Follow-up picker (Oscar 2026-09-03) -----------------------------------
+// Common destinations (featured: true) are one-tap chips; every other ward/
+// clinic/unit lives in a select grouped by the data's own 'group' buckets —
+// chips don't scale to a 50-entry estate (wards + outpatients added same
+// day). Picking one opens a small panel: optional day, optional time (time
+// needs a day — "10:30" with no day means nothing to a patient). Any change
+// routes through renderSelected() so the stale-QR warning fires exactly
+// like a selection change.
+function renderFollowup() {
+  const el = $("followup");
+  if (!el) return;
+  if (!FOLLOWUPS.length) { el.innerHTML = ""; return; }
+  if (fuPick && !FOLLOWUPS.some(d => d.id === fuPick.id)) fuPick = null;
+  const chips = FOLLOWUPS.filter(d => d.featured);
+  const rest = FOLLOWUPS.filter(d => !d.featured);
+  // group order = order the groups first appear in the data file
+  const groups = [];
+  for (const d of rest) if (!groups.includes(d.group || "Other")) groups.push(d.group || "Other");
+  const restPicked = fuPick && rest.some(d => d.id === fuPick.id);
+  el.innerHTML =
+    `<span class="rlabel">📅 Coming back for a follow-up?</span> ` +
+    chips.map(d =>
+      `<span class="chip${fuPick && fuPick.id === d.id ? " on" : ""}" data-f="${esc(d.id)}" ` +
+      `role="button" tabindex="0" title="Show a ${esc(d.label)} on the patient's page">` +
+      `${fuPick && fuPick.id === d.id ? "✓ " : ""}${esc(d.label)}</span>`).join(" ") +
+    (rest.length
+      ? ` <select id="fusel" aria-label="Choose a ward, clinic or unit for follow-up">` +
+        `<option value="">${chips.length ? "Or a ward, clinic or unit…" : "Choose a ward, clinic or unit…"}</option>` +
+        groups.map(g =>
+          `<optgroup label="${esc(g)}">` +
+          rest.filter(d => (d.group || "Other") === g).map(d =>
+            `<option value="${esc(d.id)}"${restPicked && fuPick.id === d.id ? " selected" : ""}>${esc(d.label)}</option>`).join("") +
+          `</optgroup>`).join("") +
+        `</select>`
+      : "") +
+    `<div id="fupanel"></div>`;
+  el.querySelectorAll(".chip").forEach(c => {
+    const toggle = () => {
+      fuPick = (fuPick && fuPick.id === c.dataset.f) ? null
+             : { id: c.dataset.f, date: "", time: "" };
+      fuChanged();
+      // the row re-rendered under the keyboard user — land them on the
+      // natural next step instead of dropping focus to <body>
+      if (fuPick) { const dt = $("fudate"); if (dt) dt.focus(); }
+    };
+    c.onclick = toggle;
+    c.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); } };
+  });
+  const sel = $("fusel");
+  if (sel) sel.onchange = () => {
+    fuPick = sel.value ? { id: sel.value, date: "", time: "" } : null;
+    fuChanged();
+    if (fuPick) { const dt = $("fudate"); if (dt) dt.focus(); }
+  };
+  renderFuPanel();
+}
+
+// Patient-information suggestions for the picked pathway: the destination's
+// own info_slug, plus this trust's pages matching the clinic's specialty
+// (the bracketed part of its name — "Outpatients 2 (Fractures &
+// Orthopaedics)" surfaces the fracture leaflets). Resolved through the
+// normal search scoring, so only pages that actually exist at this trust
+// can ever be offered — and adding one is the clinician's tap, never ours.
+function fuSuggestions(d) {
+  const out = new Map();
+  if (d.info_slug && bySlug.has(d.info_slug)) out.set(d.info_slug, bySlug.get(d.info_slug));
+  const par = /\(([^)]+)\)/.exec(d.name || "");
+  if (par) for (const t of par[1].split(/\s*(?:&|,|\/|\band\b)\s*/i)) {
+    const term = t.trim();
+    if (term.length < 4) continue;          // "ECG"-length tokens hit noise
+    // top FEW per term, not the single best: "Fractures" alone resolved to
+    // one hyper-specific metatarsal leaflet (2026-09-03 review) — the
+    // clinician wants the spread to choose from, trust leaflets first
+    for (const hit of resolveSuggestions(term, 3)) {
+      if (!out.has(hit.slug)) out.set(hit.slug, hit);
+    }
+  }
+  return [...out.values()].filter(it => !selected.has(it.slug)).slice(0, 4);
+}
+
+// The top-n matches for a term by the normal search scoring (concise titles
+// and the trust's own leaflets already win in scoreItem).
+function resolveSuggestions(terms, n) {
+  const groups = termGroups(terms);
+  if (!groups.length) return [];
+  const qf = fold(terms);
+  return ITEMS.map(it => [scoreItem(it, groups, qf), it])
+    .filter(([s]) => s > 0)
+    .sort((a, b) => (b[0] - a[0]) || (a[1]._title.length - b[1]._title.length))
+    .slice(0, n).map(([, it]) => it);
+}
+
+function renderFuPanel() {
+  const host = $("fupanel");
+  if (!host) return;
+  const d = fuPick && FOLLOWUPS.find(x => x.id === fuPick.id);
+  if (!d) { host.innerHTML = ""; return; }
+  const today = new Date();
+  const todayISO = today.getFullYear() + "-"
+    + String(today.getMonth() + 1).padStart(2, "0") + "-"
+    + String(today.getDate()).padStart(2, "0");
+  const sugs = fuSuggestions(d);
+  host.innerHTML = `<div class="fupanel">
+    <p class="q">Follow-up: ${esc(d.name || d.label)}</p>
+    <div class="fudays"><span class="rlabel">Day:</span> ${fuDayChips().map(c =>
+        `<span class="chip${fuPick.date === c.iso ? " on" : ""}" data-d="${c.iso}" role="button" tabindex="0">${esc(c.lab)}</span>`).join(" ")}
+      <label class="fuother">or another day
+        <input type="date" id="fudate" min="${todayISO}" value="${esc(fuPick.date)}" aria-label="Another day"></label>
+    </div>
+    <div class="furow">
+      <span><label for="futime">Time (optional)</label>
+        <input type="time" id="futime" value="${esc(fuPick.time)}"${fuPick.date ? "" : " disabled"}></span>
+    </div>
+    <p class="fuhint">${fuPick.date
+      ? "The patient's page will show this day" + (fuPick.time ? " and time." : " — add a time if they have one.")
+      : "No day set — the patient's page will just say to come back, and where."}${
+      d.find_url ? " It includes a “How to find it” link to the hospital's own directions."
+      : (d.where ? "" : " ⚠ No published directions for this unit yet — tell the patient where to go.")}</p>
+    ${sugs.length
+      ? `<div class="fusug"><span class="rlabel">Patient info for this pathway:</span> ` +
+        sugs.map(it =>
+          `<span class="chip" data-s="${esc(it.slug)}" role="button" tabindex="0" title="Add to the QR">＋ ${esc(it.title)}` +
+          `<span class="tag ${esc(it.type)}">${esc(TAGLABEL[it.type] || "")}</span></span>`).join(" ") +
+        `</div>`
+      : ""}
+    <button class="furemove" id="furemove">Remove follow-up</button>
+  </div>`;
+  // the panel re-renders on every change — put focus back where a keyboard
+  // user would expect it (day set → time is next; time set → stay put)
+  $("fudate").onchange = () => {
+    fuPick.date = $("fudate").value || "";
+    if (!fuPick.date) fuPick.time = "";   // a time with no day is meaningless
+    fuChanged();
+    $(fuPick.date ? "futime" : "fudate")?.focus();
+  };
+  $("futime").onchange = () => { fuPick.time = $("futime").value || ""; fuChanged(); $("futime")?.focus(); };
+  // one-tap day chips — typing a year into a date field is fiddly on a busy
+  // shift; tapping the chip again clears the day (and with it the time)
+  host.querySelectorAll(".fudays .chip").forEach(c => {
+    const pick = () => {
+      fuPick.date = (fuPick.date === c.dataset.d) ? "" : c.dataset.d;
+      if (!fuPick.date) fuPick.time = "";
+      fuChanged();
+      $(fuPick.date ? "futime" : "fudate")?.focus();
+    };
+    c.onclick = pick;
+    c.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(); } };
+  });
+  $("furemove").onclick = () => { fuPick = null; fuChanged(); };
+  host.querySelectorAll(".fusug .chip").forEach(c => {
+    const add = () => {
+      const it = bySlug.get(c.dataset.s);
+      if (it) { selected.set(it.slug, it); renderSelected(); renderResults(); renderFuPanel(); }
+    };
+    c.onclick = add;
+    c.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); add(); } };
+  });
+}
+
+// Today, Tomorrow, then the next five days by name — covers nearly every ED
+// follow-up without touching a date field.
+function fuDayChips() {
+  const now = new Date(), out = [];
+  for (let i = 0; i < 7; i++) {
+    const d = new Date(now.getFullYear(), now.getMonth(), now.getDate() + i);
+    const iso = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0")
+      + "-" + String(d.getDate()).padStart(2, "0");
+    const lab = i === 0 ? "Today" : i === 1 ? "Tomorrow"
+      : d.toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" });
+    out.push({ iso, lab });
+  }
+  return out;
+}
+
+// any follow-up change invalidates a shown QR exactly like a selection change
+function fuChanged() { renderSelected(); renderFollowup(); }
+// ----------------------------------------------------------------------------
+
 // The patient-facing page for one item — the same URL the QR would encode
 // (Oscar 2026-08-01: the clinician must be able to CLICK THROUGH and check
 // the page, not copy-paste it).
@@ -1223,7 +1504,7 @@ function itemLi(it) {
   return `
     <li data-s="${esc(it.slug)}">
       <input type="checkbox" aria-label="${esc(it.title)}" ${selected.has(it.slug) ? "checked" : ""}>
-      <span class="t">${esc(it.title)}<span class="tag ${it.type}">${it.type === "trusted" && it.source ? esc(it.source) : (TAGLABEL[it.type]||"")}</span>${stale}${broken}
+      <span class="t">${esc(it.title)}<span class="tag ${esc(it.type)}">${it.type === "trusted" && it.source ? esc(it.source) : (TAGLABEL[it.type]||"")}</span>${stale}${broken}
       <a class="openpg" href="${esc(patientUrl(it.slug))}" target="_blank" rel="noopener" title="Open the patient page to check it">↗</a></span>
     </li>`;
 }
@@ -1314,11 +1595,23 @@ function generate() {
   const adv = [...drvPicks.entries()]
     .filter(([, v]) => selected.has(v.pslug))
     .map(([mid, v]) => mid + "." + v.node + (v.implied ? "~i" : "")).join(",");
-  const url = LANDING + "?" + tPart + "slugs=" + encodeURIComponent(slugs).replace(/%2C/gi, ",")
-    + (adv ? "&adv=" + encodeURIComponent(adv).replace(/%2C/gi, ",") : "");
+  // follow-up rides as fu=id[.YYYYMMDD[.HHMM]] — id/date/time only, all
+  // URL-safe. Deliberately NOT in telemetry: the day/time is about this
+  // patient's visit and exists nowhere but the link they carry.
+  const fu = fuPick
+    ? fuPick.id + (fuPick.date ? "." + fuPick.date.replace(/-/g, "")
+        + (fuPick.time ? "." + fuPick.time.replace(/:/g, "") : "") : "")
+    : "";
+  // a follow-up-only QR has no slugs — omit the empty param rather than
+  // issuing "slugs=" (the patient page treats both as "no leaflets")
+  const parts = [];
+  if (slugs) parts.push("slugs=" + encodeURIComponent(slugs).replace(/%2C/gi, ","));
+  if (adv) parts.push("adv=" + encodeURIComponent(adv).replace(/%2C/gi, ","));
+  if (fu) parts.push("fu=" + fu);
+  const url = LANDING + "?" + tPart + parts.join("&");
   const out = $("out");
   out.innerHTML = (isDemo() ? '<p class="demo-tag">DEMO — not for patient use</p><br>' : '') +
-    '<div id="qr"></div>' +
+    '<div id="qr" aria-hidden="true"></div>' +
     '<p id="link">' + esc(url) + '</p>' +
     '<button class="copy" id="copy">Copy link</button> ' +
     // The demonstrate-and-check button (Oscar 2026-08-01): one click opens
@@ -1337,7 +1630,7 @@ function generate() {
 
 $("search").addEventListener("input", () => { renderResults(); renderDriving(); });
 $("gen").onclick = generate;
-$("clear").onclick = () => { selected.clear(); drvPicks.clear(); $("search").value = ""; renderSelected(); renderResults(); $("out").innerHTML = ""; };
+$("clear").onclick = () => { selected.clear(); drvPicks.clear(); fuPick = null; $("search").value = ""; renderSelected(); renderFollowup(); renderResults(); $("out").innerHTML = ""; };
 
 init();
 

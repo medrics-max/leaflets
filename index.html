@@ -3,6 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- the address carries the patient's topics (and any follow-up time): never
+     hand it to a trust or NHS site as a referrer when they tap a link
+     (2026-09-03 Codex review) -->
+<meta name="referrer" content="no-referrer">
 <title>Patient information</title>
 <meta name="description" content="Links to your trust's own published patient-information leaflets and national NHS.uk content, selected by your clinician. Opened by scanning a QR code.">
 <script type="application/ld+json">
@@ -32,6 +36,20 @@
   }
   h1 { font-size: 1.5rem; margin: 0 0 6px; }
   .subtitle { color: #555; font-size: 0.95rem; margin: 0 0 24px; }
+  /* Follow-up card (Oscar 2026-09-03): the return visit the clinician put on
+     the QR — the one thing the patient must not miss, so it renders first. */
+  .fu-card {
+    border: 1px solid #d8dde3; border-left: 4px solid #005eb8;
+    border-radius: 12px; padding: 16px 18px; margin: 0 0 18px; background: #f7fafd;
+  }
+  .fu-card .fu-kicker { font-size: 0.8rem; font-weight: 700; letter-spacing: .03em; color: #005eb8; text-transform: uppercase; margin: 0 0 4px; }
+  .fu-card .fu-dest { font-size: 1.1rem; font-weight: 700; margin: 0 0 2px; }
+  .fu-card .fu-when { font-size: 1.35rem; font-weight: 800; font-variant-numeric: tabular-nums; margin: 6px 0; }
+  .fu-card .fu-where { color: #4c6272; font-size: 0.92rem; margin: 4px 0; }
+  .fu-card .fu-note { font-size: 0.88rem; color: #333; margin: 8px 0 0; }
+  .fu-card .fu-past { margin-top: 10px; font-size: 0.85rem; color: #6b5200; background: #fff8e6; border: 1px solid #f3d77a; border-radius: 8px; padding: 8px 10px; }
+  .fu-card a.fu-phone { display: inline-block; background: #005eb8; color: #fff; border-radius: 6px; padding: 6px 14px; text-decoration: none; font-weight: 600; margin-top: 8px; margin-right: 8px; }
+  .fu-card a.fu-find { display: inline-block; background: #005eb8; color: #fff; border-radius: 6px; padding: 6px 14px; text-decoration: none; font-weight: 600; margin-top: 8px; margin-right: 8px; }
   .leaflet-card {
     border: 1px solid #d8dde3;
     border-radius: 12px;
@@ -103,6 +121,33 @@
     margin: 6px 0 10px;
     font-size: 0.88rem;
     line-height: 1.4;
+  }
+  .advice-card .advice-entry {
+    border: 1px solid #d8dde0;
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin: 8px 0;
+  }
+  .advice-card .advice-entry .entry-name { font-weight: 600; }
+  .advice-card .advice-entry .entry-addr { color: #4c6272; font-size: 0.88rem; margin: 2px 0 8px; }
+  .advice-card .advice-entry .entry-phone {
+    display: inline-block;
+    background: #005eb8;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 14px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .advice-card .advice-entry .entry-note {
+    display: inline-block;
+    background: #fff8ec;
+    border: 1px solid #f3d77a;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 0.8rem;
+    margin-left: 8px;
+    vertical-align: middle;
   }
   .advice-card .advice-dropdown { display: flex; gap: 8px; margin: 8px 0 4px; }
   .advice-card .advice-dropdown select {
@@ -224,8 +269,9 @@
   This page is an independent service by Medrics and is not provided or endorsed by the trust.<br>
   Privacy: this page collects nothing about you and never knows who you are. If you tap
   Yes or No below, we record only that answer and the hospital — nothing else, and nothing
-  that could identify you. The web address does show the information topics — if you share
-  this device with others, clear it from the browser history when you are done.
+  that could identify you. The web address does show the information topics, and any follow-up day or
+  time your clinician added — if you share this device with others, clear it
+  from the browser history when you are done.
   <div class="credits">
     <span id="creditline" hidden></span><br>
     Software &amp; design: Dr Oscar Harrison
@@ -385,6 +431,20 @@ function adviceCard(item) {
     const points = (s.points && s.points.length)
       ? `<ul>${s.points.map(p => `<li>${escapeHtml(p)}</li>`).join("")}</ul>`
       : "";
+    // Directory entries (e.g. the dentist list): name, address, and the
+    // phone as a tappable tel: button — a patient with a dental emergency
+    // dials, they don't transcribe. Facts render verbatim from the card.
+    const entries = (s.entries && s.entries.length)
+      ? s.entries.map(en => {
+          const tel = String(en.phone || "").replace(/[^+\d]/g, "");
+          const note = en.note ? `<span class="entry-note">${escapeHtml(en.note)}</span>` : "";
+          return `<div class="advice-entry">
+            <div class="entry-name">${escapeHtml(en.name)}</div>
+            <div class="entry-addr">${escapeHtml(en.address || "")}</div>
+            <a class="entry-phone" href="tel:${tel}">📞 ${escapeHtml(en.phone)}</a>${note}
+          </div>`;
+        }).join("")
+      : "";
     const links = (s.links && s.links.length)
       ? `<ul class="advice-links">${s.links.map(l =>
           `<li><a href="${encodeURI(l.url)}">${escapeHtml(l.label)}</a></li>`).join("")}</ul>`
@@ -409,7 +469,7 @@ function adviceCard(item) {
            </button>
          </div>`
       : "";
-    return `${heading}${text}${warning}${points}${links}${dropdown}`;
+    return `${heading}${text}${warning}${points}${entries}${links}${dropdown}`;
   }).join("");
   // Numbers and hours are safety-critical: every card cites the pages its
   // facts were drawn from, with the date each was last checked. The advice
@@ -538,6 +598,7 @@ function renderResolved(items, demo) {
     ${demo ? '<p class="demobanner"><strong>Demonstration only.</strong> This is a preview of the service and is not in clinical use at this trust. Do not rely on it for your care.</p>' : ""}
     <h1>Information from your visit</h1>
     <p class="subtitle">Selected for you by your clinician.</p>
+    ${typeof FU_CARD !== "undefined" ? FU_CARD : ""}
     ${(typeof MISSING_ITEMS !== "undefined" && MISSING_ITEMS)
       ? `<p class="demobanner">${(typeof LAYERS_FAILED !== "undefined" && LAYERS_FAILED.length)
           ? "Some of your information could not be loaded right now — please try again in a few minutes."
@@ -575,7 +636,11 @@ async function main() {
     requested = [params.get("slug").trim()];
   }
 
-  if (requested.length === 0) {
+  // fu=id[.YYYYMMDD[.HHMM]] — a return visit the clinician put on the QR
+  // (Oscar 2026-09-03). A QR can carry a follow-up alone, with no leaflets.
+  const fuParam = (params.get("fu") || "").trim();
+
+  if (requested.length === 0 && !fuParam) {
     render(`<h1>No leaflet selected</h1><p class="subtitle">This page is opened by scanning a QR code from your clinician.</p>`);
     return;
   }
@@ -622,8 +687,9 @@ async function main() {
   }
 
   let leaflets, services, nhs, advice, medicines, overrides, reviews, redirects,
-      drivingAdvice;
+      drivingAdvice, followups;
   ADV_CARDS = [];
+  FU_CARD = "";
   // (2026-08-08 review) a failed layer fetch must not be silently identical
   // to an empty layer: if a requested item then fails to resolve, the page
   // must blame the outage, not the QR code.
@@ -640,7 +706,12 @@ async function main() {
     }).catch(() => { layersFailed.push(name); return empty; });
   try {
     [leaflets, services, nhs, advice, medicines, overrides, reviews, redirects] = await Promise.all([
-      fetch(dir + "leaflets.json", { cache: "no-cache" }).then(r => r.json()),
+      // a follow-up-only QR must not die with the leaflet index: a failure
+      // here flags the layer and the page renders what it can, with the
+      // outage notice (2026-09-03 Codex review)
+      fetch(dir + "leaflets.json", { cache: "no-cache" })
+        .then(r => { if (!r.ok) throw 0; return r.json(); })
+        .catch(() => { layersFailed.push("leaflets"); return []; }),
       layer(dir + "services.json", { cache: "no-cache" }, "services", []),
       // no-cache (revalidate, 304 when unchanged): a cached copy of this
       // file made a just-published resource invisible on a patient page
@@ -655,6 +726,10 @@ async function main() {
       fetch(dir + "reviews.json").then(r => r.json()).catch(() => ({})),
       fetch(dir + "redirects.json").then(r => r.json()).catch(() => ({}))
     ]);
+    // no-store, like local advice: it carries unit locations and phone
+    // numbers — a returning patient must never see a stale cached copy
+    followups = await layer(dir + "followups.json", { cache: "no-store" },
+                            "follow-up details", {});
     drivingAdvice = await layer("driving_advice.json", { cache: "no-cache" },
                                 "driving advice", { modules: [] });
     // clinician-chosen verdicts (?adv=module.node,…): validated against the
@@ -693,6 +768,60 @@ async function main() {
     render(`<h1 class="error">Could not load leaflets</h1><p>Please try again in a moment.</p>
       <p>If you feel worse, or you are worried, call 111 — or 999 in an emergency.</p>`);
     return;
+  }
+
+  // Build the follow-up card. Unknown destination id (renamed, or the
+  // followups layer failed) renders an honest caution, never silence — a
+  // patient must not read a missing card as "no follow-up after all".
+  if (fuParam) {
+    const [fid, fdate, ftime] = fuParam.split(".");
+    const dest = ((followups || {}).destinations || []).find(x => x.id === fid);
+    let when = "", past = false;
+    if (fdate && /^\d{8}$/.test(fdate)) {
+      const y = +fdate.slice(0, 4), mo = +fdate.slice(4, 6) - 1, da = +fdate.slice(6, 8);
+      const dt = new Date(y, mo, da);
+      // JS silently normalises "31 Feb" into March and accepts "24:60" — a
+      // mangled QR must never print a confident wrong date or time
+      // (2026-09-03 Codex review); an invalid part is simply not shown
+      const validDate = dt.getFullYear() === y && dt.getMonth() === mo && dt.getDate() === da;
+      const hh = +String(ftime || "").slice(0, 2), mm = +String(ftime || "").slice(2);
+      const validTime = /^\d{4}$/.test(ftime || "") && hh <= 23 && mm <= 59;
+      if (validDate) {
+        when = dt.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" })
+                 .replace(",", "");   // "Thursday 10 September 2026", as an NHS letter would print it
+        if (validTime) { when += " at " + ftime.slice(0, 2) + ":" + ftime.slice(2); dt.setHours(hh, mm, 0, 0); }
+        // with a time, "passed" once the slot is an hour behind (they may
+        // still be at the unit); day-only, once the day itself has passed
+        if (validTime) past = dt.getTime() + 60 * 60 * 1000 < Date.now();
+        else { const today = new Date(); today.setHours(0, 0, 0, 0); past = dt < today; }
+      }
+    }
+    // the directions link comes from a data file — only http(s) may render
+    const findHref = (() => {
+      try { const u = new URL(dest && dest.find_url || ""); return /^https?:$/.test(u.protocol) ? u.href : ""; }
+      catch (e) { return ""; }
+    })();
+    if (dest) {
+      const tel = String(dest.phone || "").replace(/[^+\d]/g, "");
+      FU_CARD = `<div class="fu-card">
+        <p class="fu-kicker">📅 Your follow-up</p>
+        <p class="fu-dest">Come back to ${escapeHtml(dest.name || dest.label)}</p>
+        ${when ? `<p class="fu-when">${escapeHtml(when)}</p>`
+               : `<p class="fu-note">Your care team will tell you when to come.</p>`}
+        ${dest.where ? `<p class="fu-where">📍 ${escapeHtml(dest.where)}</p>` : ""}
+        ${dest.note ? `<p class="fu-note">${escapeHtml(dest.note)}</p>` : ""}
+        ${findHref ? `<a class="fu-find" href="${escapeHtml(findHref)}" target="_blank" rel="noopener">📍 How to find it</a>` : ""}
+        ${dest.phone ? `<a class="fu-phone" href="tel:${tel}">📞 ${escapeHtml(dest.phone)}</a>` : ""}
+        ${past ? `<div class="fu-past">This date has passed. If you missed your visit, contact your care team.</div>` : ""}
+        <p class="fu-note">If you cannot come, or you are unsure, ${dest.phone ? "call the number above" : "contact your care team"}.</p>
+      </div>`;
+    } else {
+      FU_CARD = `<div class="fu-card">
+        <p class="fu-kicker">📅 Your follow-up</p>
+        <p class="fu-note">Your clinician arranged a follow-up visit${when ? " for <strong>" + escapeHtml(when) + "</strong>" : ""},
+        but the details could not be shown here. Please check with your care team.</p>
+      </div>`;
+    }
   }
 
   const bySlug = new Map();
@@ -734,7 +863,7 @@ async function main() {
     });
   }
 
-  if (resolved.length === 0) {
+  if (resolved.length === 0 && !FU_CARD) {   // a follow-up-only QR is valid
     // Blame the right thing: if a data layer failed to load, the QR code is
     // probably fine — say so instead of sending the patient back for a new
     // code that would fail identically (2026-08-08 review).
