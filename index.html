@@ -81,9 +81,11 @@
   }
   /* NHS.uk "when to get help" cards, verbatim (Oscar 2026-09-03) */
   .nhscards { margin-top: 12px; }
+  .nhscards .nhsabout { margin: 6px 0; color: #333; font-size: 0.95rem; }
   .nhscard { border-left: 4px solid #005eb8; border-radius: 0 8px 8px 0; padding: 8px 12px; margin: 8px 0; background: #f4f7fa; }
   .nhscard-emergency { border-left-color: #d5281b; background: #fdecea; }
   .nhscard-urgent { border-left-color: #b07d00; background: #fff8e6; }
+  .nhscard-advice { border-left-color: #005eb8; background: #f4f7fa; }
   .nhscard .nhscard-h { font-weight: 700; margin: 0 0 4px; font-size: 0.98rem; }
   .nhscard ul { margin: 0 0 4px; padding-left: 20px; }
   .nhscard li { margin-bottom: 3px; }
@@ -500,9 +502,15 @@ function nhsCardsHtml(item) {
   // the NHS page must be a real NHS.uk address before it becomes a patient link
   let nhsHref = "";
   try { const u = new URL(pg.url || item.url); if (u.protocol === "https:" && u.hostname === "www.nhs.uk") nhsHref = u.href; } catch (e) {}
-  const LABEL = { emergency: "🚨", urgent: "⚠️", gp: "ℹ️" };
+  const LABEL = { emergency: "🚨", urgent: "⚠️", gp: "ℹ️", advice: "ℹ️" };
   // NHS order, never re-sorted — the sequence is part of their advice
   const cards = pg.cards;
+  // hub conditions keep their advice on a sub-page — link every page a card
+  // came from, each validated as a real NHS.uk address
+  const srcs = [];
+  for (const u of [pg.url || item.url, ...cards.map(c => c.source_url).filter(Boolean)]) {
+    try { const x = new URL(u); if (x.protocol === "https:" && x.hostname === "www.nhs.uk" && !srcs.includes(x.href)) srcs.push(x.href); } catch (e) {}
+  }
   const body = cards.map(c => {
     let out = "", open = false;
     for (const ln of c.lines) {
@@ -513,9 +521,15 @@ function nhsCardsHtml(item) {
     return `<div class="nhscard nhscard-${escapeHtml(c.tier)}">
       <p class="nhscard-h">${LABEL[c.tier] || ""} ${escapeHtml(c.headline)}</p>${out}</div>`;
   }).join("");
-  return `<div class="nhscards">${body}
+  // the NHS page's own opening paragraphs, verbatim, so the patient starts
+  // with what the condition or medicine IS before the red flags
+  // a paragraph that ends in a colon introduces a list we don't carry — skip it
+  const about = (pg.about || []).filter(t => t && !/:\s*$/.test(t)).slice(0, 2)
+    .map(t => `<p class="nhsabout">${escapeHtml(t)}</p>`).join("");
+  return `<div class="nhscards">${about}${body}
     <p class="nhscard-foot">Information from the NHS website${pg.dateModified ? ", updated " + escapeHtml(pg.dateModified) : ""}
-      (checked ${escapeHtml(pg.retrieved || "")})${nhsHref ? ` — <a href="${escapeHtml(nhsHref)}">read the full NHS page</a>` : ""}.
+      (checked ${escapeHtml(pg.retrieved || "")})${srcs.length ? ` — read the full NHS page${srcs.length > 1 ? "s" : ""}: ` +
+        srcs.map(u => `<a href="${escapeHtml(u)}">${escapeHtml(u.replace("https://www.nhs.uk", "").replace(/\/$/, "").split("/").pop() || "page")}</a>`).join(" · ") : ""}.
       Licensed under the Open Government Licence v3.0.</p></div>`;
 }
 

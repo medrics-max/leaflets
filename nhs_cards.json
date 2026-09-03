@@ -14,6 +14,9 @@
    "title": "High temperature (fever) in children",
    "dateModified": "2026-08-07",
    "retrieved": "2026-09-03",
+   "about": [
+    "A high temperature is 38C or more. A child with a high temperature might feel hotter than usual when you touch their back or chest."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -43,7 +46,8 @@
        "kind": "li",
        "text": "is dehydrated – such as nappies that are not very wet, sunken eyes, and no tears when they're crying"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -89,7 +93,8 @@
        "kind": "li",
        "text": "is not responding like they normally do, or is not interested in feeding or normal activities"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -98,6 +103,9 @@
    "title": "Croup",
    "dateModified": "2026-08-27",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of croup include a barking cough that sounds like a seal, a hoarse voice, difficulty breathing and a high-pitched sound when breathing in."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -115,7 +123,8 @@
        "kind": "p",
        "text": "Occasionally, your child may be referred to hospital if they're more seriously ill or they're under the age of 3 months."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -149,7 +158,8 @@
        "kind": "li",
        "text": "is unwell and drooling more than they normally do, finding it hard to swallow, or wants to sit rather than lie down"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -158,6 +168,9 @@
    "title": "Bronchiolitis",
    "dateModified": "2026-09-01",
    "retrieved": "2026-09-03",
+   "about": [
+    "Bronchiolitis starts with symptoms of a cold, such as sneezing. Later symptoms include a cough, noisy breathing and breathing more quickly."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -183,7 +196,8 @@
        "kind": "p",
        "text": "As a parent, you may know if your child seems seriously unwell and should trust your own judgement."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -221,7 +235,8 @@
        "kind": "li",
        "text": "you're worried about your child"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -230,6 +245,9 @@
    "title": "Febrile seizures (febrile convulsions)",
    "dateModified": "2026-08-07",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of a febrile seizure include shaking, twitching and unconsciousness. They can happen when a child has a high temperature."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -263,7 +281,8 @@
        "kind": "p",
        "text": "Do not take your child to A&E if they are still having a seizure or are unconscious, call 999 instead."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -272,6 +291,9 @@
    "title": "Diarrhoea and vomiting",
    "dateModified": "2026-07-09",
    "retrieved": "2026-09-03",
+   "about": [
+    "Diarrhoea and vomiting can usually be treated at home by drinking lots of fluids and getting plenty of rest until you feel better."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -309,7 +331,8 @@
        "kind": "p",
        "text": "111 will tell you what to do. They can arrange a phone call from a nurse or doctor if you need one."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -387,7 +410,8 @@
        "kind": "li",
        "text": "is annoying but does not stop you doing daily activities"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -396,6 +420,9 @@
    "title": "Sprains and strains",
    "dateModified": "2026-07-09",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of a sprain and a strain include pain and swelling around a joint, such as the ankle, wrist or thumb."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -437,7 +464,8 @@
        "kind": "p",
        "text": "You could also go to an urgent treatment centre."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "gp",
@@ -455,7 +483,8 @@
        "kind": "p",
        "text": "Get NHS help for back or joint problems"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -481,7 +510,8 @@
        "kind": "p",
        "text": "You may have broken a bone and will need an X-ray."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -490,6 +520,9 @@
    "title": "Dislocated shoulder",
    "dateModified": "2026-04-13",
    "retrieved": "2026-09-03",
+   "about": [
+    "Get medical help if you think you’ve dislocated your shoulder. Keep your shoulder still and do not try to put your arm back in yourself."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -515,7 +548,8 @@
        "kind": "p",
        "text": "Call 999 for an ambulance if you cannot get to A&E by yourself."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -524,6 +558,9 @@
    "title": "Migraine",
    "dateModified": "2026-06-12",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of migraine include a throbbing pain (often on 1 side of the head), feeling sick, and sensitivity to light and sound."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -545,7 +582,8 @@
        "kind": "li",
        "text": "you regularly get migraine before or during your period"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -571,7 +609,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -609,7 +648,8 @@
        "kind": "li",
        "text": "have recently had a head injury"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -618,6 +658,9 @@
    "title": "Gout",
    "dateModified": "2026-05-06",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of gout include sudden severe pain, redness and swelling in a joint, such as your big toe, hands or feet."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -635,7 +678,8 @@
        "kind": "p",
        "text": "An attack of gout usually lasts 1 to 2 weeks if left untreated. If you do not get treatment, future attacks may last even longer. Leaving gout untreated may cause lasting damage to joints."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -665,7 +709,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -674,6 +719,9 @@
    "title": "Earache",
    "dateModified": "2025-12-09",
    "retrieved": "2026-09-03",
+   "about": [
+    "Common causes of earache include ear infections, a build-up of earwax in your ear and fluid in your ear (glue ear)."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -703,7 +751,8 @@
        "kind": "p",
        "text": "They can provide some treatments if you need it without you seeing a GP."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "gp",
@@ -713,7 +762,8 @@
        "kind": "li",
        "text": "you or your child keep getting earache"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -759,7 +809,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online . Call 111 if you need advice for a child under 5 years old."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -768,6 +819,9 @@
    "title": "Sore throat",
    "dateModified": "2026-05-12",
    "retrieved": "2026-09-03",
+   "about": [
+    "Sore throat symptoms include pain when swallowing, a dry, scratchy throat, bad breath and redness in the back of your mouth."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -785,7 +839,8 @@
        "kind": "p",
        "text": "A pharmacist can give the same antibiotic treatment as a GP for a sore throat, if you need it. They can also give advice or direct you to other medical help."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "gp",
@@ -807,7 +862,8 @@
        "kind": "li",
        "text": "you have a sore throat and symptoms like a lump in your mouth or neck, or a mouth ulcer that lasts for more than 3 weeks"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -837,7 +893,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -863,7 +920,8 @@
        "kind": "li",
        "text": "have severe symptoms and are getting worse quickly"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -872,6 +930,9 @@
    "title": "Constipation",
    "dateModified": "2026-07-03",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of constipation include going for a poo fewer than 3 times in a week and finding it hard to poo."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -917,7 +978,8 @@
        "kind": "p",
        "text": "Speak to the GP before you stop taking any prescribed medicine."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -926,6 +988,9 @@
    "title": "Cuts and grazes",
    "dateModified": "2026-07-08",
    "retrieved": "2026-09-03",
+   "about": [
+    "If you have a cut or graze, you should try to stop any bleeding, clean the wound and cover it with a plaster or dressing."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -955,7 +1020,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -985,7 +1051,8 @@
        "kind": "li",
        "text": "there's something stuck in the cut, such as a shard of glass – do not try to take it out yourself"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -994,6 +1061,9 @@
    "title": "Animal and human bites",
    "dateModified": "2026-04-13",
    "retrieved": "2026-09-03",
+   "about": [
+    "If you've been bitten by a person or animal, clean the bite with soap and water, cover it with a dressing and take painkillers if you're in pain."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -1039,7 +1109,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -1061,7 +1132,8 @@
        "kind": "p",
        "text": "If a body part, such as part of a finger or ear has been torn off, wrap it in clean tissue and put it in a plastic bag. Put some ice around the bag and take it with you to hospital."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -1070,6 +1142,9 @@
    "title": "Anaphylaxis",
    "dateModified": "2026-05-06",
    "retrieved": "2026-09-03",
+   "about": [
+    "Anaphylaxis happens when your body has a serious reaction to something you're allergic to, such as a food, medicine or insect sting."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -1111,7 +1186,8 @@
        "kind": "p",
        "text": "These can be signs of a serious allergic reaction and may need immediate treatment in hospital."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -1120,6 +1196,9 @@
    "title": "Sunburn",
    "dateModified": "2026-07-13",
    "retrieved": "2026-09-03",
+   "about": [
+    "Sunburnt skin feels hot and sore. It may flake and peel after a few days. It looks red on white skin but can be harder to spot on black or brown skin."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -1161,7 +1240,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online . Call 111 if you need advice for a child under 5 years old."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -1170,6 +1250,9 @@
    "title": "Chest pain",
    "dateModified": "2026-06-25",
    "retrieved": "2026-09-03",
+   "about": [
+    "Common causes of chest pain include heartburn, sprains, anxiety and chest infections. Less often, it might be caused by a heart problem like angina."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -1191,7 +1274,8 @@
        "kind": "p",
        "text": "You could be having a heart attack. Call 999 straight away as you need immediate treatment in hospital."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "gp",
@@ -1209,7 +1293,8 @@
        "kind": "p",
        "text": "It's important to get medical advice to make sure it's nothing serious."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -1218,6 +1303,9 @@
    "title": "High blood pressure (hypertension)",
    "dateModified": "2026-08-13",
    "retrieved": "2026-09-03",
+   "about": [
+    "The risk of having high blood pressure increases as you get older. Having Black ethnicity or relatives with high blood pressure also raises the risk."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -1239,7 +1327,8 @@
        "kind": "p",
        "text": "Some workplaces also offer blood pressure checks. Check with your employer."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -1261,7 +1350,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -1283,7 +1373,8 @@
        "kind": "p",
        "text": "You could be having a heart attack. Call 999 straight away as you need immediate treatment in hospital."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -1292,6 +1383,9 @@
    "title": "Heartburn and acid reflux",
    "dateModified": "2026-08-17",
    "retrieved": "2026-09-03",
+   "about": [
+    "The main symptoms of acid reflux are a burning feeling in the middle of your chest (heartburn) and an unpleasant sour taste in your mouth."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -1317,7 +1411,8 @@
        "kind": "p",
        "text": "If at any time you feel your symptoms are getting worse, contact a GP, go to 111.nhs.uk or call 111."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -1326,6 +1421,9 @@
    "title": "Angina",
    "dateModified": "2026-07-08",
    "retrieved": "2026-09-03",
+   "about": [
+    "The main symptom of angina is a feeling of pain, tightness or squeezing in your chest, neck or jaw. It's often triggered by exercise or stress."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -1351,7 +1449,8 @@
        "kind": "p",
        "text": "You could be having a heart attack. Call 999 straight away as you need immediate treatment in hospital."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -1369,7 +1468,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -1378,6 +1478,9 @@
    "title": "Headaches",
    "dateModified": "2026-07-09",
    "retrieved": "2026-09-03",
+   "about": [
+    "To help ease a headache, drink plenty of water, try to rest and relax, and take paracetamol and ibuprofen if you need to."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -1391,7 +1494,8 @@
        "kind": "li",
        "text": "you regularly get headaches"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -1425,7 +1529,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online . Call 111 if you need advice for a child under 5 years old."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -1471,7 +1576,8 @@
        "kind": "li",
        "text": "has a very high temperature, a stiff neck, or bright lights are bothering you"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -1480,6 +1586,9 @@
    "title": "Heart palpitations",
    "dateModified": "2026-06-12",
    "retrieved": "2026-09-03",
+   "about": [
+    "Heart palpitations can feel like your heartbeat is very fast, irregular, pounding or fluttering. You may feel them in your chest, neck or throat."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -1505,7 +1614,8 @@
        "kind": "li",
        "text": "you have a history of heart problems in your family"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -1531,7 +1641,8 @@
        "kind": "p",
        "text": "If you've had these symptoms but they've now stopped, ask your GP surgery for an urgent appointment, call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -1540,6 +1651,9 @@
    "title": "Vertigo",
    "dateModified": "2025-11-25",
    "retrieved": "2026-09-03",
+   "about": [
+    "Vertigo is when you feel like you or everything around you is spinning. It can also affect your balance."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -1549,7 +1663,8 @@
        "kind": "li",
        "text": "you have vertigo that will not go away or keeps coming back"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -1575,7 +1690,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -1605,7 +1721,8 @@
        "kind": "p",
        "text": "Always take someone who cannot be woken up to A&E or call 999."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -1614,6 +1731,9 @@
    "title": "Nosebleed",
    "dateModified": "2026-03-05",
    "retrieved": "2026-09-03",
+   "about": [
+    "If you have a nosebleed, sit down and lean forward with your head tilted forward. Pinch your nose just above your nostrils for 10 to 15 minutes."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -1643,7 +1763,8 @@
        "kind": "p",
        "text": "The GP might want to test you for haemophilia or for other conditions like anaemia."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -1677,7 +1798,8 @@
        "kind": "li",
        "text": "you're having difficulty breathing"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -1686,6 +1808,9 @@
    "title": "Cellulitis (skin infection)",
    "dateModified": "2026-05-12",
    "retrieved": "2026-09-03",
+   "about": [
+    "The main symptom of cellulitis is a painful, hot, swollen area of skin. It usually looks red, but this may be less obvious on brown or black skin."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -1703,7 +1828,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -1745,7 +1871,8 @@
        "kind": "p",
        "text": "These are symptoms of serious complications, which can be life threatening."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -1754,6 +1881,9 @@
    "title": "Burns and scalds",
    "dateModified": "2026-08-27",
    "retrieved": "2026-09-03",
+   "about": [
+    "You should treat burns and scalds straight away by running cool water over the affected area."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -1775,7 +1905,8 @@
        "kind": "li",
        "text": "has been caused by an acid or chemical, or by electricity"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -1789,7 +1920,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online . Call 111 if you need advice for a child under 5 years old."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -1798,6 +1930,9 @@
    "title": "Stomach ache and abdominal pain",
    "dateModified": "2025-10-02",
    "retrieved": "2026-09-03",
+   "about": [
+    "Common causes of stomach ache include trapped wind, indigestion, constipation and food poisoning."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -1855,7 +1990,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -1901,7 +2037,8 @@
        "kind": "li",
        "text": "someone has collapsed"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -1910,6 +2047,9 @@
    "title": "Shingles",
    "dateModified": "2026-07-07",
    "retrieved": "2026-09-03",
+   "about": [
+    "The main symptom of shingles is a painful, blotchy rash on 1 side of your body. It mainly affects the skin, but can sometimes affect the eyes too."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -1927,7 +2067,8 @@
        "kind": "p",
        "text": "A pharmacist can give the same antiviral medicines as a GP. They can also give advice or direct you to other medical help, if needed."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -1973,7 +2114,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -1982,6 +2124,9 @@
    "title": "Chickenpox",
    "dateModified": "2026-05-22",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of chickenpox include itchy spots that become blisters, then scabs. It can be anywhere on the body, including in the mouth."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -1999,7 +2144,8 @@
        "kind": "p",
        "text": "Contact the GP surgery before you go in, and tell the receptionist you think it might be chickenpox."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -2037,7 +2183,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online . Call 111 if you need advice for a child under 5 years old."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2046,6 +2193,9 @@
    "title": "Bell’s palsy (facial weakness)",
    "dateModified": "2024-11-27",
    "retrieved": "2026-09-03",
+   "about": [
+    "The main symptom of Bell's palsy is weakness or not being able to move 1 side of your face. Other symptoms include drooling and a dry or watering eye."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -2067,7 +2217,8 @@
        "kind": "p",
        "text": "These can be signs of a stroke , which is a medical emergency."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -2085,7 +2236,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2094,6 +2246,9 @@
    "title": "Conjunctivitis (red eye)",
    "dateModified": "2025-05-14",
    "retrieved": "2026-09-03",
+   "about": [
+    "Conjunctivitis usually makes your eyes red, itchy and uncomfortable."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -2111,7 +2266,8 @@
        "kind": "li",
        "text": "you have conjunctivitis and your symptoms have not cleared up within 7 days"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -2145,7 +2301,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online . Call 111 if you need help for a child under 5."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2154,6 +2311,9 @@
    "title": "Insect bites and stings",
    "dateModified": "2026-07-02",
    "retrieved": "2026-09-03",
+   "about": [
+    "The main symptom of insect bites or stings is a swollen lump on the skin. It may be itchy and painful, but usually gets better in a few hours or days."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -2183,7 +2343,8 @@
        "kind": "p",
        "text": "A pharmacist can recommend treatments, such as antihistamines and steroid creams, and give the same antibiotics as a GP if the bite or sting is infected. They can also give advice or direct you to other medical help if you need it."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "gp",
@@ -2197,7 +2358,8 @@
        "kind": "li",
        "text": "you think you or your child have been bitten by a tick and have flu-like symptoms, or a round or oval rash that may look like a bullseye"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -2239,7 +2401,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online . Call 111 to get advice about a child under 5 years old."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -2281,7 +2444,8 @@
        "kind": "p",
        "text": "These can be signs of a serious allergic reaction and may need immediate treatment in hospital."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2290,6 +2454,9 @@
    "title": "Atrial fibrillation",
    "dateModified": "2026-07-08",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of atrial fibrillation include an irregular heartbeat, a fast heartbeat, palpitations, dizziness and shortness of breath."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -2307,7 +2474,8 @@
        "kind": "li",
        "text": "you have been diagnosed with atrial fibrillation and treatment is not helping your symptoms"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -2353,7 +2521,8 @@
        "kind": "li",
        "text": "confusion or difficulty speaking"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2362,6 +2531,9 @@
    "title": "Sciatica",
    "dateModified": "2026-08-27",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of sciatica include pain that starts in your lower back or bottom and runs down the back of one leg, often to your foot and toes."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -2391,7 +2563,8 @@
        "kind": "p",
        "text": "Get NHS help for back or joint problems"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -2421,7 +2594,8 @@
        "kind": "p",
        "text": "These could be symptoms of a serious back problem that needs to be treated in hospital as soon as possible."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2430,6 +2604,9 @@
    "title": "Hand, foot and mouth disease",
    "dateModified": "2025-12-09",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of hand, foot and mouth disease are usually mild and include a sore throat, high temperature, mouth ulcers and rash on the hands and feet."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -2451,7 +2628,8 @@
        "kind": "p",
        "text": "Check with your GP surgery before going. They may suggest a phone consultation."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -2473,7 +2651,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2482,6 +2661,9 @@
    "title": "Impetigo",
    "dateModified": "2025-06-25",
    "retrieved": "2026-09-03",
+   "about": [
+    "Impetigo causes sores or blisters that burst and leave crusty, golden-brown patches. They can look a bit like cornflakes stuck to your skin."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -2499,7 +2681,8 @@
        "kind": "p",
        "text": "A pharmacist can give the same medicines as a GP to treat impetigo. They can also give advice or direct you to to other medical help if you need it."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "gp",
@@ -2533,7 +2716,8 @@
        "kind": "p",
        "text": "Impetigo is very infectious. Check with the GP surgery before you go in. They may suggest a phone consultation."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2542,6 +2726,9 @@
    "title": "Gallstones",
    "dateModified": "2025-11-25",
    "retrieved": "2026-09-03",
+   "about": [
+    "Most people with gallstones do not have symptoms. If a gallstone blocks a bile duct from your gallbladder, it can cause severe tummy pain."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -2555,7 +2742,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -2577,7 +2765,8 @@
        "kind": "li",
        "text": "your skin or the white part of your eyes looks yellow"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2586,6 +2775,9 @@
    "title": "Piles (haemorrhoids)",
    "dateModified": "2026-07-14",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of piles include bright red blood after you poo, an itchy anus, and sometimes mucus coming from your bottom."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -2607,7 +2799,8 @@
        "kind": "p",
        "text": "The GP may prescribe stronger medicines for piles or constipation. They may also check your symptoms are not being caused by something else."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -2633,7 +2826,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -2651,7 +2845,8 @@
        "kind": "li",
        "text": "you are in severe pain"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2660,6 +2855,9 @@
    "title": "Sepsis",
    "dateModified": "2026-07-06",
    "retrieved": "2026-09-03",
+   "about": [
+    "Sepsis can cause lots of different symptoms. Trust your instincts and get immediate medical help if you or your child are unwell and it may be sepsis."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -2725,7 +2923,8 @@
        "kind": "li",
        "text": "has symptoms you're worried might be sepsis"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -2735,7 +2934,8 @@
        "kind": "li",
        "text": "you or your child have had sepsis in the past 12 months and have symptoms of an infection, such as a very high temperature, or feeling hot, cold or shivery"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2744,6 +2944,9 @@
    "title": "Toothache and dental pain",
    "dateModified": "2026-05-12",
    "retrieved": "2026-09-03",
+   "about": [
+    "Painkillers and pain-relieving gels for your mouth can help ease toothache until you see a dentist."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -2769,7 +2972,8 @@
        "kind": "p",
        "text": "Do not go to your GP as they will not be able to give you dental treatment."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -2783,7 +2987,8 @@
        "kind": "li",
        "text": "swelling in your mouth or neck is making it difficult for you to breathe, swallow or speak"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2792,6 +2997,9 @@
    "title": "Joint hypermobility syndrome",
    "dateModified": "2026-07-09",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of joint hypermobility syndrome include joint pain and stiffness, and regularly getting sprains or dislocating your joints."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -2801,7 +3009,8 @@
        "kind": "li",
        "text": "you think you or your child have joint hypermobility syndrome"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2810,6 +3019,9 @@
    "title": "Tendonitis (including Achilles tendon)",
    "dateModified": "2026-04-15",
    "retrieved": "2026-09-03",
+   "about": [
+    "The main symptoms of tendonitis are joint pain that gets worse when you move, difficulty moving a joint and swelling."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -2827,7 +3039,8 @@
        "kind": "p",
        "text": "Get NHS help for back or joint problems"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -2845,7 +3058,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2854,6 +3068,9 @@
    "title": "Giant cell arteritis (temporal arteritis)",
    "dateModified": "2026-07-13",
    "retrieved": "2026-09-03",
+   "about": [
+    "The main symptoms of temporal arteritis are headaches, pain at the side of your head (temples), jaw pain and sight problems."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -2871,7 +3088,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2880,6 +3098,9 @@
    "title": "Heart failure",
    "dateModified": "2026-07-31",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of heart failure include breathlessness, feeling very tired or weak, coughing at night and swelling in your lower body."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -2889,7 +3110,8 @@
        "kind": "li",
        "text": "you have symptoms of heart failure"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -2911,7 +3133,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -2929,7 +3152,8 @@
        "kind": "li",
        "text": "someone has passed out and is not responding normally"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2938,6 +3162,9 @@
    "title": "Iron deficiency anaemia",
    "dateModified": "2026-05-06",
    "retrieved": "2026-09-03",
+   "about": [
+    "Common symptoms of iron deficiency anaemia include tiredness, shortness of breath, noticeable heartbeats and pale skin."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -2947,7 +3174,8 @@
        "kind": "li",
        "text": "you think you might have iron deficiency anaemia"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2956,6 +3184,9 @@
    "title": "Supraventricular tachycardia (SVT)",
    "dateModified": "2024-07-01",
    "retrieved": "2026-09-03",
+   "about": [
+    "The main symptom of supraventricular tachycardia is your heart suddenly beating faster than usual for a few minutes or sometimes several hours."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -2969,7 +3200,8 @@
        "kind": "p",
        "text": "It's important to get it checked out. You might need a test, such as an electrocardiogram (ECG) , to find out what's going on."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -2987,7 +3219,8 @@
        "kind": "p",
        "text": "You need to go to hospital for treatment immediately."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -2996,6 +3229,9 @@
    "title": "Pleurisy",
    "dateModified": "2026-05-13",
    "retrieved": "2026-09-03",
+   "about": [
+    "The main symptom of pleurisy is a sharp chest pain when you breathe in. The pain may be worse when you cough, sneeze or move around."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -3021,7 +3257,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -3051,7 +3288,8 @@
        "kind": "p",
        "text": "These symptoms could be a sign of a more serious problem, such as a heart attack or a blood clot in the lungs ( pulmonary embolism )."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -3060,6 +3298,9 @@
    "title": "Low blood sugar (hypoglycaemia)",
    "dateModified": "2026-08-12",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of low blood sugar include sweating, a fast heartbeat and feeling anxious, irritable or confused. If it's severe you can become unconscious."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -3081,7 +3322,8 @@
        "kind": "li",
        "text": "they've been drinking alcohol"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "gp",
@@ -3103,7 +3345,8 @@
        "kind": "p",
        "text": "If you have diabetes, you can also speak to your diabetes care team for advice."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -3112,6 +3355,9 @@
    "title": "Mastitis",
    "dateModified": "2026-07-14",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of mastitis include a swollen, hot or painful breast, a wedge-shaped lump or hard area on your breast, and nipple discharge."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -3129,7 +3375,8 @@
        "kind": "li",
        "text": "you get mastitis and you are not breastfeeding"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -3138,6 +3385,9 @@
    "title": "Epididymitis (testicular pain)",
    "dateModified": "2026-05-08",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of epididymitis include pain and swelling in your testicles or the bag of skin containing your testicles (scrotum)."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -3171,7 +3421,8 @@
        "kind": "p",
        "text": "Lumps in the testicles can be a sign of testicular cancer. This is easier to treat if it's found early."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -3185,7 +3436,8 @@
        "kind": "p",
        "text": "This could be caused by your testicle becoming twisted and needs to be treated in hospital as soon as possible."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -3194,6 +3446,9 @@
    "title": "Shortness of breath",
    "dateModified": "2026-07-02",
    "retrieved": "2026-09-03",
+   "about": [
+    "Common causes of shortness of breath include heart conditions, asthma, chest infections, being overweight and smoking."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -3219,7 +3474,8 @@
        "kind": "li",
        "text": "you feel suddenly confused"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -3241,7 +3497,8 @@
        "kind": "li",
        "text": "is limp, floppy or not responding like they normally do - their head may fall to the side, backwards or forwards, or they may find it difficult to lift their head or focus on your face"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -3271,7 +3528,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "gp",
@@ -3293,7 +3551,8 @@
        "kind": "p",
        "text": "It's important to get medical advice to make sure it's nothing serious. You're not wasting anyone's time by getting it checked out."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -3302,6 +3561,9 @@
    "title": "Dizziness",
    "dateModified": "2025-06-19",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of dizziness include problems with balance, feeling lightheaded and feeling like everything is spinning."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -3335,7 +3597,8 @@
        "kind": "li",
        "text": "you have other symptoms like changes to your pulse, fainting or collapsing, headaches, feeling or being sick"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -3344,6 +3607,9 @@
    "title": "Fainting",
    "dateModified": "2026-08-19",
    "retrieved": "2026-09-03",
+   "about": [
+    "Causes of fainting can include standing up too quickly, not eating or drinking enough and having a heart problem."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -3357,7 +3623,8 @@
        "kind": "p",
        "text": "It’s probably nothing serious, but it’s important to get checked by a GP to find out what might have caused it."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -3395,7 +3662,8 @@
        "kind": "li",
        "text": "fainted while lying down"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -3404,6 +3672,9 @@
    "title": "Head injury and concussion",
    "dateModified": "2026-06-01",
    "retrieved": "2026-09-03",
+   "about": [
+    "A head injury may need urgent medical help, depending on how it happened and what the symptoms are."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -3469,7 +3740,8 @@
        "kind": "li",
        "text": "their behaviour has changed, like being more irritable or distracted, or losing interest in things around them"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -3503,7 +3775,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online . Call 111 if you need advice for a child under 5 years old."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "gp",
@@ -3517,7 +3790,8 @@
        "kind": "li",
        "text": "you're not sure if it's safe to drive or return to work, school or sports after a head injury"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -3526,6 +3800,9 @@
    "title": "Back pain",
    "dateModified": "2026-04-14",
    "retrieved": "2026-09-03",
+   "about": [
+    "Back pain can have many causes, including an injury like a strain. Sometimes conditions like sciatica or a slipped disc can cause back pain."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -3575,7 +3852,8 @@
        "kind": "p",
        "text": "Get NHS help for back or joint problems"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -3597,7 +3875,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -3631,7 +3910,8 @@
        "kind": "li",
        "text": "it started after a serious accident, such as a car accident"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -3640,6 +3920,9 @@
    "title": "Neck pain",
    "dateModified": "2026-04-14",
    "retrieved": "2026-09-03",
+   "about": [
+    "You can ease neck pain by taking paracetamol or ibuprofen, using a firm pillow, putting heat or cold packs on your neck and doing neck exercises."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -3669,7 +3952,8 @@
        "kind": "p",
        "text": "Get NHS help for back or joint problems"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -3678,6 +3962,9 @@
    "title": "Testicle lumps and swellings",
    "dateModified": "2025-04-16",
    "retrieved": "2026-09-03",
+   "about": [
+    "Find out about lumps and swellings in the testicles, including what can cause them and when to get medical advice."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -3711,7 +3998,8 @@
        "kind": "p",
        "text": "Lumps in the testicles can be a sign of testicular cancer . This is easier to treat if it's found early."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -3733,7 +4021,8 @@
        "kind": "p",
        "text": "These can be signs of a serious problem that needs to be treated in hospital as soon as possible."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -3742,6 +4031,9 @@
    "title": "Testicle pain",
    "dateModified": "2025-07-04",
    "retrieved": "2026-09-03",
+   "about": [
+    "Causes of testicle pain include twisting of the testicle (testicular torsion), infection and injury. Pain by itself is not usually a sign of cancer."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -3763,7 +4055,8 @@
        "kind": "p",
        "text": "These can be signs of a serious problem that needs to be treated in hospital as soon as possible."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -3797,7 +4090,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -3806,6 +4100,9 @@
    "title": "Blood in urine",
    "dateModified": "2025-04-16",
    "retrieved": "2026-09-03",
+   "about": [
+    "Find out about blood in urine (pee). It's not usually anything serious, but sometimes it can be, so you must get it checked out by a GP."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -3839,7 +4136,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -3848,6 +4146,9 @@
    "title": "Coughing up blood (blood in phlegm)",
    "dateModified": "2025-07-21",
    "retrieved": "2026-09-03",
+   "about": [
+    "You might cough up blood if you have a persistent or severe cough, or a chest infection, pneumonia, tuberculosis or bronchitis."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -3861,7 +4162,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -3879,7 +4181,8 @@
        "kind": "p",
        "text": "These symptoms could be a sign of a more serious problem like a blood clot in the lungs ( pulmonary embolism )."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -3888,6 +4191,9 @@
    "title": "High temperature (fever) in adults",
    "dateModified": "2026-07-09",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of a high temperature can include your chest or back feeling hot, sweating and shivering (chills)."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -3901,7 +4207,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -3910,6 +4217,9 @@
    "title": "Meningitis",
    "dateModified": "2026-08-27",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of meningitis can include a stiff neck, eye pain when looking at bright lights and spots or a rash that do not fade when pressed."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -3967,7 +4277,8 @@
        "kind": "li",
        "text": "has symptoms you're worried might be meningitis"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -3976,6 +4287,9 @@
    "title": "Appendicitis",
    "dateModified": "2025-04-02",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of appendicitis usually start with pain in the middle of your abdomen (tummy) that moves to the lower right side and gets worse."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -3997,7 +4311,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -4015,7 +4330,8 @@
        "kind": "li",
        "text": "confusion, blotchy or paler than usual skin (on brown or black skin this may be easier to see on the palms of the hands or soles of the feet) or difficulty breathing – these could be signs of sepsis"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -4024,6 +4340,9 @@
    "title": "DVT (deep vein thrombosis)",
    "dateModified": "2026-08-11",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of deep vein thrombosis include pain and swelling, usually in the leg. Skin may look red, blue or darker than usual."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -4041,7 +4360,8 @@
        "kind": "p",
        "text": "If you're pregnant you can also call an early pregnancy unit (if you're less than 20 weeks) or your maternity unit, if you have the phone number."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -4067,7 +4387,8 @@
        "kind": "p",
        "text": "A pulmonary embolism can be life-threatening and needs treatment straight away."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -4076,6 +4397,9 @@
    "title": "Pulmonary embolism",
    "dateModified": "2025-06-02",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of a pulmonary embolism include chest pain, difficulty breathing and coughing up blood."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -4093,7 +4417,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -4119,7 +4444,8 @@
        "kind": "p",
        "text": "These could be signs of a pulmonary embolism or another serious condition."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -4128,6 +4454,9 @@
    "title": "Urinary tract infections (UTIs)",
    "dateModified": "2026-08-06",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of a urinary tract infection include a sudden need to pee and pain or a burning sensation when peeing."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -4141,7 +4470,8 @@
        "kind": "p",
        "text": "A pharmacist can give the same medicines as a GP to treat a UTI. They can also give advice or direct you to other medical help."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -4207,7 +4537,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -4217,7 +4548,8 @@
        "kind": "li",
        "text": "you or your child are confused, drowsy, or have difficulty speaking"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -4226,6 +4558,9 @@
    "title": "Kidney infection",
    "dateModified": "2026-07-09",
    "retrieved": "2026-09-03",
+   "about": [
+    "The main symptoms of a kidney infection are pain in your back or side, feeling sick, and a high temperature."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -4247,7 +4582,8 @@
        "kind": "li",
        "text": "kidney infection symptoms that have not gone away after treatment with antibiotics"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -4293,7 +4629,8 @@
        "kind": "p",
        "text": "Call 111 or get help from 111 online if you cannot speak to or see a GP, or your symptoms are getting worse."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -4303,7 +4640,8 @@
        "kind": "li",
        "text": "you are confused, drowsy or have difficulty speaking"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -4312,6 +4650,9 @@
    "title": "Pneumonia",
    "dateModified": "2026-09-01",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of pneumonia include a cough (which may have yellow or green mucus), a high temperature, shortness of breath and chest pain."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -4337,7 +4678,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -4346,6 +4688,9 @@
    "title": "Asthma (including asthma attacks)",
    "dateModified": "2025-04-10",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of asthma can include wheezing, coughing, shortness of breath and a tight chest. An asthma attack is when you have severe symptoms."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -4363,7 +4708,8 @@
        "kind": "li",
        "text": "you or your child have asthma and your symptoms are not improving or are stopping you doing your usual activities or waking you up at night"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -4389,7 +4735,8 @@
        "kind": "p",
        "text": "If symptoms are no better after 10 minutes and an ambulance has not arrived, use an asthma inhaler again if you have one, taking up to the same maximum dose."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -4403,7 +4750,8 @@
        "kind": "p",
        "text": "Even if you feel better, it's important to see a GP within 2 days to discuss your treatment and get advice to help prevent another asthma attack."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -4412,6 +4760,9 @@
    "title": "Alcohol poisoning",
    "dateModified": "2026-08-07",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of alcohol poisoning include confusion, slurring words, being unable to coordinate movement, being sick and loss of consciousness."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -4433,7 +4784,8 @@
        "kind": "li",
        "text": "someone has stopped breathing"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -4442,6 +4794,9 @@
    "title": "Dehydration",
    "dateModified": "2026-05-27",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of dehydration include feeling thirsty and dark yellow pee. Signs to look out for in babies include few or no tears, and fewer wet nappies."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -4479,7 +4834,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online . Call 111 if you need advice for a child under 5 years old."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -4513,7 +4869,8 @@
        "kind": "p",
        "text": "These could be signs of shock, which is a serious complication of dehydration."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -4522,6 +4879,9 @@
    "title": "Heat exhaustion and heatstroke",
    "dateModified": "2026-08-07",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of heat exhaustion include headache and feeling sick. Symptoms of heatstroke include a very high temperature and hot skin without sweating."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -4535,7 +4895,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -4577,7 +4938,8 @@
        "kind": "li",
        "text": "loss of consciousness"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -4586,6 +4948,9 @@
    "title": "Hypothermia",
    "dateModified": "2025-05-22",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of hypothermia include shivering, cold skin, slurred speech and tiredness or confusion."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -4599,7 +4964,8 @@
        "kind": "p",
        "text": "Find your nearest A&E"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -4608,6 +4974,9 @@
    "title": "Miscarriage",
    "dateModified": "2026-08-19",
    "retrieved": "2026-09-03",
+   "about": [
+    "The main symptom of a miscarriage is vaginal bleeding during pregnancy that happens before 24 weeks."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -4637,7 +5006,8 @@
        "kind": "p",
        "text": "If you do not have a maternity unit yet or cannot contact an early pregnancy unit, call NHS 111."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -4667,7 +5037,8 @@
        "kind": "p",
        "text": "These can be signs you need immediate treatment."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -4676,6 +5047,9 @@
    "title": "Vaginal bleeding in pregnancy",
    "dateModified": "2026-05-13",
    "retrieved": "2026-09-03",
+   "about": [
+    "Signs of vaginal bleeding in pregnancy may vary from spots on toilet paper to heavy bleeding. The blood may be pink, red or brown."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -4705,7 +5079,8 @@
        "kind": "p",
        "text": "If you do not have a maternity unit yet or cannot contact an early pregnancy unit, call NHS 111."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -4735,7 +5110,8 @@
        "kind": "p",
        "text": "These can be signs you need immediate treatment."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -4744,6 +5120,9 @@
    "title": "Whiplash",
    "dateModified": "2026-08-21",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of whiplash include neck pain and stiffness, headaches, and pain and muscle spasms in the shoulders and arms."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -4769,7 +5148,8 @@
        "kind": "p",
        "text": "Get NHS help for back or joint problems"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -4807,7 +5187,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -4816,6 +5197,9 @@
    "title": "Broken ankle",
    "dateModified": "2025-11-13",
    "retrieved": "2026-09-03",
+   "about": [
+    "If you think you’ve broken your ankle, raise it if you can, hold an ice pack on it and apply pressure to stop any bleeding until you get medical help."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -4849,7 +5233,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -4879,7 +5264,8 @@
        "kind": "li",
        "text": "your toes look blue or white, or feel numb"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -4917,7 +5303,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -4926,6 +5313,9 @@
    "title": "Broken arm or wrist",
    "dateModified": "2026-05-08",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of a broken arm or wrist include pain, swelling, bruising and loss of movement. It may also change colour or feel numb."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -4955,7 +5345,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -4981,7 +5372,8 @@
        "kind": "li",
        "text": "your arm or wrist has changed shape or is at an odd angle"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -5015,7 +5407,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -5024,6 +5417,9 @@
    "title": "Broken collarbone",
    "dateModified": "2025-05-14",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of a broken collarbone affect your shoulder and can include severe pain, swelling, bruising and a change in the shape of your shoulder."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -5049,7 +5445,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -5091,7 +5488,8 @@
        "kind": "p",
        "text": "Call 999 if you're unable to get to A&E."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -5100,6 +5498,9 @@
    "title": "Broken finger or thumb",
    "dateModified": "2026-04-13",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of a broken finger or thumb include pain, swelling, bruising and loss of movement. It may also change colour or feel numb."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -5121,7 +5522,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -5147,7 +5549,8 @@
        "kind": "li",
        "text": "is cut and there's bone poking out of it"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "gp",
@@ -5165,7 +5568,8 @@
        "kind": "li",
        "text": "it hurts to use the finger or thumb once the cast or strapping is off"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -5174,6 +5578,9 @@
    "title": "Broken leg",
    "dateModified": "2026-07-14",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of a broken leg include pain, swelling, bruising and loss of movement. Your leg may also look shorter, twisted or bent."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -5203,7 +5610,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -5241,7 +5649,8 @@
        "kind": "li",
        "text": "you have blue, grey, pale or blotchy skin, lips or tongue – on brown or black skin, this may be easier to see on the palms of the hands or soles of the feet"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -5279,7 +5688,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -5288,6 +5698,9 @@
    "title": "Broken nose",
    "dateModified": "2026-04-13",
    "retrieved": "2026-09-03",
+   "about": [
+    "Signs and symptoms of a broken nose include pain, swelling and bruising, your nose making a sound when you touch it or your nose changing shape."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -5325,7 +5738,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from NHS 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -5367,7 +5781,8 @@
        "kind": "li",
        "text": "other symptoms of a severe head injury – such as vomiting, collapsing (passing out) or difficulty speaking"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -5376,6 +5791,9 @@
    "title": "Broken or bruised ribs",
    "dateModified": "2026-04-13",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of broken or bruised ribs are very similar. They include pain, swelling or bruising in your chest. The pain may be worse when breathing in."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -5405,7 +5823,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -5439,7 +5858,8 @@
        "kind": "p",
        "text": "It could mean a broken rib has damaged something else, like your lung, liver or spleen."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -5448,6 +5868,9 @@
    "title": "Broken toe",
    "dateModified": "2026-04-13",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of a broken toe include pain, bruising and swelling."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -5469,7 +5892,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -5495,7 +5919,8 @@
        "kind": "li",
        "text": "your child has hurt or broken their toe"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "gp",
@@ -5517,7 +5942,8 @@
        "kind": "p",
        "text": "They may send you for an X-ray to see if you need any further treatment."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -5526,6 +5952,9 @@
    "title": "Pericarditis",
    "dateModified": "2026-08-24",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of pericarditis include a sharp pain in your chest that gets worse when you breathe in deeply, swallow, cough or lie down."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -5547,7 +5976,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -5577,7 +6007,8 @@
        "kind": "p",
        "text": "You could be having a heart attack . Call 999 immediately as you need immediate treatment in hospital."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -5586,6 +6017,9 @@
    "title": "Costochondritis",
    "dateModified": "2026-08-17",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of costochondritis may include a sharp pain in your chest, which may be worse when moving your upper body, lying down or breathing."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -5603,7 +6037,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -5621,7 +6056,8 @@
        "kind": "li",
        "text": "sudden chest or back pain that can feel like something being torn inside, and causes shortness of breath, and problems with walking, vision and speaking"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -5630,6 +6066,9 @@
    "title": "Tonsillitis (including quinsy)",
    "dateModified": "2026-07-09",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of tonsillitis include red, swollen tonsils, a sore throat and difficulty swallowing."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -5643,7 +6082,8 @@
        "kind": "li",
        "text": "you keep getting throat infections"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -5661,7 +6101,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -5695,7 +6136,8 @@
        "kind": "p",
        "text": "These are signs of quinsy."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -5704,6 +6146,9 @@
    "title": "Glandular fever",
    "dateModified": "2026-07-02",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of glandular fever may include a high temperature, swollen glands, a sore throat, a rash, headache, and tiredness."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -5729,7 +6174,8 @@
        "kind": "li",
        "text": "a sore throat that's not getting better"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -5743,7 +6189,8 @@
        "kind": "li",
        "text": "difficulty and pain when swallowing"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -5761,7 +6208,8 @@
        "kind": "li",
        "text": "have severe stomach pain"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -5770,6 +6218,9 @@
    "title": "Sinusitis (sinus infection)",
    "dateModified": "2026-07-09",
    "retrieved": "2026-09-03",
+   "about": [
+    "Common symptoms of sinusitis include pain in your face, a blocked or runny nose and a headache."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -5787,7 +6238,8 @@
        "kind": "p",
        "text": "A pharmacist can give the same treatments as a GP for sinusitis. They can also give advice or direct you to other medical help if needed."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "gp",
@@ -5813,7 +6265,8 @@
        "kind": "li",
        "text": "your child is aged 11 years or younger"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -5839,7 +6292,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online . Call 111 if you need advice for a child under 5 years old."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -5848,6 +6302,9 @@
    "title": "Feeling sick (nausea)",
    "dateModified": "2025-04-16",
    "retrieved": "2026-09-03",
+   "about": [
+    "Feeling sick (nausea) is common and usually goes away on its own. Find out about some things you can try that might help and what might be causing it."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -5873,7 +6330,8 @@
        "kind": "p",
        "text": "Call 111 for advice if you cannot see a GP."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -5899,7 +6357,8 @@
        "kind": "p",
        "text": "This could be a heart attack."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -5908,6 +6367,9 @@
    "title": "Heart attack",
    "dateModified": "2026-08-07",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of a heart attack may include chest pain that feels like crushing in your chest, feeling short of breath, feeling or being sick and sweating."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -5933,7 +6395,8 @@
        "kind": "li",
        "text": "someone has passed out and is not responding normally"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -5951,7 +6414,8 @@
        "kind": "li",
        "text": "you have chest pain and you feel like your heart is racing, going too slowly, skipping a beat or have a fluttering feeling in your chest"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -5960,6 +6424,9 @@
    "title": "Poisoning (including overdose)",
    "dateModified": "2026-08-07",
    "retrieved": "2026-09-03",
+   "about": [
+    "Common substances that can cause poisoning include medicines, household cleaning products, alcohol, drugs, and carbon monoxide."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -5985,7 +6452,8 @@
        "kind": "li",
        "text": "you or someone else has a seizure (fit)"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -5995,7 +6463,8 @@
        "kind": "li",
        "text": "you're not sure if something you or someone else have swallowed, touched or breathed in is harmful"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6004,6 +6473,9 @@
    "title": "Vomiting blood",
    "dateModified": "2026-07-21",
    "retrieved": "2026-09-03",
+   "about": [
+    "Common causes of vomiting blood include gastritis and stomach ulcers. Less often it can be caused by medicines or cancer."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -6045,7 +6517,8 @@
        "kind": "p",
        "text": "If you have stopped vomiting blood and had no other symptoms, ask for an urgent GP appointment, call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6054,6 +6527,9 @@
    "title": "Bleeding from the bottom (rectal bleeding)",
    "dateModified": "2025-07-21",
    "retrieved": "2026-09-03",
+   "about": [
+    "Signs of bleeding from the bottom include blood on your toilet paper, blood on or in your poo, pink water in the toilet, or very dark poo."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -6087,7 +6563,8 @@
        "kind": "li",
        "text": "you've lost weight for no reason"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -6105,7 +6582,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -6119,7 +6597,8 @@
        "kind": "li",
        "text": "there's a lot of blood – for example, the toilet water turns red or you see large blood clots"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6128,6 +6607,9 @@
    "title": "Lumbar puncture",
    "dateModified": "2025-04-15",
    "retrieved": "2026-09-03",
+   "about": [
+    "Find out about lumbar punctures, including why they’re done, what happens during the procedure, side effects, how to help your recovery, and possible complications."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -6161,7 +6643,8 @@
        "kind": "p",
        "text": "You can also call 111 or get help from NHS 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -6179,7 +6662,8 @@
        "kind": "li",
        "text": "you're feeling confused"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6188,6 +6672,9 @@
    "title": "Dental abscess",
    "dateModified": "2026-04-13",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of a dental abscess include intense toothache, painful gums, a bad taste in your mouth and a swollen face or jaw."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -6201,7 +6688,8 @@
        "kind": "p",
        "text": "Do not go to a GP surgery as they will not be able to give you dental treatment."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -6223,7 +6711,8 @@
        "kind": "li",
        "text": "are finding it hard to open your mouth"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6232,6 +6721,9 @@
    "title": "Broken or knocked-out tooth",
    "dateModified": "2025-01-31",
    "retrieved": "2026-09-03",
+   "about": [
+    "A dentist can mend a chipped, broken or cracked tooth. Treatment can include a filling, crown, root canal or gluing a fragment of tooth back on."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -6249,7 +6741,8 @@
        "kind": "p",
        "text": "Do not go to a GP. They will not be able to give you dental treatment."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6258,6 +6751,9 @@
    "title": "Dislocated kneecap",
    "dateModified": "2026-04-13",
    "retrieved": "2026-09-03",
+   "about": [
+    "Get medical help if you think you've dislocated your kneecap. While waiting, keep the knee still and do not try to put the kneecap back in place."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -6287,7 +6783,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -6321,7 +6818,8 @@
        "kind": "p",
        "text": "Call 999 if you cannot get to A&E because you are unable to move your injured leg due to the pain."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6330,6 +6828,9 @@
    "title": "Neck pain and stiff neck",
    "dateModified": "2026-04-14",
    "retrieved": "2026-09-03",
+   "about": [
+    "You can ease neck pain by taking paracetamol or ibuprofen, using a firm pillow, putting heat or cold packs on your neck and doing neck exercises."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -6359,7 +6860,8 @@
        "kind": "p",
        "text": "Get NHS help for back or joint problems"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6368,6 +6870,9 @@
    "title": "Limp in children",
    "dateModified": "2025-11-27",
    "retrieved": "2026-09-03",
+   "about": [
+    "Common causes of limping in children are a sprain or strain, or a broken bone. But a limp without an obvious cause should always be checked by a GP."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -6377,7 +6882,8 @@
        "kind": "li",
        "text": "your child has a limp and you're not sure what's causing it"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -6439,7 +6945,8 @@
        "kind": "li",
        "text": "is annoying but does not stop you doing daily activities"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6448,6 +6955,9 @@
    "title": "Atopic eczema",
    "dateModified": "2026-09-02",
    "retrieved": "2026-09-03",
+   "about": [
+    "The main symptom of atopic eczema is itchy, dry skin. Your skin may also be red, white, purple or grey, or lighter or darker than the skin around it."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -6461,7 +6971,8 @@
        "kind": "li",
        "text": "treatments are not helping your atopic eczema"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -6495,7 +7006,8 @@
        "kind": "p",
        "text": "Check symptoms on 111 online (for anyone aged 5 and over) or call 111 (for children under 5)."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6504,6 +7016,9 @@
    "title": "Inflammatory bowel disease",
    "dateModified": "2026-08-24",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of inflammatory bowel disease (IBD) include diarrhoea that lasts longer than 4 weeks, tummy pain, and blood or mucus in your poo."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -6525,7 +7040,8 @@
        "kind": "li",
        "text": "you've been losing a lot of weight without trying"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -6547,7 +7063,8 @@
        "kind": "li",
        "text": "you're vomiting blood or poo, or your sick looks like coffee grounds or soil"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6556,6 +7073,9 @@
    "title": "Stomach ulcer",
    "dateModified": "2026-08-17",
    "retrieved": "2026-09-03",
+   "about": [
+    "The main symptom of a stomach ulcer is tummy pain. The pain is usually in the upper part of your tummy and may feel like burning."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -6569,7 +7089,8 @@
        "kind": "li",
        "text": "your tummy pain keeps coming back"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -6615,7 +7136,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -6641,7 +7163,8 @@
        "kind": "li",
        "text": "you have chest pain that started suddenly"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6650,6 +7173,9 @@
    "title": "Heavy periods",
    "dateModified": "2026-07-02",
    "retrieved": "2026-09-03",
+   "about": [
+    "The main symptoms of heavy periods are losing a lot of blood during your period or your periods lasting longer than 7 days."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -6675,7 +7201,8 @@
        "kind": "li",
        "text": "you have heavy periods and other symptoms, such as pain when peeing, pooing or having sex"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6684,6 +7211,9 @@
    "title": "Pelvic inflammatory disease",
    "dateModified": "2025-12-17",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of pelvic inflammatory disease include pain in your tummy, pain when having sex and heavy or painful periods."
+   ],
    "cards": [
     {
      "tier": "urgent",
@@ -6709,7 +7239,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -6747,7 +7278,8 @@
        "kind": "li",
        "text": "are feeling or being sick, or are feeling very unwell"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6756,6 +7288,9 @@
    "title": "Sexually transmitted infections (STIs)",
    "dateModified": "2026-08-19",
    "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of a sexually transmitted infection (STI) can include unusual discharge, pain when peeing, and lumps around the genitals or bottom (anus)."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -6785,7 +7320,8 @@
        "kind": "p",
        "text": "Do not have sex, including oral sex, without using a condom or dental dam until you've had a check-up or been tested."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6794,6 +7330,9 @@
    "title": "Anal pain",
    "dateModified": "2026-04-13",
    "retrieved": "2026-09-03",
+   "about": [
+    "Lots of things can cause anal pain. Common causes include constipation, piles, and anal fissures."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -6815,7 +7354,8 @@
        "kind": "p",
        "text": "Do not feel embarrassed to see a GP. Anal pain is a common problem that they're used to treating."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -6833,7 +7373,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "emergency",
@@ -6847,7 +7388,8 @@
        "kind": "li",
        "text": "there is a lot of blood coming from your bottom – for example, the toilet water turns red or you see large blood clots"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6856,6 +7398,9 @@
    "title": "Anal fissure",
    "dateModified": "2026-08-24",
    "retrieved": "2026-09-03",
+   "about": [
+    "The main symptoms of an anal fissure are pain when you poo and blood in the toilet or on the toilet paper after you poo."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -6865,7 +7410,8 @@
        "kind": "li",
        "text": "you or your child have symptoms of an anal fissure and they're getting worse, or there's no improvement after 7 days of treating it yourself"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6874,6 +7420,9 @@
    "title": "Hernia",
    "dateModified": "2026-05-22",
    "retrieved": "2026-09-03",
+   "about": [
+    "A hernia can happen in your tummy, chest, groin or back. Some improve on their own but others may need surgery."
+   ],
    "cards": [
     {
      "tier": "gp",
@@ -6887,7 +7436,8 @@
        "kind": "p",
        "text": "They may refer you for tests or treatment if needed."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -6929,7 +7479,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6938,6 +7489,9 @@
    "title": "Falls — causes, prevention and what to do (NHS)",
    "dateModified": "2025-03-19",
    "retrieved": "2026-09-03",
+   "about": [
+    "If you fall, get up carefully if you can while holding something stable for support. If you cannot get up, use an alarm, phone or shout for help."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -6959,7 +7513,8 @@
        "kind": "p",
        "text": "If someone else has fallen, keep them comfortable and warm. Carefully help them get up if they can, but do not try to lift them yourself."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -6973,7 +7528,8 @@
        "kind": "p",
        "text": "You can call 111 or get help from 111 online ."
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "gp",
@@ -6987,7 +7543,8 @@
        "kind": "li",
        "text": "you've had a fall"
       }
-     ]
+     ],
+     "visible": true
     }
    ]
   },
@@ -6996,6 +7553,9 @@
    "title": "Eye injuries — urgent eye problems and when to get help (NHS)",
    "dateModified": "2026-04-13",
    "retrieved": "2026-09-03",
+   "about": [
+    "Things you can do to treat an eye injury include washing your eye with clean water if there's something in it and taking painkillers to ease any pain."
+   ],
    "cards": [
     {
      "tier": "emergency",
@@ -7037,7 +7597,8 @@
        "kind": "li",
        "text": "blood or pus is coming from your eye"
       }
-     ]
+     ],
+     "visible": true
     },
     {
      "tier": "urgent",
@@ -7063,7 +7624,2257 @@
        "kind": "p",
        "text": "You could also visit an optician for advice."
       }
-     ]
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "nhs-transient-ischaemic-attack-tia": {
+   "url": "https://www.nhs.uk/conditions/transient-ischaemic-attack-tia/",
+   "title": "Transient ischaemic attack (TIA) / mini stroke",
+   "dateModified": "2026-06-25",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Common symptoms of a transient ischaemic attack include your face dropping on 1 side, not being able to lift your arms, and speech problems."
+   ],
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "When to get medical advice",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "Call 999 immediately and ask for an ambulance if you or someone else has symptoms of a TIA or stroke."
+      },
+      {
+       "kind": "p",
+       "text": "Even if the symptoms disappear while you're waiting for an ambulance to arrive, an assessment in hospital should still be done."
+      },
+      {
+       "kind": "p",
+       "text": "You should be referred to see a specialist within 24 hours of the start of your symptoms."
+      },
+      {
+       "kind": "p",
+       "text": "A TIA is a warning that you're at risk of having a full stroke in the near future. An assessment can help doctors determine the best way to reduce the chances of this happening."
+      },
+      {
+       "kind": "p",
+       "text": "If you think you've had a TIA previously, but the symptoms have since passed and you did not get medical advice at the time, make an urgent appointment with a GP. They can refer you for a hospital assessment, if appropriate."
+      },
+      {
+       "kind": "p",
+       "text": "Page last reviewed: 28 June 2023 Next review due: 28 June 2026"
+      },
+      {
+       "kind": "li",
+       "text": "Previous : Transient ischaemic attack (TIA)"
+      },
+      {
+       "kind": "li",
+       "text": "Next : Causes"
+      }
+     ],
+     "source_url": "https://www.nhs.uk/conditions/transient-ischaemic-attack-tia/symptoms/",
+     "visible": true
+    }
+   ]
+  },
+  "nhs-copd": {
+   "url": "https://www.nhs.uk/conditions/chronic-obstructive-pulmonary-disease-copd/",
+   "title": "Chronic obstructive pulmonary disease (COPD)",
+   "dateModified": "2025-07-04",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Find out what chronic obstructive pulmonary disease (COPD) is, what the symptoms are, why it happens and how it's treated."
+   ],
+   "cards": [
+    {
+     "tier": "advice",
+     "headline": "When to get medical advice",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "See a GP if you have persistent symptoms of COPD, particularly if you're over 35 and smoke or used to smoke."
+      },
+      {
+       "kind": "p",
+       "text": "There are several conditions that cause similar symptoms, such as asthma , bronchiectasis , anaemia and heart failure . A simple breathing test can help determine if you have COPD."
+      },
+      {
+       "kind": "p",
+       "text": "Find out more about tests for COPD ."
+      },
+      {
+       "kind": "p",
+       "text": "While there's currently no cure for COPD, the sooner treatment begins, the less chance there is of severe lung damage."
+      },
+      {
+       "kind": "p",
+       "text": "Find out more about how COPD is treated ."
+      },
+      {
+       "kind": "p",
+       "text": "Page last reviewed: 11 April 2023 Next review due: 11 April 2026"
+      },
+      {
+       "kind": "li",
+       "text": "Previous : Chronic obstructive pulmonary disease (COPD)"
+      },
+      {
+       "kind": "li",
+       "text": "Next : Causes"
+      }
+     ],
+     "source_url": "https://www.nhs.uk/conditions/chronic-obstructive-pulmonary-disease-copd/symptoms/",
+     "visible": true
+    }
+   ]
+  },
+  "nhs-panic-attacks": {
+   "url": "https://www.nhs.uk/mental-health/conditions/panic-disorder/",
+   "title": "Panic disorder and panic attacks",
+   "dateModified": "2026-02-19",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of panic disorder include feeling anxious and having sudden panic attacks."
+   ],
+   "cards": [
+    {
+     "tier": "advice",
+     "headline": "When to get help",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "See a GP if you've been experiencing symptoms of panic disorder."
+      },
+      {
+       "kind": "p",
+       "text": "They'll ask you to describe your symptoms, how often you get them, and how long you have had them."
+      },
+      {
+       "kind": "p",
+       "text": "They may also carry out a physical examination to rule out other conditions that could be causing your symptoms."
+      },
+      {
+       "kind": "p",
+       "text": "It can sometimes be difficult to talk about your feelings, emotions and personal life, but try not to feel anxious or embarrassed."
+      },
+      {
+       "kind": "p",
+       "text": "You may be diagnosed with panic disorder if you have regular and unexpected panic attacks followed by at least a month of continuous worry or concern about having further attacks."
+      }
+     ],
+     "source_url": "https://www.nhs.uk/mental-health/conditions/panic-disorder/",
+     "visible": true
+    }
+   ]
+  },
+  "nhs-ectopic-pregnancy": {
+   "url": "https://www.nhs.uk/conditions/ectopic-pregnancy/",
+   "title": "Ectopic pregnancy",
+   "dateModified": "2026-08-19",
+   "retrieved": "2026-09-03",
+   "about": [
+    "An ectopic pregnancy is when a fertilised egg implants itself outside of the womb, usually in one of the fallopian tubes."
+   ],
+   "cards": [
+    {
+     "tier": "advice",
+     "headline": "When to get medical advice",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "Contact your GP or call NHS 111 if you have a combination of any of the above symptoms and you might be pregnant – even if you haven't had a positive pregnancy test ."
+      },
+      {
+       "kind": "p",
+       "text": "An ectopic pregnancy can be serious, so it's important to get advice right away."
+      },
+      {
+       "kind": "p",
+       "text": "Your GP will ask about your symptoms and you'll usually need to do a pregnancy test to determine if you could have an ectopic pregnancy."
+      },
+      {
+       "kind": "p",
+       "text": "You may be referred to a specialist early pregnancy clinic for further assessment, where an ultrasound scan and blood tests may be carried out to confirm the diagnosis."
+      },
+      {
+       "kind": "p",
+       "text": "Read more about ectopic pregnancy tests ."
+      }
+     ],
+     "source_url": "https://www.nhs.uk/conditions/ectopic-pregnancy/",
+     "visible": true
+    },
+    {
+     "tier": "emergency",
+     "headline": "When to get emergency help",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "Call 999 for an ambulance or go to your nearest accident and emergency (A&E) department immediately if you experience a combination of:"
+      },
+      {
+       "kind": "li",
+       "text": "a sharp, sudden and intense pain in your tummy"
+      },
+      {
+       "kind": "li",
+       "text": "feeling very dizzy or fainting"
+      },
+      {
+       "kind": "li",
+       "text": "feeling sick"
+      },
+      {
+       "kind": "li",
+       "text": "looking very pale"
+      },
+      {
+       "kind": "p",
+       "text": "These symptoms could mean that your fallopian tube has split open (ruptured). This is very serious and surgery to repair the fallopian tube needs to be carried out as soon as possible."
+      },
+      {
+       "kind": "p",
+       "text": "A rupture can be life threatening, but fortunately they're uncommon and treatable, if dealt with quickly. Deaths from ruptures are extremely rare in the UK."
+      }
+     ],
+     "source_url": "https://www.nhs.uk/conditions/ectopic-pregnancy/",
+     "visible": true
+    }
+   ]
+  },
+  "nhs-sickle-cell-disease": {
+   "url": "https://www.nhs.uk/conditions/sickle-cell-disease/",
+   "title": "Sickle cell disease",
+   "dateModified": "2026-05-21",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Find out about sickle cell disease, a serious inherited blood disorder where the red blood cells develop abnormally. Find out about the symptoms, causes and treatments."
+   ],
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "When to get medical advice",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "Make sure you know when to get medical advice and where to go, as sickle cell disease can cause a number of serious problems that can appear suddenly."
+      },
+      {
+       "kind": "p",
+       "text": "Problems to look out for include:"
+      },
+      {
+       "kind": "li",
+       "text": "a high temperature over 38C (or any increased temperature in a child)"
+      },
+      {
+       "kind": "li",
+       "text": "severe pain that's not responding to treatment at home"
+      },
+      {
+       "kind": "li",
+       "text": "severe vomiting or diarrhoea"
+      },
+      {
+       "kind": "li",
+       "text": "a severe headache , dizziness or a stiff neck"
+      },
+      {
+       "kind": "li",
+       "text": "breathing difficulties"
+      },
+      {
+       "kind": "li",
+       "text": "very pale skin or lips"
+      },
+      {
+       "kind": "li",
+       "text": "sudden swelling in the tummy"
+      },
+      {
+       "kind": "li",
+       "text": "a painful erection ( priapism ) lasting more than 2 hours"
+      },
+      {
+       "kind": "li",
+       "text": "confusion , drowsiness or slurred speech"
+      },
+      {
+       "kind": "li",
+       "text": "fits (seizures)"
+      },
+      {
+       "kind": "li",
+       "text": "weakness on 1 or both sides of the body"
+      },
+      {
+       "kind": "li",
+       "text": "changes in vision or sudden vision loss"
+      },
+      {
+       "kind": "p",
+       "text": "Contact your GP or healthcare team straight away if you develop any of these symptoms."
+      },
+      {
+       "kind": "p",
+       "text": "If this is not possible, go to your nearest A&E . If you're not well enough to travel to hospital yourself, dial 999 for an ambulance."
+      },
+      {
+       "kind": "p",
+       "text": "Make sure that the medical staff looking after you know you have sickle cell disease."
+      }
+     ],
+     "source_url": "https://www.nhs.uk/conditions/sickle-cell-disease/living-with/",
+     "visible": true
+    }
+   ]
+  },
+  "med-aciclovir": {
+   "url": "https://www.nhs.uk/medicines/aciclovir/",
+   "title": "Aciclovir (antiviral)",
+   "dateModified": "2026-05-08",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Aciclovir is used to treat and prevent infections such as cold sores, shingles, chickenpox and genital herpes."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you or your child has taken more than the prescribed dose of aciclovir tablets and you (or they) have symptoms such as nausea and vomiting"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how to reduce any side effects. Keep using your medicine unless you're advised to stop."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're using (or have recently used) aciclovir and you think you might be having serious side effects"
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-amitriptyline": {
+   "url": "https://www.nhs.uk/medicines/amitriptyline-for-pain/",
+   "title": "Amitriptyline (for nerve pain / migraine)",
+   "dateModified": "2024-04-17",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Amitriptyline is a medicine used for treating pain. You can take it:",
+    "Amitriptyline is only available on prescription. It comes as tablets and as a liquid that you swallow."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Contact 111 for advice now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you take more than your prescribed dose of amitriptyline"
+      },
+      {
+       "kind": "p",
+       "text": "Go to 111 online or call 111 . Call 111 if you're asking about a child under 5 years old."
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have weakness on one side of your body, trouble speaking or thinking, loss of balance or blurred eyesight – these can be signs of a stroke"
+      },
+      {
+       "kind": "li",
+       "text": "you have a seizure or fit"
+      },
+      {
+       "kind": "li",
+       "text": "you get severe chest pain – this can be a sign of a heart attack"
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have thoughts about harming yourself or ending your life"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-amlodipine": {
+   "url": "https://www.nhs.uk/medicines/amlodipine/",
+   "title": "Amlodipine (calcium-channel blocker, blood pressure)",
+   "dateModified": "2026-07-21",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Amlodipine is used to manage high blood pressure. It's also used to help prevent angina attacks in people with angina."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more than your prescribed dose of amlodipine"
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how to reduce any side effects. Keep taking your medicine unless you're advised to stop."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking amlodipine and think you might be having serious side effects"
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-apixaban": {
+   "url": "https://www.nhs.uk/medicines/apixaban/",
+   "title": "Apixaban (blood thinner / anticoagulant)",
+   "dateModified": "2026-08-19",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Apixaban helps stop blood clots forming. It's used to treat or prevent conditions such as deep vein thrombosis and pulmonary embolism."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you or your child have taken more than your prescribed dose of apixaban"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online . Call 111 for a child under 5 years old."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how you can reduce the side effects. Keep taking your medicine unless you're advised to stop."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You're taking apixaban and:"
+      },
+      {
+       "kind": "li",
+       "text": "you have symptoms of bleeding"
+      },
+      {
+       "kind": "li",
+       "text": "you've had a head injury"
+      },
+      {
+       "kind": "li",
+       "text": "you think you might be having any other serious side effects"
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-aspirin": {
+   "url": "https://www.nhs.uk/medicines/low-dose-aspirin/",
+   "title": "Aspirin (low dose)",
+   "dateModified": "2026-08-11",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Aspirin can be taken at a low dose to prevent blood clots. Taken at a higher dose, it can be used as a painkiller."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Speak to a pharmacist as soon as possible if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more aspirin than it says on the packet, leaflet or prescription"
+      },
+      {
+       "kind": "p",
+       "text": "If you're unable to speak to a pharmacist, or you took too much of your medicine on purpose, call NHS 111 for advice."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how to reduce any side effects. If you're regularly taking low-dose aspirin, keep taking your medicine unless you're advised to stop."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking aspirin and you think you might be having serious side effects"
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-atorvastatin": {
+   "url": "https://www.nhs.uk/medicines/atorvastatin/",
+   "title": "Atorvastatin (statin, cholesterol)",
+   "dateModified": "2026-08-05",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Atorvastatin is used to lower high cholesterol and prevent cardiovascular disease. It can also reduce the risk of angina, heart attack and stroke."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Speak to a pharmacist as soon as possible if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more than your prescribed dose of atorvastatin"
+      },
+      {
+       "kind": "p",
+       "text": "If you're unable to speak to a pharmacist, or you took too much of your medicine on purpose, call NHS 111 for advice."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how you can reduce the side effects. Keep taking your medicine unless you’re advised to stop."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking atorvastatin and think you might be having serious side effects"
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-bisoprolol": {
+   "url": "https://www.nhs.uk/medicines/bisoprolol/",
+   "title": "Bisoprolol (beta blocker, heart rate / blood pressure)",
+   "dateModified": "2026-08-26",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Bisoprolol is mainly used to treat high blood pressure (hypertension) and chest pain caused by a heart problem (angina)."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more than your prescribed dose of bisoprolol"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how you can reduce the side effects. Keep taking your medicine unless you're advised to stop."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking bisoprolol and think you might be having serious side effects"
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-ciprofloxacin": {
+   "url": "https://www.nhs.uk/medicines/ciprofloxacin/",
+   "title": "Ciprofloxacin (antibiotic)",
+   "dateModified": "2024-04-18",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Ciprofloxacin is an antibiotic. It belongs to a group of antibiotics called fluoroquinolones. It works by killing the bacteria that causes an infection.",
+    "Ciprofloxacin is a broad-spectrum antibiotic which means that it's used to treat a number of bacterial infections, such as:"
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Contact 111 for advice now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your child takes more than their prescribed dose of ciprofloxacin"
+      },
+      {
+       "kind": "li",
+       "text": "you take 2 extra doses of ciprofloxacin or more"
+      },
+      {
+       "kind": "li",
+       "text": "you've taken more than your prescribed dose of ciprofloxacin and are getting side effects"
+      },
+      {
+       "kind": "p",
+       "text": "Go to 111.nhs.uk or call 111 . Call 111 if you're asking about a child under the age of 5 years."
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have thoughts about harming yourself or ending your life"
+      },
+      {
+       "kind": "p",
+       "text": "Find your nearest A&E"
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have sudden, severe pain in your stomach, chest or back"
+      },
+      {
+       "kind": "li",
+       "text": "you have seizures or fits"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-co-amoxiclav": {
+   "url": "https://www.nhs.uk/medicines/co-amoxiclav/",
+   "title": "Co-amoxiclav (antibiotic)",
+   "dateModified": "2026-05-08",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Co-amoxiclav is a penicillin antibiotic that can be used to treat skin or ear infections."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more than your prescribed dose of co-amoxiclav and you’re feeling sick or being sick"
+      },
+      {
+       "kind": "li",
+       "text": "you've taken 2 or more extra doses of co-amoxiclav"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how you can reduce the side effects. Keep taking your medicine unless you're advised to stop."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking co-amoxiclav and think you might be having serious side effects"
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-co-codamol": {
+   "url": "https://www.nhs.uk/medicines/co-codamol-for-adults/",
+   "title": "Co-codamol (painkiller)",
+   "dateModified": "2025-04-11",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Co-codamol is a mixture of 2 different painkillers – paracetamol and codeine .",
+    "It's used to treat aches and pains including period pain , muscle pain and toothache ."
+   ],
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you take more than the recommended dose of co-codamol and are finding it difficult to breathe"
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "urgent",
+     "headline": "Contact 111 for advice now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you take more than the recommended dose of co-codamol, even if you feel well"
+      },
+      {
+       "kind": "p",
+       "text": "Go to 111 online or call 111"
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have breathing difficulty or short, shallow breathing"
+      },
+      {
+       "kind": "li",
+       "text": "you have a fit or seizure"
+      },
+      {
+       "kind": "p",
+       "text": "Find your nearest A&E"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-codeine": {
+   "url": "https://www.nhs.uk/medicines/codeine/",
+   "title": "Codeine (painkiller)",
+   "dateModified": "2026-08-05",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Codeine is used to treat pain, for example after an operation or injury."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more than your prescribed dose of codeine"
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how you can reduce the side effects."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking codeine and think you might be having serious side effects"
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-colchicine": {
+   "url": "https://www.nhs.uk/medicines/colchicine/",
+   "title": "Colchicine (for gout)",
+   "dateModified": "2026-08-21",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Colchicine treats and prevents gout attacks by reducing joint inflammation. It can also be used to treat familial Mediterranean fever."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more than your prescribed dose of colchicine"
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking colchicine and think you might be having anaphylaxis"
+      },
+      {
+       "kind": "p",
+       "text": "If you think you're having any other serious side effect, call NHS 111."
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-cyclizine": {
+   "url": "https://www.nhs.uk/medicines/cyclizine/",
+   "title": "Cyclizine (anti-sickness)",
+   "dateModified": "2026-08-25",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Cyclizine is used for travel sickness, to help with conditions that can cause nausea and vomiting, and to ease side effects of certain treatments."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more cyclizine than it says on the packet, leaflet or prescription"
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how you can reduce the side effects."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking cyclizine and think you might be having anaphylaxis"
+      },
+      {
+       "kind": "p",
+       "text": "If you think you're having any other serious side effect, call NHS 111."
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-dexamethasone": {
+   "url": "https://www.nhs.uk/medicines/dexamethasone-tablets-and-liquid/",
+   "title": "Dexamethasone (steroid)",
+   "dateModified": "2025-11-03",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Dexamethasone is a type of medicine called a steroid (or corticosteroid). Steroids are copies of a hormone your body makes naturally. They're not the same as anabolic steroids .",
+    "Dexamethasone tablets and liquid are used to treat a wide range of health conditions. These include:"
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Contact 111 for advice now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you take more than your prescribed dose of dexamethasone and you have new symptoms, such as stomach pain or difficulty sleeping"
+      },
+      {
+       "kind": "p",
+       "text": "Go to 111 online or call 111. Call 111 if you're asking about a child under the age of 5 years."
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have black or dark brown vomit or you're vomiting blood"
+      },
+      {
+       "kind": "p",
+       "text": "Find your nearest A&E"
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have thoughts about harming yourself or ending your life"
+      },
+      {
+       "kind": "p",
+       "text": "Find your nearest A&E"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-diazepam": {
+   "url": "https://www.nhs.uk/medicines/diazepam/",
+   "title": "Diazepam (muscle spasm / anxiety)",
+   "dateModified": "2026-06-08",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Diazepam can be used to treat mental health conditions like severe anxiety and seizures."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you or a child take or use more than the prescribed dose of diazepam"
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how you can reduce the side effects. Keep taking your medicine unless you're advised to stop."
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-digoxin": {
+   "url": "https://www.nhs.uk/medicines/digoxin/",
+   "title": "Digoxin (for atrial fibrillation / heart failure)",
+   "dateModified": "2026-07-03",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Digoxin is a type of medicine called a cardiac glycoside.",
+    "It's used to control some heart problems, such as irregular heartbeats ( arrhythmias ) including atrial fibrillation ."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Contact 111 for advice now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you take more than your prescribed dose of digoxin"
+      },
+      {
+       "kind": "p",
+       "text": "Go to 111.nhs.uk or call 111 . Call 111 if you're asking about a child under 5 years old."
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have a fast heart rate (palpitations), shortness of breath, feel dizzy or feel light-headed"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-dihydrocodeine": {
+   "url": "https://www.nhs.uk/medicines/dihydrocodeine/",
+   "title": "Dihydrocodeine (painkiller)",
+   "dateModified": "2024-03-20",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Dihydrocodeine is an opioid painkiller. It's used to treat moderate to severe pain, such as after an operation or a serious injury.",
+    "It's also used for long-term pain if weaker painkillers, such as paracetamol , ibuprofen and aspirin , have not worked."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Contact 111 for advice now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you take too much dihydrocodeine"
+      },
+      {
+       "kind": "p",
+       "text": "Go to 111.nhs.uk or call 111 . If you need advice for a child under the age of 5 years, call 111."
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E now if you or your child:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "find it difficult to breath"
+      },
+      {
+       "kind": "li",
+       "text": "become unconscious"
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have had a seizure or fit"
+      },
+      {
+       "kind": "li",
+       "text": "you have difficulty breathing or short shallow breathing"
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "emergency",
+     "headline": "Go to A&E or contact 111 now if your baby:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "seems unusually sleepy"
+      },
+      {
+       "kind": "li",
+       "text": "is having difficulty breathing"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-doxycycline": {
+   "url": "https://www.nhs.uk/medicines/doxycycline/",
+   "title": "Doxycycline (antibiotic)",
+   "dateModified": "2026-05-08",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Doxycycline can be used to treat bacterial infections, such as urinary tract infections or chest infections. It's also used to prevent malaria."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more than your prescribed dose of doxycycline"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how you can reduce the side effects. Keep taking your medicine unless you're advised to stop."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking doxycycline and think you might be having serious side effects"
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-edoxaban": {
+   "url": "https://www.nhs.uk/medicines/edoxaban/",
+   "title": "Edoxaban (blood thinner / anticoagulant)",
+   "dateModified": "2026-08-19",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Edoxaban helps stop blood clots forming. It's used for conditions such as deep vein thrombosis and pulmonary embolism."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more than your prescribed dose of edoxaban"
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how you can reduce the side effects. Keep taking your medicine unless you're advised to stop."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking edoxaban and think you're having anaphylaxis or bleeding inside your brain"
+      },
+      {
+       "kind": "p",
+       "text": "If you have a head injury while taking edoxaban or you think you're having any other serious side effect, call NHS 111."
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-erythromycin": {
+   "url": "https://www.nhs.uk/medicines/erythromycin/",
+   "title": "Erythromycin (antibiotic)",
+   "dateModified": "2026-08-05",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Erythromycin can be used to treat infections, such as chest infections and skin conditions like acne and rosacea."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Speak to a pharmacist as soon as possible if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more than your prescribed dose of erythromycin"
+      },
+      {
+       "kind": "p",
+       "text": "If you're unable to speak to a pharmacist, or you took too much of you medicine on purpose, call NHS 111 for advice."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how you can reduce the side effects. Keep taking your medicine unless you're advised to stop."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking erythromycin and think you're having anaphylaxis"
+      },
+      {
+       "kind": "p",
+       "text": "If you think you’re having any other serious side effect, call NHS 111."
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-furosemide": {
+   "url": "https://www.nhs.uk/medicines/furosemide/",
+   "title": "Furosemide (water tablet / diuretic)",
+   "dateModified": "2026-07-08",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Furosemide is used to treat swelling caused by a build-up of fluid inside the body (oedema)."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more than your prescribed dose of furosemide"
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how you can reduce the side effects. Keep taking your medicine unless you're advised to stop."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking furosemide and think you might be having serious side effects"
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-gtn": {
+   "url": "https://www.nhs.uk/medicines/glyceryl-trinitrate-gtn/",
+   "title": "GTN spray (glyceryl trinitrate, for angina)",
+   "dateModified": "2024-03-26",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Glyceryl trinitrate, or GTN, is a type of medicine called a nitrate. It's used to prevent and treat chest pain caused by angina .",
+    "It can help stop chest pain if an angina attack has already started. It can also help to prevent the chest pain starting."
+   ],
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "you've taken 2 doses of GTN and:"
+      },
+      {
+       "kind": "li",
+       "text": "you're still in pain 5 minutes after your 2nd dose"
+      },
+      {
+       "kind": "li",
+       "text": "your pain is getting worse"
+      },
+      {
+       "kind": "li",
+       "text": "you feel unwell"
+      },
+      {
+       "kind": "p",
+       "text": "These are signs that you may be having a heart attack."
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you take or use more than your prescribed dose of GTN and your mouth (lips, tongue or gums), face or skin start to look blue or grey – if you have brown or black skin, this may be easier to see on your lips, tongue and gums or around your eyes"
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "urgent",
+     "headline": "Contact 111 now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you take or use more than your prescribed dose of GTN spray, tablets, patches or ointment and you feel unwell"
+      },
+      {
+       "kind": "p",
+       "text": "Get help from 111 online or call 111"
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're having breathing difficulties that are new or worse than usual"
+      },
+      {
+       "kind": "li",
+       "text": "your lips, tongue, face or skin suddenly turn blue or grey, or if you have darker skin and your gums and round the eyes turn blue or grey – these are signs of a problem with the oxygen levels in your blood"
+      },
+      {
+       "kind": "li",
+       "text": "your heart starts beating much faster or slower than usual"
+      },
+      {
+       "kind": "li",
+       "text": "you get chest pain that is different or worse than your usual angina pain"
+      },
+      {
+       "kind": "li",
+       "text": "you have fainted (lose consciousness)"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-ibuprofen": {
+   "url": "https://www.nhs.uk/medicines/ibuprofen-for-adults/",
+   "title": "Ibuprofen (anti-inflammatory painkiller)",
+   "dateModified": "2026-07-09",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Ibuprofen can help with lots of types of pain, including headaches, joint pain, pain after an injury and period pain."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more ibuprofen tablets, capsules, liquid or granules than it says on the packet or leaflet"
+      },
+      {
+       "kind": "li",
+       "text": "you've accidentally swallowed ibuprofen gel or spray and feel unwell"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how you can reduce the side effects."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking ibuprofen and think you might be having serious side effects"
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-levetiracetam": {
+   "url": "https://www.nhs.uk/medicines/levetiracetam/",
+   "title": "Levetiracetam / Keppra (for seizures)",
+   "dateModified": "2026-08-06",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Levetiracetam can be used to prevent seizures caused by epilepsy."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Speak to a pharmacist as soon as possible if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more than your prescribed dose of levetiracetam"
+      },
+      {
+       "kind": "p",
+       "text": "If you're unable to speak to a pharmacist, or you took too much of your medicine on purpose, call NHS 111 for advice."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how to reduce any side effects. Keep taking your medicine unless you’re advised to stop."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking levetiracetam and think you're having anaphylaxis or Stevens-Johnson syndrome"
+      },
+      {
+       "kind": "p",
+       "text": "If you think you're having any other serious side effect, call NHS 111."
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-macrogol": {
+   "url": "https://www.nhs.uk/medicines/macrogol/",
+   "title": "Macrogol / Movicol (laxative)",
+   "dateModified": "2026-09-03",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Macrogol can help if you have constipation or a build-up of dry, hard poo (faecal impaction). It's also used to empty your bowel before a colonoscopy."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more macrogol than it says on the packet or leaflet and you have symptoms such as being sick (vomiting), diarrhoea, bloating, or you feel dizzy and weak"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how to reduce any side effects."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking macrogol and think you might be having serious side effects"
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-methotrexate": {
+   "url": "https://www.nhs.uk/medicines/methotrexate/",
+   "title": "Methotrexate (for autoimmune conditions)",
+   "dateModified": "2026-08-20",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Methotrexate is a type of medicine called an immunosuppressant. It slows down your body's immune system and helps reduce swelling (inflammation).",
+    "It's used to treat inflammatory conditions, including:"
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Contact 111 for advice now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more than your prescribed dose of methotrexate"
+      },
+      {
+       "kind": "li",
+       "text": "you've taken your methotrexate daily instead of weekly"
+      },
+      {
+       "kind": "p",
+       "text": "Get help from 111 online or call 111. Call 111 if you need advice for a child under 5 years old"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-metoclopramide": {
+   "url": "https://www.nhs.uk/medicines/metoclopramide/",
+   "title": "Metoclopramide (anti-sickness)",
+   "dateModified": "2026-08-14",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Metoclopramide is often used to prevent vomiting and nausea that can happen after chemotherapy, radiotherapy and with migraines."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more than your prescribed dose of metoclopramide"
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how you can reduce the side effects. Keep taking your medicine unless you're advised to stop."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking metoclopramide and think you might be having anaphylaxis or neuroleptic malignant syndrome"
+      },
+      {
+       "kind": "p",
+       "text": "If you think you’re having any other serious side effects, call NHS 111."
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-morphine": {
+   "url": "https://www.nhs.uk/medicines/morphine/",
+   "title": "Morphine (strong painkiller)",
+   "dateModified": "2026-06-25",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Morphine is used to treat severe pain, such as pain from an operation, an injury, or cancer."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more than your prescribed dose of morphine"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how you can reduce the side effects."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking morphine and think you might be having serious side effects"
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-naproxen": {
+   "url": "https://www.nhs.uk/medicines/naproxen/",
+   "title": "Naproxen (anti-inflammatory painkiller)",
+   "dateModified": "2026-07-16",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Naproxen can help with lots of types of pain and swelling (inflammation), including period pain, joint and muscle pain, gout and arthritis."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Speak to a pharmacist as soon as possible if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more naproxen than it says on the packet, leaflet or prescription"
+      },
+      {
+       "kind": "p",
+       "text": "If you're unable to speak to a pharmacist, or you took too much of your medicine on purpose, call NHS 111 for advice."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how you can reduce side effects."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking naproxen and think you might be having serious side effects"
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-nitrofurantoin": {
+   "url": "https://www.nhs.uk/medicines/nitrofurantoin/",
+   "title": "Nitrofurantoin (antibiotic for urine infections)",
+   "dateModified": "2026-03-24",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Nitrofurantoin is suitable for most adults and children, but always check before taking it."
+   ],
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you get chest pain or have difficulty breathing – these can be signs of lung problems"
+      },
+      {
+       "kind": "li",
+       "text": "you get pins and needles, tingling sensations, numbness or weakness – these can be signs of nerve problems"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-omeprazole": {
+   "url": "https://www.nhs.uk/medicines/omeprazole/",
+   "title": "Omeprazole (for stomach acid / heartburn)",
+   "dateModified": "2026-05-08",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Omeprazole is used to treat conditions such as stomach ulcers, heartburn and reflux."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you or your child have had more omeprazole than it says on the packet, leaflet or prescription"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online . Call 111 for a child under 5 years old."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how you can reduce the side effects. Keep taking your medicine unless you're advised not to."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking omeprazole and think you might be having serious side effects"
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-paracetamol": {
+   "url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+   "title": "Paracetamol (painkiller)",
+   "dateModified": "2026-08-27",
+   "retrieved": "2026-09-03",
+   "about": [
+    "NHS information about paracetamol for adults, including what it's used for, who can use it, how to use it and side effects."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more paracetamol than it says on the packet or leaflet"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking paracetamol and think you might be having serious side effects"
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-prednisolone": {
+   "url": "https://www.nhs.uk/medicines/prednisolone/",
+   "title": "Prednisolone (steroid)",
+   "dateModified": "2026-08-20",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Prednisolone is a medicine used to treat a wide range of health problems including allergies, blood disorders, skin diseases, inflammation, infections and certain cancers and to prevent organ rejection after a transplant.",
+    "It helps by reducing swelling (inflammation) and can also calm down your immune system. This helps autoimmune conditions, like rheumatoid arthritis , where your immune system mistakenly attacks its own tissues."
+   ],
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have black or dark brown vomit or you're vomiting blood"
+      },
+      {
+       "kind": "p",
+       "text": "Find your nearest A&E"
+      }
+     ],
+     "visible": false
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have thoughts about harming yourself or ending your life"
+      },
+      {
+       "kind": "p",
+       "text": "Find your nearest A&E"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-prochlorperazine": {
+   "url": "https://www.nhs.uk/medicines/prochlorperazine/",
+   "title": "Prochlorperazine / Stemetil (anti-sickness, dizziness)",
+   "dateModified": "2024-04-15",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Prochlorperazine is an anti-sickness medicine. It can help stop you feeling or being sick (nausea or vomiting).",
+    "You can take prochlorperazine to treat:"
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Contact 111 for advice now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you take more than the recommended dose of prochlorperazine"
+      },
+      {
+       "kind": "p",
+       "text": "Go to 111 online or call 111. If you need advice for a child under the age of 5 years old, call 111."
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-progesterone": {
+   "url": "https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/utrogestan-micronised-progesterone/",
+   "title": "Progesterone / Utrogestan (HRT, menopause)",
+   "dateModified": "2025-03-19",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Utrogestan (micronised progesterone) is a medicine that contains a hormone called progesterone. Progesterone is a type of progestogen that's identical to the hormone your body produces.",
+    "Your ovaries produce progesterone and oestrogen until the menopause , when your periods stop. Menopause usually affects women between the ages of 45 and 55, but it can happen earlier. It affects anyone who has periods."
+   ],
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 or go to A&E now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have pain in your chest and breathlessness – this could be a sign of a blood clot in your lungs (pulmonary embolism) or heart problems"
+      },
+      {
+       "kind": "li",
+       "text": "you have difficulty speaking or moving your arm or leg, or your face has dropped on one side – this could be a sign of a stroke"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-rivaroxaban": {
+   "url": "https://www.nhs.uk/medicines/rivaroxaban/",
+   "title": "Rivaroxaban (blood thinner / anticoagulant)",
+   "dateModified": "2026-08-19",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Rivaroxaban helps stop blood clots forming. It's used to prevent conditions such as deep vein thrombosis and pulmonary embolism."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more than your prescribed dose of rivaroxaban"
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "gp",
+     "headline": "Speak to a pharmacist or doctor if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you have any side effects that bother you or do not go away"
+      },
+      {
+       "kind": "p",
+       "text": "They may be able to give you advice about how you can reduce the side effects. Keep taking your medicine unless you're advised to stop."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you're taking rivaroxaban and think you're having anaphylaxis or bleeding inside your brain"
+      },
+      {
+       "kind": "p",
+       "text": "If you have a head injury while taking rivaroxaban, or you think you're having any other serious side effects, call NHS 111."
+      }
+     ],
+     "visible": true
+    }
+   ]
+  },
+  "med-salbutamol": {
+   "url": "https://www.nhs.uk/medicines/salbutamol-inhaler/",
+   "title": "Salbutamol inhaler (reliever)",
+   "dateModified": "2025-02-20",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Salbutamol inhalers are not suitable for some people. For example, check with your doctor if you have heart problems or diabetes."
+   ],
+   "cards": [
+    {
+     "tier": "gp",
+     "headline": "Contact your doctor, pharmacist or nurse if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You need to use your salbutamol inhaler:"
+      },
+      {
+       "kind": "li",
+       "text": "more than 4 times in 24 hours"
+      },
+      {
+       "kind": "li",
+       "text": "3 or more days each week"
+      },
+      {
+       "kind": "li",
+       "text": "in the middle of the night at least once a week"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-sumatriptan": {
+   "url": "https://www.nhs.uk/medicines/sumatriptan/",
+   "title": "Sumatriptan (for migraine)",
+   "dateModified": "2024-04-24",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Sumatriptan is a medicine to treat migraines and cluster headaches . It does not prevent these conditions.",
+    "It's not fully understood what causes migraines and cluster headaches, but it may be due to the temporary widening of blood vessels in your brain. Sumatriptan works by narrowing these blood vessels again."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Contact 111 for advice now if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you take more than your prescribed dose of sumatriptan"
+      },
+      {
+       "kind": "p",
+       "text": "Go to 111.nhs.uk or call 111"
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-tramadol": {
+   "url": "https://www.nhs.uk/medicines/tramadol/",
+   "title": "Tramadol (strong painkiller)",
+   "dateModified": "2026-03-23",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Tramadol is not suitable for everyone. For example, check with your doctor if you have breathing difficulty or kidney problems."
+   ],
+   "cards": [
+    {
+     "tier": "emergency",
+     "headline": "Call 999 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "your baby has breathing problems"
+      },
+      {
+       "kind": "p",
+       "text": "Ask for advice about whether to keep breastfeeding and taking your medicine."
+      }
+     ],
+     "visible": false
+    }
+   ]
+  },
+  "med-warfarin": {
+   "url": "https://www.nhs.uk/medicines/warfarin/",
+   "title": "Warfarin (blood thinner / anticoagulant)",
+   "dateModified": "2026-08-19",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Warfarin usually comes as tablets you take once a day. Follow the instructions that come with your medicine."
+   ],
+   "cards": [
+    {
+     "tier": "urgent",
+     "headline": "Get help from NHS 111 if:",
+     "lines": [
+      {
+       "kind": "li",
+       "text": "you've taken more than your prescribed dose of warfarin"
+      },
+      {
+       "kind": "p",
+       "text": "You can call 111 or get help from 111 online ."
+      }
+     ],
+     "visible": true
+    },
+    {
+     "tier": "urgent",
+     "headline": "Call NHS 111 if:",
+     "lines": [
+      {
+       "kind": "p",
+       "text": "You're taking warfarin and:"
+      },
+      {
+       "kind": "li",
+       "text": "you have symptoms of bleeding"
+      },
+      {
+       "kind": "li",
+       "text": "you've had a head injury"
+      },
+      {
+       "kind": "li",
+       "text": "you think you might be having any other serious side effects"
+      }
+     ],
+     "visible": true
     }
    ]
   }
