@@ -127,78 +127,10 @@
   "footer": "When checked, the trust's own ophthalmology page (source 3) showed older opening hours — the triage line hours above follow the Local Optical Committee listing (sources 1 and 2). Moorfields links are general condition guides from another NHS trust, all verified live 12 July 2026. This advice does not replace the advice of the team looking after you. Author: Medrics, with the trust's Emergency Medicine clinical lead. Facts re-verified weekly against the cited sources; full review due July 2027."
  },
  {
-  "title": "Mental health crisis — getting help now",
-  "slug": "advice-mental-health-crisis",
-  "type": "advice",
-  "intro": "If you are struggling to cope or feel in crisis, help is available 24 hours a day, every day. You do not have to face this on your own.",
-  "sections": [
-   {
-    "heading": "If your life is in danger right now",
-    "points": [
-     "If you have seriously harmed yourself, or you do not feel able to keep yourself safe, call 999 or go to your nearest Emergency Department."
-    ]
-   },
-   {
-    "heading": "Gloucestershire mental health crisis line (24 hours)",
-    "points": [
-     "Call 111 and choose option 2 — this reaches the Gloucestershire crisis team, day or night.",
-     "You can also call the crisis team directly on 0800 169 0398 (24 hours, for ages 11 and over). At busy times you may be asked to leave your name and number — a member of staff will call you back within the hour."
-    ]
-   },
-   {
-    "heading": "Other people you can talk to",
-    "points": [
-     "Samaritans — call 116 123. Free, 24 hours a day, every day.",
-     "CALM — call 0800 58 58 58 (5pm to midnight, every day).",
-     "Prefer to text? Text CandO on 07537 410 022 (2pm to 9pm, every day), or Let’s Talk Well on 07520 634063."
-    ]
-   },
-   {
-    "heading": "Keeping yourself safer for now",
-    "points": [
-     "Try to be around someone you trust, or ask someone to stay with you.",
-     "Move away from, or ask someone to remove, anything you might use to harm yourself.",
-     "Try to avoid alcohol and drugs — they can make things feel worse."
-    ]
-   },
-   {
-    "heading": "More support",
-    "links": [
-     {
-      "label": "Gloucestershire crisis support (NHS)",
-      "url": "https://www.ghc.nhs.uk/crisis/"
-     },
-     {
-      "label": "Samaritans",
-      "url": "https://www.samaritans.org/"
-     }
-    ]
-   }
-  ],
-  "references": [
-   {
-    "label": "Gloucestershire County Council — help in a mental health crisis (direct crisis team number)",
-    "url": "https://www.gloucestershire.gov.uk/health-and-social-care/adult-social-care/types-of-care-and-support-available/support-for-adults-with-mental-health-conditions/help-in-a-crisis/",
-    "checked": "12 July 2026"
-   },
-   {
-    "label": "Gloucestershire Health and Care NHS — crisis support (111 option 2, CALM, text lines)",
-    "url": "https://www.ghc.nhs.uk/crisis/",
-    "checked": "12 July 2026"
-   },
-   {
-    "label": "Samaritans",
-    "url": "https://www.samaritans.org/",
-    "checked": "12 July 2026"
-   }
-  ],
-  "footer": "The direct crisis team number is confirmed on the county council page (source 1); the NHS crisis page (source 2) now promotes 111 option 2 as the main route. This advice does not replace the advice of the team looking after you. Author: Medrics, with the trust's Emergency Medicine clinical lead. Facts re-verified weekly against the cited sources; full review due July 2027."
- },
- {
   "title": "Patient Advice and Liaison Service (PALS)",
   "slug": "advice-pals",
   "type": "advice",
-  "intro": "PALS is a free, confidential service that can help with questions, concerns, or compliments about your care. They are independent of the team that treated you.",
+  "intro": "PALS is a free, confidential service that can help with questions, concerns, or compliments about your care. They are independent of the team that treated you. Your trust publishes its own PALS leaflet — the official version is the first link below.",
   "sections": [
    {
     "heading": "How PALS can help",
@@ -221,6 +153,10 @@
     "heading": "More",
     "links": [
      {
+      "label": "Your trust's own PALS leaflet — how to raise an informal concern or share a compliment (official)",
+      "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/how-to-raise-an-informal-concern-or-share-a-compliment-with-our-patient-advice-and-liaison-service-pals/"
+     },
+     {
       "label": "Contact PALS (Gloucestershire Hospitals)",
       "url": "https://www.gloshospitals.nhs.uk/contact-us/feedback-and-complaints-pals/"
      }
@@ -228,6 +164,11 @@
    }
   ],
   "references": [
+   {
+    "label": "Gloucestershire Hospitals — PALS leaflet (trust-published)",
+    "url": "https://www.gloshospitals.nhs.uk/your-visit/patient-information-leaflets/how-to-raise-an-informal-concern-or-share-a-compliment-with-our-patient-advice-and-liaison-service-pals/",
+    "checked": "19 August 2026"
+   },
    {
     "label": "Gloucestershire Hospitals — patient advice and support (PALS contact details)",
     "url": "https://www.gloshospitals.nhs.uk/contact-us/patient-advice-and-support/",
@@ -240,50 +181,6 @@
    }
   ],
   "footer": "PALS is provided by Gloucestershire Hospitals NHS Foundation Trust. Author: Medrics. Facts re-verified weekly against the cited sources; full review due July 2027."
- },
- {
-  "title": "Drug and alcohol support in Gloucestershire",
-  "slug": "advice-drug-alcohol",
-  "type": "advice",
-  "intro": "If you want help with drugs or alcohol, free and confidential support is available in Gloucestershire. You can contact the service yourself — you do not need a referral from your GP.",
-  "sections": [
-   {
-    "heading": "Via Gloucestershire — the local drug and alcohol service",
-    "text": "Via runs the free drug and alcohol recovery service for adults (18 and over) living in Gloucestershire, with hubs in Gloucester, Cheltenham, Stroud and Cinderford.",
-    "points": [
-     "Call them on 01452 223 014.",
-     "Email gloucestershire@viaorg.uk.",
-     "Or refer yourself online using the link below."
-    ]
-   },
-   {
-    "heading": "If you feel unwell now",
-    "points": [
-     "If you feel very unwell, or you are worried about withdrawal or an overdose, call 111 — or 999 in an emergency."
-    ]
-   },
-   {
-    "heading": "Get help",
-    "links": [
-     {
-      "label": "Refer yourself to Via Gloucestershire",
-      "url": "https://www.viaorg.uk/get-help/gloucestershire-referral/"
-     },
-     {
-      "label": "About Via Gloucestershire",
-      "url": "https://www.viaorg.uk/services/gloucestershire/"
-     }
-    ]
-   }
-  ],
-  "references": [
-   {
-    "label": "Via — drug and alcohol support in Gloucestershire (contact details and hubs)",
-    "url": "https://www.viaorg.uk/services/gloucestershire/",
-    "checked": "12 July 2026"
-   }
-  ],
-  "footer": "This advice does not replace the advice of the team looking after you. Author: Medrics, with the trust's Emergency Medicine clinical lead. Facts re-verified weekly against the cited sources; full review due July 2027."
  },
  {
   "title": "Which emergency service should I use? (Gloucestershire)",

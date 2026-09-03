@@ -294,6 +294,13 @@
   "source": "NHS.uk"
  },
  {
+  "title": "Methotrexate (for autoimmune conditions)",
+  "url": "https://www.nhs.uk/medicines/methotrexate/",
+  "slug": "med-methotrexate",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
   "title": "Metoclopramide (anti-sickness)",
   "url": "https://www.nhs.uk/medicines/metoclopramide/",
   "slug": "med-metoclopramide",
@@ -367,6 +374,13 @@
   "title": "Prochlorperazine / Stemetil (anti-sickness, dizziness)",
   "url": "https://www.nhs.uk/medicines/prochlorperazine/",
   "slug": "med-prochlorperazine",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Progesterone / Utrogestan (HRT, menopause)",
+  "url": "https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/utrogestan-micronised-progesterone/",
+  "slug": "med-progesterone",
   "type": "medicines",
   "source": "NHS.uk"
  },
