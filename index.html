@@ -660,8 +660,14 @@ function nhsInfoHtml(item, pg) {
   // generic "Treating…" section (injections, admission, other drugs) would
   // contradict what the patient was actually given, so it is replaced by a
   // pointer to the medicine card below. No medicine clicked → NHS's own words.
+  // DEFAULT IS SILENT ON TREATMENT (Oscar 2026-09-03: "don't talk about
+  // treatment unless it's generic advice or we know what treatment via the
+  // selection"): NHS's "Treating…" and "How … is diagnosed" sections describe
+  // a pathway the patient may not have had — they stay on the linked NHS page.
+  // Generic advice = NHS's own self-care section, still shown. Known treatment
+  // = the medicine the clinician clicked, shown as the pointer below.
   const chosen = item.type === "nhs" ? chosenTreatments(item) : [];
-  const cards = (pg.cards || []).filter(c => INFO_TIERS[c.tier] && !(chosen.length && c.tier === "treatment"));
+  const cards = (pg.cards || []).filter(c => INFO_TIERS[c.tier] && c.tier !== "treatment" && c.tier !== "diagnosis");
   const help = (pg.cards || []).filter(c => HELP_TIERS[c.tier]);
   if (help.length) HELP_GROUPS.push({ title: pg.title || item.title, page: pg, cards: help });
   const about = (pg.about || []).filter(t => t && !/:\s*$/.test(t)).slice(0, 2)
