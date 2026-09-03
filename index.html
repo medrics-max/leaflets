@@ -79,6 +79,17 @@
     font-size: 0.82rem;
     color: #1c6b2c;
   }
+  /* NHS.uk "when to get help" cards, verbatim (Oscar 2026-09-03) */
+  .nhscards { margin-top: 12px; }
+  .nhscard { border-left: 4px solid #005eb8; border-radius: 0 8px 8px 0; padding: 8px 12px; margin: 8px 0; background: #f4f7fa; }
+  .nhscard-emergency { border-left-color: #d5281b; background: #fdecea; }
+  .nhscard-urgent { border-left-color: #b07d00; background: #fff8e6; }
+  .nhscard .nhscard-h { font-weight: 700; margin: 0 0 4px; font-size: 0.98rem; }
+  .nhscard ul { margin: 0 0 4px; padding-left: 20px; }
+  .nhscard li { margin-bottom: 3px; }
+  .nhscard p { margin: 4px 0; }
+  .nhscard-foot { font-size: 0.78rem; color: #666; margin: 6px 0 0; }
+  .nhscard-foot a { color: #005eb8; }
   .leaflet-card a.read {
     display: inline-block;
     padding: 10px 16px;
@@ -468,9 +479,44 @@ function cardFor(item, openLabel) {
         <span class="ltitle">${escapeHtml(item.title)}</span>
         <a class="read${item.type === "leaflet" ? "" : " open"}" href="${encodeURI(item.url)}">${openLabel}</a>
       </div>
-      ${stale}${replaced}
+      ${stale}${replaced}${nhsCardsHtml(item)}
     </div>
   `;
+}
+
+// The NHS's own "when to get help" cards, VERBATIM, under the Open Government
+// Licence (Oscar 2026-09-03) — so the patient reads the red flags here without
+// having to find them on the linked page. Every line was byte-verified against
+// the live NHS page by nhs_cards.py; nothing is reworded. Cards older than 21
+// days are not shown (the licence expects a 7-day refresh; a stalled weekly
+// job must fail to the link, never to old advice).
+function nhsCardsHtml(item) {
+  const pg = item.nhsCards;
+  if (!pg || !pg.cards || !pg.cards.length) return "";
+  // the licence expects a 7-day refresh: a card checked more than 10 days
+  // ago (or with a missing/future date) is not shown — the link stays
+  const age = (Date.now() - new Date(pg.retrieved || "x").getTime()) / 86400000;
+  if (!(age >= 0 && age <= 10)) return "";
+  // the NHS page must be a real NHS.uk address before it becomes a patient link
+  let nhsHref = "";
+  try { const u = new URL(pg.url || item.url); if (u.protocol === "https:" && u.hostname === "www.nhs.uk") nhsHref = u.href; } catch (e) {}
+  const LABEL = { emergency: "🚨", urgent: "⚠️", gp: "ℹ️" };
+  // NHS order, never re-sorted — the sequence is part of their advice
+  const cards = pg.cards;
+  const body = cards.map(c => {
+    let out = "", open = false;
+    for (const ln of c.lines) {
+      if (ln.kind === "li") { if (!open) { out += "<ul>"; open = true; } out += `<li>${escapeHtml(ln.text)}</li>`; }
+      else { if (open) { out += "</ul>"; open = false; } out += `<p>${escapeHtml(ln.text)}</p>`; }
+    }
+    if (open) out += "</ul>";
+    return `<div class="nhscard nhscard-${escapeHtml(c.tier)}">
+      <p class="nhscard-h">${LABEL[c.tier] || ""} ${escapeHtml(c.headline)}</p>${out}</div>`;
+  }).join("");
+  return `<div class="nhscards">${body}
+    <p class="nhscard-foot">Information from the NHS website${pg.dateModified ? ", updated " + escapeHtml(pg.dateModified) : ""}
+      (checked ${escapeHtml(pg.retrieved || "")})${nhsHref ? ` — <a href="${escapeHtml(nhsHref)}">read the full NHS page</a>` : ""}.
+      Licensed under the Open Government Licence v3.0.</p></div>`;
 }
 
 function adviceCard(item) {
@@ -737,7 +783,7 @@ async function main() {
   }
 
   let leaflets, services, nhs, advice, medicines, overrides, reviews, redirects,
-      drivingAdvice, followups;
+      drivingAdvice, followups, nhsCards;
   ADV_CARDS = [];
   FU_CARD = "";
   // (2026-08-08 review) a failed layer fetch must not be silently identical
@@ -780,6 +826,9 @@ async function main() {
     // numbers — a returning patient must never see a stale cached copy
     followups = await layer(dir + "followups.json", { cache: "no-store" },
                             "follow-up details", {});
+    // NHS.uk "when to get help" cards, shown verbatim on this page under the
+    // Open Government Licence (Oscar 2026-09-03; built weekly by nhs_cards.py)
+    nhsCards = await layer("nhs_cards.json", { cache: "no-cache" }, "NHS advice cards", {});
     drivingAdvice = await layer("driving_advice.json", { cache: "no-cache" },
                                 "driving advice", { modules: [] });
     // clinician-chosen verdicts (?adv=module.node,…): validated against the
@@ -934,6 +983,7 @@ async function main() {
       footer: item.footer,
       review: reviews[lookup],
       replaced: replaced,
+      nhsCards: ((nhsCards || {}).pages || {})[lookup] || null,
     });
   }
 

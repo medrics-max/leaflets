@@ -166,6 +166,7 @@
   .tag.gov { background: var(--accent-tint); color: var(--accent); }
   .tag.trusted { background: var(--track); color: var(--ink); }
   .tag.stale { background: var(--red-tint); color: var(--red); }
+  .tag.redflag { background: var(--red-tint); color: var(--red); }
   .actions { position: sticky; bottom: 0; background: var(--paper); padding: 12px 0 4px; border-top: 1px solid var(--line); margin-top: 8px; }
   button.primary {
     width: 100%; padding: 13px; font-size: 15px; font-weight: 600;
@@ -539,6 +540,9 @@ const selected = new Map();   // slug -> item
 // both pages now says a follow-up day/time may be in the link.
 let FOLLOWUPS = [];
 let fuPick = null;   // { id, date: "YYYY-MM-DD"|"", time: "HH:MM"|"" }
+// slugs of NHS.uk pages whose "when to get help" cards render verbatim on the
+// patient page (nhs_cards.json) — shown as a tag so the clinician can prefer them
+let NHS_CARDS = new Set();
 
 const $ = id => document.getElementById(id);
 
@@ -768,7 +772,7 @@ async function load() {
   const LAYER_LABEL = { leaflet: "the trust's own leaflets", service: "trust service pages",
                         advice: "local advice cards", nhs: "national NHS resources",
                         medicines: "medicines pages" };
-  const [all, reviews, bundles, profiles, driving, followups] = await Promise.all([
+  const [all, reviews, bundles, profiles, driving, followups, nhsCards] = await Promise.all([
     Promise.all(sources.map(([f, ty]) =>
       fetch(f, { cache: "no-cache" })
         .then(r => {
@@ -790,6 +794,9 @@ async function load() {
     fetch(dirFor(TRUST) + "followups.json", { cache: "no-store" })
       .then(r => { if (r.status === 404) return {}; if (!r.ok) throw 0; return r.json(); })
       .catch(() => { failedLayers.push("follow-up destinations"); return {}; }),
+    // which NHS.uk pages carry verbatim "when to get help" cards on the
+    // patient page (nhs_cards.py) — a clinician's tie-breaker, so quiet on failure
+    fetch("nhs_cards.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
   ]);
   // A newer load started while we were fetching (rapid trust switch): drop
   // this response, or trust A's data could render under trust B's banner.
@@ -797,6 +804,8 @@ async function load() {
   BUNDLES = (bundles && bundles.bundles) || [];
   DRIVING = (driving && driving.modules) || [];
   FOLLOWUPS = (followups && followups.destinations) || [];
+  NHS_CARDS = new Set(Object.entries((nhsCards && nhsCards.pages) || {})
+    .filter(([, p]) => p && p.cards && p.cards.length).map(([slug]) => slug));
   PROFILES = (profiles && profiles.profiles) || {};
   initSpecialtyUI();
   telemetryNotice();
@@ -1393,8 +1402,10 @@ function fuSuggestions(d) {
   // of "when to get help" is what moves outcomes, so a trust page that IS the
   // safety net for this pathway leads the row
   const SAFETY = /when to (get|seek) (help|advice)|what to do if|worried|red flag|advice after|after your|going home/i;
+  // …then NHS pages whose red-flag cards render on the patient page
+  const rank = it => (SAFETY.test(it.title) ? 2 : 0) + (NHS_CARDS.has(it.slug) ? 1 : 0);
   return [...out.values()].filter(it => !selected.has(it.slug))
-    .sort((a, b) => (SAFETY.test(b.title) ? 1 : 0) - (SAFETY.test(a.title) ? 1 : 0))
+    .sort((a, b) => rank(b) - rank(a))
     .slice(0, 4);
 }
 
@@ -1558,10 +1569,13 @@ function itemLi(it) {
   const broken = (rev && String(rev.status || "").startsWith("error:"))
     ? `<span class="tag stale" title="The trust's page failed to load when last checked (${esc(rev.status)}) — open it before giving this to a patient">page may be broken</span>`
     : "";
+  const redflag = NHS_CARDS.has(it.slug)
+    ? `<span class="tag redflag" title="The patient's page shows this NHS page's own “when to get help” advice, word for word">🚨 red flags on page</span>`
+    : "";
   return `
     <li data-s="${esc(it.slug)}">
       <input type="checkbox" aria-label="${esc(it.title)}" ${selected.has(it.slug) ? "checked" : ""}>
-      <span class="t">${esc(it.title)}<span class="tag ${esc(it.type)}">${it.type === "trusted" && it.source ? esc(it.source) : (TAGLABEL[it.type]||"")}</span>${stale}${broken}
+      <span class="t">${esc(it.title)}<span class="tag ${esc(it.type)}">${it.type === "trusted" && it.source ? esc(it.source) : (TAGLABEL[it.type]||"")}</span>${redflag}${stale}${broken}
       <a class="openpg" href="${esc(patientUrl(it.slug))}" target="_blank" rel="noopener" title="Open the patient page to check it">↗</a></span>
     </li>`;
 }
