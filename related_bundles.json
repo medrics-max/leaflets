@@ -35,7 +35,8 @@
     "apixaban vte",
     "same day emergency care",
     "anticoagulant",
-    "pulmonary embolism"
+    "pulmonary embolism",
+    "enoxaparin"
    ]
   },
   {
@@ -46,7 +47,8 @@
    "suggest": [
     "apixaban vte",
     "anticoagulant",
-    "same day emergency care"
+    "same day emergency care",
+    "enoxaparin"
    ]
   },
   {
@@ -505,7 +507,8 @@
    "suggest": [
     "adrenaline auto-injector",
     "cetirizine",
-    "chlorphenamine"
+    "chlorphenamine",
+    "epipen"
    ],
    "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
   },
@@ -687,6 +690,35 @@
     "gout"
    ],
    "by": "claude 2026-09-03 on Oscar's instruction — suggestions only; the clinician chooses what goes on the QR"
+  },
+  {
+   "id": "med-enoxaparin",
+   "match": [
+    "enoxaparin",
+    "clexane",
+    "inhixa",
+    "injectable anticoagulant"
+   ],
+   "suggest": [
+    "pulmonary embolism",
+    "deep vein",
+    "apixaban vte",
+    "enoxaparin"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction (EpiPen technique + heparin self-injection selectable) — suggestions only; the clinician chooses"
+  },
+  {
+   "id": "med-adrenaline",
+   "match": [
+    "epipen",
+    "adrenaline auto"
+   ],
+   "suggest": [
+    "anaphylaxis",
+    "adrenaline auto-injector",
+    "epipen"
+   ],
+   "by": "claude 2026-09-03 on Oscar's instruction (EpiPen technique + heparin self-injection selectable) — suggestions only; the clinician chooses"
   }
  ]
 }
