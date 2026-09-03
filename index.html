@@ -39,15 +39,26 @@
   /* Follow-up card (Oscar 2026-09-03): the return visit the clinician put on
      the QR — the one thing the patient must not miss, so it renders first. */
   .fu-card {
-    border: 1px solid #d8dde3; border-left: 4px solid #005eb8;
-    border-radius: 12px; padding: 16px 18px; margin: 0 0 18px; background: #f7fafd;
+    border: 1px solid #c9d6e4;
+    border-radius: 12px; padding: 16px 18px; margin: 0 0 18px; background: #eef4fb;
   }
-  .fu-card .fu-kicker { font-size: 0.8rem; font-weight: 700; letter-spacing: .03em; color: #005eb8; text-transform: uppercase; margin: 0 0 4px; }
+  /* the follow-up banner: the one action on this page, under the title */
+  .fu-jump {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    background: #005eb8; color: #fff; text-decoration: none;
+    border-radius: 12px; padding: 14px 16px; margin: 4px 0 22px; min-height: 56px;
+    font-size: 1.05rem; line-height: 1.35;
+  }
+  .fu-jump .fu-jump-t { font-weight: 700; }
+  .fu-jump .fu-jump-a { flex: none; font-weight: 600; opacity: .9; border: 1px solid rgba(255,255,255,.7); border-radius: 8px; padding: 6px 10px; }
+  .fu-jump:hover .fu-jump-a, .fu-jump:focus-visible .fu-jump-a { background: #fff; color: #005eb8; opacity: 1; }
+  a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid #ffdd00; outline-offset: 2px; }
   .fu-card .fu-dest { font-size: 1.1rem; font-weight: 700; margin: 0 0 2px; }
   .fu-card .fu-when { font-size: 1.35rem; font-weight: 800; font-variant-numeric: tabular-nums; margin: 6px 0; }
   .fu-card .fu-where { color: #4c6272; font-size: 0.92rem; margin: 4px 0; }
   .fu-card .fu-note { font-size: 0.88rem; color: #333; margin: 8px 0 0; }
   .fu-card .fu-past { margin-top: 10px; font-size: 0.85rem; color: #6b5200; background: #fff8e6; border: 1px solid #f3d77a; border-radius: 8px; padding: 8px 10px; }
+  .fu-card .fu-dest { font-size: 1.15rem; }
   .fu-card a.fu-phone { display: inline-block; background: #005eb8; color: #fff; border-radius: 6px; padding: 6px 14px; text-decoration: none; font-weight: 600; margin-top: 8px; margin-right: 8px; }
   .fu-card a.fu-find { display: inline-block; background: #005eb8; color: #fff; border-radius: 6px; padding: 6px 14px; text-decoration: none; font-weight: 600; margin-top: 8px; margin-right: 8px; }
   .fu-card button.fu-cal { display: inline-block; background: #fff; color: #005eb8; border: 1px solid #005eb8; border-radius: 6px; padding: 6px 14px; font-weight: 600; font-size: 0.95rem; margin-top: 8px; margin-right: 8px; cursor: pointer; font-family: inherit; }
@@ -81,19 +92,38 @@
   }
   /* NHS.uk "when to get help" cards, verbatim (Oscar 2026-09-03) */
   .nhscards { margin-top: 12px; }
-  .nhscards .nhsabout { margin: 6px 0; color: #333; font-size: 0.95rem; }
-  .nhscard { border-left: 4px solid #005eb8; border-radius: 0 8px 8px 0; padding: 8px 12px; margin: 8px 0; background: #f4f7fa; }
-  .nhscard-emergency { border-left-color: #d5281b; background: #fdecea; }
-  .nhscard-urgent { border-left-color: #b07d00; background: #fff8e6; }
-  .nhscard-advice { border-left-color: #005eb8; background: #f4f7fa; }
-  .nhscard .nhscard-h { font-weight: 700; margin: 0 0 4px; font-size: 0.98rem; }
+  .nhscards .nhsabout { margin: 6px 0 10px; color: #222; font-size: 1rem; }
+  /* collapsible NHS sections: a bold line to tap, the detail underneath */
+  .nhscard { border: 1px solid #d8dde3; border-radius: 10px; margin: 8px 0; background: #f4f7fa; }
+  .nhscard-emergency { border-left: 4px solid #d5281b; background: #fdecea; }
+  .nhscard-urgent { border-left: 4px solid #b07d00; background: #fff8e6; }
+  .nhscard-treatment, .nhscard-selfcare { background: #f2faf3; border-color: #cfe3d3; }
+  .nhscard-info { background: #f5f5f5; border-color: #ddd; }
+  .nhscard > summary {
+    list-style: none; cursor: pointer; display: flex; align-items: center; gap: 10px;
+    padding: 12px 14px; min-height: 44px; font-weight: 700; font-size: 1rem; line-height: 1.3;
+  }
+  .nhscard > summary::-webkit-details-marker { display: none; }
+  .nhscard > summary::after {
+    content: ""; flex: none; width: 9px; height: 9px; margin-left: auto;
+    border-right: 2px solid currentColor; border-bottom: 2px solid currentColor;
+    transform: rotate(45deg); transition: transform 150ms ease-out;
+  }
+  .nhscard[open] > summary::after { transform: rotate(-135deg); }
+  .nhscard .nhscard-b { padding: 0 14px 12px; }
   .nhscard ul { margin: 0 0 4px; padding-left: 20px; }
-  .nhscard li { margin-bottom: 3px; }
+  .nhscard li { margin-bottom: 4px; }
   .nhscard p { margin: 4px 0; }
   .nhscard-foot { font-size: 0.78rem; color: #666; margin: 6px 0 0; }
-  .nhscard-note { font-size: 0.82rem; color: #5a4a00; background: #fff8e6; border-left: 3px solid #b07d00; border-radius: 0 6px 6px 0; padding: 5px 8px; margin: 8px 0 0; }
-  .nhscard-info { border-left-color: #6b6b6b; background: #f5f5f5; }
+  .nhscard-note { font-size: 0.85rem; color: #5a4a00; background: #fff8e6; border: 1px solid #f3d77a; border-radius: 8px; padding: 6px 10px; margin: 10px 0 0; }
   .companion { margin-top: 10px; padding-top: 8px; border-top: 1px dashed #d8dde3; }
+  .src { display: inline-block; font-size: 0.72rem; font-weight: 700; padding: 1px 8px; border-radius: 10px; margin-left: 8px; vertical-align: middle; white-space: nowrap; }
+  .src-trust { background: #e3f1e6; color: #1c6b2c; }
+  .src-nhs { background: #e8f0fb; color: #00437a; }
+  .src-gov { background: #e8f0fb; color: #00437a; }
+  .src-trusted { background: #f3ecf9; color: #5b2d84; }
+  .helpgroup .helpgroup-h { font-size: 1.02rem; font-weight: 700; margin: 0 0 6px; }
+  .subtitle a { color: #005eb8; }
   .companion .companion-h { font-size: 0.85rem; color: #555; margin: 0 0 4px; }
   .nhscard-foot a { color: #005eb8; }
   .leaflet-card a.read {
@@ -385,6 +415,8 @@ function rateHelpful(value) {
 // all-day when the clinician gave no time. Delivered as a Blob the user
 // saves/opens — nothing is sent anywhere.
 let FU_ICS = "";
+let FU_SUMMARY = "";   // one line for the banner: where and when
+let TRUST_LABEL = "Your hospital";
 function icsText(s) {
   return String(s || "").replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
 }
@@ -413,6 +445,10 @@ function buildIcs(dest, dt, hasTime, findHref) {
           findHref ? "URL:" + findHref : "",
           "END:VEVENT", "END:VCALENDAR"].filter(Boolean).join("\r\n") + "\r\n";
 }
+// paper shows everything: open every collapsed section for print, restore after
+window.addEventListener("beforeprint", () => document.querySelectorAll("details").forEach(d => { d.dataset.wasOpen = d.open ? "1" : ""; d.open = true; }));
+window.addEventListener("afterprint", () => document.querySelectorAll("details").forEach(d => { d.open = d.dataset.wasOpen === "1"; }));
+
 function addFollowupToCalendar() {
   if (!FU_ICS) return;
   try {
@@ -481,6 +517,16 @@ function isPastReview(reviewDue) {
   return y < now.getFullYear() || (y === now.getFullYear() && m < now.getMonth() + 1);
 }
 
+// Source badge (Oscar 2026-09-03: "the SDEC leaflet should be highlighted as
+// the trust's — Royal Surrey SDEC"): every card says whose information it is.
+function sourceBadge(item) {
+  if (item.type === "leaflet" || item.type === "service") return `<span class="src src-trust">${escapeHtml(TRUST_LABEL)} leaflet</span>`;
+  if (item.type === "nhs" || item.type === "medicines") return `<span class="src src-nhs">NHS website</span>`;
+  if (item.type === "gov") return `<span class="src src-gov">${escapeHtml(item.source || "Official")}</span>`;
+  if (item.type === "trusted") return `<span class="src src-trusted">${escapeHtml(item.source || "Trusted source")}</span>`;
+  return "";
+}
+
 function cardFor(item, openLabel) {
   const stale = (item.type === "leaflet" && item.review && isPastReview(item.review.review_due))
     ? `<div class="stale">The hospital planned to review this leaflet by <strong>${escapeHtml(item.review.review_due_text || item.review.review_due)}</strong> and may not have updated it yet. If anything seems unclear or out of date, check with your care team.</div>`
@@ -491,97 +537,115 @@ function cardFor(item, openLabel) {
   return `
     <div class="leaflet-card">
       <div class="lmain">
-        <span class="ltitle" data-url="${escapeHtml(item.url)}">${escapeHtml(item.title)}</span>
+        <span class="ltitle" data-url="${escapeHtml(item.url)}">${escapeHtml(item.title)}${sourceBadge(item)}</span>
         <a class="read${item.type === "leaflet" ? "" : " open"}" href="${encodeURI(item.url)}">${openLabel}</a>
       </div>
-      ${stale}${replaced}${nhsCardsHtml(item)}${companionHtml(item)}
+      ${stale}${replaced}${nhsInfoHtml(item, item.nhsCards)}${companionHtml(item)}
     </div>
   `;
 }
 
-// The NHS's own "when to get help" cards, VERBATIM, under the Open Government
-// Licence (Oscar 2026-09-03) — so the patient reads the red flags here without
-// having to find them on the linked page. Every line was byte-verified against
-// the live NHS page by nhs_cards.py; nothing is reworded. Cards older than 21
-// days are not shown (the licence expects a 7-day refresh; a stalled weekly
-// job must fail to the link, never to old advice).
-// A trust leaflet's NHS companion (Oscar 2026-09-03: "not seeing information
-// about their condition on our page, just the external leaflets"): when the
-// trust leaflet's title contains an NHS.uk page's title as whole words
-// ("Lower limb cellulitis" ⊃ "Cellulitis"), that NHS page's intro and cards
-// render beneath the leaflet, attributed. Conservative on purpose: the NHS
-// title must be at least two words or ≥ 7 letters, and the longest match wins,
-// so "Broken toe" never rides on an unrelated fracture leaflet.
+// A trust leaflet's NHS companion: when the leaflet's title contains an
+// NHS.uk page's title as whole words ("Lower limb cellulitis" ⊃ "Cellulitis"),
+// that NHS page's intro and information render beneath the leaflet and its
+// red flags join the "When to get help" section at the bottom. Conservative:
+// plural-blind whole-word match, longest wins, "X and Y" titles offer either.
 function companionHtml(item) {
   if (!item.companion) return "";
   const c = item.companion;
+  const info = nhsInfoHtml({ title: c.title, url: c.url }, c);
+  if (!info) return "";
   return `<div class="companion">
-    <p class="companion-h">From the NHS website — <strong>${escapeHtml(c.title || "")}</strong>:</p>
-    ${nhsCardsHtml({ nhsCards: c, url: c.url, title: c.title })}
-  </div>`;
+    <p class="companion-h">From the NHS website — <strong>${escapeHtml(c.title || "")}</strong>:</p>${info}</div>`;
 }
 function findCompanion(item, pages) {
   if (item.nhsCards || !pages) return null;
   if (!(item.type === "leaflet" || item.type === "service")) return null;
-  // plural-blind whole-word matching: "Sprains and strains" offers the
-  // alternatives "sprain" / "strain", so "Ankle sprain" finds it
   const stemWords = s => " " + fold(s).replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter(Boolean)
     .map(w => w.replace(/(ies|es|s)$/, "")).join(" ") + " ";
   const t = stemWords(item.title);
   let best = null;
   for (const pg of Object.values(pages)) {
-    if (!pg || !(pg.cards && pg.cards.length) || !pg.title) continue;
+    if (!pg || !pg.title || !((pg.cards && pg.cards.length) || (pg.about && pg.about.length))) continue;
     const base = pg.title.replace(/\s*\(.*?\)\s*/g, " ").replace(/\s*[—–-]\s.*$/, "");
     for (const alt of base.split(/\s+(?:and|or)\s+|\s*\/\s*/i)) {
       const nt = stemWords(alt).trim();
-      if (nt.length < 4) continue;                      // "flu" alone is too loose
+      if (nt.length < 4) continue;
       if (t.includes(" " + nt + " ") && (!best || nt.length > best.nt.length)) best = { nt, pg };
     }
   }
   return best ? best.pg : null;
 }
 
-function nhsCardsHtml(item) {
-  const pg = item.nhsCards;
-  if (!pg || (!(pg.cards && pg.cards.length) && !(pg.about && pg.about.length))) return "";
-  pg.cards = pg.cards || [];
-  // the licence expects a 7-day refresh: a card checked more than 10 days
-  // ago (or with a missing/future date) is not shown — the link stays
-  const age = (Date.now() - new Date(pg.retrieved || "x").getTime()) / 86400000;
-  if (!(age >= 0 && age <= 10)) return "";
-  // the NHS page must be a real NHS.uk address before it becomes a patient link
-  let nhsHref = "";
-  try { const u = new URL(pg.url || item.url); if (u.protocol === "https:" && u.hostname === "www.nhs.uk") nhsHref = u.href; } catch (e) {}
-  const LABEL = { emergency: "🚨", urgent: "⚠️", gp: "ℹ️", advice: "ℹ️", info: "💊" };
-  // NHS order, never re-sorted — the sequence is part of their advice
-  const cards = pg.cards;
-  // hub conditions keep their advice on a sub-page — link every page a card
-  // came from, each validated as a real NHS.uk address
-  const srcs = [];
-  for (const u of [pg.url || item.url, ...cards.map(c => c.source_url).filter(Boolean)]) {
-    try { const x = new URL(u); if (x.protocol === "https:" && x.hostname === "www.nhs.uk" && !srcs.includes(x.href)) srcs.push(x.href); } catch (e) {}
+// NHS.uk content, verbatim, under the Open Government Licence (Oscar
+// 2026-09-03). Two places: INFO tiers (what it is, treatment, things you can
+// do, side effects) render inside the item so the page reads as a story;
+// HELP tiers (999 / 111 / GP) are gathered into one "When to get help"
+// section at the bottom. Every line was parsed from the page NHS served this
+// week by nhs_cards.py; nothing is reworded; cards older than 10 days are
+// not shown (the licence expects a 7-day refresh).
+const INFO_TIERS = { treatment: "🩺", selfcare: "🏠", info: "💊" };
+const HELP_TIERS = { emergency: "🚨", urgent: "⚠️", gp: "ℹ️", advice: "ℹ️" };
+let HELP_GROUPS = [];   // rebuilt on every render — {title, url, page, cards}
+function nhsFresh(pg) {
+  const age = (Date.now() - new Date((pg && pg.retrieved) || "x").getTime()) / 86400000;
+  return age >= 0 && age <= 10;
+}
+function nhsHref(pg, fallback) {
+  try { const u = new URL((pg && pg.url) || fallback || ""); if (u.protocol === "https:" && u.hostname === "www.nhs.uk") return u.href; } catch (e) {}
+  return "";
+}
+function cardBody(c) {
+  let out = "", open = false;
+  for (const ln of c.lines) {
+    if (ln.kind === "li") { if (!open) { out += "<ul>"; open = true; } out += `<li>${escapeHtml(ln.text)}</li>`; }
+    else { if (open) { out += "</ul>"; open = false; } out += `<p>${escapeHtml(ln.text)}</p>`; }
   }
-  const body = cards.map(c => {
-    let out = "", open = false;
-    for (const ln of c.lines) {
-      if (ln.kind === "li") { if (!open) { out += "<ul>"; open = true; } out += `<li>${escapeHtml(ln.text)}</li>`; }
-      else { if (open) { out += "</ul>"; open = false; } out += `<p>${escapeHtml(ln.text)}</p>`; }
-    }
-    if (open) out += "</ul>";
-    return `<div class="nhscard nhscard-${escapeHtml(c.tier)}">
-      <p class="nhscard-h">${LABEL[c.tier] || ""} ${escapeHtml(c.headline)}</p>${out}</div>`;
-  }).join("");
-  // the NHS page's own opening paragraphs, verbatim, so the patient starts
-  // with what the condition or medicine IS before the red flags
-  // a paragraph that ends in a colon introduces a list we don't carry — skip it
+  if (open) out += "</ul>";
+  return out;
+}
+// "9 July 2026", not "2026-07-09" — the page is for patients
+function niceDate(iso) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || "");
+  if (!m) return iso || "";
+  return new Date(+m[1], +m[2] - 1, +m[3]).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+}
+function nhsAttribution(pg, extra) {
+  const href = nhsHref(pg);
+  return `<p class="nhscard-foot">Information from the NHS website${pg.dateModified ? ", updated " + escapeHtml(niceDate(pg.dateModified)) : ""}
+      (checked ${escapeHtml(niceDate(pg.retrieved))})${href ? ` — <a href="${escapeHtml(href)}">read the full NHS page</a>` : ""}${extra || ""}.
+      Licensed under the Open Government Licence v3.0.</p>`;
+}
+function nhsInfoHtml(item, pg) {
+  if (!pg || !nhsFresh(pg)) return "";
+  const cards = (pg.cards || []).filter(c => INFO_TIERS[c.tier]);
+  const help = (pg.cards || []).filter(c => HELP_TIERS[c.tier]);
+  if (help.length) HELP_GROUPS.push({ title: pg.title || item.title, page: pg, cards: help });
   const about = (pg.about || []).filter(t => t && !/:\s*$/.test(t)).slice(0, 2)
     .map(t => `<p class="nhsabout">${escapeHtml(t)}</p>`).join("");
-  return `<div class="nhscards">${about}${body}
-    <p class="nhscard-note">General NHS advice your clinician chose for you — not the result of your own tests. If unsure, ask your care team.</p>
-    <p class="nhscard-foot">Information from the NHS website${pg.dateModified ? ", updated " + escapeHtml(pg.dateModified) : ""}
-      (checked ${escapeHtml(pg.retrieved || "")})${srcs.length ? ` — read the full NHS page${srcs.length > 1 ? "s" : ""}: ` +
-        srcs.map(u => `<a href="${escapeHtml(u)}">${escapeHtml(u.replace("https://www.nhs.uk", "").replace(/\/$/, "").split("/").pop() || "page")}</a>`).join(" · ") : ""}.
-      Licensed under the Open Government Licence v3.0.</p></div>`;
+  if (!about && !cards.length) return "";
+  // collapsed by default (Oscar 2026-09-03: "collapsible points so the
+  // information is not too overwhelming"); the intro stays visible
+  const body = cards.map(c => `<details class="nhscard nhscard-${escapeHtml(c.tier)}">
+      <summary>${escapeHtml(c.headline)}</summary><div class="nhscard-b">${cardBody(c)}</div></details>`).join("");
+  const helpNote = help.length ? ` — when to get help for this is <a href="#help">at the bottom of this page</a>` : "";
+  return `<div class="nhscards">${about}${body}${nhsAttribution(pg, helpNote)}</div>`;
+}
+// The bottom section: every red-flag card from every NHS page on this
+// visit, in NHS order, grouped by condition, with the disclaimer.
+function helpSectionHtml() {
+  if (!HELP_GROUPS.length) return "";
+  const seen = new Set();
+  const groups = HELP_GROUPS.filter(g => { const k = g.page.url || g.title; if (seen.has(k)) return false; seen.add(k); return true; });
+  return `<p class="section-title" id="help">🚨 When to get help</p>
+    <p class="section-sub">The NHS's own advice on when to call 999, 111 or see a GP, for each condition your clinician chose.</p>
+    ${groups.map(g => `<div class="leaflet-card helpgroup">
+      <p class="helpgroup-h">${escapeHtml(g.title)} <span class="src src-nhs">NHS website</span></p>
+      ${g.cards.map(c => `<details class="nhscard nhscard-${escapeHtml(c.tier)}"${c.tier === "emergency" ? " open" : ""}>
+        <summary>${escapeHtml(c.headline)}</summary><div class="nhscard-b">${cardBody(c)}</div></details>`).join("")}
+      <p class="nhscard-note">General NHS advice your clinician chose for you — not the result of your own tests. If unsure, ask your care team.</p>
+      ${nhsAttribution(g.page)}
+    </div>`).join("")}`;
 }
 
 function adviceCard(item) {
@@ -659,53 +723,50 @@ function adviceCard(item) {
 }
 
 function renderResolved(items, demo) {
+  HELP_GROUPS = [];
   const leaflets = items.filter(i => i.type === "leaflet");
   const advice = items.filter(i => i.type === "advice");
   const medicines = items.filter(i => i.type === "medicines");
   const services = items.filter(i => i.type === "service");
-  // 'trusted' = named reputable UK charities/bodies (Diabetes UK, Epilepsy
-  // Action…) — rendered with the NHS layer under the same reputable-sources
-  // heading; filtering by type must never silently drop a selected item.
+  // 'trusted' = named reputable UK charities/bodies — rendered with the NHS
+  // layer under the same heading; filtering by type must never drop an item.
   const nhs = items.filter(i => i.type === "nhs" || i.type === "trusted");
   const gov = items.filter(i => i.type === "gov");
 
+  // The flow (Oscar 2026-09-03): your leaflets → about your condition →
+  // advice → your medicines → further information → your follow-up →
+  // driving/travel → when to get help (all red flags, at the bottom).
   const leafletSection = leaflets.length
     ? `<p class="section-title">Your leaflets</p>
-       <p class="section-sub">Information your clinician selected for you. Tap any to read.</p>
+       <p class="section-sub">Your hospital's own information, chosen for you by your clinician. Tap any to read.</p>
        ${leaflets.map(l => cardFor(l, "Read")).join("")}`
     : "";
-
+  const nhsSection = nhs.length
+    ? `<p class="section-title">About your condition</p>
+       <p class="section-sub">Information from the NHS website and other trusted UK sources.</p>
+       ${nhs.map(n => cardFor(n, "Open")).join("")}`
+    : "";
   const adviceSection = advice.length
     ? `<p class="section-title">Advice for you</p>
        <p class="section-sub">Important advice from your clinician about staying safe.</p>
        ${advice.map(a => adviceCard(a)).join("")}`
     : "";
-
   const medicineSection = medicines.length
     ? `<p class="section-title">About your medicines</p>
-       <p class="section-sub">Information about medicines you have been given or prescribed, from the NHS website (nhs.uk).</p>
+       <p class="section-sub">What each medicine is for and what to expect, from the NHS website.</p>
        ${medicines.map(m => cardFor(m, "Open")).join("")}`
     : "";
-
   const serviceSection = services.length
     ? `<p class="section-title">Further information</p>
        <p class="section-sub">Pages on the hospital website about your condition, treatment, or department.</p>
        ${services.map(s => cardFor(s, "Open")).join("")}`
     : "";
 
-  const nhsSection = nhs.length
-    ? `<p class="section-title">More information</p>
-       <p class="section-sub">Trusted health information from the NHS and other reputable UK sources.</p>
-       ${nhs.map(n => cardFor(n, "Open")).join("")}`
-    : "";
-
   // The exact official wording the clinician's answers landed on (carried in
   // the QR only when the clinician pressed ＋Add on that verdict). Verbatim
   // DVLA/CAA text + a prompt to read the source — never our own notes.
-  // FIXED template lines per verdict class — the outcome in plain English
-  // first, then the verbatim rule, then the check-it-yourself prompt. These
-  // strings are code, reviewable by the trust; never generated text.
-  // the ADVICE words carry the bold, not the whole sentence
+  // FIXED template lines per verdict class; these strings are code,
+  // reviewable by the trust; never generated text.
   const advIntro = c => {
     const act = c.kind === "flying" ? "flying" : "driving";
     const verb = act === "flying" ? "fly" : "drive";
@@ -719,10 +780,6 @@ function renderResolved(items, demo) {
       return `Your clinician has checked — <strong>you must not ${verb} for now</strong>.`;
     if (c.verdict === "conditional")
       return `Your clinician has checked — <strong>a ${act} rule with conditions applies to you</strong>.`;
-    // 'info' nodes are official information, NOT restrictions (e.g. the CAA
-    // aspirin note) — and an unknown verdict from a newer advice build must
-    // never be dressed up as one. (2026-08-08 review: the old fallthrough
-    // told patients an info note was "a rule with conditions".)
     if (c.verdict === "info")
       return `Your clinician has shared this official ${act} information with you.`;
     return `Your clinician has shared an official ${act} rule — <strong>read it below and check with your care team</strong>.`;
@@ -738,8 +795,6 @@ function renderResolved(items, demo) {
       <p style="background:#fff8e6;border-left:3px solid #b07d00;border-radius:0 6px 6px 0;padding:5px 8px;margin:8px 0;font-size:0.85rem;color:#5a4a00">Check this advice applies to you — if unsure, ask your clinician.</p>
       <a class="advice-text" href="${escapeHtml(c.url)}" target="_blank" rel="noopener" style="display:inline-block;background:#005eb8;color:#fff;border-radius:8px;padding:8px 14px;text-decoration:none">Open the ${escapeHtml(c.org)} guidance${c.anchor ? " (exact section)" : ""} ↗</a>
     </div>`).join("");
-  // A clinician-chosen verdict that failed to resolve renders a caution, not
-  // silence — "no advice shown" must never read as "no restriction".
   const advMissing = (typeof ADV_DROPPED !== "undefined" && ADV_DROPPED)
     ? `<div class="advice-card"><p class="advice-text">Your clinician also chose official
        driving or flying advice that could not be shown here. <strong>Do not assume you may
@@ -754,12 +809,15 @@ function renderResolved(items, demo) {
        ${advMissing}
        ${gov.map(g => cardFor(g, "Open")).join("")}`
     : "";
+  const followupSection = (typeof FU_CARD !== "undefined" && FU_CARD)
+    ? `<p class="section-title">Your follow-up</p>${FU_CARD}`
+    : "";
 
   render(`
     ${demo ? '<p class="demobanner"><strong>Demonstration only.</strong> This is a preview of the service and is not in clinical use at this trust. Do not rely on it for your care.</p>' : ""}
     <h1>Information from your visit</h1>
     <p class="subtitle">Selected for you by your clinician.</p>
-    ${typeof FU_CARD !== "undefined" ? FU_CARD : ""}
+    ${(typeof FU_CARD !== "undefined" && FU_CARD) ? `<a class="fu-jump" href="#followup"><span class="fu-jump-t">${escapeHtml(FU_SUMMARY)}</span><span class="fu-jump-a">Details</span></a>` : ""}
     ${(typeof MISSING_ITEMS !== "undefined" && MISSING_ITEMS)
       ? `<p class="demobanner">${(typeof LAYERS_FAILED !== "undefined" && LAYERS_FAILED.length)
           ? "Some of your information could not be loaded right now — please try again in a few minutes."
@@ -768,11 +826,13 @@ function renderResolved(items, demo) {
              : MISSING_ITEMS + " items your clinician chose are not available at the moment. Please ask your care team about them.")}</p>`
       : ""}
     ${leafletSection}
+    ${nhsSection}
     ${adviceSection}
     ${medicineSection}
     ${serviceSection}
-    ${nhsSection}
+    <span id="followup"></span>${followupSection}
     ${govSection}
+    ${helpSectionHtml()}
     <p class="safetynet">This information was chosen for you by your clinician. If you feel worse, or you are worried, call <strong>111</strong> — or <strong>999</strong> in an emergency.</p>
     <button class="sharebtn" onclick="shareThisPage()">Text or save this to read later</button>
     <button class="sharebtn printbtn" onclick="window.print()">🖨 Print this page</button>
@@ -827,13 +887,14 @@ async function main() {
       const foot = document.getElementById("trustfoot");
       if (foot) foot.textContent = trust.name;
       setCreditLine(trust);
+      TRUST_LABEL = trust.short_name || trust.name;
       trustResolved = true;
     } else if (registry && !tParam) {
       // Default-trust QR (no ?t=): the credit belongs to the default trust's
       // own project team (Gloucestershire — Dr Mitchell IS its clinical
       // lead), read from the registry like any other trust.
       const dt = (registry.trusts || []).find(x => x.id === registry.default);
-      if (dt) setCreditLine(dt);
+      if (dt) { setCreditLine(dt); TRUST_LABEL = dt.short_name || dt.name; }
     }
   } catch (e) { /* registry unavailable — handled below for ?t= QRs */ }
   // A ?t= QR we can't resolve (renamed trust id, or the registry fetch failed)
@@ -967,6 +1028,10 @@ async function main() {
       try { const u = new URL(dest && dest.find_url || ""); return /^https?:$/.test(u.protocol) ? u.href : ""; }
       catch (e) { return ""; }
     })();
+    FU_SUMMARY = dest
+      ? (dest.kind === "pifu" ? "No appointment — call " + (dest.name || dest.label) + " if you need to"
+                              : "Come back to " + (dest.name || dest.label) + (when ? " · " + when : ""))
+      : "Your clinician arranged a follow-up";
     if (dest && dest.kind === "pifu") {
       // Patient-initiated follow-up (Oscar 2026-09-03): NO booked appointment.
       // Every fact on this card — the wording, number, hours, window — is
@@ -975,8 +1040,8 @@ async function main() {
       const tel = String(dest.phone || "").replace(/[^+\d]/g, "");
       const leaf = dest.info_slug && (leaflets || []).find(l => l.slug === dest.info_slug);
       FU_CARD = `<div class="fu-card">
-        <p class="fu-kicker">📞 Your follow-up — call if you need us</p>
-        <p class="fu-dest">No appointment is booked — ${escapeHtml(dest.name || dest.label)} will see you again if you need it</p>
+        <p class="fu-dest">Call if you need us — no appointment is booked</p>
+        <p class="fu-note"><strong>${escapeHtml(dest.name || dest.label)}</strong> will see you again if you need it.</p>
         ${dest.pifu_text ? `<p class="fu-note">${escapeHtml(dest.pifu_text)}</p>` : ""}
         ${dest.phone ? `<a class="fu-phone" href="tel:${tel}">📞 ${escapeHtml(dest.phone)}</a>` : ""}
         ${dest.hours ? `<p class="fu-where">🕐 ${escapeHtml(dest.hours)}</p>` : ""}
@@ -992,7 +1057,6 @@ async function main() {
       // never leaves the device (see addFollowupToCalendar)
       if (fuDt) FU_ICS = buildIcs(dest, fuDt, fuHasTime, findHref);
       FU_CARD = `<div class="fu-card">
-        <p class="fu-kicker">📅 Your follow-up</p>
         <p class="fu-dest">Come back to ${escapeHtml(dest.name || dest.label)}</p>
         ${when ? `<p class="fu-when">${escapeHtml(when)}</p>`
                : `<p class="fu-note">Your care team will tell you when to come.</p>`}
@@ -1006,7 +1070,6 @@ async function main() {
       </div>`;
     } else {
       FU_CARD = `<div class="fu-card">
-        <p class="fu-kicker">📅 Your follow-up</p>
         <p class="fu-note">Your clinician arranged a follow-up visit${when ? " for <strong>" + escapeHtml(when) + "</strong>" : ""},
         but the details could not be shown here. Please check with your care team.</p>
       </div>`;
