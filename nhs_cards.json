@@ -8094,9 +8094,7 @@
    "title": "Apixaban (blood thinner / anticoagulant)",
    "dateModified": "2026-08-19",
    "retrieved": "2026-09-03",
-   "about": [
-    "Apixaban helps stop blood clots forming. It's used to treat or prevent conditions such as deep vein thrombosis and pulmonary embolism."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "urgent",
@@ -8158,9 +8156,7 @@
    "title": "Aspirin (low dose)",
    "dateModified": "2026-08-11",
    "retrieved": "2026-09-03",
-   "about": [
-    "Aspirin can be taken at a low dose to prevent blood clots. Taken at a higher dose, it can be used as a painkiller."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "urgent",
@@ -8262,9 +8258,7 @@
    "title": "Bisoprolol (beta blocker, heart rate / blood pressure)",
    "dateModified": "2026-08-26",
    "retrieved": "2026-09-03",
-   "about": [
-    "Bisoprolol is mainly used to treat high blood pressure (hypertension) and chest pain caused by a heart problem (angina)."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "urgent",
@@ -8540,9 +8534,7 @@
    "title": "Colchicine (for gout)",
    "dateModified": "2026-08-21",
    "retrieved": "2026-09-03",
-   "about": [
-    "Colchicine treats and prevents gout attacks by reducing joint inflammation. It can also be used to treat familial Mediterranean fever."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "urgent",
@@ -8686,9 +8678,7 @@
    "title": "Diazepam (muscle spasm / anxiety)",
    "dateModified": "2026-06-08",
    "retrieved": "2026-09-03",
-   "about": [
-    "Diazepam can be used to treat mental health conditions like severe anxiety and seizures."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "urgent",
@@ -8833,9 +8823,7 @@
    "title": "Doxycycline (antibiotic)",
    "dateModified": "2026-05-08",
    "retrieved": "2026-09-03",
-   "about": [
-    "Doxycycline can be used to treat bacterial infections, such as urinary tract infections or chest infections. It's also used to prevent malaria."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "urgent",
@@ -8885,9 +8873,7 @@
    "title": "Edoxaban (blood thinner / anticoagulant)",
    "dateModified": "2026-08-19",
    "retrieved": "2026-09-03",
-   "about": [
-    "Edoxaban helps stop blood clots forming. It's used for conditions such as deep vein thrombosis and pulmonary embolism."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "urgent",
@@ -8937,9 +8923,7 @@
    "title": "Erythromycin (antibiotic)",
    "dateModified": "2026-08-05",
    "retrieved": "2026-09-03",
-   "about": [
-    "Erythromycin can be used to treat infections, such as chest infections and skin conditions like acne and rosacea."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "urgent",
@@ -9041,10 +9025,7 @@
    "title": "GTN spray (glyceryl trinitrate, for angina)",
    "dateModified": "2024-03-26",
    "retrieved": "2026-09-03",
-   "about": [
-    "Glyceryl trinitrate, or GTN, is a type of medicine called a nitrate. It's used to prevent and treat chest pain caused by angina .",
-    "It can help stop chest pain if an angina attack has already started. It can also help to prevent the chest pain starting."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "emergency",
@@ -9133,9 +9114,7 @@
    "title": "Ibuprofen (anti-inflammatory painkiller)",
    "dateModified": "2026-07-09",
    "retrieved": "2026-09-03",
-   "about": [
-    "Ibuprofen can help with lots of types of pain, including headaches, joint pain, pain after an injury and period pain."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "urgent",
@@ -9189,9 +9168,7 @@
    "title": "Levetiracetam / Keppra (for seizures)",
    "dateModified": "2026-08-06",
    "retrieved": "2026-09-03",
-   "about": [
-    "Levetiracetam can be used to prevent seizures caused by epilepsy."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "urgent",
@@ -9245,9 +9222,7 @@
    "title": "Macrogol / Movicol (laxative)",
    "dateModified": "2026-09-03",
    "retrieved": "2026-09-03",
-   "about": [
-    "Macrogol can help if you have constipation or a build-up of dry, hard poo (faecal impaction). It's also used to empty your bowel before a colonoscopy."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "urgent",
@@ -9328,9 +9303,7 @@
    "title": "Metoclopramide (anti-sickness)",
    "dateModified": "2026-08-14",
    "retrieved": "2026-09-03",
-   "about": [
-    "Metoclopramide is often used to prevent vomiting and nausea that can happen after chemotherapy, radiotherapy and with migraines."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "urgent",
@@ -9432,9 +9405,7 @@
    "title": "Naproxen (anti-inflammatory painkiller)",
    "dateModified": "2026-07-16",
    "retrieved": "2026-09-03",
-   "about": [
-    "Naproxen can help with lots of types of pain and swelling (inflammation), including period pain, joint and muscle pain, gout and arthritis."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "urgent",
@@ -9484,9 +9455,7 @@
    "title": "Nitrofurantoin (antibiotic for urine infections)",
    "dateModified": "2026-03-24",
    "retrieved": "2026-09-03",
-   "about": [
-    "Nitrofurantoin is suitable for most adults and children, but always check before taking it."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "emergency",
@@ -9562,9 +9531,7 @@
    "title": "Paracetamol (painkiller)",
    "dateModified": "2026-08-27",
    "retrieved": "2026-09-03",
-   "about": [
-    "NHS information about paracetamol for adults, including what it's used for, who can use it, how to use it and side effects."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "urgent",
@@ -9668,10 +9635,7 @@
    "title": "Progesterone / Utrogestan (HRT, menopause)",
    "dateModified": "2025-03-19",
    "retrieved": "2026-09-03",
-   "about": [
-    "Utrogestan (micronised progesterone) is a medicine that contains a hormone called progesterone. Progesterone is a type of progestogen that's identical to the hormone your body produces.",
-    "Your ovaries produce progesterone and oestrogen until the menopause , when your periods stop. Menopause usually affects women between the ages of 45 and 55, but it can happen earlier. It affects anyone who has periods."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "emergency",
@@ -9695,9 +9659,7 @@
    "title": "Rivaroxaban (blood thinner / anticoagulant)",
    "dateModified": "2026-08-19",
    "retrieved": "2026-09-03",
-   "about": [
-    "Rivaroxaban helps stop blood clots forming. It's used to prevent conditions such as deep vein thrombosis and pulmonary embolism."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "urgent",
@@ -9747,9 +9709,7 @@
    "title": "Salbutamol inhaler (reliever)",
    "dateModified": "2025-02-20",
    "retrieved": "2026-09-03",
-   "about": [
-    "Salbutamol inhalers are not suitable for some people. For example, check with your doctor if you have heart problems or diabetes."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "gp",
@@ -9808,9 +9768,7 @@
    "title": "Tramadol (strong painkiller)",
    "dateModified": "2026-03-23",
    "retrieved": "2026-09-03",
-   "about": [
-    "Tramadol is not suitable for everyone. For example, check with your doctor if you have breathing difficulty or kidney problems."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "emergency",
@@ -9834,9 +9792,7 @@
    "title": "Warfarin (blood thinner / anticoagulant)",
    "dateModified": "2026-08-19",
    "retrieved": "2026-09-03",
-   "about": [
-    "Warfarin usually comes as tablets you take once a day. Follow the instructions that come with your medicine."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "urgent",
@@ -9877,6 +9833,191 @@
      "visible": true
     }
    ]
+  },
+  "nhs-help-for-suicidal-thoughts": {
+   "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/help-for-suicidal-thoughts/",
+   "title": "Help for suicidal thoughts",
+   "dateModified": "2026-05-15",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Where to get help if you are having suicidal thoughts, and what to do if you are worried about someone else."
+   ],
+   "cards": []
+  },
+  "nhs-anticoagulants": {
+   "url": "https://www.nhs.uk/conditions/anticoagulants/",
+   "title": "Anticoagulant medicines (blood thinners)",
+   "dateModified": "2026-08-11",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Anticoagulants are medicines that reduce the ability of the blood to clot. Read about why they're used, how you take them and what you need to bear in mind while taking them."
+   ],
+   "cards": []
+  },
+  "nhs-kidney-stones": {
+   "url": "https://www.nhs.uk/conditions/kidney-stones/",
+   "title": "Kidney stones",
+   "dateModified": "2025-11-25",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Information about kidney stones, including symptoms, causes, treatment and prevention."
+   ],
+   "cards": []
+  },
+  "nhs-scabies": {
+   "url": "https://www.nhs.uk/conditions/scabies/",
+   "title": "Scabies",
+   "dateModified": "2025-06-02",
+   "retrieved": "2026-09-03",
+   "about": [
+    "The main symptom of scabies is an extremely itchy rash, that's usually worse at night."
+   ],
+   "cards": []
+  },
+  "nhs-osteoarthritis": {
+   "url": "https://www.nhs.uk/conditions/osteoarthritis/",
+   "title": "Osteoarthritis",
+   "dateModified": "2026-06-25",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Read about osteoarthritis, a condition that causes the joints to become painful and stiff. It's the most common type of arthritis in the UK."
+   ],
+   "cards": []
+  },
+  "nhs-first-aid-choking": {
+   "url": "https://www.nhs.uk/tests-and-treatments/first-aid/",
+   "title": "First aid, including choking",
+   "dateModified": "2026-09-02",
+   "retrieved": "2026-09-03",
+   "about": [
+    "First aid advice including basic life support methods for CPR, defibrillation, the recovery position, and more."
+   ],
+   "cards": []
+  },
+  "nhs-overactive-thyroid": {
+   "url": "https://www.nhs.uk/conditions/overactive-thyroid-hyperthyroidism/",
+   "title": "Overactive thyroid (hyperthyroidism)",
+   "dateModified": "2026-04-24",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Find out about overactive thyroid (hyperthyroidism), including what the symptoms are, when to see a GP, how it's treated and why it happens."
+   ],
+   "cards": []
+  },
+  "nhs-rashes-children": {
+   "url": "https://www.nhs.uk/symptoms/rashes-babies-and-children/",
+   "title": "Rashes in babies and children",
+   "dateModified": "2025-08-14",
+   "retrieved": "2026-09-03",
+   "about": [
+    "NHS information on some common rashes in babies and children, such as chickenpox, eczema, impetigo, ringworm, scabies, slapped cheek syndrome and more."
+   ],
+   "cards": []
+  },
+  "nhs-head-lice-and-nits": {
+   "url": "https://www.nhs.uk/conditions/head-lice-and-nits/",
+   "title": "Head lice and nits",
+   "dateModified": "2025-06-19",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Symptoms of head lice include small brown or white eggs (nits) in your hair and an itchy scalp."
+   ],
+   "cards": []
+  },
+  "nhs-urinary-catheters": {
+   "url": "https://www.nhs.uk/conditions/urinary-catheters/",
+   "title": "Urinary catheters",
+   "dateModified": "2025-04-29",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Read about a urinary catheter, which is a flexible tube used to empty the bladder and collect urine in a drainage bag."
+   ],
+   "cards": []
+  },
+  "nhs-emergency-contraception": {
+   "url": "https://www.nhs.uk/contraception/emergency-contraception/",
+   "title": "Emergency contraception (morning after pill, IUD)",
+   "dateModified": "2026-03-24",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Find out about emergency contraception, including how and where to get it free on the NHS and the 2 different types of emergency contraception available."
+   ],
+   "cards": []
+  },
+  "nhs-hyperemesis": {
+   "url": "https://www.nhs.uk/pregnancy/related-conditions/complications/severe-vomiting/",
+   "title": "Severe vomiting in pregnancy (hyperemesis gravidarum)",
+   "dateModified": "2024-11-14",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Find out about severe vomiting in pregnancy, the condition that affects around 1 to 3 in 100 pregnant women. It's also known as hyperemesis gravidarum, or HG."
+   ],
+   "cards": []
+  },
+  "nhs-urgent-mental-health-crisis": {
+   "url": "https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/",
+   "title": "Where to get urgent help for mental health — crisis support (NHS)",
+   "dateModified": "2026-05-15",
+   "retrieved": "2026-09-03",
+   "about": [
+    "You may need urgent help for mental health for many different reasons. Some people call it a crisis, an emergency or a breakdown. It's important to know that support is available, whatever you're going through."
+   ],
+   "cards": []
+  },
+  "med-beclometasone": {
+   "url": "https://www.nhs.uk/medicines/beclometasone-inhalers/",
+   "title": "Beclometasone inhaler (steroid preventer)",
+   "dateModified": "2024-04-18",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Beclometasone is a type of medicine known as a steroid (also called a corticosteroid). It's mainly used for asthma , but also sometimes for chronic obstructive pulmonary disease (COPD).",
+    "Steroids closely copy the effects of natural hormones produced in your adrenal glands. The adrenal glands are above your kidneys."
+   ],
+   "cards": []
+  },
+  "med-cefalexin": {
+   "url": "https://www.nhs.uk/medicines/cefalexin/",
+   "title": "Cefalexin (antibiotic)",
+   "dateModified": "2024-04-18",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Cefalexin is an antibiotic. It belongs to a group of antibiotics called cephalosporins.",
+    "It's used to treat bacterial infections, such as pneumonia and other chest infections , skin infections and urinary tract infections (UTIs) ."
+   ],
+   "cards": []
+  },
+  "med-lactulose": {
+   "url": "https://www.nhs.uk/medicines/lactulose/",
+   "title": "Lactulose (laxative)",
+   "dateModified": "2024-05-09",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Lactulose is a laxative taken to treat constipation (difficulty pooing).",
+    "It's also taken to help a condition caused by severe liver disease called hepatic encephalopathy."
+   ],
+   "cards": []
+  },
+  "med-phenoxymethylpenicillin": {
+   "url": "https://www.nhs.uk/medicines/phenoxymethylpenicillin/",
+   "title": "Phenoxymethylpenicillin / Penicillin V (antibiotic)",
+   "dateModified": "2024-04-05",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Phenoxymethylpenicillin is a type of penicillin antibiotic.",
+    "It's used to treat bacterial infections, including ear , chest , throat and skin infections."
+   ],
+   "cards": []
+  },
+  "med-senna": {
+   "url": "https://www.nhs.uk/medicines/senna/",
+   "title": "Senna (laxative)",
+   "dateModified": "2025-09-02",
+   "retrieved": "2026-09-03",
+   "about": [
+    "Senna is a natural laxative made from the leaves and fruit of the senna plant. It's used to treat difficulty pooing ( constipation ). It works by stimulating the muscles in your gut.",
+    "Before trying senna, it's better to try other ways to help your constipation by:"
+   ],
+   "cards": []
   }
  }
 }
