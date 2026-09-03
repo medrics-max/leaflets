@@ -215,6 +215,10 @@
   .fupanel .fudays .chip { background: var(--card); border: 1px solid var(--line); color: var(--ink); cursor: pointer; font-weight: 400; }
   .fupanel .fudays .chip:hover { border-color: var(--accent); }
   .fupanel .fudays .chip.on { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .fupanel .fudays .chip.off { color: var(--muted); border-style: dashed; cursor: default; }
+  .fupanel .fuhours .chip { padding: 5px 9px; font-variant-numeric: tabular-nums; }
+  .fupanel .fumins { display: inline-block; margin-left: 6px; padding-left: 8px; border-left: 1px solid var(--line); }
+  .fupanel .fumins .chip { background: var(--accent-tint); }
   .fupanel .fuother { display: inline-block; margin: 4px 4px 0; font-size: 12px; color: var(--muted); }
   .fupanel .fuother input[type="date"] { margin-left: 4px; padding: 5px 8px; font-size: 14px; }
   .fu .chip { border: 1px dashed var(--accent); background: var(--card); color: var(--accent); cursor: pointer; user-select: none; }
@@ -1425,9 +1429,20 @@ function renderFuPanel() {
       <label class="fuother">or another day
         <input type="date" id="fudate" min="${todayISO}" value="${esc(fuPick.date)}" aria-label="Another day"></label>
     </div>
-    <div class="furow">
-      <span><label for="futime">Time (optional)</label>
-        <input type="time" id="futime" value="${esc(fuPick.time)}"${fuPick.date ? "" : " disabled"}></span>
+
+    <div class="fudays fuhours"><span class="rlabel">Time:</span> ${(() => {
+        // tap-only time (Oscar 2026-09-03: typing hh:mm is fiddly on a shift):
+        // an hour, then a quarter — no keyboard. Locked until a day is set.
+        const [hh, mm] = (fuPick.time || "").split(":");
+        const off = fuPick.date ? "" : " off";
+        const hours = []; for (let h = 7; h <= 22; h++) hours.push(String(h).padStart(2, "0"));
+        return hours.map(h =>
+          `<span class="chip${hh === h ? " on" : ""}${off}" data-h="${h}" role="button" tabindex="0">${h}</span>`).join(" ") +
+          (hh ? `<span class="fumins"> ${["00", "15", "30", "45"].map(m =>
+            `<span class="chip${mm === m ? " on" : ""}" data-m="${m}" role="button" tabindex="0">:${m}</span>`).join(" ")}</span>` : "") +
+          (!fuPick.date ? `<span class="fuother">pick a day first</span>`
+            : !hh ? `<span class="fuother">optional — leave blank if there's no set time</span>` : "");
+      })()}
     </div>`;
   const hint = pifu
     ? `No appointment. The patient's card says to call ${esc(d.phone || "the unit")}${d.hours ? " (" + esc(d.hours) + ")" : ""}` +
@@ -1460,9 +1475,31 @@ function renderFuPanel() {
     $(fuPick.date ? "futime" : "fudate")?.focus();
   };
   if (ft) ft.onchange = () => { fuPick.time = ft.value || ""; fuChanged(); $("futime")?.focus(); };
+  host.querySelectorAll(".fuhours .chip[data-h]").forEach(c => {
+    if (!fuPick.date) return;                        // locked until a day is set
+    const pick = () => {
+      const [hh, mm] = (fuPick.time || "").split(":");
+      fuPick.time = (hh === c.dataset.h) ? "" : c.dataset.h + ":" + (mm || "00");
+      fuChanged();
+      const again = host.querySelector(`.fuhours .chip[data-h="${c.dataset.h}"]`); if (again) again.focus();
+    };
+    c.onclick = pick;
+    c.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(); } };
+  });
+  host.querySelectorAll(".fumins .chip[data-m]").forEach(c => {
+    const pick = () => {
+      const hh = (fuPick.time || "").split(":")[0];
+      if (!hh) return;
+      fuPick.time = hh + ":" + c.dataset.m;
+      fuChanged();
+      const again = host.querySelector(`.fumins .chip[data-m="${c.dataset.m}"]`); if (again) again.focus();
+    };
+    c.onclick = pick;
+    c.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(); } };
+  });
   // one-tap day chips — typing a year into a date field is fiddly on a busy
   // shift; tapping the chip again clears the day (and with it the time)
-  host.querySelectorAll(".fudays .chip").forEach(c => {
+  host.querySelectorAll(".fudays .chip[data-d]").forEach(c => {   // [data-d]: the hour row shares .fudays
     const pick = () => {
       fuPick.date = (fuPick.date === c.dataset.d) ? "" : c.dataset.d;
       if (!fuPick.date) fuPick.time = "";
