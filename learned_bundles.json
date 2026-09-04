@@ -1,6 +1,6 @@
 {
  "_doc": "Learned companion suggestions per trust: for a chosen leaflet, the leaflets clinicians at that trust most often issue with it (from the picker's anonymous generate telemetry — slugs only, pairs seen in at least 3 QR codes, ranked by lift). Ranks only, never counts. Built weekly by Events/learned_bundles.py. Suggestions, not approvals — the clinician chooses every item.",
- "built": "2026-09-03",
+ "built": "2026-09-04",
  "k_min": 3,
  "trusts": {
   "gloucestershire": {
@@ -30,19 +30,21 @@
    ]
   },
   "royal-surrey": {
-   "med-apixaban": [
-    "nhs-anticoagulants"
-   ],
    "nhs-anticoagulants": [
-    "med-apixaban"
-   ],
-   "cellulitis": [
-    "med-flucloxacillin",
+    "med-apixaban",
     "sdec-same-day-emergency-care"
    ],
    "sdec-same-day-emergency-care": [
     "cellulitis",
-    "med-flucloxacillin"
+    "med-flucloxacillin",
+    "nhs-anticoagulants"
+   ],
+   "med-apixaban": [
+    "nhs-anticoagulants"
+   ],
+   "cellulitis": [
+    "med-flucloxacillin",
+    "sdec-same-day-emergency-care"
    ],
    "med-flucloxacillin": [
     "cellulitis",
