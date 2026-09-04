@@ -355,6 +355,11 @@ function sourcesFor(t) {
     [dir + "local_advice.json", "advice"],
     ["nhs_resources.json", "nhs"],
     ["medicines.json", "medicines"],
+    // the rest of NHS.uk's A–Z (nhs_catalogue.py, weekly) — a plain source:
+    // the specialty filters and the learned bundles do the ranking (Oscar
+    // 2026-09-05: "we already have the filters for specialty and can learn
+    // from the user")
+    ["nhs_catalogue.json", "nhs"],
   ];
 }
 
@@ -803,7 +808,8 @@ async function load() {
       fetch(f, { cache: "no-cache" })
         .then(r => {
           if (!r.ok) { if (ty === "leaflet") failedLayers.push(LAYER_LABEL[ty]); return []; }
-          return r.json();
+          // a source is a bare array or {items: [...]} (nhs_catalogue.json)
+          return r.json().then(d => Array.isArray(d) ? d : ((d && d.items) || []));
         })
         .catch(() => { failedLayers.push(LAYER_LABEL[ty] || ty); return []; }))),
     fetch(dirFor(TRUST) + "reviews.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),

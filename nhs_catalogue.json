@@ -1,0 +1,5438 @@
+{
+"_doc": "Every NHS.uk condition/medicine page from the A–Z indexes not already in the curated registers. Titles and URLs as NHS lists them; rebuilt weekly by nhs_catalogue.py. Reuse under the Open Government Licence v3.0.",
+"retrieved": "2026-09-05",
+"items": [
+{
+"title": "Abdominal aortic aneurysm",
+"url": "https://www.nhs.uk/conditions/abdominal-aortic-aneurysm/",
+"slug": "nhsaz-abdominal-aortic-aneurysm",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Acanthosis nigricans",
+"url": "https://www.nhs.uk/conditions/acanthosis-nigricans/",
+"slug": "nhsaz-acanthosis-nigricans",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Achalasia",
+"url": "https://www.nhs.uk/conditions/achalasia/",
+"slug": "nhsaz-achalasia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Acid and chemical burns",
+"url": "https://www.nhs.uk/conditions/acid-and-chemical-burns/",
+"slug": "nhsaz-acid-and-chemical-burns",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Acne",
+"url": "https://www.nhs.uk/conditions/acne/",
+"slug": "nhsaz-acne",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Acoustic neuroma (vestibular schwannoma)",
+"url": "https://www.nhs.uk/conditions/acoustic-neuroma/",
+"slug": "nhsaz-acoustic-neuroma",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Acromegaly",
+"url": "https://www.nhs.uk/conditions/acromegaly/",
+"slug": "nhsaz-acromegaly",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Actinic keratoses (solar keratoses)",
+"url": "https://www.nhs.uk/conditions/actinic-keratoses/",
+"slug": "nhsaz-actinic-keratoses",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Actinomycosis",
+"url": "https://www.nhs.uk/conditions/actinomycosis/",
+"slug": "nhsaz-actinomycosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Acute cholecystitis",
+"url": "https://www.nhs.uk/conditions/acute-cholecystitis/",
+"slug": "nhsaz-acute-cholecystitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Acute kidney injury (AKI)",
+"url": "https://www.nhs.uk/conditions/acute-kidney-injury/",
+"slug": "nhsaz-acute-kidney-injury",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Acute lymphoblastic leukaemia",
+"url": "https://www.nhs.uk/conditions/acute-lymphoblastic-leukaemia/",
+"slug": "nhsaz-acute-lymphoblastic-leukaemia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Acute myeloid leukaemia",
+"url": "https://www.nhs.uk/conditions/acute-myeloid-leukaemia/",
+"slug": "nhsaz-acute-myeloid-leukaemia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Acute pancreatitis",
+"url": "https://www.nhs.uk/conditions/acute-pancreatitis/",
+"slug": "nhsaz-acute-pancreatitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Acute respiratory distress syndrome (ARDS)",
+"url": "https://www.nhs.uk/conditions/acute-respiratory-distress-syndrome/",
+"slug": "nhsaz-acute-respiratory-distress-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Addison&#x27;s disease",
+"url": "https://www.nhs.uk/conditions/addisons-disease/",
+"slug": "nhsaz-addisons-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Adenomyosis",
+"url": "https://www.nhs.uk/conditions/adenomyosis/",
+"slug": "nhsaz-adenomyosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "ADHD in adults",
+"url": "https://www.nhs.uk/conditions/adhd-adults/",
+"slug": "nhsaz-adhd-adults",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "ADHD in children and young people",
+"url": "https://www.nhs.uk/conditions/adhd-children-teenagers/",
+"slug": "nhsaz-adhd-children-teenagers",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Age-related macular degeneration (AMD)",
+"url": "https://www.nhs.uk/conditions/age-related-macular-degeneration-amd/",
+"slug": "nhsaz-age-related-macular-degeneration-amd",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Albinism",
+"url": "https://www.nhs.uk/conditions/albinism/",
+"slug": "nhsaz-albinism",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Alcohol-related liver disease (ARLD)",
+"url": "https://www.nhs.uk/conditions/alcohol-related-liver-disease-arld/",
+"slug": "nhsaz-alcohol-related-liver-disease-arld",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Alcohol-use disorder",
+"url": "https://www.nhs.uk/conditions/alcohol-use-disorder/",
+"slug": "nhsaz-alcohol-use-disorder",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Allergic rhinitis",
+"url": "https://www.nhs.uk/conditions/allergic-rhinitis/",
+"slug": "nhsaz-allergic-rhinitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Allergies",
+"url": "https://www.nhs.uk/conditions/allergies/",
+"slug": "nhsaz-allergies",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Altitude sickness",
+"url": "https://www.nhs.uk/conditions/altitude-sickness/",
+"slug": "nhsaz-altitude-sickness",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Alzheimer&#x27;s disease",
+"url": "https://www.nhs.uk/conditions/alzheimers-disease/",
+"slug": "nhsaz-alzheimers-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Amyloidosis",
+"url": "https://www.nhs.uk/conditions/amyloidosis/",
+"slug": "nhsaz-amyloidosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Anabolic steroid misuse",
+"url": "https://www.nhs.uk/conditions/anabolic-steroid-misuse/",
+"slug": "nhsaz-anabolic-steroid-misuse",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Anal cancer",
+"url": "https://www.nhs.uk/conditions/anal-cancer/",
+"slug": "nhsaz-anal-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Anal fistula",
+"url": "https://www.nhs.uk/conditions/anal-fistula/",
+"slug": "nhsaz-anal-fistula",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Androgen insensitivity syndrome",
+"url": "https://www.nhs.uk/conditions/androgen-insensitivity-syndrome/",
+"slug": "nhsaz-androgen-insensitivity-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Angelman syndrome",
+"url": "https://www.nhs.uk/conditions/angelman-syndrome/",
+"slug": "nhsaz-angelman-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Angioedema",
+"url": "https://www.nhs.uk/conditions/angioedema/",
+"slug": "nhsaz-angioedema",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ankylosing spondylitis",
+"url": "https://www.nhs.uk/conditions/ankylosing-spondylitis/",
+"slug": "nhsaz-ankylosing-spondylitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Antiphospholipid syndrome (APS)",
+"url": "https://www.nhs.uk/conditions/antiphospholipid-syndrome/",
+"slug": "nhsaz-antiphospholipid-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Aphasia",
+"url": "https://www.nhs.uk/conditions/aphasia/",
+"slug": "nhsaz-aphasia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Arthritis",
+"url": "https://www.nhs.uk/conditions/arthritis/",
+"slug": "nhsaz-arthritis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Asbestosis",
+"url": "https://www.nhs.uk/conditions/asbestosis/",
+"slug": "nhsaz-asbestosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Aspergillosis",
+"url": "https://www.nhs.uk/conditions/aspergillosis/",
+"slug": "nhsaz-aspergillosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Astigmatism",
+"url": "https://www.nhs.uk/conditions/astigmatism/",
+"slug": "nhsaz-astigmatism",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ataxia",
+"url": "https://www.nhs.uk/conditions/ataxia/",
+"slug": "nhsaz-ataxia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Atherosclerosis",
+"url": "https://www.nhs.uk/conditions/atherosclerosis/",
+"slug": "nhsaz-atherosclerosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Athlete&#x27;s foot",
+"url": "https://www.nhs.uk/conditions/athletes-foot/",
+"slug": "nhsaz-athletes-foot",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Auditory processing disorder (APD)",
+"url": "https://www.nhs.uk/conditions/auditory-processing-disorder/",
+"slug": "nhsaz-auditory-processing-disorder",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Autism",
+"url": "https://www.nhs.uk/conditions/autism/",
+"slug": "nhsaz-autism",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Autosomal dominant polycystic kidney disease",
+"url": "https://www.nhs.uk/conditions/autosomal-dominant-polycystic-kidney-disease-adpkd/",
+"slug": "nhsaz-autosomal-dominant-polycystic-kidney-disease-adpkd",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Autosomal recessive polycystic kidney disease",
+"url": "https://www.nhs.uk/conditions/autosomal-recessive-polycystic-kidney-disease-arpkd/",
+"slug": "nhsaz-autosomal-recessive-polycystic-kidney-disease-arpkd",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bacterial vaginosis",
+"url": "https://www.nhs.uk/conditions/bacterial-vaginosis/",
+"slug": "nhsaz-bacterial-vaginosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Baker&#x27;s cyst",
+"url": "https://www.nhs.uk/conditions/bakers-cyst/",
+"slug": "nhsaz-bakers-cyst",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Balanitis",
+"url": "https://www.nhs.uk/conditions/balanitis/",
+"slug": "nhsaz-balanitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bartholin&#x27;s cyst",
+"url": "https://www.nhs.uk/conditions/bartholins-cyst/",
+"slug": "nhsaz-bartholins-cyst",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bedbugs",
+"url": "https://www.nhs.uk/conditions/bedbugs/",
+"slug": "nhsaz-bedbugs",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Behçet&#x27;s disease",
+"url": "https://www.nhs.uk/conditions/behcets-disease/",
+"slug": "nhsaz-behcets-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bile duct cancer (cholangiocarcinoma)",
+"url": "https://www.nhs.uk/conditions/bile-duct-cancer/",
+"slug": "nhsaz-bile-duct-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Birthmarks",
+"url": "https://www.nhs.uk/conditions/birthmarks/",
+"slug": "nhsaz-birthmarks",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Black eye",
+"url": "https://www.nhs.uk/conditions/black-eye/",
+"slug": "nhsaz-black-eye",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bladder cancer",
+"url": "https://www.nhs.uk/conditions/bladder-cancer/",
+"slug": "nhsaz-bladder-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bladder pain syndrome (BPS)",
+"url": "https://www.nhs.uk/conditions/bladder-pain-syndrome/",
+"slug": "nhsaz-bladder-pain-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bladder stones",
+"url": "https://www.nhs.uk/conditions/bladder-stones/",
+"slug": "nhsaz-bladder-stones",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Blepharitis",
+"url": "https://www.nhs.uk/conditions/blepharitis/",
+"slug": "nhsaz-blepharitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Blisters",
+"url": "https://www.nhs.uk/conditions/blisters/",
+"slug": "nhsaz-blisters",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Boils",
+"url": "https://www.nhs.uk/conditions/boils/",
+"slug": "nhsaz-boils",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bone cancer",
+"url": "https://www.nhs.uk/conditions/bone-cancer/",
+"slug": "nhsaz-bone-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bone cyst",
+"url": "https://www.nhs.uk/conditions/bone-cyst/",
+"slug": "nhsaz-bone-cyst",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Botulism",
+"url": "https://www.nhs.uk/conditions/botulism/",
+"slug": "nhsaz-botulism",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bowel cancer",
+"url": "https://www.nhs.uk/conditions/bowel-cancer/",
+"slug": "nhsaz-bowel-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bowel incontinence",
+"url": "https://www.nhs.uk/conditions/bowel-incontinence/",
+"slug": "nhsaz-bowel-incontinence",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bowel polyps",
+"url": "https://www.nhs.uk/conditions/bowel-polyps/",
+"slug": "nhsaz-bowel-polyps",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bowen&#x27;s disease",
+"url": "https://www.nhs.uk/conditions/bowens-disease/",
+"slug": "nhsaz-bowens-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Brain abscess",
+"url": "https://www.nhs.uk/conditions/brain-abscess/",
+"slug": "nhsaz-brain-abscess",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Brain tumours",
+"url": "https://www.nhs.uk/conditions/brain-tumours/",
+"slug": "nhsaz-brain-tumours",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Breast abscess",
+"url": "https://www.nhs.uk/conditions/breast-abscess/",
+"slug": "nhsaz-breast-abscess",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Breast cancer in men",
+"url": "https://www.nhs.uk/conditions/breast-cancer-in-men/",
+"slug": "nhsaz-breast-cancer-in-men",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Breast cancer in women",
+"url": "https://www.nhs.uk/conditions/breast-cancer-in-women/",
+"slug": "nhsaz-breast-cancer-in-women",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Broken hip",
+"url": "https://www.nhs.uk/conditions/broken-hip/",
+"slug": "nhsaz-broken-hip",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bronchiectasis",
+"url": "https://www.nhs.uk/conditions/bronchiectasis/",
+"slug": "nhsaz-bronchiectasis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bronchitis",
+"url": "https://www.nhs.uk/conditions/bronchitis/",
+"slug": "nhsaz-bronchitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Brucellosis",
+"url": "https://www.nhs.uk/conditions/brucellosis/",
+"slug": "nhsaz-brucellosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Brugada syndrome",
+"url": "https://www.nhs.uk/conditions/brugada-syndrome/",
+"slug": "nhsaz-brugada-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bullous pemphigoid",
+"url": "https://www.nhs.uk/conditions/bullous-pemphigoid/",
+"slug": "nhsaz-bullous-pemphigoid",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bunions",
+"url": "https://www.nhs.uk/conditions/bunions/",
+"slug": "nhsaz-bunions",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bursitis",
+"url": "https://www.nhs.uk/conditions/bursitis/",
+"slug": "nhsaz-bursitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Clostridioides difficile (C. diff) infection",
+"url": "https://www.nhs.uk/conditions/c-difficile/",
+"slug": "nhsaz-c-difficile",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cancer",
+"url": "https://www.nhs.uk/conditions/cancer/",
+"slug": "nhsaz-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Carbon monoxide poisoning",
+"url": "https://www.nhs.uk/conditions/carbon-monoxide-poisoning/",
+"slug": "nhsaz-carbon-monoxide-poisoning",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cardiomyopathy",
+"url": "https://www.nhs.uk/conditions/cardiomyopathy/",
+"slug": "nhsaz-cardiomyopathy",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cardiovascular disease",
+"url": "https://www.nhs.uk/conditions/cardiovascular-disease/",
+"slug": "nhsaz-cardiovascular-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Carpal tunnel syndrome",
+"url": "https://www.nhs.uk/conditions/carpal-tunnel-syndrome/",
+"slug": "nhsaz-carpal-tunnel-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cataracts in adults",
+"url": "https://www.nhs.uk/conditions/cataracts/",
+"slug": "nhsaz-cataracts",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Catarrh",
+"url": "https://www.nhs.uk/conditions/catarrh/",
+"slug": "nhsaz-catarrh",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cavernoma",
+"url": "https://www.nhs.uk/conditions/cavernoma/",
+"slug": "nhsaz-cavernoma",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cerebral palsy",
+"url": "https://www.nhs.uk/conditions/cerebral-palsy/",
+"slug": "nhsaz-cerebral-palsy",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cervical cancer",
+"url": "https://www.nhs.uk/conditions/cervical-cancer/",
+"slug": "nhsaz-cervical-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cervical spondylosis",
+"url": "https://www.nhs.uk/conditions/cervical-spondylosis/",
+"slug": "nhsaz-cervical-spondylosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Charcot-Marie-Tooth disease",
+"url": "https://www.nhs.uk/conditions/charcot-marie-tooth-disease/",
+"slug": "nhsaz-charcot-marie-tooth-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Charles Bonnet syndrome",
+"url": "https://www.nhs.uk/conditions/charles-bonnet-syndrome/",
+"slug": "nhsaz-charles-bonnet-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Chest infection",
+"url": "https://www.nhs.uk/conditions/chest-infection/",
+"slug": "nhsaz-chest-infection",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Chiari malformation",
+"url": "https://www.nhs.uk/conditions/chiari-malformation/",
+"slug": "nhsaz-chiari-malformation",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Chilblains",
+"url": "https://www.nhs.uk/conditions/chilblains/",
+"slug": "nhsaz-chilblains",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Chipped, broken or cracked tooth",
+"url": "https://www.nhs.uk/conditions/chipped-broken-or-cracked-tooth/",
+"slug": "nhsaz-chipped-broken-or-cracked-tooth",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Chlamydia",
+"url": "https://www.nhs.uk/conditions/chlamydia/",
+"slug": "nhsaz-chlamydia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cholera",
+"url": "https://www.nhs.uk/conditions/cholera/",
+"slug": "nhsaz-cholera",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cholesteatoma",
+"url": "https://www.nhs.uk/conditions/cholesteatoma/",
+"slug": "nhsaz-cholesteatoma",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Chronic lymphocytic leukaemia",
+"url": "https://www.nhs.uk/conditions/chronic-lymphocytic-leukaemia/",
+"slug": "nhsaz-chronic-lymphocytic-leukaemia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Chronic myeloid leukaemia",
+"url": "https://www.nhs.uk/conditions/chronic-myeloid-leukaemia/",
+"slug": "nhsaz-chronic-myeloid-leukaemia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Chronic pancreatitis",
+"url": "https://www.nhs.uk/conditions/chronic-pancreatitis/",
+"slug": "nhsaz-chronic-pancreatitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Chronic traumatic encephalopathy",
+"url": "https://www.nhs.uk/conditions/chronic-traumatic-encephalopathy/",
+"slug": "nhsaz-chronic-traumatic-encephalopathy",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cirrhosis",
+"url": "https://www.nhs.uk/conditions/cirrhosis/",
+"slug": "nhsaz-cirrhosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cleft lip and palate",
+"url": "https://www.nhs.uk/conditions/cleft-lip-and-palate/",
+"slug": "nhsaz-cleft-lip-and-palate",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Clubfoot",
+"url": "https://www.nhs.uk/conditions/club-foot/",
+"slug": "nhsaz-club-foot",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cluster headaches",
+"url": "https://www.nhs.uk/conditions/cluster-headaches/",
+"slug": "nhsaz-cluster-headaches",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Coeliac disease",
+"url": "https://www.nhs.uk/conditions/coeliac-disease/",
+"slug": "nhsaz-coeliac-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cold sores",
+"url": "https://www.nhs.uk/conditions/cold-sores/",
+"slug": "nhsaz-cold-sores",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Colic",
+"url": "https://www.nhs.uk/conditions/colic/",
+"slug": "nhsaz-colic",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Colour vision deficiency (colour blindness)",
+"url": "https://www.nhs.uk/conditions/colour-vision-deficiency/",
+"slug": "nhsaz-colour-vision-deficiency",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Common cold",
+"url": "https://www.nhs.uk/conditions/common-cold/",
+"slug": "nhsaz-common-cold",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Compartment syndrome",
+"url": "https://www.nhs.uk/conditions/compartment-syndrome/",
+"slug": "nhsaz-compartment-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Complex regional pain syndrome",
+"url": "https://www.nhs.uk/conditions/complex-regional-pain-syndrome/",
+"slug": "nhsaz-complex-regional-pain-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Congenital heart disease",
+"url": "https://www.nhs.uk/conditions/congenital-heart-disease/",
+"slug": "nhsaz-congenital-heart-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Contact dermatitis",
+"url": "https://www.nhs.uk/conditions/contact-dermatitis/",
+"slug": "nhsaz-contact-dermatitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Corns and calluses",
+"url": "https://www.nhs.uk/conditions/corns-and-calluses/",
+"slug": "nhsaz-corns-and-calluses",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Coronary heart disease",
+"url": "https://www.nhs.uk/conditions/coronary-heart-disease/",
+"slug": "nhsaz-coronary-heart-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Corticobasal degeneration",
+"url": "https://www.nhs.uk/conditions/corticobasal-degeneration/",
+"slug": "nhsaz-corticobasal-degeneration",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cradle cap",
+"url": "https://www.nhs.uk/conditions/cradle-cap/",
+"slug": "nhsaz-cradle-cap",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Craniosynostosis",
+"url": "https://www.nhs.uk/conditions/craniosynostosis/",
+"slug": "nhsaz-craniosynostosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Crohn&#x27;s disease",
+"url": "https://www.nhs.uk/conditions/crohns-disease/",
+"slug": "nhsaz-crohns-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cushing&#x27;s syndrome",
+"url": "https://www.nhs.uk/conditions/cushings-syndrome/",
+"slug": "nhsaz-cushings-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cyclical vomiting syndrome",
+"url": "https://www.nhs.uk/conditions/cyclical-vomiting-syndrome/",
+"slug": "nhsaz-cyclical-vomiting-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cyclospora",
+"url": "https://www.nhs.uk/conditions/cyclospora/",
+"slug": "nhsaz-cyclospora",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cystic fibrosis",
+"url": "https://www.nhs.uk/conditions/cystic-fibrosis/",
+"slug": "nhsaz-cystic-fibrosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cytomegalovirus (CMV)",
+"url": "https://www.nhs.uk/conditions/cytomegalovirus-cmv/",
+"slug": "nhsaz-cytomegalovirus-cmv",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Dandruff",
+"url": "https://www.nhs.uk/conditions/dandruff/",
+"slug": "nhsaz-dandruff",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Dementia with Lewy bodies",
+"url": "https://www.nhs.uk/conditions/dementia-with-lewy-bodies/",
+"slug": "nhsaz-dementia-with-lewy-bodies",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Dementia",
+"url": "https://www.nhs.uk/conditions/dementia/",
+"slug": "nhsaz-dementia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Dengue",
+"url": "https://www.nhs.uk/conditions/dengue/",
+"slug": "nhsaz-dengue",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Detached retina (retinal detachment)",
+"url": "https://www.nhs.uk/conditions/detached-retina-retinal-detachment/",
+"slug": "nhsaz-detached-retina-retinal-detachment",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Developmental co-ordination disorder (dyspraxia) in children",
+"url": "https://www.nhs.uk/conditions/developmental-coordination-disorder-dyspraxia/",
+"slug": "nhsaz-developmental-coordination-disorder-dyspraxia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Diabetes insipidus",
+"url": "https://www.nhs.uk/conditions/diabetes-insipidus/",
+"slug": "nhsaz-diabetes-insipidus",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Diabetes",
+"url": "https://www.nhs.uk/conditions/diabetes/",
+"slug": "nhsaz-diabetes",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Diabetic ketoacidosis",
+"url": "https://www.nhs.uk/conditions/diabetic-ketoacidosis/",
+"slug": "nhsaz-diabetic-ketoacidosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Diabetic retinopathy",
+"url": "https://www.nhs.uk/conditions/diabetic-retinopathy/",
+"slug": "nhsaz-diabetic-retinopathy",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Differences in sex development",
+"url": "https://www.nhs.uk/conditions/differences-in-sex-development/",
+"slug": "nhsaz-differences-in-sex-development",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "DiGeorge syndrome (22q11 deletion)",
+"url": "https://www.nhs.uk/conditions/digeorge-syndrome/",
+"slug": "nhsaz-digeorge-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Diphtheria",
+"url": "https://www.nhs.uk/conditions/diphtheria/",
+"slug": "nhsaz-diphtheria",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Discoid eczema",
+"url": "https://www.nhs.uk/conditions/discoid-eczema/",
+"slug": "nhsaz-discoid-eczema",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Diverticular disease and diverticulitis",
+"url": "https://www.nhs.uk/conditions/diverticular-disease-and-diverticulitis/",
+"slug": "nhsaz-diverticular-disease-and-diverticulitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Down&#x27;s syndrome",
+"url": "https://www.nhs.uk/conditions/downs-syndrome/",
+"slug": "nhsaz-downs-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Dupuytren&#x27;s contracture",
+"url": "https://www.nhs.uk/conditions/dupuytrens-contracture/",
+"slug": "nhsaz-dupuytrens-contracture",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Dysarthria (difficulty speaking)",
+"url": "https://www.nhs.uk/conditions/dysarthria/",
+"slug": "nhsaz-dysarthria",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Dysentery",
+"url": "https://www.nhs.uk/conditions/dysentery/",
+"slug": "nhsaz-dysentery",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Dyslexia in adults",
+"url": "https://www.nhs.uk/conditions/dyslexia-in-adults/",
+"slug": "nhsaz-dyslexia-in-adults",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Dyslexia in children",
+"url": "https://www.nhs.uk/conditions/dyslexia-in-children/",
+"slug": "nhsaz-dyslexia-in-children",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Dystonia",
+"url": "https://www.nhs.uk/conditions/dystonia/",
+"slug": "nhsaz-dystonia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ear infections",
+"url": "https://www.nhs.uk/conditions/ear-infections/",
+"slug": "nhsaz-ear-infections",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Early or delayed puberty",
+"url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/",
+"slug": "nhsaz-early-or-delayed-puberty",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Early or premature menopause",
+"url": "https://www.nhs.uk/conditions/early-or-premature-menopause/",
+"slug": "nhsaz-early-or-premature-menopause",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Earwax build-up",
+"url": "https://www.nhs.uk/conditions/earwax-build-up/",
+"slug": "nhsaz-earwax-build-up",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ebola virus disease",
+"url": "https://www.nhs.uk/conditions/ebola/",
+"slug": "nhsaz-ebola",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ectropion",
+"url": "https://www.nhs.uk/conditions/ectropion/",
+"slug": "nhsaz-ectropion",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Edwards&#x27; syndrome (trisomy 18)",
+"url": "https://www.nhs.uk/conditions/edwards-syndrome/",
+"slug": "nhsaz-edwards-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ehlers-Danlos syndromes",
+"url": "https://www.nhs.uk/conditions/ehlers-danlos-syndromes/",
+"slug": "nhsaz-ehlers-danlos-syndromes",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ejaculation problems",
+"url": "https://www.nhs.uk/conditions/ejaculation-problems/",
+"slug": "nhsaz-ejaculation-problems",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Encephalitis",
+"url": "https://www.nhs.uk/conditions/encephalitis/",
+"slug": "nhsaz-encephalitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Endocarditis",
+"url": "https://www.nhs.uk/conditions/endocarditis/",
+"slug": "nhsaz-endocarditis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Endometriosis",
+"url": "https://www.nhs.uk/conditions/endometriosis/",
+"slug": "nhsaz-endometriosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Epidermolysis bullosa",
+"url": "https://www.nhs.uk/conditions/epidermolysis-bullosa/",
+"slug": "nhsaz-epidermolysis-bullosa",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Epiglottitis",
+"url": "https://www.nhs.uk/conditions/epiglottitis/",
+"slug": "nhsaz-epiglottitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Epilepsy",
+"url": "https://www.nhs.uk/conditions/epilepsy/",
+"slug": "nhsaz-epilepsy",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Erectile dysfunction (impotence)",
+"url": "https://www.nhs.uk/conditions/erection-problems-erectile-dysfunction/",
+"slug": "nhsaz-erection-problems-erectile-dysfunction",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Erythema multiforme",
+"url": "https://www.nhs.uk/conditions/erythema-multiforme/",
+"slug": "nhsaz-erythema-multiforme",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Erythema nodosum",
+"url": "https://www.nhs.uk/conditions/erythema-nodosum/",
+"slug": "nhsaz-erythema-nodosum",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Erythrocytosis",
+"url": "https://www.nhs.uk/conditions/erythrocytosis/",
+"slug": "nhsaz-erythrocytosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Erythromelalgia",
+"url": "https://www.nhs.uk/conditions/erythromelalgia/",
+"slug": "nhsaz-erythromelalgia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Excessive daytime sleepiness (hypersomnia)",
+"url": "https://www.nhs.uk/conditions/excessive-daytime-sleepiness-hypersomnia/",
+"slug": "nhsaz-excessive-daytime-sleepiness-hypersomnia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Excessive sweating (hyperhidrosis)",
+"url": "https://www.nhs.uk/conditions/excessive-sweating-hyperhidrosis/",
+"slug": "nhsaz-excessive-sweating-hyperhidrosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Eye cancer",
+"url": "https://www.nhs.uk/conditions/eye-cancer/",
+"slug": "nhsaz-eye-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Female genital mutilation (FGM)",
+"url": "https://www.nhs.uk/conditions/female-genital-mutilation-fgm/",
+"slug": "nhsaz-female-genital-mutilation-fgm",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Fetal alcohol spectrum disorder",
+"url": "https://www.nhs.uk/conditions/fetal-alcohol-spectrum-disorder/",
+"slug": "nhsaz-fetal-alcohol-spectrum-disorder",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Fibroids",
+"url": "https://www.nhs.uk/conditions/fibroids/",
+"slug": "nhsaz-fibroids",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Fibromyalgia",
+"url": "https://www.nhs.uk/conditions/fibromyalgia/",
+"slug": "nhsaz-fibromyalgia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Flat feet",
+"url": "https://www.nhs.uk/conditions/flat-feet/",
+"slug": "nhsaz-flat-feet",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Flu",
+"url": "https://www.nhs.uk/conditions/flu/",
+"slug": "nhsaz-flu",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Food allergy",
+"url": "https://www.nhs.uk/conditions/food-allergy/",
+"slug": "nhsaz-food-allergy",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Food intolerance",
+"url": "https://www.nhs.uk/conditions/food-intolerance/",
+"slug": "nhsaz-food-intolerance",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Food poisoning",
+"url": "https://www.nhs.uk/conditions/food-poisoning/",
+"slug": "nhsaz-food-poisoning",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Foot drop",
+"url": "https://www.nhs.uk/conditions/foot-drop/",
+"slug": "nhsaz-foot-drop",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Frostbite",
+"url": "https://www.nhs.uk/conditions/frostbite/",
+"slug": "nhsaz-frostbite",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Frozen shoulder",
+"url": "https://www.nhs.uk/conditions/frozen-shoulder/",
+"slug": "nhsaz-frozen-shoulder",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Fungal nail infection",
+"url": "https://www.nhs.uk/conditions/fungal-nail-infection/",
+"slug": "nhsaz-fungal-nail-infection",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Gallbladder cancer",
+"url": "https://www.nhs.uk/conditions/gallbladder-cancer/",
+"slug": "nhsaz-gallbladder-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ganglion cyst",
+"url": "https://www.nhs.uk/conditions/ganglion-cyst/",
+"slug": "nhsaz-ganglion-cyst",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Gangrene",
+"url": "https://www.nhs.uk/conditions/gangrene/",
+"slug": "nhsaz-gangrene",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Gastritis",
+"url": "https://www.nhs.uk/conditions/gastritis/",
+"slug": "nhsaz-gastritis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Gastroparesis",
+"url": "https://www.nhs.uk/conditions/gastroparesis/",
+"slug": "nhsaz-gastroparesis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Gender dysphoria and incongruence",
+"url": "https://www.nhs.uk/conditions/gender-dysphoria-and-incongruence/",
+"slug": "nhsaz-gender-dysphoria-and-incongruence",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Genital herpes",
+"url": "https://www.nhs.uk/conditions/genital-herpes/",
+"slug": "nhsaz-genital-herpes",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Genital warts",
+"url": "https://www.nhs.uk/conditions/genital-warts/",
+"slug": "nhsaz-genital-warts",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Gilbert&#x27;s syndrome",
+"url": "https://www.nhs.uk/conditions/gilberts-syndrome/",
+"slug": "nhsaz-gilberts-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Glaucoma",
+"url": "https://www.nhs.uk/conditions/glaucoma/",
+"slug": "nhsaz-glaucoma",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Glomerulonephritis",
+"url": "https://www.nhs.uk/conditions/glomerulonephritis/",
+"slug": "nhsaz-glomerulonephritis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Glue ear",
+"url": "https://www.nhs.uk/conditions/glue-ear/",
+"slug": "nhsaz-glue-ear",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Goitre",
+"url": "https://www.nhs.uk/conditions/goitre/",
+"slug": "nhsaz-goitre",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Gonorrhoea",
+"url": "https://www.nhs.uk/conditions/gonorrhoea/",
+"slug": "nhsaz-gonorrhoea",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Granuloma annulare",
+"url": "https://www.nhs.uk/conditions/granuloma-annulare/",
+"slug": "nhsaz-granuloma-annulare",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Granulomatosis with polyangiitis (GPA)",
+"url": "https://www.nhs.uk/conditions/granulomatosis-with-polyangiitis/",
+"slug": "nhsaz-granulomatosis-with-polyangiitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Group B strep",
+"url": "https://www.nhs.uk/conditions/group-b-strep/",
+"slug": "nhsaz-group-b-strep",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Growing pains",
+"url": "https://www.nhs.uk/conditions/growing-pains/",
+"slug": "nhsaz-growing-pains",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Guillain-Barré syndrome",
+"url": "https://www.nhs.uk/conditions/guillain-barre-syndrome/",
+"slug": "nhsaz-guillain-barre-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Gum disease",
+"url": "https://www.nhs.uk/conditions/gum-disease/",
+"slug": "nhsaz-gum-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Gynaecomastia",
+"url": "https://www.nhs.uk/conditions/gynaecomastia/",
+"slug": "nhsaz-gynaecomastia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Haemochromatosis",
+"url": "https://www.nhs.uk/conditions/haemochromatosis/",
+"slug": "nhsaz-haemochromatosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Haemophilia",
+"url": "https://www.nhs.uk/conditions/haemophilia/",
+"slug": "nhsaz-haemophilia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hamstring injury",
+"url": "https://www.nhs.uk/conditions/hamstring-injury/",
+"slug": "nhsaz-hamstring-injury",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hantavirus",
+"url": "https://www.nhs.uk/conditions/hantavirus/",
+"slug": "nhsaz-hantavirus",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hay fever",
+"url": "https://www.nhs.uk/conditions/hay-fever/",
+"slug": "nhsaz-hay-fever",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Heart block",
+"url": "https://www.nhs.uk/conditions/heart-block/",
+"slug": "nhsaz-heart-block",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Heart valve disease",
+"url": "https://www.nhs.uk/conditions/heart-valve-disease/",
+"slug": "nhsaz-heart-valve-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Heat rash (prickly heat)",
+"url": "https://www.nhs.uk/conditions/heat-rash-prickly-heat/",
+"slug": "nhsaz-heat-rash-prickly-heat",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Henoch-Schönlein purpura (HSP)",
+"url": "https://www.nhs.uk/conditions/henoch-schonlein-purpura-hsp/",
+"slug": "nhsaz-henoch-schonlein-purpura-hsp",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hepatitis A",
+"url": "https://www.nhs.uk/conditions/hepatitis-a/",
+"slug": "nhsaz-hepatitis-a",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hepatitis B",
+"url": "https://www.nhs.uk/conditions/hepatitis-b/",
+"slug": "nhsaz-hepatitis-b",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hepatitis C",
+"url": "https://www.nhs.uk/conditions/hepatitis-c/",
+"slug": "nhsaz-hepatitis-c",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hepatitis",
+"url": "https://www.nhs.uk/conditions/hepatitis/",
+"slug": "nhsaz-hepatitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hereditary haemorrhagic telangiectasia (HHT)",
+"url": "https://www.nhs.uk/conditions/hereditary-haemorrahagic-telangiectasia/",
+"slug": "nhsaz-hereditary-haemorrahagic-telangiectasia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hereditary spastic paraplegia",
+"url": "https://www.nhs.uk/conditions/hereditary-spastic-paraplegia/",
+"slug": "nhsaz-hereditary-spastic-paraplegia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Herpetic whitlow (whitlow finger)",
+"url": "https://www.nhs.uk/conditions/herpetic-whitlow/",
+"slug": "nhsaz-herpetic-whitlow",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Haemophilus influenzae type b (Hib)",
+"url": "https://www.nhs.uk/conditions/hib/",
+"slug": "nhsaz-hib",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hidradenitis suppurativa (HS)",
+"url": "https://www.nhs.uk/conditions/hidradenitis-suppurativa/",
+"slug": "nhsaz-hidradenitis-suppurativa",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "High blood sugar (hyperglycaemia)",
+"url": "https://www.nhs.uk/conditions/high-blood-sugar-hyperglycaemia/",
+"slug": "nhsaz-high-blood-sugar-hyperglycaemia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hirschsprung&#x27;s disease",
+"url": "https://www.nhs.uk/conditions/hirschsprungs-disease/",
+"slug": "nhsaz-hirschsprungs-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "HIV and AIDS",
+"url": "https://www.nhs.uk/conditions/hiv-and-aids/",
+"slug": "nhsaz-hiv-and-aids",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hives",
+"url": "https://www.nhs.uk/conditions/hives/",
+"slug": "nhsaz-hives",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hodgkin lymphoma",
+"url": "https://www.nhs.uk/conditions/hodgkin-lymphoma/",
+"slug": "nhsaz-hodgkin-lymphoma",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Human papillomavirus (HPV)",
+"url": "https://www.nhs.uk/conditions/human-papilloma-virus-hpv/",
+"slug": "nhsaz-human-papilloma-virus-hpv",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Huntington&#x27;s disease",
+"url": "https://www.nhs.uk/conditions/huntingtons-disease/",
+"slug": "nhsaz-huntingtons-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hydrocephalus",
+"url": "https://www.nhs.uk/conditions/hydrocephalus/",
+"slug": "nhsaz-hydrocephalus",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hydronephrosis",
+"url": "https://www.nhs.uk/conditions/hydronephrosis/",
+"slug": "nhsaz-hydronephrosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hyperparathyroidism",
+"url": "https://www.nhs.uk/conditions/hyperparathyroidism/",
+"slug": "nhsaz-hyperparathyroidism",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hypoparathyroidism",
+"url": "https://www.nhs.uk/conditions/hypoparathyroidism/",
+"slug": "nhsaz-hypoparathyroidism",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ichthyosis",
+"url": "https://www.nhs.uk/conditions/ichthyosis/",
+"slug": "nhsaz-ichthyosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Idiopathic pulmonary fibrosis",
+"url": "https://www.nhs.uk/conditions/idiopathic-pulmonary-fibrosis/",
+"slug": "nhsaz-idiopathic-pulmonary-fibrosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Indigestion",
+"url": "https://www.nhs.uk/conditions/indigestion/",
+"slug": "nhsaz-indigestion",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Infected piercings",
+"url": "https://www.nhs.uk/conditions/infected-piercings/",
+"slug": "nhsaz-infected-piercings",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Infertility",
+"url": "https://www.nhs.uk/conditions/infertility/",
+"slug": "nhsaz-infertility",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ingrown hairs",
+"url": "https://www.nhs.uk/conditions/ingrown-hairs/",
+"slug": "nhsaz-ingrown-hairs",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ingrown toenail",
+"url": "https://www.nhs.uk/conditions/ingrown-toenail/",
+"slug": "nhsaz-ingrown-toenail",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Insomnia",
+"url": "https://www.nhs.uk/conditions/insomnia/",
+"slug": "nhsaz-insomnia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Intracranial hypertension",
+"url": "https://www.nhs.uk/conditions/intracranial-hypertension/",
+"slug": "nhsaz-intracranial-hypertension",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Irritable bowel syndrome (IBS)",
+"url": "https://www.nhs.uk/conditions/irritable-bowel-syndrome-ibs/",
+"slug": "nhsaz-irritable-bowel-syndrome-ibs",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Japanese encephalitis",
+"url": "https://www.nhs.uk/conditions/japanese-encephalitis/",
+"slug": "nhsaz-japanese-encephalitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Jaundice in babies",
+"url": "https://www.nhs.uk/conditions/jaundice-in-babies/",
+"slug": "nhsaz-jaundice-in-babies",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Jaundice",
+"url": "https://www.nhs.uk/conditions/jaundice/",
+"slug": "nhsaz-jaundice",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Jellyfish and other sea creature stings",
+"url": "https://www.nhs.uk/conditions/jellyfish-and-other-sea-creature-stings/",
+"slug": "nhsaz-jellyfish-and-other-sea-creature-stings",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Jet lag",
+"url": "https://www.nhs.uk/conditions/jet-lag/",
+"slug": "nhsaz-jet-lag",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Kawasaki disease",
+"url": "https://www.nhs.uk/conditions/kawasaki-disease/",
+"slug": "nhsaz-kawasaki-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Keloid scars",
+"url": "https://www.nhs.uk/conditions/keloid-scars/",
+"slug": "nhsaz-keloid-scars",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Keratosis pilaris",
+"url": "https://www.nhs.uk/conditions/keratosis-pilaris/",
+"slug": "nhsaz-keratosis-pilaris",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Kidney cancer",
+"url": "https://www.nhs.uk/conditions/kidney-cancer/",
+"slug": "nhsaz-kidney-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Chronic kidney disease",
+"url": "https://www.nhs.uk/conditions/kidney-disease/",
+"slug": "nhsaz-kidney-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Klinefelter syndrome",
+"url": "https://www.nhs.uk/conditions/klinefelters-syndrome/",
+"slug": "nhsaz-klinefelters-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Knock knees",
+"url": "https://www.nhs.uk/conditions/knock-knees/",
+"slug": "nhsaz-knock-knees",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Knocked-out tooth",
+"url": "https://www.nhs.uk/conditions/knocked-out-tooth/",
+"slug": "nhsaz-knocked-out-tooth",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Kyphosis",
+"url": "https://www.nhs.uk/conditions/kyphosis/",
+"slug": "nhsaz-kyphosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Labial fusion",
+"url": "https://www.nhs.uk/conditions/labial-fusion/",
+"slug": "nhsaz-labial-fusion",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Labyrinthitis and vestibular neuritis",
+"url": "https://www.nhs.uk/conditions/labyrinthitis/",
+"slug": "nhsaz-labyrinthitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Lactose intolerance",
+"url": "https://www.nhs.uk/conditions/lactose-intolerance/",
+"slug": "nhsaz-lactose-intolerance",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Lambert-Eaton myasthenic syndrome",
+"url": "https://www.nhs.uk/conditions/lambert-eaton-myasthenic-syndrome/",
+"slug": "nhsaz-lambert-eaton-myasthenic-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Laryngeal cancer",
+"url": "https://www.nhs.uk/conditions/laryngeal-cancer/",
+"slug": "nhsaz-laryngeal-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Laryngitis",
+"url": "https://www.nhs.uk/conditions/laryngitis/",
+"slug": "nhsaz-laryngitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Learning disabilities",
+"url": "https://www.nhs.uk/conditions/learning-disabilities/",
+"slug": "nhsaz-learning-disabilities",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Leg cramps",
+"url": "https://www.nhs.uk/conditions/leg-cramps/",
+"slug": "nhsaz-leg-cramps",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Legionnaires&#x27; disease",
+"url": "https://www.nhs.uk/conditions/legionnaires-disease/",
+"slug": "nhsaz-legionnaires-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Leptospirosis (Weil&#x27;s disease)",
+"url": "https://www.nhs.uk/conditions/leptospirosis/",
+"slug": "nhsaz-leptospirosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Leukoplakia",
+"url": "https://www.nhs.uk/conditions/leukoplakia/",
+"slug": "nhsaz-leukoplakia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Lichen planus",
+"url": "https://www.nhs.uk/conditions/lichen-planus/",
+"slug": "nhsaz-lichen-planus",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Lichen sclerosus",
+"url": "https://www.nhs.uk/conditions/lichen-sclerosus/",
+"slug": "nhsaz-lichen-sclerosus",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Lipoedema",
+"url": "https://www.nhs.uk/conditions/lipoedema/",
+"slug": "nhsaz-lipoedema",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Lipoma",
+"url": "https://www.nhs.uk/conditions/lipoma/",
+"slug": "nhsaz-lipoma",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Listeriosis",
+"url": "https://www.nhs.uk/conditions/listeriosis/",
+"slug": "nhsaz-listeriosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Liver cancer",
+"url": "https://www.nhs.uk/conditions/liver-cancer/",
+"slug": "nhsaz-liver-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Liver disease",
+"url": "https://www.nhs.uk/conditions/liver-disease/",
+"slug": "nhsaz-liver-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Long COVID",
+"url": "https://www.nhs.uk/conditions/long-covid/",
+"slug": "nhsaz-long-covid",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Long QT syndrome",
+"url": "https://www.nhs.uk/conditions/long-qt-syndrome/",
+"slug": "nhsaz-long-qt-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Long-sightedness",
+"url": "https://www.nhs.uk/conditions/long-sightedness/",
+"slug": "nhsaz-long-sightedness",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Low sperm count",
+"url": "https://www.nhs.uk/conditions/low-sperm-count/",
+"slug": "nhsaz-low-sperm-count",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Low white blood cell count",
+"url": "https://www.nhs.uk/conditions/low-white-blood-cell-count/",
+"slug": "nhsaz-low-white-blood-cell-count",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Lung cancer",
+"url": "https://www.nhs.uk/conditions/lung-cancer/",
+"slug": "nhsaz-lung-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Lupus",
+"url": "https://www.nhs.uk/conditions/lupus/",
+"slug": "nhsaz-lupus",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Lyme disease",
+"url": "https://www.nhs.uk/conditions/lyme-disease/",
+"slug": "nhsaz-lyme-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Lymphoedema",
+"url": "https://www.nhs.uk/conditions/lymphoedema/",
+"slug": "nhsaz-lymphoedema",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Macular hole",
+"url": "https://www.nhs.uk/conditions/macular-hole/",
+"slug": "nhsaz-macular-hole",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Malaria",
+"url": "https://www.nhs.uk/conditions/malaria/",
+"slug": "nhsaz-malaria",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Malignant brain tumour (brain cancer)",
+"url": "https://www.nhs.uk/conditions/malignant-brain-tumour/",
+"slug": "nhsaz-malignant-brain-tumour",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Mallet finger",
+"url": "https://www.nhs.uk/conditions/mallet-finger/",
+"slug": "nhsaz-mallet-finger",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Malnutrition",
+"url": "https://www.nhs.uk/conditions/malnutrition/",
+"slug": "nhsaz-malnutrition",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Marfan syndrome",
+"url": "https://www.nhs.uk/conditions/marfan-syndrome/",
+"slug": "nhsaz-marfan-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Mastocytosis",
+"url": "https://www.nhs.uk/conditions/mastocytosis/",
+"slug": "nhsaz-mastocytosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Mastoiditis",
+"url": "https://www.nhs.uk/conditions/mastoiditis/",
+"slug": "nhsaz-mastoiditis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Measles",
+"url": "https://www.nhs.uk/conditions/measles/",
+"slug": "nhsaz-measles",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Melanoma skin cancer",
+"url": "https://www.nhs.uk/conditions/melanoma-skin-cancer/",
+"slug": "nhsaz-melanoma-skin-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ménière&#x27;s disease",
+"url": "https://www.nhs.uk/conditions/menieres-disease/",
+"slug": "nhsaz-menieres-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Menopause and perimenopause",
+"url": "https://www.nhs.uk/conditions/menopause-and-perimenopause/",
+"slug": "nhsaz-menopause-and-perimenopause",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Mesothelioma",
+"url": "https://www.nhs.uk/conditions/mesothelioma/",
+"slug": "nhsaz-mesothelioma",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Metabolic syndrome",
+"url": "https://www.nhs.uk/conditions/metabolic-syndrome/",
+"slug": "nhsaz-metabolic-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Middle East respiratory syndrome (MERS)",
+"url": "https://www.nhs.uk/conditions/middle-east-respiratory-syndrome-mers/",
+"slug": "nhsaz-middle-east-respiratory-syndrome-mers",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Molar pregnancy",
+"url": "https://www.nhs.uk/conditions/molar-pregnancy/",
+"slug": "nhsaz-molar-pregnancy",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Moles",
+"url": "https://www.nhs.uk/conditions/moles/",
+"slug": "nhsaz-moles",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Molluscum contagiosum",
+"url": "https://www.nhs.uk/conditions/molluscum-contagiosum/",
+"slug": "nhsaz-molluscum-contagiosum",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Morton&#x27;s neuroma",
+"url": "https://www.nhs.uk/conditions/mortons-neuroma/",
+"slug": "nhsaz-mortons-neuroma",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Motion sickness",
+"url": "https://www.nhs.uk/conditions/motion-sickness/",
+"slug": "nhsaz-motion-sickness",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Motor neurone disease (MND)",
+"url": "https://www.nhs.uk/conditions/motor-neurone-disease/",
+"slug": "nhsaz-motor-neurone-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Mouth cancer",
+"url": "https://www.nhs.uk/conditions/mouth-cancer/",
+"slug": "nhsaz-mouth-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Mouth ulcers",
+"url": "https://www.nhs.uk/conditions/mouth-ulcers/",
+"slug": "nhsaz-mouth-ulcers",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Mpox",
+"url": "https://www.nhs.uk/conditions/mpox/",
+"slug": "nhsaz-mpox",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "MRSA",
+"url": "https://www.nhs.uk/conditions/mrsa/",
+"slug": "nhsaz-mrsa",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Mucositis",
+"url": "https://www.nhs.uk/conditions/mucositis/",
+"slug": "nhsaz-mucositis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Multiple sclerosis",
+"url": "https://www.nhs.uk/conditions/multiple-sclerosis/",
+"slug": "nhsaz-multiple-sclerosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Multiple system atrophy (MSA)",
+"url": "https://www.nhs.uk/conditions/multiple-system-atrophy/",
+"slug": "nhsaz-multiple-system-atrophy",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Mumps",
+"url": "https://www.nhs.uk/conditions/mumps/",
+"slug": "nhsaz-mumps",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Muscular dystrophy",
+"url": "https://www.nhs.uk/conditions/muscular-dystrophy/",
+"slug": "nhsaz-muscular-dystrophy",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Myasthenia gravis",
+"url": "https://www.nhs.uk/conditions/myasthenia-gravis/",
+"slug": "nhsaz-myasthenia-gravis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Myelodysplastic syndrome (MDS)",
+"url": "https://www.nhs.uk/conditions/myelodysplastic-syndrome-mds/",
+"slug": "nhsaz-myelodysplastic-syndrome-mds",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Myeloma",
+"url": "https://www.nhs.uk/conditions/myeloma/",
+"slug": "nhsaz-myeloma",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Myositis",
+"url": "https://www.nhs.uk/conditions/myositis/",
+"slug": "nhsaz-myositis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Narcolepsy",
+"url": "https://www.nhs.uk/conditions/narcolepsy/",
+"slug": "nhsaz-narcolepsy",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Nasal and sinus cancer",
+"url": "https://www.nhs.uk/conditions/nasal-and-sinus-cancer/",
+"slug": "nhsaz-nasal-and-sinus-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Nasal polyps",
+"url": "https://www.nhs.uk/conditions/nasal-polyps/",
+"slug": "nhsaz-nasal-polyps",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Nasopharyngeal cancer",
+"url": "https://www.nhs.uk/conditions/nasopharyngeal-cancer/",
+"slug": "nhsaz-nasopharyngeal-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Necrotising fasciitis",
+"url": "https://www.nhs.uk/conditions/necrotising-fasciitis/",
+"slug": "nhsaz-necrotising-fasciitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Newborn respiratory distress syndrome",
+"url": "https://www.nhs.uk/conditions/neonatal-respiratory-distress-syndrome/",
+"slug": "nhsaz-neonatal-respiratory-distress-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Nephrotic syndrome in children",
+"url": "https://www.nhs.uk/conditions/nephrotic-syndrome/",
+"slug": "nhsaz-nephrotic-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Neurofibromatosis type 1 (NF1)",
+"url": "https://www.nhs.uk/conditions/neurofibromatosis-type-1/",
+"slug": "nhsaz-neurofibromatosis-type-1",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Neurofibromatosis type 2 (NF2)",
+"url": "https://www.nhs.uk/conditions/neurofibromatosis-type-2/",
+"slug": "nhsaz-neurofibromatosis-type-2",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Neuromyelitis optica (NMO)",
+"url": "https://www.nhs.uk/conditions/neuromyelitis-optica/",
+"slug": "nhsaz-neuromyelitis-optica",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Night terrors and nightmares",
+"url": "https://www.nhs.uk/conditions/night-terrors/",
+"slug": "nhsaz-night-terrors",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Non-alcoholic fatty liver disease (NAFLD)",
+"url": "https://www.nhs.uk/conditions/non-alcoholic-fatty-liver-disease/",
+"slug": "nhsaz-non-alcoholic-fatty-liver-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Non-allergic rhinitis",
+"url": "https://www.nhs.uk/conditions/non-allergic-rhinitis/",
+"slug": "nhsaz-non-allergic-rhinitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Non-melanoma skin cancer",
+"url": "https://www.nhs.uk/conditions/non-melanoma-skin-cancer/",
+"slug": "nhsaz-non-melanoma-skin-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Noonan syndrome",
+"url": "https://www.nhs.uk/conditions/noonan-syndrome/",
+"slug": "nhsaz-noonan-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Norovirus (vomiting bug)",
+"url": "https://www.nhs.uk/conditions/norovirus/",
+"slug": "nhsaz-norovirus",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Oesophageal atresia and tracheo-oesophageal fistula",
+"url": "https://www.nhs.uk/conditions/oesophageal-atresia/",
+"slug": "nhsaz-oesophageal-atresia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Oesophageal cancer",
+"url": "https://www.nhs.uk/conditions/oesophageal-cancer/",
+"slug": "nhsaz-oesophageal-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Orf",
+"url": "https://www.nhs.uk/conditions/orf/",
+"slug": "nhsaz-orf",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Osteomyelitis",
+"url": "https://www.nhs.uk/conditions/osteomyelitis/",
+"slug": "nhsaz-osteomyelitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Osteophyte (bone spur)",
+"url": "https://www.nhs.uk/conditions/osteophyte/",
+"slug": "nhsaz-osteophyte",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Osteoporosis",
+"url": "https://www.nhs.uk/conditions/osteoporosis/",
+"slug": "nhsaz-osteoporosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Otosclerosis",
+"url": "https://www.nhs.uk/conditions/otosclerosis/",
+"slug": "nhsaz-otosclerosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ovarian cancer",
+"url": "https://www.nhs.uk/conditions/ovarian-cancer/",
+"slug": "nhsaz-ovarian-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ovarian cyst",
+"url": "https://www.nhs.uk/conditions/ovarian-cyst/",
+"slug": "nhsaz-ovarian-cyst",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Paget&#x27;s disease of bone",
+"url": "https://www.nhs.uk/conditions/pagets-disease-bone/",
+"slug": "nhsaz-pagets-disease-bone",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Paget&#x27;s disease of the nipple",
+"url": "https://www.nhs.uk/conditions/pagets-disease-nipple/",
+"slug": "nhsaz-pagets-disease-nipple",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Pancreatic cancer",
+"url": "https://www.nhs.uk/conditions/pancreatic-cancer/",
+"slug": "nhsaz-pancreatic-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Parkinson&#x27;s disease",
+"url": "https://www.nhs.uk/conditions/parkinsons-disease/",
+"slug": "nhsaz-parkinsons-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Patau&#x27;s syndrome",
+"url": "https://www.nhs.uk/conditions/pataus-syndrome/",
+"slug": "nhsaz-pataus-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Pelvic organ prolapse",
+"url": "https://www.nhs.uk/conditions/pelvic-organ-prolapse/",
+"slug": "nhsaz-pelvic-organ-prolapse",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Pemphigus vulgaris",
+"url": "https://www.nhs.uk/conditions/pemphigus-vulgaris/",
+"slug": "nhsaz-pemphigus-vulgaris",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Penile cancer",
+"url": "https://www.nhs.uk/conditions/penile-cancer/",
+"slug": "nhsaz-penile-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Periods",
+"url": "https://www.nhs.uk/conditions/periods/",
+"slug": "nhsaz-periods",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Peripheral arterial disease (PAD)",
+"url": "https://www.nhs.uk/conditions/peripheral-arterial-disease-pad/",
+"slug": "nhsaz-peripheral-arterial-disease-pad",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Peripheral neuropathy",
+"url": "https://www.nhs.uk/conditions/peripheral-neuropathy/",
+"slug": "nhsaz-peripheral-neuropathy",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Peritonitis",
+"url": "https://www.nhs.uk/conditions/peritonitis/",
+"slug": "nhsaz-peritonitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Peyronie&#x27;s disease",
+"url": "https://www.nhs.uk/conditions/peyronies-disease/",
+"slug": "nhsaz-peyronies-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Phaeochromocytoma",
+"url": "https://www.nhs.uk/conditions/phaeochromocytoma/",
+"slug": "nhsaz-phaeochromocytoma",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Phlebitis (superficial thrombophlebitis)",
+"url": "https://www.nhs.uk/conditions/phlebitis/",
+"slug": "nhsaz-phlebitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Pilonidal sinus",
+"url": "https://www.nhs.uk/conditions/pilonidal-sinus/",
+"slug": "nhsaz-pilonidal-sinus",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Pityriasis rosea",
+"url": "https://www.nhs.uk/conditions/pityriasis-rosea/",
+"slug": "nhsaz-pityriasis-rosea",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Pityriasis versicolor",
+"url": "https://www.nhs.uk/conditions/pityriasis-versicolor/",
+"slug": "nhsaz-pityriasis-versicolor",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Plantar fasciitis",
+"url": "https://www.nhs.uk/conditions/plantar-fasciitis/",
+"slug": "nhsaz-plantar-fasciitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "PMDD (premenstrual dysphoric disorder)",
+"url": "https://www.nhs.uk/conditions/pmdd-premenstrual-dysphoric-disorder/",
+"slug": "nhsaz-pmdd-premenstrual-dysphoric-disorder",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Polio",
+"url": "https://www.nhs.uk/conditions/polio/",
+"slug": "nhsaz-polio",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Polyhydramnios (too much amniotic fluid)",
+"url": "https://www.nhs.uk/conditions/polyhydramnios/",
+"slug": "nhsaz-polyhydramnios",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Polymorphic light eruption",
+"url": "https://www.nhs.uk/conditions/polymorphic-light-eruption/",
+"slug": "nhsaz-polymorphic-light-eruption",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Polymyalgia rheumatica",
+"url": "https://www.nhs.uk/conditions/polymyalgia-rheumatica/",
+"slug": "nhsaz-polymyalgia-rheumatica",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Pompholyx (dyshidrotic eczema)",
+"url": "https://www.nhs.uk/conditions/pompholyx/",
+"slug": "nhsaz-pompholyx",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Post-herpetic neuralgia",
+"url": "https://www.nhs.uk/conditions/post-herpetic-neuralgia/",
+"slug": "nhsaz-post-herpetic-neuralgia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Prader-Willi syndrome",
+"url": "https://www.nhs.uk/conditions/prader-willi-syndrome/",
+"slug": "nhsaz-prader-willi-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Pre-eclampsia",
+"url": "https://www.nhs.uk/conditions/pre-eclampsia/",
+"slug": "nhsaz-pre-eclampsia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "PMS (premenstrual syndrome)",
+"url": "https://www.nhs.uk/conditions/pre-menstrual-syndrome/",
+"slug": "nhsaz-pre-menstrual-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Pressure ulcers (pressure sores)",
+"url": "https://www.nhs.uk/conditions/pressure-sores/",
+"slug": "nhsaz-pressure-sores",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Primary biliary cholangitis (primary biliary cirrhosis)",
+"url": "https://www.nhs.uk/conditions/primary-biliary-cholangitis-pbc/",
+"slug": "nhsaz-primary-biliary-cholangitis-pbc",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Problems swallowing pills",
+"url": "https://www.nhs.uk/conditions/problems-swallowing-pills/",
+"slug": "nhsaz-problems-swallowing-pills",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Progressive supranuclear palsy",
+"url": "https://www.nhs.uk/conditions/progressive-supranuclear-palsy-psp/",
+"slug": "nhsaz-progressive-supranuclear-palsy-psp",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Prostate cancer",
+"url": "https://www.nhs.uk/conditions/prostate-cancer/",
+"slug": "nhsaz-prostate-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Prostatitis",
+"url": "https://www.nhs.uk/conditions/prostatitis/",
+"slug": "nhsaz-prostatitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Psoriasis",
+"url": "https://www.nhs.uk/conditions/psoriasis/",
+"slug": "nhsaz-psoriasis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Psoriatic arthritis",
+"url": "https://www.nhs.uk/conditions/psoriatic-arthritis/",
+"slug": "nhsaz-psoriatic-arthritis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Pubic lice",
+"url": "https://www.nhs.uk/conditions/pubic-lice/",
+"slug": "nhsaz-pubic-lice",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Pudendal neuralgia",
+"url": "https://www.nhs.uk/conditions/pudendal-neuralgia/",
+"slug": "nhsaz-pudendal-neuralgia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Pulmonary hypertension",
+"url": "https://www.nhs.uk/conditions/pulmonary-hypertension/",
+"slug": "nhsaz-pulmonary-hypertension",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Pyoderma gangrenosum",
+"url": "https://www.nhs.uk/conditions/pyoderma-gangrenosum/",
+"slug": "nhsaz-pyoderma-gangrenosum",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Q fever",
+"url": "https://www.nhs.uk/conditions/q-fever/",
+"slug": "nhsaz-q-fever",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Rabies",
+"url": "https://www.nhs.uk/conditions/rabies/",
+"slug": "nhsaz-rabies",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Raynaud&#x27;s",
+"url": "https://www.nhs.uk/conditions/raynauds/",
+"slug": "nhsaz-raynauds",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Reactive arthritis",
+"url": "https://www.nhs.uk/conditions/reactive-arthritis/",
+"slug": "nhsaz-reactive-arthritis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Repetitive strain injury (RSI)",
+"url": "https://www.nhs.uk/conditions/repetitive-strain-injury-rsi/",
+"slug": "nhsaz-repetitive-strain-injury-rsi",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Respiratory syncytial virus (RSV)",
+"url": "https://www.nhs.uk/conditions/respiratory-syncytial-virus-rsv/",
+"slug": "nhsaz-respiratory-syncytial-virus-rsv",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Respiratory tract infections (RTIs)",
+"url": "https://www.nhs.uk/conditions/respiratory-tract-infection/",
+"slug": "nhsaz-respiratory-tract-infection",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Restless legs syndrome",
+"url": "https://www.nhs.uk/conditions/restless-legs-syndrome/",
+"slug": "nhsaz-restless-legs-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Rett syndrome",
+"url": "https://www.nhs.uk/conditions/rett-syndrome/",
+"slug": "nhsaz-rett-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Reye&#x27;s syndrome",
+"url": "https://www.nhs.uk/conditions/reyes-syndrome/",
+"slug": "nhsaz-reyes-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Haemolytic disease of the fetus and newborn (HDFN)",
+"url": "https://www.nhs.uk/conditions/rhesus-disease-hdfn/",
+"slug": "nhsaz-rhesus-disease-hdfn",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Rheumatic fever",
+"url": "https://www.nhs.uk/conditions/rheumatic-fever/",
+"slug": "nhsaz-rheumatic-fever",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Rheumatoid arthritis",
+"url": "https://www.nhs.uk/conditions/rheumatoid-arthritis/",
+"slug": "nhsaz-rheumatoid-arthritis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ringworm",
+"url": "https://www.nhs.uk/conditions/ringworm/",
+"slug": "nhsaz-ringworm",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Rosacea",
+"url": "https://www.nhs.uk/conditions/rosacea/",
+"slug": "nhsaz-rosacea",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Roseola",
+"url": "https://www.nhs.uk/conditions/roseola/",
+"slug": "nhsaz-roseola",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Salivary gland stones",
+"url": "https://www.nhs.uk/conditions/salivary-gland-stones/",
+"slug": "nhsaz-salivary-gland-stones",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Sarcoidosis",
+"url": "https://www.nhs.uk/conditions/sarcoidosis/",
+"slug": "nhsaz-sarcoidosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Scarlet fever",
+"url": "https://www.nhs.uk/conditions/scarlet-fever/",
+"slug": "nhsaz-scarlet-fever",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Scars",
+"url": "https://www.nhs.uk/conditions/scars/",
+"slug": "nhsaz-scars",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Scleroderma",
+"url": "https://www.nhs.uk/conditions/scleroderma/",
+"slug": "nhsaz-scleroderma",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Scoliosis",
+"url": "https://www.nhs.uk/conditions/scoliosis/",
+"slug": "nhsaz-scoliosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Scurvy",
+"url": "https://www.nhs.uk/conditions/scurvy/",
+"slug": "nhsaz-scurvy",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Septic arthritis",
+"url": "https://www.nhs.uk/conditions/septic-arthritis/",
+"slug": "nhsaz-septic-arthritis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Shin splints",
+"url": "https://www.nhs.uk/conditions/shin-splints/",
+"slug": "nhsaz-shin-splints",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Shoulder impingement",
+"url": "https://www.nhs.uk/conditions/shoulder-impingement-syndrome/",
+"slug": "nhsaz-shoulder-impingement-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Sick building syndrome",
+"url": "https://www.nhs.uk/conditions/sick-building-syndrome/",
+"slug": "nhsaz-sick-building-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Silicosis",
+"url": "https://www.nhs.uk/conditions/silicosis/",
+"slug": "nhsaz-silicosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Sjögren&#x27;s syndrome",
+"url": "https://www.nhs.uk/conditions/sjogrens-syndrome/",
+"slug": "nhsaz-sjogrens-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Skin abscess",
+"url": "https://www.nhs.uk/conditions/skin-abscess/",
+"slug": "nhsaz-skin-abscess",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Skin cyst",
+"url": "https://www.nhs.uk/conditions/skin-cyst/",
+"slug": "nhsaz-skin-cyst",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Skin tags",
+"url": "https://www.nhs.uk/conditions/skin-tags/",
+"slug": "nhsaz-skin-tags",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Slapped cheek syndrome",
+"url": "https://www.nhs.uk/conditions/slapped-cheek-syndrome/",
+"slug": "nhsaz-slapped-cheek-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Sleep apnoea",
+"url": "https://www.nhs.uk/conditions/sleep-apnoea/",
+"slug": "nhsaz-sleep-apnoea",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Sleep paralysis",
+"url": "https://www.nhs.uk/conditions/sleep-paralysis/",
+"slug": "nhsaz-sleep-paralysis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Sleepwalking",
+"url": "https://www.nhs.uk/conditions/sleepwalking/",
+"slug": "nhsaz-sleepwalking",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Slipped disc",
+"url": "https://www.nhs.uk/conditions/slipped-disc/",
+"slug": "nhsaz-slipped-disc",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Snake bites",
+"url": "https://www.nhs.uk/conditions/snake-bites/",
+"slug": "nhsaz-snake-bites",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Soft tissue sarcoma",
+"url": "https://www.nhs.uk/conditions/soft-tissue-sarcoma/",
+"slug": "nhsaz-soft-tissue-sarcoma",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Spina bifida",
+"url": "https://www.nhs.uk/conditions/spina-bifida/",
+"slug": "nhsaz-spina-bifida",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Spinal muscular atrophy (SMA)",
+"url": "https://www.nhs.uk/conditions/spinal-muscular-atrophy-sma/",
+"slug": "nhsaz-spinal-muscular-atrophy-sma",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Spondylolisthesis",
+"url": "https://www.nhs.uk/conditions/spondylolisthesis/",
+"slug": "nhsaz-spondylolisthesis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Squint",
+"url": "https://www.nhs.uk/conditions/squint/",
+"slug": "nhsaz-squint",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Stammering",
+"url": "https://www.nhs.uk/conditions/stammering/",
+"slug": "nhsaz-stammering",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Staph infection",
+"url": "https://www.nhs.uk/conditions/staphylococcal-infections/",
+"slug": "nhsaz-staphylococcal-infections",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Stevens-Johnson syndrome",
+"url": "https://www.nhs.uk/conditions/stevens-johnson-syndrome/",
+"slug": "nhsaz-stevens-johnson-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Stillbirth",
+"url": "https://www.nhs.uk/conditions/stillbirth/",
+"slug": "nhsaz-stillbirth",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Stomach cancer",
+"url": "https://www.nhs.uk/conditions/stomach-cancer/",
+"slug": "nhsaz-stomach-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Strep A",
+"url": "https://www.nhs.uk/conditions/strep-a/",
+"slug": "nhsaz-strep-a",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Stretch marks",
+"url": "https://www.nhs.uk/conditions/stretch-marks/",
+"slug": "nhsaz-stretch-marks",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Stroke",
+"url": "https://www.nhs.uk/conditions/stroke/",
+"slug": "nhsaz-stroke",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Stye",
+"url": "https://www.nhs.uk/conditions/stye/",
+"slug": "nhsaz-stye",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Subdural haematoma",
+"url": "https://www.nhs.uk/conditions/subdural-haematoma/",
+"slug": "nhsaz-subdural-haematoma",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Swollen arms and hands (oedema)",
+"url": "https://www.nhs.uk/conditions/swollen-arms-and-hands-oedema/",
+"slug": "nhsaz-swollen-arms-and-hands-oedema",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Syphilis",
+"url": "https://www.nhs.uk/conditions/syphilis/",
+"slug": "nhsaz-syphilis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Tennis elbow",
+"url": "https://www.nhs.uk/conditions/tennis-elbow/",
+"slug": "nhsaz-tennis-elbow",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Testicular cancer",
+"url": "https://www.nhs.uk/conditions/testicular-cancer/",
+"slug": "nhsaz-testicular-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Tetanus",
+"url": "https://www.nhs.uk/conditions/tetanus/",
+"slug": "nhsaz-tetanus",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Thalassaemia",
+"url": "https://www.nhs.uk/conditions/thalassaemia/",
+"slug": "nhsaz-thalassaemia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Thoracic outlet syndrome",
+"url": "https://www.nhs.uk/conditions/thoracic-outlet-syndrome/",
+"slug": "nhsaz-thoracic-outlet-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Threadworms",
+"url": "https://www.nhs.uk/conditions/threadworms/",
+"slug": "nhsaz-threadworms",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Thrombophilia",
+"url": "https://www.nhs.uk/conditions/thrombophilia/",
+"slug": "nhsaz-thrombophilia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Thrush in men and women",
+"url": "https://www.nhs.uk/conditions/thrush-in-men-and-women/",
+"slug": "nhsaz-thrush-in-men-and-women",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Thyroid cancer",
+"url": "https://www.nhs.uk/conditions/thyroid-cancer/",
+"slug": "nhsaz-thyroid-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Tick-borne encephalitis (TBE)",
+"url": "https://www.nhs.uk/conditions/tick-borne-encephalitis/",
+"slug": "nhsaz-tick-borne-encephalitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Tics",
+"url": "https://www.nhs.uk/conditions/tics/",
+"slug": "nhsaz-tics",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Tinnitus",
+"url": "https://www.nhs.uk/conditions/tinnitus/",
+"slug": "nhsaz-tinnitus",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Tongue-tie",
+"url": "https://www.nhs.uk/conditions/tongue-tie/",
+"slug": "nhsaz-tongue-tie",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Tooth decay",
+"url": "https://www.nhs.uk/conditions/tooth-decay/",
+"slug": "nhsaz-tooth-decay",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Tourette syndrome",
+"url": "https://www.nhs.uk/conditions/tourette-syndrome/",
+"slug": "nhsaz-tourette-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Toxic shock syndrome",
+"url": "https://www.nhs.uk/conditions/toxic-shock-syndrome/",
+"slug": "nhsaz-toxic-shock-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Toxocariasis",
+"url": "https://www.nhs.uk/conditions/toxocariasis/",
+"slug": "nhsaz-toxocariasis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Toxoplasmosis",
+"url": "https://www.nhs.uk/conditions/toxoplasmosis/",
+"slug": "nhsaz-toxoplasmosis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Trichomoniasis",
+"url": "https://www.nhs.uk/conditions/trichomoniasis/",
+"slug": "nhsaz-trichomoniasis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Trigeminal neuralgia",
+"url": "https://www.nhs.uk/conditions/trigeminal-neuralgia/",
+"slug": "nhsaz-trigeminal-neuralgia",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Trigger finger",
+"url": "https://www.nhs.uk/conditions/trigger-finger/",
+"slug": "nhsaz-trigger-finger",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Turner syndrome",
+"url": "https://www.nhs.uk/conditions/turner-syndrome/",
+"slug": "nhsaz-turner-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Typhoid fever",
+"url": "https://www.nhs.uk/conditions/typhoid-fever/",
+"slug": "nhsaz-typhoid-fever",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Typhus",
+"url": "https://www.nhs.uk/conditions/typhus/",
+"slug": "nhsaz-typhus",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ulcerative colitis",
+"url": "https://www.nhs.uk/conditions/ulcerative-colitis/",
+"slug": "nhsaz-ulcerative-colitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Undescended testicles",
+"url": "https://www.nhs.uk/conditions/undescended-testicles/",
+"slug": "nhsaz-undescended-testicles",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Urethritis",
+"url": "https://www.nhs.uk/conditions/urethritis/",
+"slug": "nhsaz-urethritis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Uveitis",
+"url": "https://www.nhs.uk/conditions/uveitis/",
+"slug": "nhsaz-uveitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Vaginal cancer",
+"url": "https://www.nhs.uk/conditions/vaginal-cancer/",
+"slug": "nhsaz-vaginal-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Vaginismus",
+"url": "https://www.nhs.uk/conditions/vaginismus/",
+"slug": "nhsaz-vaginismus",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Vaginitis",
+"url": "https://www.nhs.uk/conditions/vaginitis/",
+"slug": "nhsaz-vaginitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Varicose veins",
+"url": "https://www.nhs.uk/conditions/varicose-veins/",
+"slug": "nhsaz-varicose-veins",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Vasculitis",
+"url": "https://www.nhs.uk/conditions/vasculitis/",
+"slug": "nhsaz-vasculitis",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Vision loss",
+"url": "https://www.nhs.uk/conditions/vision-loss/",
+"slug": "nhsaz-vision-loss",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Vitiligo",
+"url": "https://www.nhs.uk/conditions/vitiligo/",
+"slug": "nhsaz-vitiligo",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Von Willebrand disease",
+"url": "https://www.nhs.uk/conditions/von-willebrand-disease/",
+"slug": "nhsaz-von-willebrand-disease",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Vulval cancer",
+"url": "https://www.nhs.uk/conditions/vulval-cancer/",
+"slug": "nhsaz-vulval-cancer",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Whooping cough",
+"url": "https://www.nhs.uk/conditions/whooping-cough/",
+"slug": "nhsaz-whooping-cough",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Wolff-Parkinson-White syndrome",
+"url": "https://www.nhs.uk/conditions/wolff-parkinson-white-syndrome/",
+"slug": "nhsaz-wolff-parkinson-white-syndrome",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Yellow fever",
+"url": "https://www.nhs.uk/conditions/yellow-fever/",
+"slug": "nhsaz-yellow-fever",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Zika virus",
+"url": "https://www.nhs.uk/conditions/zika/",
+"slug": "nhsaz-zika",
+"type": "nhs",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Acrivastine",
+"url": "https://www.nhs.uk/medicines/acrivastine/",
+"slug": "medaz-acrivastine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Adalimumab",
+"url": "https://www.nhs.uk/medicines/adalimumab/",
+"slug": "medaz-adalimumab",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Alendronic acid",
+"url": "https://www.nhs.uk/medicines/alendronic-acid/",
+"slug": "medaz-alendronic-acid",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Allopurinol",
+"url": "https://www.nhs.uk/medicines/allopurinol/",
+"slug": "medaz-allopurinol",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Alogliptin",
+"url": "https://www.nhs.uk/medicines/alogliptin/",
+"slug": "medaz-alogliptin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Amitriptyline for depression",
+"url": "https://www.nhs.uk/medicines/amitriptyline-for-depression/",
+"slug": "medaz-amitriptyline-for-depression",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Anastrozole",
+"url": "https://www.nhs.uk/medicines/anastrozole/",
+"slug": "medaz-anastrozole",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Antacids",
+"url": "https://www.nhs.uk/medicines/antacids/",
+"slug": "medaz-antacids",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Antibiotics",
+"url": "https://www.nhs.uk/medicines/antibiotics/",
+"slug": "medaz-antibiotics",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Anticoagulant medicines",
+"url": "https://www.nhs.uk/medicines/anticoagulants/",
+"slug": "medaz-anticoagulants",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Antidepressants",
+"url": "https://www.nhs.uk/medicines/antidepressants/",
+"slug": "medaz-antidepressants",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Antifungal medicines",
+"url": "https://www.nhs.uk/medicines/antifungal-medicines/",
+"slug": "medaz-antifungal-medicines",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Antihistamines",
+"url": "https://www.nhs.uk/medicines/antihistamines/",
+"slug": "medaz-antihistamines",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Aripiprazole",
+"url": "https://www.nhs.uk/medicines/aripiprazole/",
+"slug": "medaz-aripiprazole",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Aspirin",
+"url": "https://www.nhs.uk/medicines/aspirin/",
+"slug": "medaz-aspirin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Atenolol",
+"url": "https://www.nhs.uk/medicines/atenolol/",
+"slug": "medaz-atenolol",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Azathioprine",
+"url": "https://www.nhs.uk/medicines/azathioprine/",
+"slug": "medaz-azathioprine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Azithromycin",
+"url": "https://www.nhs.uk/medicines/azithromycin/",
+"slug": "medaz-azithromycin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Baclofen",
+"url": "https://www.nhs.uk/medicines/baclofen/",
+"slug": "medaz-baclofen",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Beclometasone nasal spray",
+"url": "https://www.nhs.uk/medicines/beclometasone-nasal-spray/",
+"slug": "medaz-beclometasone-nasal-spray",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Beclometasone skin cream",
+"url": "https://www.nhs.uk/medicines/beclometasone-skin-creams/",
+"slug": "medaz-beclometasone-skin-creams",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bendroflumethiazide",
+"url": "https://www.nhs.uk/medicines/bendroflumethiazide/",
+"slug": "medaz-bendroflumethiazide",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Benzoyl peroxide",
+"url": "https://www.nhs.uk/medicines/benzoyl-peroxide/",
+"slug": "medaz-benzoyl-peroxide",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Benzydamine",
+"url": "https://www.nhs.uk/medicines/benzydamine/",
+"slug": "medaz-benzydamine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Beta blockers",
+"url": "https://www.nhs.uk/medicines/beta-blockers/",
+"slug": "medaz-beta-blockers",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Betahistine",
+"url": "https://www.nhs.uk/medicines/betahistine/",
+"slug": "medaz-betahistine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Betamethasone for eyes, ears and nose",
+"url": "https://www.nhs.uk/medicines/betamethasone-eyes-ears-and-nose/",
+"slug": "medaz-betamethasone-eyes-ears-and-nose",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Betamethasone for skin",
+"url": "https://www.nhs.uk/medicines/betamethasone-skin/",
+"slug": "medaz-betamethasone-skin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bimatoprost (Lumigan)",
+"url": "https://www.nhs.uk/medicines/bimatoprost/",
+"slug": "medaz-bimatoprost",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bisacodyl",
+"url": "https://www.nhs.uk/medicines/bisacodyl/",
+"slug": "medaz-bisacodyl",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Brinzolamide",
+"url": "https://www.nhs.uk/medicines/brinzolamide/",
+"slug": "medaz-brinzolamide",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Budesonide inhalers",
+"url": "https://www.nhs.uk/medicines/budesonide-inhalers/",
+"slug": "medaz-budesonide-inhalers",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Budesonide nasal spray",
+"url": "https://www.nhs.uk/medicines/budesonide-nasal-spray/",
+"slug": "medaz-budesonide-nasal-spray",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Budesonide rectal foam and enemas",
+"url": "https://www.nhs.uk/medicines/budesonide-rectal-foam-and-enemas/",
+"slug": "medaz-budesonide-rectal-foam-and-enemas",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Bumetanide",
+"url": "https://www.nhs.uk/medicines/bumetanide/",
+"slug": "medaz-bumetanide",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Buprenorphine for pain",
+"url": "https://www.nhs.uk/medicines/buprenorphine-for-pain/",
+"slug": "medaz-buprenorphine-for-pain",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Calcipotriol",
+"url": "https://www.nhs.uk/medicines/calcipotriol/",
+"slug": "medaz-calcipotriol",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Candesartan",
+"url": "https://www.nhs.uk/medicines/candesartan/",
+"slug": "medaz-candesartan",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Carbamazepine (Tegretol)",
+"url": "https://www.nhs.uk/medicines/carbamazepine/",
+"slug": "medaz-carbamazepine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Carbimazole",
+"url": "https://www.nhs.uk/medicines/carbimazole/",
+"slug": "medaz-carbimazole",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Carbocisteine",
+"url": "https://www.nhs.uk/medicines/carbocisteine/",
+"slug": "medaz-carbocisteine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Carmellose sodium eye drops",
+"url": "https://www.nhs.uk/medicines/carmellose-sodium/",
+"slug": "medaz-carmellose-sodium",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Carvedilol",
+"url": "https://www.nhs.uk/medicines/carvedilol/",
+"slug": "medaz-carvedilol",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Chlorhexidine",
+"url": "https://www.nhs.uk/medicines/chlorhexidine/",
+"slug": "medaz-chlorhexidine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cinnarizine",
+"url": "https://www.nhs.uk/medicines/cinnarizine/",
+"slug": "medaz-cinnarizine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Citalopram",
+"url": "https://www.nhs.uk/medicines/citalopram/",
+"slug": "medaz-citalopram",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Clobetasol (Dermovate)",
+"url": "https://www.nhs.uk/medicines/clobetasol/",
+"slug": "medaz-clobetasol",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Clobetasone (Eumovate)",
+"url": "https://www.nhs.uk/medicines/clobetasone/",
+"slug": "medaz-clobetasone",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Clonazepam",
+"url": "https://www.nhs.uk/medicines/clonazepam/",
+"slug": "medaz-clonazepam",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Clonidine",
+"url": "https://www.nhs.uk/medicines/clonidine/",
+"slug": "medaz-clonidine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Clotrimazole",
+"url": "https://www.nhs.uk/medicines/clotrimazole/",
+"slug": "medaz-clotrimazole",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Co-beneldopa",
+"url": "https://www.nhs.uk/medicines/co-beneldopa/",
+"slug": "medaz-co-beneldopa",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Co-codamol for children",
+"url": "https://www.nhs.uk/medicines/co-codamol-for-children/",
+"slug": "medaz-co-codamol-for-children",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Co-codaprin (aspirin and codeine)",
+"url": "https://www.nhs.uk/medicines/co-codaprin/",
+"slug": "medaz-co-codaprin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Co-dydramol",
+"url": "https://www.nhs.uk/medicines/co-dydramol/",
+"slug": "medaz-co-dydramol",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Colecalciferol",
+"url": "https://www.nhs.uk/medicines/colecalciferol/",
+"slug": "medaz-colecalciferol",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Contraceptive injections (medroxyprogesterone)",
+"url": "https://www.nhs.uk/medicines/contraceptive-injections-medroxyprogesterone/",
+"slug": "medaz-contraceptive-injections-medroxyprogesterone",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Cyanocobalamin",
+"url": "https://www.nhs.uk/medicines/cyanocobalamin/",
+"slug": "medaz-cyanocobalamin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Dapagliflozin",
+"url": "https://www.nhs.uk/medicines/dapagliflozin/",
+"slug": "medaz-dapagliflozin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Decongestants",
+"url": "https://www.nhs.uk/medicines/decongestants/",
+"slug": "medaz-decongestants",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Dexamethasone eye drops",
+"url": "https://www.nhs.uk/medicines/dexamethasone-eye-drops/",
+"slug": "medaz-dexamethasone-eye-drops",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Diclofenac",
+"url": "https://www.nhs.uk/medicines/diclofenac/",
+"slug": "medaz-diclofenac",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Diltiazem",
+"url": "https://www.nhs.uk/medicines/diltiazem/",
+"slug": "medaz-diltiazem",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Diphenhydramine",
+"url": "https://www.nhs.uk/medicines/diphenhydramine/",
+"slug": "medaz-diphenhydramine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Dipyridamole",
+"url": "https://www.nhs.uk/medicines/dipyridamole/",
+"slug": "medaz-dipyridamole",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Docusate",
+"url": "https://www.nhs.uk/medicines/docusate/",
+"slug": "medaz-docusate",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Domperidone",
+"url": "https://www.nhs.uk/medicines/domperidone/",
+"slug": "medaz-domperidone",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Donepezil",
+"url": "https://www.nhs.uk/medicines/donepezil/",
+"slug": "medaz-donepezil",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Doxazosin",
+"url": "https://www.nhs.uk/medicines/doxazosin/",
+"slug": "medaz-doxazosin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Duloxetine",
+"url": "https://www.nhs.uk/medicines/duloxetine/",
+"slug": "medaz-duloxetine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Empagliflozin",
+"url": "https://www.nhs.uk/medicines/empagliflozin/",
+"slug": "medaz-empagliflozin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Enalapril",
+"url": "https://www.nhs.uk/medicines/enalapril/",
+"slug": "medaz-enalapril",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Eplerenone",
+"url": "https://www.nhs.uk/medicines/eplerenone/",
+"slug": "medaz-eplerenone",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Escitalopram",
+"url": "https://www.nhs.uk/medicines/escitalopram/",
+"slug": "medaz-escitalopram",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Esomeprazole",
+"url": "https://www.nhs.uk/medicines/esomeprazole/",
+"slug": "medaz-esomeprazole",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ezetimibe",
+"url": "https://www.nhs.uk/medicines/ezetimibe/",
+"slug": "medaz-ezetimibe",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Felodipine",
+"url": "https://www.nhs.uk/medicines/felodipine/",
+"slug": "medaz-felodipine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Fentanyl",
+"url": "https://www.nhs.uk/medicines/fentanyl/",
+"slug": "medaz-fentanyl",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ferrous fumarate",
+"url": "https://www.nhs.uk/medicines/ferrous-fumarate/",
+"slug": "medaz-ferrous-fumarate",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ferrous sulfate",
+"url": "https://www.nhs.uk/medicines/ferrous-sulfate/",
+"slug": "medaz-ferrous-sulfate",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Finasteride",
+"url": "https://www.nhs.uk/medicines/finasteride/",
+"slug": "medaz-finasteride",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Fluconazole",
+"url": "https://www.nhs.uk/medicines/fluconazole/",
+"slug": "medaz-fluconazole",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Fluoxetine",
+"url": "https://www.nhs.uk/medicines/fluoxetine/",
+"slug": "medaz-fluoxetine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Fluticasone inhalers",
+"url": "https://www.nhs.uk/medicines/fluticasone-inhalers/",
+"slug": "medaz-fluticasone-inhalers",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Fluticasone nasal spray and drops",
+"url": "https://www.nhs.uk/medicines/fluticasone-nasal-spray-and-drops/",
+"slug": "medaz-fluticasone-nasal-spray-and-drops",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Folic acid",
+"url": "https://www.nhs.uk/medicines/folic-acid/",
+"slug": "medaz-folic-acid",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Fusidic acid (Fucidin)",
+"url": "https://www.nhs.uk/medicines/fusidic-acid/",
+"slug": "medaz-fusidic-acid",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Fybogel (ispaghula husk)",
+"url": "https://www.nhs.uk/medicines/fybogel-ispaghula-husk/",
+"slug": "medaz-fybogel-ispaghula-husk",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Gaviscon",
+"url": "https://www.nhs.uk/medicines/gaviscon/",
+"slug": "medaz-gaviscon",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Gliclazide",
+"url": "https://www.nhs.uk/medicines/gliclazide/",
+"slug": "medaz-gliclazide",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hormone replacement therapy (HRT)",
+"url": "https://www.nhs.uk/medicines/hormone-replacement-therapy-hrt/",
+"slug": "medaz-hormone-replacement-therapy-hrt",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hydrocortisone buccal tablets",
+"url": "https://www.nhs.uk/medicines/hydrocortisone-buccal-tablets/",
+"slug": "medaz-hydrocortisone-buccal-tablets",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hydrocortisone for piles and itchy bottom",
+"url": "https://www.nhs.uk/medicines/hydrocortisone-for-piles-and-itchy-bottom/",
+"slug": "medaz-hydrocortisone-for-piles-and-itchy-bottom",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hydrocortisone for skin",
+"url": "https://www.nhs.uk/medicines/hydrocortisone-for-skin/",
+"slug": "medaz-hydrocortisone-for-skin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hydrocortisone injections",
+"url": "https://www.nhs.uk/medicines/hydrocortisone-injections/",
+"slug": "medaz-hydrocortisone-injections",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hydrocortisone rectal foam",
+"url": "https://www.nhs.uk/medicines/hydrocortisone-rectal-foam/",
+"slug": "medaz-hydrocortisone-rectal-foam",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hydrocortisone tablets",
+"url": "https://www.nhs.uk/medicines/hydrocortisone-tablets/",
+"slug": "medaz-hydrocortisone-tablets",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hydrocortisone",
+"url": "https://www.nhs.uk/medicines/hydrocortisone/",
+"slug": "medaz-hydrocortisone",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hydroxocobalamin",
+"url": "https://www.nhs.uk/medicines/hydroxocobalamin/",
+"slug": "medaz-hydroxocobalamin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hydroxychloroquine",
+"url": "https://www.nhs.uk/medicines/hydroxychloroquine/",
+"slug": "medaz-hydroxychloroquine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Hyoscine hydrobromide",
+"url": "https://www.nhs.uk/medicines/hyoscine-hydrobromide/",
+"slug": "medaz-hyoscine-hydrobromide",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ibuprofen and codeine",
+"url": "https://www.nhs.uk/medicines/ibuprofen-and-codeine-nurofen-plus/",
+"slug": "medaz-ibuprofen-and-codeine-nurofen-plus",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ibuprofen for children",
+"url": "https://www.nhs.uk/medicines/ibuprofen-for-children/",
+"slug": "medaz-ibuprofen-for-children",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Indapamide",
+"url": "https://www.nhs.uk/medicines/indapamide/",
+"slug": "medaz-indapamide",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Insulin",
+"url": "https://www.nhs.uk/medicines/insulin/",
+"slug": "medaz-insulin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Irbesartan",
+"url": "https://www.nhs.uk/medicines/irbesartan/",
+"slug": "medaz-irbesartan",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Isosorbide mononitrate and isosorbide dinitrate",
+"url": "https://www.nhs.uk/medicines/isosorbide-mononitrate-dinitrate/",
+"slug": "medaz-isosorbide-mononitrate-dinitrate",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Isotretinoin (Roaccutane)",
+"url": "https://www.nhs.uk/medicines/isotretinoin-roaccutane/",
+"slug": "medaz-isotretinoin-roaccutane",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ketoconazole",
+"url": "https://www.nhs.uk/medicines/ketoconazole/",
+"slug": "medaz-ketoconazole",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Lamotrigine",
+"url": "https://www.nhs.uk/medicines/lamotrigine/",
+"slug": "medaz-lamotrigine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Latanoprost",
+"url": "https://www.nhs.uk/medicines/latanoprost/",
+"slug": "medaz-latanoprost",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Laxatives",
+"url": "https://www.nhs.uk/medicines/laxatives/",
+"slug": "medaz-laxatives",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Lercanidipine",
+"url": "https://www.nhs.uk/medicines/lercanidipine/",
+"slug": "medaz-lercanidipine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Letrozole",
+"url": "https://www.nhs.uk/medicines/letrozole/",
+"slug": "medaz-letrozole",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Levothyroxine",
+"url": "https://www.nhs.uk/medicines/levothyroxine/",
+"slug": "medaz-levothyroxine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Linagliptin",
+"url": "https://www.nhs.uk/medicines/linagliptin/",
+"slug": "medaz-linagliptin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Liraglutide",
+"url": "https://www.nhs.uk/medicines/liraglutide/",
+"slug": "medaz-liraglutide",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Lisinopril",
+"url": "https://www.nhs.uk/medicines/lisinopril/",
+"slug": "medaz-lisinopril",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Lithium",
+"url": "https://www.nhs.uk/medicines/lithium/",
+"slug": "medaz-lithium",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Lorazepam",
+"url": "https://www.nhs.uk/medicines/lorazepam/",
+"slug": "medaz-lorazepam",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Losartan",
+"url": "https://www.nhs.uk/medicines/losartan/",
+"slug": "medaz-losartan",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Lymecycline",
+"url": "https://www.nhs.uk/medicines/lymecycline/",
+"slug": "medaz-lymecycline",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Mebendazole (Ovex)",
+"url": "https://www.nhs.uk/medicines/mebendazole/",
+"slug": "medaz-mebendazole",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Mebeverine",
+"url": "https://www.nhs.uk/medicines/mebeverine/",
+"slug": "medaz-mebeverine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Medroxyprogesterone tablets",
+"url": "https://www.nhs.uk/medicines/medroxyprogesterone-tablets/",
+"slug": "medaz-medroxyprogesterone-tablets",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Melatonin",
+"url": "https://www.nhs.uk/medicines/melatonin/",
+"slug": "medaz-melatonin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Memantine",
+"url": "https://www.nhs.uk/medicines/memantine/",
+"slug": "medaz-memantine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Mesalazine",
+"url": "https://www.nhs.uk/medicines/mesalazine/",
+"slug": "medaz-mesalazine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Metformin",
+"url": "https://www.nhs.uk/medicines/metformin/",
+"slug": "medaz-metformin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Methadone",
+"url": "https://www.nhs.uk/medicines/methadone/",
+"slug": "medaz-methadone",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Methylphenidate for adults",
+"url": "https://www.nhs.uk/medicines/methylphenidate-adults/",
+"slug": "medaz-methylphenidate-adults",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Methylphenidate for children",
+"url": "https://www.nhs.uk/medicines/methylphenidate-children/",
+"slug": "medaz-methylphenidate-children",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Metoprolol",
+"url": "https://www.nhs.uk/medicines/metoprolol/",
+"slug": "medaz-metoprolol",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Mirabegron",
+"url": "https://www.nhs.uk/medicines/mirabegron/",
+"slug": "medaz-mirabegron",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Mirtazapine",
+"url": "https://www.nhs.uk/medicines/mirtazapine/",
+"slug": "medaz-mirtazapine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Mometasone for skin",
+"url": "https://www.nhs.uk/medicines/mometasone-for-skin/",
+"slug": "medaz-mometasone-for-skin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Mometasone inhalers",
+"url": "https://www.nhs.uk/medicines/mometasone-inhaler/",
+"slug": "medaz-mometasone-inhaler",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Mometasone nasal spray",
+"url": "https://www.nhs.uk/medicines/mometasone-nasal-spray/",
+"slug": "medaz-mometasone-nasal-spray",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Montelukast",
+"url": "https://www.nhs.uk/medicines/montelukast/",
+"slug": "medaz-montelukast",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Nefopam",
+"url": "https://www.nhs.uk/medicines/nefopam/",
+"slug": "medaz-nefopam",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Nicorandil",
+"url": "https://www.nhs.uk/medicines/nicorandil/",
+"slug": "medaz-nicorandil",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Nifedipine",
+"url": "https://www.nhs.uk/medicines/nifedipine/",
+"slug": "medaz-nifedipine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Nortriptyline",
+"url": "https://www.nhs.uk/medicines/nortriptyline/",
+"slug": "medaz-nortriptyline",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "NSAIDs",
+"url": "https://www.nhs.uk/medicines/nsaids/",
+"slug": "medaz-nsaids",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Nystatin",
+"url": "https://www.nhs.uk/medicines/nystatin/",
+"slug": "medaz-nystatin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Olanzapine",
+"url": "https://www.nhs.uk/medicines/olanzapine/",
+"slug": "medaz-olanzapine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Orlistat",
+"url": "https://www.nhs.uk/medicines/orlistat/",
+"slug": "medaz-orlistat",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Oxybutynin",
+"url": "https://www.nhs.uk/medicines/oxybutynin/",
+"slug": "medaz-oxybutynin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Oxycodone",
+"url": "https://www.nhs.uk/medicines/oxycodone/",
+"slug": "medaz-oxycodone",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Pantoprazole",
+"url": "https://www.nhs.uk/medicines/pantoprazole/",
+"slug": "medaz-pantoprazole",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Paroxetine",
+"url": "https://www.nhs.uk/medicines/paroxetine/",
+"slug": "medaz-paroxetine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Peppermint oil",
+"url": "https://www.nhs.uk/medicines/peppermint-oil/",
+"slug": "medaz-peppermint-oil",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Perindopril",
+"url": "https://www.nhs.uk/medicines/perindopril/",
+"slug": "medaz-perindopril",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Pravastatin",
+"url": "https://www.nhs.uk/medicines/pravastatin/",
+"slug": "medaz-pravastatin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Pre-Exposure Prophylaxis (PrEP)",
+"url": "https://www.nhs.uk/medicines/pre-exposure-prophylaxis-prep/",
+"slug": "medaz-pre-exposure-prophylaxis-prep",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Propranolol",
+"url": "https://www.nhs.uk/medicines/propranolol/",
+"slug": "medaz-propranolol",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Pseudoephedrine (Sudafed)",
+"url": "https://www.nhs.uk/medicines/pseudoephedrine/",
+"slug": "medaz-pseudoephedrine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Quetiapine",
+"url": "https://www.nhs.uk/medicines/quetiapine/",
+"slug": "medaz-quetiapine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ranitidine",
+"url": "https://www.nhs.uk/medicines/ranitidine/",
+"slug": "medaz-ranitidine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Risperidone",
+"url": "https://www.nhs.uk/medicines/risperidone/",
+"slug": "medaz-risperidone",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Ropinirole",
+"url": "https://www.nhs.uk/medicines/ropinirole/",
+"slug": "medaz-ropinirole",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Rosuvastatin",
+"url": "https://www.nhs.uk/medicines/rosuvastatin/",
+"slug": "medaz-rosuvastatin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Semaglutide",
+"url": "https://www.nhs.uk/medicines/semaglutide/",
+"slug": "medaz-semaglutide",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Sertraline",
+"url": "https://www.nhs.uk/medicines/sertraline/",
+"slug": "medaz-sertraline",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Sildenafil (Viagra)",
+"url": "https://www.nhs.uk/medicines/sildenafil-viagra/",
+"slug": "medaz-sildenafil-viagra",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Simeticone",
+"url": "https://www.nhs.uk/medicines/simeticone/",
+"slug": "medaz-simeticone",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Simvastatin",
+"url": "https://www.nhs.uk/medicines/simvastatin/",
+"slug": "medaz-simvastatin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Sitagliptin",
+"url": "https://www.nhs.uk/medicines/sitagliptin/",
+"slug": "medaz-sitagliptin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Sodium valproate",
+"url": "https://www.nhs.uk/medicines/sodium-valproate/",
+"slug": "medaz-sodium-valproate",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Solifenacin",
+"url": "https://www.nhs.uk/medicines/solifenacin/",
+"slug": "medaz-solifenacin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Sotalol",
+"url": "https://www.nhs.uk/medicines/sotalol/",
+"slug": "medaz-sotalol",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Spironolactone",
+"url": "https://www.nhs.uk/medicines/spironolactone/",
+"slug": "medaz-spironolactone",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Statins",
+"url": "https://www.nhs.uk/medicines/statins/",
+"slug": "medaz-statins",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Sulfasalazine",
+"url": "https://www.nhs.uk/medicines/sulfasalazine/",
+"slug": "medaz-sulfasalazine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Tadalafil",
+"url": "https://www.nhs.uk/medicines/tadalafil/",
+"slug": "medaz-tadalafil",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Tamsulosin",
+"url": "https://www.nhs.uk/medicines/tamsulosin/",
+"slug": "medaz-tamsulosin",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Terbinafine",
+"url": "https://www.nhs.uk/medicines/terbinafine/",
+"slug": "medaz-terbinafine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Thiamine (vitamin B1)",
+"url": "https://www.nhs.uk/medicines/thiamine-vitamin-b1/",
+"slug": "medaz-thiamine-vitamin-b1",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Timolol eye drops",
+"url": "https://www.nhs.uk/medicines/timolol-eye-drops/",
+"slug": "medaz-timolol-eye-drops",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Tiotropium inhalers",
+"url": "https://www.nhs.uk/medicines/tiotropium-inhalers/",
+"slug": "medaz-tiotropium-inhalers",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Tirzepatide",
+"url": "https://www.nhs.uk/medicines/tirzepatide/",
+"slug": "medaz-tirzepatide",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Tolterodine",
+"url": "https://www.nhs.uk/medicines/tolterodine/",
+"slug": "medaz-tolterodine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Topiramate",
+"url": "https://www.nhs.uk/medicines/topiramate/",
+"slug": "medaz-topiramate",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Tranexamic acid",
+"url": "https://www.nhs.uk/medicines/tranexamic-acid/",
+"slug": "medaz-tranexamic-acid",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Trazodone",
+"url": "https://www.nhs.uk/medicines/trazodone/",
+"slug": "medaz-trazodone",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Valproic acid",
+"url": "https://www.nhs.uk/medicines/valproic-acid/",
+"slug": "medaz-valproic-acid",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Valsartan",
+"url": "https://www.nhs.uk/medicines/valsartan/",
+"slug": "medaz-valsartan",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Varenicline",
+"url": "https://www.nhs.uk/medicines/varenicline/",
+"slug": "medaz-varenicline",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Venlafaxine",
+"url": "https://www.nhs.uk/medicines/venlafaxine/",
+"slug": "medaz-venlafaxine",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Verapamil",
+"url": "https://www.nhs.uk/medicines/verapamil/",
+"slug": "medaz-verapamil",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Zolpidem",
+"url": "https://www.nhs.uk/medicines/zolpidem/",
+"slug": "medaz-zolpidem",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+},
+{
+"title": "Zopiclone",
+"url": "https://www.nhs.uk/medicines/zopiclone/",
+"slug": "medaz-zopiclone",
+"type": "medicines",
+"source": "NHS.uk",
+"catalogue": true
+}
+]
+}

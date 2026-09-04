@@ -127,6 +127,21 @@
   .src-gov { background: #e8f0fb; color: #00437a; }
   .src-trusted { background: #f3ecf9; color: #5b2d84; }
   .helpgroup .helpgroup-h { font-size: 1.02rem; font-weight: 700; margin: 0 0 6px; }
+  .helptier { border: 1px solid #d8dde3; border-radius: 10px; margin: 0 0 10px; background: #fff; }
+  .helptier > summary { font-size: 1.08rem; font-weight: 700; padding: 12px 14px; cursor: pointer; list-style: none; position: relative; min-height: 44px; box-sizing: border-box; }
+  .helptier > summary::-webkit-details-marker { display: none; }
+  .helptier > summary::after { content: ""; position: absolute; right: 16px; top: 18px; width: 9px; height: 9px; border-right: 2px solid #4c6272; border-bottom: 2px solid #4c6272; transform: rotate(45deg); }
+  .helptier[open] > summary::after { transform: rotate(-135deg); top: 22px; }
+  .helptier-999 { border-left: 4px solid #d5281b; background: #fff5f4; }
+  .helptier-111 { border-left: 4px solid #b07d00; background: #fff8e6; }
+  .helptier-routine { border-left: 4px solid #aeb7bd; }
+  .helptier-b { padding: 0 14px 6px; }
+  .help-block { padding: 8px 0 4px; border-top: 1px solid rgba(0,0,0,0.07); }
+  .help-block:first-child { border-top: 0; }
+  .help-h { margin: 0 0 4px; font-weight: 700; }
+  .help-h .help-nhs { font-weight: 400; color: #4c6272; }
+  .help-block ul { margin: 4px 0 6px 20px; padding: 0; }
+  .help-block p { margin: 4px 0; }
   .subtitle a { color: #005eb8; }
   .companion .companion-h { font-size: 0.85rem; color: #555; margin: 0 0 4px; }
   .nhscard-foot a { color: #005eb8; }
@@ -610,6 +625,15 @@ function nhsHref(pg, fallback) {
   try { const u = new URL((pg && pg.url) || fallback || ""); if (u.protocol === "https:" && u.hostname === "www.nhs.uk") return u.href; } catch (e) {}
   return "";
 }
+const PATHWAY_TIERS = new Set(["treatment", "diagnosis", "outlook"]);
+const DEFINITE_RE = /\byou(?:'|’)ll\b|\byou will\b|\byou must\b|\byou(?:'|’)re going to\b|\byou(?:'|’)ve been given\b/i;
+function pathwayFilter(c) {
+  if (!PATHWAY_TIERS.has(c.tier)) return c;
+  const lines = c.lines.filter(l => l.kind === "h" || !DEFINITE_RE.test(l.text));
+  // drop a heading left with nothing under it, then a section left with nothing
+  const kept = lines.filter((l, i) => l.kind !== "h" || (lines[i + 1] && lines[i + 1].kind !== "h"));
+  return kept.some(l => l.kind !== "h") ? { ...c, lines: kept } : null;
+}
 function cardBody(c) {
   let out = "", open = false;
   for (const ln of c.lines) {
@@ -638,11 +662,13 @@ function nhsInfoHtml(item, pg) {
   // generic "Treating…" section (injections, admission, other drugs) would
   // contradict what the patient was actually given, so it is replaced by a
   // pointer to the medicine card below. No medicine clicked → NHS's own words.
-  // DEFAULT IS SILENT ON TREATMENT (Oscar 2026-09-03): NHS's "Treating…",
-  // "How … is diagnosed" and outlook/recovery sections describe a pathway
-  // the patient may not have had — they stay on the linked NHS page. The
-  // medicine the clinician added speaks for itself in "About your medicines".
-  const cards = (pg.cards || []).filter(c => INFO_TIERS[c.tier] && !["treatment", "diagnosis", "outlook"].includes(c.tier));
+  // PATHWAY RULE (Oscar 2026-09-03/05): treatment, diagnosis and outlook
+  // sections are shown, but a line that ASSERTS the patient's own pathway
+  // ("you'll probably be given an injection of anticoagulant medicine",
+  // "you'll need to wear your plaster cast") is dropped — general and hedged
+  // information ("usually treated in hospital with anticoagulants", "a doctor
+  // might…") stays. Verbatim lines, chosen by a fixed rule, never reworded.
+  const cards = (pg.cards || []).filter(c => INFO_TIERS[c.tier]).map(pathwayFilter).filter(Boolean);
   const help = (pg.cards || []).filter(c => HELP_TIERS[c.tier]);
   if (help.length) HELP_GROUPS.push({ title: pg.title || item.title, page: pg, cards: help });
   // intro lines: a paragraph ending ':' is kept only when NHS's own bullets
@@ -659,7 +685,7 @@ function nhsInfoHtml(item, pg) {
   if (!about && !cards.length) return "";
   // collapsed by default (Oscar 2026-09-03: "collapsible points so the
   // information is not too overwhelming"); the intro stays visible
-  const body = cards.map(c => `<details class="nhscard nhscard-${escapeHtml(c.tier)}">
+  const body = cards.map(c => `<details class="nhscard nhscard-${escapeHtml(c.tier)}"${c.tier === "howitworks" ? " open" : ""}>
       <summary>${escapeHtml(c.headline)}</summary><div class="nhscard-b">${cardBody(c)}</div></details>`).join("");
   const helpNote = help.length ? ` — when to get help for this is <a href="#help">at the bottom of this page</a>` : "";
   return `<div class="nhscards">${about}${body}${nhsAttribution(pg, helpNote)}</div>`;
@@ -667,18 +693,54 @@ function nhsInfoHtml(item, pg) {
 // The bottom section: every red-flag card from every NHS page on this
 // visit, in NHS order, grouped by condition, with the disclaimer.
 function helpSectionHtml() {
+  // ONE narrative by urgency, not one box per page (Oscar 2026-09-05: "5
+  // different call 999 … use the selections to create a narrative that goes
+  // into more information if the patient is inclined"). Every line is still
+  // NHS's, verbatim; identical advice carried by several items (the
+  // anaphylaxis list on every antibiotic) is shown once, labelled with the
+  // items it belongs to. 999 is open; the rest fold.
   if (!HELP_GROUPS.length) return "";
-  const seen = new Set();
-  const groups = HELP_GROUPS.filter(g => { const k = g.page.url || g.title; if (seen.has(k)) return false; seen.add(k); return true; });
+  const TIER = { emergency: "999", serious: "111", urgent: "111", gp: "routine", advice: "routine" };
+  const GROUP = [["999", "🚨", "Call 999 or go to A&E"],
+                 ["111", "⚠️", "Get help today — call 111 or your GP"],
+                 ["routine", "ℹ️", "Ask a pharmacist or GP"]];
+  const short = t => String(t || "").replace(/\s*\(.*$/, "").replace(/\s*[—–-]\s.*$/, "").trim();
+  const seenPage = new Set(), pages = [];
+  const blocks = { "999": new Map(), "111": new Map(), "routine": new Map() };
+  for (const g of HELP_GROUPS) {
+    const k = g.page.url || g.title;
+    if (seenPage.has(k)) continue;
+    seenPage.add(k); pages.push(g.page);
+    for (const c of g.cards) {
+      const grp = TIER[c.tier] || "routine";
+      const key = c.headline + "\u0001" + c.lines.map(l => l.text.trim().toLowerCase()).join("\u0001");
+      const b = blocks[grp].get(key) || { headline: c.headline, card: c, items: [] };
+      if (!b.items.includes(short(g.title))) b.items.push(short(g.title));
+      blocks[grp].set(key, b);
+    }
+  }
+  const tiers = GROUP.filter(([id]) => blocks[id].size).map(([id, icon, title], n) => `
+    <details class="helptier helptier-${id}"${id === "999" ? " open" : ""}>
+      <summary>${icon} ${escapeHtml(title)}</summary>
+      <div class="helptier-b">${[...blocks[id].values()].map(b => `
+        <div class="help-block">
+          <p class="help-h">${escapeHtml(b.items.join(", "))} <span class="help-nhs">${escapeHtml(b.headline)}</span></p>
+          ${cardBody(b.card)}
+        </div>`).join("")}
+      </div>
+    </details>`).join("");
+  const foot = `<p class="nhscard-foot">Information from the NHS website — ${pages.map(pg => {
+      const href = nhsHref(pg);
+      return (href ? `<a href="${escapeHtml(href)}">${escapeHtml(short(pg.title))}</a>` : escapeHtml(short(pg.title)))
+        + (pg.dateModified ? ` (updated ${escapeHtml(niceDate(pg.dateModified))})` : "");
+    }).join(", ")} — checked ${escapeHtml(niceDate(pages[0].retrieved))}. Licensed under the Open Government Licence v3.0.</p>`;
   return `<p class="section-title" id="help">🚨 When to get help</p>
-    <p class="section-sub">The NHS's own advice on when to call 999, 111 or see a GP, for each condition your clinician chose.</p>
-    ${groups.map(g => `<div class="leaflet-card helpgroup">
-      <p class="helpgroup-h">${escapeHtml(g.title)} <span class="src src-nhs">NHS website</span></p>
-      ${g.cards.map(c => `<details class="nhscard nhscard-${escapeHtml(c.tier)}"${c.tier === "emergency" ? " open" : ""}>
-        <summary>${escapeHtml(c.headline)}</summary><div class="nhscard-b">${cardBody(c)}</div></details>`).join("")}
-      <p class="nhscard-note">General NHS advice your clinician chose for you — not the result of your own tests. If unsure, ask your care team.</p>
-      ${nhsAttribution(g.page)}
-    </div>`).join("")}`;
+    <p class="section-sub">The NHS's own advice for everything on this page, by urgency.</p>
+    <div class="leaflet-card helpgroup">
+      ${tiers}
+      <p class="nhscard-note">General NHS advice, not the result of your own tests. If unsure, ask your care team.</p>
+      ${foot}
+    </div>`;
 }
 
 function adviceCard(item) {
@@ -866,7 +928,7 @@ function renderResolved(items, demo) {
     <span id="followup"></span>${followupSection}
     ${govSection}
     ${helpSectionHtml()}
-    <p class="safetynet">This information was chosen for you by your clinician. If you feel worse, or you are worried, call <strong>111</strong> — or <strong>999</strong> in an emergency.</p>
+    ${HELP_GROUPS.length ? "" : `<p class="safetynet">This information was chosen for you by your clinician. If you feel worse, or you are worried, call <strong>111</strong> — or <strong>999</strong> in an emergency.</p>`}
     <button class="sharebtn" onclick="shareThisPage()">Text or save this to read later</button>
     <button class="sharebtn printbtn" onclick="window.print()">🖨 Print this page</button>
     <div id="helpful" class="helpful">
@@ -934,7 +996,12 @@ async function main() {
     layer("medicines.json", { cache: "no-cache" }, "medicines", []),
     layer("driving_advice.json", { cache: "no-cache" }, "driving advice", { modules: [] }),
     indexP,
-  ]);
+    // the rest of NHS.uk's A–Z (nhs_catalogue.py) — resolves nhsaz-/medaz- slugs
+    layer("nhs_catalogue.json", { cache: "no-cache" }, "NHS A-Z", { items: [] }),
+  ]).then(([nhsL, medL, drv, idx, cat]) => {
+    for (const it of (cat && cat.items) || []) (it.type === "medicines" ? medL : nhsL).push(it);
+    return [nhsL, medL, drv, idx];
+  });
   const requestedEarly = (params.get("slugs") || params.get("slug") || "").split(",").map(x => x.trim()).filter(Boolean);
   const nhsEarlyP = indexP.then(idx => Promise.all(requestedEarly.filter(x => (idx.pages || {})[x]).map(loadNhsPage)));
   try {
