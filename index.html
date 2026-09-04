@@ -423,6 +423,11 @@ let FU_SUMMARY = "";   // one line for the banner: where and when
 let FU_LEAFLET = "";
 // every href on this page comes from our own JSON, but only http(s) may ever reach an href
 function safeHref(u) { return /^https?:\/\//i.test(String(u || "")) ? encodeURI(String(u)) : ""; }
+// RFC 5545 text escaping (restored 2026-09-05 — lost in an edit the day
+// before, which hung every follow-up QR on "Loading your information…")
+function icsText(s) {
+  return String(s || "").replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
+}
 function buildIcs(dest, dt, hasTime, findHref) {
   const p2 = n => String(n).padStart(2, "0");
   const ymd = d => d.getFullYear() + p2(d.getMonth() + 1) + p2(d.getDate());
@@ -568,16 +573,16 @@ function findCompanion(item, pages) {
     .map(w => w.replace(/(ies|es|s)$/, "")).join(" ") + " ";
   const t = stemWords(item.title);
   let best = null;
-  for (const pg of Object.values(pages)) {
-    if (!pg || !pg.title || !((pg.cards && pg.cards.length) || (pg.about && pg.about.length))) continue;
+  for (const [slug, pg] of Object.entries(pages)) {
+    if (!pg || !pg.title || !(pg.help || pg.info)) continue;
     const base = pg.title.replace(/\s*\(.*?\)\s*/g, " ").replace(/\s*[—–-]\s.*$/, "");
     for (const alt of base.split(/\s+(?:and|or)\s+|\s*\/\s*/i)) {
       const nt = stemWords(alt).trim();
       if (nt.length < 4) continue;
-      if (t.includes(" " + nt + " ") && (!best || nt.length > best.nt.length)) best = { nt, pg };
+      if (t.includes(" " + nt + " ") && (!best || nt.length > best.nt.length)) best = { nt, slug };
     }
   }
-  return best ? best.pg : null;
+  return best ? { slug: best.slug } : null;
 }
 
 // NHS.uk content, verbatim, under the Open Government Licence (Oscar
@@ -902,6 +907,36 @@ async function main() {
   let dir = "";
   let demo = false;   // trust not yet approved — QR came from a demo/preview
   let trustResolved = false;
+  // SPEED (Oscar 2026-09-05, "seems pretty slow"): the national layers and
+  // the NHS page files for the requested slugs do not depend on the trust, so
+  // they start now, in parallel with the registry round-trip; the trust
+  // layers follow in ONE more round. The NHS store is per-page
+  // (nhs_cards/<slug>.json, a few KB each) — the 256 KB whole-store download
+  // is gone.
+  const layersFailed = [];
+  const layer = (url, opts, name, empty) =>
+    fetch(url, opts).then(r => {
+      if (r.status === 404) return empty;
+      if (!r.ok) { layersFailed.push(name); return empty; }
+      return r.json().catch(() => { layersFailed.push(name); return empty; });
+    }).catch(() => { layersFailed.push(name); return empty; });
+  const nhsPages = {};
+  const loadNhsPage = slug => (slug in nhsPages) ? Promise.resolve(nhsPages[slug])
+    : fetch("nhs_cards/" + encodeURIComponent(slug) + ".json").then(r => r.ok ? r.json() : null)
+        .then(d => { nhsPages[slug] = (d && d.page) ? { ...d.page, retrieved: d.retrieved || d.page.retrieved } : null; return nhsPages[slug]; })
+        .catch(() => { nhsPages[slug] = null; return null; });
+  const indexP = layer("nhs_cards_index.json", { cache: "no-cache" }, "NHS advice cards", { pages: {} });
+  const nationalP = Promise.all([
+    // no-cache (revalidate, 304 when unchanged): a cached copy of this
+    // file made a just-published resource invisible on a patient page
+    // while the QR link was correct (2026-08-01)
+    layer("nhs_resources.json", { cache: "no-cache" }, "resources", []),
+    layer("medicines.json", { cache: "no-cache" }, "medicines", []),
+    layer("driving_advice.json", { cache: "no-cache" }, "driving advice", { modules: [] }),
+    indexP,
+  ]);
+  const requestedEarly = (params.get("slugs") || params.get("slug") || "").split(",").map(x => x.trim()).filter(Boolean);
+  const nhsEarlyP = indexP.then(idx => Promise.all(requestedEarly.filter(x => (idx.pages || {})[x]).map(loadNhsPage)));
   try {
     // no-cache: always revalidate, so an approval ("listed") change shows at once
     const registry = await fetch("trusts.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null);
@@ -943,20 +978,11 @@ async function main() {
   FU_CARD = "";
   // (2026-08-08 review) a failed layer fetch must not be silently identical
   // to an empty layer: if a requested item then fails to resolve, the page
-  // must blame the outage, not the QR code.
-  const layersFailed = [];
-  // A 404 on an OPTIONAL per-trust file (services/advice at trusts that have
-  // none) is normal and stays quiet; any other failure — network error,
-  // server error, bad JSON — flags, so a requested item that then fails to
-  // resolve blames the outage, not the QR.
-  const layer = (url, opts, name, empty) =>
-    fetch(url, opts).then(r => {
-      if (r.status === 404) return empty;
-      if (!r.ok) { layersFailed.push(name); return empty; }
-      return r.json().catch(() => { layersFailed.push(name); return empty; });
-    }).catch(() => { layersFailed.push(name); return empty; });
+  // must blame the outage, not the QR code. A 404 on an OPTIONAL per-trust
+  // file (services/advice at trusts that have none) is normal and stays quiet.
+  let nhsIndex;
   try {
-    [leaflets, services, nhs, advice, medicines, overrides, reviews, redirects] = await Promise.all([
+    [leaflets, services, advice, overrides, reviews, redirects, followups, [nhs, medicines, drivingAdvice, nhsIndex]] = await Promise.all([
       // a follow-up-only QR must not die with the leaflet index: a failure
       // here flags the layer and the page renders what it can, with the
       // outage notice (2026-09-03 Codex review)
@@ -964,28 +990,23 @@ async function main() {
         .then(r => { if (!r.ok) throw 0; return r.json(); })
         .catch(() => { layersFailed.push("leaflets"); return []; }),
       layer(dir + "services.json", { cache: "no-cache" }, "services", []),
-      // no-cache (revalidate, 304 when unchanged): a cached copy of this
-      // file made a just-published resource invisible on a patient page
-      // while the QR link was correct (2026-08-01)
-      layer("nhs_resources.json", { cache: "no-cache" }, "resources", []),
       // no-store: this file carries crisis numbers and opening hours — a
       // returning patient must never be shown a stale cached copy after a
       // correction. It is small (~12 KB); the leaflet indexes stay cacheable.
       layer(dir + "local_advice.json", { cache: "no-store" }, "advice", []),
-      layer("medicines.json", { cache: "no-cache" }, "medicines", []),
       fetch(dir + "manual_overrides.json").then(r => r.json()).catch(() => ({})),
       fetch(dir + "reviews.json").then(r => r.json()).catch(() => ({})),
-      fetch(dir + "redirects.json").then(r => r.json()).catch(() => ({}))
+      fetch(dir + "redirects.json").then(r => r.json()).catch(() => ({})),
+      // no-store, like local advice: it carries unit locations and phone
+      // numbers — a returning patient must never see a stale cached copy
+      layer(dir + "followups.json", { cache: "no-store" }, "follow-up details", {}),
+      nationalP,
     ]);
-    // no-store, like local advice: it carries unit locations and phone
-    // numbers — a returning patient must never see a stale cached copy
-    followups = await layer(dir + "followups.json", { cache: "no-store" },
-                            "follow-up details", {});
-    // NHS.uk "when to get help" cards, shown verbatim on this page under the
-    // Open Government Licence (Oscar 2026-09-03; built weekly by nhs_cards.py)
-    nhsCards = await layer("nhs_cards.json", { cache: "no-cache" }, "NHS advice cards", {});
-    drivingAdvice = await layer("driving_advice.json", { cache: "no-cache" },
-                                "driving advice", { modules: [] });
+    await nhsEarlyP;
+    // NHS.uk content, verbatim, under the Open Government Licence (Oscar
+    // 2026-09-03; built weekly by nhs_cards.py) — one file per page, loaded
+    // only for the slugs on this QR (plus companions found via the index)
+    nhsCards = { pages: nhsPages, index: (nhsIndex && nhsIndex.pages) || {} };
     // clinician-chosen verdicts (?adv=module.node,…): validated against the
     // published trees — unknown ids are ignored, and only the verbatim
     // quote/source ever render (the clinician-facing notes never do)
@@ -1144,10 +1165,16 @@ async function main() {
       footer: item.footer,
       review: reviews[lookup],
       replaced: replaced,
-      nhsCards: ((nhsCards || {}).pages || {})[lookup] || null,
+      nhsCards: null,
     });
   }
-  for (const it of resolved) it.companion = findCompanion(it, (nhsCards || {}).pages);
+  // per-page NHS files: the requested slug (already in flight), a redirected
+  // one, and each trust leaflet's NHS companion (matched on the index titles)
+  await Promise.all(resolved.map(async it => {
+    if (nhsCards.index[it.slug]) it.nhsCards = await loadNhsPage(it.slug);
+    const c = it.nhsCards ? null : findCompanion(it, nhsCards.index);
+    it.companion = c ? await loadNhsPage(c.slug) : null;
+  }));
 
   if (resolved.length === 0 && !FU_CARD) {   // a follow-up-only QR is valid
     // Blame the right thing: if a data layer failed to load, the QR code is

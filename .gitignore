@@ -97,3 +97,6 @@ proposed/
 # nhs_cards.py private state + change log (the public product is nhs_cards.json)
 nhs_cards_state.json
 nhs_cards_history.jsonl
+# regular Codex review of the NHS content (flags only, business layer)
+nhs_cards_review.json
+nhs_cards_review_state.json

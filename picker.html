@@ -822,7 +822,7 @@ async function load() {
       .catch(() => { failedLayers.push("follow-up destinations"); return {}; }),
     // which NHS.uk pages carry verbatim "when to get help" cards on the
     // patient page (nhs_cards.py) — a clinician's tie-breaker, so quiet on failure
-    fetch("nhs_cards.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+    fetch("nhs_cards_index.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
     // what clinicians at this trust actually choose together (learned_bundles.py,
     // anonymous telemetry, ranks only) — a suggestion row, never an approval
     fetch("learned_bundles.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
@@ -834,8 +834,10 @@ async function load() {
   DRIVING = (driving && driving.modules) || [];
   FOLLOWUPS = (followups && followups.destinations) || [];
   LEARNED = ((learned && learned.trusts) || {})[TRUST.id] || {};
+  // the index (a few KB) says which pages carry help cards — the store
+  // itself is per-page now and never loaded here (2026-09-05, speed)
   NHS_CARDS = new Set(Object.entries((nhsCards && nhsCards.pages) || {})
-    .filter(([, p]) => p && p.cards && p.cards.length).map(([slug]) => slug));
+    .filter(([, p]) => p && p.help).map(([slug]) => slug));
   PROFILES = (profiles && profiles.profiles) || {};
   initSpecialtyUI();
   telemetryNotice();
