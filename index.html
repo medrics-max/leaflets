@@ -115,8 +115,6 @@
   .nhscard[open] > summary::after { transform: rotate(-135deg); }
   .nhscard .nhscard-b { padding: 0 14px 12px; }
   .nhscard-b .nhs-h { font-weight: 700; margin: 12px 0 4px; }
-  .nhs-chosen { margin: 6px 0 10px; padding: 10px 12px; background: #eef5fb; border-radius: 8px; font-size: 1rem; }
-  .nhs-chosen a { color: #005eb8; font-weight: 700; }
   .nhscard ul { margin: 0 0 4px; padding-left: 20px; }
   .nhscard li { margin-bottom: 4px; }
   .nhscard p { margin: 4px 0; }
@@ -423,46 +421,8 @@ function rateHelpful(value) {
 let FU_ICS = "";
 let FU_SUMMARY = "";   // one line for the banner: where and when
 let FU_LEAFLET = "";
-// the clinician's clicks decide what "treatment" means on this page (Oscar
-// 2026-09-03: "we have told the treatment on the page if we pick apixaban —
-// we don't have to pick that part about injections"): BUNDLES is the public
-// related_bundles.json (condition ↔ medicine terms), BUNDLE_MEDS the
-// medicines the clinician put on this QR
-let BUNDLES = [];
-let BUNDLE_MEDS = [];
 // every href on this page comes from our own JSON, but only http(s) may ever reach an href
 function safeHref(u) { return /^https?:\/\//i.test(String(u || "")) ? encodeURI(String(u)) : ""; }
-function foldT(s) { return String(s || "").toLowerCase().replace(/[’']/g, "").replace(/[-–—]/g, " "); }
-// medicines on this page that the condition's bundle names as its treatment —
-// data-driven, both directions of the bundle file, never a guess
-function chosenTreatments(cond) {
-  if (!BUNDLE_MEDS.length || !BUNDLES.length) return [];
-  const ct = foldT(cond.title + " " + cond.slug);
-  const first = t => (t.split(/\s+/)[0] || "");
-  const out = [];
-  for (const m of BUNDLE_MEDS) {
-    if (m.slug === cond.slug) continue;
-    const mt = foldT(m.title), ms = foldT(m.slug);
-    // a suggest term names this medicine when the WHOLE term is in its title
-    // ("anticoagulant") or its first word is the drug name in its slug
-    // ("apixaban vte" → med-apixaban). Codex 2026-09-03: first-word matching
-    // in the condition direction let "pulmonary embolism" claim enoxaparin
-    // for pulmonary hypertension — so that direction needs the whole term.
-    const namesMed = t => mt.includes(t) || (first(t).length >= 5 && ms.includes(first(t)));
-    const namesCond = t => t.length >= 4 && ct.includes(t);
-    const hit = BUNDLES.some(b => {
-      const match = (b.match || []).map(foldT), sug = (b.suggest || []).map(foldT);
-      return (match.some(t => ct.includes(t)) && sug.some(namesMed))      // condition row → its medicines
-          || (match.some(t => mt.includes(t) || ms.includes(t)) && sug.some(namesCond));   // medicine row → its conditions
-    });
-    if (hit && !out.includes(m)) out.push(m);
-  }
-  return out;
-}   // slug of the leaflet the follow-up card links — kept out of "Your leaflets"
-let TRUST_LABEL = "Your hospital";
-function icsText(s) {
-  return String(s || "").replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
-}
 function buildIcs(dest, dt, hasTime, findHref) {
   const p2 = n => String(n).padStart(2, "0");
   const ymd = d => d.getFullYear() + p2(d.getMonth() + 1) + p2(d.getDate());
@@ -673,16 +633,10 @@ function nhsInfoHtml(item, pg) {
   // generic "Treating…" section (injections, admission, other drugs) would
   // contradict what the patient was actually given, so it is replaced by a
   // pointer to the medicine card below. No medicine clicked → NHS's own words.
-  // DEFAULT IS SILENT ON TREATMENT (Oscar 2026-09-03: "don't talk about
-  // treatment unless it's generic advice or we know what treatment via the
-  // selection"): NHS's "Treating…" and "How … is diagnosed" sections describe
-  // a pathway the patient may not have had — they stay on the linked NHS page.
-  // Generic advice = NHS's own self-care section, still shown. Known treatment
-  // = the medicine the clinician clicked, shown as the pointer below.
-  const chosen = (pg.url || "").includes("/conditions/")
-    ? chosenTreatments({ title: pg.title || item.title || "", slug: item.slug || "" }) : [];
-  // outlook/recovery sections presume the pathway too ("After surgery for
-  // appendicitis", "wear your plaster cast" — Codex 2026-09-03): hidden as well
+  // DEFAULT IS SILENT ON TREATMENT (Oscar 2026-09-03): NHS's "Treating…",
+  // "How … is diagnosed" and outlook/recovery sections describe a pathway
+  // the patient may not have had — they stay on the linked NHS page. The
+  // medicine the clinician added speaks for itself in "About your medicines".
   const cards = (pg.cards || []).filter(c => INFO_TIERS[c.tier] && !["treatment", "diagnosis", "outlook"].includes(c.tier));
   const help = (pg.cards || []).filter(c => HELP_TIERS[c.tier]);
   if (help.length) HELP_GROUPS.push({ title: pg.title || item.title, page: pg, cards: help });
@@ -700,14 +654,10 @@ function nhsInfoHtml(item, pg) {
   if (!about && !cards.length) return "";
   // collapsed by default (Oscar 2026-09-03: "collapsible points so the
   // information is not too overwhelming"); the intro stays visible
-  const chosenLine = chosen.length
-    ? `<p class="nhs-chosen">💊 <strong>Your treatment:</strong> ${chosen.map(m => `<a href="#item-${escapeHtml(m.slug)}">${escapeHtml(m.title.replace(/\s*\(.*$/, ""))}</a>`).join(", ")} — added to this page by your clinician. What it is, how to take it and side effects are under “About your medicines” below.</p>`
-    : "";
   const body = cards.map(c => `<details class="nhscard nhscard-${escapeHtml(c.tier)}">
       <summary>${escapeHtml(c.headline)}</summary><div class="nhscard-b">${cardBody(c)}</div></details>`).join("");
   const helpNote = help.length ? ` — when to get help for this is <a href="#help">at the bottom of this page</a>` : "";
-  // our one sentence sits OUTSIDE the NHS-attributed block (Codex 2026-09-03)
-  return `${chosenLine}<div class="nhscards">${about}${body}${nhsAttribution(pg, helpNote)}</div>`;
+  return `<div class="nhscards">${about}${body}${nhsAttribution(pg, helpNote)}</div>`;
 }
 // The bottom section: every red-flag card from every NHS page on this
 // visit, in NHS order, grouped by condition, with the disclaimer.
@@ -805,7 +755,6 @@ function renderResolved(items, demo) {
   const leaflets = items.filter(i => i.type === "leaflet" && i.slug !== FU_LEAFLET);   // the follow-up card links its own leaflet
   const advice = items.filter(i => i.type === "advice");
   const medicines = items.filter(i => i.type === "medicines");
-  BUNDLE_MEDS = medicines;
   const services = items.filter(i => i.type === "service");
   // 'trusted' = named reputable UK charities/bodies — rendered with the NHS
   // layer under the same heading; filtering by type must never drop an item.
@@ -1035,9 +984,6 @@ async function main() {
     // NHS.uk "when to get help" cards, shown verbatim on this page under the
     // Open Government Licence (Oscar 2026-09-03; built weekly by nhs_cards.py)
     nhsCards = await layer("nhs_cards.json", { cache: "no-cache" }, "NHS advice cards", {});
-    // failure here only means the NHS treatment section shows as written
-    const rb = await layer("related_bundles.json", { cache: "no-cache" }, "related bundles", {});
-    BUNDLES = (rb && Array.isArray(rb.bundles)) ? rb.bundles : [];
     drivingAdvice = await layer("driving_advice.json", { cache: "no-cache" },
                                 "driving advice", { modules: [] });
     // clinician-chosen verdicts (?adv=module.node,…): validated against the

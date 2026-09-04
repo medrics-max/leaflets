@@ -17149,7 +17149,6 @@
    "dateModified": "2025-06-02",
    "retrieved": "2026-09-04",
    "about": [
-    "Read more about a pulmonary embolism, which is when a blood clot blocks a blood vessel in your lungs.",
     "Symptoms of a pulmonary embolism include chest pain, difficulty breathing and coughing up blood."
    ],
    "cards": [
@@ -45506,17 +45505,6 @@
     }
    ]
   },
-  "nhs-urinary-catheters": {
-   "url": "https://www.nhs.uk/conditions/urinary-catheters/",
-   "title": "Urinary catheters",
-   "dateModified": "2025-04-29",
-   "retrieved": "2026-09-04",
-   "about": [
-    "Read about a urinary catheter, which is a flexible tube used to empty the bladder and collect urine in a drainage bag."
-   ],
-   "cards": [],
-   "sections": []
-  },
   "med-beclometasone": {
    "url": "https://www.nhs.uk/medicines/beclometasone-inhalers/",
    "title": "Beclometasone inhaler (steroid preventer)",
@@ -49893,9 +49881,7 @@
    "title": "Gabapentin (for nerve pain)",
    "dateModified": "2026-02-26",
    "retrieved": "2026-09-04",
-   "about": [
-    "Read about how gabapentin treats epilepsy and nerve pain, and how to take it."
-   ],
+   "about": [],
    "cards": [
     {
      "tier": "suitability",
