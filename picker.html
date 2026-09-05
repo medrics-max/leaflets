@@ -327,18 +327,31 @@ const TAGLABEL = { leaflet:"Trust leaflet", medicines:"NHS medicine", advice:"Lo
 
 // Trust registry (trusts.json). Fallback keeps the page working if it can't load.
 let REGISTRY = null, TRUST = null;
-const FALLBACK_REGISTRY = { default: "gloucestershire", trusts: [{
-  id: "gloucestershire", name: "Gloucestershire Hospitals NHS Foundation Trust",
-  short_name: "Gloucestershire Hospitals", status: "live", data_dir: "." }] };
+// THE MAIN PAGE IS THE NHS LIBRARY (Oscar 2026-09-05: "we have a product
+// regardless of trust — the ultimate patient information portal"): a virtual
+// "trust" with no hospital content — NHS.uk pages, medicines and the A–Z,
+// driving/flying advice. A hospital's own leaflets and follow-ups appear
+// only when that hospital is chosen (or linked via ?t=).
+// Not just NHS.uk (Oscar 2026-09-05: "ENT UK, other national libraries, the
+// driving advice parser — we are the gold-standard bridge between clinician
+// and patient"): NHS.uk pages and medicines, the national bodies (ENT UK,
+// BAUS, BAOMS, Diabetes UK, Epilepsy Action…), official GOV.UK/DVLA and CAA
+// driving and flying advice, device instructions.
+const LIBRARY = { id: "nhs", name: "Trusted UK patient information — NHS, national bodies and official advice (no hospital selected)",
+                  short_name: "All trusted UK sources (no hospital)", status: "live", library: true };
+const FALLBACK_REGISTRY = { default: "nhs", trusts: [] };
 
 function liveTrusts() { return REGISTRY.trusts.filter(t => t.status === "live"); }
 // Only trusts that have agreed to the tool are listed publicly. Unlisted
 // (not-yet-approved) trusts stay out of the dropdown unless ?preview is in
 // the URL or the trust is opened directly via ?t=<id> — demo use only.
 function selectableTrusts(previewMode, tParam) {
-  return liveTrusts().filter(t =>
-    t.listed !== false || previewMode || t.id === tParam);
+  return [LIBRARY].concat(liveTrusts().filter(t =>
+    t.listed !== false || previewMode || t.id === tParam));
 }
+// per-trust file fetch; the library has no hospital files at all
+const trustFetch = (file, opts, empty) => TRUST.library ? Promise.resolve(empty)
+  : fetch(dirFor(TRUST) + file, opts).then(r => { if (r.status === 404) return empty; if (!r.ok) throw 0; return r.json(); });
 function dirFor(t) {
   const d = t.data_dir || ("trusts/" + t.id);
   return d === "." ? "" : d.replace(/\/?$/, "/");
@@ -349,6 +362,7 @@ function dirFor(t) {
 // gaps are covered whichever trust is chosen.
 function sourcesFor(t) {
   const dir = dirFor(t);
+  if (t.library) return [["nhs_resources.json", "nhs"], ["medicines.json", "medicines"], ["nhs_catalogue.json", "nhs"]];
   return [
     [dir + "leaflets.json", "leaflet"],
     [dir + "services.json", "service"],
@@ -812,7 +826,7 @@ async function load() {
           return r.json().then(d => Array.isArray(d) ? d : ((d && d.items) || []));
         })
         .catch(() => { failedLayers.push(LAYER_LABEL[ty] || ty); return []; }))),
-    fetch(dirFor(TRUST) + "reviews.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+    trustFetch("reviews.json", { cache: "no-cache" }, {}).catch(() => ({})),
     fetch("related_bundles.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
     fetch("specialty_profiles.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
     fetch("driving_advice.json", { cache: "no-cache" })
@@ -823,8 +837,7 @@ async function load() {
     // 404 = no file = no row (optional layer); anything else — server error,
     // bad JSON, network — must FLAG, not silently hide the row (2026-09-03
     // Codex review: honest failure, same rule as the other layers)
-    fetch(dirFor(TRUST) + "followups.json", { cache: "no-store" })
-      .then(r => { if (r.status === 404) return {}; if (!r.ok) throw 0; return r.json(); })
+    trustFetch("followups.json", { cache: "no-store" }, {})
       .catch(() => { failedLayers.push("follow-up destinations"); return {}; }),
     // which NHS.uk pages carry verbatim "when to get help" cards on the
     // patient page (nhs_cards.py) — a clinician's tie-breaker, so quiet on failure
@@ -892,7 +905,7 @@ function pickTrust(id) {
   TRUST = CHOICES.find(t => t.id === id) || CHOICES[0];
   try { localStorage.setItem(TRUST_KEY, TRUST.id); } catch (e) {}
   $("trustsel").value = TRUST.id;
-  $("trustfoot").textContent = TRUST.name;
+  $("trustfoot").textContent = TRUST.library ? "the NHS website and other trusted UK sources" : TRUST.name;
   renderCredits();
   $("demobanner").hidden = !isDemo();
   load();
@@ -904,13 +917,13 @@ async function init() {
     // "listed" approval flag takes effect immediately, not after cache expiry
     REGISTRY = await fetch("trusts.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null);
   } catch (e) {}
-  if (!REGISTRY || !liveTrusts().length) REGISTRY = FALLBACK_REGISTRY;
+  if (!REGISTRY) REGISTRY = FALLBACK_REGISTRY;
   const params = new URLSearchParams(location.search);
   const param = params.get("t");
   CHOICES = selectableTrusts(params.has("preview"), param);
   // If every live trust is unlisted and there's no ?preview/?t, fall back to
   // all live trusts rather than an empty dropdown that bricks pickTrust().
-  if (!CHOICES.length) CHOICES = liveTrusts();
+  if (!CHOICES.length) CHOICES = [LIBRARY].concat(liveTrusts());
   const sel = $("trustsel");
   sel.innerHTML = CHOICES.map(t =>
     `<option value="${esc(t.id)}">${esc(t.short_name || t.name)}${t.listed === false ? " (preview)" : ""}</option>`).join("");

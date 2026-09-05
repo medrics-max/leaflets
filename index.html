@@ -341,8 +341,8 @@
 </div>
 <footer>
   Patient information published by<br>
-  <span id="trustfoot">Gloucestershire Hospitals NHS Foundation Trust</span><br>
-  This page is an independent service by Medrics and is not provided or endorsed by the trust.<br>
+  <span id="trustfoot">the NHS website and other trusted UK sources</span><br>
+  <span id="trustnote">This page is an independent service by Medrics.</span><br>
   Privacy: this page collects nothing about you and never knows who you are. If you tap
   Yes or No below, we record only that answer and the hospital — nothing else, and nothing
   that could identify you. The web address does show the information topics, and any follow-up day or
@@ -1016,16 +1016,14 @@ async function main() {
       demo = trust.listed === false;
       const foot = document.getElementById("trustfoot");
       if (foot) foot.textContent = trust.name;
+      const note = document.getElementById("trustnote");
+      if (note) note.textContent = "This page is an independent service by Medrics and is not provided or endorsed by the trust.";
       setCreditLine(trust);
       TRUST_LABEL = trust.short_name || trust.name;
       trustResolved = true;
-    } else if (registry && !tParam) {
-      // Default-trust QR (no ?t=): the credit belongs to the default trust's
-      // own project team (Gloucestershire — Dr Mitchell IS its clinical
-      // lead), read from the registry like any other trust.
-      const dt = (registry.trusts || []).find(x => x.id === registry.default);
-      if (dt) { setCreditLine(dt); TRUST_LABEL = dt.short_name || dt.name; }
     }
+    // no ?t= — the NHS library page: no hospital's files are loaded at all
+    // (Oscar 2026-09-05: the product stands regardless of trust)
   } catch (e) { /* registry unavailable — handled below for ?t= QRs */ }
   // A ?t= QR we can't resolve (renamed trust id, or the registry fetch failed)
   // must NOT silently fall back to the default trust: that would show a
@@ -1048,25 +1046,27 @@ async function main() {
   // must blame the outage, not the QR code. A 404 on an OPTIONAL per-trust
   // file (services/advice at trusts that have none) is normal and stays quiet.
   let nhsIndex;
+  const libraryMode = !trustResolved;
+  const trustLayer = (url, opts, name, empty) => libraryMode ? Promise.resolve(empty) : layer(url, opts, name, empty);
   try {
     [leaflets, services, advice, overrides, reviews, redirects, followups, [nhs, medicines, drivingAdvice, nhsIndex]] = await Promise.all([
       // a follow-up-only QR must not die with the leaflet index: a failure
       // here flags the layer and the page renders what it can, with the
       // outage notice (2026-09-03 Codex review)
-      fetch(dir + "leaflets.json", { cache: "no-cache" })
+      libraryMode ? Promise.resolve([]) : fetch(dir + "leaflets.json", { cache: "no-cache" })
         .then(r => { if (!r.ok) throw 0; return r.json(); })
         .catch(() => { layersFailed.push("leaflets"); return []; }),
-      layer(dir + "services.json", { cache: "no-cache" }, "services", []),
+      trustLayer(dir + "services.json", { cache: "no-cache" }, "services", []),
       // no-store: this file carries crisis numbers and opening hours — a
       // returning patient must never be shown a stale cached copy after a
       // correction. It is small (~12 KB); the leaflet indexes stay cacheable.
-      layer(dir + "local_advice.json", { cache: "no-store" }, "advice", []),
-      fetch(dir + "manual_overrides.json").then(r => r.json()).catch(() => ({})),
-      fetch(dir + "reviews.json").then(r => r.json()).catch(() => ({})),
-      fetch(dir + "redirects.json").then(r => r.json()).catch(() => ({})),
+      trustLayer(dir + "local_advice.json", { cache: "no-store" }, "advice", []),
+      libraryMode ? Promise.resolve({}) : fetch(dir + "manual_overrides.json").then(r => r.json()).catch(() => ({})),
+      libraryMode ? Promise.resolve({}) : fetch(dir + "reviews.json").then(r => r.json()).catch(() => ({})),
+      libraryMode ? Promise.resolve({}) : fetch(dir + "redirects.json").then(r => r.json()).catch(() => ({})),
       // no-store, like local advice: it carries unit locations and phone
       // numbers — a returning patient must never see a stale cached copy
-      layer(dir + "followups.json", { cache: "no-store" }, "follow-up details", {}),
+      trustLayer(dir + "followups.json", { cache: "no-store" }, "follow-up details", {}),
       nationalP,
     ]);
     await nhsEarlyP;
