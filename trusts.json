@@ -1,6 +1,6 @@
 {
  "version": 1,
- "default": "gloucestershire",
+ "default": "nhs",
  "update_interval_days": 14,
  "trusts": [
   {
@@ -23,7 +23,7 @@
     "include_pdf": false,
     "min_expected": 500
    },
-   "listed": true
+   "listed": false
   },
   {
    "id": "worcestershire",
