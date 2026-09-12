@@ -390,56 +390,56 @@
   "title": "Asthma Transition from Paediatrics to Adult Services"
  },
  "atrial-fibrillation-ablation-information-sheet": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "aff118b39184e761",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "69b0a3c8c079a3e9",
   "status": "no-date",
   "title": "Atrial Fibrillation ablation information sheet"
  },
  "atrial-fibrillation-waht-pi-2175": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "00c360a1e3875eab",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "bb262012897d35dd",
   "status": "no-date",
   "title": "Atrial Fibrillation (AF)"
  },
  "atrioventricular-av-node-ablation": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "3ee7163d89c6118e",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "19005acd69d0faa0",
   "status": "no-date",
   "title": "Atrioventricular (AV) Node Ablation"
  },
  "autogenic-drainage": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "f732a5b590fedf01",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "05aca7626541a204",
   "status": "no-date",
   "title": "Autogenic drainage"
  },
  "autologous-fat-transfer": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "e22d8e85cddcb48d",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "a07ead86b4755f31",
   "status": "no-date",
   "title": "Autologous fat transfer"
  },
  "awake-self-proning-in-suspected-covid": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "8acb09dff653bf57",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "e43bc997611a38e2",
   "status": "no-date",
   "title": "Awake Self Proning in Suspected COVID"
  },
  "axillary-node-dissection-clearance": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "be1848a5d173a186",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "6452ca88dae1db21",
   "status": "no-date",
   "title": "Axillary Node Dissection/Clearance"
  },
  "babies-who-may-be-at-risk-of-group-b-streptococcus-infection": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "8aec4ae752c6c3d3",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "eabd3179a4c7480a",
   "status": "no-date",
   "title": "Babies who may be at increased risk of group B Streptococcus infection"
  },
  "backache-waht-pi-2107": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "4ca63396f78ea448",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "b5e82a1e4efa2c7e",
   "status": "no-date",
   "title": "Back Pain"
  },
@@ -456,8 +456,8 @@
   "title": "‘Being Open’ Communicating Patient Safety Events with Patients, Families and Carers"
  },
  "benign-paroxysmal-positional-vertigo-bppv-waht-pi-2343": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "f216b46f420ff5cf",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "a8a2cb74068659d2",
   "status": "no-date",
   "title": "Benign paroxysmal positional vertigo (BPPV)"
  },
@@ -468,8 +468,8 @@
   "title": "Better Hearing with Both Ears"
  },
  "biers-block-intravenous-regional-anaesthesia": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "9fb94d0f8dd63805",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "73ea3b921d3ccec1",
   "status": "no-date",
   "title": "Bier’s block (Intravenous Regional Anaesthesia)"
  },
@@ -492,14 +492,14 @@
   "title": "Birch Unit Discharge following Surgery"
  },
  "bleeding-after-the-menopause-post-menopausal-bleeding": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "1ebe8cac13a094cf",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "b0360fcd212c4e68",
   "status": "no-date",
   "title": "Bleeding after the menopause (Post-menopausal bleeding)"
  },
  "blood-monitoring-and-carbohydrate-diary-for-patients-on-insulin": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "6404e3944536542f",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "d9881cfcaf476b65",
   "status": "no-date",
   "title": "Blood Monitoring and Carbohydrate Diary – For patients on Insulin"
  },
@@ -510,50 +510,50 @@
   "title": "Blood Pleurodesis"
  },
  "bone-biopsy-under-ct-guidance": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "09057b913029c2e9",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "b3ef05ddce917fa2",
   "status": "no-date",
   "title": "Bone biopsy under CT guidance"
  },
  "bone-marrow-sampling": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "a870c61ce1ca40a1",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "4b6d1b142d0d07ea",
   "status": "no-date",
   "title": "Bone Marrow Sampling"
  },
  "botulinum-toxin-injections-for-blepharospasm": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "5579ebd7185c13ff",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "014dd8331a8b2123",
   "status": "no-date",
   "title": "Botulinum Toxin Injections for Blepharospasm"
  },
  "bowel-cancer-screening-low-fibre-diet": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "5ef78ac2ee23222b",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "bab6e526c911b61f",
   "status": "no-date",
   "title": "Bowel Cancer Screening – Low Fibre Diet"
  },
  "brachial-plexus-block": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "bf2a43742da74ffd",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "68819f73e6fd986b",
   "status": "no-date",
   "title": "Brachial Plexus Block"
  },
  "brain-injury-information-for-relatives-carers": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "b1ac586684ac8218",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "f0e329458c1a79c1",
   "status": "no-date",
   "title": "Brain Injury Information"
  },
  "breast-care-after-loss": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "9b7fa4e6b11ea35f",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "e87fa608f8834d1a",
   "status": "no-date",
   "title": "Breast Care after Loss"
  },
  "breast-form-prosthesis": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "7c9a2690a3a40f2b",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "6df4108255fe70f8",
   "status": "no-date",
   "title": "Breast Form / Prosthesis"
  },
@@ -564,8 +564,8 @@
   "title": "Breath Hold Leaflet"
  },
  "breathing-pattern-disorder": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "9ab4e63f87cfe8c2",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "cbaf244698a64907",
   "status": "no-date",
   "title": "Breathing pattern disorder"
  },
@@ -576,50 +576,50 @@
   "title": "Breathing to Manage Anxiety"
  },
  "broken-nose": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "03358bfbd7914f7d",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "f2adafaffa6a82fc",
   "status": "no-date",
   "title": "Broken Nose"
  },
  "bronchiectasis-in-adults": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "d06830ec64716afa",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "2b0465bebc48f7de",
   "status": "no-date",
   "title": "Bronchiectasis in adults"
  },
  "bronchiectasis-in-children": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "0b25b8308bc18d9d",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "2a776b9446fd848b",
   "status": "no-date",
   "title": "Bronchiectasis in children"
  },
  "bronchiolitis-waht-pi-2232": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "3d6067fc68e6ea91",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "7413589dbc66d013",
   "status": "no-date",
   "title": "Bronchiolitis in Children"
  },
  "bronchoscopy": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "a16c2022c8bb4151",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "5500c8d3240d5ac0",
   "status": "no-date",
   "title": "Bronchoscopy"
  },
  "bronchoscopy-with-or-without-sedation": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "e76169f72336610e",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "3b0d375f1bb5213d",
   "status": "no-date",
   "title": "Bronchoscopy with or without sedation"
  },
  "bubble-echocardiogram": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "d6d5e329860c0fea",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "f710e7d466e4c9bd",
   "status": "no-date",
   "title": "Bubble Echocardiogram"
  },
  "bubble-pep-adults": {
-  "checked": "2026-08-12T02:30:45+01:00",
-  "content_hash": "8e302fa2cf66be4a",
+  "checked": "2026-09-12T02:30:57+01:00",
+  "content_hash": "74a7a45804a7f862",
   "status": "no-date",
   "title": "Bubble PEP – Adults"
  },
