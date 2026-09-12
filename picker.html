@@ -10,13 +10,13 @@
   "@context": "https://schema.org",
   "@type": "WebApplication",
   "name": "Patient Information QR — clinician picker",
-  "url": "https://medrics-max.github.io/leaflets/picker.html",
+  "url": "https://leaflets.medrics.co.uk/picker.html",
   "applicationCategory": "HealthApplication",
   "operatingSystem": "Any (web browser)",
   "description": "A clinician searches published patient-information leaflets, ticks a set, and shows a QR code. The patient scans it and gets links to their trust's own published leaflets plus national NHS.uk content. No login, no patient identity — no name, NHS number or contact details are ever entered; a clinician may add a follow-up day and time to the link.",
   "audience": { "@type": "MedicalAudience", "audienceType": "Clinicians" },
   "publisher": { "@type": "Organization", "name": "Medrics", "url": "https://medrics.co.uk" },
-  "license": "https://medrics-max.github.io/leaflets/LICENSE"
+  "license": "https://leaflets.medrics.co.uk/LICENSE"
 }
 </script>
 <style>
@@ -260,9 +260,59 @@
     border: 1px solid var(--red); background: var(--card); color: var(--red);
     border-radius: 8px; padding: 6px 12px; cursor: pointer; font-size: 12px; margin-top: 8px;
   }
+  /* Clinician check-in (Oscar 2026-09-05: "a check-in type service … one
+     registration number per person … limits bots"). body.gated hides the
+     picker until a registration number passes the on-device format check;
+     the footer stays so the attribution/feedback link is always visible. */
+  body.gated > :not(#checkin):not(footer) { display: none !important; }
+  #checkin {
+    border: 1px solid var(--line); border-left: 4px solid var(--accent);
+    border-radius: 12px; background: var(--card); box-shadow: var(--shadow);
+    padding: 16px 18px; margin: 4px 0 16px;
+  }
+  #checkin label { display: block; font-size: 12px; color: var(--muted); margin: 10px 0 3px; }
+  #checkin select, #checkin input {
+    width: 100%; padding: 10px 12px; font-size: 16px;
+    border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--ink);
+  }
+  #checkin input { font-variant-numeric: tabular-nums; letter-spacing: .04em; }
+  #checkin input:focus, #checkin select:focus { border-color: var(--accent); outline: none; }
+  #checkin .ci-hint { font-size: 12px; color: var(--muted); margin: 4px 0 0; }
+  #checkin .ci-err { font-size: 13px; color: var(--red); margin: 6px 0 0; }
+  #checkin button.primary { margin-top: 12px; }
+  #checkin .ci-why { font-size: 12px; color: var(--muted); margin: 10px 0 0; }
+  #ci-status button { background: none; border: none; color: var(--accent); font-size: 11px; cursor: pointer; padding: 0; text-decoration: underline; }
+  /* Optional member sign-in (2026-09-12) — footer form + saved sets row */
+  #ms-status button, .setdel { background: none; border: none; color: var(--accent); font-size: 11px; cursor: pointer; padding: 0; text-decoration: underline; }
+  #ms-form { margin: 8px auto 0; max-width: 440px; text-align: left; }
+  #ms-form label { display: block; font-size: 12px; color: var(--muted); margin: 8px 0 3px; }
+  #ms-form label.own { color: inherit; margin: 8px 0; }
+  #ms-form input[type=email], #ms-form input[type=password] { width: 100%; box-sizing: border-box; padding: 7px 9px; border: 1px solid #c9ced6; border-radius: 6px; font-size: 14px; }
+  #ms-form .ci-why { margin-top: 8px; }
+  #sets { margin: 6px 0 2px; }
+  #sets[hidden], #saveset[hidden] { display: none; }
+  .setlabel, #setsnote { font-size: 12px; color: var(--muted); }
+  .setdel { text-decoration: none; color: var(--muted); font-size: 14px; margin: 0 8px 0 2px; }
+  #saveset { display: flex; gap: 6px; align-items: center; margin: 8px 0; }
+  #saveset input { flex: 1; padding: 7px 9px; border: 1px solid #c9ced6; border-radius: 6px; font-size: 14px; }
 </style>
 </head>
-<body>
+<body class="gated">
+<section id="checkin" hidden aria-labelledby="ci-h">
+  <h1 id="ci-h">📋 Patient information for clinicians</h1>
+  <p class="sub">This tool is for registered healthcare professionals. Check in once with your professional registration number to continue.</p>
+  <form id="ci-form" novalidate>
+    <label for="ci-body">Your regulator</label>
+    <select id="ci-body"></select>
+    <label for="ci-num">Registration number</label>
+    <input id="ci-num" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false" inputmode="text" aria-describedby="ci-hint">
+    <p class="ci-hint" id="ci-hint"></p>
+    <p class="ci-err" id="ci-err" role="alert" hidden></p>
+    <button id="ci-go" type="submit" class="primary">Check in</button>
+  </form>
+  <p class="ci-why">Your number is checked for format on this device only. It is not stored, not sent anywhere, and not looked up on the register — entering it is your professional declaration.</p>
+  <p class="ci-why">Medrics member? After checking in you can sign in from the foot of the page to keep your saved sets on every device. Optional — the tool is free either way.</p>
+</section>
 <div class="head">
   <h1>📋 Choose patient information</h1>
   <select id="trustsel" aria-label="Which trust are you working at?"></select>
@@ -279,6 +329,7 @@
 <input id="search" type="search" aria-label="Search patient information leaflets" placeholder="Search (e.g. cellulitis, flucloxacillin, first fit)…" autocomplete="off">
 
 <div id="selected" class="chips"></div>
+<div id="sets" class="chips" hidden aria-label="Your saved sets"></div>
 <div id="related" class="related"></div>
 <div id="driving" class="driving"></div>
 <div id="loadwarn"></div>
@@ -289,9 +340,14 @@
      "search bar then this EMMAC thing then the leaflets — not intuitive"). -->
 <div id="followup" class="fu"></div>
 
+<form id="saveset" hidden novalidate>
+  <input id="ss-name" type="text" maxlength="40" autocomplete="off" spellcheck="false" placeholder="Name this set, e.g. Head injury adult" aria-label="Name for this set">
+  <button type="submit" class="primary">Save</button>
+  <button type="button" id="ss-cancel" class="clear">Cancel</button>
+</form>
 <div class="actions">
   <button id="gen" class="primary" disabled>Generate QR code</button>
-  <div style="text-align:center"><button id="clear" class="clear">Clear all</button></div>
+  <div style="text-align:center"><button id="clear" class="clear">Clear all</button> <button id="savebtn" class="clear" disabled title="Keep this selection as a named set to reuse">Save this set</button></div>
 </div>
 
 <div id="out"></div>
@@ -299,6 +355,18 @@
 <footer>
   <a href="https://docs.google.com/forms/d/e/1FAIpQLScPaGRxAf61Mp2P2laqGLZnGTKN-51yiXehssngljz-qATeUA/viewform" target="_blank" rel="noopener" style="color:#005eb8; font-weight:600;">Feedback on this tool</a>
   <br><br>
+  <span id="ci-status"></span><br>
+  <span id="ms-status"></span>
+  <form id="ms-form" hidden novalidate>
+    <label for="ms-email">Membership email</label>
+    <input id="ms-email" type="email" autocomplete="username" spellcheck="false">
+    <label for="ms-token">Your medrics token (from your welcome email, or Locum Manager's medrics_account.json)</label>
+    <input id="ms-token" type="password" autocomplete="off" spellcheck="false">
+    <label class="own"><input id="ms-own" type="checkbox"> This is my own device — stay signed in. Leave unticked on a shared computer.</label>
+    <p class="ci-err" id="ms-err" role="alert" hidden></p>
+    <button type="submit" class="primary">Sign in</button> <button type="button" id="ms-cancel" class="clear">Cancel</button>
+    <p class="ci-why">Optional. Sign-in keeps your trust, specialty and saved sets against your membership so they follow you between devices. Your registration number is never sent, and nothing about any patient is.</p>
+  </form><br>
   <span id="credits" hidden></span><br>
   Software &amp; design: Dr Oscar Harrison<br><br>
   For clinician use. An independent tool by Medrics linking to patient information published by<br>
@@ -313,7 +381,7 @@
 // reads as "the patient gets no driving advice" (Oscar, 2026-08-04).
 const LANDING = (["localhost", "127.0.0.1"].includes(location.hostname))
   ? location.origin + "/index.html"
-  : "https://medrics-max.github.io/leaflets/";
+  : "https://leaflets.medrics.co.uk/";
 // Medrics branding (same pattern as index.html). Leave MEDRICS_URL "" to hide.
 // When the brochure site goes live, point this at the product page:
 // https://medrics.co.uk/leaflets/
@@ -720,6 +788,7 @@ function setSpecialty(id) {
   const sel = $("specsel");
   if (sel) sel.value = SPEC || "";
   renderResults();
+  pushPrefs();   // member sync (no-op unless signed in)
 }
 
 function initSpecialtyUI() {
@@ -909,6 +978,7 @@ function pickTrust(id) {
   renderCredits();
   $("demobanner").hidden = !isDemo();
   load();
+  pushPrefs();   // member sync (no-op unless signed in and pulled)
 }
 
 async function init() {
@@ -952,8 +1022,9 @@ function renderSelected() {
   if (outEl) delete outEl.dataset.fresh;
   const el = $("selected");
   // a QR can carry a follow-up alone — no leaflets ticked is still a valid code
-  if (!selected.size) { el.innerHTML = ""; $("gen").disabled = !fuPick; renderRelated(); renderDriving(); return; }
+  if (!selected.size) { el.innerHTML = ""; $("gen").disabled = !fuPick; $("savebtn").disabled = true; renderRelated(); renderDriving(); return; }
   $("gen").disabled = false;
+  $("savebtn").disabled = false;
   el.innerHTML = [...selected.values()].map(it =>
     `<span class="chip">${esc(it.title)}<a class="openpg" href="${esc(patientUrl(it.slug))}" target="_blank" rel="noopener" title="Open the patient page to check it">↗</a><button data-s="${esc(it.slug)}" aria-label="Remove ${esc(it.title)}">×</button></span>`).join("");
   el.querySelectorAll("button").forEach(b =>
@@ -1774,7 +1845,317 @@ $("search").addEventListener("input", () => { renderResults(); renderDriving(); 
 $("gen").onclick = generate;
 $("clear").onclick = () => { selected.clear(); drvPicks.clear(); fuPick = null; $("search").value = ""; renderSelected(); renderFollowup(); renderResults(); $("out").innerHTML = ""; };
 
-init();
+// ---- Clinician check-in (on-device only) -----------------------------------
+// Oscar 2026-09-05: "a check-in type service … like Medics Money … one
+// registration number per person … we don't need to take record of that".
+// The picker asks once for a UK professional registration number and checks
+// its FORMAT here in the browser. Nothing is transmitted (telemetry carries
+// no check-in event) and the number itself is never written anywhere — only
+// the regulator id and the date land in localStorage so the same device is
+// not asked again. This is a professional declaration and a speed bump for
+// scrapers, not identity verification: no regulator offers a public lookup
+// API, so we do not claim to have checked the register. The PATIENT page
+// (index.html) is never gated — spec N3/N4.
+const CHECKIN_KEY = "medrics_checkin";
+const CHECKIN_DAYS = 365;
+const REGULATORS = [
+  { id: "gmc",  name: "GMC — doctors, physician associates, anaesthesia associates",
+    hint: "7 digits, e.g. 1234567", re: /^\d{7}$/ },
+  { id: "nmc",  name: "NMC — nurses, midwives, nursing associates",
+    hint: "Your PIN, e.g. 12A3456E", re: /^\d{2}[A-L]\d{4}[EWSNO]$/ },
+  { id: "hcpc", name: "HCPC — paramedics, physios, ODPs, radiographers and other AHPs",
+    hint: "Letters then digits, e.g. PA12345 or PH123456",
+    re: /^(AS|BS|CH|CS|DT|HAD|ODP|OR|OT|PA|PH|PO|PYL|RA|SL)\d{5,6}$/ },
+  { id: "gphc", name: "GPhC — pharmacists and pharmacy technicians",
+    hint: "7 digits starting with 2, e.g. 2012345", re: /^2\d{6}$/ },
+  { id: "gdc",  name: "GDC — dentists and dental care professionals",
+    hint: "5 or 6 digits, e.g. 123456", re: /^\d{5,6}$/ },
+];
+
+function checkinRecord() {
+  const rec = lsGet(CHECKIN_KEY, null);
+  if (!rec || !rec.body || !rec.at) return null;
+  if (!REGULATORS.some(r => r.id === rec.body)) return null;
+  const age = (Date.now() - Date.parse(rec.at)) / 86400000;
+  if (!(age >= 0 && age < CHECKIN_DAYS)) return null;
+  return rec;
+}
+
+function normaliseRegNumber(raw) {
+  // people type "GMC 1234567", "12a 3456e", "PA-12345" — strip prefix noise
+  let v = String(raw || "").toUpperCase().replace(/[\s\-.]/g, "");
+  v = v.replace(/^(GMC|NMC|HCPC|GPHC|GDC|PIN|NO|NUMBER|REG)[:#]?/, "");
+  return v;
+}
+
+function validateRegNumber(bodyId, raw) {
+  const reg = REGULATORS.find(r => r.id === bodyId);
+  if (!reg) return "Choose your regulator.";
+  const v = normaliseRegNumber(raw);
+  if (!v) return "Enter your registration number.";
+  if (!reg.re.test(v)) return `That doesn't look like a ${reg.id.toUpperCase()} number — ${reg.hint.charAt(0).toLowerCase()}${reg.hint.slice(1)}.`;
+  // a keyboard-mash like 0000000 / 1111111 is not a registration number
+  if (/^(\d)\1+$/.test(v.replace(/\D/g, "")) && v.replace(/\D/g, "").length >= 5) return "That doesn't look like a real registration number.";
+  return "";
+}
+
+function renderCheckinStatus() {
+  const el = $("ci-status");
+  if (!el) return;
+  const rec = checkinRecord();
+  if (!rec) { el.innerHTML = ""; return; }
+  el.innerHTML = `Checked in as ${esc(rec.body.toUpperCase())}-registered on this device · <button type="button" id="ci-reset">Not you? Check in again</button>`;
+  $("ci-reset").onclick = () => {
+    try { localStorage.removeItem(CHECKIN_KEY); } catch (e) {}
+    showCheckin();
+  };
+}
+
+function showCheckin() {
+  document.body.classList.add("gated");
+  const box = $("checkin");
+  box.hidden = false;
+  renderCheckinStatus();
+  const sel = $("ci-body");
+  if (!sel.options.length) {
+    sel.innerHTML = '<option value="">Choose…</option>' +
+      REGULATORS.map(r => `<option value="${r.id}">${esc(r.name)}</option>`).join("");
+    const hint = () => { const r = REGULATORS.find(x => x.id === sel.value); $("ci-hint").textContent = r ? r.hint : "Choose your regulator to see the format."; };
+    sel.onchange = () => { hint(); $("ci-err").hidden = true; $("ci-num").focus(); };
+    hint();
+    const go = () => {
+      const err = validateRegNumber(sel.value, $("ci-num").value);
+      const e = $("ci-err");
+      if (err) { e.textContent = err; e.hidden = false; $("ci-num").focus(); return; }
+      e.hidden = true;
+      // regulator + date only — the number is deliberately not kept
+      lsSet(CHECKIN_KEY, { body: sel.value, at: new Date().toISOString() });
+      $("ci-num").value = "";
+      hideCheckin();
+    };
+    // a real <form> so Enter submits natively on every keyboard, incl. iOS "Go"
+    $("ci-form").onsubmit = ev => { ev.preventDefault(); go(); };
+    $("ci-num").addEventListener("input", () => { $("ci-err").hidden = true; });
+  }
+  (sel.value ? $("ci-num") : sel).focus();
+}
+
+function hideCheckin() {
+  $("checkin").hidden = true;
+  document.body.classList.remove("gated");
+  renderCheckinStatus();
+  const s = $("search");
+  if (s) s.focus();
+}
+
+function initCheckin() {
+  if (checkinRecord()) hideCheckin(); else showCheckin();
+}
+// -----------------------------------------------------------------------------
+
+// ---- Saved sets (everyone) + optional member sign-in and sync ---------------
+// Oscar 2026-09-12: run the programme through the member login — but the
+// picker stays free (spec N3) and the patient page is never gated. So this is
+// "sign in to get MORE", never "sign in to use". Saved sets work for every
+// clinician on this device; a medrics member who signs in gets their trust,
+// specialty and saved sets on every device.
+// Boundaries, by construction:
+//   * The registration number from check-in is NEVER sent (P11) — sync
+//     carries trust id, specialty id and named lists of content slugs only.
+//   * The token rides in a header, never a URL, and lives in sessionStorage
+//     (gone when the tab closes) unless "my own device" is ticked — a shared
+//     ED computer must not keep a bearer credential.
+//   * Nothing about any patient exists here to sync: follow-ups and the QR
+//     link are never stored (index.html / generate()).
+//   * A push only happens after this page load's pull has completed, so a
+//     fresh device can never overwrite the server's sets with an empty list.
+const MEMBER_KEY = "medrics_member";
+const SETS_KEY = "medrics_sets";
+const SYNC_URL = "https://brain.medrics.co.uk/api/leaflets/member/sync";
+const SET_NAME_RE = /[^A-Za-z &'\-/+]/g;   // mirrors the server's clean-up: no digits, no punctuation
+let _pulled = false;
+
+function memberGet() {
+  try { return JSON.parse(sessionStorage.getItem(MEMBER_KEY) || localStorage.getItem(MEMBER_KEY) || "null"); }
+  catch (e) { return null; }
+}
+function memberSet(m, remember) {
+  memberClear();
+  try { (remember ? localStorage : sessionStorage).setItem(MEMBER_KEY, JSON.stringify(m)); } catch (e) {}
+}
+function memberClear() {
+  try { sessionStorage.removeItem(MEMBER_KEY); } catch (e) {}
+  try { localStorage.removeItem(MEMBER_KEY); } catch (e) {}
+  _pulled = false;
+}
+function maskEmail(e) { const [u, d] = String(e).split("@"); return (u || "").slice(0, 2) + "…@" + (d || ""); }
+
+function localPrefs() {
+  return { trust: TRUST ? TRUST.id : "", specialty: SPEC || "", sets: lsGet(SETS_KEY, []) };
+}
+
+async function syncCall(prefs) {
+  const m = memberGet();
+  if (!m) return null;
+  const body = { email: m.email };
+  if (prefs) body.prefs = prefs;
+  const r = await fetch(SYNC_URL, {
+    method: "POST", keepalive: true, cache: "no-store",
+    headers: { "Content-Type": "application/json", "X-Medrics-Token": m.token },
+    body: JSON.stringify(body)
+  });
+  if (r.status === 401) { memberClear(); renderMemberStatus("That email and token were not accepted — signed out."); return null; }
+  if (!r.ok) throw new Error("sync " + r.status);
+  return r.json();
+}
+
+let _pushTimer = null;
+function pushPrefs() {
+  if (!memberGet() || !_pulled) return;
+  clearTimeout(_pushTimer);
+  _pushTimer = setTimeout(() => { syncCall(localPrefs()).catch(() => {}); }, 1200);
+}
+
+function mergeSets(server, local) {
+  const out = []; const seen = new Set();
+  for (const s of [...(server || []), ...(local || [])]) {
+    if (!s || !s.name || !Array.isArray(s.slugs) || !s.slugs.length) continue;
+    const k = String(s.name).toLowerCase();
+    if (seen.has(k)) continue;
+    seen.add(k);
+    out.push({ name: String(s.name).slice(0, 40), slugs: s.slugs.filter(x => typeof x === "string").slice(0, 30) });
+  }
+  return out.slice(0, 20);
+}
+
+async function memberPull() {
+  const res = await syncCall(null);
+  if (!res || !res.ok) return;
+  const p = res.prefs || {};
+  lsSet(SETS_KEY, mergeSets(p.sets, lsGet(SETS_KEY, [])));
+  let saved = null;
+  try { saved = localStorage.getItem(TRUST_KEY); } catch (e) {}
+  const linked = new URLSearchParams(location.search).get("t");
+  // the member's remembered trust fills a blank device; it never overrides a
+  // per-trust link (picker.html?t=…) or a choice already made on this device
+  if (!saved && !linked && p.trust && CHOICES.some(t => t.id === p.trust)) pickTrust(p.trust);
+  if (!SPEC && p.specialty && PROFILES[p.specialty]) setSpecialty(p.specialty);
+  _pulled = true;
+  renderSets();
+  pushPrefs();   // the merged picture goes back up
+}
+
+async function memberSignIn(email, token, remember) {
+  email = String(email || "").trim().toLowerCase();
+  token = String(token || "").trim();
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return "Enter the email your medrics membership uses.";
+  if (!/^[A-Za-z0-9_\-]{16,128}$/.test(token)) return "That doesn't look like a medrics token.";
+  memberSet({ email, token }, remember);
+  try {
+    const res = await syncCall(null);
+    if (!res) return "Sign-in failed.";
+  } catch (e) {
+    memberClear();
+    return "Could not reach the medrics server — try again in a moment.";
+  }
+  renderMemberStatus();
+  await memberPull();
+  return "";
+}
+
+function renderMemberStatus(note) {
+  const el = $("ms-status");
+  if (!el) return;
+  const m = memberGet();
+  const form = $("ms-form");
+  if (m) {
+    el.innerHTML = `Member sync on for ${esc(maskEmail(m.email))} · <button type="button" id="ms-out">Sign out</button>`;
+    $("ms-out").onclick = () => { memberClear(); renderMemberStatus(); };
+    if (form) form.hidden = true;
+  } else {
+    el.innerHTML = `Medrics member? <button type="button" id="ms-open">Sign in</button> to keep your trust, specialty and saved sets on every device (optional).`
+      + (note ? `<br><span class="ci-err">${esc(note)}</span>` : "");
+    $("ms-open").onclick = () => { if (form) { form.hidden = false; $("ms-email").focus(); } };
+  }
+}
+
+function renderSets() {
+  const el = $("sets");
+  if (!el) return;
+  const sets = lsGet(SETS_KEY, []);
+  if (!sets.length) { el.innerHTML = ""; el.hidden = true; return; }
+  el.hidden = false;
+  el.innerHTML = `<span class="setlabel">Your sets:</span> ` + sets.map((s, i) =>
+    `<span class="chip set" data-i="${i}" role="button" tabindex="0" title="Add these ${s.slugs.length} items to the selection">＋ ${esc(s.name)}</span>`
+    + `<button type="button" class="setdel" data-i="${i}" aria-label="Delete the set ${esc(s.name)}" title="Delete this set">×</button>`).join(" ")
+    + ` <span id="setsnote"></span>`;
+  el.querySelectorAll(".chip.set").forEach(c => {
+    const add = () => {
+      const s = sets[+c.dataset.i];
+      let missing = 0;
+      for (const slug of s.slugs) { const it = bySlug.get(slug); if (it) selected.set(it.slug, it); else missing++; }
+      renderSelected(); renderResults();
+      const note = $("setsnote");
+      if (note) note.textContent = missing ? `${missing} item${missing > 1 ? "s" : ""} from "${s.name}" ${missing > 1 ? "aren't" : "isn't"} in this trust's library — the rest were added.` : "";
+    };
+    c.onclick = add;
+    c.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); add(); } };
+  });
+  el.querySelectorAll(".setdel").forEach(b => b.onclick = () => {
+    const cur = lsGet(SETS_KEY, []);
+    cur.splice(+b.dataset.i, 1);
+    lsSet(SETS_KEY, cur);
+    renderSets();
+    pushPrefs();
+  });
+}
+
+function saveCurrentSet(name) {
+  const slugs = [...selected.keys()];
+  const clean = String(name || "").replace(SET_NAME_RE, "").replace(/\s+/g, " ").trim().slice(0, 40);
+  if (!slugs.length) return "Tick some leaflets first.";
+  if (!clean) return "Give the set a name (letters only — no numbers, no patient details).";
+  const cur = lsGet(SETS_KEY, []).filter(s => s.name.toLowerCase() !== clean.toLowerCase());
+  cur.unshift({ name: clean, slugs: slugs.slice(0, 30) });
+  lsSet(SETS_KEY, cur.slice(0, 20));
+  renderSets();
+  pushPrefs();
+  return "";
+}
+
+function initMember() {
+  renderMemberStatus();
+  renderSets();
+  const form = $("ms-form");
+  if (form) {
+    form.onsubmit = async e => {
+      e.preventDefault();
+      const err = $("ms-err");
+      err.hidden = true;
+      const msg = await memberSignIn($("ms-email").value, $("ms-token").value, $("ms-own").checked);
+      if (msg) { err.textContent = msg; err.hidden = false; return; }
+      $("ms-token").value = "";
+      form.hidden = true;
+    };
+    $("ms-cancel").onclick = () => { form.hidden = true; $("ms-token").value = ""; };
+  }
+  const ss = $("saveset");
+  if (ss) {
+    $("savebtn").onclick = () => { ss.hidden = false; $("ss-name").focus(); };
+    $("ss-cancel").onclick = () => { ss.hidden = true; $("ss-name").value = ""; };
+    ss.onsubmit = e => {
+      e.preventDefault();
+      const msg = saveCurrentSet($("ss-name").value);
+      if (msg) { $("ss-name").setCustomValidity(msg); $("ss-name").reportValidity(); $("ss-name").setCustomValidity(""); return; }
+      ss.hidden = true; $("ss-name").value = "";
+    };
+  }
+  if (memberGet()) memberPull().catch(() => {});
+}
+// -----------------------------------------------------------------------------
+
+initCheckin();
+init().then(initMember, initMember);
 
 // Optional Medrics branding (shows only if MEDRICS_URL is set above).
 (function () {

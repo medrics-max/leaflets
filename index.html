@@ -14,11 +14,11 @@
   "@context": "https://schema.org",
   "@type": "MedicalWebPage",
   "name": "Patient Information QR — patient landing page",
-  "url": "https://medrics-max.github.io/leaflets/index.html",
+  "url": "https://leaflets.medrics.co.uk/index.html",
   "description": "The page a patient's QR scan opens: links to their trust's own published patient-information leaflets and national NHS.uk content, exactly as selected by their clinician. Opens empty without a QR code.",
   "audience": { "@type": "PeopleAudience", "audienceType": "Patients" },
   "publisher": { "@type": "Organization", "name": "Medrics", "url": "https://medrics.co.uk" },
-  "license": "https://medrics-max.github.io/leaflets/LICENSE"
+  "license": "https://leaflets.medrics.co.uk/LICENSE"
 }
 </script>
 <style>
@@ -92,6 +92,13 @@
     font-size: 0.82rem;
     color: #1c6b2c;
   }
+  /* where an item comes from and when WE last checked it (2026-09-12) */
+  .leaflet-card .prov { margin-top: 6px; font-size: 0.78rem; color: #666; line-height: 1.4; }
+  .freshness { margin-top: 28px; font-size: 0.86rem; color: #444; border: 1px solid #d8dde3; border-radius: 10px; padding: 8px 12px; background: #f7f9fb; }
+  .freshness summary { cursor: pointer; font-weight: 600; color: #005eb8; }
+  .freshness ul { padding-left: 18px; margin: 8px 0 4px; }
+  .freshness li { margin: 5px 0; line-height: 1.45; }
+  .freshness .late { color: #6b5200; }
   /* NHS.uk "when to get help" cards, verbatim (Oscar 2026-09-03) */
   .nhscards { margin-top: 12px; }
   .nhscards .nhsabout { margin: 6px 0 10px; color: #222; font-size: 1rem; }
@@ -550,6 +557,78 @@ function sourceBadge(item) {
   return "";
 }
 
+// Where each item comes from and when WE last checked it (Oscar 2026-09-12
+// via Greta: "present our sources as to why this information is current or
+// if we think it may not be current"). Every date is read from the scanners'
+// own records — reviews.json per page, freshness.json per layer (built
+// nightly by build_freshness.py) — never typed here. A late check is SAID,
+// with the honest meaning: not re-confirmed recently, not "wrong".
+let FRESH = null;      // freshness.json, or null when it could not be loaded
+let TRUST_ID = "";     // the ?t= trust id once resolved
+function freshLayer(key) {
+  return (FRESH && FRESH.layers && FRESH.layers[key]) || null;
+}
+function provenanceLine(item) {
+  let text = "";
+  if (item.type === "leaflet" || item.type === "service") {
+    const r = item.review || {};
+    const tl = freshLayer("trust_libraries");
+    const t = tl && tl.trusts ? tl.trusts[TRUST_ID] : null;
+    if (r.checked) {
+      text = `From ${TRUST_LABEL}'s website · we last read this page on ${niceDate(String(r.checked).slice(0, 10))}`
+        + (r.review_due_text ? ` · the hospital's next review: ${r.review_due_text}` : "");
+    } else if (t && t.last_scan) {
+      text = `Listed on ${TRUST_LABEL}'s website · we last re-read the list on ${niceDate(t.last_scan)}`;
+    }
+    if (text && t && t.status === "overdue") text += " · our re-read is late — if in doubt, open the hospital's page";
+  } else if (["nhs", "medicines", "trusted", "gov"].includes(item.type)) {
+    const nl = freshLayer("national_links");
+    if (nl && nl.last_check) {
+      text = `Link tested on ${niceDate(nl.last_check)}` + (nl.status === "overdue" ? " · our link test is late" : "");
+    }
+  }
+  return text ? `<div class="prov">${escapeHtml(text)}</div>` : "";
+}
+function freshnessHtml() {
+  if (!FRESH || !FRESH.layers) return "";
+  const rows = [];
+  let anyLate = false;
+  const add = (key, label) => {
+    const l = FRESH.layers[key];
+    if (!l) return;
+    let when = l.last_check ? `last checked ${niceDate(l.last_check)}` : "not yet checked by us";
+    let st = l.status;
+    if (key === "trust_libraries") {
+      const t = (l.trusts || {})[TRUST_ID];
+      if (!t) return;
+      when = t.last_scan ? `list last re-read ${niceDate(t.last_scan)}` : "list not yet re-read by us";
+      if (t.review_dates && t.review_dates.last_check) when += `; each page's review date re-read ${niceDate(t.review_dates.last_check)}`;
+      st = t.status;
+    }
+    const every = l.cadence_days ? ` · we re-check every ${l.cadence_days === 1 ? "day" : l.cadence_days + " days"}` : "";
+    if (st === "overdue") anyLate = true;
+    const flag = st === "overdue"
+      ? ` <span class="late"><strong>We are late with this check</strong> — if in doubt, open the original page.</span>`
+      : st === "unknown" ? ` <span class="late">Not checked by us yet.</span>` : "";
+    rows.push(`<li><strong>${escapeHtml(label)}</strong> — ${escapeHtml(l.what)}: ${escapeHtml(when)}${escapeHtml(every)}.${flag}</li>`);
+  };
+  if (TRUST_ID) add("trust_libraries", "Hospital leaflets");
+  add("nhs_pages", "NHS website text");
+  add("national_links", "Links");
+  if (TRUST_ID) add("advice_cards", "Local advice cards");
+  if (ADV_CARDS.length) add("official_guidance", "Driving and flying rules");
+  if (!rows.length) return "";
+  const lead = anyLate
+    ? "Some of our checks are running late — marked below. That means we have not re-confirmed recently, not that the information is wrong; every item links to its original page."
+    : "Every check behind this page ran on schedule. Every item links to its original page.";
+  return `<details class="freshness">
+    <summary>How current is this information?</summary>
+    <p>${escapeHtml(lead)}</p>
+    <ul>${rows.join("")}</ul>
+    <p>Status built ${escapeHtml(niceDate(FRESH.built || ""))}. A date is when we last read the source, not when the source was written.</p>
+  </details>`;
+}
+
 function cardFor(item, openLabel) {
   const stale = (item.type === "leaflet" && item.review && isPastReview(item.review.review_due))
     ? `<div class="stale">The hospital planned to review this leaflet by <strong>${escapeHtml(item.review.review_due_text || item.review.review_due)}</strong> and may not have updated it yet. If anything seems unclear or out of date, check with your care team.</div>`
@@ -563,7 +642,7 @@ function cardFor(item, openLabel) {
         <span class="ltitle" data-url="${escapeHtml(safeHref(item.url))}">${escapeHtml(item.title)}${sourceBadge(item)}</span>
         <a class="read${item.type === "leaflet" ? "" : " open"}" href="${safeHref(item.url)}">${escapeHtml(openLabel)}</a>
       </div>
-      ${stale}${replaced}${nhsInfoHtml(item, item.nhsCards)}${companionHtml(item)}
+      ${provenanceLine(item)}${stale}${replaced}${nhsInfoHtml(item, item.nhsCards)}${companionHtml(item)}
     </div>
   `;
 }
@@ -729,11 +808,15 @@ function helpSectionHtml() {
         </div>`).join("")}
       </div>
     </details>`).join("");
+  // One combined footer covers SEVERAL NHS pages, each fetched on its own
+  // day: print the OLDEST retrieval date (ISO strings sort chronologically)
+  // so no source is implied to be fresher than it is.
+  const checkedAll = pages.map(pg => pg.retrieved).filter(Boolean).sort()[0];
   const foot = `<p class="nhscard-foot">Information from the NHS website — ${pages.map(pg => {
       const href = nhsHref(pg);
       return (href ? `<a href="${escapeHtml(href)}">${escapeHtml(short(pg.title))}</a>` : escapeHtml(short(pg.title)))
         + (pg.dateModified ? ` (updated ${escapeHtml(niceDate(pg.dateModified))})` : "");
-    }).join(", ")} — checked ${escapeHtml(niceDate(pages[0].retrieved))}. Licensed under the Open Government Licence v3.0.</p>`;
+    }).join(", ")}${checkedAll ? ` — checked ${escapeHtml(niceDate(checkedAll))}` : ""}. Licensed under the Open Government Licence v3.0.</p>`;
   return `<p class="section-title" id="help">🚨 When to get help</p>
     <p class="section-sub">The NHS's own advice for everything on this page, by urgency.</p>
     <div class="leaflet-card helpgroup">
@@ -928,6 +1011,7 @@ function renderResolved(items, demo) {
     <span id="followup"></span>${followupSection}
     ${govSection}
     ${helpSectionHtml()}
+    ${freshnessHtml()}
     ${HELP_GROUPS.length ? "" : `<p class="safetynet">This information was chosen for you by your clinician. If you feel worse, or you are worried, call <strong>111</strong> — or <strong>999</strong> in an emergency.</p>`}
     <button class="sharebtn" onclick="shareThisPage()">Text or save this to read later</button>
     <button class="sharebtn printbtn" onclick="window.print()">🖨 Print this page</button>
@@ -1004,6 +1088,8 @@ async function main() {
   });
   const requestedEarly = (params.get("slugs") || params.get("slug") || "").split(",").map(x => x.trim()).filter(Boolean);
   const nhsEarlyP = indexP.then(idx => Promise.all(requestedEarly.filter(x => (idx.pages || {})[x]).map(loadNhsPage)));
+  // freshness.json is optional: without it the page simply prints no dates
+  const freshP = fetch("freshness.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null).catch(() => null);
   try {
     // no-cache: always revalidate, so an approval ("listed") change shows at once
     const registry = await fetch("trusts.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null);
@@ -1020,6 +1106,7 @@ async function main() {
       if (note) note.textContent = "This page is an independent service by Medrics and is not provided or endorsed by the trust.";
       setCreditLine(trust);
       TRUST_LABEL = trust.short_name || trust.name;
+      TRUST_ID = trust.id;
       trustResolved = true;
     }
     // no ?t= — the NHS library page: no hospital's files are loaded at all
@@ -1070,6 +1157,7 @@ async function main() {
       nationalP,
     ]);
     await nhsEarlyP;
+    FRESH = await freshP;
     // NHS.uk content, verbatim, under the Open Government Licence (Oscar
     // 2026-09-03; built weekly by nhs_cards.py) — one file per page, loaded
     // only for the slugs on this QR (plus companions found via the index)

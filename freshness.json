@@ -1,0 +1,167 @@
+{
+ "_doc": "How current each layer of the medrics patient-information library is: what the layer is, how often it is re-checked, when it was last checked and whether we are late. Dates and counts only, rebuilt nightly by build_freshness.py from the scanners' own run records. 'overdue' means our check is late — treat the item with care and prefer the original page; it does not mean the information is wrong.",
+ "built": "2026-09-12",
+ "grace_days": 2,
+ "layers": {
+  "trust_libraries": {
+   "what": "each hospital's own leaflet list, re-read from the hospital's website",
+   "cadence_days": 14,
+   "last_check": "2026-09-01",
+   "status": "current",
+   "trusts": {
+    "gloucestershire": {
+     "name": "Gloucestershire Hospitals",
+     "leaflets": 694,
+     "last_scan": "2026-09-01",
+     "status": "current",
+     "days_since": 11,
+     "review_dates": {
+      "tracked": 691,
+      "overdue": 0,
+      "not_loading": [],
+      "last_check": "2026-09-12"
+     }
+    },
+    "worcestershire": {
+     "name": "Worcestershire Acute",
+     "leaflets": 807,
+     "last_scan": "2026-09-01",
+     "status": "current",
+     "days_since": 11,
+     "review_dates": {
+      "tracked": 0,
+      "overdue": 0,
+      "not_loading": [],
+      "last_check": "2026-09-12"
+     }
+    },
+    "torbay": {
+     "name": "Torbay and South Devon",
+     "leaflets": 720,
+     "last_scan": "2026-09-01",
+     "status": "current",
+     "days_since": 11,
+     "review_dates": null
+    },
+    "north-cumbria": {
+     "name": "North Cumbria (Carlisle & Whitehaven)",
+     "leaflets": 308,
+     "last_scan": "2026-09-01",
+     "status": "current",
+     "days_since": 11,
+     "review_dates": {
+      "tracked": 0,
+      "overdue": 0,
+      "not_loading": [],
+      "last_check": "2026-09-12"
+     }
+    },
+    "royal-surrey": {
+     "name": "Royal Surrey",
+     "leaflets": 405,
+     "last_scan": "2026-09-01",
+     "status": "current",
+     "days_since": 11,
+     "review_dates": {
+      "tracked": 363,
+      "overdue": 45,
+      "not_loading": [],
+      "last_check": "2026-09-12"
+     }
+    },
+    "hull": {
+     "name": "Hull",
+     "leaflets": 1019,
+     "last_scan": "2026-09-01",
+     "status": "current",
+     "days_since": 11,
+     "review_dates": {
+      "tracked": 2,
+      "overdue": 2,
+      "not_loading": [
+       "giving-your-baby-expressed-milk"
+      ],
+      "last_check": "2026-09-12"
+     }
+    },
+    "uhd": {
+     "name": "UH Dorset",
+     "leaflets": 685,
+     "last_scan": "2026-09-01",
+     "status": "current",
+     "days_since": 11,
+     "review_dates": null
+    },
+    "york": {
+     "name": "York",
+     "leaflets": 807,
+     "last_scan": "2026-09-01",
+     "status": "current",
+     "days_since": 11,
+     "review_dates": null
+    }
+   }
+  },
+  "review_dates": {
+   "what": "the review date printed on each hospital leaflet, re-read from the page",
+   "cadence_days": 1,
+   "last_check": "2026-09-12",
+   "status": "current",
+   "days_since": 0,
+   "leaflets_checked": 3233
+  },
+  "nhs_pages": {
+   "what": "the NHS website text shown on this page (what it is, treatment, when to get help)",
+   "cadence_days": 7,
+   "last_check": "2026-09-12",
+   "status": "current",
+   "days_since": 0,
+   "pages": 798
+  },
+  "nhs_catalogue": {
+   "what": "the NHS website's A–Z of conditions and medicines we link to",
+   "cadence_days": 7,
+   "last_check": "2026-09-12",
+   "status": "current",
+   "days_since": 0,
+   "pages": 679
+  },
+  "national_links": {
+   "what": "every link to the NHS website and other trusted UK sources, tested live",
+   "cadence_days": 7,
+   "last_check": "2026-09-06",
+   "status": "current",
+   "days_since": 6,
+   "checked": 741,
+   "not_loading": 1,
+   "full_sweep_last": "2026-07-13"
+  },
+  "advice_cards": {
+   "what": "local phone numbers and opening hours on advice cards, re-checked against the hospital's page",
+   "cadence_days": 7,
+   "last_check": "2026-09-09",
+   "status": "current",
+   "days_since": 3
+  },
+  "official_guidance": {
+   "what": "the GOV.UK (DVLA) and Civil Aviation Authority pages behind the driving and flying advice",
+   "cadence_days": 3,
+   "last_check": "2026-09-12",
+   "status": "current",
+   "days_since": 0,
+   "pages": 23
+  },
+  "learned_bundles": {
+   "what": "which leaflets clinicians at a hospital usually give out together (ranks only)",
+   "cadence_days": 7,
+   "last_check": "2026-09-12",
+   "status": "current",
+   "days_since": 0
+  }
+ },
+ "summary": {
+  "all_current": true,
+  "overdue": [],
+  "unknown": []
+ }
+}
