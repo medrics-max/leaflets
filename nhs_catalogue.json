@@ -1,6 +1,6 @@
 {
 "_doc": "Every NHS.uk condition/medicine page from the A–Z indexes not already in the curated registers. Titles and URLs as NHS lists them; rebuilt weekly by nhs_catalogue.py. Reuse under the Open Government Licence v3.0.",
-"retrieved": "2026-09-05",
+"retrieved": "2026-09-12",
 "items": [
 {
 "title": "Abdominal aortic aneurysm",
