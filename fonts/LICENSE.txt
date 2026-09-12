@@ -1,0 +1,4 @@
+Source Sans 3 — (c) Adobe, designed by Paul D. Hunt & Frank Griesshammer.
+Licensed under the SIL Open Font License 1.1 (free to self-host and serve).
+https://github.com/adobe-fonts/source-sans
+Latin variable subset (wght 400-700), fetched 2026-08-20.
