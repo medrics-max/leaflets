@@ -324,7 +324,7 @@
   </label>
 </p>
 <div id="specnudge" class="nudge" hidden></div>
-<div id="demobanner" hidden><strong>Demonstration preview.</strong> This trust has not yet approved this tool — for demonstration only, <strong>not for patient use</strong>.</div>
+<div id="demobanner" hidden><strong>Signposting only.</strong> Every link below goes to <span id="signpost-trust">this trust</span>'s own published page or to NHS.uk. An independent tool — not provided or endorsed by the trust.</div>
 
 <input id="search" type="search" aria-label="Search patient information leaflets" placeholder="Search (e.g. cellulitis, flucloxacillin, first fit)…" autocomplete="off">
 
@@ -410,12 +410,14 @@ const LIBRARY = { id: "nhs", name: "Trusted UK patient information — NHS, nati
 const FALLBACK_REGISTRY = { default: "nhs", trusts: [] };
 
 function liveTrusts() { return REGISTRY.trusts.filter(t => t.status === "live"); }
-// Only trusts that have agreed to the tool are listed publicly. Unlisted
-// (not-yet-approved) trusts stay out of the dropdown unless ?preview is in
-// the URL or the trust is opened directly via ?t=<id> — demo use only.
-function selectableTrusts(previewMode, tParam) {
-  return [LIBRARY].concat(liveTrusts().filter(t =>
-    t.listed !== false || previewMode || t.id === tParam));
+// Every live trust is selectable (Oscar 2026-09-12: "we don't need approval
+// to link to their trust's leaflets … it's just signposting … include all
+// trusts"). Every link goes to the trust's own published page; nothing is
+// hosted here, nothing claims endorsement. `listed` no longer gates
+// visibility — it now means "integrated customer" (spec P14); a trust that
+// asks to be removed is set status != live in the registry.
+function selectableTrusts(previewMode, tParam) {   // params kept for old links
+  return [LIBRARY].concat(liveTrusts());
 }
 // per-trust file fetch; the library has no hospital files at all
 const trustFetch = (file, opts, empty) => TRUST.library ? Promise.resolve(empty)
@@ -951,7 +953,10 @@ async function load() {
 
 let CHOICES = [];   // trusts shown in the dropdown this visit
 
-function isDemo() { return TRUST && TRUST.listed === false; }
+// No demonstration mode any more (2026-09-12): a hospital's own published
+// leaflets are the same links a clinician would find on the hospital's site.
+function isDemo() { return false; }
+function isHospital() { return !!(TRUST && !TRUST.library); }
 
 // Credit lines are strictly per-trust (trusts.json credits): a trust that
 // appointed a clinical lead names them via credits.clinical_lead, a named
@@ -976,7 +981,8 @@ function pickTrust(id) {
   $("trustsel").value = TRUST.id;
   $("trustfoot").textContent = TRUST.library ? "the NHS website and other trusted UK sources" : TRUST.name;
   renderCredits();
-  $("demobanner").hidden = !isDemo();
+  $("demobanner").hidden = !isHospital();
+  if (isHospital()) $("signpost-trust").textContent = TRUST.name;
   load();
   pushPrefs();   // member sync (no-op unless signed in and pulled)
 }
@@ -996,7 +1002,7 @@ async function init() {
   if (!CHOICES.length) CHOICES = [LIBRARY].concat(liveTrusts());
   const sel = $("trustsel");
   sel.innerHTML = CHOICES.map(t =>
-    `<option value="${esc(t.id)}">${esc(t.short_name || t.name)}${t.listed === false ? " (preview)" : ""}</option>`).join("");
+    `<option value="${esc(t.id)}">${esc(t.short_name || t.name)}</option>`).join("");
   sel.onchange = () => pickTrust(sel.value);
   const valid = id => CHOICES.some(t => t.id === id);
   let saved = null;

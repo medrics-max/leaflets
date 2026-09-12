@@ -1051,7 +1051,7 @@ async function main() {
   // (NHS pages, medicines, local advice) is shared. No ?t= means the default
   // trust at the repo root — QR codes issued before multi-trust keep working.
   let dir = "";
-  let demo = false;   // trust not yet approved — QR came from a demo/preview
+  let demo = false;   // no demonstration mode since 2026-09-12 (spec P14): every live trust is served
   let trustResolved = false;
   // SPEED (Oscar 2026-09-05, "seems pretty slow"): the national layers and
   // the NHS page files for the requested slugs do not depend on the trust, so
@@ -1091,7 +1091,7 @@ async function main() {
   // freshness.json is optional: without it the page simply prints no dates
   const freshP = fetch("freshness.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null).catch(() => null);
   try {
-    // no-cache: always revalidate, so an approval ("listed") change shows at once
+    // no-cache: always revalidate, so a registry change (a trust retired) shows at once
     const registry = await fetch("trusts.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : null);
     const tParam = params.get("t");
     const trust = (registry && tParam)
@@ -1099,7 +1099,7 @@ async function main() {
     if (trust) {
       const d = trust.data_dir || ("trusts/" + trust.id);
       dir = d === "." ? "" : d.replace(/\/?$/, "/");
-      demo = trust.listed === false;
+      // `listed` means integrated customer (P14) — it never gates the patient page
       const foot = document.getElementById("trustfoot");
       if (foot) foot.textContent = trust.name;
       const note = document.getElementById("trustnote");
@@ -1115,7 +1115,7 @@ async function main() {
   // A ?t= QR we can't resolve (renamed trust id, or the registry fetch failed)
   // must NOT silently fall back to the default trust: that would show a
   // patient another county's crisis numbers under the wrong branding, and
-  // would drop the "demonstration only" banner from unlisted-trust QRs.
+  // would mislabel the source of every leaflet on the page.
   // Default-trust QRs (no ?t=) are unaffected.
   if ((new URLSearchParams(window.location.search)).get("t") && !trustResolved) {
     render(`<h1 class="error">This QR code may be out of date</h1>
