@@ -1,0 +1,219 @@
+{
+ "24-hour-blood-pressure-recording": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "da3b7c8b0f916980",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "24 hour blood pressure recording"
+ },
+ "a-guide-to-gestational-diabetes": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "25368762d36b4a41",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2026-07",
+   "2029-07"
+  ],
+  "status": "ambiguous-date",
+  "title": "A Guide to Gestational Diabetes"
+ },
+ "a-guide-to-retinal-vein-occlusion-rvo": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "6b81197dd7bfc632",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "A guide to retinal vein occlusion (RVO)"
+ },
+ "a-picture-guide-to-our-paediatric-audiology-clinic": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "a68adb43676ad4c8",
+  "hash_version": 2,
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "A picture guide to our paediatric audiology clinic"
+ },
+ "acupuncture": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "203a7f2541102df0",
+  "hash_version": 2,
+  "review_due": "2025-12",
+  "review_due_text": "December 2025",
+  "status": "ok",
+  "title": "Acupuncture"
+ },
+ "acute-kidney-injury-aki": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "0695e1e5990b7ece",
+  "hash_version": 2,
+  "review_due": "2025-08",
+  "review_due_text": "August 2025",
+  "status": "ok",
+  "title": "Acute kidney injury (AKI)"
+ },
+ "acute-low-back-pain": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "1f82dd42c7430f1f",
+  "hash_version": 2,
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Acute Low Back Pain"
+ },
+ "administering-eye-drops": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "70eb3f15c6dfd7e2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Administering Eye Drops"
+ },
+ "adult-sedation": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "fc736ec9686f4db0",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Adult sedation"
+ },
+ "advanced-bowel-cancer": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "7b123d553eca84b9",
+  "hash_version": 2,
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Advanced Bowel Cancer"
+ },
+ "advice-after-a-hand-fracture-fifth-metacarpal": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "0f2dda95a8a2c844",
+  "hash_version": 2,
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Advice After a Hand Fracture (Fifth Metacarpal)"
+ },
+ "advice-after-a-radial-head-neck-elbow-fracture": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "99e76d07953ea5b3",
+  "hash_version": 2,
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Advice after a radial head/neck elbow fracture"
+ },
+ "advice-after-eye-injections": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "078a0f86f96e8038",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Advice after eye injections"
+ },
+ "advice-after-having-a-local-anaesthetic": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "ddfd4094a316e482",
+  "hash_version": 2,
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Advice after having a local anaesthetic"
+ },
+ "advice-for-patients-after-a-dental-extraction": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "f30dca9b653d9e25",
+  "hash_version": 2,
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Advice for patients after a dental extraction"
+ },
+ "advice-for-patients-after-anal-procedures": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "2d0a2d70481389a0",
+  "hash_version": 2,
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Advice for patients after anal procedures"
+ },
+ "advice-for-patients-after-hernia-repair": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "339e72f1f24a534d",
+  "hash_version": 2,
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Advice for patients after hernia repair"
+ },
+ "advice-for-patients-after-laparoscopic-hernia-repair": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "f34115ef6413bd31",
+  "hash_version": 2,
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Advice for patients after laparoscopic hernia repair"
+ },
+ "advice-for-patients-after-manipulation": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "0e95cef9811297ac",
+  "hash_version": 2,
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Advice for patients after manipulation"
+ },
+ "advice-for-patients-after-minor-surgery-with-local-anaesthetic": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "c673f123fae1378f",
+  "hash_version": 2,
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Advice for patients after minor surgery with local anaesthetic"
+ },
+ "advice-for-patients-after-removal-of-a-pilonidal-sinus": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "f6802e33ef9d9087",
+  "hash_version": 2,
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Advice for patients after removal of a pilonidal sinus"
+ },
+ "advice-for-patients-after-removal-of-ingrowing-toenail": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "39ccdd8a3dcb9d29",
+  "hash_version": 2,
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Advice for patients after removal of ingrowing toenail"
+ },
+ "advice-for-patients-following-minor-eye-surgery": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "4a636049458f57d5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Advice for Patients Following Minor Eye Surgery"
+ },
+ "advice-when-you-have-a-broken-collar-bone": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "be633526d80f508b",
+  "hash_version": 2,
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Advice when you have a broken collar bone"
+ },
+ "aflibercept-eylea-for-age-related-macular-degeneration-armd": {
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "0385e8d1a4afeb59",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Aflibercept for Age-Related Macular Degeneration (ARMD)"
+ }
+}

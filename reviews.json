@@ -774,8 +774,9 @@
   "title": "Care of your skin"
  },
  "care-your-splint-ghpi1456_05_18": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "e98e71d131b1edd6",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "b4f7a16f8c22b18b",
+  "hash_version": 2,
   "ref": "GHPI1456_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -783,8 +784,9 @@
   "title": "Care of your splint"
  },
  "carers-information-ghpi1044_07_18": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "7cb2c4795f554bcd",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "1a1baf9782c88260",
+  "hash_version": 2,
   "ref": "GHPI1044_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -792,8 +794,9 @@
   "title": "Carers information"
  },
  "caring-child-head-injury": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "1f1faf5d63c530e0",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "25401871e3e4bad2",
+  "hash_version": 2,
   "ref": "GHPI0842_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -801,17 +804,23 @@
   "title": "Caring for a child with a head injury"
  },
  "caring-for-a-stress-fracture": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "0ffa094247566d04",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "3067e7b70b6ab04b",
+  "hash_version": 2,
   "ref": "GHPI1576_03_26",
+  "ref_candidates": [
+   "GHPI1576_03_26",
+   "GHPI1576_05_23"
+  ],
   "review_due": "2029-03",
   "review_due_text": "March 2029",
-  "status": "ok",
+  "status": "ambiguous-ref",
   "title": "Caring for a stress fracture"
  },
  "caring-for-my-laryngectomy": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "c33e81d9de0f16a3",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "be58369defa2ef52",
+  "hash_version": 2,
   "ref": "GHPI1819_11_23",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -819,8 +828,9 @@
   "title": "Caring for my Laryngectomy"
  },
  "caring-for-my-tracheostomy": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "0f4e94837798b2af",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "7ad43bd430667f6f",
+  "hash_version": 2,
   "ref": "GHPI1818_11_23",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -828,8 +838,9 @@
   "title": "Caring for my Tracheostomy"
  },
  "caring-for-your-vulva-and-vagina-after-cancer-and-cancer-treatment": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "20ae0e9840a2433d",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "72c24e9d0afbb79e",
+  "hash_version": 2,
   "ref": "GHPI1841_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -837,8 +848,9 @@
   "title": "Caring for your vulva and vagina after cancer and cancer treatment"
  },
  "caring-your-childs-burn": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "2053b83b1fb42e34",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "39702a809ae0afa8",
+  "hash_version": 2,
   "ref": "GHPI1018_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -846,8 +858,9 @@
   "title": "Caring for your child’s burn"
  },
  "carotid-endarterectomy-surgery-ghpi0308": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "a451ddaf57675af4",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "42faf22e18b9d62f",
+  "hash_version": 2,
   "ref": "GHPI0308_01_26",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
@@ -855,8 +868,9 @@
   "title": "Carotid endarterectomy surgery"
  },
  "central-serous-chorioretinopathy-cscr": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "ead2faeb9ee24b76",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "01e042f574cbb46b",
+  "hash_version": 2,
   "ref": "GHPI1698_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -864,8 +878,9 @@
   "title": "Central Serous Chorioretinopathy (CSCR)"
  },
  "cervical-ectropion-and-other-conditions-affecting-cervix-ghpi1542": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "2185bb852a8446a1",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "fb94652da8ea848e",
+  "hash_version": 2,
   "ref": "GHPI1542_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",
@@ -873,8 +888,9 @@
   "title": "Cervical ectropion and other conditions affecting the cervix"
  },
  "chemical-sympathectomy-injection": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "11244d73ac8b01ed",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "c250f0469d161f40",
+  "hash_version": 2,
   "ref": "GHPI0444_06_26",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
@@ -882,8 +898,9 @@
   "title": "Chemical sympathectomy injection"
  },
  "chest-trauma": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "a5252f1ad7d7dc4a",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "bc7b25316ba44868",
+  "hash_version": 2,
   "ref": "GHPI0653_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -891,8 +908,9 @@
   "title": "Chest trauma"
  },
  "child-bereavement-gloucestershire-where-get-advice-and-information-ghpi1381_07_18": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "e61c3721df01d93e",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "bf882612012dbca6",
+  "hash_version": 2,
   "ref": "GHPI1381_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -900,8 +918,9 @@
   "title": "Child bereavement in Gloucestershire"
  },
  "childrens-safeguarding-procedure-emergency-department": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "b3ffa95ce7699f21",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "a70704d83ebf82f1",
+  "hash_version": 2,
   "ref": "GHPI0955_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -998,8 +1017,9 @@
   "title": "Coming in for an Endoscopy (easy read)"
  },
  "completion-your-interventional-radiation-procedure-ghpi1056_02_18": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "f1c7ca699d6db961",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "a2845ae6301d2b53",
+  "hash_version": 2,
   "ref": "GHPI1056_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",

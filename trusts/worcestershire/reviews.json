@@ -624,26 +624,30 @@
   "title": "Bubble PEP – Adults"
  },
  "bubble-pep-children": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "37a72430d581c90b",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "fe38fd2d1dc2296c",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Bubble PEP- Paediatrics"
  },
  "buckle-fracture": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "58de5e1589f2fc1b",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "16ecca240e35c922",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Buckle Fracture"
  },
  "bulkamid-peri-urethral-injections-under-local-or-general-anaesthesia": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "6fa69cec4aec5b0c",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "3f921c0e71a2854f",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Bulkamid™ Peri Urethral Injections Under Local (or General) Anaesthesia"
  },
  "burns-injury-waht-pi-2099-2": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "9fa131523b508b6d",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "591fb9ebdb8a5041",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Burns Injury"
  },
@@ -654,68 +658,79 @@
   "title": "C2 Hear Online – Website Links for Patients"
  },
  "caesarean-scar-pregnancy": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "5ee6c8819b58ce1c",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "c6e97c266c31adc1",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Caesarean Scar Pregnancy"
  },
  "calf-muscle-tear-gastrocnemius-tear": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "9f3cb67d7b3e4d2a",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "657275bf5bfdec8e",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Calf Muscle Tear (Gastrocnemius Tear)"
  },
  "cancer-psychology-service": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "653c2226210917e8",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "a823c443b7fa646d",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Cancer Psychology Service"
  },
  "carbohydrate-awareness-for-people-with-diabetes": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "257f7218b7348232",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "3a0d1e6a3e890082",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Carbohydrate awareness for people with diabetes"
  },
  "carbohydrate-counting-and-insulin-dose-adjustment": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "3189fe0377f23532",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "e51934412313d974",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Carbohydrate Counting and Insulin dose adjustment"
  },
  "cardiac-catheterisation-and-coronary-angiography": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "419ecc120cff39b2",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "a1c5e2849d8048d5",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Cardiac Catheterisation and coronary angiography"
  },
  "cardioversion": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "a6d88a143c33ed30",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "6f8b7a3dc9cf98cb",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Cardioversion"
  },
  "care-of-critically-ill-children-on-the-childrens-ward": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "a2f6e8946f059f90",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "4cd23cc6d3fb628c",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Care of critically ill children on the children’s ward"
  },
  "care-of-your-collar": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "3491e400643064bd",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "20840aa253bb4ea1",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Care of your Collar"
  },
  "cataract-care-surgery": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "4a41e2d1f61d550b",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "71f73253fce42b5c",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Cataract care/surgery"
  },
  "cauda-equina-syndrome": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "8c2be6657ea386d7",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "5da4ae5a99f37569",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Cauda Equina Syndrome"
  },
@@ -4590,8 +4605,9 @@
   "title": "Permanent Pacemaker Implant (PPM)"
  },
  "waht-pi-2367-campylobacter": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "15a3ad1c8e660544",
+  "checked": "2026-09-13T02:43:15+01:00",
+  "content_hash": "059fe936e0eabce9",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Campylobacter"
  },
