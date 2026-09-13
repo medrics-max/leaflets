@@ -3,10 +3,12 @@
 A clinician searches, ticks leaflets, and shows a QR code; the patient scans it
 and gets links to their trust's own published patient information plus national
 NHS.uk content. No account, no patient data — the tool never knows who the
-patient is. Clinicians check in once with a UK professional registration
-number (GMC, NMC, HCPC, GPhC or GDC); the number is format-checked in the
-browser only, never stored and never sent — it is a professional declaration,
-not a register lookup. The patient page is never gated.
+patient is. Clinicians register once on their own device with a UK
+professional registration number (GMC, NMC, HCPC, GPhC or GDC) and a PIN of
+their choosing, then check in with the PIN; the number is format-checked in
+the browser only, never stored and never sent — it is a professional
+declaration, not a register lookup. Several clinicians can register on a
+shared computer, each with their own PIN. The patient page is never gated.
 
 This repository contains only what the web pages serve: the two pages, the
 published data files, and the QR library. The quality pipeline that keeps the
