@@ -432,5 +432,432 @@
   "slug": "med-warfarin",
   "type": "medicines",
   "source": "NHS.uk"
+ },
+ {
+  "title": "Paracetamol for children (medicine for pain and high temperature)",
+  "url": "https://www.nhs.uk/medicines/paracetamol-for-children/",
+  "slug": "med-paracetamol-for-children",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Ibuprofen for children (medicine for pain and high temperature)",
+  "url": "https://www.nhs.uk/medicines/ibuprofen-for-children/",
+  "slug": "med-ibuprofen-for-children",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Loperamide (a medicine used to treat diarrhoea)",
+  "url": "https://www.nhs.uk/medicines/loperamide/",
+  "slug": "med-loperamide",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Domperidone (anti-sickness medicine for nausea and vomiting)",
+  "url": "https://www.nhs.uk/medicines/domperidone/",
+  "slug": "med-domperidone",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Betahistine (a medicine to treat Ménière's disease)",
+  "url": "https://www.nhs.uk/medicines/betahistine/",
+  "slug": "med-betahistine",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Hyoscine hydrobromide (medicine for travel sickness)",
+  "url": "https://www.nhs.uk/medicines/hyoscine-hydrobromide/",
+  "slug": "med-hyoscine-hydrobromide",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Mebeverine (medicine that relieves muscle spasms)",
+  "url": "https://www.nhs.uk/medicines/mebeverine/",
+  "slug": "med-mebeverine",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Esomeprazole (medicine to lower stomach acid)",
+  "url": "https://www.nhs.uk/medicines/esomeprazole/",
+  "slug": "med-esomeprazole",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Bisacodyl (a laxative taken to treat constipation)",
+  "url": "https://www.nhs.uk/medicines/bisacodyl/",
+  "slug": "med-bisacodyl",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Docusate (a laxative to treat constipation)",
+  "url": "https://www.nhs.uk/medicines/docusate/",
+  "slug": "med-docusate",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Carbocisteine (a medicine to treat COPD and cystic fibrosis)",
+  "url": "https://www.nhs.uk/medicines/carbocisteine/",
+  "slug": "med-carbocisteine",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Montelukast (a medicine to prevent asthma symptoms)",
+  "url": "https://www.nhs.uk/medicines/montelukast/",
+  "slug": "med-montelukast",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Azithromycin (antibiotic to treat bacterial infections)",
+  "url": "https://www.nhs.uk/medicines/azithromycin/",
+  "slug": "med-azithromycin",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Fluconazole (a medicine to treat fungal infections)",
+  "url": "https://www.nhs.uk/medicines/fluconazole/",
+  "slug": "med-fluconazole",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Clotrimazole (antifungal for fungal infections)",
+  "url": "https://www.nhs.uk/medicines/clotrimazole/",
+  "slug": "med-clotrimazole",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Fusidic acid (antibiotic to treat bacterial skin and eye infections)",
+  "url": "https://www.nhs.uk/medicines/fusidic-acid/",
+  "slug": "med-fusidic-acid",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Hydrocortisone for skin (steroid for skin conditions)",
+  "url": "https://www.nhs.uk/medicines/hydrocortisone-for-skin/",
+  "slug": "med-hydrocortisone-for-skin",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Oxycodone (a medicine for severe pain)",
+  "url": "https://www.nhs.uk/medicines/oxycodone/",
+  "slug": "med-oxycodone",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Diclofenac (a medicine to treat pain and swelling)",
+  "url": "https://www.nhs.uk/medicines/diclofenac/",
+  "slug": "med-diclofenac",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Allopurinol (a medicine to treat gout)",
+  "url": "https://www.nhs.uk/medicines/allopurinol/",
+  "slug": "med-allopurinol",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Propranolol (medicine for heart problems, anxiety and migraine)",
+  "url": "https://www.nhs.uk/medicines/propranolol/",
+  "slug": "med-propranolol",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Sertraline (an antidepressant medicine)",
+  "url": "https://www.nhs.uk/medicines/sertraline/",
+  "slug": "med-sertraline",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Zopiclone (a medicine used to treat insomnia)",
+  "url": "https://www.nhs.uk/medicines/zopiclone/",
+  "slug": "med-zopiclone",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Promethazine (drowsy (sedating) antihistamine that relieves allergy symptoms)",
+  "url": "https://www.nhs.uk/medicines/promethazine/",
+  "slug": "med-promethazine",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Losartan (medicine for high blood pressure)",
+  "url": "https://www.nhs.uk/medicines/losartan/",
+  "slug": "med-losartan",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Metformin (a medicine to treat type 2 diabetes)",
+  "url": "https://www.nhs.uk/medicines/metformin/",
+  "slug": "med-metformin",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Gliclazide (medicine for type 2 diabetes)",
+  "url": "https://www.nhs.uk/medicines/gliclazide/",
+  "slug": "med-gliclazide",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Levothyroxine (a medicine for an underactive thyroid (hypothyroidism))",
+  "url": "https://www.nhs.uk/medicines/levothyroxine/",
+  "slug": "med-levothyroxine",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Lorazepam (a medicine to treat anxiety and sleeping problems)",
+  "url": "https://www.nhs.uk/medicines/lorazepam/",
+  "slug": "med-lorazepam",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Carbamazepine (medicine to treat epilepsy, facial pain and bipolar disorder)",
+  "url": "https://www.nhs.uk/medicines/carbamazepine/",
+  "slug": "med-carbamazepine",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Lamotrigine (medicine to treat epilepsy and bipolar disorder)",
+  "url": "https://www.nhs.uk/medicines/lamotrigine/",
+  "slug": "med-lamotrigine",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Sodium valproate (medicine used for epilepsy, bipolar disorder and migraine)",
+  "url": "https://www.nhs.uk/medicines/sodium-valproate/",
+  "slug": "med-sodium-valproate",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Tamsulosin (a medicine for symptoms of an enlarged prostate)",
+  "url": "https://www.nhs.uk/medicines/tamsulosin/",
+  "slug": "med-tamsulosin",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Oxybutynin (a medicine to treat symptoms of an overactive bladder)",
+  "url": "https://www.nhs.uk/medicines/oxybutynin/",
+  "slug": "med-oxybutynin",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Alendronic acid (medicine to treat and prevent osteoporosis)",
+  "url": "https://www.nhs.uk/medicines/alendronic-acid/",
+  "slug": "med-alendronic-acid",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Folic acid (medicine used to keep your baby healthy in pregnancy and to treat folate deficiency anaemia)",
+  "url": "https://www.nhs.uk/medicines/folic-acid/",
+  "slug": "med-folic-acid",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Ferrous fumarate (a medicine to treat iron deficiency anaemia (low iron levels))",
+  "url": "https://www.nhs.uk/medicines/ferrous-fumarate/",
+  "slug": "med-ferrous-fumarate",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Ferrous sulfate (medicine for iron deficiency anaemia)",
+  "url": "https://www.nhs.uk/medicines/ferrous-sulfate/",
+  "slug": "med-ferrous-sulfate",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Mirtazapine (antidepressant)",
+  "url": "https://www.nhs.uk/medicines/mirtazapine/",
+  "slug": "med-mirtazapine",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Citalopram (an antidepressant medicine)",
+  "url": "https://www.nhs.uk/medicines/citalopram/",
+  "slug": "med-citalopram",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Fluoxetine (an antidepressant medicine)",
+  "url": "https://www.nhs.uk/medicines/fluoxetine/",
+  "slug": "med-fluoxetine",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Nifedipine (medicine to treat high blood pressure and angina)",
+  "url": "https://www.nhs.uk/medicines/nifedipine/",
+  "slug": "med-nifedipine",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Spironolactone (diuretic, heart failure)",
+  "url": "https://www.nhs.uk/medicines/spironolactone/",
+  "slug": "med-spironolactone",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Bumetanide (a medicine to treat oedema)",
+  "url": "https://www.nhs.uk/medicines/bumetanide/",
+  "slug": "med-bumetanide",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Atenolol (a beta blocker medicine for blood pressure and heart conditions)",
+  "url": "https://www.nhs.uk/medicines/atenolol/",
+  "slug": "med-atenolol",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Verapamil (a medicine used to prevent chest pain and high blood pressure)",
+  "url": "https://www.nhs.uk/medicines/verapamil/",
+  "slug": "med-verapamil",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Diltiazem (a medicine to treat high blood pressure)",
+  "url": "https://www.nhs.uk/medicines/diltiazem/",
+  "slug": "med-diltiazem",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Dabigatran (blood thinner / anticoagulant)",
+  "url": "https://www.nhs.uk/medicine-page-no-longer-available/",
+  "slug": "med-dabigatran",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Melatonin (a hormone used for sleep problems)",
+  "url": "https://www.nhs.uk/medicines/melatonin/",
+  "slug": "med-melatonin",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Peppermint oil (a medicine that relieves stomach cramps and bloating)",
+  "url": "https://www.nhs.uk/medicines/peppermint-oil/",
+  "slug": "med-peppermint-oil",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Gaviscon (heartburn / reflux)",
+  "url": "https://www.nhs.uk/medicines/gaviscon/",
+  "slug": "med-gaviscon",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Olanzapine (antipsychotic)",
+  "url": "https://www.nhs.uk/medicines/olanzapine/",
+  "slug": "med-olanzapine",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Quetiapine (medicine to treat schizophrenia, bipolar disorder and severe depression)",
+  "url": "https://www.nhs.uk/medicines/quetiapine/",
+  "slug": "med-quetiapine",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Hydrocortisone buccal tablets (steroid medicine for treating mouth ulcers)",
+  "url": "https://www.nhs.uk/medicines/hydrocortisone-buccal-tablets/",
+  "slug": "med-hydrocortisone-buccal-tablets",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Terbinafine (a medicine to treat fungal skin infections)",
+  "url": "https://www.nhs.uk/medicines/terbinafine/",
+  "slug": "med-terbinafine",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Nystatin (medicine for fungal or yeast infections)",
+  "url": "https://www.nhs.uk/medicines/nystatin/",
+  "slug": "med-nystatin",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Cinnarizine (medicine for travel sickness and vertigo)",
+  "url": "https://www.nhs.uk/medicines/cinnarizine/",
+  "slug": "med-cinnarizine",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Baclofen (medicine that relieves muscle spasms)",
+  "url": "https://www.nhs.uk/medicines/baclofen/",
+  "slug": "med-baclofen",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Budesonide inhalers (steroid medicine used for asthma and chronic obstructive pulmonary disease)",
+  "url": "https://www.nhs.uk/medicines/budesonide-inhalers/",
+  "slug": "med-budesonide-inhalers",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Fluticasone inhalers (medicine to treat asthma and COPD)",
+  "url": "https://www.nhs.uk/medicines/fluticasone-inhalers/",
+  "slug": "med-fluticasone-inhalers",
+  "type": "medicines",
+  "source": "NHS.uk"
+ },
+ {
+  "title": "Beclometasone nasal spray (a steroid medicine for allergic rhinitis)",
+  "url": "https://www.nhs.uk/medicines/beclometasone-nasal-spray/",
+  "slug": "med-beclometasone-nasal-spray",
+  "type": "medicines",
+  "source": "NHS.uk"
  }
 ]

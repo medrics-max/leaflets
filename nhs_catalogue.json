@@ -3915,22 +3915,6 @@
 "catalogue": true
 },
 {
-"title": "Alendronic acid",
-"url": "https://www.nhs.uk/medicines/alendronic-acid/",
-"slug": "medaz-alendronic-acid",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Allopurinol",
-"url": "https://www.nhs.uk/medicines/allopurinol/",
-"slug": "medaz-allopurinol",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Alogliptin",
 "url": "https://www.nhs.uk/medicines/alogliptin/",
 "slug": "medaz-alogliptin",
@@ -4019,41 +4003,9 @@
 "catalogue": true
 },
 {
-"title": "Atenolol",
-"url": "https://www.nhs.uk/medicines/atenolol/",
-"slug": "medaz-atenolol",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Azathioprine",
 "url": "https://www.nhs.uk/medicines/azathioprine/",
 "slug": "medaz-azathioprine",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Azithromycin",
-"url": "https://www.nhs.uk/medicines/azithromycin/",
-"slug": "medaz-azithromycin",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Baclofen",
-"url": "https://www.nhs.uk/medicines/baclofen/",
-"slug": "medaz-baclofen",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Beclometasone nasal spray",
-"url": "https://www.nhs.uk/medicines/beclometasone-nasal-spray/",
-"slug": "medaz-beclometasone-nasal-spray",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -4099,14 +4051,6 @@
 "catalogue": true
 },
 {
-"title": "Betahistine",
-"url": "https://www.nhs.uk/medicines/betahistine/",
-"slug": "medaz-betahistine",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Betamethasone for eyes, ears and nose",
 "url": "https://www.nhs.uk/medicines/betamethasone-eyes-ears-and-nose/",
 "slug": "medaz-betamethasone-eyes-ears-and-nose",
@@ -4131,25 +4075,9 @@
 "catalogue": true
 },
 {
-"title": "Bisacodyl",
-"url": "https://www.nhs.uk/medicines/bisacodyl/",
-"slug": "medaz-bisacodyl",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Brinzolamide",
 "url": "https://www.nhs.uk/medicines/brinzolamide/",
 "slug": "medaz-brinzolamide",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Budesonide inhalers",
-"url": "https://www.nhs.uk/medicines/budesonide-inhalers/",
-"slug": "medaz-budesonide-inhalers",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -4166,14 +4094,6 @@
 "title": "Budesonide rectal foam and enemas",
 "url": "https://www.nhs.uk/medicines/budesonide-rectal-foam-and-enemas/",
 "slug": "medaz-budesonide-rectal-foam-and-enemas",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Bumetanide",
-"url": "https://www.nhs.uk/medicines/bumetanide/",
-"slug": "medaz-bumetanide",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -4203,25 +4123,9 @@
 "catalogue": true
 },
 {
-"title": "Carbamazepine (Tegretol)",
-"url": "https://www.nhs.uk/medicines/carbamazepine/",
-"slug": "medaz-carbamazepine",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Carbimazole",
 "url": "https://www.nhs.uk/medicines/carbimazole/",
 "slug": "medaz-carbimazole",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Carbocisteine",
-"url": "https://www.nhs.uk/medicines/carbocisteine/",
-"slug": "medaz-carbocisteine",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -4246,22 +4150,6 @@
 "title": "Chlorhexidine",
 "url": "https://www.nhs.uk/medicines/chlorhexidine/",
 "slug": "medaz-chlorhexidine",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Cinnarizine",
-"url": "https://www.nhs.uk/medicines/cinnarizine/",
-"slug": "medaz-cinnarizine",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Citalopram",
-"url": "https://www.nhs.uk/medicines/citalopram/",
-"slug": "medaz-citalopram",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -4294,14 +4182,6 @@
 "title": "Clonidine",
 "url": "https://www.nhs.uk/medicines/clonidine/",
 "slug": "medaz-clonidine",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Clotrimazole",
-"url": "https://www.nhs.uk/medicines/clotrimazole/",
-"slug": "medaz-clotrimazole",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -4387,22 +4267,6 @@
 "catalogue": true
 },
 {
-"title": "Diclofenac",
-"url": "https://www.nhs.uk/medicines/diclofenac/",
-"slug": "medaz-diclofenac",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Diltiazem",
-"url": "https://www.nhs.uk/medicines/diltiazem/",
-"slug": "medaz-diltiazem",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Diphenhydramine",
 "url": "https://www.nhs.uk/medicines/diphenhydramine/",
 "slug": "medaz-diphenhydramine",
@@ -4414,22 +4278,6 @@
 "title": "Dipyridamole",
 "url": "https://www.nhs.uk/medicines/dipyridamole/",
 "slug": "medaz-dipyridamole",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Docusate",
-"url": "https://www.nhs.uk/medicines/docusate/",
-"slug": "medaz-docusate",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Domperidone",
-"url": "https://www.nhs.uk/medicines/domperidone/",
-"slug": "medaz-domperidone",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -4491,14 +4339,6 @@
 "catalogue": true
 },
 {
-"title": "Esomeprazole",
-"url": "https://www.nhs.uk/medicines/esomeprazole/",
-"slug": "medaz-esomeprazole",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Ezetimibe",
 "url": "https://www.nhs.uk/medicines/ezetimibe/",
 "slug": "medaz-ezetimibe",
@@ -4523,49 +4363,9 @@
 "catalogue": true
 },
 {
-"title": "Ferrous fumarate",
-"url": "https://www.nhs.uk/medicines/ferrous-fumarate/",
-"slug": "medaz-ferrous-fumarate",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Ferrous sulfate",
-"url": "https://www.nhs.uk/medicines/ferrous-sulfate/",
-"slug": "medaz-ferrous-sulfate",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Finasteride",
 "url": "https://www.nhs.uk/medicines/finasteride/",
 "slug": "medaz-finasteride",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Fluconazole",
-"url": "https://www.nhs.uk/medicines/fluconazole/",
-"slug": "medaz-fluconazole",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Fluoxetine",
-"url": "https://www.nhs.uk/medicines/fluoxetine/",
-"slug": "medaz-fluoxetine",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Fluticasone inhalers",
-"url": "https://www.nhs.uk/medicines/fluticasone-inhalers/",
-"slug": "medaz-fluticasone-inhalers",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -4579,41 +4379,9 @@
 "catalogue": true
 },
 {
-"title": "Folic acid",
-"url": "https://www.nhs.uk/medicines/folic-acid/",
-"slug": "medaz-folic-acid",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Fusidic acid (Fucidin)",
-"url": "https://www.nhs.uk/medicines/fusidic-acid/",
-"slug": "medaz-fusidic-acid",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Fybogel (ispaghula husk)",
 "url": "https://www.nhs.uk/medicines/fybogel-ispaghula-husk/",
 "slug": "medaz-fybogel-ispaghula-husk",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Gaviscon",
-"url": "https://www.nhs.uk/medicines/gaviscon/",
-"slug": "medaz-gaviscon",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Gliclazide",
-"url": "https://www.nhs.uk/medicines/gliclazide/",
-"slug": "medaz-gliclazide",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -4627,25 +4395,9 @@
 "catalogue": true
 },
 {
-"title": "Hydrocortisone buccal tablets",
-"url": "https://www.nhs.uk/medicines/hydrocortisone-buccal-tablets/",
-"slug": "medaz-hydrocortisone-buccal-tablets",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Hydrocortisone for piles and itchy bottom",
 "url": "https://www.nhs.uk/medicines/hydrocortisone-for-piles-and-itchy-bottom/",
 "slug": "medaz-hydrocortisone-for-piles-and-itchy-bottom",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Hydrocortisone for skin",
-"url": "https://www.nhs.uk/medicines/hydrocortisone-for-skin/",
-"slug": "medaz-hydrocortisone-for-skin",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -4699,25 +4451,9 @@
 "catalogue": true
 },
 {
-"title": "Hyoscine hydrobromide",
-"url": "https://www.nhs.uk/medicines/hyoscine-hydrobromide/",
-"slug": "medaz-hyoscine-hydrobromide",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Ibuprofen and codeine",
 "url": "https://www.nhs.uk/medicines/ibuprofen-and-codeine-nurofen-plus/",
 "slug": "medaz-ibuprofen-and-codeine-nurofen-plus",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Ibuprofen for children",
-"url": "https://www.nhs.uk/medicines/ibuprofen-for-children/",
-"slug": "medaz-ibuprofen-for-children",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -4771,14 +4507,6 @@
 "catalogue": true
 },
 {
-"title": "Lamotrigine",
-"url": "https://www.nhs.uk/medicines/lamotrigine/",
-"slug": "medaz-lamotrigine",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Latanoprost",
 "url": "https://www.nhs.uk/medicines/latanoprost/",
 "slug": "medaz-latanoprost",
@@ -4806,14 +4534,6 @@
 "title": "Letrozole",
 "url": "https://www.nhs.uk/medicines/letrozole/",
 "slug": "medaz-letrozole",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Levothyroxine",
-"url": "https://www.nhs.uk/medicines/levothyroxine/",
-"slug": "medaz-levothyroxine",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -4851,22 +4571,6 @@
 "catalogue": true
 },
 {
-"title": "Lorazepam",
-"url": "https://www.nhs.uk/medicines/lorazepam/",
-"slug": "medaz-lorazepam",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Losartan",
-"url": "https://www.nhs.uk/medicines/losartan/",
-"slug": "medaz-losartan",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Lymecycline",
 "url": "https://www.nhs.uk/medicines/lymecycline/",
 "slug": "medaz-lymecycline",
@@ -4883,25 +4587,9 @@
 "catalogue": true
 },
 {
-"title": "Mebeverine",
-"url": "https://www.nhs.uk/medicines/mebeverine/",
-"slug": "medaz-mebeverine",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Medroxyprogesterone tablets",
 "url": "https://www.nhs.uk/medicines/medroxyprogesterone-tablets/",
 "slug": "medaz-medroxyprogesterone-tablets",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Melatonin",
-"url": "https://www.nhs.uk/medicines/melatonin/",
-"slug": "medaz-melatonin",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -4918,14 +4606,6 @@
 "title": "Mesalazine",
 "url": "https://www.nhs.uk/medicines/mesalazine/",
 "slug": "medaz-mesalazine",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Metformin",
-"url": "https://www.nhs.uk/medicines/metformin/",
-"slug": "medaz-metformin",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -4971,14 +4651,6 @@
 "catalogue": true
 },
 {
-"title": "Mirtazapine",
-"url": "https://www.nhs.uk/medicines/mirtazapine/",
-"slug": "medaz-mirtazapine",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Mometasone for skin",
 "url": "https://www.nhs.uk/medicines/mometasone-for-skin/",
 "slug": "medaz-mometasone-for-skin",
@@ -5003,14 +4675,6 @@
 "catalogue": true
 },
 {
-"title": "Montelukast",
-"url": "https://www.nhs.uk/medicines/montelukast/",
-"slug": "medaz-montelukast",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Nefopam",
 "url": "https://www.nhs.uk/medicines/nefopam/",
 "slug": "medaz-nefopam",
@@ -5022,14 +4686,6 @@
 "title": "Nicorandil",
 "url": "https://www.nhs.uk/medicines/nicorandil/",
 "slug": "medaz-nicorandil",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Nifedipine",
-"url": "https://www.nhs.uk/medicines/nifedipine/",
-"slug": "medaz-nifedipine",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -5051,41 +4707,9 @@
 "catalogue": true
 },
 {
-"title": "Nystatin",
-"url": "https://www.nhs.uk/medicines/nystatin/",
-"slug": "medaz-nystatin",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Olanzapine",
-"url": "https://www.nhs.uk/medicines/olanzapine/",
-"slug": "medaz-olanzapine",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Orlistat",
 "url": "https://www.nhs.uk/medicines/orlistat/",
 "slug": "medaz-orlistat",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Oxybutynin",
-"url": "https://www.nhs.uk/medicines/oxybutynin/",
-"slug": "medaz-oxybutynin",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Oxycodone",
-"url": "https://www.nhs.uk/medicines/oxycodone/",
-"slug": "medaz-oxycodone",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -5102,14 +4726,6 @@
 "title": "Paroxetine",
 "url": "https://www.nhs.uk/medicines/paroxetine/",
 "slug": "medaz-paroxetine",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Peppermint oil",
-"url": "https://www.nhs.uk/medicines/peppermint-oil/",
-"slug": "medaz-peppermint-oil",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -5139,25 +4755,9 @@
 "catalogue": true
 },
 {
-"title": "Propranolol",
-"url": "https://www.nhs.uk/medicines/propranolol/",
-"slug": "medaz-propranolol",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Pseudoephedrine (Sudafed)",
 "url": "https://www.nhs.uk/medicines/pseudoephedrine/",
 "slug": "medaz-pseudoephedrine",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Quetiapine",
-"url": "https://www.nhs.uk/medicines/quetiapine/",
-"slug": "medaz-quetiapine",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -5203,14 +4803,6 @@
 "catalogue": true
 },
 {
-"title": "Sertraline",
-"url": "https://www.nhs.uk/medicines/sertraline/",
-"slug": "medaz-sertraline",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Sildenafil (Viagra)",
 "url": "https://www.nhs.uk/medicines/sildenafil-viagra/",
 "slug": "medaz-sildenafil-viagra",
@@ -5243,14 +4835,6 @@
 "catalogue": true
 },
 {
-"title": "Sodium valproate",
-"url": "https://www.nhs.uk/medicines/sodium-valproate/",
-"slug": "medaz-sodium-valproate",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Solifenacin",
 "url": "https://www.nhs.uk/medicines/solifenacin/",
 "slug": "medaz-solifenacin",
@@ -5262,14 +4846,6 @@
 "title": "Sotalol",
 "url": "https://www.nhs.uk/medicines/sotalol/",
 "slug": "medaz-sotalol",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Spironolactone",
-"url": "https://www.nhs.uk/medicines/spironolactone/",
-"slug": "medaz-spironolactone",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -5294,22 +4870,6 @@
 "title": "Tadalafil",
 "url": "https://www.nhs.uk/medicines/tadalafil/",
 "slug": "medaz-tadalafil",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Tamsulosin",
-"url": "https://www.nhs.uk/medicines/tamsulosin/",
-"slug": "medaz-tamsulosin",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Terbinafine",
-"url": "https://www.nhs.uk/medicines/terbinafine/",
-"slug": "medaz-terbinafine",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
@@ -5411,25 +4971,9 @@
 "catalogue": true
 },
 {
-"title": "Verapamil",
-"url": "https://www.nhs.uk/medicines/verapamil/",
-"slug": "medaz-verapamil",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
 "title": "Zolpidem",
 "url": "https://www.nhs.uk/medicines/zolpidem/",
 "slug": "medaz-zolpidem",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Zopiclone",
-"url": "https://www.nhs.uk/medicines/zopiclone/",
-"slug": "medaz-zopiclone",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true

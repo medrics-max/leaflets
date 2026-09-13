@@ -1719,5 +1719,285 @@
   "slug": "york-injectable-anticoagulants",
   "type": "trusted",
   "source": "York and Scarborough Teaching Hospitals NHS Foundation Trust"
+ },
+ {
+  "title": "Concussion and minor head injury (Headway)",
+  "url": "https://www.headway.org.uk/about-brain-injury/individuals/types-of-brain-injury/concussion/",
+  "slug": "hw-minor-head-injury",
+  "type": "trusted",
+  "source": "Headway"
+ },
+ {
+  "title": "What is migraine? (The Migraine Trust)",
+  "url": "https://migrainetrust.org/understand-migraine/what-is-migraine/",
+  "slug": "mt-what-is-migraine",
+  "type": "trusted",
+  "source": "The Migraine Trust"
+ },
+ {
+  "title": "Gout (Arthritis UK)",
+  "url": "https://www.versusarthritis.org/about-arthritis/conditions/gout/",
+  "slug": "va-gout",
+  "type": "trusted",
+  "source": "Arthritis UK"
+ },
+ {
+  "title": "Back pain (Arthritis UK)",
+  "url": "https://www.versusarthritis.org/about-arthritis/conditions/back-pain/",
+  "slug": "va-back-pain",
+  "type": "trusted",
+  "source": "Arthritis UK"
+ },
+ {
+  "title": "Neck pain (Arthritis UK)",
+  "url": "https://www.versusarthritis.org/about-arthritis/conditions/neck-pain/",
+  "slug": "va-neck-pain",
+  "type": "trusted",
+  "source": "Arthritis UK"
+ },
+ {
+  "title": "Shoulder pain (Arthritis UK)",
+  "url": "https://www.versusarthritis.org/about-arthritis/conditions/shoulder-pain/",
+  "slug": "va-shoulder-pain",
+  "type": "trusted",
+  "source": "Arthritis UK"
+ },
+ {
+  "title": "About osteoporosis and osteopenia (Royal Osteoporosis Society)",
+  "url": "https://theros.org.uk/information-and-support/about-osteoporosis-and-osteopenia/",
+  "slug": "ros-broken-bones",
+  "type": "trusted",
+  "source": "Royal Osteoporosis Society"
+ },
+ {
+  "title": "Worried about your drinking? — get help (Alcohol Change UK)",
+  "url": "https://alcoholchange.org.uk/help-and-support/get-help-now",
+  "slug": "acuk-get-help",
+  "type": "trusted",
+  "source": "Alcohol Change UK"
+ },
+ {
+  "title": "Alcohol unit calculator (Alcohol Change UK)",
+  "url": "https://alcoholchange.org.uk/alcohol-facts/interactive-tools/unit-calculator",
+  "slug": "acuk-unit-calculator",
+  "type": "trusted",
+  "source": "Alcohol Change UK"
+ },
+ {
+  "title": "Self-harm — support and how to help yourself (Mind)",
+  "url": "https://www.mind.org.uk/information-support/types-of-mental-health-problems/self-harm/",
+  "slug": "mind-self-harm",
+  "type": "trusted",
+  "source": "Mind"
+ },
+ {
+  "title": "Talk to Samaritans — call 116 123 free, any time (Samaritans)",
+  "url": "https://www.samaritans.org/how-we-can-help/contact-samaritan/",
+  "slug": "sam-contact",
+  "type": "trusted",
+  "source": "Samaritans"
+ },
+ {
+  "title": "Text SHOUT to 85258 — free 24/7 crisis text line (Shout)",
+  "url": "https://giveusashout.org/get-help/",
+  "slug": "shout-get-help",
+  "type": "trusted",
+  "source": "Shout"
+ },
+ {
+  "title": "Anxiety — get help and support (Anxiety UK)",
+  "url": "https://www.anxietyuk.org.uk/get-help/",
+  "slug": "anxuk-get-help",
+  "type": "trusted",
+  "source": "Anxiety UK"
+ },
+ {
+  "title": "Preventing falls at home (Age UK)",
+  "url": "https://www.ageuk.org.uk/information-advice/health-wellbeing/exercise/falls-prevention/",
+  "slug": "ageuk-falls-prevention",
+  "type": "trusted",
+  "source": "Age UK"
+ },
+ {
+  "title": "What is an ectopic pregnancy? (The Ectopic Pregnancy Trust)",
+  "url": "https://ectopic.org.uk/what-is-an-ectopic-pregnancy",
+  "slug": "ept-what-is-ectopic",
+  "type": "trusted",
+  "source": "The Ectopic Pregnancy Trust"
+ },
+ {
+  "title": "Hyperemesis gravidarum and pregnancy sickness — support (Pregnancy Sickness Support)",
+  "url": "https://pregnancysicknesssupport.org.uk/get-help/what-is-hyperemesis-gravidarum/",
+  "slug": "pss-hyperemesis",
+  "type": "trusted",
+  "source": "Pregnancy Sickness Support"
+ },
+ {
+  "title": "Anaphylaxis (Allergy UK)",
+  "url": "https://www.allergyuk.org/about-allergy/anaphylaxis/",
+  "slug": "alluk-anaphylaxis",
+  "type": "trusted",
+  "source": "Allergy UK"
+ },
+ {
+  "title": "Angina (British Heart Foundation)",
+  "url": "https://www.bhf.org.uk/informationsupport/conditions/angina",
+  "slug": "bhf-angina",
+  "type": "trusted",
+  "source": "British Heart Foundation"
+ },
+ {
+  "title": "Atrial fibrillation (British Heart Foundation)",
+  "url": "https://www.bhf.org.uk/informationsupport/conditions/atrial-fibrillation",
+  "slug": "bhf-atrial-fibrillation",
+  "type": "trusted",
+  "source": "British Heart Foundation"
+ },
+ {
+  "title": "Heart failure (British Heart Foundation)",
+  "url": "https://www.bhf.org.uk/informationsupport/conditions/heart-failure",
+  "slug": "bhf-heart-failure",
+  "type": "trusted",
+  "source": "British Heart Foundation"
+ },
+ {
+  "title": "Pericarditis (British Heart Foundation)",
+  "url": "https://www.bhf.org.uk/informationsupport/conditions/pericarditis",
+  "slug": "bhf-pericarditis",
+  "type": "trusted",
+  "source": "British Heart Foundation"
+ },
+ {
+  "title": "Heart Helpline — talk to a cardiac nurse (British Heart Foundation)",
+  "url": "https://www.bhf.org.uk/informationsupport/heart-helpline",
+  "slug": "bhf-heart-helpline",
+  "type": "trusted",
+  "source": "British Heart Foundation"
+ },
+ {
+  "title": "After a first seizure (Epilepsy Society)",
+  "url": "https://epilepsysociety.org.uk/understanding-epilepsy/after-a-first-seizure",
+  "slug": "es-first-seizure",
+  "type": "trusted",
+  "source": "Epilepsy Society"
+ },
+ {
+  "title": "Seizure first aid (Epilepsy Action)",
+  "url": "https://www.epilepsy.org.uk/info/first-aid",
+  "slug": "ea-seizure-first-aid",
+  "type": "trusted",
+  "source": "Epilepsy Action"
+ },
+ {
+  "title": "Acute kidney injury (AKI) (Kidney Care UK)",
+  "url": "https://kidneycareuk.org/kidney-disease-information/kidney-conditions/patient-info-acute-kidney-injury-aki/",
+  "slug": "kcuk-aki",
+  "type": "trusted",
+  "source": "Kidney Care UK"
+ },
+ {
+  "title": "Pneumonia (Asthma + Lung UK)",
+  "url": "https://www.asthmaandlung.org.uk/conditions/pneumonia",
+  "slug": "alu-pneumonia",
+  "type": "trusted",
+  "source": "Asthma + Lung UK"
+ },
+ {
+  "title": "Bronchiolitis (Asthma + Lung UK)",
+  "url": "https://www.asthmaandlung.org.uk/conditions/bronchiolitis",
+  "slug": "alu-bronchiolitis",
+  "type": "trusted",
+  "source": "Asthma + Lung UK"
+ },
+ {
+  "title": "Hypos (hypoglycaemia) — signs and symptoms (Diabetes UK)",
+  "url": "https://www.diabetes.org.uk/about-diabetes/looking-after-diabetes/complications/hypos",
+  "slug": "duk-hypos",
+  "type": "trusted",
+  "source": "Diabetes UK"
+ },
+ {
+  "title": "Understanding Crohn's and colitis (Crohn's & Colitis UK)",
+  "url": "https://www.crohnsandcolitis.org.uk/info-support/information-about-crohns-and-colitis/all-information-about-crohns-and-colitis/understanding-crohns-and-colitis",
+  "slug": "ccuk-understanding",
+  "type": "trusted",
+  "source": "Crohn's & Colitis UK"
+ },
+ {
+  "title": "Chronic pancreatitis (Guts UK)",
+  "url": "https://gutscharity.org.uk/advice-and-information/conditions/chronic-pancreatitis/",
+  "slug": "guts-pancreatitis",
+  "type": "trusted",
+  "source": "Guts UK"
+ },
+ {
+  "title": "Sexually transmitted infections (STIs) (Terrence Higgins Trust)",
+  "url": "https://tht.org.uk/sexual-health/stis",
+  "slug": "tht-stis",
+  "type": "trusted",
+  "source": "Terrence Higgins Trust"
+ },
+ {
+  "title": "Bell's palsy (Facial Palsy UK)",
+  "url": "https://www.facialpalsy.org.uk/causesanddiagnoses/bells-palsy/",
+  "slug": "fpuk-bells-palsy",
+  "type": "trusted",
+  "source": "Facial Palsy UK"
+ },
+ {
+  "title": "Cellulitis (Lymphoedema Support Network)",
+  "url": "https://www.lymphoedema.org/cellulitis/about-cellulitis/",
+  "slug": "lsn-cellulitis",
+  "type": "trusted",
+  "source": "Lymphoedema Support Network"
+ },
+ {
+  "title": "Meningitis and septicaemia — signs and symptoms (Meningitis Now)",
+  "url": "https://www.meningitisnow.org/meningitis-explained/signs-and-symptoms/",
+  "slug": "mn-signs-symptoms",
+  "type": "trusted",
+  "source": "Meningitis Now"
+ },
+ {
+  "title": "Burns first aid (Children's Burns Trust)",
+  "url": "https://cbtrust.org.uk/get-informed/first-aid/",
+  "slug": "cbt-first-aid",
+  "type": "trusted",
+  "source": "Children's Burns Trust"
+ },
+ {
+  "title": "Bleeding and pain in early pregnancy (RCOG patient information)",
+  "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/bleeding-andor-pain-in-early-pregnancy/",
+  "slug": "rcog-early-pregnancy-bleeding",
+  "type": "trusted",
+  "source": "RCOG"
+ },
+ {
+  "title": "Ectopic pregnancy (RCOG patient information)",
+  "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/ectopic-pregnancy/",
+  "slug": "rcog-ectopic",
+  "type": "trusted",
+  "source": "RCOG"
+ },
+ {
+  "title": "Pelvic inflammatory disease (RCOG patient information)",
+  "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/pelvic-inflammatory-disease/",
+  "slug": "rcog-pid",
+  "type": "trusted",
+  "source": "RCOG"
+ },
+ {
+  "title": "Pregnancy sickness and hyperemesis gravidarum (RCOG patient information)",
+  "url": "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/pregnancy-sickness-nausea-and-vomiting-of-pregnancy-and-hyperemesis-gravidarum/",
+  "slug": "rcog-hyperemesis",
+  "type": "trusted",
+  "source": "RCOG"
+ },
+ {
+  "title": "Epilepsy, seizures and driving (Epilepsy Action)",
+  "url": "https://www.epilepsy.org.uk/living/driving",
+  "slug": "ea-driving",
+  "type": "trusted",
+  "source": "Epilepsy Action"
  }
 ]
