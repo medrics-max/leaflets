@@ -172,6 +172,275 @@
     "min_expected": 600
    },
    "listed": false
+  },
+  {
+   "id": "oxford-uh",
+   "name": "Oxford University Hospitals NHS Foundation Trust",
+   "short_name": "Oxford University Hospitals",
+   "ods_code": "RTH",
+   "status": "live",
+   "data_dir": "trusts/oxford-uh",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://www.ouh.nhs.uk",
+    "index": "/patient-guide/leaflets/",
+    "link_prefixes": [
+     "/media"
+    ],
+    "include_pdf": true,
+    "min_expected": 1069
+   },
+   "listed": false
+  },
+  {
+   "id": "hampshire",
+   "name": "Hampshire Hospitals NHS Foundation Trust",
+   "short_name": "Hampshire Hospitals",
+   "ods_code": "RN5",
+   "status": "live",
+   "data_dir": "trusts/hampshire",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://www.hampshirehospitals.nhs.uk",
+    "index": "/patients-visitors/health-information-point-hip/patient-information-leaflets",
+    "link_prefixes": [
+     "/application"
+    ],
+    "include_pdf": true,
+    "min_expected": 903
+   },
+   "listed": false
+  },
+  {
+   "id": "the-royal-wolverhampton",
+   "name": "The Royal Wolverhampton NHS Trust",
+   "short_name": "The Royal Wolverhampton",
+   "ods_code": "RL4",
+   "status": "live",
+   "data_dir": "trusts/the-royal-wolverhampton",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://royalwolverhampton.nhs.uk",
+    "index": "/patient-information-leaflets/",
+    "link_prefixes": [
+     "/wp-content"
+    ],
+    "include_pdf": true,
+    "min_expected": 712
+   },
+   "listed": false
+  },
+  {
+   "id": "milton-keynes",
+   "name": "Milton Keynes University Hospital NHS Foundation Trust",
+   "short_name": "Milton Keynes University Hospital",
+   "ods_code": "RD8",
+   "status": "live",
+   "data_dir": "trusts/milton-keynes",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://www.mkuh.nhs.uk",
+    "index": "/patients-and-visitors/patient-leaflets",
+    "link_prefixes": [
+     "/patient-information-leaflet"
+    ],
+    "include_pdf": true,
+    "min_expected": 697
+   },
+   "listed": false
+  },
+  {
+   "id": "kingston-and-richmond",
+   "name": "Kingston and Richmond NHS Foundation Trust",
+   "short_name": "Kingston and Richmond",
+   "ods_code": "RAX",
+   "status": "live",
+   "data_dir": "trusts/kingston-and-richmond",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://www.kingstonandrichmond.nhs.uk",
+    "index": "/patients-and-families/patient-leaflets",
+    "link_prefixes": [
+     "/patients-and-families"
+    ],
+    "include_pdf": false,
+    "min_expected": 590
+   },
+   "listed": false
+  },
+  {
+   "id": "chelsea-and-westminster",
+   "name": "Chelsea and Westminster Hospital NHS Foundation Trust",
+   "short_name": "Chelsea and Westminster Hospital",
+   "ods_code": "RQM",
+   "status": "live",
+   "data_dir": "trusts/chelsea-and-westminster",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://www.chelwest.nhs.uk",
+    "index": "/leaflets/",
+    "link_prefixes": [
+     "/your-visit"
+    ],
+    "include_pdf": true,
+    "min_expected": 454
+   },
+   "listed": false
+  },
+  {
+   "id": "james-paget",
+   "name": "James Paget University Hospitals NHS Foundation Trust",
+   "short_name": "James Paget University Hospitals",
+   "ods_code": "RGP",
+   "status": "live",
+   "data_dir": "trusts/james-paget",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://www.jpaget.nhs.uk",
+    "index": "/patients-visitors/information-leaflets-a-z/",
+    "link_prefixes": [
+     "/media"
+    ],
+    "include_pdf": true,
+    "min_expected": 364
+   },
+   "listed": false
+  },
+  {
+   "id": "kings-college",
+   "name": "King's College Hospital NHS Foundation Trust",
+   "short_name": "King's College Hospital",
+   "ods_code": "RJZ",
+   "status": "live",
+   "data_dir": "trusts/kings-college",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://www.kch.nhs.uk",
+    "index": "/patients-and-visitors/patients/patient-information-leaflets/",
+    "link_prefixes": [
+     "/wp-content"
+    ],
+    "include_pdf": true,
+    "min_expected": 294
+   },
+   "listed": false
+  },
+  {
+   "id": "the-rotherham",
+   "name": "The Rotherham NHS Foundation Trust",
+   "short_name": "The Rotherham",
+   "ods_code": "RFR",
+   "status": "live",
+   "data_dir": "trusts/the-rotherham",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://www.therotherhamft.nhs.uk",
+    "index": "/patients-and-visitors/patient-information/",
+    "link_prefixes": [
+     "/patients-and-visitors",
+     "/sites"
+    ],
+    "include_pdf": true,
+    "min_expected": 292
+   },
+   "listed": false
+  },
+  {
+   "id": "the-dudley-group",
+   "name": "The Dudley Group NHS Foundation Trust",
+   "short_name": "The Dudley Group",
+   "ods_code": "RNA",
+   "status": "live",
+   "data_dir": "trusts/the-dudley-group",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://www.dgft.nhs.uk",
+    "index": "/patient-information-leaflets/",
+    "link_prefixes": [
+     "/pil"
+    ],
+    "include_pdf": false,
+    "min_expected": 292
+   },
+   "listed": false
+  },
+  {
+   "id": "united-lincolnshire",
+   "name": "United Lincolnshire Teaching Hospitals NHS Trust",
+   "short_name": "United Lincolnshire Teaching Hospitals",
+   "ods_code": "RWD",
+   "status": "live",
+   "data_dir": "trusts/united-lincolnshire",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://www.ulh.nhs.uk",
+    "index": "/patients/patient-information-library/",
+    "link_prefixes": [
+     "/patients",
+     "/wp-content"
+    ],
+    "include_pdf": true,
+    "min_expected": 284
+   },
+   "listed": false
+  },
+  {
+   "id": "buckinghamshire",
+   "name": "Buckinghamshire Healthcare NHS Trust",
+   "short_name": "Buckinghamshire Healthcare",
+   "ods_code": "RXQ",
+   "status": "live",
+   "data_dir": "trusts/buckinghamshire",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://www.buckshealthcare.nhs.uk",
+    "index": "/patient-information/",
+    "link_prefixes": [
+     "/pifs"
+    ],
+    "include_pdf": false,
+    "min_expected": 203
+   },
+   "listed": false
+  },
+  {
+   "id": "george-eliot",
+   "name": "George Eliot Hospital NHS Trust",
+   "short_name": "George Eliot Hospital",
+   "ods_code": "RLT",
+   "status": "live",
+   "data_dir": "trusts/george-eliot",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://www.geh.nhs.uk",
+    "index": "/patients-and-visitors/patients/patient-leaflets",
+    "link_prefixes": [
+     "/patients-and-visitors/patients"
+    ],
+    "include_pdf": false,
+    "min_expected": 119
+   },
+   "listed": false
+  },
+  {
+   "id": "mid-yorkshire",
+   "name": "Mid Yorkshire Teaching NHS Trust",
+   "short_name": "Mid Yorkshire Teaching",
+   "ods_code": "RXF",
+   "status": "live",
+   "data_dir": "trusts/mid-yorkshire",
+   "leaflets": {
+    "kind": "single-index",
+    "base": "https://www.midyorks.nhs.uk",
+    "index": "/accident-and-emergency-patient-information-leaflets",
+    "link_prefixes": [
+     "/download"
+    ],
+    "include_pdf": true,
+    "allow_query": true,
+    "min_expected": 40
+   },
+   "listed": false
   }
  ]
 }

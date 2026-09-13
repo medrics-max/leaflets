@@ -328,6 +328,15 @@
   #checkin .ci-err { font-size: 14px; color: var(--red); margin: 6px 0 0; font-weight: 600; }
   #checkin button.primary { margin-top: 16px; }
   #checkin .ci-why { font-size: 13px; color: var(--muted); margin: 12px 0 0; line-height: 1.5; }
+  #checkin form[hidden] { display: none; }
+  #checkin label.own { display: flex; align-items: flex-start; gap: 9px; color: var(--ink); font-weight: 400; font-size: 14px; margin: 14px 0 0; line-height: 1.45; cursor: pointer; }
+  #checkin input[type=checkbox], #checkin input[type=radio] { width: auto; padding: 0; margin: 3px 0 0; accent-color: var(--plum); flex: none; }
+  #checkin .who { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--line); }
+  #checkin .who:last-child { border-bottom: none; }
+  #checkin .who label { display: flex; align-items: center; gap: 10px; margin: 0; font-size: 15px; font-weight: 600; color: var(--ink); cursor: pointer; }
+  #checkin .who label input[type=radio] { margin: 0; }
+  #checkin .who label span { font-size: 12.5px; color: var(--muted); font-weight: 400; }
+  #checkin button.link { background: none; border: none; color: var(--plum); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
 
   /* footer: status lines, optional member sign-in, attribution */
   footer { margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 12.5px; color: var(--muted); text-align: center; line-height: 1.55; }
@@ -361,17 +370,34 @@
 </header>
 <section id="checkin" hidden aria-labelledby="ci-h">
   <h1 id="ci-h">Patient information for clinicians</h1>
-  <p class="sub">This tool is for registered healthcare professionals. Check in once with your professional registration number to continue.</p>
-  <form id="ci-form" novalidate>
+  <p class="sub">This tool is for registered healthcare professionals. Register your professional registration number on this device once, with a PIN of your own, then check in with the PIN.</p>
+  <form id="ci-unlock" hidden novalidate>
+    <label id="ci-who-label">Who is checking in?</label>
+    <div id="ci-who" role="radiogroup" aria-labelledby="ci-who-label"></div>
+    <label for="ci-pin">Your PIN</label>
+    <input id="ci-pin" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="6" autocomplete="off" aria-describedby="ci-pin-hint">
+    <p class="ci-hint" id="ci-pin-hint">The 4 to 6 digit PIN you chose when you registered on this device.</p>
+    <label class="own"><input id="ci-keep" type="checkbox"> This is my own device — keep me checked in for 30 days. Leave unticked on a shared computer.</label>
+    <p class="ci-err" id="ci-uerr" role="alert" hidden></p>
+    <button id="ci-in" type="submit" class="primary">Check in</button>
+    <p class="ci-why"><button type="button" class="link" id="ci-to-reg">Register another registration number on this device</button></p>
+  </form>
+  <form id="ci-form" hidden novalidate>
     <label for="ci-body">Your regulator</label>
     <select id="ci-body"></select>
     <label for="ci-num">Registration number</label>
     <input id="ci-num" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false" inputmode="text" aria-describedby="ci-hint">
     <p class="ci-hint" id="ci-hint"></p>
+    <label for="ci-pin1">Choose a PIN (4 to 6 digits)</label>
+    <input id="ci-pin1" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="6" autocomplete="new-password">
+    <label for="ci-pin2">Type your PIN again</label>
+    <input id="ci-pin2" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="6" autocomplete="new-password">
+    <label class="own"><input id="ci-keep-r" type="checkbox"> This is my own device — keep me checked in for 30 days. Leave unticked on a shared computer.</label>
     <p class="ci-err" id="ci-err" role="alert" hidden></p>
-    <button id="ci-go" type="submit" class="primary">Check in</button>
+    <button id="ci-go" type="submit" class="primary">Register and check in</button>
+    <p class="ci-why" id="ci-to-unlock-wrap" hidden><button type="button" class="link" id="ci-to-unlock">Already registered on this device? Check in with your PIN</button></p>
   </form>
-  <p class="ci-why">Your number is checked for format on this device only. It is not stored, not sent anywhere, and not looked up on the register — entering it is your professional declaration.</p>
+  <p class="ci-why">Your number is checked for format on this device only. It is not stored, not sent anywhere, and not looked up on the register — entering it is your professional declaration. This device keeps only your regulator, the last three characters of your number (so people sharing a computer can tell their registrations apart) and a scrambled form of your PIN, which nobody can read back.</p>
   <p class="ci-why">Medrics member? After checking in you can sign in from the foot of the page to keep your saved sets on every device. Optional — the tool is free either way.</p>
 </section>
 <div class="head">
@@ -1915,16 +1941,25 @@ $("clear").onclick = () => { selected.clear(); drvPicks.clear(); fuPick = null; 
 // ---- Clinician check-in (on-device only) -----------------------------------
 // Oscar 2026-09-05: "a check-in type service … like Medics Money … one
 // registration number per person … we don't need to take record of that".
-// The picker asks once for a UK professional registration number and checks
-// its FORMAT here in the browser. Nothing is transmitted (telemetry carries
-// no check-in event) and the number itself is never written anywhere — only
-// the regulator id and the date land in localStorage so the same device is
-// not asked again. This is a professional declaration and a speed bump for
-// scrapers, not identity verification: no regulator offers a public lookup
-// API, so we do not claim to have checked the register. The PATIENT page
-// (index.html) is never gated — spec N3/N4.
-const CHECKIN_KEY = "medrics_checkin";
-const CHECKIN_DAYS = 365;
+// 2026-09-12: each registration number is REGISTERED on the clinician's own
+// device with a PIN of their own — several people can register on one shared
+// NHS computer and each checks in with their PIN. The number is format-
+// checked here in the browser and then discarded: this device keeps only the
+// regulator, the last three characters (so registrations can be told apart on
+// a shared computer) and a salted PBKDF2 hash of the PIN. Nothing is
+// transmitted (telemetry carries no check-in event). A check-in lasts the
+// browser tab, or 30 days when the clinician says the device is their own.
+// This is a professional declaration and a speed bump for scrapers, not
+// identity verification: no regulator offers a public lookup API, so we do
+// not claim to have checked the register. The PATIENT page (index.html) is
+// never gated — spec N3/N4.
+const CHECKIN_KEY = "medrics_checkin_v2";        // localStorage: { profiles: [...] }
+const CHECKIN_LEGACY_KEY = "medrics_checkin";    // the pre-PIN record (regulator + date): retired
+const CHECKIN_OPEN_KEY = "medrics_checkin_open"; // sessionStorage: profile checked in on this tab
+const CHECKIN_KEEP_DAYS = 30;
+const CHECKIN_MAX_PROFILES = 20;
+const CHECKIN_KDF_ROUNDS = 100000;
+const CHECKIN_PIN_RE = /^\d{4,6}$/;
 const REGULATORS = [
   { id: "gmc",  name: "GMC — doctors, physician associates, anaesthesia associates",
     hint: "7 digits, e.g. 1234567", re: /^\d{7}$/ },
@@ -1939,15 +1974,107 @@ const REGULATORS = [
     hint: "5 or 6 digits, e.g. 123456", re: /^\d{5,6}$/ },
 ];
 
+// -- the device's register of profiles -----------------------------------------
+function checkinProfiles() {
+  const s = lsGet(CHECKIN_KEY, null);
+  const list = (s && Array.isArray(s.profiles)) ? s.profiles : [];
+  return list.filter(p => p && typeof p.id === "string" && REGULATORS.some(r => r.id === p.body)
+    && typeof p.salt === "string" && typeof p.hash === "string");
+}
+function saveCheckinProfiles(list) { lsSet(CHECKIN_KEY, { profiles: list }); }
+function ssGet(k) { try { return sessionStorage.getItem(k); } catch (e) { return null; } }
+function ssSet(k, v) { try { if (v == null) sessionStorage.removeItem(k); else sessionStorage.setItem(k, v); } catch (e) {} }
+function checkinLabel(p) { return `${p.body.toUpperCase()} ····${p.tail || "???"}`; }
+function checkinDate(iso) {
+  const d = new Date(iso);
+  return isNaN(d) ? "" : d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+}
+function futureIso(days) { return new Date(Date.now() + days * 86400000).toISOString(); }
+function byRecentUse(a, b) { return (Date.parse(b.used) || 0) - (Date.parse(a.used) || 0); }
+
 function checkinRecord() {
-  const rec = lsGet(CHECKIN_KEY, null);
-  if (!rec || !rec.body || !rec.at) return null;
-  if (!REGULATORS.some(r => r.id === rec.body)) return null;
-  const age = (Date.now() - Date.parse(rec.at)) / 86400000;
-  if (!(age >= 0 && age < CHECKIN_DAYS)) return null;
-  return rec;
+  // the profile checked in on this tab, else one kept on this device (own device, 30 days)
+  const profiles = checkinProfiles();
+  const open = ssGet(CHECKIN_OPEN_KEY);
+  const byTab = profiles.find(p => p.id === open);
+  if (byTab) return byTab;
+  const now = Date.now();
+  const kept = profiles.filter(p => p.keep_until && Date.parse(p.keep_until) > now).sort(byRecentUse);
+  return kept[0] || null;
 }
 
+// -- PIN scrambling: PBKDF2-SHA256 via WebCrypto; iterated SHA-256 in plain JS
+//    only where WebCrypto is absent (plain-http dev). Never the PIN itself. ----
+function hexBytes(bytes) { return Array.from(bytes, b => b.toString(16).padStart(2, "0")).join(""); }
+function randomHex(n) {
+  const b = new Uint8Array(n);
+  if (window.crypto && crypto.getRandomValues) crypto.getRandomValues(b);
+  else for (let i = 0; i < n; i++) b[i] = Math.floor(Math.random() * 256);
+  return hexBytes(b);
+}
+function pinScheme() { return (window.crypto && crypto.subtle && crypto.subtle.deriveBits) ? "pbkdf2" : "sha256i"; }
+async function pinDigest(scheme, pin, salt) {
+  const enc = new TextEncoder();
+  if (scheme === "pbkdf2") {
+    const key = await crypto.subtle.importKey("raw", enc.encode(pin), "PBKDF2", false, ["deriveBits"]);
+    const bits = await crypto.subtle.deriveBits(
+      { name: "PBKDF2", hash: "SHA-256", salt: enc.encode(salt), iterations: CHECKIN_KDF_ROUNDS }, key, 256);
+    return "pbkdf2$" + hexBytes(new Uint8Array(bits));
+  }
+  let h = sha256Hex(salt + ":" + pin);
+  for (let i = 1; i < 20000; i++) h = sha256Hex(h + salt);
+  return "sha256i$" + h;
+}
+async function pinMatches(p, pin) {
+  const scheme = p.hash.startsWith("pbkdf2$") ? "pbkdf2" : "sha256i";
+  if (scheme === "pbkdf2" && pinScheme() !== "pbkdf2") throw new Error("insecure-context");
+  return (await pinDigest(scheme, pin, p.salt)) === p.hash;
+}
+function sha256Hex(str) {
+  // compact SHA-256 (FIPS 180-4), used only when WebCrypto is unavailable
+  const K = [0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,
+    0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,
+    0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,
+    0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,
+    0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,
+    0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,
+    0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,
+    0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];
+  const bytes = new TextEncoder().encode(str);
+  const l = bytes.length;
+  const padLen = ((l + 9 + 63) >> 6) << 6;
+  const m = new Uint8Array(padLen);
+  m.set(bytes); m[l] = 0x80;
+  const bitLen = l * 8;
+  m[padLen - 4] = (bitLen >>> 24) & 255; m[padLen - 3] = (bitLen >>> 16) & 255;
+  m[padLen - 2] = (bitLen >>> 8) & 255; m[padLen - 1] = bitLen & 255;
+  let H = [0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19];
+  const W = new Uint32Array(64);
+  const rotr = (x, n) => (x >>> n) | (x << (32 - n));
+  for (let off = 0; off < padLen; off += 64) {
+    for (let i = 0; i < 16; i++) W[i] = (m[off + 4 * i] << 24) | (m[off + 4 * i + 1] << 16) | (m[off + 4 * i + 2] << 8) | m[off + 4 * i + 3];
+    for (let i = 16; i < 64; i++) {
+      const s0 = rotr(W[i - 15], 7) ^ rotr(W[i - 15], 18) ^ (W[i - 15] >>> 3);
+      const s1 = rotr(W[i - 2], 17) ^ rotr(W[i - 2], 19) ^ (W[i - 2] >>> 10);
+      W[i] = (W[i - 16] + s0 + W[i - 7] + s1) >>> 0;
+    }
+    let [a, b, c, d, e, f, g, h] = H;
+    for (let i = 0; i < 64; i++) {
+      const S1 = rotr(e, 6) ^ rotr(e, 11) ^ rotr(e, 25);
+      const ch = (e & f) ^ (~e & g);
+      const t1 = (h + S1 + ch + K[i] + W[i]) >>> 0;
+      const S0 = rotr(a, 2) ^ rotr(a, 13) ^ rotr(a, 22);
+      const mj = (a & b) ^ (a & c) ^ (b & c);
+      const t2 = (S0 + mj) >>> 0;
+      h = g; g = f; f = e; e = (d + t1) >>> 0; d = c; c = b; b = a; a = (t1 + t2) >>> 0;
+    }
+    H = [(H[0] + a) >>> 0, (H[1] + b) >>> 0, (H[2] + c) >>> 0, (H[3] + d) >>> 0,
+         (H[4] + e) >>> 0, (H[5] + f) >>> 0, (H[6] + g) >>> 0, (H[7] + h) >>> 0];
+  }
+  return H.map(x => x.toString(16).padStart(8, "0")).join("");
+}
+
+// -- checks --------------------------------------------------------------------
 function normaliseRegNumber(raw) {
   // people type "GMC 1234567", "12a 3456e", "PA-12345" — strip prefix noise
   let v = String(raw || "").toUpperCase().replace(/[\s\-.]/g, "");
@@ -1966,44 +2093,120 @@ function validateRegNumber(bodyId, raw) {
   return "";
 }
 
+function validatePin(pin) {
+  if (!CHECKIN_PIN_RE.test(pin)) return "Choose a PIN of 4 to 6 digits.";
+  const digits = [...pin].map(Number);
+  const same = digits.every(d => d === digits[0]);
+  const up = digits.every((d, i) => i === 0 || (d - digits[i - 1] + 10) % 10 === 1);
+  const down = digits.every((d, i) => i === 0 || (digits[i - 1] - d + 10) % 10 === 1);
+  if (same || up || down) return "That PIN is too easy to guess — pick another.";
+  return "";
+}
+
+// -- register / check in / check out / forget ---------------------------------
+async function registerCheckin(bodyId, rawNum, pin1, pin2, keep) {
+  const err = validateRegNumber(bodyId, rawNum) || validatePin(pin1)
+    || (pin1 !== pin2 ? "The two PINs don't match — type the same PIN twice." : "");
+  if (err) return err;
+  const v = normaliseRegNumber(rawNum);
+  const now = new Date().toISOString();
+  const salt = randomHex(16);
+  const p = { id: randomHex(8), body: bodyId, tail: v.slice(-3), salt,
+    hash: await pinDigest(pinScheme(), pin1, salt), at: now, used: now,
+    keep_until: keep ? futureIso(CHECKIN_KEEP_DAYS) : null, fails: 0, lock_until: null };
+  // the number itself stops here: only body + tail + scrambled PIN are kept
+  const list = checkinProfiles().sort(byRecentUse).slice(0, CHECKIN_MAX_PROFILES - 1);
+  list.unshift(p);
+  saveCheckinProfiles(list);
+  ssSet(CHECKIN_OPEN_KEY, p.id);
+  return "";
+}
+
+async function unlockCheckin(id, pin, keep) {
+  const list = checkinProfiles();
+  const p = list.find(x => x.id === id);
+  if (!p) return "Choose who is checking in.";
+  const wait = p.lock_until ? Math.ceil((Date.parse(p.lock_until) - Date.now()) / 1000) : 0;
+  if (wait > 0) return `Too many wrong PINs — try again in ${wait} second${wait === 1 ? "" : "s"}.`;
+  if (!CHECKIN_PIN_RE.test(pin)) return "Enter your PIN — 4 to 6 digits.";
+  let ok = false;
+  try { ok = await pinMatches(p, pin); }
+  catch (e) { return "Checking a PIN needs a secure (https) connection to this page."; }
+  if (!ok) {
+    p.fails = (p.fails || 0) + 1;
+    if (p.fails >= 5) p.lock_until = new Date(Date.now() + Math.min(900, 30 * 2 ** (p.fails - 5)) * 1000).toISOString();
+    saveCheckinProfiles(list);
+    return p.fails >= 5 ? "Too many wrong PINs — wait a moment, then try again." : "Wrong PIN — try again.";
+  }
+  p.fails = 0; p.lock_until = null; p.used = new Date().toISOString();
+  p.keep_until = keep ? futureIso(CHECKIN_KEEP_DAYS) : null;
+  saveCheckinProfiles(list);
+  ssSet(CHECKIN_OPEN_KEY, p.id);
+  return "";
+}
+
+function checkOut() {
+  const list = checkinProfiles();
+  const open = ssGet(CHECKIN_OPEN_KEY);
+  const now = Date.now();
+  // end this tab's check-in and any "own device" hold, so the next person is asked
+  list.forEach(p => { if (p.id === open || (p.keep_until && Date.parse(p.keep_until) > now)) p.keep_until = null; });
+  saveCheckinProfiles(list);
+  ssSet(CHECKIN_OPEN_KEY, null);
+  showCheckin("unlock");
+}
+
+function forgetCheckin(id) {
+  saveCheckinProfiles(checkinProfiles().filter(p => p.id !== id));
+  if (ssGet(CHECKIN_OPEN_KEY) === id) ssSet(CHECKIN_OPEN_KEY, null);
+}
+
+// -- the card ------------------------------------------------------------------
+let checkinBusy = false;
+
 function renderCheckinStatus() {
   const el = $("ci-status");
   if (!el) return;
   const rec = checkinRecord();
   if (!rec) { el.innerHTML = ""; return; }
-  el.innerHTML = `Checked in as ${esc(rec.body.toUpperCase())}-registered on this device · <button type="button" id="ci-reset">Not you? Check in again</button>`;
-  $("ci-reset").onclick = () => {
-    try { localStorage.removeItem(CHECKIN_KEY); } catch (e) {}
-    showCheckin();
-  };
+  el.innerHTML = `Checked in as ${esc(checkinLabel(rec))} on this device · <button type="button" id="ci-out">Check out</button>`;
+  $("ci-out").onclick = checkOut;
 }
 
-function showCheckin() {
-  document.body.classList.add("gated");
-  const box = $("checkin");
-  box.hidden = false;
-  renderCheckinStatus();
-  const sel = $("ci-body");
-  if (!sel.options.length) {
-    sel.innerHTML = '<option value="">Choose…</option>' +
-      REGULATORS.map(r => `<option value="${r.id}">${esc(r.name)}</option>`).join("");
-    const hint = () => { const r = REGULATORS.find(x => x.id === sel.value); $("ci-hint").textContent = r ? r.hint : "Choose your regulator to see the format."; };
-    sel.onchange = () => { hint(); $("ci-err").hidden = true; $("ci-num").focus(); };
-    hint();
-    const go = () => {
-      const err = validateRegNumber(sel.value, $("ci-num").value);
-      const e = $("ci-err");
-      if (err) { e.textContent = err; e.hidden = false; $("ci-num").focus(); return; }
-      e.hidden = true;
-      // regulator + date only — the number is deliberately not kept
-      lsSet(CHECKIN_KEY, { body: sel.value, at: new Date().toISOString() });
-      $("ci-num").value = "";
-      hideCheckin();
+function renderCheckinWho() {
+  const list = checkinProfiles().sort(byRecentUse);
+  const box = $("ci-who");
+  box.innerHTML = list.map((p, i) =>
+    `<div class="who"><label><input type="radio" name="ci-who" value="${esc(p.id)}"${i === 0 ? " checked" : ""}> ` +
+    `${esc(checkinLabel(p))} <span>registered ${esc(checkinDate(p.at))}</span></label>` +
+    `<button type="button" class="link" data-forget="${esc(p.id)}" aria-label="Forget ${esc(checkinLabel(p))} on this device">Forget</button></div>`).join("");
+  box.querySelectorAll("[data-forget]").forEach(b => {
+    b.onclick = () => {
+      const p = list.find(x => x.id === b.dataset.forget);
+      if (!p || !confirm(`Forget ${checkinLabel(p)} on this device? You can register again any time.`)) return;
+      forgetCheckin(p.id);
+      showCheckin();
     };
-    // a real <form> so Enter submits natively on every keyboard, incl. iOS "Go"
-    $("ci-form").onsubmit = ev => { ev.preventDefault(); go(); };
-    $("ci-num").addEventListener("input", () => { $("ci-err").hidden = true; });
+  });
+}
+
+function showCheckin(mode) {
+  document.body.classList.add("gated");
+  $("checkin").hidden = false;
+  renderCheckinStatus();
+  const profiles = checkinProfiles();
+  if (!mode) mode = profiles.length ? "unlock" : "register";
+  $("ci-unlock").hidden = mode !== "unlock";
+  $("ci-form").hidden = mode !== "register";
+  $("ci-to-unlock-wrap").hidden = !profiles.length;
+  $("ci-uerr").hidden = true; $("ci-err").hidden = true;
+  if (mode === "unlock") {
+    renderCheckinWho();
+    $("ci-pin").value = "";
+    $("ci-pin").focus();
+    return;
   }
+  const sel = $("ci-body");
   (sel.value ? $("ci-num") : sel).focus();
 }
 
@@ -2015,7 +2218,54 @@ function hideCheckin() {
   if (s) s.focus();
 }
 
+async function submitRegister() {
+  if (checkinBusy) return;
+  const e = $("ci-err"), btn = $("ci-go");
+  checkinBusy = true; btn.disabled = true;
+  try {
+    const numErr = validateRegNumber($("ci-body").value, $("ci-num").value);
+    const err = numErr || await registerCheckin($("ci-body").value, $("ci-num").value,
+      $("ci-pin1").value, $("ci-pin2").value, $("ci-keep-r").checked);
+    if (err) { e.textContent = err; e.hidden = false; (numErr ? $("ci-num") : $("ci-pin1")).focus(); return; }
+    e.hidden = true;
+    $("ci-num").value = ""; $("ci-pin1").value = ""; $("ci-pin2").value = "";   // the number is deliberately not kept
+    hideCheckin();
+  } catch (ex) {
+    e.textContent = "Something went wrong registering on this device — try again."; e.hidden = false;
+  } finally { checkinBusy = false; btn.disabled = false; }
+}
+
+async function submitUnlock() {
+  if (checkinBusy) return;
+  const e = $("ci-uerr"), btn = $("ci-in");
+  const who = document.querySelector('input[name="ci-who"]:checked');
+  checkinBusy = true; btn.disabled = true;
+  try {
+    const err = await unlockCheckin(who ? who.value : "", $("ci-pin").value, $("ci-keep").checked);
+    $("ci-pin").value = "";
+    if (err) { e.textContent = err; e.hidden = false; $("ci-pin").focus(); return; }
+    e.hidden = true;
+    hideCheckin();
+  } catch (ex) {
+    e.textContent = "Something went wrong checking your PIN — try again."; e.hidden = false;
+  } finally { checkinBusy = false; btn.disabled = false; }
+}
+
 function initCheckin() {
+  try { localStorage.removeItem(CHECKIN_LEGACY_KEY); } catch (e) {}   // pre-PIN record: retired
+  const sel = $("ci-body");
+  sel.innerHTML = '<option value="">Choose…</option>' +
+    REGULATORS.map(r => `<option value="${r.id}">${esc(r.name)}</option>`).join("");
+  const hint = () => { const r = REGULATORS.find(x => x.id === sel.value); $("ci-hint").textContent = r ? r.hint : "Choose your regulator to see the format."; };
+  sel.onchange = () => { hint(); $("ci-err").hidden = true; $("ci-num").focus(); };
+  hint();
+  ["ci-num", "ci-pin1", "ci-pin2"].forEach(id => $(id).addEventListener("input", () => { $("ci-err").hidden = true; }));
+  $("ci-pin").addEventListener("input", () => { $("ci-uerr").hidden = true; });
+  // real <form>s so Enter submits natively on every keyboard, incl. iOS "Go"
+  $("ci-form").onsubmit = ev => { ev.preventDefault(); submitRegister(); };
+  $("ci-unlock").onsubmit = ev => { ev.preventDefault(); submitUnlock(); };
+  $("ci-to-reg").onclick = () => showCheckin("register");
+  $("ci-to-unlock").onclick = () => showCheckin("unlock");
   if (checkinRecord()) hideCheckin(); else showCheckin();
 }
 // -----------------------------------------------------------------------------

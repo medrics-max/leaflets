@@ -19,6 +19,10 @@ guidance_sources.json
 guidance_watch_state.json
 guidance_watch_history.jsonl
 guidance_facts.json
+# The reviewed condition -> official-rule mapping (guidance_mapping.py,
+# owner decision 2026-09-12). Business layer like the register it points
+# at: roles and rule ids, nothing a browser fetches.
+guidance_mapping.json
 estate_accessibility.json
 estate_accessibility_state.json
 estate_accessibility_history.jsonl
@@ -64,6 +68,7 @@ referrals.DRAFT.json
 grh_gap_pages.DRAFT.json
 GRH_DOSSIER.md
 gap_report.json
+promotion_report.json
 link_check_state.json
 link_report.json
 review_report.json
