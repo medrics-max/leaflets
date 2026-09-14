@@ -215,5 +215,217 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Aflibercept for Age-Related Macular Degeneration (ARMD)"
+ },
+ "aflibercept-treatment-for-pathological-myopia-pm": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "1edca6fe4e3746da",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Aflibercept Treatment for Pathological Myopia (PM)"
+ },
+ "after-your-waters-break": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "855c2e9c482ed639",
+  "hash_version": 2,
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "After your waters break"
+ },
+ "all-day-measurements-of-eye-pressure-phasing": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "336a3bd596c62feb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "All day measurements of eye pressure (phasing)"
+ },
+ "amitriptyline": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "d74c85811e2bcbae",
+  "hash_version": 2,
+  "review_due": "2025-09",
+  "review_due_text": "September 2025",
+  "status": "ok",
+  "title": "Amitriptyline"
+ },
+ "angioplasty-and-stent-insertion": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "3187f269870b23f4",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2026-07",
+   "2029-05"
+  ],
+  "status": "ambiguous-date",
+  "title": "Angioplasty and Stent Insertion"
+ },
+ "antegrade-ureteric-stent-insertion": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "ef577e9d772ec00c",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2026-07",
+   "2029-05"
+  ],
+  "status": "ambiguous-date",
+  "title": "Antegrade Ureteric Stent Insertion"
+ },
+ "antenatal-corticosteroids-making-an-informed-choice": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "5f22d52c30293e11",
+  "hash_version": 2,
+  "review_due": "2028-03",
+  "review_due_text": "March 2028",
+  "status": "ok",
+  "title": "Antenatal Corticosteroids: Making an Informed Choice"
+ },
+ "anticipatory-medicines": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "cd26019c6d012ef3",
+  "hash_version": 2,
+  "review_due": "2027-12",
+  "review_due_text": "December 2027",
+  "status": "ok",
+  "title": "Anticipatory medicines"
+ },
+ "aphasia-difficulty-using-language": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "7b522d85c86c8169",
+  "hash_version": 2,
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Aphasia (difficulty using language)"
+ },
+ "argon-laser-pan-retinal-photocoagulation-prp-treatment": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "e9e31faaef2f0a48",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Argon laser pan-retinal photocoagulation (PRP) treatment"
+ },
+ "argon-laser-retinopexy-photocoagulation-for-retinal-tear-break": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "0f46132e0b49d4e9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Argon laser retinopexy (photocoagulation) for retinal tear / break"
+ },
+ "argon-macular-laser-treatment": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "0e9d552aeceba207",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Argon macular laser treatment"
+ },
+ "asthma-attacks": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "258f920292592d16",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Asthma Attacks"
+ },
+ "athletes-foot-and-fungal-nails": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "21ce800fffc21004",
+  "hash_version": 2,
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Athlete's foot and fungal nails"
+ },
+ "atropine-1-drop-treatment-for-lazy-eyes": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "99acec98158d4e4a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Atropine 1% drop treatment for lazy eyes"
+ },
+ "auditory-processing-disorder-information-for-parents": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "8c809c7a0676c9db",
+  "hash_version": 2,
+  "review_due": "2027-08",
+  "review_due_date": "2027-08-01",
+  "review_due_text": "August 2027",
+  "status": "ok",
+  "title": "Auditory Processing Disorder Information for Parents"
+ },
+ "azithromycin-low-dose-prophylactic-for-chronic-respiratory-infections": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "9582fbfb95d09242",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2024-07",
+   "2027-04"
+  ],
+  "status": "ambiguous-date",
+  "title": "Azithromycin - Low dose prophylactic for chronic Respiratory Infections"
+ },
+ "basal-cell-carcinoma-of-the-eyelid-around-the-eye": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "8a4fecf0285918d0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Basal cell carcinoma – of the eyelid / around the eye"
+ },
+ "birth-after-caesarean-section": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "a09c9c3eef727284",
+  "hash_version": 2,
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Birth after Caesarean Section"
+ },
+ "bleeding-in-early-pregnancy": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "9856f3240ae337e9",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Bleeding in early pregnancy"
+ },
+ "botox-for-chronic-migraine": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "062d11f4ffeacf14",
+  "hash_version": 2,
+  "review_due": "2027-10",
+  "review_due_text": "October 2027",
+  "status": "ok",
+  "title": "Botox for chronic migraine"
+ },
+ "bowel-obstruction": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "ac979b2da268e6b7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel Obstruction"
+ },
+ "bowel-preparation-prior-to-gynaecology-surgery": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "50af288362eea51e",
+  "hash_version": 2,
+  "review_due": "2027-10",
+  "review_due_text": "October 2027",
+  "status": "ok",
+  "title": "Bowel preparation prior to gynaecology surgery"
+ },
+ "eylea-treatment-for-diabetic-macular-oedema-dmo": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "19a2c0e15a875e6b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Aflibercept Treatment for Diabetic Macular Oedema (DMO)"
+ },
+ "eylea-treatment-for-retinal-vein-occlusion-rvo-2": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "c79ae474bdd16a83",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Aflibercept Treatment for Retinal Vein Occlusion (RVO)"
  }
 }
