@@ -928,8 +928,9 @@
   "title": "Children’s Safeguarding Procedure in the Emergency Department"
  },
  "childrens-safeguarding-procedures-ghpi1177_06_19": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "1a5991f88fd2a21d",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "736357cbf85fb06a",
+  "hash_version": 2,
   "ref": "GHPI1177_06_25",
   "review_due": "2028-06",
   "review_due_text": "June 2028",
@@ -937,8 +938,9 @@
   "title": "Children’s Safeguarding Procedures"
  },
  "clostridioides-difficile-infection": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "fc4ca824678efbb3",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "418bd564e486ee1e",
+  "hash_version": 2,
   "ref": "GHPI1073_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -946,8 +948,9 @@
   "title": "Clostridioides difficile Infection"
  },
  "cochlear-implants": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "b35200398ac6bb50",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "2c01483de048390d",
+  "hash_version": 2,
   "ref": "GHPI1828_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -955,8 +958,9 @@
   "title": "Cochlear implants"
  },
  "coeliac-plexus-block-injection": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "b8a9cf6c78f6860e",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "b022e5bc2ef064d6",
+  "hash_version": 2,
   "ref": "GHPI0445_06_26",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
@@ -964,8 +968,9 @@
   "title": "Coeliac plexus block injection"
  },
  "collection-of-mid-stream-sample-of-urine-mssu-for-adults": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "5b16fd2277d62e76",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "775c123e2c909962",
+  "hash_version": 2,
   "ref": "GHPI1185_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -973,8 +978,9 @@
   "title": "Collection of Mid-Stream Sample of Urine (MSSU) for adults"
  },
  "collection-urine-sample-cytology": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "54c2254f906fcd12",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "6ae89013942764ec",
+  "hash_version": 2,
   "ref": "GHPI0386_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -982,8 +988,9 @@
   "title": "Collection of a urine sample for cytology"
  },
  "colon-cancer": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "603ba011cc45c45d",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "2fc2992248686ab5",
+  "hash_version": 2,
   "ref": "GHPI0583_08_25",
   "review_due": "2028-08",
   "review_due_text": "August 2028",
@@ -991,8 +998,9 @@
   "title": "Colon cancer"
  },
  "colorectal-self-administration-of-a-phosphate-enema": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "0aa99825a3e64c87",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "23a04ae360cb88a8",
+  "hash_version": 2,
   "ref": "GHPI1941_01_26",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
@@ -1000,8 +1008,9 @@
   "title": "Colorectal: Self-administration of a phosphate enema"
  },
  "colposuspension-ghpi0086_04_19": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "2cb788a90778c12f",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "11afa40e24d0a878",
+  "hash_version": 2,
   "ref": "GHPI0086_12_24",
   "review_due": "2027-12",
   "review_due_text": "December 2027",
@@ -1009,8 +1018,9 @@
   "title": "Colposuspension"
  },
  "coming-in-for-an-endoscopy-easy-read": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "d9063d97ac169ed6",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "651d0ccfeb341de2",
+  "hash_version": 2,
   "review_due": "2029-01",
   "review_due_text": "January 2029",
   "status": "ok",
@@ -1036,8 +1046,9 @@
   "title": "Conscious sedation for outpatient oral and maxillofacial surgery"
  },
  "contact-lens-clinic": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "a4a76ef28268c498",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "a5c8ef148eadca13",
+  "hash_version": 2,
   "ref": "GHPI1231_11_23",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -1045,8 +1056,9 @@
   "title": "Contact Lens Clinic"
  },
  "continuous-subcutaneous-insulin-infusion-csii-pump-therapy": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "39f22251199fe894",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "4fae09d7e604eaa9",
+  "hash_version": 2,
   "ref": "GHPI1267_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -1054,8 +1066,9 @@
   "title": "Continuous Subcutaneous Insulin Infusion (CSII) pump therapy"
  },
  "contraceptive-advice-for-patients-following-the-administration-of-sugammadex": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "f304567176ed1e11",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "051c9cf4dc58c39c",
+  "hash_version": 2,
   "ref": "GHPI1666_04_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -1063,8 +1076,9 @@
   "title": "Contraceptive advice for patients following the administration of Sugammadex"
  },
  "contrast-echocardiogram-echo": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "899d1be34d8d2317",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "ce61f43f8113b8c1",
+  "hash_version": 2,
   "ref": "GHPI1503_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",
@@ -1072,8 +1086,9 @@
   "title": "Contrast echocardiogram (echo)"
  },
  "contrast-enhanced-mammography": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "ce180533a73414fd",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "4a5e3e14f5099c22",
+  "hash_version": 2,
   "ref": "GHPI1827_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -1090,8 +1105,9 @@
   "title": "Convergence exercises"
  },
  "coping-with-dying": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "9961d2bc4f6be040",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "87ff2f2f83ba9c77",
+  "hash_version": 2,
   "ref": "GHPI1918_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",

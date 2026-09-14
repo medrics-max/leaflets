@@ -735,68 +735,79 @@
   "title": "Cauda Equina Syndrome"
  },
  "cervical-polypectomy": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "4982a28c9509eb86",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "d4552aaec9cbf30d",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Cervical Polypectomy"
  },
  "chaperones-and-children": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "f426d7c8a50a28f5",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "663a96a73fe29b8c",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Chaperones and children"
  },
  "chest-clearance-adults": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "c22a442180d06356",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "7507459bcfaedacd",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Chest clearance- adults"
  },
  "chest-clearance-games-for-children": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "2b9524e6518a5363",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "b6aa2bddcd7adf38",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Chest Clearance Games for Children"
  },
  "chest-clearance-paediatrics": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "b3dccbb470f90c3f",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "a0116dc96c59c2cc",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Chest clearance- paediatrics"
  },
  "chest-injury-waht-pi-2229": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "40d40bc4c4d7bcf2",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "c3cff711eea28504",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Chest Injury"
  },
  "chest-pain": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "e41ad0b26ded30cc",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "4bdb925cf90dac49",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Chest Pain"
  },
  "chest-wall-perforator-flap-partial-reconstruction": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "b73a4ebf408c1865",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "f4207d55aec59d07",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Chest Wall Perforator Flap (Partial Reconstruction)"
  },
  "children-and-young-people-admission-to-kidderminster-treatment-centre": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "1b49d3e7d4405c67",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "b786707f1b0d4368",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Children and Young People Admission to Kidderminster Treatment Centre for Day Surgery"
  },
  "childrens-clavicle-fracture": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "13a641544567ccab",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "26bf36ea2b75c93e",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Children’s Clavicle Fracture"
  },
  "chloramphenicol-eye-ointment": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "42e99eebabd9539b",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "872096ceace12ce3",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Chloramphenicol Eye Ointment"
  },
@@ -807,32 +818,37 @@
   "title": "Cholesteatoma and combined approach Tympanoplasty"
  },
  "chronic-pain-what-is-it": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "437dfa694cc96afb",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "ef311823770b9517",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Chronic pain/ Persistent Pain: What is it?"
  },
  "circumcision-child": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "2e04da8a0915a0a0",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "803dbc791e418635",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Circumcision (child)"
  },
  "claiming-travel-costs-when-visiting-your-baby": {
-  "checked": "2026-08-13T02:31:24+01:00",
-  "content_hash": "146496be0a9eb174",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "14709061b3a0915a",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Claiming travel costs whilst your baby is in hospital"
  },
  "clexane": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "48454add3e22ad17",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "a4c7ceaa2303eb24",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Clexane"
  },
  "clostridiodes-difficile-c-diff-in-hospital": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "9ba8c6273f951e9d",
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "d10c46a7d6cc4b81",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Clostridiodes Difficile (C diff) In Hospital"
  },

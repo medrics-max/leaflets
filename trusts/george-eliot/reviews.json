@@ -179,6 +179,198 @@
   "status": "no-date",
   "title": "Cardiopulmonary Exercise Testing (CPET)"
  },
+ "carer-information": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "5cc4979779948cd1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Carer information"
+ },
+ "caring-your-wound-after-having-caesarean-section": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "47507a6352be6d1e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Caring for your wound after having a Caesarean Section"
+ },
+ "chest-clinic-tests-and-procedures-you-may-require": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "21da27eba3424808",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Chest Clinic, Tests and procedures you may require"
+ },
+ "child-protection-medical": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "eed3d47e184a51c1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Child Protection Medical"
+ },
+ "chronic-obstructive-pulmonary-disease-copd": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "e03d8539cfe26848",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Chronic Obstructive Pulmonary Disease (COPD)"
+ },
+ "clostridioides-difficile": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "40e7bbb8920ee98e",
+  "hash_version": 2,
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Clostridioides-difficile (C. diff)"
+ },
+ "colomycin-challenge-test-colistimethate-sodium": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "9096bcfb387d39bf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Colomycin challenge test (Colistimethate Sodium)"
+ },
+ "constipation-parentcarer-discharge-information": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "358c9435086b0348",
+  "hash_version": 2,
+  "review_due": "2026-08",
+  "review_due_text": "August 2026",
+  "status": "ok",
+  "title": "Constipation: Parent/Carer discharge information"
+ },
+ "continuous-positive-airway-pressure-cpap-patient-handbook": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "217ff0482c7b7dfb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Continuous Positive Airway Pressure (CPAP) Patient Handbook."
+ },
+ "contrast-echocardiogram": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "2dd6bf38f93afc9c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Contrast Echocardiogram"
+ },
+ "copd-self-management-plan": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "abf29e6b674abd9f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "COPD Self-Management Plan"
+ },
+ "croup-parentcarer-discharge-information": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "30a65f5cf1d08538",
+  "hash_version": 2,
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Croup: Parent/Carer discharge information"
+ },
+ "day-procedures-unit": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "df98b54253cbedc7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Day Procedures Unit"
+ },
+ "difficulty-passing-urine-after-surgery": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "eb7afaece5c87549",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Difficulty Passing Urine After Surgery"
+ },
+ "driving-and-pain-information-patients": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "568a1ebc4b720629",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Driving and Pain: Information for patients"
+ },
+ "duloxetine-treatment-pain": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "23e1f12ad20b599f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Duloxetine for the Treatment of Pain"
+ },
+ "echocardiogram": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "d4241a0884b9933e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Echocardiogram"
+ },
+ "eclipse-mini-heart-monitor": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "71cb4198ded124b4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eclipse Mini Heart Monitor Patient Instructions & Symptom Diary"
+ },
+ "eclipse-mini-heart-monitor-1": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "f8f5aa8e1463fd14",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eclipse Mini Heart Monitor"
+ },
+ "elbow-stiffness": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "945216e6c5c3637c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Elbow stiffness"
+ },
+ "epidural-steroid-injection-treatment-pain": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "f8011f0f923d0ead",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Epidural steroid injection for the Treatment of Pain"
+ },
+ "epistaxis-nose-bleeds-parentcarer-discharge-information": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "618c710c26bab1bd",
+  "hash_version": 2,
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Epistaxis (Nose Bleeds): Parent/Carer discharge information"
+ },
+ "exercise-stress-echocardiogram": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "631d77954b499372",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Exercise Stress Echocardiogram"
+ },
+ "exercise-tolerance-test": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "fd52c83f58c368ad",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Exercise Tolerance Test (ETT)"
+ },
+ "extended-spectrum-beta-lactamase-esbl": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "dd07111861d07430",
+  "hash_version": 2,
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Extended Spectrum Beta Lactamase (ESBL)"
+ },
+ "external-cephalic-version": {
+  "checked": "2026-09-14T02:33:36+01:00",
+  "content_hash": "545fffd606b93ef4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "External Cephalic Version"
+ },
  "guide-post-mortem-care-adult": {
   "checked": "2026-09-13T02:43:15+01:00",
   "content_hash": "0ff02b9b8765eb80",
