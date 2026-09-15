@@ -349,6 +349,174 @@
   "status": "no-date",
   "title": "Colposcopy appointment"
  },
+ "common-nutritional-problems-and-cancer": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "8421e82a6babf284",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Common nutritional problems and cancer"
+ },
+ "community-physiotherapy": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "1ae5ac20227899d5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Community physiotherapy"
+ },
+ "concerns-complaints-and-compliments": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "2c4e63367c54e7bf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Concerns, complaints and compliments"
+ },
+ "contact-lenses-for-keratoconus": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "84cca1f7f38fefb0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Contact lenses for keratoconus"
+ },
+ "contrast-enhanced-mammography-cem": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "a3f1658066b639a3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Contrast-enhanced mammography (CEM)"
+ },
+ "core-biopsy-of-breast-or-axilla": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "ca353e15684d63e1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Core biopsy of breast or axilla"
+ },
+ "cystoscopy": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "10d071a303e373a9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cystoscopy"
+ },
+ "daycase-tonsil-surgery-intracapsular-tonsillectomy": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "c95a05fb01aa1e77",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Daycase tonsil surgery - intracapsular tonsillectomy"
+ },
+ "deprivation-of-liberty-safeguarding-dols-information-for-families-carers-and-friends": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "0e815cad8e1625b6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Deprivation of Liberty Safeguarding (DoLS): information for families, carers and friends"
+ },
+ "diabetes-and-surgery-patient-passport": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "91df6e3dae7e249f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Diabetes and surgery patient passport"
+ },
+ "disinfection-of-infant-feeding-and-sterilisation-equipment-on-the-neonatal-unit": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "5d700f52b844da42",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Disinfection of infant feeding and sterilisation equipment on the neonatal unit"
+ },
+ "domiciliary-home-visits-for-warfarin-clinic-patients": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "8339753a03c2970c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Domiciliary (home) visits for warfarin clinic patients"
+ },
+ "donor-breast-milk": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "ee82da52f2ee2a0c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Donor breast milk"
+ },
+ "doxypep-how-and-when-to-take-it": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "644043b32fb7805f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "DoxyPEP - how and when to take it"
+ },
+ "eating-well-during-cancer-treatment-a-detailed-guide": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "2a938fc970f0e03e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eating well during cancer treatment - a detailed guide"
+ },
+ "eating-well-with-a-small-appetite": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "2ca22b1718cb79c1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eating well with a small appetite"
+ },
+ "ectopic-pregnancy-unit": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "b70f313f5c80ac2f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ectopic pregnancy"
+ },
+ "endobronchial-ultrasound-guided-transbronchial-needle-aspiration-ebus-tbna": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "4aae2a99bc960cb3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "EndoBronchial UltraSound-guided TransBronchial Needle Aspiration (EBUS-TBNA)"
+ },
+ "endometrial-hyperplasia-thickening-of-the-womb-lining": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "22060763d59366cd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Endometrial hyperplasia - Thickening of the womb lining"
+ },
+ "endometriosis": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "5c568dcc151a17b5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Endometriosis"
+ },
+ "extended-appointment-time-clinic": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "a77a8e320eb6bbb1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Extended appointment time clinic"
+ },
+ "external-electrical-cardioversion-consent-information-for-patients": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "7ef7927778a82c0e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "External electrical cardioversion – consent information for patients (also known as direct current cardioversion (DCCV)"
+ },
+ "familial-hypercholesterolaemia-service": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "e1a11bc02d3847f8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Familial Hypercholesterolaemia Service"
+ },
+ "febrile-convulsions": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "73c94f3fa11b5e80",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Febrile convulsions"
+ },
  "how-to-treat-your-wheeze-asthma": {
   "checked": "2026-09-13T02:43:15+01:00",
   "content_hash": "638fbf84760890fe",

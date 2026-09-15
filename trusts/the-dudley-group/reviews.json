@@ -414,6 +414,206 @@
   "status": "ok",
   "title": "Bowel preparation prior to gynaecology surgery"
  },
+ "box-change": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "be2270ee7cfa274e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Box change"
+ },
+ "bronchiolitis": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "25833f9568d6b8bd",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Bronchiolitis"
+ },
+ "browns-syndrome": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "4312cc135f5ca1eb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Brown’s syndrome"
+ },
+ "buckle-fractures": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "181cfcc711800630",
+  "hash_version": 2,
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Buckle Fractures"
+ },
+ "buprenorphine-patches": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "2d3ee59b068688d0",
+  "hash_version": 2,
+  "review_due": "2025-09",
+  "review_due_text": "September 2025",
+  "status": "ok",
+  "title": "Buprenorphine patches"
+ },
+ "capsaicin-cream": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "c415b21f96809183",
+  "hash_version": 2,
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Capsaicin cream"
+ },
+ "caring-for-your-baby-after-a-tongue-tie-division": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "cb0c3a1212ea0531",
+  "hash_version": 2,
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Caring for your baby after a tongue-tie division"
+ },
+ "caring-for-your-child-and-their-burn-injury": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "d96748ed669eb44e",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Caring for your child and their burn injury"
+ },
+ "carpal-tunnel-syndrome": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "02f6f6021c900241",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Carpal tunnel syndrome"
+ },
+ "cataract-surgery": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "87b0e938beaad328",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cataract Surgery"
+ },
+ "catheter-care": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "86d3a4420f168c1f",
+  "hash_version": 2,
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Catheter Care"
+ },
+ "catheterogram": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "b2632056a82e00ad",
+  "hash_version": 2,
+  "review_due": "2029-08",
+  "review_due_text": "August 2029",
+  "status": "ok",
+  "title": "Catheterogram"
+ },
+ "caudal-epidural-injections": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "50962354c4e93da0",
+  "hash_version": 2,
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Caudal epidural injections"
+ },
+ "cervical-cerclage-making-an-informed-choice": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "e91ac337ae70f36e",
+  "hash_version": 2,
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Cervical Cerclage: Making an Informed Choice"
+ },
+ "cervical-epidural-injections": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "14e027297c2ceae5",
+  "hash_version": 2,
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Cervical epidural injections"
+ },
+ "chemotherapy-pumps": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "a28764afd1bb691e",
+  "hash_version": 2,
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Chemotherapy pumps"
+ },
+ "chilblains": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "eb7de033f42f9317",
+  "hash_version": 2,
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Chilblains"
+ },
+ "children-wearing-a-patch-for-the-first-time-2": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "67cf9bf7ea36c810",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Children wearing a patch for the first time"
+ },
+ "cholangioscopy": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "39c9dc1c34832b23",
+  "hash_version": 2,
+  "review_due": "2028-06",
+  "review_due_text": "June 2028",
+  "status": "ok",
+  "title": "Cholangioscopy"
+ },
+ "clavicle-fracture": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "cc164edd067aef10",
+  "hash_version": 2,
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Clavicle Fracture"
+ },
+ "computed-tomography-ct-colonography": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "e2d672e125e1af91",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Computed Tomography (CT) Colonography"
+ },
+ "computed-tomography-ct-colonography-2": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "2224b34f2fd44152",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Computed Tomography (CT) Colonography"
+ },
+ "convergence-weakness-2": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "16b75b9777302f7c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Convergence Weakness"
+ },
+ "corneal-cross-linking-cxl": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "66890bf25e9fc3d8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Corneal Cross-Linking (CXL)"
+ },
  "eylea-treatment-for-diabetic-macular-oedema-dmo": {
   "checked": "2026-09-14T02:33:36+01:00",
   "content_hash": "19a2c0e15a875e6b",

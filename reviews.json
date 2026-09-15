@@ -1115,8 +1115,9 @@
   "title": "Coping With Dying"
  },
  "corneal-abrasion": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "177bd0bb3a942164",
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "fafccd60b1091ebd",
+  "hash_version": 2,
   "ref": "GHPI0184_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -1124,8 +1125,9 @@
   "title": "Corneal abrasion"
  },
  "coronary-angioplasty-cgh": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "6f8ff51d90916ea9",
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "37a792066471792c",
+  "hash_version": 2,
   "ref": "GHPI0229_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -1133,8 +1135,9 @@
   "title": "Coronary angioplasty"
  },
  "covid-19-advice-for-patients-in-hospital-and-after-discharge": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "e4d85706187afc5f",
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "f2382e80c4842483",
+  "hash_version": 2,
   "ref": "GHPI1756_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -1142,8 +1145,9 @@
   "title": "COVID-19 advice for patients in hospital and after discharge"
  },
  "critical-care-follow-up-clinic": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "68f8b83d6a6b9710",
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "64f1e64f1d477688",
+  "hash_version": 2,
   "ref": "GHPI1805_12_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -1151,8 +1155,9 @@
   "title": "Critical Care Follow-up Clinic"
  },
  "cryotherapy": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "97fb611d2635d26e",
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "03e9f96ba1a34345",
+  "hash_version": 2,
   "ref": "GHPI0879_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -1160,8 +1165,9 @@
   "title": "Cryotherapy"
  },
  "ct-colonoscopy": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "b24b7f7343715aa9",
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "5479f5a8785fe90e",
+  "hash_version": 2,
   "ref": "GHPI1376_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -1169,8 +1175,9 @@
   "title": "CT colonoscopy"
  },
  "ct-colonoscopy-aftercare": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "5387f5819053add3",
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "45698971625cad20",
+  "hash_version": 2,
   "ref": "GHPI1465_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -1178,8 +1185,9 @@
   "title": "CT colonoscopy aftercare"
  },
  "ct-colonoscopy-virtual-colonoscopy": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "c20dc7a832fa41dd",
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "21383eccd5d8f576",
+  "hash_version": 2,
   "ref": "GHPI1376_09_23",
   "review_due": "2026-09",
   "review_due_text": "September 2026",
@@ -1187,8 +1195,9 @@
   "title": "CT colonoscopy"
  },
  "ct-computed-tomography-ablation": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "a6c57a9148ee1bd6",
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "1fd91aca13a67b16",
+  "hash_version": 2,
   "ref": "GHPI1641_06_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -1196,8 +1205,9 @@
   "title": "CT (Computed Tomography) Ablation"
  },
  "ct-computed-tomography-guided-abdominalpelvic-biopsy": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "3339e5e3758b288c",
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "b889f347469f803d",
+  "hash_version": 2,
   "ref": "GHPI1635_09_25",
   "review_due": "2028-09",
   "review_due_text": "September 2028",
@@ -1205,8 +1215,9 @@
   "title": "CT (Computed Tomography) guided abdominal/pelvic biopsy"
  },
  "ct-computed-tomography-guided-bone-biopsy": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "59b14ff3c1bdaf1f",
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "1137d128d0254834",
+  "hash_version": 2,
   "ref": "GHPI1632_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -1214,8 +1225,9 @@
   "title": "CT (Computed Tomography) guided bone biopsy"
  },
  "ct-computed-tomography-guided-lung_pleural-biopsy": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "7b147cfcfad89134",
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "2e69f3f5499738d6",
+  "hash_version": 2,
   "ref": "GHPI1154_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -1223,8 +1235,9 @@
   "title": "CT (Computed Tomography) guided lung/pleural biopsy"
  },
  "ct-computed-tomography-guided-lungpleural-biopsy-aftercare": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "91bb13ac5f634397",
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "853df5512e3cdc1b",
+  "hash_version": 2,
   "ref": "GHPI1512_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -1240,8 +1253,9 @@
   "title": "CT guided abdominal biopsy aftercare"
  },
  "ct-guided-ablation-aftercare": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "3c196c2eafaf7f29",
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "f0e101bd01c82a76",
+  "hash_version": 2,
   "ref": "GHPI1642_06_25",
   "review_due": "2028-06",
   "review_due_text": "June 2028",
@@ -1249,8 +1263,9 @@
   "title": "CT guided ablation aftercare"
  },
  "ct-guided-bone-biopsy-aftercare": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "fedd6630bf626302",
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "b1448db7e327bb74",
+  "hash_version": 2,
   "ref": "GHPI1634_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -2311,8 +2326,9 @@
   "title": "Surgical insertion of a Peritoneal Dialysis (PD) catheter"
  },
  "ghpi1462-cystinuria-and-stone-prevention": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "51337ba55dd42c61",
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "e7a0a3d4a89dfab6",
+  "hash_version": 2,
   "ref": "GHPI1462_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",
