@@ -250,6 +250,11 @@
     "slug": "ambulatory-eeg-with-video"
   },
   {
+    "title": "Anaemia due to Chronic Kidney Disease",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/anaemia-due-to-chronic-kidney-disease/",
+    "slug": "anaemia-due-to-chronic-kidney-disease"
+  },
+  {
     "title": "Anaphylaxis – Adult",
     "url": "https://www.worcsacute.nhs.uk/leaflets/anaphylaxis-adult/",
     "slug": "anaphylaxis-adult"
@@ -1100,7 +1105,7 @@
     "slug": "entonox-waht-pi-2230"
   },
   {
-    "title": "Epidurals at Worcestershire Royal Hospital",
+    "title": "Epidural Leaflet",
     "url": "https://www.worcsacute.nhs.uk/leaflets/epidural-leaflet-waht-pi-309/",
     "slug": "epidural-leaflet-waht-pi-309"
   },
@@ -1513,11 +1518,6 @@
     "title": "Hip Abduction Brace",
     "url": "https://www.worcsacute.nhs.uk/leaflets/hip-abduction-brace/",
     "slug": "hip-abduction-brace"
-  },
-  {
-    "title": "Home Care for Low-risk Febrile Neutropenia",
-    "url": "https://www.worcsacute.nhs.uk/leaflets/home-care-for-low-risk-febrile-neutropenia/",
-    "slug": "home-care-for-low-risk-febrile-neutropenia"
   },
   {
     "title": "Home Introduction of Cow’s Milk",
@@ -2080,14 +2080,14 @@
     "slug": "mastopexy-or-breast-reduction"
   },
   {
-    "title": "Measles",
-    "url": "https://www.worcsacute.nhs.uk/leaflets/measles/",
-    "slug": "measles"
-  },
-  {
     "title": "Measles Information Leaflet",
     "url": "https://www.worcsacute.nhs.uk/leaflets/measles-information-leaflet/",
     "slug": "measles-information-leaflet"
+  },
+  {
+    "title": "Measles – WAHT-PI-2380",
+    "url": "https://www.worcsacute.nhs.uk/leaflets/measles/",
+    "slug": "measles"
   },
   {
     "title": "Medial branch block injections for facet joint pain",
@@ -3593,16 +3593,6 @@
     "title": "Totally Implanted Central Venous Access Device (Port-a-Cath)",
     "url": "https://www.worcsacute.nhs.uk/leaflets/totally-implanted-central-venous-access-device-port-a-cath/",
     "slug": "totally-implanted-central-venous-access-device-port-a-cath"
-  },
-  {
-    "title": "Transcervical Resection of Fibroids",
-    "url": "https://www.worcsacute.nhs.uk/leaflets/transcervical-resection-of-fibroids/",
-    "slug": "transcervical-resection-of-fibroids"
-  },
-  {
-    "title": "Transferring Your Allergy Care",
-    "url": "https://www.worcsacute.nhs.uk/leaflets/transferring-your-allergy-care/",
-    "slug": "transferring-your-allergy-care"
   },
   {
     "title": "Transition to Adult Hearing Services",

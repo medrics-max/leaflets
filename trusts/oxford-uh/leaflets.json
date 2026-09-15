@@ -766,8 +766,8 @@
   },
   {
     "title": "Car Seat Challenge",
-    "url": "https://www.ouh.nhs.uk/media/hqej252x/84722seat.pdf",
-    "slug": "84722seat"
+    "url": "https://www.ouh.nhs.uk/media/1jtexej5/122770challenge.pdf",
+    "slug": "122770challenge"
   },
   {
     "title": "Car transfer",
@@ -890,9 +890,9 @@
     "slug": "65827spica"
   },
   {
-    "title": "Caring for your Nasogastric (NG) Tube",
-    "url": "https://www.ouh.nhs.uk/media/xicho3dq/69129pnasogastric.pdf",
-    "slug": "69129pnasogastric"
+    "title": "Caring for your Nasogastric Tube at home",
+    "url": "https://www.ouh.nhs.uk/media/3sticuoj/116381nasogastric.pdf",
+    "slug": "116381nasogastric"
   },
   {
     "title": "Caring for your Nasojejunal Tube at home",
@@ -1490,6 +1490,11 @@
     "slug": "84106padvice"
   },
   {
+    "title": "Dietary Fibre",
+    "url": "https://www.ouh.nhs.uk/media/uvllz0iq/120630fibre.pdf",
+    "slug": "120630fibre"
+  },
+  {
     "title": "Dietary information to promote wound healing",
     "url": "https://www.ouh.nhs.uk/media/gnokulyd/106907healing.pdf",
     "slug": "106907healing"
@@ -1640,6 +1645,11 @@
     "slug": "117056syndrome"
   },
   {
+    "title": "Dumping Syndrome following Oesophageal or Gastric Surgery",
+    "url": "https://www.ouh.nhs.uk/media/ydsgo1au/112926syndrome.pdf",
+    "slug": "112926syndrome"
+  },
+  {
     "title": "DVT Clinic - Information for patients attending the Horton DVT clinic",
     "url": "https://www.ouh.nhs.uk/media/qbrpigt2/109526dvt.pdf",
     "slug": "109526dvt"
@@ -1673,6 +1683,11 @@
     "title": "Easy Read - Falling in Hospital",
     "url": "https://www.ouh.nhs.uk/media/jelpq21f/120448falling.pdf",
     "slug": "120448falling"
+  },
+  {
+    "title": "Eating and drinking following a Gastrectomy",
+    "url": "https://www.ouh.nhs.uk/media/0cnlm3tq/121369gastrectomy.pdf",
+    "slug": "121369gastrectomy"
   },
   {
     "title": "Eating Safely After Your Kidney or Pancreas Transplant",
@@ -4010,6 +4025,11 @@
     "slug": "92717diabetes"
   },
   {
+    "title": "Physical Activity throughout Pregnancy",
+    "url": "https://www.ouh.nhs.uk/media/pnohv1tv/112523activity.pdf",
+    "slug": "112523activity"
+  },
+  {
     "title": "Physical management of spasticity",
     "url": "https://www.ouh.nhs.uk/media/oy0jcnfx/105522spasticity.pdf",
     "slug": "105522spasticity"
@@ -4540,6 +4560,11 @@
     "slug": "103424catheter"
   },
   {
+    "title": "Removal of your Surgical Jejunostomy Feeding Tube",
+    "url": "https://www.ouh.nhs.uk/media/ilyczo3o/122182jejunostomy.pdf",
+    "slug": "122182jejunostomy"
+  },
+  {
     "title": "Renal Anaemia Specialist Nurses",
     "url": "https://www.ouh.nhs.uk/media/r1xna5p3/48375pnurses.pdf",
     "slug": "48375pnurses"
@@ -4813,6 +4838,11 @@
     "title": "Sedation for clinical procedures (for children and young people)",
     "url": "https://www.ouh.nhs.uk/media/d0qffs4f/104197sedation.pdf",
     "slug": "104197sedation"
+  },
+  {
+    "title": "Seeds and Your Gut Health",
+    "url": "https://www.ouh.nhs.uk/media/stkkqnlk/119213seeds.pdf",
+    "slug": "119213seeds"
   },
   {
     "title": "Selective Laser Trabeculoplasty (SLT)",
@@ -5116,8 +5146,8 @@
   },
   {
     "title": "Sulfasalazine (Sulphasalazine, Salazopyrin) Medicines Information",
-    "url": "https://www.ouh.nhs.uk/media/jfjop3iw/78014sulfasalazine.pdf",
-    "slug": "78014sulfasalazine"
+    "url": "https://www.ouh.nhs.uk/media/o4tcdmhz/116998sulfasalazine.pdf",
+    "slug": "116998sulfasalazine"
   },
   {
     "title": "Superficial keratectomy and alcohol Delamination",
@@ -5376,8 +5406,8 @@
   },
   {
     "title": "Thoracic Surgery: Going home with a chest drain",
-    "url": "https://www.ouh.nhs.uk/media/gctiqa10/82092pdrain.pdf",
-    "slug": "82092pdrain"
+    "url": "https://www.ouh.nhs.uk/media/u1gj25m4/115290drain.pdf",
+    "slug": "115290drain"
   },
   {
     "title": "Thoracic Surgery: Mediastinoscopy",
