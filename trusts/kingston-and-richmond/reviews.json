@@ -20,6 +20,20 @@
   "status": "no-date",
   "title": "Ambulatory urodynamics test (women)"
  },
+ "BCG-maintenance": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "81304b3624847d62",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "BCG: maintenance treatment"
+ },
+ "BCG-starter": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "b517435501f3e3b0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "BCG: induction (starter) treatment"
+ },
  "abdominal-hysterectomy": {
   "checked": "2026-09-13T02:43:15+01:00",
   "content_hash": "e33b47310ff61cba",
@@ -341,6 +355,153 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Avulsion fracture of ankle bone (talus)"
+ },
+ "axial-spondyloarthritis-flare-self-management": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "349265a89a62ea4c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Axial spondyloarthritis (AS) flare self-management"
+ },
+ "baby-feed-diary-and-questionnaire": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "9313e3a54ee6ae74",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Baby feed diary and questionnaire"
+ },
+ "baby-movements-pregnancy": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "9b92b1730600d8d7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Baby movements in pregnancy"
+ },
+ "balance-testing": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "ba8e3465531fc710",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Balance testing"
+ },
+ "basal-cell-carcinoma-bcc": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "bae899c37be4f3dc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Basal cell carcinoma (BCC)"
+ },
+ "bed-based-exercises": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "a55c63456a3a66e8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bed-based exercises"
+ },
+ "bed-lever": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "83e546da8a372050",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bed lever"
+ },
+ "bed-lever2": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "3ae2e3ffe8126e32",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bed handles and levers"
+ },
+ "bed-raisers": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "8dc11fbbb59aab65",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bed raisers"
+ },
+ "bedwetting": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "e6c0e45fc958e408",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bedwetting"
+ },
+ "bereavement-hospital": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "41f7df80a09970a8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bereavement support after someone dies at Kingston hospital"
+ },
+ "bereavement-office": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "fb569f1bd9ff173c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bereavement office"
+ },
+ "bereavement-support-hospital": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "a762785bf979d2fb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bereavement support"
+ },
+ "biliary-drainage-and-stent-insertion": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "3df7b28af4ff15cf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Biliary drainage and stent insertion"
+ },
+ "biologic-biosimilar-medicines": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "71a98399dae27fac",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Biologic and biosimilar medicines"
+ },
+ "biologic-biosimilar-medicines-eyes": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "f1ae7dbe854c4153",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Biologic and biosimilar medicines for eye conditions"
+ },
+ "birth-after-previous-caesarean": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "d1db1e15b0874675",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Birth after a previous caesarean: making a decision"
+ },
+ "birth-centre": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "e5ea8abf847ed8ca",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Birth Centre"
+ },
+ "bladder-diary-urogynaecology": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "040a31a880787fe3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bladder diary: urogynaecology"
+ },
+ "bladder-diary-urology": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "f4f84465ef6c2c3d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bladder diary (urology)"
+ },
+ "children-and-young-people": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "148cfb558b143072",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Babies, children and young people"
  },
  "gloves": {
   "checked": "2026-09-13T02:43:15+01:00",

@@ -371,6 +371,108 @@
   "status": "no-date",
   "title": "External Cephalic Version"
  },
+ "extracorporeal-shockwave-therapy-eswt": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "0581faf7e3db8c47",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Extracorporeal Shockwave Therapy (ESWT)"
+ },
+ "facet-joint-medial-branch-blocks-treatment-pain": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "28a2d333f4ad66e5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Facet Joint Medial Branch Blocks for the Treatment of Pain"
+ },
+ "facet-joint-rhizolysis-radio-frequency-lesioning-denervation-treatment-pain": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "3397224180b3bb62",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Facet Joint Rhizolysis/ Radio Frequency Lesioning (Denervation) for the Treatment of Pain"
+ },
+ "ferinject-pregnancy": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "dc3c444d97ea55d6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ferinject In Pregnancy"
+ },
+ "fever-control-parentcarer-discharge-information": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "87f68ebaf0237c02",
+  "hash_version": 2,
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Fever control Parent/Carer discharge information"
+ },
+ "flexible-cystoscopy-and-associated-procedures-including-biopsy-or-stent-removal": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "eff79633053b6c29",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Flexible Cystoscopy (and associated procedures, including biopsy or stent removal)"
+ },
+ "flight-assessment": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "661b4346e24ab471",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Flight Assessment"
+ },
+ "footwear-guide": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "a1142992c75001d9",
+  "hash_version": 2,
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Footwear guide"
+ },
+ "fractional-exhaled-nitric-oxide-feno": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "ba9c6396bb4cc1df",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fractional Exhaled Nitric Oxide (FeNO)"
+ },
+ "gabapentin-treatment-pain": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "515cb3cd774b7720",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gabapentin for the Treatment of Pain"
+ },
+ "galeas-bladder": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "4eace5bf98c6aeb0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Galeas Bladder"
+ },
+ "general-information-injection-treatments": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "ce5cddda4914c156",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "General Information - Injection treatments"
+ },
+ "genicular-nerve-radio-frequency-lesioning-knee-joint": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "efbc03b2b0006967",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Genicular Nerve Radio Frequency Lesioning (knee joint)"
+ },
+ "going-home-abdominal-drain": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "4c4fe63c1721631d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Going home with an abdominal drain"
+ },
  "guide-post-mortem-care-adult": {
   "checked": "2026-09-13T02:43:15+01:00",
   "content_hash": "0ff02b9b8765eb80",
@@ -378,11 +480,83 @@
   "status": "no-date",
   "title": "A guide to Post Mortem Care of an Adult"
  },
+ "having-mri-your-lumbar-and-sacral-spine-through-surgical-assessment-unit": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "15f588848abeebca",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having an MRI of your Lumbar and Sacral Spine through the Surgical Assessment Unit"
+ },
  "helping-hand-be-smoke-free": {
   "checked": "2026-09-13T02:43:15+01:00",
   "content_hash": "a3d6f41a28742007",
   "hash_version": 2,
   "status": "no-date",
   "title": "A helping hand to be smoke-free"
+ },
+ "hip-impingement-fai": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "98efe0722060f801",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hip Impingement (FAI)"
+ },
+ "holter-monitoring-244872hrs-and-1-week": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "8e85075e36211d6e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Holter Monitoring (24,48,72hrs and 1 week)"
+ },
+ "hospital-treatment-overseas-patients": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "2aeaf184527a8a54",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hospital Treatment for overseas patients"
+ },
+ "how-does-high-bmi-affect-my-pregnancy": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "6e2f3599d1bb5d7f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How does a high BMI affect my pregnancy?"
+ },
+ "how-manage-your-energy-levels": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "6aea50d5cd3ffa23",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to manage your energy levels"
+ },
+ "how-use-handheld-fan-relieve-breathlessness": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "c6884cebd80f6835",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fan Therapy"
+ },
+ "information-about-using-your-inhalers": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "358ea278b96abf61",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information about using your inhalers"
+ },
+ "information-and-guidance-following-your-bereavement": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "e24128b55c37e95d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information and guidance following your bereavement"
+ },
+ "insole-wearing-guide": {
+  "checked": "2026-09-15T02:37:27+01:00",
+  "content_hash": "a890944b2fd89c3c",
+  "hash_version": 2,
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Insole wearing guide"
  }
 }

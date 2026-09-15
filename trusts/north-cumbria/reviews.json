@@ -140,14 +140,16 @@
   "title": "Nuclear Medicine: DMSA Kidney Scan"
  },
  "Day-Case-Unit-West-Cumberland-Hospital": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "9de2701df4554965",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Day Case Unit: West Cumberland Hospital"
  },
  "Diabetic-Eye-Screening": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "8ad406fc71cec409",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Diabetic Eye Screening"
  },
@@ -942,14 +944,16 @@
   "title": "Confidentiality: People who use our services"
  },
  "confidentiality-report-concerns": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "7a04cdb2ccfda075",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Confidentiality: Report concerns"
  },
  "consent-guide-patients-service-users": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "19eff3a8076e51bc",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Consent: A guide for patients and service users"
  },
@@ -960,20 +964,23 @@
   "title": "Anaesthetics: Contraception advice after having Sugammadex"
  },
  "covid-cognitive-problems-post-covid-19": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "001e60f6c4cbf86e",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Covid: Cognitive problems post Covid-19"
  },
  "covid-voice-problems": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "ab317c784e43ea70",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Covid: Voice problems"
  },
  "data-protection-how-use-your-information": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "fe0d34ad641b3370",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Data Protection: How we use your information"
  },
@@ -985,56 +992,65 @@
   "title": "Community Dental Service: Denture Care Instructions for Plastic (Acrylic) Dentures"
  },
  "diabetes-charcot-foot": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "9a38b64c2b2d92be",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Diabetes: Charcot foot"
  },
  "diabetes-foot-care-patients-high-risk": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "3987315090342213",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Diabetes: Foot care for patients at high risk"
  },
  "diabetes-foot-care-patients-low-risk": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "ac067bf3a71a2662",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Diabetes: Foot care for patients at low risk"
  },
  "diabetes-foot-care-patients-medium-risk": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "5c1e3910c5664d1c",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Diabetes: Foot care for patients at medium risk"
  },
  "diabetes-foot-ulcers": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "c88e6785e991bed0",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Diabetes: Foot ulcers"
  },
  "diabetes-looking-after-your-foot-remission": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "2ca3f5dde1fca443",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Diabetes: Looking after your foot in remission"
  },
  "diabetes-multidisciplinary-foot-clinic": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "51c1e473de00bd17",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Diabetes: Multidisciplinary foot clinic"
  },
  "diabetes-plaster-fibreglass-casting-foot-ulcers": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "eb67e2be8cd2ac33",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Diabetes: Plaster or fibreglass casting of foot ulcers"
  },
  "diabetes-the-effects-exercise-sugar-levels": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "08b6af43d5662672",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Diabetes: Exercise and sugar levels"
  },
