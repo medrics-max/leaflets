@@ -441,6 +441,20 @@
     "min_expected": 40
    },
    "listed": false
+  },
+  {
+   "id": "london-north-west-healthcare",
+   "name": "London North West University Healthcare NHS Trust",
+   "short_name": "London North West",
+   "ods_code": "R1K",
+   "status": "services",
+   "data_dir": "trusts/london-north-west-healthcare",
+   "leaflets": {
+    "kind": "none",
+    "base": "https://www.lnwh.nhs.uk",
+    "note": "no central patient leaflet library on its website (sitemap, publication scheme and 106 service pages checked 2026-09-15); services, ED and PALS pages are indexed instead"
+   },
+   "listed": false
   }
  ]
 }
