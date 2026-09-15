@@ -325,6 +325,11 @@
     "slug": "attending-for-a-cpet-test"
   },
   {
+    "title": "Attending for an Annual Cystic Fibrosis CPET Test",
+    "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=7210",
+    "slug": "attending-for-an-annual-cystic-fibrosis-cpet-test"
+  },
+  {
     "title": "Attending the FibroScan clinic",
     "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=8015",
     "slug": "attending-the-fibroscan-clinic"
@@ -603,11 +608,6 @@
     "title": "CCTV privacy notice",
     "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=7473",
     "slug": "cctv-privacy-notice"
-  },
-  {
-    "title": "Chaplaincy Services",
-    "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=2702",
-    "slug": "chaplaincy-services"
   },
   {
     "title": "Chemotherapy and scalp cooling",
@@ -2573,6 +2573,11 @@
     "title": "Paediatrics (Child Health) Patient initiated follow up PIFU",
     "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=7727",
     "slug": "paediatrics-child-health-patient-initiated-follow-up-pifu"
+  },
+  {
+    "title": "Pain Management - Patient Initiated Follow Up (PIFU)",
+    "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=8747",
+    "slug": "pain-management-patient-initiated-follow-up-pifu"
   },
   {
     "title": "Paracentesis",
