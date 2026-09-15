@@ -455,6 +455,276 @@
     "note": "no central patient leaflet library on its website (sitemap, publication scheme and 106 service pages checked 2026-09-15); services, ED and PALS pages are indexed instead"
    },
    "listed": false
+  },
+  {
+   "id": "barts-health",
+   "name": "Barts Health NHS Trust",
+   "short_name": "Barts Health",
+   "ods_code": "R1H",
+   "status": "services",
+   "data_dir": "trusts/barts-health",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.bartshealth.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read"
+   },
+   "listed": false
+  },
+  {
+   "id": "croydon-health-services",
+   "name": "Croydon Health Services NHS Trust",
+   "short_name": "Croydon",
+   "ods_code": "RJ6",
+   "status": "services",
+   "data_dir": "trusts/croydon-health-services",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.croydonhealthservices.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read"
+   },
+   "listed": false
+  },
+  {
+   "id": "east-and-north-hertfordshire",
+   "name": "East and North Hertfordshire Teaching NHS Trust",
+   "short_name": "East and North Hertfordshire",
+   "ods_code": "RWH",
+   "status": "services",
+   "data_dir": "trusts/east-and-north-hertfordshire",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.enherts-tr.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read",
+    "index_url": "https://www.enherts-tr.nhs.uk/patient-information/"
+   },
+   "listed": false
+  },
+  {
+   "id": "great-ormond-street-for-children",
+   "name": "Great Ormond Street Hospital for Children NHS Foundation Trust",
+   "short_name": "Great Ormond Street",
+   "ods_code": "RP4",
+   "status": "services",
+   "data_dir": "trusts/great-ormond-street-for-children",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.gosh.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read"
+   },
+   "listed": false
+  },
+  {
+   "id": "guy-s-and-st-thomas",
+   "name": "Guy's and St Thomas' NHS Foundation Trust",
+   "short_name": "Guy's and St Thomas'",
+   "ods_code": "RJ1",
+   "status": "services",
+   "data_dir": "trusts/guy-s-and-st-thomas",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.guysandstthomas.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read"
+   },
+   "listed": false
+  },
+  {
+   "id": "homerton-healthcare",
+   "name": "Homerton Healthcare NHS Foundation Trust",
+   "short_name": "Homerton",
+   "ods_code": "RQX",
+   "status": "services",
+   "data_dir": "trusts/homerton-healthcare",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.homerton.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read",
+    "index_url": "https://www.homerton.nhs.uk/patient-information-leaflets/"
+   },
+   "listed": false
+  },
+  {
+   "id": "imperial-college-healthcare",
+   "name": "Imperial College Healthcare NHS Trust",
+   "short_name": "Imperial",
+   "ods_code": "RYJ",
+   "status": "services",
+   "data_dir": "trusts/imperial-college-healthcare",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.imperial.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read"
+   },
+   "listed": false
+  },
+  {
+   "id": "lewisham-and-greenwich",
+   "name": "Lewisham and Greenwich NHS Trust",
+   "short_name": "Lewisham and Greenwich",
+   "ods_code": "RJ2",
+   "status": "services",
+   "data_dir": "trusts/lewisham-and-greenwich",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.lewishamandgreenwich.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read"
+   },
+   "listed": false
+  },
+  {
+   "id": "moorfields-eye",
+   "name": "Moorfields Eye Hospital NHS Foundation Trust",
+   "short_name": "Moorfields",
+   "ods_code": "RP6",
+   "status": "services",
+   "data_dir": "trusts/moorfields-eye",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.moorfields.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read"
+   },
+   "listed": false
+  },
+  {
+   "id": "oxleas",
+   "name": "Oxleas NHS Foundation Trust",
+   "short_name": "Oxleas",
+   "ods_code": "RPG",
+   "status": "services",
+   "data_dir": "trusts/oxleas",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://oxleas.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read"
+   },
+   "listed": false
+  },
+  {
+   "id": "royal-free-london",
+   "name": "Royal Free London NHS Foundation Trust",
+   "short_name": "Royal Free",
+   "ods_code": "RAL",
+   "status": "services",
+   "data_dir": "trusts/royal-free-london",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.royalfree.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read"
+   },
+   "listed": false
+  },
+  {
+   "id": "royal-national-orthopaedic",
+   "name": "Royal National Orthopaedic Hospital NHS Trust",
+   "short_name": "Royal National Orthopaedic",
+   "ods_code": "RAN",
+   "status": "services",
+   "data_dir": "trusts/royal-national-orthopaedic",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.rnoh.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read"
+   },
+   "listed": false
+  },
+  {
+   "id": "south-london-and-maudsley",
+   "name": "South London and Maudsley NHS Foundation Trust",
+   "short_name": "South London and Maudsley",
+   "ods_code": "RV5",
+   "status": "services",
+   "data_dir": "trusts/south-london-and-maudsley",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.slam.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read"
+   },
+   "listed": false
+  },
+  {
+   "id": "st-george-s",
+   "name": "St George's University Hospitals NHS Foundation Trust",
+   "short_name": "St George's",
+   "ods_code": "RJ7",
+   "status": "services",
+   "data_dir": "trusts/st-george-s",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.stgeorges.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read"
+   },
+   "listed": false
+  },
+  {
+   "id": "the-hillingdon",
+   "name": "The Hillingdon Hospitals NHS Foundation Trust",
+   "short_name": "Hillingdon",
+   "ods_code": "RAS",
+   "status": "services",
+   "data_dir": "trusts/the-hillingdon",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.thh.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read"
+   },
+   "listed": false
+  },
+  {
+   "id": "the-royal-marsden",
+   "name": "The Royal Marsden NHS Foundation Trust",
+   "short_name": "Royal Marsden",
+   "ods_code": "RPY",
+   "status": "services",
+   "data_dir": "trusts/the-royal-marsden",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.royalmarsden.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read"
+   },
+   "listed": false
+  },
+  {
+   "id": "college-london",
+   "name": "University College London Hospitals NHS Foundation Trust",
+   "short_name": "UCLH",
+   "ods_code": "RRV",
+   "status": "services",
+   "data_dir": "trusts/college-london",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.uclh.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read",
+    "index_url": "https://www.uclh.nhs.uk/patient-information/"
+   },
+   "listed": false
+  },
+  {
+   "id": "west-london",
+   "name": "West London NHS Trust",
+   "short_name": "West London",
+   "ods_code": "RKL",
+   "status": "services",
+   "data_dir": "trusts/west-london",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.westlondon.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read"
+   },
+   "listed": false
+  },
+  {
+   "id": "whittington-health",
+   "name": "Whittington Health NHS Trust",
+   "short_name": "Whittington",
+   "ods_code": "RKE",
+   "status": "services",
+   "data_dir": "trusts/whittington-health",
+   "leaflets": {
+    "kind": "pending",
+    "base": "https://www.whittington.nhs.uk",
+    "note": "leaflets not indexed yet (2026-09-15); services, ED and PALS pages are read",
+    "index_url": "https://www.whittington.nhs.uk/mini-apps/leaflets/"
+   },
+   "listed": false
   }
  ]
 }
