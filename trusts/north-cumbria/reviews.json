@@ -154,38 +154,44 @@
   "title": "Diabetic Eye Screening"
  },
  "Diabetic-foot-clinic": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "5d8a895058ecd8bc",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Diabetic foot clinic"
  },
  "Discharge-to-Assess": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "fe50e56365126411",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Discharge to Assess"
  },
  "Easy-read-Complaints": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "1bda1b2bfeb7bcd5",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Easy read : Complaints"
  },
  "Easy-read-Confidentiality": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "77f31be62810eca1",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Easy read : Confidentiality"
  },
  "Easy-read-Consent": {
-  "checked": "2026-08-15T02:30:29+01:00",
+  "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "8ae532ffa15981ec",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Easy read : Consent"
  },
  "Easy-read-Ophthalmology-Eye-check": {
-  "checked": "2026-08-15T02:30:29+01:00",
+  "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "6db36d11c3b5af00",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Easy read : Ophthalmology: Eye check"
  },
@@ -268,8 +274,9 @@
   "title": "General surgery: Haemorrhoids"
  },
  "Gynaecology-Bleeding-and-or-pain-in-early-pregnancy": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "d76e6b15ac706b58",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Early Pregnancy: Bleeding and/or pain in early pregnancy"
  },
@@ -299,8 +306,9 @@
   "title": "Gynaecology: Out patients Hysteroscopy"
  },
  "Gynaecology-Outpatient-medical-termination-of-pregnancy": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "495c5f085d92a069",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Early Pregnancy: Outpatient medical termination of pregnancy"
  },
@@ -963,20 +971,6 @@
   "status": "no-date",
   "title": "Anaesthetics: Contraception advice after having Sugammadex"
  },
- "covid-cognitive-problems-post-covid-19": {
-  "checked": "2026-09-15T02:37:27+01:00",
-  "content_hash": "001e60f6c4cbf86e",
-  "hash_version": 2,
-  "status": "no-date",
-  "title": "Covid: Cognitive problems post Covid-19"
- },
- "covid-voice-problems": {
-  "checked": "2026-09-15T02:37:27+01:00",
-  "content_hash": "ab317c784e43ea70",
-  "hash_version": 2,
-  "status": "no-date",
-  "title": "Covid: Voice problems"
- },
  "data-protection-how-use-your-information": {
   "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "fe0d34ad641b3370",
@@ -1062,14 +1056,16 @@
   "title": "Young Adult Diabetes Service: 19 - 25 Years"
  },
  "district-nursing": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "f3266fd0e3eaf9ff",
+  "hash_version": 2,
   "status": "no-date",
   "title": "District nursing"
  },
  "duty-candour-being-open": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "309ae68e17ec0bd1",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Duty of Candour: Being open"
  },
@@ -1477,8 +1473,9 @@
   "title": "X-ray: NHS"
  },
  "natural-management-of-miscarriage-1": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "b69a17cb9744a128",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Early Pregnancy: Natural Management of Miscarriage"
  },
@@ -1665,6 +1662,13 @@
   "status": "no-date",
   "title": "Community Dental Service: Oral Hygiene"
  },
+ "patient-information-rectus-abdominus-divartication": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "2e4ef50d5a8f65b1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "General surgery: Rectus abdominus divartication"
+ },
  "patient-information-template-11": {
   "checked": "2026-08-21T02:42:32+01:00",
   "content_hash": "a99983c917b95b7d",
@@ -1676,12 +1680,6 @@
   "content_hash": "e06ce37c1b730be3",
   "status": "no-date",
   "title": "Wound care"
- },
- "patient-information-template-13": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "2e4ef50d5a8f65b1",
-  "status": "no-date",
-  "title": "General surgery: Rectus abdominus divartication"
  },
  "patient-information-template-4": {
   "checked": "2026-08-15T02:30:29+01:00",
@@ -1696,8 +1694,9 @@
   "title": "End of life: Information for bereaved relatives"
  },
  "patient-information-template-6": {
-  "checked": "2026-08-15T02:30:29+01:00",
+  "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "11f5c28d6e552750",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Elective Care Suite: Cumberland Infirmary"
  },
@@ -1774,20 +1773,23 @@
   "title": "Women's Outpatient: Postmenopausal Bleeding"
  },
  "pregnancy-manual-vacuum-aspiration-miscarriage": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "222646707665bfa3",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Early Pregnancy: Manual Vacuum Aspiration Miscarriage"
  },
  "pregnancy-termination": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "378af962e10b2fbf",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Early Pregnancy: Termination"
  },
  "pregnancy-termination-mva": {
-  "checked": "2026-08-14T02:34:46+01:00",
+  "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "e9a7ea52f50c6e6c",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Early Pregnancy: Termination MVA"
  },
