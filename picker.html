@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Patient information — choose leaflets</title>
-<meta name="description" content="Clinician tool: search published patient-information leaflets, tick a set, and show a QR code the patient scans. No login, no patient identity — no name, NHS number or contact details are ever entered.">
+<meta name="description" content="Clinician tool: search published patient-information leaflets, tick a set, and show a QR code the patient scans. Free sign-in with a professional registration number; no patient identity — no name, NHS number or contact details are ever entered.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -13,7 +13,7 @@
   "url": "https://leaflets.medrics.co.uk/picker.html",
   "applicationCategory": "HealthApplication",
   "operatingSystem": "Any (web browser)",
-  "description": "A clinician searches published patient-information leaflets, ticks a set, and shows a QR code. The patient scans it and gets links to their trust's own published leaflets plus national NHS.uk content. No login, no patient identity — no name, NHS number or contact details are ever entered; a clinician may add a follow-up day and time to the link.",
+  "description": "A clinician searches published patient-information leaflets, ticks a set, and shows a QR code. The patient scans it and gets links to their trust's own published leaflets plus national NHS.uk content. Free sign-in with a professional registration number; no patient identity — no name, NHS number or contact details are ever entered; a clinician may add a follow-up day and time to the link.",
   "audience": { "@type": "MedicalAudience", "audienceType": "Clinicians" },
   "publisher": { "@type": "Organization", "name": "Medrics", "url": "https://medrics.co.uk" },
   "license": "https://leaflets.medrics.co.uk/LICENSE"
@@ -188,9 +188,12 @@
   .drivepanel .drvrule summary:hover { color: var(--ink); }
   .drivepanel .drvadd {
     margin-top: 8px; padding: 8px 14px; border: 1px solid var(--green); border-radius: 999px;
-    background: var(--green-tint); color: var(--green); cursor: pointer; font-size: 13.5px; font-weight: 600;
+    background: var(--green); color: #fff; cursor: pointer; font-size: 14px; font-weight: 700;
   }
-  .drivepanel .drvadd:hover { background: var(--card); }
+  .drivepanel .drvadd:hover { filter: brightness(1.08); }
+  .drivepanel .drvadd[disabled] { background: var(--green-tint); color: var(--green); cursor: default; filter: none; }
+  .drvmissing { margin: 0 0 14px; padding: 10px 14px; border: 1px solid var(--amber); border-left-width: 4px; border-radius: 8px; background: var(--amber-tint); color: var(--amber-ink); font-size: 14px; line-height: 1.5; text-align: left; }
+  .drvmissing button { margin-top: 8px; }
   .drivepanel .drvctl { margin-top: 10px; }
   .drivepanel .drvctl button { border: none; background: none; color: var(--plum); cursor: pointer; font-size: 13px; margin-right: 12px; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
 
@@ -216,10 +219,15 @@
   }
   .tag.leaflet { background: var(--green-tint); color: var(--green); }
   .tag.medicines { background: var(--amber-tint); color: var(--amber-ink); }
-  .tag.advice, .tag.service, .tag.gov { background: var(--plum-tint); color: var(--plum-dark); }
+  .tag.advice, .tag.service, .tag.gov, .tag.network { background: var(--plum-tint); color: var(--plum-dark); }
   .tag.nhs { background: var(--track); color: var(--ink-soft); }
   .tag.trusted { background: var(--track); color: var(--ink); }
-  .tag.stale, .tag.redflag { background: var(--red-tint); color: var(--red); }
+  .tag.gapfill { background: var(--amber-tint); color: var(--amber-ink); }
+  .tag.stale { background: var(--red-tint); color: var(--red); }
+  /* quality-of-resource hints (the owner 2026-09-16): small and muted beside the source tag —
+     out of date, page not loading, PDF, reading age — never louder than where it comes from */
+  .tag.hint { background: none; border: 1px solid var(--line); color: var(--muted); font-weight: 500; font-size: 11px; padding: 0 7px; }
+  .tag.hint.warn { border-color: var(--red-tint); color: var(--red); background: var(--red-tint); }
 
   /* the one primary action, always reachable */
   .actions {
@@ -264,6 +272,8 @@
   .fu .chip { border: 1px dashed var(--line-strong); background: var(--card); color: var(--plum); cursor: pointer; user-select: none; font-weight: 500; }
   .fu .chip:hover { background: var(--plum-tint); border-color: var(--plum); }
   .fu .chip.on { background: var(--plum); color: #fff; border-style: solid; border-color: var(--plum); font-weight: 600; }
+  .fu .chip.sug { border-style: solid; border-color: var(--green); color: var(--green); background: var(--green-tint); font-weight: 600; }
+  .fu .fusuggest { font-size: 12.5px; color: var(--green); margin-right: 4px; }
   #fusel {
     margin: 4px 0 0; padding: 7px 30px 7px 12px; font-size: 14px; font-weight: 600; color: var(--plum);
     background: var(--card) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%233a1a9a' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'><path d='M6 9l6 6 6-6'/></svg>") no-repeat right 10px center;
@@ -293,6 +303,38 @@
   .fupanel .fusug .chip:hover { background: var(--green-tint); }
   .fupanel .fusug .chip .tag { margin-left: 4px; }
   .fupanel .furow { display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-end; margin: 6px 0; }
+  /* follow-up scheduling (2026-09-16): live slot chips, the held/booked reference, the mail button */
+  .fupanel .schednext { display: block; width: 100%; text-align: left; margin: 6px 0 10px; padding: 11px 14px; border: 1px solid var(--green); border-radius: 10px; background: var(--green-tint); color: var(--green); font: inherit; font-size: 14.5px; font-weight: 700; cursor: pointer; }
+  .fupanel .schednext:hover { background: var(--green); color: #fff; }
+  .fupanel .schednext[disabled] { opacity: .6; cursor: default; }
+  .fupanel .schednext small { display: block; font-weight: 500; font-size: 12.5px; opacity: .85; margin-top: 2px; }
+  /* live slot rows reuse the hand-set Day/Time chip rows (the owner 2026-09-16: "like this") — real buttons underneath */
+  .fupanel .fudays button.chip { font: inherit; line-height: inherit; -webkit-appearance: none; appearance: none; min-height: 40px; }
+  .fupanel .fudays button.chip[disabled], .fupanel .fudays button.chip[disabled]:hover { color: var(--muted); border-style: dashed; border-color: var(--line-strong); cursor: default; background: var(--card); }
+  .fupanel .fudays .chip.week { border-color: var(--plum); color: var(--plum); font-weight: 600; }
+  .fupanel .fuhours button.chip { min-width: 56px; }
+  .fupanel .schedref { border: 1px solid var(--green); border-left-width: 4px; border-radius: 8px; background: var(--green-tint); padding: 10px 14px; margin: 6px 0; }
+  .fupanel .schedref .q { margin-bottom: 4px; }
+  .fupanel .schedcode { margin: 2px 0 6px; font-size: 15px; }
+  .fupanel .schedseal { margin: 8px 0 4px; }
+  .fupanel .schedseal label { font-size: 13px; color: var(--muted); display: block; margin-bottom: 4px; }
+  .fupanel .schedseal input { font: inherit; font-size: 16px; padding: 8px 10px; border: 1px solid var(--line-strong); border-radius: 8px; width: 12em; max-width: 100%; margin: 0 6px 6px 0; text-transform: uppercase; }
+  .fupanel .schedsealed { color: var(--green); font-weight: 600; margin: 6px 0; }
+  .fupanel .schedpw { margin: 8px 0 4px; }
+  .fupanel .schedpw .rlabel { display: block; font-size: 13px; color: var(--muted); font-weight: 400; margin-bottom: 4px; }
+  .fupanel .schedpw .chip { background: var(--card); border: 1px solid var(--line-strong); color: var(--ink); cursor: pointer; font-weight: 500; margin: 2px 4px 2px 0; }
+  .fupanel .schedpw .chip.sug { border-color: var(--plum); color: var(--plum); font-weight: 600; }
+  .fupanel .schedpw .chip.on { background: var(--plum); border-color: var(--plum); color: #fff; font-weight: 600; }
+  .fupanel .schedpw .chip.unc { border-style: dashed; }
+  .fupanel .schedexcl { margin: 6px 0; padding: 8px 12px; border: 1px solid var(--amber); border-left-width: 4px; border-radius: 8px; background: var(--amber-tint); color: var(--amber-ink); font-size: 13.5px; }
+  .fupanel .schedcode strong { font-family: ui-monospace, Menlo, monospace; font-size: 17px; letter-spacing: .04em; }
+  .fupanel .schedtest { margin: 0 0 8px; padding: 8px 12px; border: 1px solid var(--amber); border-left-width: 4px; border-radius: 8px; background: var(--amber-tint); color: var(--amber-ink); font-size: 13.5px; line-height: 1.45; }
+  .fupanel .schednote { margin: 0 0 8px; color: var(--red); font-size: 13.5px; font-weight: 600; }
+  .schedmail, .fupanel .schedgo { display: inline-block; margin: 4px 8px 4px 0; padding: 8px 14px; border: 1px solid var(--green); border-radius: 999px; background: var(--green); color: #fff; font-size: 14px; font-weight: 700; text-decoration: none; cursor: pointer; }
+  .schedmail:hover, .fupanel .schedgo:hover { filter: brightness(1.08); }
+  .fupanel button.link { min-height: 36px; padding: 6px 12px; margin-left: 6px; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--card); color: var(--plum); font: inherit; font-size: 13px; font-weight: 700; cursor: pointer; }
+  .fupanel button.link:hover { border-color: var(--plum); background: var(--plum-tint); }
+  #out .schedmail { margin-top: 10px; }
   .fupanel label { font-size: 13px; color: var(--muted); display: block; margin-bottom: 3px; }
   .fupanel input[type="date"], .fupanel input[type="time"] {
     padding: 8px 10px; font-size: 16px; border: 1px solid var(--line-strong); border-radius: var(--r-sm);
@@ -337,6 +379,12 @@
   #checkin .who label input[type=radio] { margin: 0; }
   #checkin .who label span { font-size: 12.5px; color: var(--muted); font-weight: 400; }
   #checkin button.link { background: none; border: none; color: var(--plum); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+  #checkin .ci-tabs { display: flex; gap: 6px; margin: 14px 0 4px; border-bottom: 2px solid var(--line); }
+  #checkin .ci-tab { background: none; border: none; border-bottom: 3px solid transparent; margin-bottom: -2px; padding: 8px 14px; font: inherit; font-size: 15px; font-weight: 600; color: var(--muted); cursor: pointer; }
+  #checkin .ci-tab[aria-selected=true] { color: var(--plum); border-bottom-color: var(--plum); }
+  #checkin .ci-pinrow { display: flex; gap: 10px; align-items: center; }
+  #checkin .ci-pinrow input { flex: 1; }
+  #checkin .ci-ok { font-size: 13.5px; color: var(--green); margin: 8px 0 0; font-weight: 600; }
 
   /* footer: status lines, optional member sign-in, attribution */
   footer { margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 12.5px; color: var(--muted); text-align: center; line-height: 1.55; }
@@ -370,17 +418,34 @@
 </header>
 <section id="checkin" hidden aria-labelledby="ci-h">
   <h1 id="ci-h">Patient information for clinicians</h1>
-  <p class="sub">This tool is for registered healthcare professionals. Register your professional registration number on this device once, with a PIN of your own, then check in with the PIN.</p>
+  <p class="sub">For registered healthcare professionals. Sign up once with your professional registration number and a PIN of your own, then sign in anywhere with the same three.</p>
+  <div class="ci-tabs" role="tablist" aria-label="Sign in or sign up">
+    <button type="button" id="ci-tab-in" class="ci-tab" role="tab" aria-selected="true">Sign in</button>
+    <button type="button" id="ci-tab-up" class="ci-tab" role="tab" aria-selected="false">Sign up</button>
+  </div>
   <form id="ci-unlock" hidden novalidate>
-    <label id="ci-who-label">Who is checking in?</label>
+    <label id="ci-who-label">Who is signing in?</label>
     <div id="ci-who" role="radiogroup" aria-labelledby="ci-who-label"></div>
     <label for="ci-pin">Your PIN</label>
     <input id="ci-pin" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="6" autocomplete="off" aria-describedby="ci-pin-hint">
-    <p class="ci-hint" id="ci-pin-hint">The 4 to 6 digit PIN you chose when you registered on this device.</p>
-    <label class="own"><input id="ci-keep" type="checkbox"> This is my own device — keep me checked in for 30 days. Leave unticked on a shared computer.</label>
+    <p class="ci-hint" id="ci-pin-hint">The 4 to 6 digit PIN you chose when you signed up.</p>
+    <label class="own"><input id="ci-keep" type="checkbox"> This is my own device — keep me signed in for 30 days. Leave unticked on a shared computer.</label>
     <p class="ci-err" id="ci-uerr" role="alert" hidden></p>
-    <button id="ci-in" type="submit" class="primary">Check in</button>
-    <p class="ci-why"><button type="button" class="link" id="ci-to-reg">Register another registration number on this device</button></p>
+    <button id="ci-in" type="submit" class="primary">Sign in</button>
+    <p class="ci-why"><button type="button" class="link" id="ci-to-full">Someone else? Sign in with your registration number</button></p>
+  </form>
+  <form id="ci-signin" hidden novalidate>
+    <label for="ci-body-in">Your regulator</label>
+    <select id="ci-body-in"></select>
+    <label for="ci-num-in">Registration number</label>
+    <input id="ci-num-in" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false" inputmode="text" aria-describedby="ci-hint-in">
+    <p class="ci-hint" id="ci-hint-in"></p>
+    <label for="ci-pin-in">Your PIN</label>
+    <input id="ci-pin-in" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="6" autocomplete="off">
+    <label class="own"><input id="ci-keep-in" type="checkbox"> This is my own device — keep me signed in for 30 days. Leave unticked on a shared computer.</label>
+    <p class="ci-err" id="ci-ierr" role="alert" hidden></p>
+    <button id="ci-go-in" type="submit" class="primary">Sign in</button>
+    <p class="ci-why">No account yet? <button type="button" class="link" id="ci-to-up">Sign up</button> — it takes a minute.</p>
   </form>
   <form id="ci-form" hidden novalidate>
     <label for="ci-body">Your regulator</label>
@@ -389,16 +454,15 @@
     <input id="ci-num" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false" inputmode="text" aria-describedby="ci-hint">
     <p class="ci-hint" id="ci-hint"></p>
     <label for="ci-pin1">Choose a PIN (4 to 6 digits)</label>
-    <input id="ci-pin1" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="6" autocomplete="new-password">
-    <label for="ci-pin2">Type your PIN again</label>
-    <input id="ci-pin2" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="6" autocomplete="new-password">
-    <label class="own"><input id="ci-keep-r" type="checkbox"> This is my own device — keep me checked in for 30 days. Leave unticked on a shared computer.</label>
+    <div class="ci-pinrow"><input id="ci-pin1" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="6" autocomplete="new-password"><button type="button" class="link" id="ci-show" aria-controls="ci-pin1">Show</button></div>
+    <label class="own"><input id="ci-keep-r" type="checkbox"> This is my own device — keep me signed in for 30 days. Leave unticked on a shared computer.</label>
     <p class="ci-err" id="ci-err" role="alert" hidden></p>
-    <button id="ci-go" type="submit" class="primary">Register and check in</button>
-    <p class="ci-why" id="ci-to-unlock-wrap" hidden><button type="button" class="link" id="ci-to-unlock">Already registered on this device? Check in with your PIN</button></p>
+    <button id="ci-go" type="submit" class="primary">Sign up</button>
+    <p class="ci-why">Already signed up? <button type="button" class="link" id="ci-to-in2">Sign in</button></p>
   </form>
-  <p class="ci-why">Your number is checked for format on this device only. It is not stored, not sent anywhere, and not looked up on the register — entering it is your professional declaration. This device keeps only your regulator, the last three characters of your number (so people sharing a computer can tell their registrations apart) and a scrambled form of your PIN, which nobody can read back.</p>
-  <p class="ci-why">Medrics member? After checking in you can sign in from the foot of the page to keep your saved sets on every device. Optional — the tool is free either way.</p>
+  <p class="ci-ok" id="ci-note" hidden></p>
+  <p class="ci-why">What happens to your number: it goes once to the medrics server to create or find your account, and is kept only as a scrambled code that cannot be turned back into the number — with your regulator, the last three characters (so people sharing a computer can tell sign-ins apart) and a scrambled form of your PIN. It is checked for format, and against the regulator's public register where we are able to (the signed-in line says when it was); otherwise entering it is your professional declaration. No name, email or patient detail is ever asked for.</p>
+  <p class="ci-why">Medrics member? After signing in you can add member sync from the foot of the page to keep your saved sets on every device. Optional — the tool is free either way.</p>
 </section>
 <div class="head">
   <h1>Choose patient information</h1>
@@ -478,7 +542,7 @@ const MEDRICS_LOGO = "";   // the wordmark now lives in the brand bar at the top
 const TRUST_KEY = "medrics_trust";
 // Say where each result comes from, not just what it is — a clinician choosing
 // between "DVT" entries needs to see trust leaflet vs national NHS page at a glance.
-const TAGLABEL = { leaflet:"Trust leaflet", medicines:"NHS medicine", advice:"Local advice", service:"Trust service", nhs:"NHS info page", gov:"Official advice", trusted:"Trusted source" };
+const TAGLABEL = { leaflet:"Trust leaflet", medicines:"NHS medicine", advice:"Local advice", service:"Trust service", network:"Where to go", nhs:"NHS info page", gov:"Official advice", trusted:"Trusted source", gapfill:"Fills a gap" };
 
 // Trust registry (trusts.json). Fallback keeps the page working if it can't load.
 let REGISTRY = null, TRUST = null;
@@ -524,6 +588,10 @@ function sourcesFor(t) {
     [dir + "leaflets.json", "leaflet"],
     [dir + "services.json", "service"],
     [dir + "local_advice.json", "advice"],
+    // the trust's SERVICE DIRECTORY (specs/leaflets.md P22, the owner 2026-09-16: "is there neuro
+    // at Royal Surrey — or is it at St Peter's, or George's"): one row per service line,
+    // rendered on the patient page as where-to-go cards from the trust's own words
+    [dir + "network.json", "network"],
     ["nhs_resources.json", "nhs"],
     ["medicines.json", "medicines"],
     // the rest of NHS.uk's A–Z (nhs_catalogue.py, weekly) — a plain source:
@@ -531,6 +599,9 @@ function sourcesFor(t) {
     // 2026-09-05: "we already have the filters for specialty and can learn
     // from the user")
     ["nhs_catalogue.json", "nhs"],
+    // OTHER organisations' pages, offered only where this trust and NHS.uk have
+    // a gap and the quality checker passed them (specs/leaflets.md P19)
+    ["gap_fill.json", "gapfill"],
   ];
 }
 
@@ -624,7 +695,7 @@ function reEsc(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
 
 // Ranking: trust's own content first, then locally-authored advice, then the
 // shared national layer.
-const TYPE_BOOST = { leaflet: 6, advice: 5, medicines: 3, service: 2, nhs: 1, trusted: 1 };
+const TYPE_BOOST = { leaflet: 6, advice: 5, network: 4, medicines: 3, service: 2, nhs: 1, trusted: 1 };
 
 // Break the query into term groups. An item matches when EVERY group has at
 // least one alternative present; alternatives marked wb (abbreviations) must
@@ -754,6 +825,19 @@ function esc(s){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt
 // written by check_reviews.py). A leaflet past its printed review date gets a
 // "past review" tag so the clinician can prefer a current alternative.
 let REVIEWS = {};
+let READABILITY = {};   // optional per-trust layer readability.json: slug -> {reading_age}; no file = no hint
+let PDF_SHARE = 0, PDF_SHARE_N = -1;   // share of this trust's leaflets that are PDFs — a hint only where it tells the rows apart
+function pdfShare() {
+  // Royal Surrey's whole library is PDF: a "PDF" pill on every row would be
+  // noise, not a hint — show it only where a trust mixes formats. Memoised on
+  // the item count so it is computed once per load, not per row.
+  if (PDF_SHARE_N !== ITEMS.length) {
+    const leafs = ITEMS.filter(x => x.type === "leaflet");
+    PDF_SHARE = leafs.length ? leafs.filter(x => /\.pdf(\?|$)|download\.cfm/i.test(String(x.url || ""))).length / leafs.length : 0;
+    PDF_SHARE_N = ITEMS.length;
+  }
+  return PDF_SHARE;
+}
 let BUNDLES = [];
 
 // ---- Improvement telemetry (anonymous, dormant until a URL is pasted) -------
@@ -792,13 +876,55 @@ let ANALYTICS_URL = "https://brain.medrics.co.uk/api/leaflets/telemetry";
 const _sentQueries = new Set();   // in-memory only — dedupe, never persisted
 let _nrTimer = null;
 
-function telemetry(event, value) {
+// Recommendation scoring (the owner 2026-09-16: "you win if they keep clicking — win more
+// points; lose more points if nothing linked, and try to analyse why"): per basket, which
+// recommended chips were TAKEN (depth = how far the chain went), which were SHOWN, and which
+// selections were DEAD ENDS (nothing recommended). Slugs only, sent with the generate event;
+// Events/recommendation_score.py scores wins/losses weekly and explains the losses.
+const REC = { taken: [], shown: new Set(), dead: new Set() };
+// Learned co-pick ranks for THIS trust — served by the medrics server only when the trust is
+// licensed and the clinician is signed in (usage_intelligence.py). Ranks only; silent otherwise.
+const BUNDLES_API = "https://brain.medrics.co.uk/api/leaflets/bundles";
+function loadLearned() {
+  let tok = "";
+  try { tok = sessionStorage.getItem("medrics_checkin_tok") || ""; } catch (e) {}
+  if (!tok || !TRUST) { LEARNED = {}; return; }
+  fetch(BUNDLES_API + "?t=" + encodeURIComponent(TRUST.id), { headers: { "X-Medrics-Clinician": tok }, cache: "no-store" })
+    .then(r => r.ok ? r.json() : {}).then(j => { LEARNED = (j && j.ranks) || {}; renderRelated(); })
+    .catch(() => { LEARNED = {}; });
+}
+// Distinct-clinician key for the learned-bundle k-floor (decision record, 2026-09-16: anonymised,
+// never traceable to a user):
+[removed] a RANDOM 128-bit token this browser makes for itself and replaces every 30 days.
+// Never derived from the sign-in, the GMC number or the trust; the server keeps only a keyed
+// hash of it. It lets the builder count "three different browsers issued this pair" — nothing more.
+const DK_KEY = "medrics_dk", DK_DAYS = 30;
+function deviceKey() {
+  try {
+    const now = Date.now();
+    let d = lsGet(DK_KEY, null);
+    if (!d || !/^[0-9a-f]{32}$/.test(String(d.k || "")) || !(now - Number(d.t || 0) < DK_DAYS * 864e5)) {
+      if (!(window.crypto && crypto.getRandomValues)) return "";
+      const b = new Uint8Array(16); crypto.getRandomValues(b);
+      d = { k: [...b].map(x => x.toString(16).padStart(2, "0")).join(""), t: now };
+      lsSet(DK_KEY, d);
+    }
+    return d.k;
+  } catch (e) { return ""; }
+}
+function recReset() { REC.taken.length = 0; REC.shown.clear(); REC.dead.clear(); }
+function telemetry(event, value, fu) {
   if (!ANALYTICS_URL) return;
   try {
     const payload = JSON.stringify({
       event: event,
       value: String(value || "").slice(0, 200),
-      trust: TRUST ? TRUST.id : ""
+      trust: TRUST ? TRUST.id : "",
+      fu: String(fu || "").slice(0, 60),         // follow-up destination id only — never its day or time
+      rec_taken: event === "generate" ? REC.taken.join(",").slice(0, 500) : "",
+      rec_shown: event === "generate" ? [...REC.shown].join(",").slice(0, 500) : "",
+      rec_dead: event === "generate" ? [...REC.dead].join(",").slice(0, 500) : "",
+      dk: event === "generate" ? deviceKey() : ""
     });
     if (navigator.sendBeacon) navigator.sendBeacon(ANALYTICS_URL, payload);
     else fetch(ANALYTICS_URL, { method: "POST", mode: "no-cors", body: payload });
@@ -838,8 +964,10 @@ function telemetryNotice() {
   const p = document.createElement("div");
   p.id = "telnote";
   p.textContent = "Improvement analytics: this page counts when it is opened, "
-    + "searches that found nothing, and which leaflets are issued — anonymously, "
-    + "with no identifiers. Nothing about you or any patient is collected.";
+    + "searches that found nothing, which leaflets are issued and which suggestions are taken — "
+    + "anonymously. A random token this browser makes for itself, replaced every 30 days and "
+    + "stored only as a keyed hash, lets suggestions be learned only where several different "
+    + "clinicians agree; it cannot be traced to you. Nothing about you or any patient is collected.";
   f.appendChild(p);
 }
 // -----------------------------------------------------------------------------
@@ -950,14 +1078,14 @@ let _loadSeq = 0;   // guards against a slow older load overwriting a newer trus
 
 async function load() {
   const seq = ++_loadSeq;
-  ITEMS = []; bySlug.clear(); selected.clear();
+  ITEMS = []; bySlug.clear(); selected.clear(); recReset();
   // A walked driving-advice verdict must not survive a trust switch: the
   // official GOV.UK/CAA pages exist at every trust, so a stale pick could
   // ride into a later QR the moment that page is re-selected.
-  drvPicks.clear(); driveState = null;
+  drvPicks.clear(); drvWalked.clear(); driveState = null;
   // a follow-up must not survive a trust switch either — another trust's
   // destination id could silently resolve to a different unit
-  fuPick = null; FOLLOWUPS = [];
+  schedRelease(); fuPick = null; FOLLOWUPS = []; SCHED = new Map(); SCHED_SLOTS = null;
   renderFollowup();   // clear the old trust's chips NOW, not when the fetch lands
   renderSelected(); $("out").innerHTML = ""; $("results").innerHTML = "";
   $("count").textContent = "Loading…";
@@ -975,16 +1103,20 @@ async function load() {
   const LAYER_LABEL = { leaflet: "the trust's own leaflets", service: "trust service pages",
                         advice: "local advice cards", nhs: "national NHS resources",
                         medicines: "medicines pages" };
-  const [all, reviews, bundles, profiles, driving, followups, nhsCards, learned] = await Promise.all([
+  const [all, reviews, readability, bundles, profiles, driving, followups, nhsCards, learned] = await Promise.all([
     Promise.all(sources.map(([f, ty]) =>
       fetch(f, { cache: "no-cache" })
         .then(r => {
           if (!r.ok) { if (ty === "leaflet") failedLayers.push(LAYER_LABEL[ty]); return []; }
-          // a source is a bare array or {items: [...]} (nhs_catalogue.json)
-          return r.json().then(d => Array.isArray(d) ? d : ((d && d.items) || []));
+          // a source is a bare array or {items: [...]} (nhs_catalogue.json); network.json
+          // is {services: [...]} — each service line becomes one pickable row
+          return r.json().then(d => Array.isArray(d) ? d
+            : (ty === "network" ? ((d && d.services) || []).map(s => ({ title: "Where to go — " + s.label, slug: "net-" + s.id, type: "network", terms: s.terms || [] }))
+            : ((d && d.items) || [])));
         })
         .catch(() => { failedLayers.push(LAYER_LABEL[ty] || ty); return []; }))),
     trustFetch("reviews.json", { cache: "no-cache" }, {}).catch(() => ({})),
+    trustFetch("readability.json", { cache: "no-cache" }, {}).catch(() => ({})),
     fetch("related_bundles.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
     fetch("specialty_profiles.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
     fetch("driving_advice.json", { cache: "no-cache" })
@@ -1002,7 +1134,9 @@ async function load() {
     fetch("nhs_cards_index.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
     // what clinicians at this trust actually choose together (learned_bundles.py,
     // anonymous telemetry, ranks only) — a suggestion row, never an approval
-    fetch("learned_bundles.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+    // learned co-picks are a PAID asset since 2026-09-16 (the owner): they come from the medrics
+    // server for a LICENSED trust and a signed-in clinician, never from a public file
+    Promise.resolve({}),
   ]);
   // A newer load started while we were fetching (rapid trust switch): drop
   // this response, or trust A's data could render under trust B's banner.
@@ -1010,7 +1144,20 @@ async function load() {
   BUNDLES = (bundles && bundles.bundles) || [];
   DRIVING = (driving && driving.modules) || [];
   FOLLOWUPS = (followups && followups.destinations) || [];
-  LEARNED = ((learned && learned.trusts) || {})[TRUST.id] || {};
+  schedLoad();   // which of these the scheduling service can book (needs the sign-in session)
+  // GAP DETECTION (the owner 2026-09-16: "if there's a gap on the trust's leaflets/
+  // NHS we should know and suggest the best information"): a gap-fill row is
+  // kept only when none of its terms appears in any of this trust's own pages
+  // or any NHS.uk / medicines page — otherwise the local or national page wins.
+  const covered = ITEMS.filter(it => it.type !== "gapfill").map(it => fold(it.title));
+  const gapRows = ITEMS.filter(it => it.type === "gapfill");
+  for (const g of gapRows) {
+    const terms = (g.fills || []).map(fold);
+    const hit = terms.length && covered.some(t => terms.some(term => t.includes(term)));
+    if (hit) { ITEMS.splice(ITEMS.indexOf(g), 1); bySlug.delete(g.slug); }
+  }
+  LEARNED = {};
+  loadLearned();   // needs the sign-in session; re-runs after check-in
   // the index (a few KB) says which pages carry help cards — the store
   // itself is per-page now and never loaded here (2026-09-05, speed)
   NHS_CARDS = new Set(Object.entries((nhsCards && nhsCards.pages) || {})
@@ -1018,13 +1165,29 @@ async function load() {
   PROFILES = (profiles && profiles.profiles) || {};
   initSpecialtyUI();
   telemetryNotice();
+  // NEVER EVENT guard (2026-09-16: a Worcestershire leaflet was offered inside
+  // Royal Surrey's picker via the national layer): a national-layer row whose
+  // source or title names an NHS trust, or whose url is a trust's own site,
+  // is another trust's content — it is dropped here whatever the data says.
+  const OTHER_TRUST = /NHS (Foundation )?Trust|Teaching Hospitals|University Hospitals/i;
+  const isOtherTrust = it => {
+    if (OTHER_TRUST.test(String(it.source || "")) || OTHER_TRUST.test(String(it.title || ""))) return true;
+    try { const h = new URL(String(it.url || "")).hostname; return h.endsWith(".nhs.uk") && !["www.nhs.uk", "111.nhs.uk", "www.thinkkidneys.nhs.uk"].includes(h); } catch (e) { return false; }
+  };
+  let droppedOther = 0;
   REVIEWS = reviews || {};
+  READABILITY = (readability && readability.pages) || {};
   all.forEach((arr, i) => {
     const type = sources[i][1];
+    // the guard is for the NATIONAL layers only — the trust's own leaflets and
+    // services live on its own .nhs.uk site by definition
+    if (type === "gapfill") arr = (arr && arr.rows) ? arr.rows.filter(r => r.gap_fill === true && r.quality && r.quality.pass === true) : [];
+    // network = the trust's OWN directory of where its services are (other hospitals appear only as service pages)
+    if (Array.isArray(arr) && type !== "leaflet" && type !== "service" && type !== "gapfill" && type !== "network") { const before = arr.length; arr = arr.filter(it => !isOtherTrust(it)); droppedOther += before - arr.length; }
     arr.forEach(d => {
       const it = { title: d.title, slug: d.slug, type: d.type || type,
                    source: d.source,
-                   _title: fold(d.title), _hay: fold(d.title + " " + d.slug) };
+                   _title: fold(d.title), _hay: fold(d.title + " " + d.slug + " " + (d.terms || []).join(" ")) };
       ITEMS.push(it); bySlug.set(d.slug, it);
     });
   });
@@ -1145,7 +1308,7 @@ function resolveSuggestion(terms) {
 function renderRelated() {
   const el = $("related");
   if (!el) return;
-  if (!selected.size || !BUNDLES.length) { el.innerHTML = ""; return; }
+  if (!selected.size) { el.innerHTML = ""; return; }   // learned co-picks recommend even where no authored bundle matches
   const picks = new Map();
   for (const it of selected.values()) {
     for (const b of BUNDLES) {
@@ -1158,27 +1321,46 @@ function renderRelated() {
       }
     }
   }
-  const top = [...picks.values()].slice(0, 6);
-  // learned rows: what this trust's clinicians add with what is ticked, then
-  // what THIS DEVICE usually adds (≥2 past QRs) — both skip anything already
-  // picked or already suggested above
-  const seen = new Set([...selected.keys(), ...top.map(it => it.slug)]);
-  const learnedRow = [], deviceRow = [];
+  // ONE ranked row (the owner 2026-09-16: "this needs to be more intelligent. You don't need
+  // to put 'clinicians often add'. It's recommended and it's built off both things"):
+  // the clinically-authored bundles, this trust's real co-picks (telemetry ranks) and
+  // this device's own habit are scored together — a suggestion backed by more than one
+  // source ranks first — and near-duplicate titles ("Anticoagulant medicines" vs
+  // "Anticoagulant medicines (blood thinners)") collapse to the stronger one.
+  const cand = new Map();
+  const bump = (it, w, src) => {
+    if (!it || selected.has(it.slug)) return;
+    const c = cand.get(it.slug) || { it, score: 0, src: new Set() };
+    c.score += w; c.src.add(src); cand.set(it.slug, c);
+  };
+  for (const it of picks.values()) bump(it, 3, "bundle");
   for (const slug of selected.keys()) {
-    for (const s of (LEARNED[slug] || [])) { const it = bySlug.get(s); if (it && !seen.has(s)) { seen.add(s); learnedRow.push(it); } }
-    for (const s of devicePairs(slug, 2)) { const it = bySlug.get(s); if (it && !seen.has(s)) { seen.add(s); deviceRow.push(it); } }
+    (LEARNED[slug] || []).forEach((s, i) => bump(bySlug.get(s), Math.max(2, 4 - i * 0.5), "learned"));
+    for (const s of devicePairs(slug, 2)) bump(bySlug.get(s), 2, "device");
+  }
+  const key = it => fold(it.title).replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
+  const ranked = [...cand.values()].map(c => ({ ...c, score: c.score + (c.src.size > 1 ? 3 : 0) }))
+    .sort((a, b) => b.score - a.score || (TYPE_BOOST[b.it.type] || 0) - (TYPE_BOOST[a.it.type] || 0));
+  const top = [];
+  for (const c of ranked) {
+    const k = key(c.it);
+    if (top.some(x => { const kx = key(x); return kx === k || kx.startsWith(k + " ") || k.startsWith(kx + " "); })) continue;
+    top.push(c.it); if (top.length === 6) break;
   }
   const row = (label, items, cls) => items.length
-    ? `<div class="${cls}"><span class="rlabel">${label}</span> ` + items.slice(0, 5).map(it =>
+    ? `<div class="${cls}"><span class="rlabel">${label}</span> ` + items.map(it =>
         `<span class="chip" data-s="${esc(it.slug)}" role="button" tabindex="0" title="Add to selection">＋ ${esc(it.title)}</span>`).join(" ") +
-      (items.length > 1 ? ` <span class="chip addall" data-all="${esc(items.slice(0, 5).map(it => it.slug).join(","))}" role="button" tabindex="0" title="Add every suggestion in this row">＋ Add all</span>` : "") +
+      (items.length > 1 ? ` <span class="chip addall" data-all="${esc(items.map(it => it.slug).join(","))}" role="button" tabindex="0" title="Add every recommendation">＋ Add all</span>` : "") +
       `</div>` : "";
-  el.innerHTML = row("Often given together:", top, "") + row("Clinicians here often add:", learnedRow, "learnedrow")
-               + row("You usually add:", deviceRow, "learnedrow");
+  el.innerHTML = row("Recommended:", top, "");
+  for (const it of top) REC.shown.add(it.slug);
+  // a dead end: the item just added has nothing recommended after it
+  const lastPicked = [...selected.keys()].pop();
+  if (!top.length && lastPicked) REC.dead.add(lastPicked); else if (lastPicked) REC.dead.delete(lastPicked);
   el.querySelectorAll(".chip").forEach(c => {
     const add = () => {
       const slugs = c.dataset.all ? c.dataset.all.split(",") : [c.dataset.s];
-      for (const s of slugs) { const it = bySlug.get(s); if (it) selected.set(it.slug, it); }
+      for (const s of slugs) { const it = bySlug.get(s); if (it) { selected.set(it.slug, it); if (!REC.taken.includes(s)) REC.taken.push(s); } }
       renderSelected(); renderResults();
     };
     c.onclick = add;
@@ -1200,6 +1382,12 @@ let driveState = null;   // { m: module, node: id, trail: [ids] }
 // prompt to check it themselves"). Recorded ONLY when the clinician presses
 // ＋Add on a verdict — that click is the consent act. moduleId -> nodeId.
 let drvPicks = new Map();
+// Every VERDICT card shown this session, added to the QR or not. the owner
+// 2026-09-16: "driving advice isn't listed after going through" — the walk
+// ended on a verdict but ＋Add was never pressed, so the QR carried only the
+// official page. Generate now asks before issuing a QR without it. Still
+// never auto-inserted: the clinician's click stays the consent act.
+let drvWalked = new Map();   // module id -> { node, label, pslug }
 
 // A term counts only at a WORD START (left boundary; right stays open so
 // "transient ischem" matches "ischemic") — the JS twin of Python
@@ -1419,6 +1607,7 @@ function renderDrivePanel() {
         `<button data-next="${esc(o.next)}">${esc(o.label)}</button>`).join("") +
       `</div><div class="drvfoot">${srcLink}</div>`;
   } else {
+    drvWalked.set(m.id, { node: driveState.node, label: m.label, pslug: node.patient_slug || m.patient_slug });
     const VLAB = m.kind === "flying"
       ? { must_not: "Must not fly", may: "May fly",
           conditional: "Conditional — read the criteria",
@@ -1506,46 +1695,48 @@ function renderDrivePanel() {
   // "give the patient the official page" — clinician-controlled, adds the
   // GOV.UK/CAA patient item to the QR selection like any other resource
   const addBtn = host.querySelector(".drvadd");
-  if (addBtn) {
-    addBtn.onclick = () => {
-      const it = bySlug.get(addBtn.dataset.add);
-      if (it) {
-        // remember WHICH verdict the clinician was on — the patient page
-        // shows that exact verbatim rule above the official-page link
-        if (driveState && driveState.m && driveState.node
-            && (m.nodes[driveState.node] || {}).quote) {
-          drvPicks.set(driveState.m.id,
-                       { node: driveState.node, pslug: addBtn.dataset.add });
-          // one add covers both (the owner 2026-08-05/06). If this verdict MAPS
-          // to a flying answer (node.fly — shown on the card the clinician
-          // just signed), the patient gets that answer as checked. Otherwise
-          // a matching other-kind module rides along as a NEUTRAL card.
-          const mapped = m.nodes[driveState.node].fly;
-          if (mapped) {
-            const fm = DRIVING.find(x => x.id === mapped.module);
-            const fps = fm && fm.patient_slug;
-            if (fm && fps && bySlug.has(fps)) {
-              drvPicks.set(fm.id, { node: mapped.node, pslug: fps });
-              selected.set(fps, bySlug.get(fps));
-            }
-          }
-          const flying = m.kind === "flying";
-          for (const om of DRIVING) {
-            if ((om.kind === "flying") === flying) continue;
-            if (!om.imply_node || drvPicks.has(om.id)) continue;
-            if (![...selected.values()].some(s => drvMatches(s, om))
-                && !drvMatches(it, om)) continue;
-            const ops = om.patient_slug;
-            if (ops && bySlug.has(ops)) {
-              drvPicks.set(om.id, { node: om.imply_node, pslug: ops, implied: true });
-              selected.set(ops, bySlug.get(ops));
-            }
-          }
-        }
-        selected.set(it.slug, it); renderSelected(); renderResults();
+  if (addBtn) addBtn.onclick = () => { if (addVerdictToQr(m, driveState.node, addBtn.dataset.add)) renderDrivePanel(); };
+}
+
+// "give the patient the official page" — clinician-controlled, adds the
+// GOV.UK/CAA patient item to the QR selection like any other resource, and
+// remembers WHICH verdict the clinician was on: the patient page shows that
+// exact verbatim rule above the official-page link. Shared by the card's
+// ＋Add button and the generate-time "you walked this but didn't add it" prompt.
+function addVerdictToQr(m, nodeId, pslug) {
+  const it = bySlug.get(pslug);
+  if (!it) return false;
+  const node = (m.nodes || {})[nodeId];
+  if (node && node.quote) {
+    drvPicks.set(m.id, { node: nodeId, pslug });
+    // one add covers both (the owner 2026-08-05/06). If this verdict MAPS
+    // to a flying answer (node.fly — shown on the card the clinician
+    // just signed), the patient gets that answer as checked. Otherwise
+    // a matching other-kind module rides along as a NEUTRAL card.
+    const mapped = node.fly;
+    if (mapped) {
+      const fm = DRIVING.find(x => x.id === mapped.module);
+      const fps = fm && fm.patient_slug;
+      if (fm && fps && bySlug.has(fps)) {
+        drvPicks.set(fm.id, { node: mapped.node, pslug: fps });
+        selected.set(fps, bySlug.get(fps));
       }
-    };
+    }
+    const flying = m.kind === "flying";
+    for (const om of DRIVING) {
+      if ((om.kind === "flying") === flying) continue;
+      if (!om.imply_node || drvPicks.has(om.id)) continue;
+      if (![...selected.values()].some(s => drvMatches(s, om))
+          && !drvMatches(it, om)) continue;
+      const ops = om.patient_slug;
+      if (ops && bySlug.has(ops)) {
+        drvPicks.set(om.id, { node: om.imply_node, pslug: ops, implied: true });
+        selected.set(ops, bySlug.get(ops));
+      }
+    }
   }
+  selected.set(it.slug, it); renderSelected(); renderResults();
+  return true;
 }
 
 // ---- Follow-up picker (the owner 2026-09-03) -----------------------------------
@@ -1556,11 +1747,28 @@ function renderDrivePanel() {
 // needs a day — "10:30" with no day means nothing to a patient). Any change
 // routes through renderSelected() so the stale-QR warning fires exactly
 // like a selection change.
+// SMART SUGGESTION (the owner 2026-09-16: "the Royal Surrey would suggest the EEMAC
+// tag when deep vein thrombosis is selected — we have rules based on the Royal
+// Surrey guidelines"): the unit's pathway register (served with its diary)
+// carries the guideline associations; a ticked leaflet matching a pathway's
+// terms suggests that unit's follow-up chip and pre-selects the pathway. Rules
+// today; learned co-picks (generate telemetry now carries the destination id,
+// anonymous, k>=3) join the same slot once there is use to learn from.
+function fuSuggested() {
+  const text = schedTextForMatch();
+  const out = [];
+  for (const [fid, s] of SCHED) {
+    const pw = (s.pathways || []).find(p => (p.terms || []).some(term => text.includes(term.toLowerCase())));
+    if (pw && !out.some(o => o.fid === fid)) out.push({ fid, pathway: pw.id, label: pw.label });
+  }
+  return out;
+}
 function renderFollowup() {
   const el = $("followup");
   if (!el) return;
   if (!FOLLOWUPS.length) { el.innerHTML = ""; return; }
   if (fuPick && !FOLLOWUPS.some(d => d.id === fuPick.id)) fuPick = null;
+  const sugg = fuPick ? [] : fuSuggested();
   const chips = FOLLOWUPS.filter(d => d.featured);
   const rest = FOLLOWUPS.filter(d => !d.featured);
   // group order = order the groups first appear in the data file
@@ -1569,10 +1777,12 @@ function renderFollowup() {
   const restPicked = fuPick && rest.some(d => d.id === fuPick.id);
   el.innerHTML =
     `<span class="rlabel">📅 Coming back for a follow-up?</span> ` +
-    chips.map(d =>
-      `<span class="chip${fuPick && fuPick.id === d.id ? " on" : ""}" data-f="${esc(d.id)}" ` +
-      `role="button" tabindex="0" title="Show a ${esc(d.label)} on the patient's page">` +
-      `${fuPick && fuPick.id === d.id ? "✓ " : (d.kind === "pifu" ? "📞 " : "")}${esc(d.label)}</span>`).join(" ") +
+    (sugg.length ? `<span class="fusuggest">suggested for what you ticked → </span>` : "") +
+    chips.map(d => {
+      const sg = sugg.find(o => o.fid === d.id);
+      return `<span class="chip${fuPick && fuPick.id === d.id ? " on" : ""}${sg ? " sug" : ""}" data-f="${esc(d.id)}" ` +
+      `role="button" tabindex="0" title="${sg ? esc(sg.label) + " — from the unit's own pathway rules" : "Show a " + esc(d.label) + " on the patient's page"}">` +
+      `${fuPick && fuPick.id === d.id ? "✓ " : (d.kind === "pifu" ? "📞 " : (sg ? "★ " : ""))}${esc(d.label)}</span>`; }).join(" ") +
     (rest.length
       ? ` <select id="fusel" aria-label="Choose a ward, clinic or unit for follow-up">` +
         `<option value="">${chips.length ? "Or a ward, clinic or unit…" : "Choose a ward, clinic or unit…"}</option>` +
@@ -1598,6 +1808,7 @@ function renderFollowup() {
 // pathway IS its leaflet, so picking it puts the trust's own PIFU leaflet on
 // the QR — the tap on the chip is the consent act, and the panel says so.
 function fuApplyPick(id) {
+  schedRelease(); SCHED_NOTE = "";
   fuPick = id ? { id, date: "", time: "" } : null;
   const d = id && FOLLOWUPS.find(x => x.id === id);
   if (d && d.kind === "pifu" && d.info_slug && bySlug.has(d.info_slug)) {
@@ -1606,7 +1817,7 @@ function fuApplyPick(id) {
   fuChanged(); renderResults();
   // the row re-rendered under the keyboard user — land them on the
   // natural next step instead of dropping focus to <body>
-  if (fuPick && !(d && d.kind === "pifu")) { const dt = $("fudate"); if (dt) dt.focus(); }
+  if (fuPick && !(d && (d.kind === "pifu" || d.kind === "request"))) { const dt = $("fudate"); if (dt) dt.focus(); }
 }
 
 // Patient-information suggestions for the picked pathway: the destination's
@@ -1663,9 +1874,14 @@ function renderFuPanel() {
     + String(today.getDate()).padStart(2, "0");
   const sugs = fuSuggestions(d);
   const pifu = d.kind === "pifu";
+  // a REQUEST destination (kind "request", e.g. an ultrasound scan, 2026-09-16)
+  // has no day or time either: the department arranges the appointment and
+  // contacts the patient — the card says so, and the scheduler (when reachable)
+  // mints the reference for the clinician's email
+  const req = d.kind === "request";
   // a call-if-needed pathway has no day or time — the card carries the
   // trust's own number, hours and window instead (the owner 2026-09-03)
-  const dayTime = pifu ? "" : `
+  const dayTime = (pifu || req) ? "" : `
     <div class="fudays"><span class="rlabel">Day:</span> ${fuDayChips().map(c =>
         `<span class="chip${fuPick.date === c.iso ? " on" : ""}" data-d="${c.iso}" role="button" tabindex="0">${esc(c.lab)}</span>`).join(" ")}
       <label class="fuother">or another day
@@ -1686,7 +1902,10 @@ function renderFuPanel() {
             : !hh ? `<span class="fuother">optional — leave blank if there's no set time</span>` : "");
       })()}
     </div>`;
-  const hint = pifu
+  const hint = req
+    ? `No time to set — ${esc(d.name || d.label)} arranges the appointment and contacts the patient; the patient's page says so.` +
+      ` Email the department from your NHS mail${SCHED.size ? "" : " (the scheduler is not connected, so there is no reference to quote)"}.`
+    : pifu
     ? `No appointment. The patient's card says to call ${esc(d.phone || "the unit")}${d.hours ? " (" + esc(d.hours) + ")" : ""}` +
       ` if symptoms get worse or don't improve${d.window_days ? " within " + d.window_days + " days" : ""}` +
       ` — the hospital's own PIFU leaflet is on the QR.`
@@ -1695,9 +1914,10 @@ function renderFuPanel() {
       : "No day set — the patient's page will just say to come back, and where.") +
       (d.find_url ? " It includes a “How to find it” link to the hospital's own directions."
       : (d.where ? "" : " ⚠ No published directions for this unit yet — tell the patient where to go."));
+  const sched = !pifu && SCHED.get(d.id);
   host.innerHTML = `<div class="fupanel">
-    <p class="q">${pifu ? "📞 Call-if-needed: " : "Follow-up: "}${esc(d.name || d.label)}</p>${dayTime}
-    <p class="fuhint">${hint}</p>
+    <p class="q">${pifu ? "📞 Call-if-needed: " : req ? "📨 Request: " : "Follow-up: "}${esc(d.name || d.label)}</p>${sched ? schedPanelHtml(d, sched, dayTime) : dayTime}
+    ${sched ? "" : `<p class="fuhint">${hint}</p>`}
     ${sugs.length
       ? `<div class="fusug"><span class="rlabel">Patient info for this pathway:</span> ` +
         sugs.map(it =>
@@ -1751,7 +1971,8 @@ function renderFuPanel() {
     c.onclick = pick;
     c.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(); } };
   });
-  $("furemove").onclick = () => { fuPick = null; fuChanged(); };
+  $("furemove").onclick = () => { schedRelease(); fuPick = null; fuChanged(); };
+  if (sched) schedBind(host, d, sched);
   host.querySelectorAll(".fusug .chip").forEach(c => {
     const add = () => {
       const it = bySlug.get(c.dataset.s);
@@ -1761,6 +1982,372 @@ function renderFuPanel() {
     c.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); add(); } };
   });
 }
+
+// ---- Follow-up scheduling (the ambulatory unit's ask, 2026-09-16; specs/scheduling.md) ----
+// A destination is BOOKABLE only when the medrics scheduling service says so
+// for this trust — never the public followups.json. Slots kind: live free
+// times from the unit's diary; one tap HOLDS a slot for a few minutes and
+// mints a reference; generating the QR BOOKS it. Request kind (ultrasound):
+// one tap mints a reference and the department arranges the time itself.
+// In both, the patient's identity travels ONLY in the email the clinician
+// sends from their own NHS mail client (mailto:) quoting the reference —
+// the picker holds no patient detail and the reference on the patient's
+// card is the only link. Needs the clinician sign-in session (header, never
+// a URL); anything failing degrades to the hand-set day/time.
+const SCHED_API = "https://brain.medrics.co.uk/api/leaflets/schedule";
+let SCHED = new Map();          // followup id -> { service, kind, label, mode }
+let SCHED_SLOTS = null;         // { key, state: "loading"|"ok"|"down", slots, hold }
+let SCHED_NOTE = "";
+// the slot list's fold state survives re-renders: which day headings are open,
+// whether "Next week" is unfolded (the owner 2026-09-16: too many timings on screen)
+let SCHED_UI = { week: 0, day: "" };   // which week (0 this, 1 next) and which day chip is selected
+let SCHED_TICK = null;          // the once-a-minute re-render while a slot is held
+
+function schedToken() { try { return currentToken(checkinRecord()); } catch (e) { return null; } }
+
+async function schedCall(path, method, body) {
+  const tok = schedToken();
+  if (!tok) throw new Error("no session");
+  const ctl = (typeof AbortController === "function") ? new AbortController() : null;
+  const timer = ctl ? setTimeout(() => ctl.abort(), 9000) : null;
+  try {
+    const headers = { "X-Medrics-Clinician": tok };
+    if (body) headers["Content-Type"] = "application/json";
+    const res = await fetch(SCHED_API + path, { method, headers,
+      body: body ? JSON.stringify(body) : undefined, signal: ctl ? ctl.signal : undefined });
+    let json = null;
+    try { json = await res.json(); } catch (e) { json = null; }
+    return { status: res.status, json: json || {} };
+  } finally { if (timer) clearTimeout(timer); }
+}
+
+async function schedLoad() {
+  SCHED = new Map(); SCHED_SLOTS = null;
+  if (!TRUST || !schedToken()) return;
+  const tid = TRUST.id;
+  try {
+    const r = await schedCall("/services?t=" + encodeURIComponent(tid), "GET");
+    if (r.status !== 200 || !TRUST || TRUST.id !== tid) return;   // trust switched meanwhile
+    for (const s of (r.json.services || [])) SCHED.set(s.followup_id, s);
+  } catch (e) { return; }
+  if (SCHED.size) renderFollowup();
+}
+
+async function schedFetchSlots(d, s) {
+  const key = TRUST.id + "/" + s.service;
+  if (!SCHED_SLOTS || SCHED_SLOTS.key !== key) SCHED_UI = { week: 0, day: "" };   // the day choice is per unit (Codex U9)
+  SCHED_SLOTS = { key, state: "loading", slots: [] };
+  renderFuPanel();
+  try {
+    const r = await schedCall("/slots?t=" + encodeURIComponent(TRUST.id) + "&s=" + encodeURIComponent(s.service), "GET");
+    if (!SCHED_SLOTS || SCHED_SLOTS.key !== key) return;
+    SCHED_SLOTS = (r.status === 200)
+      ? { key, state: "ok", slots: r.json.slots || [], hold: r.json.hold_minutes || 15 }
+      : { key, state: "down", slots: [] };
+  } catch (e) { if (SCHED_SLOTS && SCHED_SLOTS.key === key) SCHED_SLOTS = { key, state: "down", slots: [] }; }
+  renderFuPanel();
+}
+
+// a hold / request / book answer -> the picked follow-up (date+time come from the slot)
+function schedApply(json) {
+  fuPick.ref = json.ref; fuPick.status = json.status; fuPick.mail = json.mail || null;
+  fuPick.hold_expires = json.hold_expires || "";
+  fuPick.sealed = !!json.sealed; fuPick.pubkey = json.pubkey || null; fuPick.identity = json.identity || (json.pubkey ? "sealed" : "email");
+  fuPick.pathway = json.pathway || ""; fuPick.purpose = json.purpose || ""; fuPick.request_mail = json.request_mail || null;
+  if (json.slot) { fuPick.date = json.slot.slice(0, 10); fuPick.time = json.slot.slice(11, 16); }
+}
+
+async function schedHold(d, s, slot) {
+  try {
+    const sugPw = schedSuggestPathway(s);
+    const r = await schedCall("/hold", "POST", Object.assign({ t: TRUST.id, s: s.service, slot }, sugPw ? { pathway: sugPw } : {}));
+    if (r.status === 200) { schedApply(r.json); fuChanged(); return; }
+    SCHED_SLOTS = null;                     // 409 = just gone: reload the list
+    schedNote(r.json.error || "Could not hold that time.");
+    schedFetchSlots(d, s);
+  } catch (e) {
+    SCHED_SLOTS = { key: TRUST.id + "/" + s.service, state: "down", slots: [] };
+    schedNote("The scheduler is unreachable — set the day and time by hand.");
+  }
+}
+
+async function schedRequest(d, s) {
+  try {
+    const r = await schedCall("/request", "POST", { t: TRUST.id, s: s.service });
+    if (r.status === 200) { schedApply(r.json); fuChanged(); return; }
+    schedNote(r.json.error || "Could not create a request.");
+  } catch (e) { schedNote("The scheduler is unreachable — email the department without a reference."); }
+}
+
+// best effort: the hold expires on its own anyway; a booked slot is freed for the unit
+// Automatic paths (trust switch, Clear all, picking another destination) release
+// only what the patient does NOT yet hold a card for: a held slot, or a request
+// before Generate. Once the card is issued (fuPick.issued) the booking stays on
+// the unit's diary unless the clinician explicitly cancels it (force=true, with
+// a confirm) — found 2026-09-16: Clear all after Generate would have cancelled
+// the patient's slot while they walked away with the card.
+function schedRelease(force) {
+  if (!fuPick || !fuPick.ref) return;
+  const issued = !!fuPick.issued;
+  if (issued && !force) return;                       // the patient's booking stands
+  if (["held", "requested", "booked"].includes(fuPick.status)) {
+    schedCall("/release", "POST", { ref: fuPick.ref }).catch(() => {});
+  }
+  delete fuPick.ref; delete fuPick.status; delete fuPick.mail; delete fuPick.hold_expires; delete fuPick.issued;
+}
+
+function schedNote(msg) { SCHED_NOTE = msg || ""; renderFuPanel(); }
+
+// held -> booked the moment the card is issued. false = generate must stop.
+async function schedBeforeGenerate() {
+  if (!fuPick || !fuPick.ref || fuPick.status !== "held") return true;
+  try {
+    const r = await schedCall("/book", "POST", { ref: fuPick.ref });
+    if (r.status === 200) { schedApply(r.json); renderFuPanel(); return true; }
+    delete fuPick.ref; delete fuPick.mail; fuPick.status = "expired"; fuPick.date = ""; fuPick.time = "";
+    SCHED_SLOTS = null;
+    schedNote(r.json.error || "Your held time expired — pick a time again.");
+    const d = FOLLOWUPS.find(x => x.id === fuPick.id), s = SCHED.get(fuPick.id);
+    if (d && s) schedFetchSlots(d, s);
+    return false;
+  } catch (e) {
+    // (Codex F2, 2026-09-16) never issue a card for a hold the scheduler did not
+    // confirm as booked — the unit's diary could drop it while the patient keeps
+    // a card saying to attend. The hold stays on the panel so Generate can be retried.
+    schedNote("The scheduler did not answer, so this time is NOT booked yet — try Generate again in a moment. If it stays down, choose 'Choose a different time' and set a day and time by hand.");
+    return false;
+  }
+}
+
+// SEALED IDENTIFIER (the owner 2026-09-16 evening: no reference for the patient;
+// "we need some form of encryption if we hold the hospital number"): the
+// clinician types the hospital number ONLY, this browser encrypts it with
+// WebCrypto RSA-OAEP to the unit's public key (registered by the unit's own
+// diary page), and the scheduler stores ciphertext it cannot read. The unit's
+// page decrypts with the private key that never left its computer. The number
+// is cleared from the field the moment it is sealed. Fallback: email.
+// ONE lane per unit (the owner 2026-09-16: "we shouldn't be doing two things"): a
+// unit with a registered key gets the sealed hospital number and NO email
+// button; a unit without one gets the email button and NO number field.
+function schedSealHtml(s) {
+  const pk = (fuPick && fuPick.pubkey) || s.pubkey;
+  if (!pk || !pk.jwk) return `<p class="fuhint">${esc(s.label)} receives bookings by email: put ONLY the patient's hospital number (no name, no date of birth) in the email, next to the reference.</p>` + schedMailButton(s.label);
+  if (fuPick.sealed) return `<p class="schedsealed">🔒 Hospital number sealed for ${esc(s.label)} — only their diary computer can read it. <button type="button" class="link" id="schedunseal">Change</button></p>`;
+  return `<div class="schedseal"><label for="schedhn">Patient's hospital number</label>
+    <input id="schedhn" type="text" inputmode="text" autocomplete="off" autocapitalize="characters" maxlength="16" placeholder="e.g. RS1234567" aria-describedby="schedsealhint">
+    <button type="button" class="schedgo" id="schedseal">🔒 Seal for ${esc(s.label)}</button>
+    <p class="fuhint" id="schedsealhint">Scrambled in this browser to ${esc(s.label)}'s key (id ${esc(pk.kid || "")} — the unit's diary page shows the same id) before it leaves; medrics' server holds no key and cannot read it. The number only: no name, no date of birth.</p></div>`;
+}
+
+async function schedSeal(d, s) {
+  const inp = $("schedhn"); if (!inp) return;
+  const v = (inp.value || "").trim().toUpperCase().replace(/\s+/g, "");
+  if (!/^[A-Z0-9-]{4,16}$/.test(v)) { schedNote("Enter the hospital number only — 4 to 16 letters or digits."); return; }
+  const pk = (fuPick && fuPick.pubkey) || s.pubkey;
+  try {
+    const key = await crypto.subtle.importKey("jwk", { kty: "RSA", n: pk.jwk.n, e: pk.jwk.e, alg: "RSA-OAEP-256", ext: true },
+      { name: "RSA-OAEP", hash: "SHA-256" }, false, ["encrypt"]);
+    // the ciphertext is BOUND to this booking (Codex S5): the payload carries the
+    // reference and the OAEP label is the reference, so a ciphertext moved onto
+    // another booking will not open there
+    const payload = new TextEncoder().encode(JSON.stringify({ hn: v, ref: fuPick.ref }));
+    const ct = new Uint8Array(await crypto.subtle.encrypt({ name: "RSA-OAEP", label: new TextEncoder().encode(fuPick.ref) }, key, payload));
+    let bin = ""; for (const b of ct) bin += String.fromCharCode(b);
+    const r = await schedCall("/seal", "POST", { ref: fuPick.ref, sealed: { kid: pk.kid, ct: btoa(bin) } });
+    if (r.status === 200) {
+      inp.value = "";                                   // cleared only once the server holds the sealed form (Codex S10)
+      schedApply(Object.assign({}, r.json, { ref: fuPick.ref })); SCHED_NOTE = ""; renderFuPanel(); return;
+    }
+    schedNote(r.json.error || "Could not seal the number — try again, or put it in your email to the unit's inbox.");
+  } catch (e) { schedNote("This browser could not seal the number — put it in your email instead."); }
+}
+
+async function schedUnseal() {
+  try {
+    const r = await schedCall("/seal", "POST", { ref: fuPick.ref, sealed: null });
+    if (r.status === 200) { fuPick.sealed = false; fuPick.mail = r.json.mail || fuPick.mail; renderFuPanel(); return; }
+  } catch (e) {}
+  schedNote("Could not change it — try again.");
+}
+
+// WHAT THE APPOINTMENT IS FOR (the owner 2026-09-16: "inferred from what leaflets
+// were submitted with the patient… a quick button on the clinician's side to
+// confirm the EEMAC pathway — if they confirm US we can send an email to
+// request the US"). The unit's pathway register (ids, labels, match terms —
+// never the internal quotes) comes with the services listing; the leaflets
+// ticked for this patient SUGGEST a pathway; the clinician confirms with one
+// tap; a pathway that carries a request (limb ultrasound) then offers the
+// request email to the department, from the clinician's own NHS mail.
+function schedTextForMatch() {
+  return [...selected.values()].map(it => (it.title || "") + " " + (it.slug || "")).join(" | ").toLowerCase();
+}
+function schedSuggestPathway(s) {
+  const text = schedTextForMatch();
+  const hits = (s.pathways || []).filter(pw => (pw.terms || []).some(term => text.includes(term.toLowerCase())));
+  return hits.length ? hits[0].id : "";
+}
+function schedExclusions(s) {
+  const text = schedTextForMatch();
+  return (s.exclusions || []).filter(x => (x.terms || []).some(term => text.includes(term.toLowerCase())));
+}
+let SCHED_PW_ALL = false;   // "choose a different pathway" reveals the whole register
+function schedPathwayHtml(s) {
+  if (!(s.pathways || []).length) return "";
+  const sug = fuPick.pathway ? "" : schedSuggestPathway(s);
+  // clinician side (the owner 2026-09-16): only the suggested or chosen indication
+  // shows; the full register unfolds on request
+  const shown = SCHED_PW_ALL ? s.pathways : s.pathways.filter(pw => pw.id === fuPick.pathway || pw.id === sug);
+  const more = (!SCHED_PW_ALL && shown.length < s.pathways.length)
+    ? ` <button type="button" class="link" id="schedpwall">${shown.length ? "Choose a different pathway" : "Choose the pathway"}</button>` : "";
+  const chips = shown.map(pw => {
+    const on = fuPick.pathway === pw.id, isSug = !on && sug === pw.id;
+    return `<button type="button" class="chip${on ? " on" : ""}${isSug ? " sug" : ""}${pw.confirmed ? "" : " unc"}" data-pw="${esc(pw.id)}" aria-pressed="${on ? "true" : "false"}" ` +
+      `title="${esc(pw.purpose || pw.label)}${pw.confirmed ? "" : " — not yet confirmed with the unit"}">${on ? "✓ " : ""}${esc(pw.label)}</button>`;
+  }).join(" ");
+  const excl = schedExclusions(s).map(x => `<p class="schedexcl">⚠ ${esc(x.note)}</p>`).join("");
+  const req = (fuPick.pathway && fuPick.request_mail && ["booked", "confirmed", "requested"].includes(fuPick.status))
+    ? `<p><a class="schedmail" href="${esc(schedMailHref(fuPick.request_mail))}">✉ ${esc((s.pathways.find(p => p.id === fuPick.pathway) || {}).request_label || "Send the request")}</a>` +
+      `<span class="fuother">opens your NHS mail to the department — add the patient's details there</span></p>`
+    : (fuPick.pathway && fuPick.request_mail ? `<p class="fuhint">Generate the QR first — then the request email button appears here.</p>` : "");
+  return `<div class="schedpw"><span class="rlabel">${fuPick.pathway ? "Appointment for:" : (sug ? "Appointment for — suggested from the leaflets ticked, tap to confirm:" : "Appointment for:")}</span>${chips}${more}${excl}${req}</div>`;
+}
+async function schedSetPathway(pid) {
+  try {
+    const r = await schedCall("/pathway", "POST", { ref: fuPick.ref, pathway: pid });
+    if (r.status === 200) { schedApply(Object.assign({}, r.json, { ref: fuPick.ref })); SCHED_NOTE = ""; renderFuPanel(); return; }
+    schedNote(r.json.error || "Could not set the pathway.");
+  } catch (e) { schedNote("The scheduler did not answer — try again."); }
+}
+
+function schedMailHref(mail) {
+  return "mailto:" + encodeURIComponent(mail.to || "") + "?subject=" + encodeURIComponent(mail.subject || "")
+    + "&body=" + encodeURIComponent(mail.body || "");
+}
+function schedMailButton(label) {
+  // email lane only (no unit key), and only once the card is issued (booked) or
+  // a request exists — a held slot has no card yet (Codex F3, 2026-09-16)
+  if (!fuPick || !fuPick.mail || fuPick.identity === "sealed" || !["booked", "confirmed", "requested"].includes(fuPick.status)) return "";
+  return `<a class="schedmail" href="${esc(schedMailHref(fuPick.mail))}">✉ Confirm with ${esc(label)} by email</a>` +
+    `<span class="fuother">opens your own mail app — add the patient's details there, inside NHS mail</span>`;
+}
+function schedWhen(slot) {
+  const dt = new Date(+slot.slice(0, 4), +slot.slice(5, 7) - 1, +slot.slice(8, 10), +slot.slice(11, 13), +slot.slice(14, 16));
+  return dt.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" }) + " at " + slot.slice(11, 16);
+}
+
+function schedPanelHtml(d, s, dayTime) {
+  const test = s.mode !== "live"
+    ? `<p class="schedtest">TEST scheduler — ${esc(s.label)}'s real diary is not connected yet. Do not promise this time to a patient unless the unit has agreed to the test.</p>`
+    : "";
+  const note = (SCHED_NOTE ? `<p class="schednote" role="alert">${esc(SCHED_NOTE)}</p>` : "") +
+    // (Codex F7) a booked time with nowhere to go is a missed follow-up
+    (s.kind !== "request" && !d.where && !d.find_url
+      ? `<p class="schednote">⚠ No published directions for ${esc(s.label)} — tell the patient where to go.</p>` : "");
+  if (!schedToken()) return test + note + `<p class="fuhint">Sign in to see ${esc(s.label)}'s live slots.</p>` + dayTime;
+  if (fuPick.ref && fuPick.status !== "expired") {
+    const isReq = s.kind === "request";
+    const head = isReq ? "📨 Requested" : (fuPick.status === "held" ? "⏳ Held" : "✅ Booked");
+    const when = (!isReq && fuPick.date) ? " · " + esc(schedWhen(fuPick.date + "T" + (fuPick.time || "00:00"))) : "";
+    // minutes LEFT on the hold, not the original length (Codex U2): re-rendered
+    // each minute while held so the number is honest on a busy shift
+    const minsLeft = fuPick.hold_expires ? Math.max(0, Math.ceil((new Date(fuPick.hold_expires) - new Date()) / 60000)) : ((SCHED_SLOTS && SCHED_SLOTS.hold) || 15);
+    if (fuPick.status === "held") { clearTimeout(SCHED_TICK); SCHED_TICK = setTimeout(() => { if (fuPick && fuPick.status === "held") renderFuPanel(); }, 60000); }
+    const how = isReq ? "The department arranges the time and contacts the patient. "
+      : (fuPick.status === "held" ? (minsLeft ? "Held for about " + minsLeft + " min — Generate the QR to book it. " : "This hold has run out — choose a time again. ") : "");
+    return test + note + `<div class="schedref">
+      <p class="q">${head}: ${esc(s.label)}${when}</p>
+      <p class="schedcode">Reference <strong>${esc(fuPick.ref)}</strong> <span class="fuother">internal — the patient's card shows only where and when</span></p>
+      <p class="fuhint">${how}</p>
+      ${schedPathwayHtml(s)}
+      ${schedSealHtml(s)}
+      <p><button type="button" class="furemove" id="schedrelease">${isReq ? "Withdraw request" : "Choose a different time"}</button></p>
+    </div>`;
+  }
+  if (s.kind === "request") {
+    return test + note + `<p class="fuhint">${esc(s.label)}: the department books the time itself. Get a reference, then email them from your NHS mail — the reference is the only link between your email and the patient's card.</p>
+      <p><button type="button" class="schedgo" id="schedreq">📨 Request — get a reference</button></p>`;
+  }
+  const key = TRUST.id + "/" + s.service;
+  if (!SCHED_SLOTS || SCHED_SLOTS.key !== key) { schedFetchSlots(d, s); return test + `<p class="fuhint">Loading ${esc(s.label)}'s free times…</p>`; }
+  if (SCHED_SLOTS.state === "loading") return test + note + `<p class="fuhint">Loading ${esc(s.label)}'s free times…</p>`;
+  if (SCHED_SLOTS.state === "down") return test + note + `<p class="fuhint">Live slots are unavailable right now — set a day and time by hand and confirm with the unit by email.</p>` + dayTime;
+  if (!SCHED_SLOTS.slots.length) return test + note + `<p class="fuhint">No free times in the next two weeks — set a day and time by hand and confirm with the unit by email.</p>` + dayTime;
+  return test + note + `<div class="schedlive" role="region" aria-label="Free follow-up times at ${esc(s.label)}"><p class="fuhint">Available slots at ${esc(s.label)} — tap one to hold it for ${SCHED_SLOTS.hold || 15} minutes. <button type="button" class="link" id="schedrefresh">Refresh</button></p>${schedSlotsHtml(s)}</div>`;
+}
+
+// Two weeks of days as chip rows, exactly like the hand-set Day/Time rows
+// (the owner 2026-09-16: "too many timings on screen… like this"): one tap on
+// "Next available" holds the earliest free time; otherwise a Day row of seven
+// chips (this week), a "Next week ›" chip that swaps the row for the seven
+// after, and a Time row showing only the chosen day's free times. Days with no
+// free times are dashed and not tappable. Chips are real buttons (keyboard and
+// screen-reader friendly); the chosen week/day is kept in SCHED_UI so a
+// re-render after a hold or refresh does not lose the place.
+function schedSlotsHtml(s) {
+  // local "YYYY-MM-DDTHH:MM" strings by contract (never parsed with new Date —
+  // Safari reads an offset-less timestamp as UTC); lexical order = time order
+  const slots = SCHED_SLOTS.slots.slice().sort((a, b) => (a.start < b.start ? -1 : a.start > b.start ? 1 : 0));
+  const byDay = new Map();
+  for (const sl of slots) { const day = sl.start.slice(0, 10); if (!byDay.has(day)) byDay.set(day, []); byDay.get(day).push(sl); }
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const iso = dt => dt.getFullYear() + "-" + String(dt.getMonth() + 1).padStart(2, "0") + "-" + String(dt.getDate()).padStart(2, "0");
+  const dayAt = i => new Date(today.getFullYear(), today.getMonth(), today.getDate() + i);
+  const dm = d => d.toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+  const base = SCHED_UI.week ? 7 : 0;
+  const dayChips = [0, 1, 2, 3, 4, 5, 6].map(k => {
+    const i = base + k, dt = dayAt(i), key = iso(dt), n = (byDay.get(key) || []).length;
+    const lab = i === 0 ? "Today" : i === 1 ? "Tomorrow" : dt.toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" });
+    return `<button type="button" class="chip${SCHED_UI.day === key ? " on" : ""}" data-d="${key}"${n ? "" : " disabled"} aria-pressed="${SCHED_UI.day === key ? "true" : "false"}" ` +
+      `aria-label="${esc(lab)}${n ? ", " + n + (n === 1 ? " slot" : " slots") : ", no slots"}">${esc(lab)}</button>`;
+  }).join(" ");
+  const w2 = dm(dayAt(7)) + "–" + dm(dayAt(13));
+  const weekChip = SCHED_UI.week
+    ? `<button type="button" class="chip week" data-week="0" aria-label="Back to this week">‹ This week</button>`
+    : `<button type="button" class="chip week" data-week="1" aria-label="Show next week, ${esc(w2)}">Next week ›</button>`;
+  const list = SCHED_UI.day ? (byDay.get(SCHED_UI.day) || []) : [];
+  const timeChips = SCHED_UI.day
+    ? (list.length
+      ? list.map(sl => `<button type="button" class="chip" data-slot="${esc(sl.start)}" aria-label="Hold ${esc(schedWhen(sl.start))}${sl.free > 1 ? ", " + sl.free + " free" : ""}">${esc(sl.start.slice(11, 16))}${sl.free > 1 ? `<span class="fuother"> ·${sl.free}</span>` : ""}</button>`).join(" ")
+      : `<span class="fuother">no free times that day — pick another</span>`)
+    : `<span class="fuother">pick a day first</span>`;
+  const next = slots[0];
+  return `<button type="button" class="schednext" id="schednext" data-slot="${esc(next.start)}">⚡ Next available: ${esc(schedWhen(next.start))}<small>one tap holds it — or pick a day and time below</small></button>
+    <div class="fudays"><span class="rlabel">Day:</span> ${dayChips} ${weekChip}</div>
+    <div class="fudays fuhours"><span class="rlabel">Time:</span> ${timeChips}</div>`;
+}
+
+function schedBind(host, d, s) {
+  host.querySelectorAll(".schedlive .chip[data-slot]").forEach(c => {
+    c.onclick = async () => { SCHED_NOTE = ""; c.disabled = true; await schedHold(d, s, c.dataset.slot); if (document.body.contains(c)) c.disabled = false; };
+  });
+  const nx = $("schednext"); if (nx) nx.onclick = async () => {
+    SCHED_NOTE = ""; nx.disabled = true;
+    await schedHold(d, s, nx.dataset.slot);
+    if (document.body.contains(nx)) nx.disabled = false;   // a failed hold must not strand the shortcut (Codex U1)
+  };
+  host.querySelectorAll(".schedlive .chip[data-d]").forEach(c => c.onclick = () => {
+    SCHED_UI.day = (SCHED_UI.day === c.dataset.d) ? "" : c.dataset.d;   // tap again clears the day
+    renderFuPanel();
+    const again = host.querySelector(`.chip[data-d="${SCHED_UI.day}"]`) || host.querySelector(".chip[data-d]"); if (again) again.focus();
+  });
+  host.querySelectorAll(".schedlive .chip[data-week]").forEach(c => c.onclick = () => {
+    SCHED_UI.week = +c.dataset.week; SCHED_UI.day = "";
+    renderFuPanel();
+    const again = host.querySelector(".chip[data-week]"); if (again) again.focus();
+  });
+  const rf = $("schedrefresh"); if (rf) rf.onclick = () => { SCHED_NOTE = ""; schedFetchSlots(d, s); };
+  const rq = $("schedreq"); if (rq) rq.onclick = () => { SCHED_NOTE = ""; rq.disabled = true; schedRequest(d, s); };
+  host.querySelectorAll(".schedpw .chip[data-pw]").forEach(c => c.onclick = () => { SCHED_PW_ALL = false; schedSetPathway(fuPick.pathway === c.dataset.pw ? "" : c.dataset.pw); });
+  const pa = $("schedpwall"); if (pa) pa.onclick = () => { SCHED_PW_ALL = true; renderFuPanel(); };
+  const sb = $("schedseal"); if (sb) sb.onclick = () => { sb.disabled = true; schedSeal(d, s).finally(() => { if (document.body.contains(sb)) sb.disabled = false; }); };
+  const hn = $("schedhn"); if (hn) hn.onkeydown = e => { if (e.key === "Enter") { e.preventDefault(); schedSeal(d, s); } };
+  const us = $("schedunseal"); if (us) us.onclick = schedUnseal;
+  const rl = $("schedrelease"); if (rl) rl.onclick = () => {
+    if (fuPick.issued && !confirm("The patient's card already carries reference " + fuPick.ref + ". Cancel this booking on the unit's diary?")) return;
+    schedRelease(true); fuPick.date = ""; fuPick.time = ""; SCHED_SLOTS = null; SCHED_NOTE = ""; fuChanged();
+  };
+}
+// ----------------------------------------------------------------------------
 
 // Today, Tomorrow, then the next five days by name — covers nearly every ED
 // follow-up without touching a date field.
@@ -1791,22 +2378,29 @@ function patientUrl(slug) {
 
 function itemLi(it) {
   const rev = it.type === "leaflet" ? REVIEWS[it.slug] : null;
-  const stale = (rev && isPastReview(rev.review_due))
-    ? `<span class="tag stale" title="The trust's printed review date (${esc(rev.review_due_text || rev.review_due)}) has passed">past review</span>`
-    : "";
+  // Quality-of-resource hints (the owner 2026-09-16: "small things beside it that
+  // don't take away the main message of where it comes from"): out of date,
+  // page not loading, PDF (a phone cannot translate it), reading age where
+  // the trust has a readability layer. Nothing else — the red-flag badge went.
+  const hints = [];
+  if (rev && isPastReview(rev.review_due))
+    hints.push(`<span class="tag hint warn" title="The trust's printed review date (${esc(rev.review_due_text || rev.review_due)}) has passed">past review</span>`);
   // The nightly review checker records fetch errors per page — a leaflet that
   // 404s mid-fortnight would otherwise be handed out for up to 14 days before
   // the next full scan removes it.
-  const broken = (rev && String(rev.status || "").startsWith("error:"))
-    ? `<span class="tag stale" title="The trust's page failed to load when last checked (${esc(rev.status)}) — open it before giving this to a patient">page may be broken</span>`
-    : "";
-  const redflag = NHS_CARDS.has(it.slug)
-    ? `<span class="tag redflag" title="The patient's page shows this NHS page's own “when to get help” advice, word for word">🚨 red flags on page</span>`
-    : "";
+  if (rev && String(rev.status || "").startsWith("error:"))
+    hints.push(`<span class="tag hint warn" title="The trust's page failed to load when last checked (${esc(rev.status)}) — open it before giving this to a patient">not loading</span>`);
+  if (it.type === "leaflet" && pdfShare() < 0.5 && /\.pdf(\?|$)|download\.cfm/i.test(String(it.url || "")))
+    hints.push(`<span class="tag hint" title="A PDF — a phone cannot auto-translate it and it may be hard to read on a small screen">PDF</span>`);
+  const ra = READABILITY[it.slug];
+  if (ra && ra.reading_age)
+    hints.push(`<span class="tag hint" title="Estimated reading age from the page's text (Flesch–Kincaid); the NHS target is 9–11">reading age ~${esc(String(ra.reading_age))}</span>`);
+  const redflag = "";
+  const stale = hints.join(""), broken = "";
   return `
     <li data-s="${esc(it.slug)}">
       <input type="checkbox" aria-label="${esc(it.title)}" ${selected.has(it.slug) ? "checked" : ""}>
-      <span class="t">${esc(it.title)}<span class="tag ${esc(it.type)}">${it.type === "trusted" && it.source ? esc(it.source) : (TAGLABEL[it.type]||"")}</span>${redflag}${stale}${broken}
+      <span class="t">${esc(it.title)}<span class="tag ${esc(it.type)}">${it.type === "trusted" && it.source ? esc(it.source) : (TAGLABEL[it.type]||"")}</span>${it.type === "gapfill" ? `<span class="tag hint" title="Neither this hospital nor NHS.uk publishes a page on this; this one passed medrics' quality check (reading age, review date, producer stated)">from ${esc(it.source || "")}</span>` : ""}${redflag}${stale}${broken}
       <a class="openpg" href="${esc(patientUrl(it.slug))}" target="_blank" rel="noopener" title="Open the patient page to check it">↗</a></span>
     </li>`;
 }
@@ -1880,7 +2474,8 @@ function renderResults() {
   wireResults(ul);
 }
 
-function generate() {
+async function generate() {
+  if (!(await schedBeforeGenerate())) return;   // a held slot books now, or the hold has expired
   // (2026-08-08 review) do NOT set out.dataset.fresh here: nothing in
   // generate() re-renders the selection, so the flag survived into the FIRST
   // post-generate selection change and disarmed the "Selection changed —
@@ -1889,7 +2484,8 @@ function generate() {
   bumpFreq([...selected.keys()]);
   bumpPairs([...selected.keys()]);
   noteSpecialtyHints([...selected.keys()]);
-  telemetry("generate", [...selected.keys()].join(","));   // content slugs only
+  telemetry("generate", [...selected.keys()].join(","), fuPick ? fuPick.id : "");   // content slugs + the follow-up destination id (never its day/time) + the recommendation score fields
+  recReset();
   const slugs = [...selected.keys()].join(",");
   // Default trust omits ?t= so QR codes issued before multi-trust support stay valid.
   const tPart = (TRUST && REGISTRY && TRUST.id !== REGISTRY.default) ? "t=" + TRUST.id + "&" : "";
@@ -1910,8 +2506,22 @@ function generate() {
   const parts = [];
   if (slugs) parts.push("slugs=" + encodeURIComponent(slugs).replace(/%2C/gi, ","));
   if (adv) parts.push("adv=" + encodeURIComponent(adv).replace(/%2C/gi, ","));
-  if (fu) parts.push("fu=" + fu);
-  const url = LANDING + "?" + tPart + parts.join("&");
+  // The follow-up (fu), the booking reference (bk — random, meaningless outside
+  // the unit's inbox) and the test-mode mark (tm) ride in the URL FRAGMENT: the
+  // patient page reads the fragment first, and a fragment is never sent to the
+  // static host, a proxy or a log (2026-09-12 review; Codex F1 2026-09-16). QRs
+  // already printed with ?fu= keep working — the page reads both.
+  const frag = [];
+  if (fu) frag.push("fu=" + fu);
+  // no reference for the patient (the owner 2026-09-16 evening): the unit lines the
+  // booking up on its own side (sealed hospital number, or the email); the card
+  // shows only where and when. tm=1 marks a trial-mode booking (Codex F6).
+  const sv = fuPick && SCHED.get(fuPick.id);
+  const booked = !!(fuPick && fuPick.ref && ["booked", "confirmed", "requested"].includes(fuPick.status));
+  if (booked && sv && sv.mode !== "live") frag.push("tm=1");
+  if (booked) fuPick.issued = true;                          // the patient now carries this booking
+  const query = (tPart + parts.join("&")).replace(/&$/, "");   // a follow-up-only link has no slugs
+  const url = LANDING + (query ? "?" + query : "") + (frag.length ? "#" + frag.join("&") : "");   // fu/tm in the fragment (never sent to the host)
   const out = $("out");
   out.innerHTML = (isDemo() ? '<p class="demo-tag">DEMO — not for patient use</p><br>' : '') +
     '<div id="qr" aria-hidden="true"></div>' +
@@ -1924,6 +2534,27 @@ function generate() {
     // one in five patients may not manage a QR (the owner 2026-09-03): the
     // patient page has a Print button — say so where the clinician is looking
     '<p class="hint">No phone, or not confident with a QR? Open what the patient sees and use its <strong>Print this page</strong> button.</p>';
+  // the booking email, again, where the clinician is looking after handing over the card
+  if (fuPick && fuPick.mail && fuPick.ref) {
+    const sv = SCHED.get(fuPick.id);
+    out.insertAdjacentHTML("beforeend", `<p>${schedMailButton(sv ? sv.label : "the unit")}</p>`);
+  }
+  // a walked DVLA/CAA verdict that never got its ＋Add: say so ABOVE the QR
+  // and offer the one-tap fix (the clinician still chooses — never silent)
+  const walkedMissing = [...drvWalked.entries()]
+    .filter(([mid, w]) => !drvPicks.has(mid) && w.pslug && bySlug.has(w.pslug));
+  if (walkedMissing.length) {
+    out.insertAdjacentHTML("afterbegin", `<div class="drvmissing" role="status">You worked through the ` +
+      walkedMissing.map(([, w]) => `<strong>${esc(w.label)}</strong>`).join(" and ") +
+      ` rule, but that advice is <strong>not on this QR</strong>. ` +
+      walkedMissing.map(([mid, w]) => `<button type="button" class="copy" data-drvmiss="${esc(mid)}">＋ Add the ${esc(w.label)} advice and regenerate</button>`).join(" ") +
+      `</div>`);
+    out.querySelectorAll("[data-drvmiss]").forEach(b => b.onclick = () => {
+      const w = drvWalked.get(b.dataset.drvmiss);
+      const mod = DRIVING.find(x => x.id === b.dataset.drvmiss);
+      if (mod && w && addVerdictToQr(mod, w.node, w.pslug)) generate();
+    });
+  }
   if (window.QRCode) {
     new QRCode($("qr"), { text: url, width: 240, height: 240, correctLevel: QRCode.CorrectLevel.M });
   } else {
@@ -1936,33 +2567,42 @@ function generate() {
 
 $("search").addEventListener("input", () => { renderResults(); renderDriving(); });
 $("gen").onclick = generate;
-$("clear").onclick = () => { selected.clear(); drvPicks.clear(); fuPick = null; $("search").value = ""; renderSelected(); renderFollowup(); renderResults(); $("out").innerHTML = ""; };
+$("clear").onclick = () => { selected.clear(); recReset(); drvPicks.clear(); drvWalked.clear(); schedRelease(); fuPick = null; $("search").value = ""; renderSelected(); renderFollowup(); renderResults(); $("out").innerHTML = ""; };
 
-// ---- Clinician check-in (on-device only) -----------------------------------
+// ---- Clinician sign in / sign up --------------------------------------------
 // the owner 2026-09-05: "a check-in type service … like Medics Money … one
-// registration number per person … we don't need to take record of that".
-// 2026-09-12: each registration number is REGISTERED on the clinician's own
-// device with a PIN of their own — several people can register on one shared
-// NHS computer and each checks in with their PIN. The number is format-
-// checked here in the browser and then discarded: this device keeps only the
-// regulator, the last three characters (so registrations can be told apart on
-// a shared computer) and a salted PBKDF2 hash of the PIN. Nothing is
-// transmitted (telemetry carries no check-in event). A check-in lasts the
-// browser tab, or 30 days when the clinician says the device is their own.
-// This is a professional declaration and a speed bump for scrapers, not
-// identity verification: no regulator offers a public lookup API, so we do
-// not claim to have checked the register. The PATIENT page (index.html) is
-// never gated — spec N3/N4.
+// registration number per person". 2026-09-12: PIN registration, on-device.
+// 2026-09-16 (the owner: "the login page asks me for the gmc every time and to
+// repeat the pin like it's a sign up … verify gmc number or NMC so people
+// can't just make it up, then option for sign in or sign up"): the account
+// now lives on the medrics server (the clinician-accounts service) — Safari
+// wipes localStorage after 7 days without a visit and every origin keeps its
+// own copy, which is why the sign-up form kept coming back. Sign UP once
+// (regulator + number + a PIN of your own); sign IN anywhere with the same
+// three. What leaves this page: regulator id, the number and the PIN, once,
+// over https to brain.medrics.co.uk. What the server keeps: HMAC(number)
+// (not reversible), regulator, last three characters, a PBKDF2 hash of the
+// PIN, session hashes — never the number, no name, no email. The register
+// lookup at sign-up is a server-side policy switch (off until the GMC
+// answers on terms); the response says which ("register" / "format") and the
+// signed-in line only claims a register check when one was made.
+// This device keeps a CACHE of the same shape as before (regulator, tail,
+// salted PIN hash) so the quick "who is signing in?" list + PIN works on a
+// shared NHS computer even when the server is unreachable; a server outage
+// never locks a clinician out, it just falls back to device-only, labelled.
+// The PATIENT page (index.html) is never gated — spec N3/N4.
 const CHECKIN_KEY = "medrics_checkin_v2";        // localStorage: { profiles: [...] }
 const CHECKIN_LEGACY_KEY = "medrics_checkin";    // the pre-PIN record (regulator + date): retired
-const CHECKIN_OPEN_KEY = "medrics_checkin_open"; // sessionStorage: profile checked in on this tab
+const CHECKIN_OPEN_KEY = "medrics_checkin_open"; // sessionStorage: profile signed in on this tab
+const CHECKIN_TOKEN_KEY = "medrics_checkin_tok"; // sessionStorage: this tab's server session (shared computer)
 const CHECKIN_KEEP_DAYS = 30;
 const CHECKIN_MAX_PROFILES = 20;
 const CHECKIN_KDF_ROUNDS = 100000;
 const CHECKIN_PIN_RE = /^\d{4,6}$/;
+const CLIN_API = "https://brain.medrics.co.uk/api/leaflets/clinician";
 const REGULATORS = [
   { id: "gmc",  name: "GMC — doctors, physician associates, anaesthesia associates",
-    hint: "7 digits, e.g. 1234567", re: /^\d{7}$/ },
+    hint: "7 digits, e.g. 1234567 (PAs and AAs: A then 7 digits)", re: /^A?\d{7}$/ },
   { id: "nmc",  name: "NMC — nurses, midwives, nursing associates",
     hint: "Your PIN, e.g. 12A3456E", re: /^\d{2}[A-L]\d{4}[EWSNO]$/ },
   { id: "hcpc", name: "HCPC — paramedics, physios, ODPs, radiographers and other AHPs",
@@ -1974,7 +2614,7 @@ const REGULATORS = [
     hint: "5 or 6 digits, e.g. 123456", re: /^\d{5,6}$/ },
 ];
 
-// -- the device's register of profiles -----------------------------------------
+// -- the device's cache of sign-ins ---------------------------------------------
 function checkinProfiles() {
   const s = lsGet(CHECKIN_KEY, null);
   const list = (s && Array.isArray(s.profiles)) ? s.profiles : [];
@@ -1993,7 +2633,7 @@ function futureIso(days) { return new Date(Date.now() + days * 86400000).toISOSt
 function byRecentUse(a, b) { return (Date.parse(b.used) || 0) - (Date.parse(a.used) || 0); }
 
 function checkinRecord() {
-  // the profile checked in on this tab, else one kept on this device (own device, 30 days)
+  // the profile signed in on this tab, else one kept on this device (own device, 30 days)
   const profiles = checkinProfiles();
   const open = ssGet(CHECKIN_OPEN_KEY);
   const byTab = profiles.find(p => p.id === open);
@@ -2103,29 +2743,96 @@ function validatePin(pin) {
   return "";
 }
 
-// -- register / check in / check out / forget ---------------------------------
-async function registerCheckin(bodyId, rawNum, pin1, pin2, keep) {
-  const err = validateRegNumber(bodyId, rawNum) || validatePin(pin1)
-    || (pin1 !== pin2 ? "The two PINs don't match — type the same PIN twice." : "");
-  if (err) return err;
-  const v = normaliseRegNumber(rawNum);
+// -- the server ----------------------------------------------------------------
+async function clinCall(path, body, token) {
+  // one POST, JSON in, JSON out; the session token rides in a header, never
+  // a URL. Throws on a network failure (callers fall back to device-only).
+  const ctl = (typeof AbortController === "function") ? new AbortController() : null;
+  const timer = ctl ? setTimeout(() => ctl.abort(), 9000) : null;
+  try {
+    const headers = { "Content-Type": "application/json" };
+    if (token) headers["X-Medrics-Clinician"] = token;
+    const res = await fetch(CLIN_API + path, { method: "POST", headers,
+      body: JSON.stringify(body || {}), signal: ctl ? ctl.signal : undefined });
+    let json = null;
+    try { json = await res.json(); } catch (e) { json = null; }
+    return { status: res.status, json: json || {} };
+  } finally { if (timer) clearTimeout(timer); }
+}
+
+async function upsertLocalProfile(bodyId, v, pin, keep, extra) {
+  // the device cache: same regulator + tail = the same person on this device.
+  // The number itself stops here — only body + tail + scrambled PIN are kept.
+  const list = checkinProfiles();
+  const tail = v.slice(-3);
   const now = new Date().toISOString();
   const salt = randomHex(16);
-  const p = { id: randomHex(8), body: bodyId, tail: v.slice(-3), salt,
-    hash: await pinDigest(pinScheme(), pin1, salt), at: now, used: now,
-    keep_until: keep ? futureIso(CHECKIN_KEEP_DAYS) : null, fails: 0, lock_until: null };
-  // the number itself stops here: only body + tail + scrambled PIN are kept
-  const list = checkinProfiles().sort(byRecentUse).slice(0, CHECKIN_MAX_PROFILES - 1);
-  list.unshift(p);
-  saveCheckinProfiles(list);
+  const hash = await pinDigest(pinScheme(), pin, salt);
+  let p = list.find(x => x.body === bodyId && x.tail === tail);
+  if (!p) { p = { id: randomHex(8), body: bodyId, tail, at: now }; list.unshift(p); }
+  Object.assign(p, { salt, hash, used: now, fails: 0, lock_until: null,
+    keep_until: keep ? futureIso(CHECKIN_KEEP_DAYS) : null }, extra || {});
+  if (!keep) { delete p.token; delete p.token_exp; }   // a shared computer never keeps a bearer credential
+  saveCheckinProfiles(list.sort(byRecentUse).slice(0, CHECKIN_MAX_PROFILES));
   ssSet(CHECKIN_OPEN_KEY, p.id);
-  return "";
+  return p;
+}
+
+function sessionExtras(json, keep) {
+  const ex = { verified: json.verified || "format", pending: false };
+  if (keep) { ex.token = json.token; ex.token_exp = json.exp; ssSet(CHECKIN_TOKEN_KEY, null); }
+  else ssSet(CHECKIN_TOKEN_KEY, json.token || null);
+  return ex;
+}
+
+// -- sign up / sign in / sign out / forget ---------------------------------------
+async function signUp(bodyId, rawNum, pin, keep) {
+  const err = validateRegNumber(bodyId, rawNum) || validatePin(pin);
+  if (err) return { err };
+  const v = normaliseRegNumber(rawNum);
+  let r;
+  try { r = await clinCall("/signup", { body: bodyId, number: v, pin, keep }); }
+  catch (e) {
+    await upsertLocalProfile(bodyId, v, pin, keep, { pending: true });
+    return { err: "", note: "The medrics server can't be reached right now, so you're signed in on this device only. Sign up again when it's back to use other devices." };
+  }
+  if (r.status === 409) return { err: "You already have an account — sign in with your PIN.", existing: true };
+  if (r.status === 429) return { err: r.json.error || "Too many attempts — wait a few minutes." };
+  if (r.status !== 200) return { err: r.json.error || "Sign-up didn't work — try again." };
+  await upsertLocalProfile(bodyId, v, pin, keep, sessionExtras(r.json, keep));
+  return { err: "", note: r.json.verified === "register"
+    ? `Signed up — your number was found on the ${bodyId.toUpperCase()} register.` : "" };
+}
+
+async function signIn(bodyId, rawNum, pin, keep) {
+  const err = validateRegNumber(bodyId, rawNum);
+  if (err) return { err };
+  if (!CHECKIN_PIN_RE.test(pin)) return { err: "Enter your PIN — 4 to 6 digits." };
+  const v = normaliseRegNumber(rawNum);
+  let r;
+  try { r = await clinCall("/signin", { body: bodyId, number: v, pin, keep }); }
+  catch (e) {
+    // server unreachable: the device cache can still vouch for this person
+    const local = checkinProfiles().find(x => x.body === bodyId && x.tail === v.slice(-3));
+    let ok = false;
+    try { ok = !!local && await pinMatches(local, pin); } catch (e2) { ok = false; }
+    if (!ok) return { err: "Could not reach the medrics server — try again in a moment." };
+    await upsertLocalProfile(bodyId, v, pin, keep, {});
+    return { err: "", note: "The medrics server can't be reached right now — signed in from this device's own record." };
+  }
+  if (r.status === 404) return { err: "No account for that number yet — sign up first, or check the number.", missing: true };
+  if (r.status !== 200) return { err: r.json.error || "Sign-in didn't work — try again." };
+  await upsertLocalProfile(bodyId, v, pin, keep, sessionExtras(r.json, keep));
+  return { err: "" };
 }
 
 async function unlockCheckin(id, pin, keep) {
+  // the quick path on a device that already knows this person: PIN against
+  // the device cache (works offline); the server session is refreshed only
+  // when a token is still held for this profile
   const list = checkinProfiles();
   const p = list.find(x => x.id === id);
-  if (!p) return "Choose who is checking in.";
+  if (!p) return "Choose who is signing in.";
   const wait = p.lock_until ? Math.ceil((Date.parse(p.lock_until) - Date.now()) / 1000) : 0;
   if (wait > 0) return `Too many wrong PINs — try again in ${wait} second${wait === 1 ? "" : "s"}.`;
   if (!CHECKIN_PIN_RE.test(pin)) return "Enter your PIN — 4 to 6 digits.";
@@ -2140,36 +2847,50 @@ async function unlockCheckin(id, pin, keep) {
   }
   p.fails = 0; p.lock_until = null; p.used = new Date().toISOString();
   p.keep_until = keep ? futureIso(CHECKIN_KEEP_DAYS) : null;
+  if (!keep) { delete p.token; delete p.token_exp; }
   saveCheckinProfiles(list);
   ssSet(CHECKIN_OPEN_KEY, p.id);
   return "";
+}
+
+function currentToken(p) {
+  return (p && p.token && p.token_exp && Date.parse(p.token_exp) > Date.now()) ? p.token : ssGet(CHECKIN_TOKEN_KEY);
 }
 
 function checkOut() {
   const list = checkinProfiles();
   const open = ssGet(CHECKIN_OPEN_KEY);
   const now = Date.now();
-  // end this tab's check-in and any "own device" hold, so the next person is asked
-  list.forEach(p => { if (p.id === open || (p.keep_until && Date.parse(p.keep_until) > now)) p.keep_until = null; });
+  const rec = checkinRecord();
+  const tok = currentToken(rec);
+  if (tok) clinCall("/signout", {}, tok).catch(() => {});   // best effort — the device forgets it regardless
+  // end this tab's sign-in and any "own device" hold, so the next person is asked
+  list.forEach(p => {
+    if (p.id === open || (p.keep_until && Date.parse(p.keep_until) > now)) { p.keep_until = null; delete p.token; delete p.token_exp; }
+  });
   saveCheckinProfiles(list);
   ssSet(CHECKIN_OPEN_KEY, null);
+  ssSet(CHECKIN_TOKEN_KEY, null);
   showCheckin("unlock");
 }
 
 function forgetCheckin(id) {
   saveCheckinProfiles(checkinProfiles().filter(p => p.id !== id));
-  if (ssGet(CHECKIN_OPEN_KEY) === id) ssSet(CHECKIN_OPEN_KEY, null);
+  if (ssGet(CHECKIN_OPEN_KEY) === id) { ssSet(CHECKIN_OPEN_KEY, null); ssSet(CHECKIN_TOKEN_KEY, null); }
 }
 
 // -- the card ------------------------------------------------------------------
 let checkinBusy = false;
 
-function renderCheckinStatus() {
+function renderCheckinStatus(note) {
   const el = $("ci-status");
   if (!el) return;
   const rec = checkinRecord();
   if (!rec) { el.innerHTML = ""; return; }
-  el.innerHTML = `Checked in as ${esc(checkinLabel(rec))} on this device · <button type="button" id="ci-out">Check out</button>`;
+  const tag = rec.verified === "register" ? ` · on the ${esc(rec.body.toUpperCase())} register`
+    : rec.pending ? " · this device only" : "";
+  el.innerHTML = `Signed in as ${esc(checkinLabel(rec))}${tag} · <button type="button" id="ci-out">Sign out</button>`
+    + (note ? `<br><span class="ci-ok">${esc(note)}</span>` : "");
   $("ci-out").onclick = checkOut;
 }
 
@@ -2178,61 +2899,102 @@ function renderCheckinWho() {
   const box = $("ci-who");
   box.innerHTML = list.map((p, i) =>
     `<div class="who"><label><input type="radio" name="ci-who" value="${esc(p.id)}"${i === 0 ? " checked" : ""}> ` +
-    `${esc(checkinLabel(p))} <span>registered ${esc(checkinDate(p.at))}</span></label>` +
+    `${esc(checkinLabel(p))} <span>${p.pending ? "this device only · " : ""}signed up ${esc(checkinDate(p.at))}</span></label>` +
     `<button type="button" class="link" data-forget="${esc(p.id)}" aria-label="Forget ${esc(checkinLabel(p))} on this device">Forget</button></div>`).join("");
   box.querySelectorAll("[data-forget]").forEach(b => {
     b.onclick = () => {
       const p = list.find(x => x.id === b.dataset.forget);
-      if (!p || !confirm(`Forget ${checkinLabel(p)} on this device? You can register again any time.`)) return;
+      if (!p || !confirm(`Forget ${checkinLabel(p)} on this device? Your account stays — sign in with your number any time.`)) return;
       forgetCheckin(p.id);
       showCheckin();
     };
   });
 }
 
-function showCheckin(mode) {
+function setCheckinTab(mode) {
+  $("ci-tab-in").setAttribute("aria-selected", mode !== "signup" ? "true" : "false");
+  $("ci-tab-up").setAttribute("aria-selected", mode === "signup" ? "true" : "false");
+}
+
+function showCheckin(mode, prefill) {
+  // modes: "unlock" (this device knows people — pick one + PIN), "signin"
+  // (regulator + number + PIN, any device), "signup" (first time)
   document.body.classList.add("gated");
   $("checkin").hidden = false;
   renderCheckinStatus();
   const profiles = checkinProfiles();
-  if (!mode) mode = profiles.length ? "unlock" : "register";
+  if (!mode || (mode === "unlock" && !profiles.length)) mode = profiles.length ? "unlock" : "signin";
   $("ci-unlock").hidden = mode !== "unlock";
-  $("ci-form").hidden = mode !== "register";
-  $("ci-to-unlock-wrap").hidden = !profiles.length;
-  $("ci-uerr").hidden = true; $("ci-err").hidden = true;
+  $("ci-signin").hidden = mode !== "signin";
+  $("ci-form").hidden = mode !== "signup";
+  setCheckinTab(mode);
+  ["ci-uerr", "ci-ierr", "ci-err"].forEach(id => { $(id).hidden = true; });
+  $("ci-note").hidden = true;
   if (mode === "unlock") {
     renderCheckinWho();
     $("ci-pin").value = "";
     $("ci-pin").focus();
     return;
   }
-  const sel = $("ci-body");
-  (sel.value ? $("ci-num") : sel).focus();
+  const sel = $(mode === "signin" ? "ci-body-in" : "ci-body");
+  const num = $(mode === "signin" ? "ci-num-in" : "ci-num");
+  if (prefill) {
+    if (prefill.body) { sel.value = prefill.body; sel.dispatchEvent(new Event("change")); }
+    if (prefill.num) num.value = prefill.num;
+    if (prefill.msg) { const e = $(mode === "signin" ? "ci-ierr" : "ci-err"); e.textContent = prefill.msg; e.hidden = false; }
+  }
+  (sel.value ? (num.value ? $(mode === "signin" ? "ci-pin-in" : "ci-pin1") : num) : sel).focus();
 }
 
-function hideCheckin() {
+function hideCheckin(note) {
+  loadLearned();   // the paid learned ranks need the session that now exists
   $("checkin").hidden = true;
+  schedLoad();   // the session now exists: ask which follow-ups this trust can book
   document.body.classList.remove("gated");
-  renderCheckinStatus();
+  renderCheckinStatus(note);
   const s = $("search");
   if (s) s.focus();
 }
 
-async function submitRegister() {
+async function submitSignup() {
   if (checkinBusy) return;
   const e = $("ci-err"), btn = $("ci-go");
-  checkinBusy = true; btn.disabled = true;
+  checkinBusy = true; btn.disabled = true; btn.textContent = "Signing up…";
   try {
-    const numErr = validateRegNumber($("ci-body").value, $("ci-num").value);
-    const err = numErr || await registerCheckin($("ci-body").value, $("ci-num").value,
-      $("ci-pin1").value, $("ci-pin2").value, $("ci-keep-r").checked);
-    if (err) { e.textContent = err; e.hidden = false; (numErr ? $("ci-num") : $("ci-pin1")).focus(); return; }
+    const res = await signUp($("ci-body").value, $("ci-num").value, $("ci-pin1").value, $("ci-keep-r").checked);
+    if (res.existing) {
+      showCheckin("signin", { body: $("ci-body").value, num: $("ci-num").value, msg: res.err });
+      $("ci-num").value = ""; $("ci-pin1").value = "";
+      return;
+    }
+    if (res.err) { e.textContent = res.err; e.hidden = false; (validateRegNumber($("ci-body").value, $("ci-num").value) ? $("ci-num") : $("ci-pin1")).focus(); return; }
     e.hidden = true;
-    $("ci-num").value = ""; $("ci-pin1").value = ""; $("ci-pin2").value = "";   // the number is deliberately not kept
-    hideCheckin();
+    $("ci-num").value = ""; $("ci-pin1").value = "";   // the number is deliberately not kept on the page
+    hideCheckin(res.note);
   } catch (ex) {
-    e.textContent = "Something went wrong registering on this device — try again."; e.hidden = false;
-  } finally { checkinBusy = false; btn.disabled = false; }
+    e.textContent = "Something went wrong signing up — try again."; e.hidden = false;
+  } finally { checkinBusy = false; btn.disabled = false; btn.textContent = "Sign up"; }
+}
+
+async function submitSignin() {
+  if (checkinBusy) return;
+  const e = $("ci-ierr"), btn = $("ci-go-in");
+  checkinBusy = true; btn.disabled = true; btn.textContent = "Signing in…";
+  try {
+    const res = await signIn($("ci-body-in").value, $("ci-num-in").value, $("ci-pin-in").value, $("ci-keep-in").checked);
+    $("ci-pin-in").value = "";
+    if (res.missing) {
+      showCheckin("signup", { body: $("ci-body-in").value, num: $("ci-num-in").value, msg: res.err });
+      $("ci-num-in").value = "";
+      return;
+    }
+    if (res.err) { e.textContent = res.err; e.hidden = false; $("ci-pin-in").focus(); return; }
+    e.hidden = true;
+    $("ci-num-in").value = "";
+    hideCheckin(res.note);
+  } catch (ex) {
+    e.textContent = "Something went wrong signing in — try again."; e.hidden = false;
+  } finally { checkinBusy = false; btn.disabled = false; btn.textContent = "Sign in"; }
 }
 
 async function submitUnlock() {
@@ -2253,19 +3015,31 @@ async function submitUnlock() {
 
 function initCheckin() {
   try { localStorage.removeItem(CHECKIN_LEGACY_KEY); } catch (e) {}   // pre-PIN record: retired
-  const sel = $("ci-body");
-  sel.innerHTML = '<option value="">Choose…</option>' +
+  const opts = '<option value="">Choose…</option>' +
     REGULATORS.map(r => `<option value="${r.id}">${esc(r.name)}</option>`).join("");
-  const hint = () => { const r = REGULATORS.find(x => x.id === sel.value); $("ci-hint").textContent = r ? r.hint : "Choose your regulator to see the format."; };
-  sel.onchange = () => { hint(); $("ci-err").hidden = true; $("ci-num").focus(); };
-  hint();
-  ["ci-num", "ci-pin1", "ci-pin2"].forEach(id => $(id).addEventListener("input", () => { $("ci-err").hidden = true; }));
+  [["ci-body", "ci-hint", "ci-num", "ci-err"], ["ci-body-in", "ci-hint-in", "ci-num-in", "ci-ierr"]].forEach(([sid, hid, nid, eid]) => {
+    const sel = $(sid);
+    sel.innerHTML = opts;
+    const hint = () => { const r = REGULATORS.find(x => x.id === sel.value); $(hid).textContent = r ? r.hint : "Choose your regulator to see the format."; };
+    sel.onchange = () => { hint(); $(eid).hidden = true; if (!$(nid).value) $(nid).focus(); };
+    hint();
+  });
+  ["ci-num", "ci-pin1"].forEach(id => $(id).addEventListener("input", () => { $("ci-err").hidden = true; }));
+  ["ci-num-in", "ci-pin-in"].forEach(id => $(id).addEventListener("input", () => { $("ci-ierr").hidden = true; }));
   $("ci-pin").addEventListener("input", () => { $("ci-uerr").hidden = true; });
+  $("ci-show").onclick = () => {
+    const f = $("ci-pin1"), show = f.type === "password";
+    f.type = show ? "text" : "password"; $("ci-show").textContent = show ? "Hide" : "Show"; f.focus();
+  };
   // real <form>s so Enter submits natively on every keyboard, incl. iOS "Go"
-  $("ci-form").onsubmit = ev => { ev.preventDefault(); submitRegister(); };
+  $("ci-form").onsubmit = ev => { ev.preventDefault(); submitSignup(); };
+  $("ci-signin").onsubmit = ev => { ev.preventDefault(); submitSignin(); };
   $("ci-unlock").onsubmit = ev => { ev.preventDefault(); submitUnlock(); };
-  $("ci-to-reg").onclick = () => showCheckin("register");
-  $("ci-to-unlock").onclick = () => showCheckin("unlock");
+  $("ci-tab-in").onclick = () => showCheckin(checkinProfiles().length ? "unlock" : "signin");
+  $("ci-tab-up").onclick = () => showCheckin("signup");
+  $("ci-to-full").onclick = () => showCheckin("signin");
+  $("ci-to-up").onclick = () => showCheckin("signup");
+  $("ci-to-in2").onclick = () => showCheckin(checkinProfiles().length ? "unlock" : "signin");
   if (checkinRecord()) hideCheckin(); else showCheckin();
 }
 // -----------------------------------------------------------------------------
