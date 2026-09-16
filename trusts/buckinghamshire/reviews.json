@@ -517,6 +517,188 @@
   "status": "no-date",
   "title": "Febrile convulsions"
  },
+ "fibroid-embolisation": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "53bb0477d9f1e2ca",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fibroid embolisation"
+ },
+ "fluoroquinolone-antibiotics-what-you-need-to-know-about-side-effects": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "49b94795ea9218a6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fluoroquinolone Antibiotics: what you need to know about side effects"
+ },
+ "food-first-advice-for-eating-well-if-you-have-lost-weight-or-are-underweight": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "ab9db22e8cccddf3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Food First: Advice for eating well if you have lost weight or are underweight"
+ },
+ "food-hygiene-and-safety": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "0ba22ce3f05605d9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Food hygiene and safety"
+ },
+ "food-safety-for-people-having-chemotherapy": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "345aff4ef3548d27",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Food safety for people having chemotherapy (Systemic Anti-Cancer Treatment)"
+ },
+ "food-safety-guidance-during-neutropenia": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "33009ad9ae1a89de",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Food safety guidance during neutropenia"
+ },
+ "for-gynaecology-please-see-under-obstetrics-and-gynaecology": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "2f556f84cc4cccc8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "For gynaecology please see under 'Obstetrics and gynaecology'"
+ },
+ "freedom-of-information": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "ef75c912ca296653",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Freedom of information"
+ },
+ "gluten-free-gf-low-lactose-dietary-advice-for-people-with-coeliac-disease-who-are-at-risk-of-malnutrition": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "a094669b7940472d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gluten free (GF) low lactose dietary advice for people with coeliac disease who are at risk of malnutrition"
+ },
+ "going-home-after-laparoscopic-surgery": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "24086bfe8a7e0fa2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Going home after laparoscopic surgery"
+ },
+ "going-home-after-orthopaedic-surgery-helpful-hints": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "c0533c140864b03e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Going home after orthopaedic surgery: helpful hints"
+ },
+ "going-home-with-a-peripheral-intravenous-iv-cannula": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "13e07672e8a8e5ae",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Going home with a peripheral intravenous (IV) cannula"
+ },
+ "gynaecology-day-case-surgery-post-operative-information": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "955d258d80b9de92",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gynaecology Day Case Surgery – Post-operative information"
+ },
+ "having-a-bronchoscopy-at-stoke-mandeville-hospital": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "d87dfbc6621ca47d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a bronchoscopy at Stoke Mandeville Hospital"
+ },
+ "having-a-chest-drain-inserted": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "c6acecf5ce18874f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a chest drain inserted"
+ },
+ "having-a-colonoscopy": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "414e7f9299c522c6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a colonoscopy"
+ },
+ "having-a-colonoscopy-information-for-individuals-with-spinal-cord-injury-sci": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "7d133e3877750d9f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a Colonoscopy – Information for Individuals with Spinal Cord Injury (SCI)"
+ },
+ "having-a-flexible-signmoidoscopy": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "868eb0e803b4b5db",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a flexible signmoidoscopy"
+ },
+ "having-a-gastroscopy": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "497516beaabde791",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a gastroscopy"
+ },
+ "having-a-gastroscopy-and-dilatation": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "e131fd0847addf96",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a gastroscopy and dilatation"
+ },
+ "having-a-transperineal-prostate-biopsy": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "8d6cd67c5ae8b4dc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a transperineal prostate biopsy"
+ },
+ "having-a-video-capsule-endoscopy": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "ac162bc17fa5b391",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a video capsule endoscopy"
+ },
+ "having-an-endoscopic-ultrasound-and-fine-needle-aspiration-biopsy": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "cfa71ebfc494a434",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having an Endoscopic Ultrasound and Fine Needle Aspiration / Biopsy"
+ },
+ "having-an-image-guided-lung-biopsy": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "cb9f38f41e1fd8df",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having an image guided lung biopsy"
+ },
+ "heart-murmur-in-newborn-babies-information-for-parents": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "3fad14340342df2a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Heart murmur in newborn babies - information for parents"
+ },
+ "heart-murmurs-in-children": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "8529c5db8a2305a1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Heart murmurs in children"
+ },
  "how-to-treat-your-wheeze-asthma": {
   "checked": "2026-09-13T02:43:15+01:00",
   "content_hash": "638fbf84760890fe",

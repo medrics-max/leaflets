@@ -983,14 +983,16 @@
   "title": "Coronary Angioplasty"
  },
  "corticosteroid-injection": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "d860183314db4838",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "c985c06ae1939041",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Corticosteroid injection"
  },
  "cpe-carbapenease-producing-enterbacteriaceae-contact": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "7464fe84aa83854b",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "9d47380d3b132a25",
+  "hash_version": 2,
   "status": "no-date",
   "title": "CPE (Carbapenease-producing Enterbacteriaceae)- Contact"
  },
@@ -1001,80 +1003,93 @@
   "title": "Cros Hearing Aid System"
  },
  "croup-waht-pi-2161": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "ac048f800b5ce7fd",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "fae3953dd2c711b9",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Croup"
  },
  "cryocautery-treatment-to-the-cervix-for-cervical-ectropion": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "78355f59503468c0",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "0baf9f054f293fa3",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Cryocautery Treatment to the Cervix for Cervical Ectropion"
  },
  "cystoscopy-under-general-or-local-anaesthetic": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "33475e2b85bb0d0a",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "794ce9c84b2fcc94",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Cystoscopy (under general or local anaesthetic)"
  },
  "day-surgery-patient-discharge-information": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "041f45d89ceb0ca9",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "b09ba7e5cae39b32",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Day Surgery Patient Discharge Information"
  },
  "deep-vein-thrombosis-dvt-waht-pi-2091": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "4c0291f7479fc191",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "d8e2b8ea1d0e0fee",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Deep Vein Thrombosis – DVT"
  },
  "delirium": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "40c78191472f7783",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "c40cf0aaeda1dbdd",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Delirium"
  },
  "dementia-and-communication-advice-and-strategies": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "62744792bd6c342e",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "45a77e93a7512976",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Dementia and Communication – Advice and Strategies"
  },
  "dementia-and-dysphagia-advice-for-eating-drinking-and-swallowing": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "e8119f6287529baf",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "e02f8ed55295ee54",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Dementia and Dysphagia – Advice for eating, drinking and swallowing"
  },
  "dental-extractions-advice-information-for-parents": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "83d6a5225459bf03",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "3dda08e62db196f1",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Dental extractions advice – for parents"
  },
  "dermatology-outpatient-clinic-and-skin-surgery-information": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "80488cb59ebb0d40",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "b40d3a8057b5cc87",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Dermatology Outpatient Clinic and Skin Surgery Information"
  },
  "diagnostic-glaucoma-clinic": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "4ef7bbebbd30c85b",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "a46e4ceff5d4594b",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Diagnostic Glaucoma Clinic"
  },
  "diagnostic-hysteroscopy-under-general-anaesthetic": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "ca8838932590a644",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "ce80904f50e63274",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Diagnostic hysteroscopy (under general anaesthetic)"
  },
  "diagnostic-laparoscopy": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "b2745125118533d1",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "e8f7a230112ba5b3",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Diagnostic Laparoscopy (with or without minor procedures)"
  },
@@ -1085,8 +1100,9 @@
   "title": "Diarrhoea and vomiting in Children"
  },
  "diarrhoea-and-vomiting-waht-pi-2222": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "c56a2292f64754a9",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "81ca3beafc7d21f8",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Diarrhoea and Vomiting"
  },

@@ -614,6 +614,207 @@
   "status": "no-date",
   "title": "Corneal Cross-Linking (CXL)"
  },
+ "corneal-graft-or-transplant": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "b417a1d2437ef5a6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Corneal Graft or Transplant"
+ },
+ "corns-and-calluses": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "7a474d1c2049067a",
+  "hash_version": 2,
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Corns and calluses"
+ },
+ "coronary-angiogram": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "1b9a459e543e2ad7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coronary Angiogram"
+ },
+ "corticosteroid-injection-therapy": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "6d16ae69e35eeab8",
+  "hash_version": 2,
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Corticosteroid Injection Therapy"
+ },
+ "critical-care": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "c40c82a9df37397c",
+  "hash_version": 2,
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Critical care"
+ },
+ "ct-body-scan-1": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "e62aa296e3435f7a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "CT body scan 1"
+ },
+ "ct-body-scan-2": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "73d3a622aa24a138",
+  "hash_version": 2,
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "CT body scan 2"
+ },
+ "ct-guided-lung-biopsy-explained": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "e8d799cd9d46834d",
+  "hash_version": 2,
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "CT guided lung biopsy explained"
+ },
+ "ct-scan-of-the-abdomen-with-carbon-dioxide": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "230edb17b7e3862a",
+  "hash_version": 2,
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "CT scan of the abdomen with carbon dioxide"
+ },
+ "cyclodiode-laser-treatment-for-glaucoma": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "8eeffbf4dbd4a35e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cyclodiode laser treatment for glaucoma"
+ },
+ "declining-blood-transfusion-or-other-blood-products-in-pregnancy-and-childbirth": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "7c4567d9e65c1875",
+  "hash_version": 2,
+  "review_due": "2026-12",
+  "review_due_text": "December 2026",
+  "status": "ok",
+  "title": "Declining Blood Transfusion or Other Blood Products in Pregnancy and Childbirth"
+ },
+ "defibrillator-implant-procedures-icd": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "c6d4069f208ce88f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Defibrillator Implant Procedures (ICD)"
+ },
+ "deprivation-of-liberty-safeguards-dols": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "6f47a7fed5d00d22",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Deprivation of Liberty Safeguards (DoLS)"
+ },
+ "developmental-dysplasia-of-the-hips": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "94e3eee8d95f1bfe",
+  "hash_version": 2,
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Developmental Dysplasia of the Hips"
+ },
+ "developmental-dysplasia-of-the-hips-risk-factors": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "790e8d82a4f6113f",
+  "hash_version": 2,
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Developmental Dysplasia of the Hips: Risk Factors"
+ },
+ "diabetes-in-five-minutes-a-survival-guide-for-going-home-test-n": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "424aca6049930b71",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Diabetes in Five Minutes - A Survival Guide for Going Home Test"
+ },
+ "diabetes-transition-clinic": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "ad33a4ec9d0df117",
+  "hash_version": 2,
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Diabetes Transition Clinic"
+ },
+ "diet-and-type-2-diabetes": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "0ecbd181e0a2ac30",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Diet and type 2 diabetes"
+ },
+ "dietary-advice-for-people-with-diabetes-who-are-underweight-or-who-have-experienced-weight-loss": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "3786d8e18029e99f",
+  "hash_version": 2,
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Dietary advice for people with diabetes who are underweight or who have experienced weight loss"
+ },
+ "diplopia-double-vision-and-driving": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "35739e4e0082bc7d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Diplopia (double vision) and Driving"
+ },
+ "direct-current-cardioversion-dccv": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "dc4a22ebc48cf862",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Direct Current Cardioversion (DCCV)"
+ },
+ "discharge-advice-following-day-surgery": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "f6d4129e2c4ed63a",
+  "hash_version": 2,
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Discharge advice following day surgery"
+ },
+ "district-nursing": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "82d6c8969fa052c9",
+  "hash_version": 2,
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "District nursing, who are we and how can we help."
+ },
+ "dobutamine-stress-echocardiogram": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "42203d3f951904db",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dobutamine Stress Echocardiogram"
+ },
+ "drooping-of-the-upper-eyelid-ptosis": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "dae99b9618f8fae4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Drooping of the upper eyelid (ptosis)"
+ },
  "eylea-treatment-for-diabetic-macular-oedema-dmo": {
   "checked": "2026-09-14T02:33:36+01:00",
   "content_hash": "19a2c0e15a875e6b",

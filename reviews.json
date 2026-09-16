@@ -1273,8 +1273,9 @@
   "title": "CT guided bone biopsy aftercare"
  },
  "cystoscopy--urethroscopy": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "f4318b09e6ee1d6a",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "aad1d5766329abd9",
+  "hash_version": 2,
   "ref": "GHPI0112_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -1282,8 +1283,9 @@
   "title": "Cystoscopy and urethroscopy"
  },
  "dacryocystorhinostomy-dcr-an-operation-for-a-blocked-tear-duct": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "45d9a71650c46fe2",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "1b6e11ebeb7cee50",
+  "hash_version": 2,
   "ref": "GHPI0535_02_26",
   "review_due": "2029-02",
   "review_due_text": "February 2029",
@@ -1291,8 +1293,9 @@
   "title": "Dacryocystorhinostomy (DCR) An operation for a blocked tear duct"
  },
  "day-case-laparoscopic-hysterectomy": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "40ebebaf28add87a",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "d08f532ac40e56b7",
+  "hash_version": 2,
   "ref": "GHPI1920_08_25",
   "review_due": "2028-08",
   "review_due_text": "August 2028",
@@ -1300,8 +1303,9 @@
   "title": "Day Case Laparoscopic Hysterectomy"
  },
  "day-case-percutaneous-endoscopic-gastrostomy-peg-tube-procedure": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "c6adaba17c5c7b19",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "b0db88119a430b6d",
+  "hash_version": 2,
   "ref": "GHPI1117_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -1309,8 +1313,9 @@
   "title": "Day case Percutaneous Endoscopic Gastrostomy (PEG) Tube procedure"
  },
  "de-quervains-syndrome-of-the-wrist": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "65d33c57e60c3034",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "e048375adb793698",
+  "hash_version": 2,
   "ref": "GHPI1134_07_24",
   "review_due": "2027-07",
   "review_due_text": "July 2027",
@@ -1318,8 +1323,9 @@
   "title": "De Quervain’s syndrome of the wrist"
  },
  "deep-sclerectomy-treatment-glaucoma": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "34e1675f8609c5f0",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "e14ef6973d555d71",
+  "hash_version": 2,
   "ref": "GHPI1336_01_26",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
@@ -1327,8 +1333,9 @@
   "title": "Deep sclerectomy treatment"
  },
  "deep-vein-thrombosis-dvt": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "7545555d4ab86906",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "c5d2a2453768c8ca",
+  "hash_version": 2,
   "ref": "GHPI0652_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -1336,8 +1343,9 @@
   "title": "Deep Vein Thrombosis (DVT)"
  },
  "delirium-ghpi1174": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "f4f11e80ea9e2bb4",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "1a7836f1dd8c964e",
+  "hash_version": 2,
   "ref": "GHPI1174_11_23",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -1345,8 +1353,9 @@
   "title": "Delirium"
  },
  "denosumab": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "2f014166d8210797",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "00a642fd2a205ef8",
+  "hash_version": 2,
   "ref": "GHPI1871_09_24",
   "review_due": "2027-09",
   "review_due_text": "September 2027",
@@ -1354,8 +1363,9 @@
   "title": "Denosumab"
  },
  "dental-assessment-clinic-for-patients-receiving-head-and-neck-radiotherapy": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "980af3e0ad55d8d0",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "9183f06cc0f8cf4f",
+  "hash_version": 2,
   "ref": "GHPI1460_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -1363,8 +1373,9 @@
   "title": "Dental Assessment Clinic - For patients receiving head and neck radiotherapy"
  },
  "dental-care-information-for-patients-who-will-receive-head-and-neck-radiotherapy": {
-  "checked": "2026-08-14T02:34:46+01:00",
-  "content_hash": "701f72cb8800dfb6",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "aabafd49551dee39",
+  "hash_version": 2,
   "ref": "GHPI1457_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -1372,8 +1383,9 @@
   "title": "Dental care information for patients who will receive head and neck radiotherapy"
  },
  "diagnostic-laparoscopy-ghpi0863_05_18": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "24bc3b98b97bb974",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "c522260ba20f8995",
+  "hash_version": 2,
   "ref": "GHPI0863_06_26",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
@@ -1381,8 +1393,9 @@
   "title": "Diagnostic laparoscopy"
  },
  "diphencyprone-dcp-treatment": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "d52cf67de76b89b0",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "a868eb52639cecc6",
+  "hash_version": 2,
   "ref": "GHPI1415_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -1390,8 +1403,9 @@
   "title": "Diphencyprone (DCP) treatment"
  },
  "direct-current-cardioversion": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "21a74868a7313b45",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "ff2053e0b92b6926",
+  "hash_version": 2,
   "ref": "GHPI1235_05_26",
   "review_due": "2029-05",
   "review_due_text": "May 2029",
@@ -1418,8 +1432,9 @@
   "title": "Discharge advice following a bronchoscopy"
  },
  "discharge-advice-following-a-gastroscopy-and-colonoscopy-flexible-sigmoidoscopy-with-sedation": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "90f37c0b5101987d",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "b131ad791784cd2a",
+  "hash_version": 2,
   "ref": "GHPI1735_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -1427,8 +1442,9 @@
   "title": "Discharge advice following a gastroscopy and colonoscopy/flexible sigmoidoscopy with sedation"
  },
  "discharge-advice-following-a-gastroscopy-and-colonoscopy-flexible-sigmoidoscopy-without-sedation": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "2f69625f976040ce",
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "fc00faa650f63c0c",
+  "hash_version": 2,
   "ref": "GHPI1736_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",

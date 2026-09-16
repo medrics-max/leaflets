@@ -496,6 +496,181 @@
   "status": "no-date",
   "title": "Bladder diary (urology)"
  },
+ "bladder-instillation": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "8c233e62dc19d93b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bladder instillation"
+ },
+ "bleeding-or-pain-early-pregnancy": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "365954b82a83e625",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bleeding or pain in early pregnancy"
+ },
+ "blood-tests": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "4a700f115da80448",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Blood tests"
+ },
+ "blood-thinning-medications-hospital": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "86d2a2e1d150b0f0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Blood thinning medications (in hospital)"
+ },
+ "blood-transfusion": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "4d5497cb0ef7b9bf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Blood transfusion"
+ },
+ "blue-badge-holders": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "5347c9b66ffb33d7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Blue Badge holders"
+ },
+ "body-image-resources-parents-and-young-people": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "846887aca989c26d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Body image resources for parents and young people"
+ },
+ "bone-marrow-biopsy": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "ff028e4164634148",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bone marrow biopsy under conscious sedation"
+ },
+ "bone-marrow-biopsy-1": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "c3e1efd21696d4fd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bone marrow biopsy"
+ },
+ "booking": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "a2b43dc57dfc37f1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Booking appointment"
+ },
+ "botox-eye-clinic-appointment": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "44cdfd39f62ed5ca",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Botox eye clinic appointment"
+ },
+ "bottle-feeding-your-preterm-baby": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "4ad15db222c21683",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bottle feeding your preterm baby"
+ },
+ "bowel-obstruction-diet": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "888384e1f4c6b762",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel obstruction diet"
+ },
+ "bowel-prep-additional-moviprep": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "2571896fd1e153ba",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel preparation before endoscopy (additional Moviprep)"
+ },
+ "bowel-prep-colonoscopy-plenvu": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "a8c70c79c06548e1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel preparation before colonoscopy (Plenvu)"
+ },
+ "bowel-prep-endoscopy-moviprep": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "2875ef16b75e31f8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel preparation before endoscopy (Moviprep)"
+ },
+ "bowel-prep-endoscopy-picolax": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "85806d13e36586f8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel preparation before endoscopy (Picolax)"
+ },
+ "bowel-prep-endoscopy-picolax-prolonged-diet": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "0eba788c1a3b99f3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel preparation before endoscopy (Picolax and a prolonged low-residue diet)"
+ },
+ "bowel-prep-enema-home": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "877f6fa1ab91d58a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel prep with enema at home"
+ },
+ "bowel-prep-enema-hospital": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "5de3817f7e96488a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel prep with enema in hospital"
+ },
+ "breast-cancer-information-and-support": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "2d096002a061d54c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Breast cancer: information and support"
+ },
+ "breast-care-photography": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "706f6beda3127a4e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Breast care photography"
+ },
+ "breast-care-photography-oncoplastic-patients": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "3b2ab47acf9e7279",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Breast care photography for oncoplastic patients"
+ },
+ "broad-arm-sling": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "ecc9b3ecd991c0a7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Broad arm sling"
+ },
+ "broken-dislocated-toe": {
+  "checked": "2026-09-16T02:37:40+01:00",
+  "content_hash": "b7818fcae55b0426",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Broken or dislocated toe"
+ },
  "children-and-young-people": {
   "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "148cfb558b143072",
