@@ -1,17 +1,27 @@
 {
- "version": 3.2,
+ "version": 3.3,
  "comment": "Interactive DVLA driving-advice trees for the picker (Oscar's design, 2026-08-01: when a selected condition has driving implications, a 'Driving advice' option appears — the tool asks the clinician the licence-group / severity questions the DVLA tables turn on, then shows the relevant rule VERBATIM with a link to the DVLA source page to double-check). RULES: every 'quote'/'quote2' is copied EXACTLY from the fetched gov.uk chapter named in the module's source (guidance_watch.py stores the page texts and re-verifies every quote here on its weekly sweep — a reworded chapter raises an alert instead of silently stale advice). 'note' fields are OUR framing and are shown as such. Questions only ever route between published DVLA rows — they never compute clinical conclusions. Clinician-facing decision support; the quote never auto-inserts into a patient handout. SCOPE (Oscar 2026-08-01 (2)): conditions normally advised by the discharging SPECIALIST team, or whose DVLA rules are too multi-branch for a quick tree, get a 'specialist: true' card that says so and links the chapter instead of pretending — and genuinely complex territory (e.g. pulmonary arterial hypertension) is deliberately NOT covered at all.",
  "clinical_signoff": {
   "status": "signed",
   "by": "Dr Oscar Harrison (clinical lead)",
   "date": "2026-08-08",
-  "_doc": "Signed off 2026-08-08 on Oscar's instruction in session ('sign off the driving advice'), after: walking the v3 trees in the test console (2026-08-06), ordering and testing the v3.1 fixes for all 12 of the 2026-08-07 nightly-review findings, and the v3.2 fixes for all 4 of the 2026-08-08 overnight findings (SCAD branch added, eye-surgery flying verdict corrected to conditional, elective-PCI G2 quote trimmed, pulmonary-oedema match term removed) — applied and byte-verified BEFORE signing, so no known confirmed finding is unaddressed at sign-off. The nightly two-model clinical review continues on every content change.",
+  "_doc": "Signed off 2026-08-08 on Oscar's instruction in session ('sign off the driving advice'), after: walking the v3 trees in the test console (2026-08-06), ordering and testing the v3.1 fixes for all 12 of the 2026-08-07 nightly-review findings, and the v3.2 fixes for all 4 of the 2026-08-08 overnight findings (SCAD branch added, eye-surgery flying verdict corrected to conditional, elective-PCI G2 quote trimmed, pulmonary-oedema match term removed) — applied and byte-verified BEFORE signing, so no known confirmed finding is unaddressed at sign-off. The nightly two-model clinical review continues on every content change. v3.3 (the five 2026-09-10 review findings) signed off 2026-09-16 after Oscar reviewed the diff — see amendments[-1].",
   "amendments": [
    {
     "date": "2026-08-20",
     "change": "drv-heart-failure: ICD/CRT-D triage question added before the NYHA rows (review finding: an HF-with-ICD patient could be given an NYHA 'may drive' verdict that ICD rules override). The a-icd advice node is a byte-identical copy of the already-verified arrhythmia a-icd quote, same chapter, same anchor.",
     "by": "claude, on the clinical lead's instruction in-session",
     "review": "nightly two-model adversarial review re-runs on the new content hash; weekly guidance_watch re-verifies the quote"
+   },
+   {
+    "date": "2026-09-15",
+    "change": "v3.3 — the five findings CONFIRMED by the 2026-09-10 two-model review, all applied on the clinical lead's instruction ('fix all five tonight, i'll review the diff and sign off'): (1) drv-heart-failure: 'Why the ICD?' triage splits secondary-prevention (existing a-icd) from prophylactic/primary-prevention ICD — new Group 1 + Group 2 nodes quoting the chapter's 'Prophylactic ICD (primary prevention)' row verbatim (anchor verified); (2) drv-tia: a seizure-at-onset/first-week question now precedes BOTH the confirmed and suspected paths, routing to a byte-identical copy of the stroke module's verified a-seiz node; (3) drv-stroke a2 + drv-tia a-await-2: quote2 adds the same row's 'recurrent TIAs or strokes … functional cardiac testing' sentence (drv-tia a2 already carried it); (4) implied cards (a driving module riding along with a flying sign-off, or vice versa) no longer print a quote on the patient page — neutral line + source link only, because every imply_node is a Group 1 row (index.html); (5) fly-pneumothorax: drained option relabelled to carry the ~2-week element, note rewritten, new 'less than 2 weeks / unclear → open the CAA page' option.",
+    "by": "Dr Oscar Harrison (clinical lead) — signed off v3.3 on 2026-09-16 in session ('sign off') after reviewing the diff; applied by claude on his instruction 2026-09-15",
+    "review": "nightly two-model adversarial review returns to the daily intense phase on the new content hash; guidance_watch re-verifies every quote (incl. the new ICD quotes) on its next sweep",
+    "signed_off": {
+     "by": "Dr Oscar Harrison (clinical lead)",
+     "date": "2026-09-16"
+    }
    }
   ]
  },
@@ -418,7 +428,7 @@
      "options": [
       {
        "label": "Yes — ICD/CRT-D in place, indicated or recommended",
-       "next": "a-icd"
+       "next": "q-icd-why"
       },
       {
        "label": "No ICD",
@@ -435,6 +445,53 @@
      "quote": "Should a ventricular arrhythmia result in either a clinical indication or clinical recommendation for ICD implant, then a period of 6 months will be required off Group 1 driving (following the date of the last arrhythmic episode or the date of ICD implant). A Group 2 licence will be permanently revoked, even if implantation does not occur.",
      "anchor": "arrhythmias",
      "note": "ICD rules override the heart-failure rows whatever the NYHA class — added 2026-08-20 after a confirmed review finding, on the clinical lead's instruction. CRT-P (pacing without a defibrillator) has different rules — open the chapter."
+    },
+    "q-icd-why": {
+     "question": "Why the ICD? The DVLA has separate rows for the two indications.",
+     "options": [
+      {
+       "label": "Secondary prevention — after a sustained ventricular arrhythmia (or an ICD indicated/recommended for one)",
+       "next": "a-icd"
+      },
+      {
+       "label": "Primary prevention — prophylactic ICD in an asymptomatic patient at high arrhythmia risk, no arrhythmic event",
+       "next": "q-icd-pp-group"
+      },
+      {
+       "label": "Not sure — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "q-icd-pp-group": {
+     "question": "Which licence group? (prophylactic / primary-prevention ICD)",
+     "options": [
+      {
+       "label": "Group 1 — car / motorcycle",
+       "next": "a-icd-pp-1"
+      },
+      {
+       "label": "Group 2 — bus / lorry",
+       "next": "a-icd-pp-2"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-icd-pp-1": {
+     "verdict": "must_not",
+     "quote": "Must not drive for one month following implantation and must notify DVLA. Driving may resume one month after implantation if the individual remains asymptomatic and no ICD therapy is needed. Must not drive and must notify DVLA should the ICD subsequently deliver shock therapy or anti-tachycardia pacing associated with or likely to cause incapacity (except during normal clinical testing). The relevant restrictions must be applied as detailed under the heading ‘ICD implanted for sustained ventricular arrhythmia (secondary prevention)’.",
+     "anchor": "prophylactic-icd-primary-prevention",
+     "note": "Prophylactic (primary-prevention) ICD row, Group 1. If the device has since delivered therapy, the secondary-prevention rows apply instead — take the secondary-prevention branch or open the chapter. Added 2026-09-15 after a confirmed review finding (all ICDs were routed to the secondary-prevention rule)."
+    },
+    "a-icd-pp-2": {
+     "verdict": "must_not",
+     "quote": "Must not drive and must notify DVLA. Licence will be refused or revoked permanently.",
+     "quote2": "For Group 2 licensing, should ICD implantation be recommended (based upon clinical guidance or expert opinion), but implantation does not occur or is declined by the driver, then the driver or applicant will be assessed against the ICD standard. This means the licence will be refused or revoked permanently.",
+     "anchor": "prophylactic-icd-primary-prevention",
+     "note": "Prophylactic (primary-prevention) ICD row, Group 2 — the bar applies whether the ICD is implanted, recommended or declined. Added 2026-09-15 after a confirmed review finding."
     }
    },
    "patient_slug": "gov-drv-heart-failure"
@@ -454,7 +511,7 @@
    "start": "q-dx",
    "nodes": {
     "q-group": {
-     "question": "Which licence group? (A seizure at the time of the TIA or in the first week has its own rule — take the stroke walkthrough's seizure branch or open the chapter.)",
+     "question": "Which licence group?",
      "options": [
       {
        "label": "Group 1 — car / motorcycle",
@@ -465,7 +522,7 @@
        "next": "a2"
       },
       {
-       "label": "Seizure at presentation / other — open the chapter",
+       "label": "Not listed — open the chapter",
        "next": "r"
       }
      ]
@@ -498,11 +555,11 @@
      "options": [
       {
        "label": "Confirmed — I'm confident this was a TIA",
-       "next": "q-group"
+       "next": "q-seiz-c"
       },
       {
        "label": "Suspected — awaiting the TIA clinic",
-       "next": "q-await-group"
+       "next": "q-seiz-s"
       },
       {
        "label": "Not listed — open the chapter",
@@ -547,7 +604,48 @@
      "fly": {
       "module": "fly-cardiac-neuro",
       "node": "a-cva"
-     }
+     },
+     "quote2": "Patients with recurrent TIAs or strokes will be required to undergo functional cardiac testing."
+    },
+    "q-seiz-c": {
+     "question": "Any seizure at the time of the TIA, or in the first week after it? (confirmed TIA)",
+     "options": [
+      {
+       "label": "No seizure",
+       "next": "q-group"
+      },
+      {
+       "label": "Yes — seizure at or within a week",
+       "next": "a-seiz"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "q-seiz-s": {
+     "question": "Any seizure at the time of the TIA, or in the first week after it? (suspected — awaiting the TIA clinic)",
+     "options": [
+      {
+       "label": "No seizure",
+       "next": "q-await-group"
+      },
+      {
+       "label": "Yes — seizure at or within a week",
+       "next": "a-seiz"
+      },
+      {
+       "label": "Not listed — open the chapter",
+       "next": "r"
+      }
+     ]
+    },
+    "a-seiz": {
+     "verdict": "must_not",
+     "quote": "Seizures occurring at the time of a stroke or TIA, or in the ensuing first week, may be treated as provoked for licensing purposes, provided there is no previous history of unprovoked seizure or cerebral pathology. Such provoked seizures will usually necessitate driving cessation.",
+     "note": "Treated as provoked for licensing — use the seizure walkthrough's provoked branch and Appendix B on the source page.",
+     "anchor": "stroke-transient-ischaemic-attack-tia-and-cerebral-venous-thrombosis--including-amaurosis-fugax-and-retinal-artery-occlusion"
     }
    },
    "patient_slug": "gov-drv-tia",
@@ -624,7 +722,8 @@
      "fly": {
       "module": "fly-cardiac-neuro",
       "node": "a-cva"
-     }
+     },
+     "quote2": "Patients with recurrent TIAs or strokes will be required to undergo functional cardiac testing."
     },
     "r": {
      "refer": true
@@ -1352,8 +1451,12 @@
        "next": "a-drain"
       },
       {
-       "label": "Drained, with FULL lung re-expansion confirmed",
+       "label": "Drained about 2 weeks ago or more, with full lung re-expansion confirmed",
        "next": "a-drained"
+      },
+      {
+       "label": "Drained less than 2 weeks ago, or timing / re-expansion unclear — open the CAA page",
+       "next": "r"
       },
       {
        "label": "Other / unsure — open the chapter",
@@ -1368,7 +1471,7 @@
     "a-drained": {
      "verdict": "conditional",
      "quote": "In general, it should be safe to travel approximately 2 weeks after successful drainage of a pneumothorax with full expansion of the lung.",
-     "note": "The timing turns on BOTH conditions — successful drainage AND full re-expansion."
+     "note": "Three things must hold before this applies: successful drainage, full re-expansion of the lung, AND roughly 2 weeks elapsed since drainage. Earlier than that, or if re-expansion is not confirmed — open the CAA page. (Wording tightened 2026-09-15 after a confirmed review finding: the time element had been dropped.)"
     },
     "r": {
      "refer": true

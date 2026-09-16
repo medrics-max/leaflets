@@ -1003,11 +1003,11 @@ function renderResolved(items, demo) {
   const advCards = ADV_CARDS.map(c => `
     <div class="advice-card">
       <p class="advice-text">${advIntro(c)}</p>
-      <details style="margin:8px 0">
-        <summary style="cursor:pointer;color:#005eb8;padding:4px 0">${c.implied ? `See the ${escapeHtml(c.org)} rule` : c.await_specialist ? `See the ${escapeHtml(c.org)} rule that may apply` : `See the ${escapeHtml(c.org)} rule they checked`}</summary>
+      ${c.implied ? "" : `<details style="margin:8px 0">
+        <summary style="cursor:pointer;color:#005eb8;padding:4px 0">${c.await_specialist ? `See the ${escapeHtml(c.org)} rule that may apply` : `See the ${escapeHtml(c.org)} rule they checked`}</summary>
         <blockquote class="advice-text" style="border-left:3px solid #005eb8;margin:8px 0;padding:6px 10px;background:#f4f7fa">“${escapeHtml(c.quote)}”</blockquote>
         ${c.quote2 ? `<blockquote class="advice-text" style="border-left:3px solid #c6d1db;margin:8px 0;padding:6px 10px;background:#f8f9fb">“${escapeHtml(c.quote2)}”</blockquote>` : ""}
-      </details>
+      </details>`}
       <p style="background:#fff8e6;border-left:3px solid #b07d00;border-radius:0 6px 6px 0;padding:5px 8px;margin:8px 0;font-size:0.85rem;color:#5a4a00">Check this advice applies to you — if unsure, ask your clinician.</p>
       <a class="advice-text" href="${escapeHtml(c.url)}" target="_blank" rel="noopener" style="display:inline-block;background:#005eb8;color:#fff;border-radius:8px;padding:8px 14px;text-decoration:none">Open the ${escapeHtml(c.org)} guidance${c.anchor ? " (exact section)" : ""} ↗</a>
     </div>`).join("");
@@ -1213,7 +1213,10 @@ async function main() {
     ADV_DROPPED = 0;
     for (let pick of advRequested.slice(0, 6)) {
       // "~i" = implied (rode along with a driving sign-off) — neutral
-      // wording, never "your clinician has checked"
+      // wording, never "your clinician has checked", and NO quote: every
+      // imply_node is a Group 1 row, so printing it would show a bus/lorry
+      // driver the wrong rule (2026-09-10 review finding, fixed 2026-09-15).
+      // The implied card is the neutral line + the source link only.
       const implied = pick.endsWith("~i");
       if (implied) pick = pick.slice(0, -2);
       const dot = pick.lastIndexOf(".");
