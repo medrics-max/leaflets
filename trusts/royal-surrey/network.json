@@ -1,0 +1,698 @@
+{
+ "_doc": "Per-trust service directory seed for trust_network_build.py (specs/leaflets.md P22). Every quote is VERBATIM from the page at its url and is re-checked against the live page on every build; a quote that no longer matches blocks the build. Other hospitals appear only as SERVICE pages (where a service is provided), never as leaflets. Sites = the trust's own hospitals as described on its own pages. not_readable = neighbouring trusts whose websites this builder could not read (recorded honestly so the picker can say so).",
+ "trust": "royal-surrey",
+ "name": "Royal Surrey NHS Foundation Trust",
+ "retrieved": "2026-09-16",
+ "sites": [
+  {
+   "id": "rsch",
+   "name": "Royal Surrey County Hospital",
+   "short": "Royal Surrey",
+   "address": "Egerton Road, Guildford GU2 7XX",
+   "phone": "01483 571 122",
+   "phone_label": "Main switchboard",
+   "source_url": "https://www.royalsurrey.nhs.uk/getting-here",
+   "quotes": [
+    "The Main Car Park is located directly outside the front of the hospital"
+   ]
+  },
+  {
+   "id": "haslemere",
+   "name": "Haslemere Hospital",
+   "short": "Haslemere",
+   "address": "Church Lane, Haslemere GU27 2BJ",
+   "phone": "01483 956 524",
+   "phone_label": "Urgent Treatment Centre",
+   "source_url": "https://www.royalsurrey.nhs.uk/utc",
+   "quotes": [
+    "Open daily 8am-5pm (last new patient booking at 4pm)",
+    "The Urgent Treatment Centre, formerly the Minor Injuries Unit, is for adults and children over aged one year and above."
+   ]
+  },
+  {
+   "id": "milford",
+   "name": "Milford Community Hospital",
+   "short": "Milford",
+   "address": "Tuesley Lane, Godalming GU7 1UG",
+   "phone": "",
+   "phone_label": "",
+   "source_url": "https://www.royalsurrey.nhs.uk/milford-hospital",
+   "quotes": [
+    "Milford Community Hospital is a community Frailty Unit with a multi-disciplinary team providing care to older patients.",
+    "The hospital is also home to Royal Surrey's Community Diagnostic Centre, providing MRI and CT scanning."
+   ]
+  },
+  {
+   "id": "cranleigh",
+   "name": "Cranleigh Village Hospital",
+   "short": "Cranleigh",
+   "address": "6 High St, Cranleigh GU6 8AE",
+   "phone": "01483 956 600",
+   "phone_label": "Cranleigh Village Hospital",
+   "source_url": "https://www.royalsurrey.nhs.uk/cranleigh-village-hospital",
+   "quotes": [
+    "Services situated in Cranleigh include radiology, podiatry, physiotherapy and numerous outpatient clinics."
+   ]
+  }
+ ],
+ "services": [
+  {
+   "id": "emergency",
+   "label": "Emergency care",
+   "terms": [
+    "emergency",
+    "a&e",
+    "a and e",
+    "accident",
+    "injur",
+    "urgent",
+    "999",
+    "111"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/emergency-department-ae-18/",
+     "quote": "If your condition is not life-threatening then please contact NHS 111 before coming to the Emergency Department.",
+     "what": "Emergency Department, Royal Surrey"
+    },
+    {
+     "site": "haslemere",
+     "url": "https://www.royalsurrey.nhs.uk/utc",
+     "quote": "This is a walk-in service. We do not have an appointments system, although you can call 111 for advice and a time slot to attend.",
+     "what": "Urgent Treatment Centre, Haslemere — minor injuries and illnesses"
+    },
+    {
+     "site": "haslemere",
+     "url": "https://www.royalsurrey.nhs.uk/utc",
+     "quote": "Serious life threatening injuries or severe illness (call 999 or visit your closest hospital emergency department for these).",
+     "what": "What the UTC cannot treat"
+    }
+   ],
+   "elsewhere": [
+    {
+     "hospital": "St George's Hospital, Tooting (London)",
+     "trust": "St George's University Hospitals NHS Foundation Trust",
+     "url": "https://www.stgeorges.nhs.uk/service/major-trauma-centre/",
+     "quote": "St George's Hospital is the major trauma centre for the south west London and Surrey and is part of the southwest London and surrey trauma network",
+     "what": "Major trauma centre (ambulance crews take the most serious injuries there)"
+    }
+   ]
+  },
+  {
+   "id": "same-day",
+   "label": "Same Day Emergency Care (SDEC) and EEMAC",
+   "terms": [
+    "sdec",
+    "same day",
+    "eemac",
+    "ambulatory"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/sdec",
+     "quote": "Our Same Day Emergency Care is a seven-day service that provides an innovative ambulatory care facility for medical patients.",
+     "what": "SDEC, Royal Surrey"
+    },
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/sdec",
+     "quote": "You may be referred to Same Day Emergency Care by your GP, from the emergency department streaming assessment or an outpatient clinic.",
+     "what": ""
+    }
+   ],
+   "elsewhere": []
+  },
+  {
+   "id": "neurology",
+   "label": "Neurology — brain and nerve conditions",
+   "terms": [
+    "neuro",
+    "epilep",
+    "seizure",
+    "parkinson",
+    "multiple sclerosis",
+    "headache",
+    "migraine",
+    "nerve",
+    "fit"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/neurology-152/",
+     "quote": "It deals with the diagnosis and treatment of conditions such as Parkinson's disease, epilepsy, head trauma, headache, and multiple sclerosis.",
+     "what": "Neurology department, Royal Surrey (outpatients and inpatient in-reach)"
+    },
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/neurology-152/",
+     "quote": "We offer specialist nurse clinics for those with an existing diagnosis of epilepsy, Parkinson's disease and multiple sclerosis.",
+     "what": ""
+    },
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/neurology-152/",
+     "quote": "All patients with reported neurological symptoms aged 16 years and above.",
+     "what": ""
+    },
+    {
+     "site": "milford",
+     "url": "https://www.royalsurrey.nhs.uk/milford-hospital",
+     "quote": "A number of specialist clinics are also run from here, including those for multiple sclerosis, podiatry and Parkinson's.",
+     "what": "Specialist clinics at Milford"
+    }
+   ],
+   "elsewhere": [
+    {
+     "hospital": "St George's Hospital, Tooting (London)",
+     "trust": "St George's University Hospitals NHS Foundation Trust",
+     "url": "https://www.stgeorges.nhs.uk/service/neuro/",
+     "quote": "St George's is the regional specialist centre for both inpatient and outpatient services for southwest London, Surrey and Sussex, serving a population of more than 3.5 million people.",
+     "what": "Regional neurosciences centre (Atkinson Morley)"
+    }
+   ]
+  },
+  {
+   "id": "neurosurgery",
+   "label": "Brain and spine surgery (neurosurgery)",
+   "terms": [
+    "neurosurg",
+    "brain surgery",
+    "brain tumour",
+    "brain haemorrhage",
+    "subarachnoid",
+    "head injury",
+    "spinal surgery",
+    "spinal cord"
+   ],
+   "here": [],
+   "absent_note": "No Royal Surrey service page describes neurosurgery (Find a service index read on the build date).",
+   "elsewhere": [
+    {
+     "hospital": "St George's Hospital, Tooting (London)",
+     "trust": "St George's University Hospitals NHS Foundation Trust",
+     "url": "https://www.stgeorges.nhs.uk/service/neuro/neurosurgery/",
+     "quote": "As a national centre of excellence and the heart of the South West London and Surrey Neurology Network, the department treats patients with the most complex conditions from across the country.",
+     "what": "Neurosurgery"
+    },
+    {
+     "hospital": "St George's Hospital, Tooting (London)",
+     "trust": "St George's University Hospitals NHS Foundation Trust",
+     "url": "https://www.stgeorges.nhs.uk/service/neuro/traumatic-brain-injury/",
+     "quote": "St George's Hospital provides a seamless traumatic brain injury service from the point of arrival in the emergency department, through neurosurgery, neuro intensive care, hyperacute neurorehabilitation through to outpatient multi-disciplinary follow up, all on one site.",
+     "what": "Traumatic brain injury"
+    },
+    {
+     "hospital": "St George's Hospital, Tooting (London)",
+     "trust": "St George's University Hospitals NHS Foundation Trust",
+     "url": "https://www.stgeorges.nhs.uk/service/neuro/neurosurgery/complex-spinal-surgery/",
+     "quote": "Patients with a complex spinal condition must be referred to the Spinal MDT",
+     "what": "Complex spinal surgery"
+    }
+   ]
+  },
+  {
+   "id": "stroke",
+   "label": "Stroke and TIA (mini-stroke)",
+   "terms": [
+    "stroke",
+    "tia",
+    "transient isch",
+    "mini-stroke",
+    "mini stroke",
+    "thrombolysis",
+    "thrombectomy"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/stroke-153/",
+     "quote": "Patients eligible for our service will have suffered an Acute Stroke which requires inpatient treatment or ongoing specialist rehabilitation",
+     "what": "Stroke unit and rehabilitation, Royal Surrey"
+    },
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/stroke-153/",
+     "quote": "We take referrals from our partner hospital, Frimley Park.",
+     "what": ""
+    }
+   ],
+   "elsewhere": [
+    {
+     "hospital": "St George's Hospital, Tooting (London)",
+     "trust": "St George's University Hospitals NHS Foundation Trust",
+     "url": "https://www.stgeorges.nhs.uk/service/neuro/stroke/",
+     "quote": "This is a regional service so we also accept patients from local hospitals who do not provide thrombolysis outside normal working hours.",
+     "what": "Hyperacute stroke unit (regional)"
+    },
+    {
+     "hospital": "St George's Hospital, Tooting (London)",
+     "trust": "St George's University Hospitals NHS Foundation Trust",
+     "url": "https://www.stgeorges.nhs.uk/service/neuro/",
+     "quote": "Mechanical Thrombectomy for Stroke",
+     "what": "Mechanical thrombectomy"
+    }
+   ]
+  },
+  {
+   "id": "eye",
+   "label": "Eye problems — eye casualty and ophthalmology",
+   "terms": [
+    "eye",
+    "ophthalm",
+    "vision",
+    "sight",
+    "cataract",
+    "glaucoma",
+    "macular",
+    "retina",
+    "conjunctiv"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/ophthalmology-150/",
+     "quote": "You can contact our nurses on 01483571122 ext. 4648 if you need to be seen in our Eye Emergency clinic.",
+     "what": "Eye Emergency clinic, Royal Surrey"
+    },
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/ophthalmology-150/",
+     "quote": "Opening hours: Monday – Friday 8am-6pm.",
+     "what": ""
+    },
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/ophthalmology-150/",
+     "quote": "Royal Surrey is home to the regional centre for macular degeneration",
+     "what": "Regional macular degeneration centre"
+    },
+    {
+     "site": "haslemere",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/emergency-department-ae-18/",
+     "quote": "They can treat wounds, minor burns, suspected broken bones, minor eye injuries, minor head injuries, bites and stings.",
+     "what": "Minor eye injuries at the Haslemere Urgent Treatment Centre"
+    }
+   ],
+   "elsewhere": []
+  },
+  {
+   "id": "bones",
+   "label": "Bones, joints and fractures",
+   "terms": [
+    "fracture",
+    "broken",
+    "orthopaed",
+    "msk",
+    "musculoskeletal",
+    "joint",
+    "back pain",
+    "knee",
+    "hip",
+    "shoulder",
+    "sprain",
+    "plaster",
+    "cast"
+   ],
+   "here": [
+    {
+     "site": "haslemere",
+     "url": "https://www.royalsurrey.nhs.uk/haslemere-hospital",
+     "quote": "suspected broken bones (with an X-ray service)",
+     "what": "Urgent Treatment Centre, Haslemere — recent injuries with X-ray"
+    },
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/outpatient-physiotherapy-fracture-clinic-service-188/",
+     "quote": "You are referred to this service via A&E only. Please note that your GP or the Minor Injuries Unit cannot refer you into fracture clinic.",
+     "what": "Physiotherapy fracture clinic, Royal Surrey"
+    },
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/outpatient-physiotherapy-fracture-clinic-service-188/",
+     "quote": "one of our chartered physiotherapists will call you within two weeks of your injury",
+     "what": ""
+    },
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/musculoskeletal-msk-orthopaedics-187/",
+     "quote": "The musculoskeletal service (MSK) delivers triage, assessment, treatment and management for patients experiencing muscle and joint pains.",
+     "what": "MSK service, Royal Surrey"
+    }
+   ],
+   "elsewhere": [
+    {
+     "hospital": "St George's Hospital, Tooting (London)",
+     "trust": "St George's University Hospitals NHS Foundation Trust",
+     "url": "https://www.stgeorges.nhs.uk/service/neuro/neurosurgery/complex-spinal-surgery/",
+     "quote": "Patients with a complex spinal condition must be referred to the Spinal MDT",
+     "what": "Complex spinal surgery"
+    }
+   ]
+  },
+  {
+   "id": "children",
+   "label": "Children — specialist services",
+   "terms": [
+    "child",
+    "paediatric",
+    "children",
+    "baby",
+    "infant"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/childrens-services-98/",
+     "quote": "We are a level 2 Paediatric Oncology Shared Care Unit (POSCU) and we share care with the Royal Marsden, Great Ormond Street and University College London Hospitals.",
+     "what": "Children's services, Royal Surrey"
+    },
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/paediatric-surgery-174/",
+     "quote": "Our paediatric surgery clinics are run by two visiting consultants from St George's Hospital",
+     "what": "Paediatric surgery clinics (visiting consultants)"
+    },
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/paediatric-epilepsy-166/",
+     "quote": "who visits four times a year for all-day neurology clinics",
+     "what": "Paediatric neurology clinics (visiting consultant from St George's)"
+    },
+    {
+     "site": "haslemere",
+     "url": "https://www.royalsurrey.nhs.uk/utc",
+     "quote": "Children under one year old.",
+     "what": "The Haslemere UTC does not treat children under one"
+    }
+   ],
+   "elsewhere": []
+  },
+  {
+   "id": "scans",
+   "label": "Scans and X-rays",
+   "terms": [
+    "x-ray",
+    "xray",
+    "scan",
+    "mri",
+    "ct ",
+    "ultrasound",
+    "radiolog",
+    "imaging",
+    "echo"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/radiology-95/",
+     "quote": "We have facilities in our main Guildford hospital site, as well as limited imaging services at our satellite hospitals at Cranleigh, Haslemere and Milford.",
+     "what": "Radiology, Royal Surrey and satellites"
+    },
+    {
+     "site": "milford",
+     "url": "https://www.royalsurrey.nhs.uk/milford-hospital",
+     "quote": "It is home to two state-of-the-art MRI scanners and a CT scanner.",
+     "what": "Community Diagnostic Centre, Milford"
+    },
+    {
+     "site": "milford",
+     "url": "https://www.royalsurrey.nhs.uk/milford-hospital",
+     "quote": "The centre is open Monday to Friday 8am to 5pm.",
+     "what": ""
+    },
+    {
+     "site": "cranleigh",
+     "url": "https://www.royalsurrey.nhs.uk/cranleigh-village-hospital",
+     "quote": "Services situated in Cranleigh include radiology, podiatry, physiotherapy and numerous outpatient clinics.",
+     "what": "Cranleigh"
+    }
+   ],
+   "elsewhere": []
+  },
+  {
+   "id": "older",
+   "label": "Older people and frailty",
+   "terms": [
+    "frail",
+    "older",
+    "elderly",
+    "falls",
+    "dementia",
+    "memory"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/frailty-108/",
+     "quote": "Patients aged 65 years and above identified as living with frailty.",
+     "what": "Acute Frailty Service, Royal Surrey"
+    },
+    {
+     "site": "milford",
+     "url": "https://www.royalsurrey.nhs.uk/milford-hospital",
+     "quote": "Milford Community Hospital is a community Frailty Unit with a multi-disciplinary team providing care to older patients.",
+     "what": "Community frailty unit, Milford"
+    }
+   ],
+   "elsewhere": []
+  },
+  {
+   "id": "heart",
+   "label": "Heart",
+   "terms": [
+    "heart",
+    "cardi",
+    "chest pain",
+    "palpitation",
+    "ecg",
+    "angina"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/cardiology-66/",
+     "quote": "General clinics are a combination of face-to-face and telephone appointments, with some off-site clinics in Haslemere.",
+     "what": "Cardiology, Royal Surrey (some clinics at Haslemere)"
+    }
+   ],
+   "elsewhere": []
+  },
+  {
+   "id": "lungs",
+   "label": "Lungs and breathing",
+   "terms": [
+    "breath",
+    "lung",
+    "respirat",
+    "asthma",
+    "copd",
+    "chest infection",
+    "pneumonia",
+    "sleep apnoea"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/respiratory-192/",
+     "quote": "They're based at the main hospital in Guildford and our community hospitals in Cranleigh, Haslemere and Milford.",
+     "what": "Respiratory, Royal Surrey and community hospitals"
+    },
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/sleep-and-home-ventilation-service-54/",
+     "quote": "We provide services across our sites at Royal Surrey Hospital in Guildford, Carleigh village hospital and Haslemere Hospital.",
+     "what": "Sleep and home ventilation"
+    }
+   ],
+   "elsewhere": []
+  },
+  {
+   "id": "gut",
+   "label": "Stomach, bowel and liver",
+   "terms": [
+    "stomach",
+    "bowel",
+    "liver",
+    "gastro",
+    "hepat",
+    "abdominal",
+    "colitis",
+    "crohn",
+    "endoscop"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/gastroenterology-and-hepatology-89/",
+     "quote": "We provide outpatient clinics at: the Royal Surrey County Hospital",
+     "what": "Gastroenterology and hepatology clinics (also Haslemere and Cranleigh)"
+    }
+   ],
+   "elsewhere": []
+  },
+  {
+   "id": "hearing",
+   "label": "Hearing",
+   "terms": [
+    "hearing",
+    "audiolog",
+    "ear",
+    "deaf",
+    "tinnitus"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/audiology-34/",
+     "quote": "We also run clinics at Haslemere Hospital, Cranleigh Hospital and the West Byfleet Health Centre.",
+     "what": "Audiology, Royal Surrey and community clinics"
+    }
+   ],
+   "elsewhere": []
+  },
+  {
+   "id": "rheumatology",
+   "label": "Rheumatology — arthritis and joint inflammation",
+   "terms": [
+    "rheumat",
+    "arthritis",
+    "lupus",
+    "gout"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/rheumatology-87/",
+     "quote": "Referrals may be seen in Haslemere Community Hospital, Cranleigh Village Community Hospital and Badgerswood Surgery in Bordon",
+     "what": "Rheumatology clinics"
+    }
+   ],
+   "elsewhere": []
+  },
+  {
+   "id": "urology",
+   "label": "Urology — kidneys, bladder and prostate",
+   "terms": [
+    "urolog",
+    "kidney",
+    "bladder",
+    "prostate",
+    "urine",
+    "renal colic",
+    "stone"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/urology-48/",
+     "quote": "We offer services to patients in our local community of Surrey and surrounding areas as well as further afield stretching from Basingstoke to Worthing",
+     "what": "Urology, Royal Surrey (regional)"
+    }
+   ],
+   "elsewhere": []
+  },
+  {
+   "id": "intensive-care",
+   "label": "Intensive care",
+   "terms": [
+    "intensive care",
+    "icu",
+    "critical care"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/intensive-care-unit-icu-156/",
+     "quote": "We take referrals from: the Emergency Department (ED); Royal Surrey inpatient wards and from other adult intensive care units in our regional network (Kent, Surrey and Sussex)",
+     "what": "Intensive Care Unit, Royal Surrey"
+    }
+   ],
+   "elsewhere": []
+  },
+  {
+   "id": "bowel-screening",
+   "label": "Bowel cancer screening",
+   "terms": [
+    "bowel screening",
+    "bowel cancer screening",
+    "fit test",
+    "screening"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/bowel-cancer-screening-146/",
+     "quote": "Surrey Bowel Cancer screening staff work at four sites: Royal Surrey NHS Foundation Trust, Frimley Park NHS Foundation Trust, Surrey and Sussex Healthcare NHS Trust and Ashford and St Peter's Hospital",
+     "what": "Surrey Bowel Cancer Screening (four sites)"
+    }
+   ],
+   "elsewhere": []
+  },
+  {
+   "id": "medicines-info",
+   "label": "Questions about your hospital medicines",
+   "terms": [
+    "medicine",
+    "medication",
+    "pharmac",
+    "tablet",
+    "prescription"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/pharmacy-45/",
+     "quote": "Medicines Information team on 03006 136 751",
+     "what": "Medicines Information team"
+    }
+   ],
+   "elsewhere": []
+  },
+  {
+   "id": "pals",
+   "label": "PALS — advice, concerns and complaints",
+   "terms": [
+    "pals",
+    "complain",
+    "concern",
+    "feedback",
+    "advice and liaison"
+   ],
+   "here": [
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/patient-advice-and-liaison-service",
+     "quote": "Monday to Friday, 9am to 3pm (except bank holidays).",
+     "what": "Patient Advice and Liaison Service"
+    },
+    {
+     "site": "rsch",
+     "url": "https://www.royalsurrey.nhs.uk/patient-advice-and-liaison-service",
+     "quote": "If you need urgent advice outside of PALS opening times, you can contact the main hospital switchboards and ask to speak to the site manager.",
+     "what": ""
+    }
+   ],
+   "elsewhere": []
+  }
+ ],
+ "not_readable": [
+  {
+   "trust": "Ashford and St Peter's Hospitals NHS Foundation Trust",
+   "hospital": "St Peter's Hospital, Chertsey",
+   "why": "the website refuses automated reading (HTTP 403 on 2026-09-16)"
+  },
+  {
+   "trust": "Frimley Health NHS Foundation Trust",
+   "hospital": "Frimley Park Hospital",
+   "why": "the website's service pages are script-rendered, so nothing readable was published to check (2026-09-16)"
+  }
+ ],
+ "verified": {
+  "date": "2026-09-16",
+  "quotes": 55,
+  "problems": []
+ }
+}

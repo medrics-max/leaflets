@@ -1,0 +1,248 @@
+[
+  {
+    "title": "Which emergency service should I use? (Royal Surrey)",
+    "slug": "advice-which-ed",
+    "type": "advice",
+    "intro": "Royal Surrey's Emergency Department is at the Royal Surrey County Hospital in Guildford. For a minor injury or illness, the Urgent Treatment Centre at Haslemere Hospital is often quicker.",
+    "sections": [
+      {
+        "heading": "Life-threatening emergency",
+        "points": [
+          "Call 999 now for: signs of a heart attack or stroke, severe breathing difficulty, heavy bleeding that will not stop, seizures (fits), or loss of consciousness.",
+          "The hospital's own words: \"If you have a life-threatening illness or injury then you should dial 999.\""
+        ]
+      },
+      {
+        "heading": "Emergency Department — Royal Surrey County Hospital, Guildford",
+        "points": [
+          "Egerton Road, Guildford GU2 7XX. Main switchboard 01483 571 122.",
+          "Patients are seen in order of clinical priority, so if your problem is less urgent you may face a very long wait.",
+          "If your condition is not life-threatening, contact NHS 111 first — NHS 111 can book you in to be seen quickly and safely.",
+          "If you arrive without being referred by NHS 111 or a GP, you will be asked triage questions and a streaming nurse may book you into a GP, the Urgent Treatment Centre, a dentist or a pharmacy instead."
+        ]
+      },
+      {
+        "heading": "Urgent Treatment Centre — Haslemere Hospital",
+        "points": [
+          "Church Lane, Haslemere GU27 2BJ. Phone 01483 956 524.",
+          "Open daily 8am to 5pm; the last new patient booking is at 4pm. Walk in, or call NHS 111 for a time slot.",
+          "For adults and children over one year old. Run by emergency nurse and paramedic practitioners and doctors, with X-ray on site.",
+          "Treats injuries and illnesses from the last two weeks: strains and sprains, suspected broken limbs, minor head injuries, minor scalds and burns, skin infections and rashes, eye problems, feverish illness in adults and children, abdominal pain, emergency contraception.",
+          "Cannot treat: serious or life-threatening problems, injuries or conditions lasting more than two weeks, head injuries or falls with any loss of consciousness, toothache, mental health problems, pregnancy-related problems, vomiting and diarrhoea, overdoses or alcohol-related problems, children under one.",
+          "Good to know: the hospital's Emergency Department page gives the centre's hours as Monday to Friday, while the centre's own page says daily. Before travelling at a weekend, ring 01483 956 524."
+        ],
+        "warning": "The Urgent Treatment Centre is not a 24-hour service. Outside 8am to 5pm, call NHS 111 — or 999 if it could be serious."
+      },
+      {
+        "heading": "Not sure where to go?",
+        "points": [
+          "Use NHS 111 — call 111 or go to 111.nhs.uk — day or night."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Royal Surrey — Attending our Emergency Department",
+        "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/emergency-department-ae-18/",
+        "checked": "16 September 2026"
+      },
+      {
+        "label": "Royal Surrey — Urgent Treatment Centre (UTC), Haslemere Hospital",
+        "url": "https://www.royalsurrey.nhs.uk/utc",
+        "checked": "16 September 2026"
+      },
+      {
+        "label": "Royal Surrey — Haslemere Hospital",
+        "url": "https://www.royalsurrey.nhs.uk/haslemere-hospital",
+        "checked": "16 September 2026"
+      },
+      {
+        "label": "Royal Surrey — home page (main switchboard)",
+        "url": "https://www.royalsurrey.nhs.uk/",
+        "checked": "16 September 2026"
+      }
+    ],
+    "footer": "Checked against the hospital's own pages on 16 September 2026. Phone numbers and hours change — if something here looks wrong, the page linked under Sources is the one to trust, and please tell us."
+  },
+  {
+    "title": "Urgent eye problems (Royal Surrey)",
+    "slug": "advice-eye-casualty",
+    "type": "advice",
+    "intro": "Royal Surrey's Ophthalmology department runs an Eye Emergency clinic. Phone the eye nurses first so they can tell you whether and when to come.",
+    "sections": [
+      {
+        "heading": "Go straight to A&E now if you have",
+        "points": [
+          "A chemical splash or chemical injury to the eye.",
+          "A penetrating injury, or any significant trauma to the eye.",
+          "A foreign body stuck in the eye.",
+          "Eye pain together with headache, nausea or vomiting and a sudden deterioration in your vision."
+        ]
+      },
+      {
+        "heading": "Eye Emergency clinic — Royal Surrey County Hospital",
+        "points": [
+          "Call the eye nurses on 01483 571 122, extension 4648, if you need to be seen in the Eye Emergency clinic.",
+          "Ophthalmology opening hours: Monday to Friday, 8am to 6pm.",
+          "Level B, West Wing, Outpatients Department 10. Eye reception is extension 2567."
+        ]
+      },
+      {
+        "heading": "Out of hours",
+        "points": [
+          "The hospital's page lists no out-of-hours eye number. Outside Monday to Friday 8am to 6pm, call NHS 111 — or 999, or go to the Emergency Department, for a serious eye injury or sudden loss of vision.",
+          "Minor eye injuries can also be seen at the Haslemere Urgent Treatment Centre, open daily 8am to 5pm (01483 956 524)."
+        ]
+      },
+      {
+        "heading": "See an optician or GP the same day for",
+        "points": [
+          "A red or sticky eye without pain or change in vision.",
+          "A gradual change in your vision.",
+          "Dry, itchy or watery eyes."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Royal Surrey — Ophthalmology (eye emergency clinic, hours, extensions)",
+        "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/ophthalmology-150/",
+        "checked": "16 September 2026"
+      },
+      {
+        "label": "Royal Surrey — Attending our Emergency Department (what the Haslemere unit treats)",
+        "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/emergency-department-ae-18/",
+        "checked": "16 September 2026"
+      },
+      {
+        "label": "Royal Surrey — Urgent Treatment Centre (UTC), Haslemere Hospital",
+        "url": "https://www.royalsurrey.nhs.uk/utc",
+        "checked": "16 September 2026"
+      }
+    ],
+    "footer": "Checked against the hospital's own pages on 16 September 2026. Phone numbers and hours change — if something here looks wrong, the page linked under Sources is the one to trust, and please tell us."
+  },
+  {
+    "title": "Patient Advice and Liaison Service (PALS) — Royal Surrey",
+    "slug": "advice-pals",
+    "type": "advice",
+    "intro": "PALS is the hospital's team for advice, concerns and help sorting out problems while you are a patient. It is free and confidential.",
+    "sections": [
+      {
+        "heading": "How PALS can help",
+        "points": [
+          "Answer questions about your care and help you understand what is happening.",
+          "Raise a concern quickly and informally with the right team.",
+          "Explain how to make a formal complaint if you want to."
+        ]
+      },
+      {
+        "heading": "Contact PALS (Royal Surrey)",
+        "points": [
+          "Phone 01483 402757 — Monday to Friday, 9am to 3pm (except bank holidays).",
+          "The PALS office is at Royal Surrey County Hospital, Egerton Road, Guildford GU2 7XX.",
+          "If you need urgent advice outside PALS opening times, the hospital says to contact the main switchboard, 01483 571 122, and ask to speak to the site manager."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Royal Surrey — Patient Advice and Liaison Service",
+        "url": "https://www.royalsurrey.nhs.uk/patient-advice-and-liaison-service",
+        "checked": "16 September 2026"
+      },
+      {
+        "label": "Royal Surrey — home page (main switchboard)",
+        "url": "https://www.royalsurrey.nhs.uk/",
+        "checked": "16 September 2026"
+      }
+    ],
+    "footer": "Checked against the hospital's own pages on 16 September 2026. Phone numbers and hours change — if something here looks wrong, the page linked under Sources is the one to trust, and please tell us."
+  },
+  {
+    "title": "Urgent dental problems (Royal Surrey area)",
+    "slug": "advice-urgent-dental",
+    "type": "advice",
+    "intro": "A&E cannot usually treat dental problems. The NHS urgent dental route is via your own dentist or NHS 111 — this page explains how it works and when A&E is the right place.",
+    "sections": [
+      {
+        "heading": "Get an urgent dental appointment",
+        "points": [
+          "If you have a dentist, call them first and ask for an urgent appointment.",
+          "If you don't have a dentist, or they're closed: call 111 or use 111.nhs.uk — NHS 111 arranges urgent dental care in the Royal Surrey area.",
+          "You should be offered urgent dental treatment within 24 hours or 7 days, depending on your symptoms.",
+          "A knocked-out adult tooth needs emergency dental care within 1 hour, or as soon as possible — keep the tooth in milk and go straight via 111."
+        ]
+      },
+      {
+        "heading": "Go to A&E (not a dentist) if you have",
+        "points": [
+          "Serious injuries to your face or jaw.",
+          "Heavy bleeding from your mouth that will not stop.",
+          "Severe swelling of your mouth, lips, throat or neck, with difficulty breathing or swallowing."
+        ]
+      },
+      {
+        "heading": "Good to know",
+        "points": [
+          "Your GP cannot provide dental treatment — 111 is the right route.",
+          "Most adults need to pay the NHS charge for dental appointments, including urgent ones."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "NHS — How to find an emergency or urgent NHS dentist appointment",
+        "url": "https://www.nhs.uk/nhs-services/dentists/how-to-find-an-nhs-dentist-in-an-emergency/",
+        "checked": "20 July 2026"
+      },
+      {
+        "label": "NHS — Toothache (self-care and when to get help)",
+        "url": "https://www.nhs.uk/symptoms/toothache/",
+        "checked": "20 July 2026"
+      }
+    ],
+    "footer": "Checked against the hospital's own pages on 16 September 2026. Phone numbers and hours change — if something here looks wrong, the page linked under Sources is the one to trust, and please tell us."
+  },
+  {
+    "title": "Fracture clinic — what happens after the Emergency Department (Royal Surrey)",
+    "slug": "advice-fracture-clinic",
+    "type": "advice",
+    "intro": "At Royal Surrey, follow-up after many fractures and other injuries is by the physiotherapy fracture clinic, which starts with a phone call.",
+    "sections": [
+      {
+        "heading": "Your referral",
+        "points": [
+          "Only the Emergency Department can refer you to this service — your GP or the Urgent Treatment Centre cannot.",
+          "A chartered physiotherapist will call you within two weeks of your injury, at an arranged time, to discuss your injury and give personalised advice and exercises.",
+          "Clinics are virtual or by telephone. If you need one, the physiotherapist books a face-to-face appointment during the call.",
+          "Queries: 01483 464 153."
+        ]
+      },
+      {
+        "heading": "Go back to the Emergency Department if",
+        "points": [
+          "Your pain is getting worse rather than better, or is not controlled by the painkillers you were given.",
+          "Your fingers or toes become numb, tingly, very swollen, cold, pale or blue.",
+          "Your plaster cast or splint feels too tight, cracks, becomes loose, or gets wet and soft."
+        ],
+        "warning": "These can be signs of pressure on nerves or blood vessels — do not wait for the phone call."
+      },
+      {
+        "heading": "Good to know",
+        "points": [
+          "Keep the injured limb raised above the level of your heart when you can, especially in the first few days.",
+          "If you have not heard from the physiotherapy team two weeks after your injury, ring 01483 464 153."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Royal Surrey — Outpatient Physiotherapy Fracture Clinic Service",
+        "url": "https://www.royalsurrey.nhs.uk/find-a-service/service/outpatient-physiotherapy-fracture-clinic-service-188/",
+        "checked": "16 September 2026"
+      }
+    ],
+    "footer": "Checked against the hospital's own pages on 16 September 2026. Phone numbers and hours change — if something here looks wrong, the page linked under Sources is the one to trust, and please tell us."
+  }
+]
