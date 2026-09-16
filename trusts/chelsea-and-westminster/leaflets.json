@@ -135,7 +135,7 @@
     "slug": "removal-of-stitches-from-ear-area-and-canal"
   },
   {
-    "title": "After your Bariatric Surgery",
+    "title": "After your bariatric surgery",
     "url": "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/bariatric-dietetics/after-your-bariatric-surgery",
     "slug": "after-your-bariatric-surgery"
   },
@@ -228,6 +228,11 @@
     "title": "Back pain",
     "url": "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/medicine-services/back-pain",
     "slug": "back-pain"
+  },
+  {
+    "title": "Bariatric dietitian handbook",
+    "url": "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/bariatric-dietetics/bariatric-dietitian-handbook",
+    "slug": "bariatric-dietitian-handbook"
   },
   {
     "title": "Barrett's oesophagus (Chelsea & Westminster and West Middlesex)",
@@ -780,7 +785,7 @@
     "slug": "dietary-guidance-after-gastric-bypass-or-sleeve-gastrectomy-surgery"
   },
   {
-    "title": "Dietary Guidance after Intra-gastric Balloon Insertion",
+    "title": "Dietary guidance after intra-gastric balloon insertion",
     "url": "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/bariatric-dietetics/dietary-guidance-after-intra-gastric-balloon-insertion",
     "slug": "dietary-guidance-after-intra-gastric-balloon-insertion"
   },
@@ -858,6 +863,11 @@
     "title": "Dual Procedure - Gastroscopy and Flexible Sigmoidoscopy (West Middlesex)",
     "url": "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/surgery-services/dual-procedure-gastroscopy-and-flexible-sigmoidoscopy",
     "slug": "dual-procedure-gastroscopy-and-flexible-sigmoidoscopy"
+  },
+  {
+    "title": "Dumping syndrome and reactive hypoglycaemia after bariatric surgery",
+    "url": "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/bariatric-dietetics/reactive-hypoglycaemia-after-bariatric-surgery",
+    "slug": "reactive-hypoglycaemia-after-bariatric-surgery"
   },
   {
     "title": "Duoderm advice",
@@ -1910,7 +1920,7 @@
     "slug": "pregnancy-advisory-clinic"
   },
   {
-    "title": "Pregnancy after Bariatric Surgery",
+    "title": "Pregnancy after bariatric surgery",
     "url": "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/bariatric-dietetics/pregnancy-after-bariatric-surgery",
     "slug": "pregnancy-after-bariatric-surgery"
   },
@@ -1965,7 +1975,7 @@
     "slug": "project-search"
   },
   {
-    "title": "Protein after Bariatric Surgery",
+    "title": "Protein after bariatric surgery",
     "url": "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/bariatric-dietetics/protein-after-bariatric-surgery",
     "slug": "protein-after-bariatric-surgery"
   },
@@ -2000,7 +2010,7 @@
     "slug": "radio-iodine-therapy"
   },
   {
-    "title": "Ramadan and fasting after Bariatric Surgery",
+    "title": "Ramadan and fasting after bariatric surgery",
     "url": "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/bariatric-dietetics/ramadan-and-fasting-after-bariatric-surgery",
     "slug": "ramadan-and-fasting-after-bariatric-surgery"
   },
@@ -2013,11 +2023,6 @@
     "title": "Rapid Access Teledermatology Clinic (West Mid)",
     "url": "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/dermatology/teledermatology-rapid-access-clinic-west-mid",
     "slug": "teledermatology-rapid-access-clinic-west-mid"
-  },
-  {
-    "title": "Reactive Hypoglycaemia after Bariatric Surgery",
-    "url": "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/bariatric-dietetics/reactive-hypoglycaemia-after-bariatric-surgery",
-    "slug": "reactive-hypoglycaemia-after-bariatric-surgery"
   },
   {
     "title": "Reconstruction after Mohs surgery: Understanding the surgical options",
@@ -2528,6 +2533,16 @@
     "title": "Weaning from the ventilator",
     "url": "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/icu/weaning-from-the-ventilator",
     "slug": "weaning-from-the-ventilator"
+  },
+  {
+    "title": "Weight loss (bariatric) surgery and loose skin",
+    "url": "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/bariatric-dietetics/weight-loss-bariatric-surgery-and-loose-skin",
+    "slug": "weight-loss-bariatric-surgery-and-loose-skin"
+  },
+  {
+    "title": "Weight loss (bariatric) surgery—information for patients",
+    "url": "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/bariatric-dietetics/weight-loss-bariatric-surgery-information-for-patients",
+    "slug": "weight-loss-bariatric-surgery-information-for-patients"
   },
   {
     "title": "Weight Management Support",

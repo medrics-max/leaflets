@@ -320,16 +320,6 @@
     "slug": "consent-guide-patients-service-users"
   },
   {
-    "title": "Covid: Cognitive problems post Covid-19",
-    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/covid-cognitive-problems-post-covid-19",
-    "slug": "covid-cognitive-problems-post-covid-19"
-  },
-  {
-    "title": "Covid: Voice problems",
-    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/covid-voice-problems",
-    "slug": "covid-voice-problems"
-  },
-  {
     "title": "Data Protection: How we use your information",
     "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/data-protection-how-use-your-information",
     "slug": "data-protection-how-use-your-information"
@@ -596,8 +586,8 @@
   },
   {
     "title": "General surgery: Rectus abdominus divartication",
-    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-information-template-13",
-    "slug": "patient-information-template-13"
+    "url": "https://www.ncic.nhs.uk/patients-visitors/patient-information-leaflets/patient-information-rectus-abdominus-divartication",
+    "slug": "patient-information-rectus-abdominus-divartication"
   },
   {
     "title": "Going from hospital to a temporary care home",
