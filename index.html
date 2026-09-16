@@ -55,6 +55,39 @@
   a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid #ffdd00; outline-offset: 2px; }
   .fu-card .fu-dest { font-size: 1.1rem; font-weight: 700; margin: 0 0 2px; }
   .fu-card .fu-when { font-size: 1.35rem; font-weight: 800; font-variant-numeric: tabular-nums; margin: 6px 0; }
+  .fu-card .fu-ref { margin: 4px 0 8px; font-size: 16px; }
+  .fu-card .fu-dir { margin: 6px 0; }
+  .fu-card .fu-go { display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 10px 20px; margin: 6px 0 4px; border-radius: 12px; background: #005eb8; color: #fff; text-decoration: none; font-size: 1.15rem; font-weight: 800; box-shadow: 0 2px 4px rgba(0,0,0,.15); }
+  .fu-card .fu-go:hover, .fu-card .fu-go:focus { background: #003f87; }
+  .fu-card .fu-go svg { flex: none; }
+  .fu-card .fu-actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 4px; }
+  .fu-card .fu-actions .fu-go { margin: 0; }
+  .fu-card .fu-go-alt { background: #fff; color: #005eb8; border: 2px solid #005eb8; box-shadow: none; font: inherit; font-size: 1.05rem; font-weight: 800; cursor: pointer; }
+  .fu-card .fu-go-alt:hover, .fu-card .fu-go-alt:focus { background: #e8f1fa; }
+  .fu-card .fu-go-alt.on { background: #e8f1fa; }
+  .fu-card .fu-sec { margin: 6px 0; padding: 8px 0 2px; border-top: 1px solid #d8dde3; }
+  @media print { .fu-card .fu-go { display: none; } .fu-card .fu-sec[hidden] { display: block; } }
+  .fu-card .fu-steps { margin: 6px 0 6px 22px; padding: 0; }
+  .fu-card .fu-steps li { margin: 3px 0; }
+  .fu-card .fu-w3 { margin: 6px 0; }
+  .fu-card .fu-map { margin: 8px 0; }
+  .fu-card .fu-mapwrap { position: relative; overflow: hidden; border: 1px solid #d8dde3; border-radius: 8px; background: #eef4f8; aspect-ratio: 1600 / 1131; }
+  .fu-card .fu-mapinner { position: absolute; inset: 0; transition: transform .25s ease; }
+  .fu-card .fu-mapinner img { display: block; width: 100%; height: 100%; object-fit: contain; }
+  .fu-card .fu-box { position: absolute; box-sizing: border-box; border: 2px solid #d5281b; border-radius: 4px; pointer-events: none; }
+  .fu-card .fu-badge { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; border-radius: 50%; color: #fff; font-size: 0.85rem; font-weight: 800; line-height: 1; border: 2px solid #fff; box-shadow: 0 1px 2px rgba(0,0,0,.3); }
+  .fu-card .fu-badge-here { background: #d5281b; }
+  .fu-card .fu-badge-start { background: #005eb8; }
+  .fu-card .fu-onmap { position: absolute; transform: translate(-50%, -50%) scale(var(--badge, 1)); pointer-events: none; }
+  .fu-card .fu-mapwrap.zoom .fu-onmap { --badge: 0.75; }
+  .fu-card .fu-legend { list-style: none; margin: 6px 0 0; padding: 0; font-size: 0.85rem; }
+  .fu-card .fu-legend li { margin: 3px 0; display: flex; align-items: center; gap: 6px; }
+  .fu-card .fu-mapbtn { margin: 6px 6px 0 0; min-height: 44px; padding: 10px 14px; border: 1px solid #005eb8; border-radius: 999px; background: #fff; color: #005eb8; font: inherit; font-size: 0.9rem; font-weight: 700; cursor: pointer; }
+  .fu-card .fu-maplink { display: inline-block; min-height: 44px; box-sizing: border-box; }
+  .fu-card .fu-dir summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; font-weight: 700; color: #005eb8; }
+  .fu-card .fu-mapcredit { font-size: 0.78rem; color: #666; margin: 4px 0 0; }
+  @media print { .fu-card .fu-mapinner { transform: none !important; } .fu-card .fu-mapbox { display: block; } .fu-card .fu-mapbtn, .fu-card .fu-cal { display: none !important; } .fu-card a[href]::after { content: " (" attr(href) ")"; font-weight: 400; word-break: break-all; } }
+  .fu-card .fu-ref strong { font-family: ui-monospace, Menlo, monospace; font-size: 18px; letter-spacing: .05em; }
   .fu-card .fu-where { color: #4c6272; font-size: 0.92rem; margin: 4px 0; }
   .fu-card .fu-note { font-size: 0.88rem; color: #333; margin: 8px 0 0; }
   .fu-card .fu-past { margin-top: 10px; font-size: 0.85rem; color: #6b5200; background: #fff8e6; border: 1px solid #f3d77a; border-radius: 8px; padding: 8px 10px; }
@@ -63,7 +96,8 @@
   .fu-card .fu-leaf a { color: #005eb8; font-weight: 600; }
   .fu-card a.fu-phone { display: inline-block; background: #005eb8; color: #fff; border-radius: 6px; padding: 6px 14px; text-decoration: none; font-weight: 600; margin-top: 8px; margin-right: 8px; }
   .fu-card a.fu-find { display: inline-block; background: #005eb8; color: #fff; border-radius: 6px; padding: 6px 14px; text-decoration: none; font-weight: 600; margin-top: 8px; margin-right: 8px; }
-  .fu-card button.fu-cal { display: inline-block; background: #fff; color: #005eb8; border: 1px solid #005eb8; border-radius: 6px; padding: 6px 14px; font-weight: 600; font-size: 0.95rem; margin-top: 8px; margin-right: 8px; cursor: pointer; font-family: inherit; }
+  .fu-card button.fu-cal, .fu-card a.fu-cal { text-decoration: none; }
+  .fu-card button.fu-cal, .fu-card a.fu-cal { display: inline-block; background: #fff; color: #005eb8; border: 1px solid #005eb8; border-radius: 6px; padding: 6px 14px; font-weight: 600; font-size: 0.95rem; margin-top: 8px; margin-right: 8px; cursor: pointer; font-family: inherit; }
   .leaflet-card {
     border: 1px solid #d8dde3;
     border-radius: 12px;
@@ -182,6 +216,12 @@
     margin-bottom: 12px;
   }
   .advice-card .advice-title { font-size: 1.05rem; font-weight: 700; margin: 0 0 8px; }
+  .net-card .net-row { margin: 6px 0 10px; padding: 8px 10px; background: #fff; border: 1px solid #d8dde3; border-radius: 8px; }
+  .net-card .net-name { font-weight: 700; }
+  .net-card .net-sub { color: #4c6272; font-size: 0.9rem; margin: 2px 0 4px; }
+  .net-card .net-quote { margin: 4px 0 6px; padding-left: 10px; border-left: 3px solid #005eb8; color: #333; font-style: normal; }
+  .net-card .net-link { font-weight: 600; }
+  .net-card .net-checked { color: #666; font-size: 0.85rem; }
   .advice-card .advice-intro { color: #333; margin: 0 0 8px; }
   .advice-card .advice-h { font-weight: 600; margin: 14px 0 4px; }
   .advice-card .advice-text { margin: 0 0 6px; }
@@ -336,9 +376,16 @@
   .langhint { margin-top: 16px; font-size: 0.82rem; color: #777; text-align: center; }
   footer { margin-top: 40px; font-size: 0.8rem; color: #888; text-align: center; }
   footer .credits { font-size: 0.78rem; color: #888; margin-top: 10px; line-height: 1.45; }
+  footer .findlink { margin: 8px 0 0; font-size: 0.9rem; }
+  footer .findlink a { color: #005eb8; }
+  #topbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 6px 0 2px; }
+  #topbar img { height: 30px; width: auto; }
+  #topbar a.find { font-size: 0.85rem; color: #005eb8; text-decoration: none; }
+  @media print { #topbar a.find { display: none; } }
 </style>
 </head>
 <body>
+<div id="topbar"><a href="https://medrics.co.uk" aria-label="Medrics"><img src="medrics-logo-nav.png" alt="Medrics" onerror="this.style.display='none'"></a><a class="find" href="https://medrics.co.uk/patient-information/find/">Find local services ›</a></div>
 <div id="app" class="loading">Loading your information…
   If this message does not go away, check your connection and reload.
   If you feel worse, or you are worried, call 111 — or 999 in an emergency.
@@ -360,6 +407,7 @@
     Software &amp; design: the clinical lead
   </div>
   <div id="brand" style="margin-top:10px;"></div>
+  <p class="findlink"><a href="https://medrics.co.uk/patient-information/find/">Looking for a local service or more patient information? Search on medrics.co.uk</a></p>
 </footer>
 
 <script>
@@ -375,7 +423,10 @@ const FEEDBACK_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSf3frf13of84
 const MEDRICS_URL = "https://medrics.co.uk";
 const MEDRICS_LABEL = "Built by Medrics";
 // Logo file uploaded to the repo (leave "" to show the text label instead).
-const MEDRICS_LOGO = "medrics-logo.png";
+const MEDRICS_LOGO = "medrics-logo-nav.png";
+// Where a patient can look up local services and more patient information
+// (the owner 2026-09-16: "a link to our website where they can look for services")
+const MEDRICS_FIND_URL = "https://medrics.co.uk/patient-information/find/";
 // Private usage analytics (optional). Paste a Google Apps Script web-app URL to
 // collect ANONYMOUS usage stats (which topics are requested, ratings, time).
 // Leave "" to collect nothing. No personal data is ever sent.
@@ -411,7 +462,8 @@ const LOG_VIEWS = false;
 // in place the moment it is parsed, so the topics leave location.search
 // before anything is fetched or shared. `t` (which hospital) stays in the
 // query: it is routing, not clinical context.  (2026-09-12 review)
-const SENSITIVE_PARAMS = ["slug", "slugs", "fu"];
+const SENSITIVE_PARAMS = ["slug", "slugs", "fu", "bk", "tm"];
+let FU_DIR = "";   // the trust's data dir the follow-up layer came from (map images live beside it)
 
 function pageParams() {
   const q = new URLSearchParams(window.location.search);
@@ -474,6 +526,7 @@ function rateHelpful(value) {
 // all-day when the clinician gave no time. Delivered as a Blob the user
 // saves/opens — nothing is sent anywhere.
 let FU_ICS = "";
+let FU_GCAL = "";      // Google Calendar "add event" link — the lane Android phones open directly
 let FU_SUMMARY = "";   // one line for the banner: where and when
 let FU_LEAFLET = "";
 // every href on this page comes from our own JSON, but only http(s) may ever reach an href
@@ -498,12 +551,20 @@ function buildIcs(dest, dt, hasTime, findHref) {
     dtLines = ["DTSTART;VALUE=DATE:" + ymd(dt), "DTEND;VALUE=DATE:" + ymd(next)];
   }
   const trustName = (document.getElementById("trustfoot") || {}).textContent || "";
-  const desc = [dest.note, findHref ? "How to find it: " + findHref : "", "From your hospital visit — " + trustName]
+  // LOCATION = the place; the trust's directions go in the notes (a phone shows LOCATION as one line)
+  const place = String(dest.name || dest.label || "");
+  const where = String(dest.where || "").replace(/\s*What ?Three ?Words:[^.]*\.?/i, "").trim();
+  const desc = [dest.note, where, findHref ? "How to find it: " + findHref : "", "From your hospital visit — " + trustName]
     .filter(Boolean).join("\n");
+  const gd = hasTime ? [ymd(dt) + "T" + p2(dt.getHours()) + p2(dt.getMinutes()) + "00", ymd(new Date(dt.getTime() + 3600000)) + "T" + p2(new Date(dt.getTime() + 3600000).getHours()) + p2(new Date(dt.getTime() + 3600000).getMinutes()) + "00"]
+                      : [ymd(dt), ymd(new Date(dt.getFullYear(), dt.getMonth(), dt.getDate() + 1))];
+  FU_GCAL = "https://calendar.google.com/calendar/render?" + new URLSearchParams({ action: "TEMPLATE",
+    text: "Follow-up: " + (dest.name || dest.label || ""), dates: gd[0] + "/" + gd[1],
+    location: place, details: desc }).toString();
   return ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//medrics//patient leaflets//EN", "CALSCALE:GREGORIAN",
           "BEGIN:VEVENT", "UID:" + uid, "DTSTAMP:" + stamp, ...dtLines,
           "SUMMARY:" + icsText("Follow-up: " + (dest.name || dest.label)),
-          dest.where ? "LOCATION:" + icsText(dest.where) : "",
+          place ? "LOCATION:" + icsText(place) : "",
           desc ? "DESCRIPTION:" + icsText(desc) : "",
           findHref ? "URL:" + String(findHref).replace(/[\r\n]/g, "") : "",
           "END:VEVENT", "END:VCALENDAR"].filter(Boolean).join("\r\n") + "\r\n";
@@ -512,6 +573,149 @@ function buildIcs(dest, dt, hasTime, findHref) {
 window.addEventListener("beforeprint", () => document.querySelectorAll("details").forEach(d => { d.dataset.wasOpen = d.open ? "1" : ""; d.open = true; }));
 window.addEventListener("afterprint", () => document.querySelectorAll("details").forEach(d => { d.open = d.dataset.wasOpen === "1"; }));
 
+// Directions on the follow-up card (the owner 2026-09-16: "a collapsible map with
+// directions"): a short 'where' stays a single line; long directions (the
+// trust's own step-by-step text) fold into "How to find it" as numbered steps,
+// (any what3words line stripped — the Directions button covers that) and the trust's own map/page link.
+function directionsHtml(dest, findHref) {
+  const where = String(dest.where || "").trim();
+  const row = `<div class="fu-actions">${directionsButton(dest)}</div>`;
+  if (!where) return row + (findHref ? `<a class="fu-find" href="${escapeHtml(findHref)}" target="_blank" rel="noopener">📍 How to find it</a>` : "");
+  if (where.length <= 140) {
+    return row + `<p class="fu-where">📍 ${escapeHtml(where)}</p>` +
+      (findHref ? `<a class="fu-find" href="${escapeHtml(findHref)}" target="_blank" rel="noopener">📍 How to find it</a>` : "");
+  }
+  const w3 = /what ?three ?words:?\s*([a-z]+\.[a-z]+\.[a-z]+)/i.exec(where);
+  const body = w3 ? where.replace(w3[0], "").replace(/\s*-\s*this will take you to[^.]*\.?/i, "") : where;
+  const parts = body.split(/(?<=\.)\s+/).map(s => s.trim()).filter(Boolean);
+  const lead = parts.length && !/^(walk|turn|when|enter|follow|go|take|cross|head|use)\b/i.test(parts[0]) ? parts.shift() : "";
+  const map = mapHtml(dest);
+  const ico = (d) => `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
+  const mapIco = ico('<path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/>');
+  const listIco = ico('<path d="M8 6h13M8 12h13M8 18h13"/><path d="M3 6h.01M3 12h.01M3 18h.01"/>');
+  return `<div class="fu-actions">${directionsButton(dest)}${map ? `<button type="button" class="fu-go fu-go-alt" aria-controls="fusec-map" aria-expanded="false" onclick="toggleFuSec('fusec-map', this)">${mapIco}<span>Hospital map</span></button>` : ""}<button type="button" class="fu-go fu-go-alt" aria-controls="fusec-dir" aria-expanded="false" onclick="toggleFuSec('fusec-dir', this)">${listIco}<span>Written directions</span></button></div>
+    ${map ? `<div class="fu-sec" id="fusec-map" hidden>${map}</div>` : ""}
+    <div class="fu-sec" id="fusec-dir" hidden>
+    ${lead ? `<p class="fu-where">${escapeHtml(lead)}</p>` : ""}
+    <ol class="fu-steps">${parts.map(s => `<li>${escapeHtml(s.replace(/^Directions from the hospital main entrance:\s*/i, "From the hospital main entrance: "))}</li>`).join("")}</ol>
+    ${findHref ? `<a class="fu-find" href="${escapeHtml(findHref)}" target="_blank" rel="noopener">Open the hospital's own page</a>` : ""}
+    </div>`;
+}
+// One button, one thing (the owner 2026-09-16: "there should be a separate button
+// for map — at the moment it's coming under written directions. Need to be clear"):
+// Directions = the maps app; Hospital map = the trust's site map; Written
+// directions = the trust's steps. Each section opens on its own.
+function toggleFuSec(id, btn) {
+  const el = document.getElementById(id); if (!el) return;
+  const open = el.hidden; el.hidden = !open;
+  if (btn) { btn.setAttribute("aria-expanded", open ? "true" : "false"); btn.classList.toggle("on", open); }
+  if (open) el.scrollIntoView({ block: "nearest" });
+}
+// The trust's OWN site map with our highlight on the unit (the owner 2026-09-16:
+// "SDEC on that map is where EEMAC is — highlight it"). The image is the
+// trust's published map rendered into its folder, credited and linked to the
+// original; the pin sits at map.x/map.y (fractions of the image). Zoomed in on
+// the pin by default; "Show the whole map" zooms out.
+function mapHtml(dest) {
+  // The trust's OWN site map with small numbered badges (a map idiom — badges
+  // never cover the thing they mark) and a legend under the map. Zoomed so the
+  // start and the destination are both in view; "Show the whole map" zooms out.
+  const m = dest && dest.map;
+  if (!m || !m.image || typeof m.x !== "number" || typeof m.y !== "number") return "";
+  const src = (typeof FU_DIR === "string" ? FU_DIR : "") + String(m.image).replace(/[^a-z0-9.-]/g, "");
+  const clamp = (v, lo, hi) => Math.min(hi, Math.max(lo, v));
+  const s = clamp(Number(m.zoom) || 2, 1, 3);
+  const box = (Array.isArray(m.box) && m.box.length === 4) ? m.box.map(Number) : null;
+  const marks = (m.marks || []).filter(k => typeof k.x === "number" && typeof k.y === "number");
+  const pts = [[m.x, m.y], ...marks.map(k => [k.x, k.y])];
+  const mid = [pts.reduce((q, r) => q + r[0], 0) / pts.length, pts.reduce((q, r) => q + r[1], 0) / pts.length];
+  const origin = mid.map(v => s > 1 ? clamp((v - 1 / (2 * s)) / (1 - 1 / s), 0, 1) : 0.5);
+  const pct = v => (clamp(v, 0, 1) * 100).toFixed(2) + "%";
+  const target = m.label || dest.label || "Your destination";
+  // badge 1 = the destination (top-right corner of its outline, or the point); 2… = start markers
+  const badges = [box ? { n: 1, x: box[2], y: box[1], cls: "here" } : { n: 1, x: m.x, y: m.y, cls: "here" }]
+    .concat(marks.map((k, i) => ({ n: i + 2, x: k.x, y: k.y, cls: "start" })));
+  const legend = [`<li><span class="fu-badge fu-badge-here">1</span> ${escapeHtml(target)}</li>`]
+    .concat(marks.map((k, i) => `<li><span class="fu-badge fu-badge-start">${i + 2}</span> ${escapeHtml(k.label || "Start")}</li>`)).join("");
+  const orig = safeHref(m.source_url);
+  return `<div class="fu-map">
+    <div class="fu-mapbox" id="fumapbox">
+    <div class="fu-mapwrap zoom" id="fumap" data-zoom="${s}">
+      <div class="fu-mapinner" style="transform-origin:${pct(origin[0])} ${pct(origin[1])};transform:scale(${s})">
+        <img src="${escapeHtml(src)}" alt="${escapeHtml(m.credit || "Hospital site map")}. Badge 1 marks ${escapeHtml(target)}.${marks.length ? " Badge 2 marks " + escapeHtml(marks[0].label || "the start") + "." : ""}" loading="lazy">
+        ${box ? `<span class="fu-box" style="left:${pct(box[0])};top:${pct(box[1])};width:${((box[2] - box[0]) * 100).toFixed(2)}%;height:${((box[3] - box[1]) * 100).toFixed(2)}%"></span>` : ""}
+        ${badges.map(bd => `<span class="fu-badge fu-badge-${bd.cls} fu-onmap" style="left:${pct(bd.x)};top:${pct(bd.y)}">${bd.n}</span>`).join("")}
+      </div>
+    </div>
+    <ul class="fu-legend">${legend}</ul>
+    <button type="button" class="fu-mapbtn" aria-controls="fumap" aria-expanded="false" onclick="toggleFuMap(this)">Show the whole map</button>${orig ? ` <a class="fu-find fu-maplink" href="${orig}" target="_blank" rel="noopener">Open the hospital's map (PDF)</a>` : ""}
+    <p class="fu-note fu-mapcredit">Map: ${escapeHtml(m.credit || "the hospital's own map")}${orig ? ` — <a href="${orig}" target="_blank" rel="noopener">original</a>` : ""}. The outline and numbers are added by this page.</p>
+    </div>
+  </div>`;
+}
+function toggleFuMap(btn) {
+  const w = document.getElementById("fumap"); if (!w) return;
+  const inner = w.querySelector(".fu-mapinner");
+  const zoomed = w.classList.toggle("zoom");
+  inner.style.transform = zoomed ? "scale(" + w.dataset.zoom + ")" : "scale(1)";
+  if (btn) { btn.textContent = zoomed ? "Show the whole map" : "Zoom in on it"; btn.setAttribute("aria-expanded", zoomed ? "false" : "true"); }
+}
+
+// "Directions" (the owner 2026-09-16: "a function that adds to their default maps
+// app… a button that is self-explanatory, like a map with an arrow"): one
+// tap opens the phone's own maps app with the destination. Apple devices get
+// an Apple Maps link, everything else a Google Maps directions link — both
+// are plain links the patient chooses to tap; nothing loads on this page.
+// tel: link for a printed number; "01483 000 000" becomes tel:01483000000,1234 —
+// the comma is the dial-pause both iPhone and Android phones honour, so the phone rings the
+// switchboard and then sends the extension (the RFC 3966 ";ext=" form is not reliably dialled).
+function telHref(phone) {
+  const m = /^(.*?)(?:\s*(?:ext\.?|extension|x)\s*(\d{2,6}))?\s*$/i.exec(String(phone || ""));
+  const base = (m ? m[1] : String(phone || "")).replace(/[^+\d]/g, "");
+  return base + (m && m[2] ? "," + m[2] : "");
+}
+// Phone lines on the card (the owner 2026-09-16: "have both numbers in case that
+// doesn't work"): the unit's number as printed, and — when it is an extension —
+// the bare switchboard number as a second line so the patient can ask for the unit.
+function phoneHtml(dest) {
+  const phone = String((dest && dest.phone) || "").trim();
+  if (!phone) return "";
+  const m = /^(.*?)\s*(?:ext\.?|extension|x)\s*\d{2,6}\s*$/i.exec(phone);
+  const unit = escapeHtml(String(dest.label || dest.name || "the unit").replace(/\s*follow[- ]?up$/i, ""));
+  let h = `<a class="fu-phone" href="tel:${telHref(phone)}">📞 ${escapeHtml(phone)}</a>`;
+  if (m && m[1].trim()) h += `<a class="fu-phone" href="tel:${telHref(m[1])}">📞 Switchboard ${escapeHtml(m[1].trim())} — ask for ${unit}</a>`;
+  return h;
+}
+function directionsButton(dest) {
+  const g = dest && dest.geo;
+  if (!g || typeof g.lat !== "number" || typeof g.lon !== "number") return "";
+  const lat = g.lat.toFixed(5), lon = g.lon.toFixed(5), label = String(g.label || dest.name || "Hospital");
+  const apple = /iPhone|iPad|iPod|Macintosh/i.test(navigator.userAgent);
+  const href = apple
+    ? `https://maps.apple.com/?daddr=${lat},${lon}&q=${encodeURIComponent(label)}`
+    : `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`;
+  return `<a class="fu-go" href="${escapeHtml(href)}" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false"><path fill="currentColor" d="M3 5.5 9 3l6 2.5L21 3v15.5L15 21l-6-2.5L3 21V5.5zm6 .3v10.4l6 2.5V8.3L9 5.8z" opacity=".55"/><path fill="currentColor" d="M20.7 2.3a1 1 0 0 1 1 1.3l-6 15a1 1 0 0 1-1.9-.1l-1.6-5.4-5.4-1.6a1 1 0 0 1-.1-1.9l15-6a1 1 0 0 1 .3 0z"/></svg>
+    <span>Directions</span></a>`;
+}
+
+// Delivery per device: iPhone/iPad open a text/calendar link straight into the
+// Calendar import sheet; Android phones open Google Calendar's add-event page;
+// desktop browsers save the .ics (Chrome refuses to navigate to a data: URL, so
+// the desktop lane is a Blob download). Nothing is sent anywhere in any lane.
+function calendarButtonHtml() {
+  if (!FU_ICS) return "";
+  const ua = navigator.userAgent || "";
+  if (/iPhone|iPad|iPod/i.test(ua) || (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1))
+    return `<a class="fu-cal" href="data:text/calendar;charset=utf-8,${encodeURIComponent(FU_ICS)}">📆 Add to my calendar</a>`;
+  if (/Android/i.test(ua) && FU_GCAL)
+    return `<a class="fu-cal" href="${escapeHtml(FU_GCAL)}" target="_blank" rel="noopener">📆 Add to my calendar</a>`;
+  // desktop: a computer cannot be handed an event directly — the file is saved and opening it adds it;
+  // Google Calendar users get a direct link instead
+  return `<button type="button" class="fu-cal" onclick="addFollowupToCalendar()">📆 Add to my calendar</button>` +
+    (FU_GCAL ? `<a class="fu-cal" href="${escapeHtml(FU_GCAL)}" target="_blank" rel="noopener">Google Calendar</a>` : "") +
+    `<p class="fu-note fu-calhint" id="fucalhint" hidden>Saved as <strong>follow-up.ics</strong> — open it to add the appointment to your calendar.</p>`;
+}
 function addFollowupToCalendar() {
   if (!FU_ICS) return;
   try {
@@ -520,6 +724,7 @@ function addFollowupToCalendar() {
     const a = document.createElement("a");
     a.href = url; a.download = "follow-up.ics";
     document.body.appendChild(a); a.click(); a.remove();
+    const hint = document.getElementById("fucalhint"); if (hint) hint.hidden = false;
     setTimeout(() => URL.revokeObjectURL(url), 60000);
   } catch (e) {
     alert("Your browser could not save the calendar file. Please add the day and time by hand.");
@@ -592,6 +797,8 @@ function sourceBadge(item) {
   if (item.type === "nhs" || item.type === "medicines") return `<span class="src src-nhs">NHS website</span>`;
   if (item.type === "gov") return `<span class="src src-gov">${escapeHtml(item.source || "Official")}</span>`;
   if (item.type === "trusted") return `<span class="src src-trusted">${escapeHtml(item.source || "Trusted source")}</span>`;
+  // another organisation's page, chosen because this hospital and NHS.uk have none on the topic (P19)
+  if (item.type === "gapfill") return `<span class="src src-trusted" title="Your hospital and the NHS website have no page on this; this one passed medrics' quality check">From ${escapeHtml(item.source || "another NHS organisation")}</span>`;
   return "";
 }
 
@@ -707,8 +914,12 @@ function findCompanion(item, pages) {
   let best = null;
   for (const [slug, pg] of Object.entries(pages)) {
     if (!pg || !pg.title || !(pg.help || pg.info)) continue;
+    // "DVT (deep vein thrombosis)": the bracketed name is an alternative title,
+    // not noise — a trust's "Deep Vein Thrombosis" leaflet must find it
+    // (the owner 2026-09-16: trust DVT leaflet ticked, no safety-netting shown)
     const base = pg.title.replace(/\s*\(.*?\)\s*/g, " ").replace(/\s*[—–-]\s.*$/, "");
-    for (const alt of base.split(/\s+(?:and|or)\s+|\s*\/\s*/i)) {
+    const brackets = [...pg.title.matchAll(/\(([^)]+)\)/g)].map(m => m[1]);
+    for (const alt of [...base.split(/\s+(?:and|or)\s+|\s*\/\s*/i), ...brackets]) {
       const nt = stemWords(alt).trim();
       if (nt.length < 4) continue;
       if (t.includes(" " + nt + " ") && (!best || nt.length > best.nt.length)) best = { nt, slug };
@@ -864,6 +1075,50 @@ function helpSectionHtml() {
     </div>`;
 }
 
+// Where-to-go card (specs/leaflets.md P22, the owner 2026-09-16: "if patients have a
+// certain neuro problem, is there neuro at Royal Surrey — or is it at St Peter's,
+// or George's"). Every line is the hospital's own sentence, quoted, with the page
+// it came from; the builder refuses a row whose quote is no longer on the page.
+// Other hospitals appear only as service pages, never as leaflets.
+let NETWORK = null;
+function networkCard(item) {
+  // the resolved list carries only the display fields — read the full service line from the layer
+  const svc = ((NETWORK && NETWORK.services) || []).find(s => "net-" + s.id === item.slug) || item;
+  item = { ...item, label: svc.label, here: svc.here, elsewhere: svc.elsewhere, absent_note: svc.absent_note };
+  const sites = new Map(((NETWORK && NETWORK.sites) || []).map(s => [s.id, s]));
+  const trustName = (NETWORK && NETWORK.name) || TRUST_LABEL || "the hospital";
+  // one box per page: the heading is what the service is, the quotes are the page's own sentences
+  const group = rows => {
+    const out = [];
+    for (const r of rows) {
+      const last = out[out.length - 1];
+      if (last && last.url === r.url && last.site === r.site) { last.quotes.push(r.quote); if (!last.what && r.what) last.what = r.what; }
+      else out.push({ url: r.url, site: r.site, what: r.what || "", hospital: r.hospital || "", trust: r.trust || "", quotes: [r.quote] });
+    }
+    return out;
+  };
+  const box = (title, sub, quotes, url) => `<div class="net-row">
+      <div class="net-name">${escapeHtml(title)}</div>
+      ${sub ? `<div class="net-sub">${escapeHtml(sub)}</div>` : ""}
+      ${quotes.map(q => `<blockquote class="net-quote">“${escapeHtml(q)}”</blockquote>`).join("")}
+      ${safeHref(url) ? `<a class="net-link" href="${safeHref(url)}" target="_blank" rel="noopener">Read this on the hospital's page</a>` : ""}
+    </div>`;
+  const here = group(item.here || []).map(g => {
+    const s = sites.get(g.site) || {};
+    const phone = s.phone ? ` · ${s.phone_label ? s.phone_label + " " : ""}${s.phone}` : "";
+    return box(g.what || s.name || "", (s.name || "") + (s.address ? ", " + s.address : "") + phone, g.quotes, g.url);
+  }).join("");
+  const elsewhere = group(item.elsewhere || []).map(g => box(g.what || g.hospital, g.hospital + (g.trust ? " — " + g.trust : ""), g.quotes, g.url)).join("");
+  const unread = ((NETWORK && NETWORK.not_readable) || []).map(n => `<li>${escapeHtml(n.hospital || n.trust)}: ${escapeHtml(n.why)}</li>`).join("");
+  return `<div class="advice-card net-card">
+    <p class="advice-title">${escapeHtml(item.label)}</p>
+    ${here ? `<p class="advice-h">At ${escapeHtml(trustName)}'s hospitals</p>${here}` : ""}
+    ${!here && item.absent_note ? `<p class="advice-text">${escapeHtml(item.absent_note)}</p>` : ""}
+    ${elsewhere ? `<p class="advice-h">At other hospitals in the network</p>${elsewhere}` : ""}
+    ${unread ? `<p class="advice-h">Not checked</p><p class="advice-text">These hospitals may also provide this, but their websites could not be read:</p><ul>${unread}</ul>` : ""}
+    ${NETWORK && NETWORK.retrieved ? `<p class="advice-text net-checked">Pages checked ${escapeHtml(NETWORK.retrieved)}.</p>` : ""}
+  </div>`;
+}
 function adviceCard(item) {
   const intro = item.intro ? `<p class="advice-intro">${escapeHtml(item.intro)}</p>` : "";
   const secs = (item.sections || []).map(s => {
@@ -944,9 +1199,10 @@ function renderResolved(items, demo) {
   const advice = items.filter(i => i.type === "advice");
   const medicines = items.filter(i => i.type === "medicines");
   const services = items.filter(i => i.type === "service");
+  const network = items.filter(i => i.type === "network");
   // 'trusted' = named reputable UK charities/bodies — rendered with the NHS
   // layer under the same heading; filtering by type must never drop an item.
-  const nhs = items.filter(i => i.type === "nhs" || i.type === "trusted");
+  const nhs = items.filter(i => i.type === "nhs" || i.type === "trusted" || i.type === "gapfill");
   const gov = items.filter(i => i.type === "gov");
 
   // The flow (the owner 2026-09-03): your leaflets → about your condition →
@@ -971,6 +1227,11 @@ function renderResolved(items, demo) {
     ? `<p class="section-title">About your medicines</p>
        <p class="section-sub">What each medicine is for and what to expect, from the NHS website.</p>
        ${medicines.map(m => cardFor(m, "Open")).join("")}`
+    : "";
+  const networkSection = network.length
+    ? `<p class="section-title">Where to go for this</p>
+       <p class="section-sub">Which hospital provides what, in the hospital's own words. Tap a link to read the page it comes from.</p>
+       ${network.map(n => networkCard(n)).join("")}`
     : "";
   const serviceSection = services.length
     ? `<p class="section-title">Further information</p>
@@ -1044,6 +1305,7 @@ function renderResolved(items, demo) {
     ${leafletSection}
     ${nhsSection}
     ${adviceSection}
+    ${networkSection}
     ${medicineSection}
     ${serviceSection}
     <span id="followup"></span>${followupSection}
@@ -1079,6 +1341,17 @@ async function main() {
   // fu=id[.YYYYMMDD[.HHMM]] — a return visit the clinician put on the QR
   // (the owner 2026-09-03). A QR can carry a follow-up alone, with no leaflets.
   const fuParam = (params.get("fu") || "").trim();
+  // bk=<reference> — a booking reference the clinician's scheduler minted (2026-09-16).
+  // Random letters, meaningful only against the unit's own inbox; shown so the
+  // patient can quote it. Anything not reference-shaped is ignored.
+  const bkRaw = (params.get("bk") || "").trim().toUpperCase();
+  const bkParam = /^[A-Z]{2,4}-[A-Z0-9]{5}$/.test(bkRaw) ? bkRaw : "";
+  // tm=1 — the booking was made on a system the hospital is still trialling
+  // (Codex F6, 2026-09-16): the card says so and points the patient at the unit
+  // tm=1 rides on its own now: no reference is shown to the patient (the owner 2026-09-16 evening —
+  // the unit lines the booking up on its own side; the card is just where and when)
+  const trialLine = dest => (params.get("tm") === "1")
+    ? `<p class="fu-note fu-trial"><strong>Medrics note:</strong> this appointment was made using a system the hospital is trialling. If you are unsure, ${dest && dest.phone ? "call the number above" : "contact your care team using the number on your hospital paperwork"}.</p>` : "";
 
   if (requested.length === 0 && !fuParam) {
     render(`<h1>No leaflet selected</h1><p class="subtitle">This page is opened by scanning a QR code from your clinician.</p>`);
@@ -1121,9 +1394,20 @@ async function main() {
     indexP,
     // the rest of NHS.uk's A–Z (nhs_catalogue.py) — resolves nhsaz-/medaz- slugs
     layer("nhs_catalogue.json", { cache: "no-cache" }, "NHS A-Z", { items: [] }),
-  ]).then(([nhsL, medL, drv, idx, cat]) => {
+    layer("gap_fill.json", { cache: "no-cache" }, "gap-fill pages", { rows: [] }),
+  ]).then(([nhsL, medL, drv, idx, cat, gap]) => {
     for (const it of (cat && cat.items) || []) (it.type === "medicines" ? medL : nhsL).push(it);
-    return [nhsL, medL, drv, idx];
+    // other organisations' pages the clinician chose because this hospital and
+    // NHS.uk have no page on the topic — quality-checked, and labelled as such
+    for (const r of (gap && gap.rows) || []) if (r.gap_fill === true && r.quality && r.quality.pass === true) nhsL.push({ ...r, type: "gapfill" });
+    // NEVER EVENT guard (2026-09-16): another trust's leaflet in a national
+    // layer never reaches a patient's page, whatever the data says
+    const OTHER_TRUST = /NHS (Foundation )?Trust|Teaching Hospitals|University Hospitals/i;
+    const isOtherTrust = it => {
+      if (OTHER_TRUST.test(String(it.source || "")) || OTHER_TRUST.test(String(it.title || ""))) return true;
+      try { const h = new URL(String(it.url || "")).hostname; return h.endsWith(".nhs.uk") && !["www.nhs.uk", "111.nhs.uk", "www.thinkkidneys.nhs.uk"].includes(h); } catch (e) { return false; }
+    };
+    return [nhsL.filter(it => !isOtherTrust(it)), medL.filter(it => !isOtherTrust(it)), drv, idx];
   });
   const requestedEarly = (params.get("slugs") || params.get("slug") || "").split(",").map(x => x.trim()).filter(Boolean);
   const nhsEarlyP = indexP.then(idx => Promise.all(requestedEarly.filter(x => (idx.pages || {})[x]).map(loadNhsPage)));
@@ -1164,7 +1448,7 @@ async function main() {
   }
 
   let leaflets, services, nhs, advice, medicines, overrides, reviews, redirects,
-      drivingAdvice, followups, nhsCards;
+      drivingAdvice, followups, nhsCards, network;
   ADV_CARDS = [];
   FU_CARD = "";
   // (2026-08-08 review) a failed layer fetch must not be silently identical
@@ -1175,7 +1459,7 @@ async function main() {
   const libraryMode = !trustResolved;
   const trustLayer = (url, opts, name, empty) => libraryMode ? Promise.resolve(empty) : layer(url, opts, name, empty);
   try {
-    [leaflets, services, advice, overrides, reviews, redirects, followups, [nhs, medicines, drivingAdvice, nhsIndex]] = await Promise.all([
+    [leaflets, services, advice, overrides, reviews, redirects, followups, network, [nhs, medicines, drivingAdvice, nhsIndex]] = await Promise.all([
       // a follow-up-only QR must not die with the leaflet index: a failure
       // here flags the layer and the page renders what it can, with the
       // outage notice (2026-09-03 Codex review)
@@ -1192,7 +1476,10 @@ async function main() {
       libraryMode ? Promise.resolve({}) : fetch(dir + "redirects.json").then(r => r.json()).catch(() => ({})),
       // no-store, like local advice: it carries unit locations and phone
       // numbers — a returning patient must never see a stale cached copy
-      trustLayer(dir + "followups.json", { cache: "no-store" }, "follow-up details", {}),
+      trustLayer((FU_DIR = dir) + "followups.json", { cache: "no-store" }, "follow-up details", {}),
+      // the trust's service directory (specs/leaflets.md P22): which of its sites, or which
+      // other hospital, provides what — the trust's own words, quoted, with the page linked
+      trustLayer(dir + "network.json", { cache: "no-cache" }, "where to go", {}),
       nationalP,
     ]);
     await nhsEarlyP;
@@ -1276,6 +1563,7 @@ async function main() {
     })();
     FU_SUMMARY = dest
       ? (dest.kind === "pifu" ? "No appointment — call " + (dest.name || dest.label) + " if you need to"
+        : dest.kind === "request" ? "Requested: " + (dest.name || dest.label)
                               : "Come back to " + (dest.name || dest.label) + (when ? " · " + when : ""))
       : "Your clinician arranged a follow-up";
     if (dest && dest.kind === "pifu") {
@@ -1283,40 +1571,57 @@ async function main() {
       // Every fact on this card — the wording, number, hours, window — is
       // verbatim from the trust's own PIFU leaflet (followups.json
       // source_url); the leaflet itself rides on the QR from the picker.
-      const tel = String(dest.phone || "").replace(/[^+\d]/g, "");
-      const leaf = dest.info_slug && (leaflets || []).find(l => l.slug === dest.info_slug);
+            const leaf = dest.info_slug && (leaflets || []).find(l => l.slug === dest.info_slug);
       FU_LEAFLET = leaf ? leaf.slug : "";
       FU_CARD = `<div class="fu-card">
         <p class="fu-dest">Call if you need us — no appointment is booked</p>
         <p class="fu-note"><strong>${escapeHtml(dest.name || dest.label)}</strong> will see you again if you need it.</p>
         ${dest.pifu_text ? `<p class="fu-note">${escapeHtml(dest.pifu_text)}</p>` : ""}
-        ${dest.phone ? `<a class="fu-phone" href="tel:${tel}">📞 ${escapeHtml(dest.phone)}</a>` : ""}
+        ${phoneHtml(dest)}
         ${dest.hours ? `<p class="fu-where">🕐 ${escapeHtml(dest.hours)}</p>` : ""}
         ${dest.where ? `<p class="fu-where">📍 ${escapeHtml(dest.where)}</p>` : ""}
         ${leaf ? `<a class="fu-find" href="${safeHref(leaf.url)}">📄 Read the hospital's leaflet</a>` : ""}
         ${findHref && !(leaf && findHref === leaf.url) ? `<a class="fu-find" href="${escapeHtml(findHref)}" target="_blank" rel="noopener">📍 How to find it</a>` : ""}
         <p class="fu-note">If you feel worse, or you are worried, call <strong>111</strong> — or <strong>999</strong> in an emergency.</p>
       </div>`;
+    } else if (dest && dest.kind === "request") {
+      // A REQUEST (2026-09-16, e.g. an ultrasound scan): the department books
+      // the time itself and contacts the patient; the card carries the
+      // reference the clinician quoted in their email to the department.
+            const leaf = dest.info_slug && (leaflets || []).find(l => l.slug === dest.info_slug);
+      FU_LEAFLET = leaf ? leaf.slug : "";
+      FU_CARD = `<div class="fu-card">
+        <p class="fu-dest">Requested: ${escapeHtml(dest.name || dest.label)}</p>
+        <p class="fu-note">Your clinician has asked this department to arrange this for you. <strong>They will contact you with the appointment</strong> — you do not need to book it yourself.</p>
+${trialLine(dest)}
+        ${dest.where ? `<p class="fu-where">📍 ${escapeHtml(dest.where)}</p>` : ""}
+        ${dest.note ? `<p class="fu-note">${escapeHtml(dest.note)}</p>` : ""}
+        ${findHref ? `<a class="fu-find" href="${escapeHtml(findHref)}" target="_blank" rel="noopener">📍 About the department</a>` : ""}
+        ${leaf ? `<p class="fu-note fu-leaf">Before you go, read <a href="${safeHref(leaf.url)}">${escapeHtml(leaf.title)}</a> <span class="src src-trust">${escapeHtml(TRUST_LABEL)} leaflet</span></p>` : ""}
+        ${phoneHtml(dest)}
+        <p class="fu-note">If you have not heard from them in a couple of weeks, or you are unsure, ${dest.phone ? "call the number above" : "contact your care team"}.</p>
+      </div>`;
     } else if (dest) {
-      const tel = String(dest.phone || "").replace(/[^+\d]/g, "");
-      const leaf = dest.info_slug && (leaflets || []).find(l => l.slug === dest.info_slug);
+            const leaf = dest.info_slug && (leaflets || []).find(l => l.slug === dest.info_slug);
       FU_LEAFLET = leaf ? leaf.slug : "";
       // "Add to my calendar" (the owner 2026-09-03): a written reminder in the
       // patient's own calendar — the .ics is built HERE, in the browser, and
       // never leaves the device (see addFollowupToCalendar)
       if (fuDt) FU_ICS = buildIcs(dest, fuDt, fuHasTime, findHref);
+      // order after the 2026-09-16 product review: TIME first, then the place,
+      // what to bring, how to find it, then the rest
       FU_CARD = `<div class="fu-card">
-        <p class="fu-dest">Come back to ${escapeHtml(dest.name || dest.label)}</p>
         ${when ? `<p class="fu-when">${escapeHtml(when)}</p>`
                : `<p class="fu-note">Your care team will tell you when to come.</p>`}
-        ${dest.where ? `<p class="fu-where">📍 ${escapeHtml(dest.where)}</p>` : ""}
-        ${dest.note ? `<p class="fu-note">${escapeHtml(dest.note)}</p>` : ""}
-        ${FU_ICS ? `<button type="button" class="fu-cal" onclick="addFollowupToCalendar()">📆 Add to my calendar</button>` : ""}
-        ${findHref ? `<a class="fu-find" href="${escapeHtml(findHref)}" target="_blank" rel="noopener">📍 How to find it</a>` : ""}
+        <p class="fu-dest">${escapeHtml(dest.name || dest.label)}</p>
+        ${dest.note ? `<p class="fu-note"><strong>Bring:</strong> ${escapeHtml(String(dest.note).replace(/^Bring\s+/i, ""))}</p>` : ""}
+        ${directionsHtml(dest, findHref)}
         ${leaf ? `<p class="fu-note fu-leaf">Before you come, read <a href="${safeHref(leaf.url)}">${escapeHtml(leaf.title)}</a> <span class="src src-trust">${escapeHtml(TRUST_LABEL)} leaflet</span></p>` : ""}
-        ${dest.phone ? `<a class="fu-phone" href="tel:${tel}">📞 ${escapeHtml(dest.phone)}</a>` : ""}
-        ${past ? `<div class="fu-past">This date has passed. If you missed your visit, contact your care team.</div>` : ""}
-        <p class="fu-note">If you cannot come, or you are unsure, ${dest.phone ? "call the number above" : "contact your care team"}.</p>
+        ${phoneHtml(dest)}
+        ${past ? `<div class="fu-past">This date has passed. If you missed your visit, contact your care team using the number on your hospital paperwork.</div>` : ""}
+${trialLine(dest)}
+        <p class="fu-note">If you cannot come, contact your care team${dest.phone ? " on the number above" : " using the number on your hospital paperwork"}.</p>
+        ${calendarButtonHtml()}
       </div>`;
     } else {
       FU_CARD = `<div class="fu-card">
@@ -1331,6 +1636,8 @@ async function main() {
   for (const s of services) bySlug.set(s.slug, { ...s, type: "service" });
   for (const n of nhs) bySlug.set(n.slug, { ...n, type: n.type || "nhs" });
   for (const a of advice) bySlug.set(a.slug, { ...a, type: "advice" });
+  NETWORK = (network && network.services) ? network : null;
+  for (const s of ((network && network.services) || [])) bySlug.set("net-" + s.id, { ...s, slug: "net-" + s.id, title: "Where to go — " + s.label, type: "network" });
   for (const m of medicines) bySlug.set(m.slug, { ...m, type: "medicines" });
 
   const resolved = [];
@@ -1370,7 +1677,11 @@ async function main() {
   await Promise.all(resolved.map(async it => {
     if (nhsCards.index[it.slug]) it.nhsCards = await loadNhsPage(it.slug);
     const c = it.nhsCards ? null : findCompanion(it, nhsCards.index);
-    it.companion = c ? await loadNhsPage(c.slug) : null;
+    // no duplicate content whatever the combination (the owner 2026-09-16): when the
+    // clinician also chose the NHS page itself, it renders once as its own card
+    // and the leaflet's automatic companion steps aside
+    const chosenNhs = new Set(resolved.map(x => x.slug));
+    it.companion = (c && !chosenNhs.has(c.slug)) ? await loadNhsPage(c.slug) : null;
   }));
 
   if (resolved.length === 0 && !FU_CARD) {   // a follow-up-only QR is valid

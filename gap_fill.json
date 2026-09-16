@@ -1,0 +1,1376 @@
+{
+ "_doc": "GAP-FILL layer (the owner 2026-09-16: 'we can signpost high quality information that fills gaps and meets the PIF guidelines and our own scanner's guidelines — if there's a gap on the trust's leaflets/NHS we should know and suggest the best information'). Rows are OTHER organisations' patient information. A row is offered in a trust's picker ONLY when (a) neither that trust's own library nor NHS.uk covers any of its 'fills' terms — the gap is detected in the browser at load — and (b) gap_fill_check.py has stamped quality.pass true from page-observable measures (link loads, reading age, review date visible and not overdue, producer stated, sources/feedback route, PIF TICK membership as a bonus). It is always labelled 'Fills a gap · <producer>', never as the trust's own. Rows with quality.pass false are never served. Never edit quality by hand — run the checker.",
+ "pass_rule": "ok AND reading_age <= 14 (measured; PDFs read with pypdf) AND (review date visible and not overdue OR PIF TICK member) AND producer stated",
+ "rows": [
+  {
+   "slug": "worcs-enoxaparin-leaflet",
+   "title": "Enoxaparin injections at home",
+   "url": "https://www.worcsacute.nhs.uk/leaflets/enoxaparin-waht-pi-2115/",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Worcestershire Acute Hospitals NHS Trust",
+   "fills": [
+    "enoxaparin",
+    "inhixa",
+    "clexane",
+    "injectable anticoagulant",
+    "blood thinning injection",
+    "heparin injection"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:16+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 8.0,
+    "reading_age": 13,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": true,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "uhd-how-to-inject-enoxaparin",
+   "title": "How to inject enoxaparin (Inhixa) — Emergency Department leaflet",
+   "url": "https://www.uhd.nhs.uk/uploads/about/docs/our_publications/patient_information_leaflets/emergency-department/How-to-inject-Enoxaparin-Inhixa.pdf",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "University Hospitals Dorset NHS Foundation Trust",
+   "fills": [
+    "enoxaparin",
+    "inhixa",
+    "clexane",
+    "injectable anticoagulant",
+    "blood thinning injection",
+    "heparin injection"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:18+00:00",
+    "ok": true,
+    "pdf": true,
+    "grade": 7.1,
+    "reading_age": 12,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": true,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "york-injectable-anticoagulants",
+   "title": "Injectable anticoagulants",
+   "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=2953",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "York and Scarborough Teaching Hospitals NHS Foundation Trust",
+   "fills": [
+    "enoxaparin",
+    "inhixa",
+    "clexane",
+    "injectable anticoagulant",
+    "blood thinning injection",
+    "heparin injection"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:19+00:00",
+    "ok": true,
+    "pdf": true,
+    "grade": 9.5,
+    "reading_age": 14,
+    "review_due": "2029-12",
+    "review_overdue": false,
+    "pif": {
+     "sources": true,
+     "feedback": true,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": true,
+    "why": "meets the pass rule"
+   }
+  },
+  {
+   "slug": "mf-corneal-abrasion",
+   "title": "Corneal abrasion (scratched eye)",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/corneal-abrasion",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "corneal abrasion",
+    "scratched eye"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:21+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 7.9,
+    "reading_age": 13,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-conjunctivitis",
+   "title": "Conjunctivitis",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/conjunctivitis",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "conjunctivitis"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:22+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.8,
+    "reading_age": 15,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~15 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-stye",
+   "title": "Stye",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/stye",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "stye"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:23+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.6,
+    "reading_age": 15,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~15 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-blepharitis",
+   "title": "Blepharitis",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/blepharitis",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "blepharitis"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:24+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.4,
+    "reading_age": 14,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-chalazion",
+   "title": "Chalazion (eyelid cyst)",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/chalazion",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "chalazion",
+    "eyelid cyst"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:25+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 8.5,
+    "reading_age": 14,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-retinal-detachment",
+   "title": "Retinal detachment",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/retinal-detachment",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "retinal detachment"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:26+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 10.2,
+    "reading_age": 15,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~15 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-uveitis",
+   "title": "Uveitis (eye inflammation)",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/uveitis",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "uveitis",
+    "eye inflammation"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:28+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 11.0,
+    "reading_age": 16,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~16 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-dry-eye",
+   "title": "Dry eye",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/dry-eye",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "dry eye"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:29+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 7.2,
+    "reading_age": 12,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-flashes-and-floaters",
+   "title": "Flashes and floaters",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/flashes-and-floaters",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "flashes and floaters"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:30+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.5,
+    "reading_age": 14,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": true,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-acanthamoeba-keratitis",
+   "title": "Acanthamoeba keratitis",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/acanthamoeba-keratitis",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "acanthamoeba keratitis"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:31+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 10.3,
+    "reading_age": 15,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~15 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-achromatopsia",
+   "title": "Achromatopsia",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/achromatopsia",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "achromatopsia"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:33+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 11.2,
+    "reading_age": 16,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~16 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-age-related-macular-degeneration-amd",
+   "title": "Age-related macular degeneration (AMD)",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/age-related-macular-degeneration-amd",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "age-related macular degeneration",
+    "amd"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:34+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.9,
+    "reading_age": 15,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": true,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~15 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-amblyopia-lazy-eye",
+   "title": "Amblyopia (lazy eye)",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/amblyopia-lazy-eye",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "amblyopia",
+    "lazy eye"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:35+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 10.6,
+    "reading_age": 16,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~16 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-astigmatism",
+   "title": "Astigmatism",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/astigmatism",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "astigmatism"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:36+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 10.4,
+    "reading_age": 15,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~15 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-birdshot-chorioretinopathy",
+   "title": "Birdshot chorioretinopathy",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/birdshot-chorioretinopathy",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "birdshot chorioretinopathy"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:38+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.8,
+    "reading_age": 15,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~15 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-cataract",
+   "title": "Cataract",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/cataract",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "cataract"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:39+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.6,
+    "reading_age": 15,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~15 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-central-serous-retinopathy",
+   "title": "Central serous retinopathy",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/central-serous-retinopathy",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "central serous retinopathy"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:40+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 12.2,
+    "reading_age": 17,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~17 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-conjunctival-tumours",
+   "title": "Conjunctival tumours",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/conjunctival-tumours",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "conjunctival tumours"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:41+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.3,
+    "reading_age": 14,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-diabetic-macular-oedema",
+   "title": "Diabetic macular oedema",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/diabetic-macular-oedema",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "diabetic macular oedema"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:42+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.5,
+    "reading_age": 14,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-diabetic-retinopathy",
+   "title": "Diabetic retinopathy",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/diabetic-retinopathy",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "diabetic retinopathy"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:43+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 11.8,
+    "reading_age": 17,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~17 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-endophthalmitis",
+   "title": "Endophthalmitis",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/endophthalmitis",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "endophthalmitis"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:45+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 10.2,
+    "reading_age": 15,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~15 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-epiphora-watering-eye",
+   "title": "Epiphora (watering eye)",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/epiphora-watering-eye",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "epiphora",
+    "watering eye"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:46+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 7.1,
+    "reading_age": 12,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-epiretinal-membrane",
+   "title": "Epiretinal membrane",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/epiretinal-membrane",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "epiretinal membrane"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:47+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.3,
+    "reading_age": 14,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-episcleritis",
+   "title": "Episcleritis",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/episcleritis",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "episcleritis"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:48+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 10.7,
+    "reading_age": 16,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~16 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-fuchs-dystrophy",
+   "title": "Fuchs’ Endothelial Corneal Dystrophy (FECD)",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/fuchs-dystrophy",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "fuchs’ endothelial corneal dystrophy",
+    "fecd"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:49+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.4,
+    "reading_age": 14,
+    "review_due": "2027-12",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": true,
+    "why": "meets the pass rule"
+   }
+  },
+  {
+   "slug": "mf-glaucoma",
+   "title": "Glaucoma",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/glaucoma",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "glaucoma"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:51+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.5,
+    "reading_age": 14,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-hypermetropia-long-sightedness",
+   "title": "Hypermetropia (long-sightedness)",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/hypermetropia-long-sightedness",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "hypermetropia",
+    "long-sightedness"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:52+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 8.9,
+    "reading_age": 14,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-keratoconus",
+   "title": "Keratoconus",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/keratoconus",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "keratoconus"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:53+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 10.8,
+    "reading_age": 16,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~16 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-leber-congenital-amaurosis",
+   "title": "Leber congenital amaurosis",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/leber-congenital-amaurosis",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "leber congenital amaurosis"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:54+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.8,
+    "reading_age": 15,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~15 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-macular-hole",
+   "title": "Macular hole",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/macular-hole",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "macular hole"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:55+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 7.3,
+    "reading_age": 12,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-marginal-keratitis",
+   "title": "Marginal keratitis",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/marginal-keratitis",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "marginal keratitis"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:57+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 8.3,
+    "reading_age": 13,
+    "review_due": "2026-06",
+    "review_overdue": true,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "review date passed (June 2026)"
+   }
+  },
+  {
+   "slug": "mf-microbial-keratitis",
+   "title": "Microbial keratitis",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/microbial-keratitis",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "microbial keratitis"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:58+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.2,
+    "reading_age": 14,
+    "review_due": "2026-06",
+    "review_overdue": true,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "review date passed (June 2026)"
+   }
+  },
+  {
+   "slug": "mf-mitochondrial-disease",
+   "title": "Mitochondrial disease",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/mitochondrial-disease",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "mitochondrial disease"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:50:59+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.9,
+    "reading_age": 15,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~15 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-myopia-short-sightedness",
+   "title": "Myopia (short-sightedness)",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/myopia-short-sightedness",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "myopia",
+    "short-sightedness"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:51:00+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 10.5,
+    "reading_age": 16,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~16 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-neuro-ophthalmic-conditions",
+   "title": "Neuro-ophthalmic conditions",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/neuro-ophthalmic-conditions",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "neuro-ophthalmic conditions"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:51:01+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 10.7,
+    "reading_age": 16,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~16 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-pemphigoid",
+   "title": "Pemphigoid",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/pemphigoid",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "pemphigoid"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:51:03+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 10.0,
+    "reading_age": 15,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age ~15 (limit 14); no visible review date"
+   }
+  },
+  {
+   "slug": "mf-presbyopia",
+   "title": "Presbyopia",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/presbyopia",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "presbyopia"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:51:04+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.2,
+    "reading_age": 14,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-ptosis-droopy-eyelid",
+   "title": "Ptosis (droopy eyelid)",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/ptosis-droopy-eyelid",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "ptosis",
+    "droopy eyelid"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:51:05+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.4,
+    "reading_age": 14,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-red-reflex",
+   "title": "The red reflex",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/red-reflex",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "the red reflex"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:51:06+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 8.0,
+    "reading_age": 13,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-retinal-artery-occlusion",
+   "title": "Retinal artery occlusion",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/retinal-artery-occlusion",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "retinal artery occlusion"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:51:07+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": null,
+    "reading_age": null,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age could not be measured; no visible review date"
+   }
+  },
+  {
+   "slug": "mf-retinal-tears-and-breaks",
+   "title": "Retinal tears and breaks",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/retinal-tears-and-breaks",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "retinal tears and breaks"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:51:08+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": null,
+    "reading_age": null,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "reading age could not be measured; no visible review date"
+   }
+  },
+  {
+   "slug": "mf-retinal-vein-occlusion",
+   "title": "Retinal vein occlusion",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/retinal-vein-occlusion",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "retinal vein occlusion"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:51:10+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 8.8,
+    "reading_age": 14,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-stargardt-disease",
+   "title": "Stargardt disease",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/stargardt-disease",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "stargardt disease"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:51:11+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 8.6,
+    "reading_age": 14,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-strabismus-eye-squint",
+   "title": "Strabismus (eye squint)",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/strabismus-eye-squint",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "strabismus",
+    "eye squint"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:51:12+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 8.7,
+    "reading_age": 14,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  },
+  {
+   "slug": "mf-uveal-melanoma",
+   "title": "Uveal melanoma",
+   "url": "https://www.moorfields.nhs.uk/eye-conditions/uveal-melanoma",
+   "type": "gapfill",
+   "gap_fill": true,
+   "source": "Moorfields Eye Hospital",
+   "fills": [
+    "uveal melanoma"
+   ],
+   "quality": {
+    "checked": "2026-09-16T18:51:13+00:00",
+    "ok": true,
+    "pdf": false,
+    "grade": 9.3,
+    "reading_age": 14,
+    "review_due": "",
+    "review_overdue": false,
+    "pif": {
+     "sources": false,
+     "feedback": false,
+     "producer": true
+    },
+    "pif_tick": false,
+    "pass": false,
+    "why": "no visible review date"
+   }
+  }
+ ]
+}

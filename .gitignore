@@ -94,6 +94,7 @@ SCAN_PLAN.md
 scan_burst_notes.md
 driving_advice_review.json
 driving_advice_review_state.json
+driving_advice_review_history.jsonl
 # Remediation-draft rewrites (leaflet_rewrite.py) + earlier proposed drafts:
 # medrics-authored, clinical_signoff draft, portal review lane ONLY — a
 # draft leaflet in the public repo would read as a published one.
@@ -105,3 +106,12 @@ nhs_cards_history.jsonl
 # regular Codex review of the NHS content (flags only, business layer)
 nhs_cards_review.json
 nhs_cards_review_state.json
+pif_tick.json
+# never-event record 2026-09-16 (other trusts' leaflets pulled from the national layer) — business-private
+nhs_resources_removed_*.json
+gap_fill_state.json
+# service directory (specs/leaflets.md P22): the curated seed + verify state stay private; only trusts/<id>/network.json publishes
+network_seed.json
+network_verify_state.json
+# learned co-pick ranks are a PAID asset (2026-09-16): built on the medrics machine and served per licence, never public again
+learned_bundles.json
