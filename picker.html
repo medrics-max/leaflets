@@ -137,6 +137,7 @@
   a.openpg { color: var(--plum); text-decoration: none; font-weight: 700; margin-left: 6px; padding: 0 2px; border-radius: 4px; }
   a.openpg:hover { background: var(--plum-tint-2); }
   .related { margin: 4px 0 6px; font-size: 13px; color: var(--muted); }
+  .ci-warn { color: var(--amber-ink); font-weight: 600; }
   .related .rlabel { margin-right: 4px; }
   .related .chip { background: var(--card); border: 1px dashed var(--line-strong); color: var(--plum); cursor: pointer; font-weight: 500; }
   .related .chip:hover { background: var(--plum-tint); border-color: var(--plum); }
@@ -1918,9 +1919,15 @@ function renderFuPanel() {
   // a BOOKABLE unit is never hand-set (Oscar 2026-09-17: "you shouldn't be able to
   // assign slots if you're not logged in — or even access it"): signed out, the panel
   // is only the sign-in line; no day/time rows, no hint, and Generate refuses (schedBeforeGenerate)
-  const signedOutLive = !sched && !pifu && !schedToken() && SCHED_PUBLIC.has(d.id);
+  const signedOutLive = !sched && !pifu && SCHED_PUBLIC.has(d.id);   // bookable, but no live service row
+  const unit = esc(d.label || d.name);
+  const whyNot = !schedToken() || SCHED_STATE === "auth"
+    ? `Your session isn't connected to the medrics server${SCHED_STATE === "auth" ? " (it has expired)" : ""}. <button type="button" class="link" id="fu-reconnect">Sign in again to connect</button> — then its free slots appear here.`
+    : SCHED_STATE === "down"
+      ? `The booking service can't be reached right now. <button type="button" class="link" id="fu-retry">Try again</button>, or phone the unit.`
+      : `Loading its free slots…`;
   const signedOutHtml = signedOutLive
-    ? `<p class="schednote">🔒 ${esc(d.label || d.name)} is booked live from this tool. <strong>Sign in at the top of the page</strong> to see its free slots and book one — a time cannot be set by hand for this unit.</p>` : "";
+    ? `<p class="schednote">🔒 ${unit} is booked live from this tool. ${whyNot} A time cannot be set by hand for this unit.</p>` : "";
   host.innerHTML = `<div class="fupanel">
     <p class="q">${pifu ? "📞 Call-if-needed: " : req ? "📨 Request: " : "Follow-up: "}${esc(d.name || d.label)}</p>${sched ? schedPanelHtml(d, sched, dayTime) : (signedOutLive ? signedOutHtml : dayTime)}
     ${(sched || signedOutLive) ? "" : `<p class="fuhint">${hint}</p>`}
@@ -1933,6 +1940,8 @@ function renderFuPanel() {
       : ""}
     <button class="furemove" id="furemove">Remove follow-up</button>
   </div>`;
+  { const rc = $("fu-reconnect"); if (rc) rc.onclick = () => { const r0 = checkinRecord(); showCheckin(r0 && r0.pending ? "signup" : "signin", r0 ? { body: r0.body } : undefined); window.scrollTo(0, 0); }; }
+  { const rt = $("fu-retry"); if (rt) rt.onclick = () => { rt.disabled = true; schedLoad(); }; }
   // the panel re-renders on every change — put focus back where a keyboard
   // user would expect it (day set → time is next; time set → stay put)
   const fd = $("fudate"), ft = $("futime");   // absent on a call-if-needed panel
@@ -2028,28 +2037,34 @@ async function schedCall(path, method, body) {
   } finally { if (timer) clearTimeout(timer); }
 }
 
+let SCHED_STATE = "";   // "" ok | "signedout" | "auth" (session refused) | "down" (unreachable)
 async function schedLoad() {
-  SCHED = new Map(); SCHED_SLOTS = null; SCHED_PUBLIC = new Set();
+  SCHED = new Map(); SCHED_SLOTS = null; SCHED_PUBLIC = new Set(); SCHED_STATE = "";
   if (!TRUST) return;
   const tid = TRUST.id;
-  if (!schedToken()) {
-    // signed out: learn only WHICH destinations are bookable, so the panel can say
-    // that signing in unlocks live slots (2026-09-17 — the owner saw the hand-set rows
-    // and read the lane as not live)
-    try {
-      const r = await fetch(SCHED_API + "/bookable?t=" + encodeURIComponent(tid), { cache: "no-store" });
-      const j = r.ok ? await r.json() : null;
-      if (j && TRUST && TRUST.id === tid) for (const b of (j.bookable || [])) SCHED_PUBLIC.add(b.followup_id);
-      if (SCHED_PUBLIC.size) renderFollowup();
-    } catch (e) {}
-    return;
-  }
+  // WHICH destinations are bookable is public (ids only) and is learned whatever the
+  // sign-in state, then cached per trust: a bookable unit must never fall back to a
+  // hand-set time because a session expired or the scheduler was briefly unreachable
+  // (2026-09-17 — the owner, signed in on a device-only record, saw no way to book)
+  const cacheKey = "medrics_bookable_" + tid;
+  try { (JSON.parse(localStorage.getItem(cacheKey) || "[]") || []).forEach(id => SCHED_PUBLIC.add(id)); } catch (e) {}
+  const pub = fetch(SCHED_API + "/bookable?t=" + encodeURIComponent(tid), { cache: "no-store" })
+    .then(r => r.ok ? r.json() : null)
+    .then(j => {
+      if (!j || !TRUST || TRUST.id !== tid) return;
+      SCHED_PUBLIC = new Set((j.bookable || []).map(b => b.followup_id));
+      try { localStorage.setItem(cacheKey, JSON.stringify([...SCHED_PUBLIC])); } catch (e) {}
+    }).catch(() => {});
+  if (!schedToken()) { SCHED_STATE = "signedout"; await pub; if (SCHED_PUBLIC.size) renderFollowup(); return; }
   try {
     const r = await schedCall("/services?t=" + encodeURIComponent(tid), "GET");
-    if (r.status !== 200 || !TRUST || TRUST.id !== tid) return;   // trust switched meanwhile
-    for (const s of (r.json.services || [])) SCHED.set(s.followup_id, s);
-  } catch (e) { return; }
-  if (SCHED.size) renderFollowup();
+    if (!TRUST || TRUST.id !== tid) return;   // trust switched meanwhile
+    if (r.status === 401) SCHED_STATE = "auth";
+    else if (r.status !== 200) SCHED_STATE = "down";
+    else for (const s of (r.json.services || [])) SCHED.set(s.followup_id, s);
+  } catch (e) { SCHED_STATE = "down"; }
+  await pub;
+  if (SCHED.size || SCHED_PUBLIC.size) renderFollowup();
 }
 
 async function schedFetchSlots(d, s) {
@@ -2127,10 +2142,10 @@ async function schedBeforeGenerate() {
   const dest = fuPick && fuPick.id ? FOLLOWUPS.find(x => x.id === fuPick.id) : null;
   // (Oscar 2026-09-17) a bookable unit is never hand-set: without a held/booked
   // reference there is nothing to issue — signed out, that means sign in first
-  const bookableUnit = dest && ((SCHED.get(dest.id) || {}).kind === "slots" || (!schedToken() && SCHED_PUBLIC.has(dest.id)));
+  const bookableUnit = dest && ((SCHED.get(dest.id) || {}).kind === "slots" || SCHED_PUBLIC.has(dest.id));
   if (bookableUnit && !fuPick.ref) {
-    schedNote(schedToken() ? "Hold one of " + (dest.label || dest.name) + "'s free slots first — a time cannot be set by hand for this unit."
-                           : "Sign in at the top of the page to book " + (dest.label || dest.name) + " — a time cannot be set by hand for this unit.");   // schedNote escapes on render
+    schedNote(SCHED.get(dest.id) ? "Hold one of " + (dest.label || dest.name) + "'s free slots first — a time cannot be set by hand for this unit."
+                                 : "Sign in to connect to the booking service first — a time cannot be set by hand for " + (dest.label || dest.name) + ".");   // schedNote escapes on render
     return false;
   }
   if (dest && dest.kind === "request" && !(fuPick.ref && ["requested", "confirmed"].includes(fuPick.status))) {
@@ -2653,8 +2668,9 @@ $("clear").onclick = () => { selected.clear(); recReset(); drvPicks.clear(); drv
 // signed-in line only claims a register check when one was made.
 // This device keeps a CACHE of the same shape as before (regulator, tail,
 // salted PIN hash) so the quick "who is signing in?" list + PIN works on a
-// shared NHS computer even when the server is unreachable; a server outage
-// never locks a clinician out, it just falls back to device-only, labelled.
+// shared NHS computer. Since 2026-09-17 (Oscar: sign-in is required to use the
+// tool) the cache is a convenience for the "who is signing in?" list only: the
+// tool opens on a live server session, never on the device record alone.
 // The PATIENT page (index.html) is never gated — spec N3/N4.
 const CHECKIN_KEY = "medrics_checkin_v2";        // localStorage: { profiles: [...] }
 const CHECKIN_LEGACY_KEY = "medrics_checkin";    // the pre-PIN record (regulator + date): retired
@@ -2858,8 +2874,10 @@ async function signUp(bodyId, rawNum, pin, keep) {
   let r;
   try { r = await clinCall("/signup", { body: bodyId, number: v, pin, keep }); }
   catch (e) {
-    await upsertLocalProfile(bodyId, v, pin, keep, { pending: true });
-    return { err: "", note: "The medrics server can't be reached right now, so you're signed in on this device only. Sign up again when it's back to use other devices." };
+    // (2026-09-17) no device-only accounts: one was made at 00:16 when the sign-up route
+    // was not mounted (a failed CORS preflight throws like an outage) and the owner then
+    // could not book while the page said he was signed in. Signing up needs the server.
+    return { err: "Could not reach the medrics server — signing up needs a connection. Try again in a moment." };
   }
   if (r.status === 409) return { err: "You already have an account — sign in with your PIN.", existing: true };
   if (r.status === 429) return { err: r.json.error || "Too many attempts — wait a few minutes." };
@@ -2877,13 +2895,8 @@ async function signIn(bodyId, rawNum, pin, keep) {
   let r;
   try { r = await clinCall("/signin", { body: bodyId, number: v, pin, keep }); }
   catch (e) {
-    // server unreachable: the device cache can still vouch for this person
-    const local = checkinProfiles().find(x => x.body === bodyId && x.tail === v.slice(-3));
-    let ok = false;
-    try { ok = !!local && await pinMatches(local, pin); } catch (e2) { ok = false; }
-    if (!ok) return { err: "Could not reach the medrics server — try again in a moment." };
-    await upsertLocalProfile(bodyId, v, pin, keep, {});
-    return { err: "", note: "The medrics server can't be reached right now — signed in from this device's own record." };
+    // (Oscar 2026-09-17) signing in needs the medrics server: no device-only fallback into the tool
+    return { err: "Could not reach the medrics server — signing in needs a connection. Try again in a moment." };
   }
   if (r.status === 404) return { err: "No account for that number yet — sign up first, or check the number.", missing: true };
   if (r.status !== 200) return { err: r.json.error || "Sign-in didn't work — try again." };
@@ -2954,7 +2967,18 @@ function renderCheckinStatus(note) {
   if (!rec) { el.innerHTML = ""; return; }
   const tag = rec.verified === "register" ? ` · on the ${esc(rec.body.toUpperCase())} register`
     : rec.pending ? " · this device only" : "";
-  el.innerHTML = `Signed in as ${esc(checkinLabel(rec))}${tag} · <button type="button" id="ci-out">Sign out</button>`
+  // (Oscar 2026-09-17: "I'm already signed in but it says I need to sign in to see the booking
+  // system") a sign-in made from the device's own record while the server was unreachable has
+  // NO server session — booking, learned suggestions and sync need one. Say so, and offer the
+  // one-tap fix instead of a contradictory "sign in".
+  let tok = null; try { tok = currentToken(rec); } catch (e) {}
+  // never say "Signed in" without a server session — that exact word hid the 2026-09-17 bug
+  el.innerHTML = (tok
+      ? `Signed in as ${esc(checkinLabel(rec))}${tag}`
+      : rec.pending
+        ? `<span class="ci-warn">${esc(checkinLabel(rec))} was only saved on this device — not created on the medrics server</span>`
+        : `<span class="ci-warn">${esc(checkinLabel(rec))} — session expired, not connected to the medrics server</span>`)
+    + ` · <button type="button" id="ci-out">${tok ? "Sign out" : "Forget on this device"}</button>`
     + (note ? `<br><span class="ci-ok">${esc(note)}</span>` : "");
   $("ci-out").onclick = checkOut;
 }
@@ -3072,7 +3096,11 @@ async function submitUnlock() {
     $("ci-pin").value = "";
     if (err) { e.textContent = err; e.hidden = false; $("ci-pin").focus(); return; }
     e.hidden = true;
-    hideCheckin();
+    if (schedToken()) { hideCheckin(); return; }
+    const rec = checkinRecord();
+    showCheckin(rec && rec.pending ? "signup" : "signin", { body: rec ? rec.body : "", msg: rec && rec.pending
+      ? "PIN correct, but your account was only saved on this device — sign up again to create it on the medrics server."
+      : "PIN correct, but this device holds no live medrics session for you — sign in with your registration number to connect." });
   } catch (ex) {
     e.textContent = "Something went wrong checking your PIN — try again."; e.hidden = false;
   } finally { checkinBusy = false; btn.disabled = false; }
@@ -3105,7 +3133,14 @@ function initCheckin() {
   $("ci-to-full").onclick = () => showCheckin("signin");
   $("ci-to-up").onclick = () => showCheckin("signup");
   $("ci-to-in2").onclick = () => showCheckin(checkinProfiles().length ? "unlock" : "signin");
-  if (checkinRecord()) hideCheckin(); else showCheckin();
+  // (Oscar 2026-09-17: "people should have to sign in to see the tool anyway") the tool opens only
+  // on a live SERVER session. A device record whose session expired, or that was made while the
+  // server was unreachable, goes to the sign-in form with the reason — never straight in.
+  const rec0 = checkinRecord();
+  if (schedToken()) hideCheckin();
+  else if (rec0 && rec0.pending) showCheckin("signup", { body: rec0.body, msg: "Your account was only saved on this device — the medrics server never received it. Sign up again with your registration number and PIN to create it." });
+  else if (rec0) showCheckin("signin", { body: rec0.body, msg: "Your sign-in has expired. Sign in with your registration number to continue." });
+  else showCheckin();
 }
 // -----------------------------------------------------------------------------
 
