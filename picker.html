@@ -138,6 +138,14 @@
   a.openpg:hover { background: var(--plum-tint-2); }
   .related { margin: 4px 0 6px; font-size: 13px; color: var(--muted); }
   .ci-warn { color: var(--amber-ink); font-weight: 600; }
+  .teambar { margin: 4px 0 8px; font-size: 13px; color: var(--muted); }
+  .teambar .teamok { color: #2f9e5f; font-weight: 600; } .teambar .teamwait { color: var(--amber-ink); } .teambar .teammgr { font-weight: 600; }
+  .teampanel { background: var(--card); border: 1px solid var(--line-strong); border-radius: 10px; padding: 10px 12px; margin-top: 6px; color: var(--ink); }
+  .teamreq { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 6px 0; }
+  .refs { margin: 4px 0 8px; font-size: 13px; color: var(--muted); }
+  .refs .refrow { display: inline-block; margin: 2px 8px 2px 0; padding: 4px 8px; border: 1px dashed var(--line-strong); border-radius: 8px; color: var(--ink); }
+  .refs .refact { margin-left: 6px; font-weight: 600; color: var(--plum); text-decoration: none; }
+  .refs .refsrc { margin-left: 6px; font-size: 12px; }
   .related .rlabel { margin-right: 4px; }
   .related .chip { background: var(--card); border: 1px dashed var(--line-strong); color: var(--plum); cursor: pointer; font-weight: 500; }
   .related .chip:hover { background: var(--plum-tint); border-color: var(--plum); }
@@ -575,6 +583,7 @@
      search box keeps its results directly beneath it (the owner 2026-09-03:
      "search bar then this EMMAC thing then the leaflets — not intuitive"). -->
 <div id="followup" class="fu"></div>
+<div id="referrals" class="refs" hidden></div>
 
 <form id="saveset" hidden novalidate>
   <input id="ss-name" type="text" maxlength="40" autocomplete="off" spellcheck="false" placeholder="Name this set, e.g. Head injury adult" aria-label="Name for this set">
@@ -592,6 +601,7 @@
   <a href="https://docs.google.com/forms/d/e/1FAIpQLScPaGRxAf61Mp2P2laqGLZnGTKN-51yiXehssngljz-qATeUA/viewform" target="_blank" rel="noopener">Feedback on this tool</a>
   <br><br>
   <span id="ci-status"></span><br>
+  <div id="teambar" class="teambar" hidden></div>
   <span id="ms-status"></span>
   <form id="ms-form" hidden novalidate>
     <label for="ms-email">Membership email</label>
@@ -981,6 +991,96 @@ const REC = { taken: [], shown: new Set(), dead: new Set() };
 // Learned co-pick ranks for THIS trust — served by the medrics server only when the trust is
 // licensed and the clinician is signed in (usage_intelligence.py). Ranks only; silent otherwise.
 const BUNDLES_API = "https://brain.medrics.co.uk/api/leaflets/bundles";
+// Team access + per-trust features + one-tap discharge referrals (specs/teams.md, the owner
+// 2026-09-17). All three need the sign-in session; the server decides what this trust's
+// relationship unlocks and whether this clinician is in the trust's team.
+const TEAM_API = "https://brain.medrics.co.uk/api/team";
+const ENT_API = "https://brain.medrics.co.uk/api/leaflets/entitlements";
+const REF_API = "https://brain.medrics.co.uk/api/leaflets/referrals";
+let TEAM = null, ENT = {}, REFS = { rows: [], reason: "" };
+function sessHeaders() { let tok = ""; try { tok = sessionStorage.getItem("medrics_checkin_tok") || schedToken() || ""; } catch (e) {} return tok ? { "X-Medrics-Clinician": tok } : {}; }
+async function teamLoad() {
+  TEAM = null; ENT = {}; REFS = { rows: [], reason: "" };
+  if (!TRUST || !Object.keys(sessHeaders()).length) { renderTeam(); renderReferrals(); return; }
+  const q = "?t=" + encodeURIComponent(TRUST.id), h = { headers: sessHeaders(), cache: "no-store", credentials: "include" };
+  try { const r = await fetch(TEAM_API + "/status" + q, h); TEAM = r.ok ? await r.json() : null; } catch (e) { TEAM = null; }
+  try { const r = await fetch(ENT_API + q, h); ENT = r.ok ? ((await r.json()).features || {}) : {}; } catch (e) { ENT = {}; }
+  try { const r = await fetch(REF_API + q, h); REFS = r.ok ? await r.json() : { rows: [], reason: "" }; } catch (e) { REFS = { rows: [], reason: "" }; }
+  renderTeam(); renderReferrals();
+}
+async function teamPost(path, body) {
+  const r = await fetch(TEAM_API + path, { method: "POST", headers: { ...sessHeaders(), "Content-Type": "application/json" }, credentials: "include", body: JSON.stringify(body) });
+  return { status: r.status, json: await r.json().catch(() => ({})) };
+}
+function renderTeam() {
+  const el = $("teambar"); if (!el) return;
+  if (!TEAM || !TRUST) { el.hidden = true; el.innerHTML = ""; return; }
+  const name = esc(TRUST.short_name || TRUST.name || TRUST.id);
+  let html = "";
+  if (TEAM.member === "active") html = `<span class="teamok">✓ ${name} team</span>`;
+  else if (TEAM.member === "pending") html = `<span class="teamwait">Your request to join the ${name} team is waiting for a manager.</span>`;
+  else if (TEAM.member === "denied") html = `<span class="teamwait">Your request to join the ${name} team was not approved. You can ask again after 7 days.</span>`;
+  else html = `<button type="button" class="link" id="team-apply">Join the ${name} team</button> <span class="muted">— one tap; approved from evidence, or by your team's manager</span>`;
+  if (TEAM.manager) {
+    const n = TEAM.pending_requests || 0;
+    html += ` · <span class="teammgr">manager</span>` + (n ? ` <button type="button" class="link" id="team-review">${n} request${n === 1 ? "" : "s"} to join your team</button>` : ` <button type="button" class="link quiet" id="team-review">manage team</button>`);
+  }
+  el.innerHTML = html; el.hidden = false;
+  const a = $("team-apply"); if (a) a.onclick = async () => {
+    a.disabled = true; const r = await teamPost("/apply", { t: TRUST.id });
+    const code = (r.json || {}).code || "";
+    const why = { allowlisted: "You're on the trust's list — you're in.", register: "Your registration checked out — you're in.",
+                  no_verified_trust_email: "Verify your NHS email for this trust first (below), then ask again.", human_check: "Sent to your team's manager — they see it when they next sign in." }[code] || "";
+    await teamLoad(); if (why) renderCheckinStatus(why);
+  };
+  const m = $("team-review"); if (m) m.onclick = teamPanel;
+}
+async function teamPanel() {
+  const el = $("teambar"); if (!el || !TRUST) return;
+  const q = "?t=" + encodeURIComponent(TRUST.id), h = { headers: sessHeaders(), cache: "no-store", credentials: "include" };
+  let reqs = [], mem = [];
+  try { reqs = ((await (await fetch(TEAM_API + "/requests" + q, h)).json()).requests) || []; } catch (e) {}
+  try { mem = ((await (await fetch(TEAM_API + "/members" + q, h)).json()).members) || []; } catch (e) {}
+  const regs = ev => (ev.registrations || []).map(r => `${esc(String(r.body || "").toUpperCase())} ····${esc(String(r.tail || ""))} (${esc(r.assurance === "register" ? "on the register" : "format checked")})`).join(", ") || "no registration on the account";
+  el.innerHTML = `<div class="teampanel"><strong>Requests to join</strong> ${reqs.length ? "" : "<span class='muted'>— none waiting</span>"}` +
+    reqs.map(r => `<div class="teamreq" data-r="${esc(r.request_id)}"><span>${regs(r.evidence || {})} · trust email ${r.evidence && r.evidence.trust_email_verified ? "verified" : "NOT verified"}${r.evidence && r.evidence.allowlisted ? " · on the trust's list" : ""} · asked ${esc(String(r.created || "").slice(0, 10))}</span> <button type="button" data-d="approve">Approve</button> <button type="button" class="quiet" data-d="deny">Deny</button></div>`).join("") +
+    `<div class="muted" style="margin-top:6px"><strong>Members</strong> (${mem.length}) ` + mem.map(m => `<span class="teammem">${esc(m.principal.replace(/^(pin|acct):/, ""))}${m.manager ? " (manager)" : ""}${m.state === "pending" ? " (pending)" : ""}${m.manager ? "" : ` <button type="button" class="link" data-rm="${esc(m.principal)}">remove</button>`}</span>`).join(" · ") +
+    `</div><p class="muted">Approving lets this person use the ${esc(TRUST.short_name || TRUST.name || TRUST.id)} features in this tool. Managers are assigned by medrics.</p><button type="button" class="link" id="team-close">Close</button></div>`;
+  el.querySelectorAll("[data-d]").forEach(b => b.onclick = async () => { const rid = b.closest("[data-r]").dataset.r; await teamPost("/decide", { t: TRUST.id, request_id: rid, decision: b.dataset.d }); teamPanel(); });
+  el.querySelectorAll("[data-rm]").forEach(b => b.onclick = async () => { if (confirm("Remove this person from the team?")) { await teamPost("/remove", { t: TRUST.id, principal: b.dataset.rm }); teamPanel(); } });
+  const c = $("team-close"); if (c) c.onclick = () => teamLoad();
+}
+// One-tap discharge referrals: the trust's own verified pathways, matched to what is ticked
+function renderReferrals() {
+  const el = $("referrals"); if (!el) return;
+  if (!TRUST || !Object.keys(sessHeaders()).length) { el.hidden = true; el.innerHTML = ""; return; }
+  const name = esc(TRUST.short_name || TRUST.name || TRUST.id);
+  if (REFS.reason === "locked") { el.innerHTML = `<span class="rlabel">📨 Discharge referrals:</span> <span class="muted">not included in ${name}'s plan yet — ask medrics.</span>`; el.hidden = false; return; }
+  if (REFS.reason === "not_in_team") { el.innerHTML = `<span class="rlabel">📨 Discharge referrals:</span> <span class="muted">for members of the ${name} team — join above.</span>`; el.hidden = false; return; }
+  const rows = REFS.rows || [];
+  if (!rows.length) { el.hidden = true; el.innerHTML = ""; return; }
+  // match the trust's pathway terms against the ticked titles, expanding abbreviations through the
+  // picker's own synonym table both ways ("dvt" ↔ "deep vein thrombosis") so a leaflet tick finds its pathway
+  const text = [...selected.values()].map(it => fold(it.title + " " + (it.slug || ""))).join(" ");
+  const alts = term => { const f = fold(term), s = SYN_FOLDED[f]; return [f].concat(Array.isArray(s) ? s.map(fold) : (typeof s === "string" ? [fold(s)] : [])); };
+  const tickedWords = text.split(/\s+/).filter(w => w.length >= 3);
+  const hits = rows.filter(r => (r.terms || []).some(term => alts(term).some(a => a && termHit(a, text))
+    || tickedWords.some(w => (SYN_FOLDED[w] || []).length && [].concat(SYN_FOLDED[w]).map(fold).some(a => termHit(fold(term), a) || termHit(a, fold(term))))));
+  const show = hits.length ? hits : rows.slice(0, 4);
+  const act = r => {
+    const c = r.contact || {}; const v = esc(c.value || "");
+    if (c.kind === "phone" && c.value) return `<a class="refact" href="tel:${esc(String(c.value).replace(/[^+\d]/g, ""))}">📞 ${v}</a>`;
+    if (c.kind === "bleep" && c.value) return `<span class="refact">📟 bleep ${v}</span>`;
+    if (c.kind === "referral_system" && /^https?:/.test(c.value || "")) return `<a class="refact" href="${esc(c.value)}" target="_blank" rel="noopener">↗ referral system</a>`;
+    if (c.kind === "referral_system") return `<span class="refact">🖥 ${v || "referral system"}</span>`;
+    if (c.kind === "in_person") return `<span class="refact">🚶 in person${v ? " · " + v : ""}</span>`;
+    return v ? `<span class="refact">${v}</span>` : "";
+  };
+  el.innerHTML = `<span class="rlabel">📨 Refer on discharge${hits.length ? "" : " (all pathways)"}:</span> ` + show.map(r =>
+    `<span class="refrow"><strong>${esc(r.label)}</strong> ${act(r)} <a class="refsrc" href="${esc(r.source_url)}" target="_blank" rel="noopener" title="${esc(r.quote || "")}">source</a></span>`).join(" ") +
+    (hits.length ? "" : ` <span class="muted">— tick a leaflet to narrow these</span>`);
+  el.hidden = false;
+}
 // ── TRUST MODE (P11-NHS1..4, the owner 2026-09-17: "trust specific portals should require email
 // authentication, but the base is still accessible with just the GMC") ─────────────────────
 // The national library opens after the normal sign-in. A hospital trust's mode needs that
@@ -1527,6 +1627,7 @@ async function load() {
     if (hit) { ITEMS.splice(ITEMS.indexOf(g), 1); bySlug.delete(g.slug); }
   }
   $("count").textContent = ITEMS.length + " items available. Type to search.";
+  teamLoad();   // team membership, features and one-tap referrals for THIS trust (the session may predate the trust load)
   $("loadwarn").innerHTML = failedLayers.length
     ? `<p class="loadwarn-msg"><strong>⚠ Some content failed to load:</strong> ` +
       `${esc([...new Set(failedLayers)].join(", "))} — this list is incomplete. ` +
@@ -1622,6 +1723,7 @@ function renderSelected() {
     b.onclick = () => { selected.delete(b.dataset.s); renderSelected(); renderResults(); });
   renderRelated();
   renderDriving();
+  renderReferrals();
 }
 
 // "Often given together" — companions for the current selection, from the
@@ -3495,6 +3597,7 @@ function hideCheckin(note) {
   schedLoad();   // the session now exists: ask which follow-ups this trust can book
   document.body.classList.remove("gated");
   tvRefresh(); tvComplete();   // trust mode follows the session's bindings; finish a pending #verify link
+  teamLoad();    // team membership, unlocked features and one-tap referrals for this trust
   renderCheckinStatus(note);
   const s = $("search");
   if (s) s.focus();
