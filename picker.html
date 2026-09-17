@@ -138,10 +138,6 @@
   a.openpg:hover { background: var(--plum-tint-2); }
   .related { margin: 4px 0 6px; font-size: 13px; color: var(--muted); }
   .ci-warn { color: var(--amber-ink); font-weight: 600; }
-  .teambar { margin: 4px 0 8px; font-size: 13px; color: var(--muted); }
-  .teambar .teamok { color: #2f9e5f; font-weight: 600; } .teambar .teamwait { color: var(--amber-ink); } .teambar .teammgr { font-weight: 600; }
-  .teampanel { background: var(--card); border: 1px solid var(--line-strong); border-radius: 10px; padding: 10px 12px; margin-top: 6px; color: var(--ink); }
-  .teamreq { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 6px 0; }
   .refs { margin: 4px 0 8px; font-size: 13px; color: var(--muted); }
   .refs .refrow { display: inline-block; margin: 2px 8px 2px 0; padding: 4px 8px; border: 1px dashed var(--line-strong); border-radius: 8px; color: var(--ink); }
   .refs .refact { margin-left: 6px; font-weight: 600; color: var(--plum); text-decoration: none; }
@@ -601,7 +597,6 @@
   <a href="https://docs.google.com/forms/d/e/1FAIpQLScPaGRxAf61Mp2P2laqGLZnGTKN-51yiXehssngljz-qATeUA/viewform" target="_blank" rel="noopener">Feedback on this tool</a>
   <br><br>
   <span id="ci-status"></span><br>
-  <div id="teambar" class="teambar" hidden></div>
   <span id="ms-status"></span>
   <form id="ms-form" hidden novalidate>
     <label for="ms-email">Membership email</label>
@@ -994,61 +989,20 @@ const BUNDLES_API = "https://brain.medrics.co.uk/api/leaflets/bundles";
 // Team access + per-trust features + one-tap discharge referrals (specs/teams.md, Oscar
 // 2026-09-17). All three need the sign-in session; the server decides what this trust's
 // relationship unlocks and whether this clinician is in the trust's team.
-const TEAM_API = "https://brain.medrics.co.uk/api/team";
 const ENT_API = "https://brain.medrics.co.uk/api/leaflets/entitlements";
 const REF_API = "https://brain.medrics.co.uk/api/leaflets/referrals";
-let TEAM = null, ENT = {}, REFS = { rows: [], reason: "" };
+let ENT = {}, REFS = { rows: [], reason: "" };
+const ACCOUNT_PAGE = "https://medrics.co.uk/account/";   // joining a trust's team, approvals and member lists live THERE (Oscar 2026-09-17)
 function sessHeaders() { let tok = ""; try { tok = sessionStorage.getItem("medrics_checkin_tok") || schedToken() || ""; } catch (e) {} return tok ? { "X-Medrics-Clinician": tok } : {}; }
 async function teamLoad() {
-  TEAM = null; ENT = {}; REFS = { rows: [], reason: "" };
-  if (!TRUST || !Object.keys(sessHeaders()).length) { renderTeam(); renderReferrals(); return; }
+  // the picker only LEARNS what this trust's relationship unlocks and whether this clinician is in the team —
+  // it never manages any of it (the member page does)
+  ENT = {}; REFS = { rows: [], reason: "" };
+  if (!TRUST || !Object.keys(sessHeaders()).length) { renderReferrals(); return; }
   const q = "?t=" + encodeURIComponent(TRUST.id), h = { headers: sessHeaders(), cache: "no-store", credentials: "include" };
-  try { const r = await fetch(TEAM_API + "/status" + q, h); TEAM = r.ok ? await r.json() : null; } catch (e) { TEAM = null; }
   try { const r = await fetch(ENT_API + q, h); ENT = r.ok ? ((await r.json()).features || {}) : {}; } catch (e) { ENT = {}; }
   try { const r = await fetch(REF_API + q, h); REFS = r.ok ? await r.json() : { rows: [], reason: "" }; } catch (e) { REFS = { rows: [], reason: "" }; }
-  renderTeam(); renderReferrals();
-}
-async function teamPost(path, body) {
-  const r = await fetch(TEAM_API + path, { method: "POST", headers: { ...sessHeaders(), "Content-Type": "application/json" }, credentials: "include", body: JSON.stringify(body) });
-  return { status: r.status, json: await r.json().catch(() => ({})) };
-}
-function renderTeam() {
-  const el = $("teambar"); if (!el) return;
-  if (!TEAM || !TRUST) { el.hidden = true; el.innerHTML = ""; return; }
-  const name = esc(TRUST.short_name || TRUST.name || TRUST.id);
-  let html = "";
-  if (TEAM.member === "active") html = `<span class="teamok">✓ ${name} team</span>`;
-  else if (TEAM.member === "pending") html = `<span class="teamwait">Your request to join the ${name} team is waiting for a manager.</span>`;
-  else if (TEAM.member === "denied") html = `<span class="teamwait">Your request to join the ${name} team was not approved. You can ask again after 7 days.</span>`;
-  else html = `<button type="button" class="link" id="team-apply">Join the ${name} team</button> <span class="muted">— one tap; approved from evidence, or by your team's manager</span>`;
-  if (TEAM.manager) {
-    const n = TEAM.pending_requests || 0;
-    html += ` · <span class="teammgr">manager</span>` + (n ? ` <button type="button" class="link" id="team-review">${n} request${n === 1 ? "" : "s"} to join your team</button>` : ` <button type="button" class="link quiet" id="team-review">manage team</button>`);
-  }
-  el.innerHTML = html; el.hidden = false;
-  const a = $("team-apply"); if (a) a.onclick = async () => {
-    a.disabled = true; const r = await teamPost("/apply", { t: TRUST.id });
-    const code = (r.json || {}).code || "";
-    const why = { allowlisted: "You're on the trust's list — you're in.", register: "Your registration checked out — you're in.",
-                  no_verified_trust_email: "Verify your NHS email for this trust first (below), then ask again.", human_check: "Sent to your team's manager — they see it when they next sign in." }[code] || "";
-    await teamLoad(); if (why) renderCheckinStatus(why);
-  };
-  const m = $("team-review"); if (m) m.onclick = teamPanel;
-}
-async function teamPanel() {
-  const el = $("teambar"); if (!el || !TRUST) return;
-  const q = "?t=" + encodeURIComponent(TRUST.id), h = { headers: sessHeaders(), cache: "no-store", credentials: "include" };
-  let reqs = [], mem = [];
-  try { reqs = ((await (await fetch(TEAM_API + "/requests" + q, h)).json()).requests) || []; } catch (e) {}
-  try { mem = ((await (await fetch(TEAM_API + "/members" + q, h)).json()).members) || []; } catch (e) {}
-  const regs = ev => (ev.registrations || []).map(r => `${esc(String(r.body || "").toUpperCase())} ····${esc(String(r.tail || ""))} (${esc(r.assurance === "register" ? "on the register" : "format checked")})`).join(", ") || "no registration on the account";
-  el.innerHTML = `<div class="teampanel"><strong>Requests to join</strong> ${reqs.length ? "" : "<span class='muted'>— none waiting</span>"}` +
-    reqs.map(r => `<div class="teamreq" data-r="${esc(r.request_id)}"><span>${regs(r.evidence || {})} · trust email ${r.evidence && r.evidence.trust_email_verified ? "verified" : "NOT verified"}${r.evidence && r.evidence.allowlisted ? " · on the trust's list" : ""} · asked ${esc(String(r.created || "").slice(0, 10))}</span> <button type="button" data-d="approve">Approve</button> <button type="button" class="quiet" data-d="deny">Deny</button></div>`).join("") +
-    `<div class="muted" style="margin-top:6px"><strong>Members</strong> (${mem.length}) ` + mem.map(m => `<span class="teammem">${esc(m.principal.replace(/^(pin|acct):/, ""))}${m.manager ? " (manager)" : ""}${m.state === "pending" ? " (pending)" : ""}${m.manager ? "" : ` <button type="button" class="link" data-rm="${esc(m.principal)}">remove</button>`}</span>`).join(" · ") +
-    `</div><p class="muted">Approving lets this person use the ${esc(TRUST.short_name || TRUST.name || TRUST.id)} features in this tool. Managers are assigned by medrics.</p><button type="button" class="link" id="team-close">Close</button></div>`;
-  el.querySelectorAll("[data-d]").forEach(b => b.onclick = async () => { const rid = b.closest("[data-r]").dataset.r; await teamPost("/decide", { t: TRUST.id, request_id: rid, decision: b.dataset.d }); teamPanel(); });
-  el.querySelectorAll("[data-rm]").forEach(b => b.onclick = async () => { if (confirm("Remove this person from the team?")) { await teamPost("/remove", { t: TRUST.id, principal: b.dataset.rm }); teamPanel(); } });
-  const c = $("team-close"); if (c) c.onclick = () => teamLoad();
+  renderReferrals();
 }
 // One-tap discharge referrals: the trust's own verified pathways, matched to what is ticked
 function renderReferrals() {
@@ -1056,7 +1010,7 @@ function renderReferrals() {
   if (!TRUST || !Object.keys(sessHeaders()).length) { el.hidden = true; el.innerHTML = ""; return; }
   const name = esc(TRUST.short_name || TRUST.name || TRUST.id);
   if (REFS.reason === "locked") { el.innerHTML = `<span class="rlabel">📨 Discharge referrals:</span> <span class="muted">not included in ${name}'s plan yet — ask medrics.</span>`; el.hidden = false; return; }
-  if (REFS.reason === "not_in_team") { el.innerHTML = `<span class="rlabel">📨 Discharge referrals:</span> <span class="muted">for members of the ${name} team — join above.</span>`; el.hidden = false; return; }
+  if (REFS.reason === "not_in_team") { el.innerHTML = `<span class="rlabel">📨 Discharge referrals:</span> <span class="muted">for members of the ${name} team — join from <a href="${ACCOUNT_PAGE}" target="_blank" rel="noopener">your medrics account page ↗</a>.</span>`; el.hidden = false; return; }
   const rows = REFS.rows || [];
   if (!rows.length) { el.hidden = true; el.innerHTML = ""; return; }
   // match the trust's pathway terms against the ticked titles, expanding abbreviations through the
