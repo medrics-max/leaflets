@@ -212,6 +212,17 @@
   .results li:active { background: var(--plum-tint); }
   .results li.hint { cursor: default; font-size: 12.5px; color: var(--muted); font-weight: 600; letter-spacing: .02em; background: var(--paper); padding: 8px 14px; }
   .results li.hint:hover { background: var(--paper); }
+  /* trust-mode gate (2026-09-17): NOT a flex row like a result — the form was squashed sideways */
+  .results li.tvgate { display: block; cursor: default; font-size: 14px; font-weight: 400; letter-spacing: 0; color: var(--ink, #1d1a2b); padding: 16px; }
+  .results li.tvgate > p { margin: 0 0 10px; line-height: 1.45; }
+  .tvform { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; align-items: center; margin: 8px 0 12px; }
+  .tvform label { grid-column: 1 / -1; font-weight: 600; font-size: 13px; }
+  /* the result rows size every <input> as a 26px checkbox — out-rank that inside the gate */
+  .results li.tvgate .tvform input, .tvconfirm input { width: 100%; height: auto; flex: none; margin: 0; min-width: 0; box-sizing: border-box; padding: 10px 12px; font-size: 16px; border: 1px solid var(--line-strong, #bbb); border-radius: 10px; appearance: auto; }
+  .tvform button { width: auto; white-space: nowrap; padding: 10px 16px; }
+  @media (max-width: 560px) { .tvform { grid-template-columns: 1fr; } .tvform button { width: 100%; } }
+  .tvconfirm { margin: 10px 0; padding: 14px 16px; border: 1px solid var(--plum, #372088); border-radius: 12px; background: var(--plum-tint, #f3f0fb); }
+  .tvconfirm p { margin: 0 0 10px; }
   .results input { margin-top: 3px; width: 18px; height: 18px; flex: none; accent-color: var(--plum); cursor: pointer; }
   .results .t { font-size: 15px; line-height: 1.4; }
   .tag {
@@ -486,6 +497,7 @@
 <div id="driving" class="driving"></div>
 <div id="loadwarn"></div>
 <p class="count" id="count" aria-live="polite">Loading…</p>
+<div id="tvconfirm" class="tvconfirm" hidden></div>
 <ul id="results" class="results"></ul>
 <!-- Follow-up is step two — AFTER the results, just above Generate, so the
      search box keeps its results directly beneath it (the owner 2026-09-03:
@@ -537,7 +549,7 @@ let TV_LINK = null;
   if (m) { TV_LINK = m[1]; history.replaceState(null, "", location.pathname + location.search); }
 } catch (e) {} })();
 // trust mode: the server's policy + this clinician's trust bindings, from sign-in/session answers
-let TV = { policy: { trust_verification: false, enforce: false }, access: {}, note: "" };
+let TV = { policy: { trust_verification: false, enforce: false }, access: {}, note: "", challenge: null };
 let TV_GATED_FOR = null;
 // Local test copies must link to THEIR OWN patient page, not the published
 // site — a localhost picker pointing at github.io shows the OLD build and
@@ -921,15 +933,21 @@ function renderTrustGate() {
   $("count").textContent = "";
   const inner = st.state === "pending_approval"
     ? `<p><strong>Email checked — waiting for ${name} approval.</strong> An @nhs.net address doesn't show which trust you work for, so medrics confirms it once (reference ${esc(st.approval_id || "")}). You can use the national library meanwhile.</p>`
-    : `<p><strong>${name} mode needs a verified NHS work email.</strong> ${st.state === "expired" ? "Your check has expired — verify again. " : ""}We send a one-time link, valid for 20 minutes. Open it on this device while you are signed in. We keep a scrambled form of the address, never the address itself.</p>
+    : `<p><strong>${name} mode needs a verified NHS work email.</strong> ${st.state === "expired" ? "Your check has expired — verify again. " : ""}We email you a 6-digit code (and a link), valid for 20 minutes. We keep a scrambled form of the address, never the address itself.</p>
        <form id="tvform" class="tvform"><label for="tvemail">NHS work email</label>
        <input id="tvemail" type="email" autocomplete="email" inputmode="email" placeholder="name@nhs.net" required>
-       <button type="submit" class="primary" id="tvsend">Send link</button></form>`;
+       <button type="submit" class="primary" id="tvsend">Send code</button></form>` +
+      (TV.challenge && TV.challenge.trust === TRUST.id
+        ? `<form id="tvcodeform" class="tvform"><label for="tvcode">6-digit code from the email</label>
+           <input id="tvcode" type="text" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" placeholder="123456" required>
+           <button type="submit" class="primary" id="tvcodego">Confirm code</button></form>` : "");
   $("results").innerHTML = `<li class="hint tvgate">${inner}` +
     (TV.note ? `<p class="schednote" role="alert">${esc(TV.note)}</p>` : "") +
     `<p><button type="button" class="link" id="tvlib">Continue with the national library</button></p></li>`;
   const f = $("tvform");
   if (f) f.onsubmit = e => { e.preventDefault(); tvStart(($("tvemail").value || "").trim()); };
+  const cf = $("tvcodeform");
+  if (cf) { cf.onsubmit = e => { e.preventDefault(); tvCompleteCode(($("tvcode").value || "").replace(/\D/g, "")); }; $("tvcode").focus(); }
   $("tvlib").onclick = () => { TV.note = ""; pickTrust(LIBRARY.id); };
 }
 async function tvStart(email) {
@@ -940,27 +958,53 @@ async function tvStart(email) {
   try {
     const r = await clinCall("/trust-email/start", { trust: TRUST.id, email }, tok);
     if (r.status === 401) { sessionLost(); return; }
-    TV.note = r.status === 202
-      ? "Link sent — check that inbox (it can take a minute). It works for 20 minutes, on this device, while you are signed in."
-      : (r.json.error || "Could not send the link — try again.");
+    if (r.status === 202) {
+      TV.challenge = { id: r.json.challenge_id, trust: TRUST.id };
+      TV.note = "Handed to our mail service. NHSmail can take a few minutes and sometimes files it in Junk or quarantine. "
+        + "Type the 6-digit code below, or open the link in the email on this device. Both work for 20 minutes.";
+    } else TV.note = r.json.error || "Could not send the code — try again.";
   } catch (e) { TV.note = "Could not reach the medrics server — try again."; }
   if (TRUST && trustGated(TRUST)) renderTrustGate();
 }
-async function tvComplete() {
+// (Codex account plan Phase 0) mail-security scanners open links, so a link is consumed only on
+// the clinician's explicit Confirm tap — never on page load
+function tvComplete() {
+  if (!TV_LINK || !schedToken()) return;  // needs a live session; hideCheckin calls this again after sign-in
+  const box = $("tvconfirm");
+  box.innerHTML = `<p><strong>Confirm your NHS email?</strong> You opened a verification link from Medrics.</p>
+    <p><button type="button" class="primary" id="tvconfirmgo">Confirm my NHS email</button>
+    <button type="button" class="link" id="tvconfirmno">Not me — ignore</button></p>`;
+  box.hidden = false;
+  $("tvconfirmgo").onclick = () => { box.hidden = true; tvCompleteLink(); };
+  $("tvconfirmno").onclick = () => { TV_LINK = null; box.hidden = true; };
+}
+async function tvCompleteCode(code) {
+  if (!TV.challenge || !/^\d{6}$/.test(code)) { TV.note = "Enter the 6 digits from the email."; renderTrustGate(); return; }
+  const tok = schedToken(); if (!tok) { showCheckin(); return; }
+  const btn = $("tvcodego"); if (btn) btn.disabled = true;
+  try {
+    const r = await clinCall("/trust-email/complete", { challenge_id: TV.challenge.id, code }, tok);
+    if (r.status === 401) { sessionLost(); return; }
+    if (r.status === 200) { TV.challenge = null; tvBound(r.json); return; }
+    TV.note = r.json.error || "That code didn't work — check it, or send a new one.";
+  } catch (e) { TV.note = "Could not reach the medrics server — try again."; }
+  if (TRUST && trustGated(TRUST)) renderTrustGate();
+}
+function tvBound(j) {
+  TV.access[j.trust] = { state: j.state, reverify_at: j.reverify_at, approval_id: j.approval_id || "" };
+  TV.note = "";
+  if (CHOICES.some(x => x.id === j.trust)) pickTrust(j.trust); else load();
+  renderCheckinStatus(j.state === "active" ? "NHS email checked for this trust." : "NHS email checked — trust approval pending.");
+}
+async function tvCompleteLink() {
   if (!TV_LINK) return;
   const tok = schedToken();
-  if (!tok) return;                       // completes after sign-in (hideCheckin calls this again)
+  if (!tok) return;
   const link = TV_LINK; TV_LINK = null;
   try {
     const r = await clinCall("/trust-email/complete", { token: link }, tok);
     if (r.status === 401) { TV_LINK = link; sessionLost(); return; }
-    if (r.status === 200) {
-      TV.access[r.json.trust] = { state: r.json.state, reverify_at: r.json.reverify_at, approval_id: r.json.approval_id || "" };
-      TV.note = "";
-      if (CHOICES.some(x => x.id === r.json.trust)) pickTrust(r.json.trust); else load();
-      renderCheckinStatus(r.json.state === "active" ? "NHS email checked for this trust." : "NHS email checked — trust approval pending.");
-      return;
-    }
+    if (r.status === 200) { tvBound(r.json); return; }
     TV.note = r.json.error || "That link is invalid or has expired — request a new one.";
   } catch (e) { TV_LINK = link; return; }
   if (TRUST && trustGated(TRUST)) renderTrustGate(); else renderCheckinStatus(TV.note);
