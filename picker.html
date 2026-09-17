@@ -1257,8 +1257,9 @@ function telemetry(event, value, fu) {
       rec_dead: event === "generate" ? [...REC.dead].join(",").slice(0, 500) : "",
       dk: event === "generate" ? deviceKey() : ""
     });
-    if (navigator.sendBeacon) navigator.sendBeacon(ANALYTICS_URL, payload);
-    else fetch(ANALYTICS_URL, { method: "POST", mode: "no-cors", body: payload });
+    // (Codex F9, 2026-09-17) never sendBeacon: it cannot omit credentials. fetch with
+    // credentials:"omit" + keepalive survives page unload and can never carry a cookie.
+    fetch(ANALYTICS_URL, { method: "POST", mode: "no-cors", credentials: "omit", keepalive: true, body: payload }).catch(() => {});
   } catch (e) { /* telemetry must never break the page */ }
 }
 
@@ -1479,17 +1480,6 @@ async function load() {
   DRIVING = (driving && driving.modules) || [];
   FOLLOWUPS = (followups && followups.destinations) || [];
   schedLoad();   // which of these the scheduling service can book (needs the sign-in session)
-  // GAP DETECTION (Oscar 2026-09-16: "if there's a gap on the trust's leaflets/
-  // NHS we should know and suggest the best information"): a gap-fill row is
-  // kept only when none of its terms appears in any of this trust's own pages
-  // or any NHS.uk / medicines page — otherwise the local or national page wins.
-  const covered = ITEMS.filter(it => it.type !== "gapfill").map(it => fold(it.title));
-  const gapRows = ITEMS.filter(it => it.type === "gapfill");
-  for (const g of gapRows) {
-    const terms = (g.fills || []).map(fold);
-    const hit = terms.length && covered.some(t => terms.some(term => t.includes(term)));
-    if (hit) { ITEMS.splice(ITEMS.indexOf(g), 1); bySlug.delete(g.slug); }
-  }
   LEARNED = {};
   loadLearned();   // needs the sign-in session; re-runs after check-in
   // the index (a few KB) says which pages carry help cards — the store
@@ -1525,6 +1515,17 @@ async function load() {
       ITEMS.push(it); bySlug.set(d.slug, it);
     });
   });
+  // GAP DETECTION (Oscar 2026-09-16; moved AFTER the population loop 2026-09-17 — Codex F4: it ran on an empty ITEMS, so nothing was ever suppressed: "if there's a gap on the trust's leaflets/
+  // NHS we should know and suggest the best information"): a gap-fill row is
+  // kept only when none of its terms appears in any of this trust's own pages
+  // or any NHS.uk / medicines page — otherwise the local or national page wins.
+  const covered = ITEMS.filter(it => it.type !== "gapfill").map(it => fold(it.title));
+  const gapRows = ITEMS.filter(it => it.type === "gapfill");
+  for (const g of gapRows) {
+    const terms = (g.fills || []).map(fold);
+    const hit = terms.length && covered.some(t => terms.some(term => t.includes(term)));
+    if (hit) { ITEMS.splice(ITEMS.indexOf(g), 1); bySlug.delete(g.slug); }
+  }
   $("count").textContent = ITEMS.length + " items available. Type to search.";
   $("loadwarn").innerHTML = failedLayers.length
     ? `<p class="loadwarn-msg"><strong>⚠ Some content failed to load:</strong> ` +
@@ -2840,7 +2841,7 @@ function fuChanged() { renderSelected(); renderFollowup(); }
 // the page, not copy-paste it).
 function patientUrl(slug) {
   const tPart = (TRUST && REGISTRY && TRUST.id !== REGISTRY.default) ? "t=" + TRUST.id + "&" : "";
-  return LANDING + "?" + tPart + "slugs=" + encodeURIComponent(slug);
+  return LANDING + (tPart ? "?" + tPart.replace(/&$/, "") : "") + "#slugs=" + encodeURIComponent(slug);   // topic in the fragment (Codex F3)
 }
 
 function itemLi(it) {
@@ -2971,14 +2972,18 @@ async function generate() {
   // a follow-up-only QR has no slugs — omit the empty param rather than
   // issuing "slugs=" (the patient page treats both as "no leaflets")
   const parts = [];
-  if (slugs) parts.push("slugs=" + encodeURIComponent(slugs).replace(/%2C/gi, ","));
-  if (adv) parts.push("adv=" + encodeURIComponent(adv).replace(/%2C/gi, ","));
+  // (Codex F3, 2026-09-17) the topic slugs and the advice verdicts are clinical facts about the
+  // patient's visit: they ride in the FRAGMENT with fu/tm, so the first request never carries them
+  // to the host, the CDN or a log. index.html reads the fragment first; older ?slugs= QRs still work.
+  const fragTopics = [];
+  if (slugs) fragTopics.push("slugs=" + encodeURIComponent(slugs).replace(/%2C/gi, ","));
+  if (adv) fragTopics.push("adv=" + encodeURIComponent(adv).replace(/%2C/gi, ","));
   // The follow-up (fu), the booking reference (bk — random, meaningless outside
   // the unit's inbox) and the test-mode mark (tm) ride in the URL FRAGMENT: the
   // patient page reads the fragment first, and a fragment is never sent to the
   // static host, a proxy or a log (2026-09-12 review; Codex F1 2026-09-16). QRs
   // already printed with ?fu= keep working — the page reads both.
-  const frag = [];
+  const frag = [...fragTopics];
   if (fu) frag.push("fu=" + fu);
   // no reference for the patient (Oscar 2026-09-16 evening): the unit lines the
   // booking up on its own side (sealed hospital number, or the email); the card
