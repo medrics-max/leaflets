@@ -2112,7 +2112,10 @@ async function schedBeforeGenerate() {
     return false;
   }
   if (fuPick && fuPick.ref && fuPick.status === "held" && fuPick.identity === "sealed" && !fuPick.sealed) {
-    schedNote("Seal the patient's hospital number first — " + (((SCHED.get(fuPick.id) || {}).label) || "the unit") + " has no other way to know who this booking is for.");
+    const lab = ((SCHED.get(fuPick.id) || {}).label) || "the unit";
+    schedNote(fuPick.pubkey && fuPick.pubkey.jwk
+      ? "Seal the patient's hospital number first — " + lab + " has no other way to know who this booking is for."
+      : lab + " has not created its diary key yet — the booking cannot be identified until the unit does that on its diary page. Choose a different time or set it by hand for now.");
     return false;
   }
   if (!fuPick || !fuPick.ref || fuPick.status !== "held") return true;
@@ -2146,7 +2149,12 @@ async function schedBeforeGenerate() {
 // button; a unit without one gets the email button and NO number field.
 function schedSealHtml(s) {
   const pk = (fuPick && fuPick.pubkey) || s.pubkey;
-  if (!pk || !pk.jwk) return `<p class="fuhint">${esc(s.label)} receives bookings by email: put ONLY the patient's hospital number (no name, no date of birth) in the email, next to the reference.</p>` + schedMailButton(s.label);
+  if (!pk || !pk.jwk) {
+    // a sealed-only unit whose key is still pending: no email lane exists, so say so
+    // plainly instead of inventing one (2026-09-17)
+    if (((fuPick && fuPick.identity) || s.identity) === "sealed") return `<p class="schednote">🔑 ${esc(s.label)} has not created its diary key yet — this booking cannot be identified until the unit does that on its diary page (one tap there). Generate waits for the key.</p>`;
+    return `<p class="fuhint">${esc(s.label)} receives bookings by email: put ONLY the patient's hospital number (no name, no date of birth) in the email, next to the reference.</p>` + schedMailButton(s.label);
+  }
   if (fuPick.sealed) return `<p class="schedsealed">🔒 Hospital number sealed for ${esc(s.label)} — only their diary computer can read it. <button type="button" class="link" id="schedunseal">Change</button></p>`;
   return `<div class="schedseal"><label for="schedhn">Patient's hospital number</label>
     <input id="schedhn" type="text" inputmode="text" autocomplete="off" autocapitalize="characters" maxlength="16" placeholder="e.g. RS1234567" aria-describedby="schedsealhint">
