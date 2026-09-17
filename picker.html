@@ -1781,7 +1781,7 @@ function renderFollowup() {
     chips.map(d => {
       const sg = sugg.find(o => o.fid === d.id);
       return `<span class="chip${fuPick && fuPick.id === d.id ? " on" : ""}${sg ? " sug" : ""}" data-f="${esc(d.id)}" ` +
-      `role="button" tabindex="0" title="${sg ? esc(sg.label) + " — from the unit's own pathway rules" : "Show a " + esc(d.label) + " on the patient's page"}">` +
+      `role="button" tabindex="0" title="${sg ? esc(sg.label) + " — from the unit's own pathway rules" : "Show the " + esc(d.label) + " on the patient's page"}">` +
       `${fuPick && fuPick.id === d.id ? "✓ " : (d.kind === "pifu" ? "📞 " : (sg ? "★ " : ""))}${esc(d.label)}</span>`; }).join(" ") +
     (rest.length
       ? ` <select id="fusel" aria-label="Choose a ward, clinic or unit for follow-up">` +
@@ -2059,8 +2059,9 @@ function schedApply(json) {
 
 async function schedHold(d, s, slot) {
   try {
-    const sugPw = schedSuggestPathway(s);
-    const r = await schedCall("/hold", "POST", Object.assign({ t: TRUST.id, s: s.service, slot }, sugPw ? { pathway: sugPw } : {}));
+    // the suggested pathway is only SHOWN (dashed chip); it reaches the booking
+    // solely through the clinician's confirming tap (Codex OAI-F3, 2026-09-17)
+    const r = await schedCall("/hold", "POST", { t: TRUST.id, s: s.service, slot });
     if (r.status === 200) { schedApply(r.json); fuChanged(); return; }
     SCHED_SLOTS = null;                     // 409 = just gone: reload the list
     schedNote(r.json.error || "Could not hold that time.");
@@ -2100,6 +2101,20 @@ function schedNote(msg) { SCHED_NOTE = msg || ""; renderFuPanel(); }
 
 // held -> booked the moment the card is issued. false = generate must stop.
 async function schedBeforeGenerate() {
+  // (Codex OAI-F1/F4, 2026-09-17) the card must never claim more than the scheduler
+  // holds: a request destination needs its reference first (the card says the
+  // department has been asked), and on a sealed-lane unit the hospital number must
+  // be sealed before the hold becomes a booking (the unit has no other way to know)
+  const dest = fuPick && fuPick.id ? FOLLOWUPS.find(x => x.id === fuPick.id) : null;
+  if (dest && dest.kind === "request" && !(fuPick.ref && ["requested", "confirmed"].includes(fuPick.status))) {
+    schedNote(schedToken() ? "Tap 'Request — get a reference' first: the patient's card would say the department has been asked when it has not."
+                           : "Sign in and tap 'Request — get a reference' first — a request card needs a reference.");
+    return false;
+  }
+  if (fuPick && fuPick.ref && fuPick.status === "held" && fuPick.identity === "sealed" && !fuPick.sealed) {
+    schedNote("Seal the patient's hospital number first — " + (((SCHED.get(fuPick.id) || {}).label) || "the unit") + " has no other way to know who this booking is for.");
+    return false;
+  }
   if (!fuPick || !fuPick.ref || fuPick.status !== "held") return true;
   try {
     const r = await schedCall("/book", "POST", { ref: fuPick.ref });
@@ -2158,8 +2173,9 @@ async function schedSeal(d, s) {
       inp.value = "";                                   // cleared only once the server holds the sealed form (Codex S10)
       schedApply(Object.assign({}, r.json, { ref: fuPick.ref })); SCHED_NOTE = ""; renderFuPanel(); return;
     }
-    schedNote(r.json.error || "Could not seal the number — try again, or put it in your email to the unit's inbox.");
-  } catch (e) { schedNote("This browser could not seal the number — put it in your email instead."); }
+    // a sealed-lane unit has NO email lane — never point the clinician at one (Codex OAI-F8)
+    schedNote(r.json.error || "Could not seal the number — try again. If it keeps failing, choose a different time and phone the unit; do not email the number.");
+  } catch (e) { schedNote("This browser cannot seal the number. Use another browser, or choose a different time and phone the unit — do not email the number."); }
 }
 
 async function schedUnseal() {
@@ -2227,7 +2243,10 @@ function schedMailButton(label) {
   // email lane only (no unit key), and only once the card is issued (booked) or
   // a request exists — a held slot has no card yet (Codex F3, 2026-09-16)
   if (!fuPick || !fuPick.mail || fuPick.identity === "sealed" || !["booked", "confirmed", "requested"].includes(fuPick.status)) return "";
-  return `<a class="schedmail" href="${esc(schedMailHref(fuPick.mail))}">✉ Confirm with ${esc(label)} by email</a>` +
+  // the one step medrics cannot see happen (Codex OAI-F5): say plainly that the
+  // booking is anonymous to the unit until this email arrives
+  return `<p class="schednote"><strong>Next: send the email now.</strong> ${esc(label)} cannot tell who this booking is for until your email arrives with the hospital number.</p>` +
+    `<a class="schedmail" href="${esc(schedMailHref(fuPick.mail))}">✉ Confirm with ${esc(label)} by email</a>` +
     `<span class="fuother">opens your own mail app — add the patient's details there, inside NHS mail</span>`;
 }
 function schedWhen(slot) {
@@ -2343,7 +2362,7 @@ function schedBind(host, d, s) {
   const hn = $("schedhn"); if (hn) hn.onkeydown = e => { if (e.key === "Enter") { e.preventDefault(); schedSeal(d, s); } };
   const us = $("schedunseal"); if (us) us.onclick = schedUnseal;
   const rl = $("schedrelease"); if (rl) rl.onclick = () => {
-    if (fuPick.issued && !confirm("The patient's card already carries reference " + fuPick.ref + ". Cancel this booking on the unit's diary?")) return;
+    if (fuPick.issued && !confirm("The patient already has a card for this time (reference " + fuPick.ref + " on the unit's diary). Cancel that booking?")) return;
     schedRelease(true); fuPick.date = ""; fuPick.time = ""; SCHED_SLOTS = null; SCHED_NOTE = ""; fuChanged();
   };
 }

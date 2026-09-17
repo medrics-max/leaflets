@@ -1592,7 +1592,7 @@ async function main() {
       FU_LEAFLET = leaf ? leaf.slug : "";
       FU_CARD = `<div class="fu-card">
         <p class="fu-dest">Requested: ${escapeHtml(dest.name || dest.label)}</p>
-        <p class="fu-note">Your clinician has asked this department to arrange this for you. <strong>They will contact you with the appointment</strong> — you do not need to book it yourself.</p>
+        <p class="fu-note">Your clinician is asking this department to arrange this for you. <strong>They will contact you with the appointment</strong> — you do not need to book it yourself. If you have not heard from them, ${dest.phone ? "call the department on the number shown here" : "contact your care team using the number on your hospital paperwork"}.</p>
 ${trialLine(dest)}
         ${dest.where ? `<p class="fu-where">📍 ${escapeHtml(dest.where)}</p>` : ""}
         ${dest.note ? `<p class="fu-note">${escapeHtml(dest.note)}</p>` : ""}
@@ -1620,7 +1620,7 @@ ${trialLine(dest)}
         ${phoneHtml(dest)}
         ${past ? `<div class="fu-past">This date has passed. If you missed your visit, contact your care team using the number on your hospital paperwork.</div>` : ""}
 ${trialLine(dest)}
-        <p class="fu-note">If you cannot come, contact your care team${dest.phone ? " on the number above" : " using the number on your hospital paperwork"}.</p>
+        <p class="fu-note">If you cannot come, or you are unsure about this appointment, contact your care team${dest.phone ? " on the number above" : " using the number on your hospital paperwork"}.</p>
         ${calendarButtonHtml()}
       </div>`;
     } else {
