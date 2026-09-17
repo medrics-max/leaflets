@@ -430,6 +430,7 @@
 </header>
 <section id="checkin" hidden aria-labelledby="ci-h">
   <h1 id="ci-h">Patient information for clinicians</h1>
+  <div id="ci-legacy">
   <p class="sub">For registered healthcare professionals. Sign up once with your professional registration number and a PIN of your own, then sign in anywhere with the same three.</p>
   <div class="ci-tabs" role="tablist" aria-label="Sign in or sign up">
     <button type="button" id="ci-tab-in" class="ci-tab" role="tab" aria-selected="true">Sign in</button>
@@ -475,6 +476,77 @@
   <p class="ci-ok" id="ci-note" hidden></p>
   <p class="ci-why">What happens to your number: it goes once to the medrics server to create or find your account, and is kept only as a scrambled code that cannot be turned back into the number — with your regulator, the last three characters (so people sharing a computer can tell sign-ins apart) and a scrambled form of your PIN. It is checked for format, and against the regulator's public register where we are able to (the signed-in line says when it was); otherwise entering it is your professional declaration. No name, email or patient detail is ever asked for.</p>
   <p class="ci-why">Medrics member? After signing in you can add member sync from the foot of the page to keep your saved sets on every device. Optional — the tool is free either way.</p>
+  </div>
+  <!-- the ONE medrics account (Codex account plan Phase 1b, 2026-09-17): shown only when the server says
+       accounts are on for the picker (GET /api/account/config); otherwise the PIN sign-in above stays -->
+  <div id="acct" hidden>
+    <p class="sub">For registered healthcare professionals. One Medrics account works on this tool and on medrics.co.uk.</p>
+    <form id="acct-in" novalidate>
+      <label for="acct-email">Email</label>
+      <input id="acct-email" type="email" autocomplete="username email" inputmode="email" spellcheck="false">
+      <label for="acct-pw">Password</label>
+      <input id="acct-pw" type="password" autocomplete="current-password">
+      <label class="own"><input id="acct-keep" type="checkbox"> Keep me signed in on this device. Only on your own device — leave unticked on a shared computer.</label>
+      <p class="ci-err" id="acct-err-in" role="alert" hidden></p>
+      <button type="submit" class="primary" id="acct-go-in">Sign in</button>
+      <p class="ci-why"><button type="button" class="link" data-acct="up">Create an account</button> · <button type="button" class="link" data-acct="reset">Forgot password?</button></p>
+      <p class="ci-why">Signed up before with a registration number and PIN? <button type="button" class="link" data-acct="move">Move it to a Medrics account</button></p>
+    </form>
+    <form id="acct-up" hidden novalidate>
+      <label for="acct-up-email">Email</label>
+      <input id="acct-up-email" type="email" autocomplete="email" inputmode="email" spellcheck="false">
+      <label for="acct-up-pw">Choose a password</label>
+      <input id="acct-up-pw" type="password" autocomplete="new-password" aria-describedby="acct-up-pw-hint">
+      <p class="ci-hint" id="acct-up-pw-hint">At least 15 characters. A few unrelated words work well; a password manager is best.</p>
+      <label for="acct-up-body">Your regulator</label>
+      <select id="acct-up-body"></select>
+      <label for="acct-up-num">Registration number</label>
+      <input id="acct-up-num" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false">
+      <label class="own"><input id="acct-up-keep" type="checkbox"> Keep me signed in on this device (your own device only).</label>
+      <p class="ci-err" id="acct-err-up" role="alert" hidden></p>
+      <button type="submit" class="primary" id="acct-go-up">Create account</button>
+      <p class="ci-why">Already have an account? <button type="button" class="link" data-acct="in">Sign in</button></p>
+    </form>
+    <form id="acct-code" hidden novalidate>
+      <p class="ci-ok" id="acct-code-msg"></p>
+      <label for="acct-code-in">6-digit code from the email</label>
+      <input id="acct-code-in" type="text" inputmode="numeric" autocomplete="one-time-code" maxlength="6" pattern="[0-9]{6}">
+      <div id="acct-newpw-row" hidden>
+        <label for="acct-newpw">New password</label>
+        <input id="acct-newpw" type="password" autocomplete="new-password">
+        <p class="ci-hint">At least 15 characters. Resetting signs out every device.</p>
+      </div>
+      <p class="ci-err" id="acct-err-code" role="alert" hidden></p>
+      <button type="submit" class="primary" id="acct-go-code">Confirm</button>
+      <p class="ci-why">No email after a few minutes? Check Junk and quarantine. <button type="button" class="link" data-acct="in">Start again</button></p>
+    </form>
+    <form id="acct-reset" hidden novalidate>
+      <label for="acct-reset-email">Email</label>
+      <input id="acct-reset-email" type="email" autocomplete="username email" inputmode="email" spellcheck="false">
+      <p class="ci-err" id="acct-err-reset" role="alert" hidden></p>
+      <button type="submit" class="primary" id="acct-go-reset">Send reset code</button>
+      <p class="ci-why"><button type="button" class="link" data-acct="in">Back to sign in</button></p>
+    </form>
+    <form id="acct-move" hidden novalidate>
+      <label for="acct-move-body">Your regulator</label>
+      <select id="acct-move-body"></select>
+      <label for="acct-move-num">Registration number</label>
+      <input id="acct-move-num" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false">
+      <label for="acct-move-pin">Your current PIN</label>
+      <input id="acct-move-pin" type="password" inputmode="numeric" maxlength="6" autocomplete="off">
+      <label for="acct-move-email">Email for your Medrics account</label>
+      <input id="acct-move-email" type="email" autocomplete="email" inputmode="email" spellcheck="false">
+      <label for="acct-move-pw">Choose a password</label>
+      <input id="acct-move-pw" type="password" autocomplete="new-password">
+      <p class="ci-hint">At least 15 characters. Your hospital verifications move across too.</p>
+      <label class="own"><input id="acct-move-keep" type="checkbox"> Keep me signed in on this device (your own device only).</label>
+      <p class="ci-err" id="acct-err-move" role="alert" hidden></p>
+      <button type="submit" class="primary" id="acct-go-move">Move to a Medrics account</button>
+      <p class="ci-why"><button type="button" class="link" data-acct="in">Back to sign in</button></p>
+    </form>
+    <div id="acct-ts" hidden></div>
+    <p class="ci-why">Your password is stored only as a one-way hash. We keep your regulator and the last three characters of your registration number, never the full number, and nothing about any patient. The number is checked for format, not against the register.</p>
+  </div>
 </section>
 <div class="head">
   <h1>Choose patient information</h1>
@@ -956,7 +1028,8 @@ async function tvStart(email) {
   const btn = $("tvsend"); if (btn) btn.disabled = true;
   TV.note = "Sending…";
   try {
-    const r = await clinCall("/trust-email/start", { trust: TRUST.id, email }, tok);
+    const r = ACCT.mode ? await acctFetch("/trust-email/start", "POST", { trust: TRUST.id, email })
+                        : await clinCall("/trust-email/start", { trust: TRUST.id, email }, tok);
     if (r.status === 401) { sessionLost(); return; }
     if (r.status === 202) {
       TV.challenge = { id: r.json.challenge_id, trust: TRUST.id };
@@ -969,6 +1042,7 @@ async function tvStart(email) {
 // (Codex account plan Phase 0) mail-security scanners open links, so a link is consumed only on
 // the clinician's explicit Confirm tap — never on page load
 function tvComplete() {
+  if (ACCT.mode) { TV_LINK = null; return; }  // account verification emails carry a code, never a link
   if (!TV_LINK || !schedToken()) return;  // needs a live session; hideCheckin calls this again after sign-in
   const box = $("tvconfirm");
   box.innerHTML = `<p><strong>Confirm your NHS email?</strong> You opened a verification link from Medrics.</p>
@@ -983,7 +1057,8 @@ async function tvCompleteCode(code) {
   const tok = schedToken(); if (!tok) { showCheckin(); return; }
   const btn = $("tvcodego"); if (btn) btn.disabled = true;
   try {
-    const r = await clinCall("/trust-email/complete", { challenge_id: TV.challenge.id, code }, tok);
+    const r = ACCT.mode ? await acctFetch("/trust-email/complete", "POST", { challenge_id: TV.challenge.id, code })
+                        : await clinCall("/trust-email/complete", { challenge_id: TV.challenge.id, code }, tok);
     if (r.status === 401) { sessionLost(); return; }
     if (r.status === 200) { TV.challenge = null; tvBound(r.json); return; }
     TV.note = r.json.error || "That code didn't work — check it, or send a new one.";
@@ -1010,7 +1085,138 @@ async function tvCompleteLink() {
   if (TRUST && trustGated(TRUST)) renderTrustGate(); else renderCheckinStatus(TV.note);
 }
 
+// ── THE MEDRICS ACCOUNT (Codex account plan Phase 1b, 2026-09-17) ──────────────────────────────
+// Active only when GET /api/account/config says enabled + picker. The session is an HttpOnly cookie
+// on brain.medrics.co.uk (this page never holds a bearer token); the CSRF value lives in memory only.
+const ACCT_API = "https://brain.medrics.co.uk/api/account";
+let ACCT = { mode: false, account: null, csrf: "", pending: null, cfg: null, tsLoaded: false };
+async function acctFetch(path, method, body) {
+  const ctl = (typeof AbortController === "function") ? new AbortController() : null;
+  const timer = ctl ? setTimeout(() => ctl.abort(), 15000) : null;
+  try {
+    const headers = {};
+    if (body) headers["Content-Type"] = "application/json";
+    if (ACCT.csrf) headers["X-Medrics-CSRF"] = ACCT.csrf;
+    const res = await fetch(ACCT_API + path, { method: method || "GET", headers, credentials: "include", cache: "no-store",
+      body: body ? JSON.stringify(body) : undefined, signal: ctl ? ctl.signal : undefined });
+    let json = null; try { json = await res.json(); } catch (e) { json = null; }
+    return { status: res.status, json: json || {} };
+  } finally { if (timer) clearTimeout(timer); }
+}
+function acctShow(view) {
+  ["in", "up", "code", "reset", "move"].forEach(v => { $("acct-" + v).hidden = v !== view; });
+  ["in", "up", "code", "reset", "move"].forEach(v => { $("acct-err-" + v).hidden = true; });
+  $("acct-ts").hidden = true;
+  const first = $("acct-" + view).querySelector("input:not([type=checkbox]), select");
+  if (first) first.focus();
+}
+function acctErr(view, msg) { const e = $("acct-err-" + view); e.textContent = msg; e.hidden = false; }
+function acctApply(j) {
+  ACCT.account = j.account || ACCT.account;
+  if (j.csrf) ACCT.csrf = j.csrf;
+  if (ACCT.account) { TV.policy = ACCT.account.policy || TV.policy; TV.access = ACCT.account.trust_access || {}; }
+}
+function acctLoadTurnstile() {
+  if (ACCT.tsLoaded) return Promise.resolve();
+  return new Promise((ok, bad) => {
+    const s = document.createElement("script");
+    s.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+    s.async = true; s.onload = () => { ACCT.tsLoaded = true; ok(); }; s.onerror = bad;
+    document.head.appendChild(s);
+  });
+}
+async function acctChallenge(siteKey, action) {
+  await acctLoadTurnstile();
+  const box = $("acct-ts"); box.innerHTML = ""; box.hidden = false;
+  return new Promise(resolve => {
+    window.turnstile.render(box, { sitekey: siteKey, action, callback: tok => { box.hidden = true; resolve(tok); },
+      "error-callback": () => resolve(""), "expired-callback": () => resolve("") });
+  });
+}
+// one submit path for every account form: busy button, Turnstile retry once, errors in place
+async function acctSubmit(view, path, body, onOk) {
+  const btn = $("acct-go-" + view); if (btn) btn.disabled = true;
+  try {
+    let r = await acctFetch(path, "POST", body);
+    if (r.status === 403 && r.json.code === "challenge_required") {
+      const tok = await acctChallenge(r.json.site_key, r.json.action).catch(() => "");
+      if (!tok) { acctErr(view, "The quick check didn't load on this computer — try again, or use another browser."); return; }
+      r = await acctFetch(path, "POST", Object.assign({}, body, { turnstile_token: tok }));
+    }
+    if (r.status >= 200 && r.status < 300) { await onOk(r.json, r.status); return; }
+    acctErr(view, r.json.error || "Something went wrong — try again.");
+  } catch (e) {
+    acctErr(view, "Could not reach the medrics server — try again in a moment.");
+  } finally { if (btn) btn.disabled = false; }
+}
+function acctCodeStep(purpose, challengeId, msg, remember) {
+  ACCT.pending = { purpose, challenge_id: challengeId, remember };
+  $("acct-code-msg").textContent = msg;
+  $("acct-newpw-row").hidden = purpose !== "recovery";
+  $("acct-code-in").value = ""; $("acct-newpw").value = "";
+  acctShow("code");
+}
+function acctSignedIn(j, note) {
+  acctApply(j);
+  ["acct-pw", "acct-up-pw", "acct-move-pw", "acct-move-pin", "acct-newpw", "acct-code-in"].forEach(id => { $(id).value = ""; });
+  hideCheckin(note);
+}
+async function acctInit() {
+  let cfg = null;
+  try { const r = await fetch(ACCT_API + "/config", { cache: "no-store" }); cfg = r.ok ? await r.json() : null; } catch (e) { cfg = null; }
+  if (!cfg || !cfg.enabled || !cfg.picker) return false;
+  ACCT.mode = true; ACCT.cfg = cfg;
+  $("ci-legacy").hidden = true; $("acct").hidden = false;
+  const opts = '<option value="">Choose…</option>' + REGULATORS.map(r => `<option value="${r.id}">${esc(r.name)}</option>`).join("");
+  $("acct-up-body").innerHTML = opts; $("acct-move-body").innerHTML = opts;
+  document.querySelectorAll("#acct [data-acct]").forEach(b => { b.onclick = () => acctShow(b.dataset.acct); });
+  $("acct-in").onsubmit = e => { e.preventDefault();
+    const remember = $("acct-keep").checked;
+    acctSubmit("in", "/signin", { email: $("acct-email").value.trim(), password: $("acct-pw").value, remember }, j => {
+      if (j.step_up === "email") { acctCodeStep("signin", j.challenge_id, "For your security we've emailed you a 6-digit sign-in code.", remember); return; }
+      acctSignedIn(j);
+    }); };
+  $("acct-up").onsubmit = e => { e.preventDefault();
+    const email = $("acct-up-email").value.trim(), remember = $("acct-up-keep").checked;
+    if (($("acct-up-pw").value || "").length < 15) { acctErr("up", "Use at least 15 characters."); return; }
+    acctSubmit("up", "/signup/start", { email, password: $("acct-up-pw").value, body: $("acct-up-body").value,
+      registration_number: $("acct-up-num").value, remember }, j => acctCodeStep("signup", j.challenge_id,
+      "If " + email + " can be used, a 6-digit code is on its way. It can take a few minutes; check Junk too.", remember)); };
+  $("acct-reset").onsubmit = e => { e.preventDefault();
+    acctSubmit("reset", "/recovery/start", { email: $("acct-reset-email").value.trim() }, j => acctCodeStep("recovery", j.challenge_id,
+      "If that email has a Medrics account, a reset code is on its way.", false)); };
+  $("acct-move").onsubmit = e => { e.preventDefault();
+    const remember = $("acct-move-keep").checked;
+    acctSubmit("move", "/migrate/picker/start", { body: $("acct-move-body").value, registration_number: $("acct-move-num").value,
+      pin: $("acct-move-pin").value, email: $("acct-move-email").value.trim(), password: $("acct-move-pw").value, remember },
+      j => acctCodeStep("migrate", j.challenge_id, "We've emailed a 6-digit code to confirm your email address.", remember)); };
+  $("acct-code").onsubmit = e => { e.preventDefault();
+    const pd = ACCT.pending; if (!pd) { acctShow("in"); return; }
+    const code = ($("acct-code-in").value || "").replace(/\D/g, "");
+    const path = { signup: "/signup/complete", signin: "/signin/complete", recovery: "/recovery/complete", migrate: "/migrate/picker/complete" }[pd.purpose];
+    const body = { challenge_id: pd.challenge_id, code };
+    if (pd.purpose === "recovery") body.new_password = $("acct-newpw").value;
+    acctSubmit("code", path, body, j => {
+      ACCT.pending = null;
+      if (pd.purpose === "recovery") { acctShow("in"); acctErr("in", "Password changed. Sign in with your new password."); return; }
+      if (pd.purpose === "migrate") { try { localStorage.removeItem(CHECKIN_KEY); ssSet(CHECKIN_TOKEN_KEY, null); ssSet(CHECKIN_OPEN_KEY, null); } catch (x) {} }
+      acctSignedIn(j, pd.purpose === "migrate" ? "Your picker sign-in has moved to your Medrics account." : "");
+    }); };
+  let r = null;
+  try { r = await acctFetch("/session", "GET"); } catch (e) { r = null; }
+  if (r && r.status === 200) { acctApply(r.json); hideCheckin(); return true; }
+  showCheckin(); acctShow("in");
+  return true;
+}
+
 function loadLearned() {
+  if (ACCT.mode) {
+    if (!ACCT.account || !TRUST) { LEARNED = {}; return; }
+    fetch(BUNDLES_API + "?t=" + encodeURIComponent(TRUST.id), { credentials: "include", cache: "no-store" })
+      .then(r => r.ok ? r.json() : {}).then(j => { LEARNED = (j && j.ranks) || {}; renderRelated(); })
+      .catch(() => { LEARNED = {}; });
+    return;
+  }
   let tok = "";
   try { tok = sessionStorage.getItem("medrics_checkin_tok") || ""; } catch (e) {}
   if (!tok || !TRUST) { LEARNED = {}; return; }
@@ -2149,7 +2355,10 @@ let SCHED_NOTE = "";
 let SCHED_UI = { week: 0, day: "" };   // which week (0 this, 1 next) and which day chip is selected
 let SCHED_TICK = null;          // the once-a-minute re-render while a slot is held
 
-function schedToken() { try { return currentToken(checkinRecord()); } catch (e) { return null; } }
+function schedToken() {
+  if (ACCT.mode) return ACCT.account ? "account" : null;       // the cookie session is the credential
+  try { return currentToken(checkinRecord()); } catch (e) { return null; }
+}
 
 async function schedCall(path, method, body) {
   const tok = schedToken();
@@ -2157,9 +2366,9 @@ async function schedCall(path, method, body) {
   const ctl = (typeof AbortController === "function") ? new AbortController() : null;
   const timer = ctl ? setTimeout(() => ctl.abort(), 9000) : null;
   try {
-    const headers = { "X-Medrics-Clinician": tok };
+    const headers = ACCT.mode ? {} : { "X-Medrics-Clinician": tok };
     if (body) headers["Content-Type"] = "application/json";
-    const res = await fetch(SCHED_API + path, { method, headers,
+    const res = await fetch(SCHED_API + path, { method, headers, credentials: ACCT.mode ? "include" : "same-origin",
       body: body ? JSON.stringify(body) : undefined, signal: ctl ? ctl.signal : undefined });
     let json = null;
     try { json = await res.json(); } catch (e) { json = null; }
@@ -3118,6 +3327,14 @@ function currentToken(p) {
 // server. 401 = gate the tool at once with the reason; a network failure keeps the
 // page open (the booking panel already says the service can't be reached).
 async function validateSession() {
+  if (ACCT.mode) {
+    try {
+      const r = await acctFetch("/session", "GET");
+      if (r.status === 401) { sessionLost(); return; }
+      if (r.status === 200) { acctApply(r.json); tvRefresh(); renderCheckinStatus(); }
+    } catch (e) {}
+    return;
+  }
   const tok = schedToken(); if (!tok) return;
   try {
     const r = await clinCall("/session", {}, tok);
@@ -3126,6 +3343,11 @@ async function validateSession() {
   } catch (e) {}
 }
 function sessionLost() {
+  if (ACCT.mode) {
+    ACCT.account = null; ACCT.csrf = "";
+    showCheckin(); acctShow("in"); acctErr("in", "Your session has ended — sign in again.");
+    return;
+  }
   const rec = checkinRecord();
   const list = checkinProfiles();
   list.forEach(p => { if (rec && p.id === rec.id) { delete p.token; delete p.token_exp; p.keep_until = null; } });
@@ -3136,6 +3358,15 @@ function sessionLost() {
 document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") validateSession(); });
 
 function checkOut() {
+  if (ACCT.mode) {
+    // same teardown as the PIN lane: release an unissued hold, end the server session, reload clean
+    let releaseP = Promise.resolve();
+    try { if (fuPick && fuPick.ref && !fuPick.issued && ACCT.account) releaseP = schedCall("/release", "POST", { ref: fuPick.ref }).catch(() => {}); } catch (e) {}
+    document.body.classList.add("gated");
+    const teardown = releaseP.then(() => acctFetch("/signout", "POST").catch(() => {}));
+    Promise.race([teardown, new Promise(r => setTimeout(r, 2500))]).finally(() => location.reload());
+    return;
+  }
   const list = checkinProfiles();
   const open = ssGet(CHECKIN_OPEN_KEY);
   const now = Date.now();
@@ -3172,6 +3403,15 @@ let checkinBusy = false;
 function renderCheckinStatus(note) {
   const el = $("ci-status");
   if (!el) return;
+  if (ACCT.mode) {
+    const a = ACCT.account;
+    if (!a) { el.innerHTML = ""; return; }
+    const reg = (a.registrations || []).map(r => `${esc(String(r.body).toUpperCase())} ····${esc(r.tail)}`).join(", ");
+    el.innerHTML = `Signed in as ${esc(a.email)}${reg ? " · " + reg : ""} · <a href="https://medrics.co.uk/account/" target="_blank" rel="noopener">Account &amp; security</a> · <button type="button" id="ci-out">Sign out</button>`
+      + (note ? `<br><span class="ci-ok">${esc(note)}</span>` : "");
+    $("ci-out").onclick = checkOut;
+    return;
+  }
   const rec = checkinRecord();
   if (!rec) { el.innerHTML = ""; return; }
   const tag = rec.verified === "register" ? ` · on the ${esc(rec.body.toUpperCase())} register`
@@ -3351,6 +3591,7 @@ function initCheckin() {
   else if (rec0 && rec0.pending) showCheckin("signup", { body: rec0.body, msg: "Your account was only saved on this device — the medrics server never received it. Sign up again with your registration number and PIN to create it." });
   else if (rec0) showCheckin("signin", { body: rec0.body, msg: "Your sign-in has expired. Sign in with your registration number to continue." });
   else showCheckin();
+  acctInit().catch(() => {});   // Phase 1b: if the server has accounts on for the picker, the account view replaces the PIN forms
 }
 // -----------------------------------------------------------------------------
 
