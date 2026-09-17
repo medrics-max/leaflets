@@ -1915,11 +1915,15 @@ function renderFuPanel() {
       (d.find_url ? " It includes a “How to find it” link to the hospital's own directions."
       : (d.where ? "" : " ⚠ No published directions for this unit yet — tell the patient where to go."));
   const sched = !pifu && SCHED.get(d.id);
-  const signedOutLive = !sched && !pifu && !schedToken() && SCHED_PUBLIC.has(d.id)
-    ? `<p class="schednote">🗓 ${esc(d.label || d.name)} takes live bookings from this tool — <a href="#top" class="link" id="schedsignin">sign in</a> at the top of the page to see its free slots and book one. Until then you can set a day and time by hand.</p>` : "";
+  // a BOOKABLE unit is never hand-set (the owner 2026-09-17: "you shouldn't be able to
+  // assign slots if you're not logged in — or even access it"): signed out, the panel
+  // is only the sign-in line; no day/time rows, no hint, and Generate refuses (schedBeforeGenerate)
+  const signedOutLive = !sched && !pifu && !schedToken() && SCHED_PUBLIC.has(d.id);
+  const signedOutHtml = signedOutLive
+    ? `<p class="schednote">🔒 ${esc(d.label || d.name)} is booked live from this tool. <strong>Sign in at the top of the page</strong> to see its free slots and book one — a time cannot be set by hand for this unit.</p>` : "";
   host.innerHTML = `<div class="fupanel">
-    <p class="q">${pifu ? "📞 Call-if-needed: " : req ? "📨 Request: " : "Follow-up: "}${esc(d.name || d.label)}</p>${sched ? schedPanelHtml(d, sched, dayTime) : signedOutLive + dayTime}
-    ${sched ? "" : `<p class="fuhint">${hint}</p>`}
+    <p class="q">${pifu ? "📞 Call-if-needed: " : req ? "📨 Request: " : "Follow-up: "}${esc(d.name || d.label)}</p>${sched ? schedPanelHtml(d, sched, dayTime) : (signedOutLive ? signedOutHtml : dayTime)}
+    ${(sched || signedOutLive) ? "" : `<p class="fuhint">${hint}</p>`}
     ${sugs.length
       ? `<div class="fusug"><span class="rlabel">Patient info for this pathway:</span> ` +
         sugs.map(it =>
@@ -2121,6 +2125,14 @@ async function schedBeforeGenerate() {
   // department has been asked), and on a sealed-lane unit the hospital number must
   // be sealed before the hold becomes a booking (the unit has no other way to know)
   const dest = fuPick && fuPick.id ? FOLLOWUPS.find(x => x.id === fuPick.id) : null;
+  // (the owner 2026-09-17) a bookable unit is never hand-set: without a held/booked
+  // reference there is nothing to issue — signed out, that means sign in first
+  const bookableUnit = dest && ((SCHED.get(dest.id) || {}).kind === "slots" || (!schedToken() && SCHED_PUBLIC.has(dest.id)));
+  if (bookableUnit && !fuPick.ref) {
+    schedNote(schedToken() ? "Hold one of " + (dest.label || dest.name) + "'s free slots first — a time cannot be set by hand for this unit."
+                           : "Sign in at the top of the page to book " + (dest.label || dest.name) + " — a time cannot be set by hand for this unit.");   // schedNote escapes on render
+    return false;
+  }
   if (dest && dest.kind === "request" && !(fuPick.ref && ["requested", "confirmed"].includes(fuPick.status))) {
     schedNote(schedToken() ? "Tap 'Request — get a reference' first: the patient's card would say the department has been asked when it has not."
                            : "Sign in and tap 'Request — get a reference' first — a request card needs a reference.");
@@ -2294,7 +2306,7 @@ function schedPanelHtml(d, s, dayTime) {
     // (Codex F7) a booked time with nowhere to go is a missed follow-up
     (s.kind !== "request" && !d.where && !d.find_url
       ? `<p class="schednote">⚠ No published directions for ${esc(s.label)} — tell the patient where to go.</p>` : "");
-  if (!schedToken()) return test + note + `<p class="fuhint">Sign in to see ${esc(s.label)}'s live slots.</p>` + dayTime;
+  if (!schedToken()) return test + note + `<p class="schednote">🔒 Sign in at the top of the page to see ${esc(s.label)}'s live slots and book one — a time cannot be set by hand for this unit.</p>`;
   if (fuPick.ref && fuPick.status !== "expired") {
     const isReq = s.kind === "request";
     const head = isReq ? "📨 Requested" : (fuPick.status === "held" ? "⏳ Held" : "✅ Booked");
@@ -2321,8 +2333,10 @@ function schedPanelHtml(d, s, dayTime) {
   const key = TRUST.id + "/" + s.service;
   if (!SCHED_SLOTS || SCHED_SLOTS.key !== key) { schedFetchSlots(d, s); return test + `<p class="fuhint">Loading ${esc(s.label)}'s free times…</p>`; }
   if (SCHED_SLOTS.state === "loading") return test + note + `<p class="fuhint">Loading ${esc(s.label)}'s free times…</p>`;
-  if (SCHED_SLOTS.state === "down") return test + note + `<p class="fuhint">Live slots are unavailable right now — set a day and time by hand and confirm with the unit by email.</p>` + dayTime;
-  if (!SCHED_SLOTS.slots.length) return test + note + `<p class="fuhint">No free times in the next two weeks — set a day and time by hand and confirm with the unit by email.</p>` + dayTime;
+  // no hand-set fallback for a bookable unit (the owner 2026-09-17; closes spec G13): a time
+  // the unit's diary never held is not a booking
+  if (SCHED_SLOTS.state === "down") return test + note + `<p class="schednote">Live slots are unavailable right now — <button type="button" class="link" id="schedrefresh">try again</button> in a moment, or phone the unit. A time cannot be set by hand for this unit.</p>`;
+  if (!SCHED_SLOTS.slots.length) return test + note + `<p class="schednote">No free times in the next two weeks — <button type="button" class="link" id="schedrefresh">refresh</button>, or phone the unit. A time cannot be set by hand for this unit.</p>`;
   return test + note + `<div class="schedlive" role="region" aria-label="Free follow-up times at ${esc(s.label)}"><p class="fuhint">Available slots at ${esc(s.label)} — tap one to hold it for ${SCHED_SLOTS.hold || 15} minutes. <button type="button" class="link" id="schedrefresh">Refresh</button></p>${schedSlotsHtml(s)}</div>`;
 }
 
