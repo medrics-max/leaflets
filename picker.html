@@ -1908,7 +1908,7 @@ function renderFuPanel() {
       ` Email the department from your NHS mail${SCHED.size ? "" : " (the scheduler is not connected, so there is no reference to quote)"}.`
     : pifu
     ? `No appointment. The patient's card says to call ${esc(d.phone || "the unit")}${d.hours ? " (" + esc(d.hours) + ")" : ""}` +
-      ` if symptoms get worse or don't improve${d.window_days ? " within " + d.window_days + " days" : ""}` +
+      ` if symptoms get worse or don't improve${(+d.window_days > 0 && +d.window_days < 366) ? " within " + Math.floor(+d.window_days) + " days" : ""}` +
       ` — the hospital's own PIFU leaflet is on the QR.`
     : (fuPick.date
       ? "The patient's page will show this day" + (fuPick.time ? " and time." : " — add a time if they have one.")
@@ -1929,7 +1929,10 @@ function renderFuPanel() {
   const signedOutHtml = signedOutLive
     ? `<p class="schednote">🔒 ${unit} is booked live from this tool. ${whyNot} A time cannot be set by hand for this unit.</p>` : "";
   host.innerHTML = `<div class="fupanel">
-    <p class="q">${pifu ? "📞 Call-if-needed: " : req ? "📨 Request: " : "Follow-up: "}${esc(d.name || d.label)}</p>${sched ? schedPanelHtml(d, sched, dayTime) : (signedOutLive ? signedOutHtml : dayTime)}
+    <p class="q">${pifu ? "📞 Call-if-needed: " : req ? "📨 Request: " : "Follow-up: "}${esc(d.name || d.label)}</p>${sched ? schedPanelHtml(d, sched, dayTime) : (signedOutLive ? signedOutHtml : (pifu || SCHED_CLASSIFIED === "yes" ? dayTime
+      : SCHED_CLASSIFIED === "failed"
+        ? `<p class="schednote">Can't check whether this unit takes live bookings right now. <button type="button" class="link" id="fu-retry">Try again</button> — a day and time appear once it's checked.</p>`
+        : `<p class="fuhint">Checking whether this unit takes live bookings…</p>`))}
     ${(sched || signedOutLive) ? "" : `<p class="fuhint">${hint}</p>`}
     ${sugs.length
       ? `<div class="fusug"><span class="rlabel">Patient info for this pathway:</span> ` +
@@ -2038,6 +2041,7 @@ async function schedCall(path, method, body) {
 }
 
 let SCHED_STATE = "";   // "" ok | "signedout" | "auth" (session refused) | "down" (unreachable)
+let SCHED_CLASSIFIED = "";   // "" not yet asked | "loading" | "yes" (server or cache answered) | "failed" (Codex OAI-05)
 async function schedLoad() {
   SCHED = new Map(); SCHED_SLOTS = null; SCHED_PUBLIC = new Set(); SCHED_STATE = "";
   if (!TRUST) return;
@@ -2047,24 +2051,29 @@ async function schedLoad() {
   // hand-set time because a session expired or the scheduler was briefly unreachable
   // (2026-09-17 — the owner, signed in on a device-only record, saw no way to book)
   const cacheKey = "medrics_bookable_" + tid;
-  try { (JSON.parse(localStorage.getItem(cacheKey) || "[]") || []).forEach(id => SCHED_PUBLIC.add(id)); } catch (e) {}
+  let cached = null;
+  try { cached = JSON.parse(localStorage.getItem(cacheKey) || "null"); } catch (e) { cached = null; }
+  if (Array.isArray(cached)) { cached.forEach(id => SCHED_PUBLIC.add(id)); SCHED_CLASSIFIED = "yes"; }
+  else SCHED_CLASSIFIED = "loading";
   const pub = fetch(SCHED_API + "/bookable?t=" + encodeURIComponent(tid), { cache: "no-store" })
     .then(r => r.ok ? r.json() : null)
     .then(j => {
-      if (!j || !TRUST || TRUST.id !== tid) return;
+      if (!TRUST || TRUST.id !== tid) return;
+      if (!j) { if (SCHED_CLASSIFIED !== "yes") SCHED_CLASSIFIED = "failed"; return; }
       SCHED_PUBLIC = new Set((j.bookable || []).map(b => b.followup_id));
+      SCHED_CLASSIFIED = "yes";
       try { localStorage.setItem(cacheKey, JSON.stringify([...SCHED_PUBLIC])); } catch (e) {}
-    }).catch(() => {});
-  if (!schedToken()) { SCHED_STATE = "signedout"; await pub; if (SCHED_PUBLIC.size) renderFollowup(); return; }
+    }).catch(() => { if (SCHED_CLASSIFIED !== "yes") SCHED_CLASSIFIED = "failed"; });
+  if (!schedToken()) { SCHED_STATE = "signedout"; await pub; renderFollowup(); return; }
   try {
     const r = await schedCall("/services?t=" + encodeURIComponent(tid), "GET");
     if (!TRUST || TRUST.id !== tid) return;   // trust switched meanwhile
-    if (r.status === 401) SCHED_STATE = "auth";
+    if (r.status === 401) { SCHED_STATE = "auth"; await pub; sessionLost(); return; }   // (Codex OAI-01) gate at once
     else if (r.status !== 200) SCHED_STATE = "down";
     else for (const s of (r.json.services || [])) SCHED.set(s.followup_id, s);
   } catch (e) { SCHED_STATE = "down"; }
   await pub;
-  if (SCHED.size || SCHED_PUBLIC.size) renderFollowup();
+  renderFollowup();   // always: a panel waiting on the classification must resolve
 }
 
 async function schedFetchSlots(d, s) {
@@ -2142,6 +2151,10 @@ async function schedBeforeGenerate() {
   const dest = fuPick && fuPick.id ? FOLLOWUPS.find(x => x.id === fuPick.id) : null;
   // (Oscar 2026-09-17) a bookable unit is never hand-set: without a held/booked
   // reference there is nothing to issue — signed out, that means sign in first
+  if (dest && dest.kind !== "pifu" && fuPick.date && SCHED_CLASSIFIED !== "yes") {
+    schedNote("Still checking whether this unit takes live bookings — try Generate again in a moment.");
+    return false;
+  }
   const bookableUnit = dest && ((SCHED.get(dest.id) || {}).kind === "slots" || SCHED_PUBLIC.has(dest.id));
   if (bookableUnit && !fuPick.ref) {
     schedNote(SCHED.get(dest.id) ? "Hold one of " + (dest.label || dest.name) + "'s free slots first — a time cannot be set by hand for this unit."
@@ -2197,7 +2210,7 @@ function schedSealHtml(s) {
     if (((fuPick && fuPick.identity) || s.identity) === "sealed") return `<p class="schednote">🔑 ${esc(s.label)} has not created its diary key yet — this booking cannot be identified until the unit does that on its diary page (one tap there). Generate waits for the key.</p>`;
     return `<p class="fuhint">${esc(s.label)} receives bookings by email: put ONLY the patient's hospital number (no name, no date of birth) in the email, next to the reference.</p>` + schedMailButton(s.label);
   }
-  if (fuPick.sealed) return `<p class="schedsealed">🔒 Hospital number sealed for ${esc(s.label)} — only their diary computer can read it. <button type="button" class="link" id="schedunseal">Change</button></p>`;
+  if (fuPick.sealed) return `<p class="schedsealed">🔒 Hospital number sealed for ${esc(s.label)} — only their diary computer can read it.${fuPick.status === "held" ? ` <button type="button" class="link" id="schedunseal">Change</button>` : ""}</p>`;
   return `<div class="schedseal"><label for="schedhn">Patient's hospital number</label>
     <input id="schedhn" type="text" inputmode="text" autocomplete="off" autocapitalize="characters" maxlength="16" placeholder="e.g. RS1234567" aria-describedby="schedsealhint">
     <button type="button" class="schedgo" id="schedseal">🔒 Seal for ${esc(s.label)}</button>
@@ -2935,21 +2948,50 @@ function currentToken(p) {
   return (p && p.token && p.token_exp && Date.parse(p.token_exp) > Date.now()) ? p.token : ssGet(CHECKIN_TOKEN_KEY);
 }
 
+// (Codex OAI-01, 2026-09-17) a token in browser storage is not a session: ask the
+// server. 401 = gate the tool at once with the reason; a network failure keeps the
+// page open (the booking panel already says the service can't be reached).
+async function validateSession() {
+  const tok = schedToken(); if (!tok) return;
+  try {
+    const r = await clinCall("/session", {}, tok);
+    if (r.status === 401) sessionLost();
+  } catch (e) {}
+}
+function sessionLost() {
+  const rec = checkinRecord();
+  const list = checkinProfiles();
+  list.forEach(p => { if (rec && p.id === rec.id) { delete p.token; delete p.token_exp; p.keep_until = null; } });
+  saveCheckinProfiles(list);
+  ssSet(CHECKIN_TOKEN_KEY, null);
+  showCheckin("signin", { body: rec ? rec.body : "", msg: "Your session has ended on the medrics server. Sign in again to continue." });
+}
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") validateSession(); });
+
 function checkOut() {
   const list = checkinProfiles();
   const open = ssGet(CHECKIN_OPEN_KEY);
   const now = Date.now();
   const rec = checkinRecord();
   const tok = currentToken(rec);
-  if (tok) clinCall("/signout", {}, tok).catch(() => {});   // best effort — the device forgets it regardless
+  // release an unissued hold while the token still exists (a kept token is wiped just below)
+  // (the release must finish BEFORE the sign-out, or the server has already ended the
+  // session and refuses it — seen on the harness 2026-09-17)
+  let releaseP = Promise.resolve();
+  try { if (fuPick && fuPick.ref && !fuPick.issued && tok) releaseP = schedCall("/release", "POST", { ref: fuPick.ref }).catch(() => {}); } catch (e) {}
   // end this tab's sign-in and any "own device" hold, so the next person is asked
   list.forEach(p => {
     if (p.id === open || (p.keep_until && Date.parse(p.keep_until) > now)) { p.keep_until = null; delete p.token; delete p.token_exp; }
   });
   saveCheckinProfiles(list);
+  // (Codex OAI-03) the next clinician on a shared computer must not inherit this case:
+  // release an unissued hold (schedRelease never touches an issued booking), end the
+  // server session, then reload into a clean gated page
   ssSet(CHECKIN_OPEN_KEY, null);
   ssSet(CHECKIN_TOKEN_KEY, null);
-  showCheckin("unlock");
+  document.body.classList.add("gated");
+  const teardown = releaseP.then(() => tok ? clinCall("/signout", {}, tok).catch(() => {}) : null);
+  Promise.race([teardown, new Promise(r => setTimeout(r, 2500))]).finally(() => location.reload());
 }
 
 function forgetCheckin(id) {
@@ -3137,7 +3179,7 @@ function initCheckin() {
   // on a live SERVER session. A device record whose session expired, or that was made while the
   // server was unreachable, goes to the sign-in form with the reason — never straight in.
   const rec0 = checkinRecord();
-  if (schedToken()) hideCheckin();
+  if (schedToken()) { hideCheckin(); validateSession(); }
   else if (rec0 && rec0.pending) showCheckin("signup", { body: rec0.body, msg: "Your account was only saved on this device — the medrics server never received it. Sign up again with your registration number and PIN to create it." });
   else if (rec0) showCheckin("signin", { body: rec0.body, msg: "Your sign-in has expired. Sign in with your registration number to continue." });
   else showCheckin();
