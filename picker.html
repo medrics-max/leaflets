@@ -939,16 +939,16 @@ function noteNoResults(q) {
   // Letters-and-clinical-punctuation only. A single digit anywhere (NHS
   // number, DOB, hospital number) means this never leaves the device.
   if (!/^[a-z #&+'\-]{2,30}$/.test(clean)) return;
-  // (2026-08-08 review) a NAME is pure letters and would pass the digit
-  // filter. Multi-word free text where any word matches nothing we know
-  // (no synonym, no title, no slug) is name-shaped — it never leaves the
-  // device. Single unknown words stay: they ARE the content-gap signal.
+  // (Oscar 2026-09-17, after Codex OAI-11: "stop sending unrecognised search
+  // words") a NAME is pure letters and passes the digit filter, and a single
+  // unknown word can be a surname. So EVERY word must be vocabulary we already
+  // know (a synonym, a title or a slug word) or the query never leaves the
+  // device — one word or many. This retires the 2026-08-08 exception that let
+  // single unknown words through as the content-gap signal.
   const toks = clean.split(/\s+/).filter(Boolean);
-  if (toks.length > 1) {
-    const known = w => { const fw = fold(w);
-      return !!SYN_FOLDED[fw] || ITEMS.some(it => it._hay.includes(fw)); };
-    if (!toks.every(known)) return;
-  }
+  const known = w => { const fw = fold(w);
+    return !!SYN_FOLDED[fw] || ITEMS.some(it => it._hay.includes(fw)); };
+  if (!toks.length || !toks.every(known)) return;
   _nrTimer = setTimeout(() => {
     const cur = $("search").value.trim().toLowerCase();
     if (cur !== clean || _sentQueries.has(clean)) return;
