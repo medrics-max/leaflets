@@ -1915,8 +1915,10 @@ function renderFuPanel() {
       (d.find_url ? " It includes a “How to find it” link to the hospital's own directions."
       : (d.where ? "" : " ⚠ No published directions for this unit yet — tell the patient where to go."));
   const sched = !pifu && SCHED.get(d.id);
+  const signedOutLive = !sched && !pifu && !schedToken() && SCHED_PUBLIC.has(d.id)
+    ? `<p class="schednote">🗓 ${esc(d.label || d.name)} takes live bookings from this tool — <a href="#top" class="link" id="schedsignin">sign in</a> at the top of the page to see its free slots and book one. Until then you can set a day and time by hand.</p>` : "";
   host.innerHTML = `<div class="fupanel">
-    <p class="q">${pifu ? "📞 Call-if-needed: " : req ? "📨 Request: " : "Follow-up: "}${esc(d.name || d.label)}</p>${sched ? schedPanelHtml(d, sched, dayTime) : dayTime}
+    <p class="q">${pifu ? "📞 Call-if-needed: " : req ? "📨 Request: " : "Follow-up: "}${esc(d.name || d.label)}</p>${sched ? schedPanelHtml(d, sched, dayTime) : signedOutLive + dayTime}
     ${sched ? "" : `<p class="fuhint">${hint}</p>`}
     ${sugs.length
       ? `<div class="fusug"><span class="rlabel">Patient info for this pathway:</span> ` +
@@ -1996,6 +1998,7 @@ function renderFuPanel() {
 // a URL); anything failing degrades to the hand-set day/time.
 const SCHED_API = "https://brain.medrics.co.uk/api/leaflets/schedule";
 let SCHED = new Map();          // followup id -> { service, kind, label, mode }
+let SCHED_PUBLIC = new Set();   // signed OUT: which follow-up ids the server says are bookable (ids only)
 let SCHED_SLOTS = null;         // { key, state: "loading"|"ok"|"down", slots, hold }
 let SCHED_NOTE = "";
 // the slot list's fold state survives re-renders: which day headings are open,
@@ -2022,9 +2025,21 @@ async function schedCall(path, method, body) {
 }
 
 async function schedLoad() {
-  SCHED = new Map(); SCHED_SLOTS = null;
-  if (!TRUST || !schedToken()) return;
+  SCHED = new Map(); SCHED_SLOTS = null; SCHED_PUBLIC = new Set();
+  if (!TRUST) return;
   const tid = TRUST.id;
+  if (!schedToken()) {
+    // signed out: learn only WHICH destinations are bookable, so the panel can say
+    // that signing in unlocks live slots (2026-09-17 — the owner saw the hand-set rows
+    // and read the lane as not live)
+    try {
+      const r = await fetch(SCHED_API + "/bookable?t=" + encodeURIComponent(tid), { cache: "no-store" });
+      const j = r.ok ? await r.json() : null;
+      if (j && TRUST && TRUST.id === tid) for (const b of (j.bookable || [])) SCHED_PUBLIC.add(b.followup_id);
+      if (SCHED_PUBLIC.size) renderFollowup();
+    } catch (e) {}
+    return;
+  }
   try {
     const r = await schedCall("/services?t=" + encodeURIComponent(tid), "GET");
     if (r.status !== 200 || !TRUST || TRUST.id !== tid) return;   // trust switched meanwhile
@@ -2229,10 +2244,19 @@ function schedPathwayHtml(s) {
       `title="${esc(pw.purpose || pw.label)}${pw.confirmed ? "" : " — not yet confirmed with the unit"}">${on ? "✓ " : ""}${esc(pw.label)}</button>`;
   }).join(" ");
   const excl = schedExclusions(s).map(x => `<p class="schedexcl">⚠ ${esc(x.note)}</p>`).join("");
-  const req = (fuPick.pathway && fuPick.request_mail && ["booked", "confirmed", "requested"].includes(fuPick.status))
-    ? `<p><a class="schedmail" href="${esc(schedMailHref(fuPick.request_mail))}">✉ ${esc((s.pathways.find(p => p.id === fuPick.pathway) || {}).request_label || "Send the request")}</a>` +
+  const pwRow = s.pathways.find(p => p.id === fuPick.pathway) || {};
+  const issued = ["booked", "confirmed", "requested"].includes(fuPick.status);
+  // the request button (e.g. the ultrasound for ?DVT) shows whenever the chosen
+  // pathway carries one; it LINKS only once the department's address is set on the
+  // server and the card is issued (Oscar 2026-09-17: "a button that doesn't link
+  // anywhere yet to send an email to the US people")
+  const req = (fuPick.pathway && fuPick.request_mail && issued)
+    ? `<p><a class="schedmail" href="${esc(schedMailHref(fuPick.request_mail))}">✉ ${esc(pwRow.request_label || "Send the request")}</a>` +
       `<span class="fuother">opens your NHS mail to the department — add the patient's details there</span></p>`
-    : (fuPick.pathway && fuPick.request_mail ? `<p class="fuhint">Generate the QR first — then the request email button appears here.</p>` : "");
+    : (fuPick.pathway && fuPick.request_mail ? `<p class="fuhint">Generate the QR first — then the request email button appears here.</p>`
+    : (fuPick.pathway && pwRow.request_label && !pwRow.request_ready
+      ? `<p><button type="button" class="schedmail" disabled title="The department's NHS inbox is not set on the medrics server yet — the button will open your NHS mail once it is">✉ ${esc(pwRow.request_label)}</button><span class="fuother">not connected yet — the department's inbox is still to be set</span></p>`
+      : ""));
   return `<div class="schedpw"><span class="rlabel">${fuPick.pathway ? "Appointment for:" : (sug ? "Appointment for — suggested from the leaflets ticked, tap to confirm:" : "Appointment for:")}</span>${chips}${more}${excl}${req}</div>`;
 }
 async function schedSetPathway(pid) {

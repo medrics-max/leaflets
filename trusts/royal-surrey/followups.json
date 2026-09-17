@@ -1,5 +1,5 @@
 {
- "about": "Follow-up destinations for Royal Surrey (see the root followups.json for the format/fields). 'group' buckets the picker menu; 'featured: true' renders as a chip, the rest in the grouped ward/clinic dropdown. Ward and clinic 'find_url's are the trust's official AccessAble access guides (step-by-step routes with photos), read from accessable.co.uk's Royal Surrey directory on 2026-09-03 — 60 guides listed there; non-destination entries (cafe, chapel, offices, parking) deliberately excluded. EMMAC is new — fill in its details once the trust publishes them. kind='pifu' row (Oscar 2026-09-03): Hascombe Ward open access for children — wording and ward number verbatim from the trust's 'Open Access – Hascombe Ward' leaflet (PIN240522-1409, review May 2027), read 2026-09-03; the duration is set per child by the ward, so none is printed. 2026-09-16: SDEC directions/phone now VERBATIM from the trust's /sdec page (source_url, checked). kind='request' row (ultrasound-request): the department arranges the appointment itself — the clinician emails them from NHS mail quoting a booking reference; the patient's card says the scan has been requested. Whether a destination is BOOKABLE (live slot list) or REQUESTABLE is decided by the medrics scheduling service, never by this public file. EMMAC still has no public page (checked 2026-09-16) — no directions until the trust publishes them or the unit confirms. EEMAC (2026-09-16, Oscar: 'EEMAC is almost near SDEC' + the ED's own EEMAC email: the former oncology-SDEC space, shared with the frailty SDEC team): 'where' = the SDEC directions and what3words VERBATIM from the trust's /sdec page, prefixed with the one sentence that EEMAC is beside SDEC (the owner's own knowledge — no public page names the unit yet). 'map' (2026-09-16, Oscar: 'SDEC on that map is where EEMAC is — highlight it'): the trust's own published site map PDF (Level B page) rendered to trusts/royal-surrey/map-level-b.jpg, credited and linked to the original; x/y = the Same Day Emergency Care box as fractions of the image; the marker is ours. 'geo' (2026-09-16, Oscar: 'a function that adds to their default maps app… a button like a map with an arrow'): the hospital site's coordinate from OpenStreetMap — the maps app takes the patient to the hospital; the trust's own steps then take them to the SDEC door (no public coordinate exists for that door). EEMAC phone (2026-09-16): the trust's main switchboard as printed on royalsurrey.nhs.uk ('Main switchboard: 01483 571 122') with the unit's extension 2659 from Oscar (no public page lists it yet).",
+ "about": "Follow-up destinations for Royal Surrey (see the root followups.json for the format/fields). 'group' buckets the picker menu; 'featured: true' renders as a chip, the rest in the grouped ward/clinic dropdown. Ward and clinic 'find_url's are the trust's official AccessAble access guides (step-by-step routes with photos), read from accessable.co.uk's Royal Surrey directory on 2026-09-03 — 60 guides listed there; non-destination entries (cafe, chapel, offices, parking) deliberately excluded. EMMAC is new — fill in its details once the trust publishes them. kind='pifu' row (Oscar 2026-09-03): Hascombe Ward open access for children — wording and ward number verbatim from the trust's 'Open Access – Hascombe Ward' leaflet (PIN240522-1409, review May 2027), read 2026-09-03; the duration is set per child by the ward, so none is printed. 2026-09-16: SDEC directions/phone now VERBATIM from the trust's /sdec page (source_url, checked). kind='request' row (ultrasound-request): the department arranges the appointment itself — the clinician emails them from NHS mail quoting a booking reference; the patient's card says the scan has been requested. Whether a destination is BOOKABLE (live slot list) or REQUESTABLE is decided by the medrics scheduling service, never by this public file. EMMAC still has no public page (checked 2026-09-16) — no directions until the trust publishes them or the unit confirms. EEMAC (2026-09-16, Oscar: 'EEMAC is almost near SDEC' + the ED's own EEMAC email: the former oncology-SDEC space, shared with the frailty SDEC team): 'where' = the SDEC directions and what3words VERBATIM from the trust's /sdec page, prefixed with the one sentence that EEMAC is beside SDEC (the owner's own knowledge — no public page names the unit yet). 'map' (2026-09-16, Oscar: 'SDEC on that map is where EEMAC is — highlight it'): the trust's own published site map PDF (Level B page) rendered to trusts/royal-surrey/map-level-b.jpg, credited and linked to the original; x/y = the Same Day Emergency Care box as fractions of the image; the marker is ours. 'geo' (2026-09-16, Oscar: 'a function that adds to their default maps app… a button like a map with an arrow'): the hospital site's coordinate from OpenStreetMap — the maps app takes the patient to the hospital; the trust's own steps then take them to the SDEC door (no public coordinate exists for that door). EEMAC phone (2026-09-16): the trust's main switchboard as printed on royalsurrey.nhs.uk ('Main switchboard: 01483 571 122') with the unit's extension 2659 from Oscar (no public page lists it yet). 2026-09-17 (Oscar: 'I only want the US booking to appear if DVT is selected and EEMAC'): the standalone ultrasound-request row is REMOVED — the ultrasound request is offered only inside the EEMAC follow-up when the ?DVT pathway is chosen (a request button on the clinician's panel; no patient-facing card of its own).",
  "destinations": [
   {
    "id": "sdec",
@@ -80,28 +80,6 @@
      }
     ]
    },
-   "geo": {
-    "lat": 51.24006,
-    "lon": -0.60796,
-    "label": "Royal Surrey County Hospital — Main Car Park (front of the hospital), Gill Avenue, Guildford GU2 7XX",
-    "source": "OpenStreetMap way 26334328 (visitor car park, operator RSCH), read 2026-09-16; the trust's Getting Here page: 'The Main Car Park is located directly outside the front of the hospital'",
-    "source_url": "https://www.openstreetmap.org/way/26334328"
-   }
-  },
-  {
-   "id": "ultrasound-request",
-   "kind": "request",
-   "label": "Ultrasound scan (request)",
-   "name": "the Ultrasound department",
-   "group": "Same day & assessment",
-   "featured": true,
-   "where": "The Ultrasound department is located in radiology on Level B of the hospital.",
-   "find_url": "https://www.royalsurrey.nhs.uk/ultrasound-",
-   "source_url": "https://www.royalsurrey.nhs.uk/ultrasound-",
-   "phone": "",
-   "note": "Your appointment letter or information leaflet will tell you what preparation is required.",
-   "info_slug": "",
-   "checked": "2026-09-16",
    "geo": {
     "lat": 51.24006,
     "lon": -0.60796,
