@@ -528,6 +528,17 @@
 
 <script src="qrcode.min.js"></script>
 <script>
+// (2026-09-17, P11-NHS2) an NHS-email verification link lands as picker.html#verify=<token>.
+// Read it and scrub it from the address bar BEFORE anything else runs (init, telemetry, member
+// sync); keep it in memory only; complete it once a live session exists. Never stored.
+let TV_LINK = null;
+(() => { try {
+  const m = (location.hash || "").match(/[#&]verify=([A-Za-z0-9_-]{20,90})/);
+  if (m) { TV_LINK = m[1]; history.replaceState(null, "", location.pathname + location.search); }
+} catch (e) {} })();
+// trust mode: the server's policy + this clinician's trust bindings, from sign-in/session answers
+let TV = { policy: { trust_verification: false, enforce: false }, access: {}, note: "" };
+let TV_GATED_FOR = null;
 // Local test copies must link to THEIR OWN patient page, not the published
 // site — a localhost picker pointing at github.io shows the OLD build and
 // reads as "the patient gets no driving advice" (the owner, 2026-08-04).
@@ -886,6 +897,75 @@ const REC = { taken: [], shown: new Set(), dead: new Set() };
 // Learned co-pick ranks for THIS trust — served by the medrics server only when the trust is
 // licensed and the clinician is signed in (usage_intelligence.py). Ranks only; silent otherwise.
 const BUNDLES_API = "https://brain.medrics.co.uk/api/leaflets/bundles";
+// ── TRUST MODE (P11-NHS1..4, the owner 2026-09-17: "trust specific portals should require email
+// authentication, but the base is still accessible with just the GMC") ─────────────────────
+// The national library opens after the normal sign-in. A hospital trust's mode needs that
+// trust's binding, made by a one-time link to the clinician's NHS work email. The hospital's
+// leaflet files are public on this site, so this gate is a USE RULE; the real enforcement is on
+// the medrics server (booking and paid suggestions answer 403 without a binding).
+function tvApply(json) {
+  if (!json) return;
+  if (json.policy) TV.policy = json.policy;
+  if (json.trust_access) TV.access = json.trust_access;
+}
+function trustGated(t) {
+  return !!(t && !t.library && TV.policy && TV.policy.trust_verification && (TV.access[t.id] || {}).state !== "active");
+}
+function tvRefresh() {
+  if (TRUST && (trustGated(TRUST) ? TRUST.id : "") !== TV_GATED_FOR) load();
+}
+function renderTrustGate() {
+  const st = TV.access[TRUST.id] || {};
+  const name = esc(TRUST.short_name || TRUST.name);
+  $("search").disabled = true;
+  $("count").textContent = "";
+  const inner = st.state === "pending_approval"
+    ? `<p><strong>Email checked — waiting for ${name} approval.</strong> An @nhs.net address doesn't show which trust you work for, so medrics confirms it once (reference ${esc(st.approval_id || "")}). You can use the national library meanwhile.</p>`
+    : `<p><strong>${name} mode needs a verified NHS work email.</strong> ${st.state === "expired" ? "Your check has expired — verify again. " : ""}We send a one-time link, valid for 20 minutes. Open it on this device while you are signed in. We keep a scrambled form of the address, never the address itself.</p>
+       <form id="tvform" class="tvform"><label for="tvemail">NHS work email</label>
+       <input id="tvemail" type="email" autocomplete="email" inputmode="email" placeholder="name@nhs.net" required>
+       <button type="submit" class="primary" id="tvsend">Send link</button></form>`;
+  $("results").innerHTML = `<li class="hint tvgate">${inner}` +
+    (TV.note ? `<p class="schednote" role="alert">${esc(TV.note)}</p>` : "") +
+    `<p><button type="button" class="link" id="tvlib">Continue with the national library</button></p></li>`;
+  const f = $("tvform");
+  if (f) f.onsubmit = e => { e.preventDefault(); tvStart(($("tvemail").value || "").trim()); };
+  $("tvlib").onclick = () => { TV.note = ""; pickTrust(LIBRARY.id); };
+}
+async function tvStart(email) {
+  const tok = schedToken();
+  if (!tok) { showCheckin(); return; }
+  const btn = $("tvsend"); if (btn) btn.disabled = true;
+  TV.note = "Sending…";
+  try {
+    const r = await clinCall("/trust-email/start", { trust: TRUST.id, email }, tok);
+    if (r.status === 401) { sessionLost(); return; }
+    TV.note = r.status === 202
+      ? "Link sent — check that inbox (it can take a minute). It works for 20 minutes, on this device, while you are signed in."
+      : (r.json.error || "Could not send the link — try again.");
+  } catch (e) { TV.note = "Could not reach the medrics server — try again."; }
+  if (TRUST && trustGated(TRUST)) renderTrustGate();
+}
+async function tvComplete() {
+  if (!TV_LINK) return;
+  const tok = schedToken();
+  if (!tok) return;                       // completes after sign-in (hideCheckin calls this again)
+  const link = TV_LINK; TV_LINK = null;
+  try {
+    const r = await clinCall("/trust-email/complete", { token: link }, tok);
+    if (r.status === 401) { TV_LINK = link; sessionLost(); return; }
+    if (r.status === 200) {
+      TV.access[r.json.trust] = { state: r.json.state, reverify_at: r.json.reverify_at, approval_id: r.json.approval_id || "" };
+      TV.note = "";
+      if (CHOICES.some(x => x.id === r.json.trust)) pickTrust(r.json.trust); else load();
+      renderCheckinStatus(r.json.state === "active" ? "NHS email checked for this trust." : "NHS email checked — trust approval pending.");
+      return;
+    }
+    TV.note = r.json.error || "That link is invalid or has expired — request a new one.";
+  } catch (e) { TV_LINK = link; return; }
+  if (TRUST && trustGated(TRUST)) renderTrustGate(); else renderCheckinStatus(TV.note);
+}
+
 function loadLearned() {
   let tok = "";
   try { tok = sessionStorage.getItem("medrics_checkin_tok") || ""; } catch (e) {}
@@ -1090,6 +1170,9 @@ async function load() {
   renderFollowup();   // clear the old trust's chips NOW, not when the fetch lands
   renderSelected(); $("out").innerHTML = ""; $("results").innerHTML = "";
   $("count").textContent = "Loading…";
+  $("search").disabled = false;
+  TV_GATED_FOR = trustGated(TRUST) ? TRUST.id : "";
+  if (TV_GATED_FOR) { renderTrustGate(); return; }   // P11-NHS3: a page use rule over public files
   const sources = sourcesFor(TRUST);
   // no-cache: a clinician must never search against a stale cached copy after
   // a correction is published (revalidates via ETag, so unchanged files cost a
@@ -2036,15 +2119,29 @@ async function schedCall(path, method, body) {
       body: body ? JSON.stringify(body) : undefined, signal: ctl ? ctl.signal : undefined });
     let json = null;
     try { json = await res.json(); } catch (e) { json = null; }
+    if (res.status === 403 && json && json.code === "trust_verification_required") {
+      // the server enforces trust mode: this binding is missing or has lapsed
+      TV.policy = Object.assign({}, TV.policy, { trust_verification: true });
+      const a = Object.assign({}, TV.access[json.trust] || {});
+      if (a.state === "active") a.state = "expired";
+      TV.access[json.trust] = a;
+      // re-render only when this makes the CURRENT trust newly gated — an unconditional load() here
+      // looped forever on the national library (seen on the harness 2026-09-17: thousands of requests)
+      setTimeout(() => { if (TRUST && TRUST.id === json.trust && !TRUST.library) tvRefresh(); }, 0);
+    }
     return { status: res.status, json: json || {} };
   } finally { if (timer) clearTimeout(timer); }
 }
 
 let SCHED_STATE = "";   // "" ok | "signedout" | "auth" (session refused) | "down" (unreachable)
 let SCHED_CLASSIFIED = "";   // "" not yet asked | "loading" | "yes" (server or cache answered) | "failed" (Codex OAI-05)
+let SCHED_LOAD_AT = { id: "", at: 0, n: 0 };
 async function schedLoad() {
+  const _now = Date.now(), _id = TRUST ? TRUST.id : "";
+  if (SCHED_LOAD_AT.id === _id && _now - SCHED_LOAD_AT.at < 5000) { if (++SCHED_LOAD_AT.n > 3) return; }
+  else SCHED_LOAD_AT = { id: _id, at: _now, n: 1 };
   SCHED = new Map(); SCHED_SLOTS = null; SCHED_PUBLIC = new Set(); SCHED_STATE = "";
-  if (!TRUST) return;
+  if (!TRUST || TRUST.library) return;   // the national library books nothing (and asking loops on a 403)
   const tid = TRUST.id;
   // WHICH destinations are bookable is public (ids only) and is learned whatever the
   // sign-in state, then cached per trust: a bookable unit must never fall back to a
@@ -2097,6 +2194,7 @@ function schedApply(json) {
   fuPick.hold_expires = json.hold_expires || "";
   fuPick.sealed = !!json.sealed; fuPick.pubkey = json.pubkey || null; fuPick.identity = json.identity || (json.pubkey ? "sealed" : "email");
   fuPick.pathway = json.pathway || ""; fuPick.purpose = json.purpose || ""; fuPick.request_mail = json.request_mail || null;
+  fuPick.sent_attested = !!json.sent_attested; fuPick.department_sent = !!json.department_sent;
   if (json.slot) { fuPick.date = json.slot.slice(0, 10); fuPick.time = json.slot.slice(11, 16); }
 }
 
@@ -2164,6 +2262,12 @@ async function schedBeforeGenerate() {
   if (dest && dest.kind === "request" && !(fuPick.ref && ["requested", "confirmed"].includes(fuPick.status))) {
     schedNote(schedToken() ? "Tap 'Request — get a reference' first: the patient's card would say the department has been asked when it has not."
                            : "Sign in and tap 'Request — get a reference' first — a request card needs a reference.");
+    return false;
+  }
+  // (plan P17) the card may not say the department or unit was asked before the clinician says they sent the email
+  if (fuPick && fuPick.ref && fuPick.mail && fuPick.identity !== "sealed" && !fuPick.sent_attested
+      && (fuPick.status === "held" || (dest && dest.kind === "request"))) {
+    schedNote("Send the email from your NHS mail and tap 'I sent it' before generating the card.");
     return false;
   }
   if (fuPick && fuPick.ref && fuPick.status === "held" && fuPick.identity === "sealed" && !fuPick.sealed) {
@@ -2292,7 +2396,8 @@ function schedPathwayHtml(s) {
   // anywhere yet to send an email to the US people")
   const req = (fuPick.pathway && fuPick.request_mail && issued)
     ? `<p><a class="schedmail" href="${esc(schedMailHref(fuPick.request_mail))}">✉ ${esc(pwRow.request_label || "Send the request")}</a>` +
-      `<span class="fuother">opens your NHS mail to the department — add the patient's details there</span></p>`
+      `<span class="fuother">opens your NHS mail to the department — add the patient's details there. Opening it does not send anything.</span>` +
+      (fuPick.department_sent ? ` <span class="schedsealed">✓ you confirmed you sent it</span>` : ` <button type="button" class="link" data-attest="department">I sent it</button>`) + `</p>`
     : (fuPick.pathway && fuPick.request_mail ? `<p class="fuhint">Generate the QR first — then the request email button appears here.</p>`
     : (fuPick.pathway && pwRow.request_label && !pwRow.request_ready
       ? `<p><button type="button" class="schedmail" disabled title="The department's NHS inbox is not set on the medrics server yet — the button will open your NHS mail once it is">✉ ${esc(pwRow.request_label)}</button><span class="fuother">not connected yet — the department's inbox is still to be set</span></p>`
@@ -2312,15 +2417,31 @@ function schedMailHref(mail) {
     + "&body=" + encodeURIComponent(mail.body || "");
 }
 function schedMailButton(label) {
-  // email lane only (no unit key), and only once the card is issued (booked) or
-  // a request exists — a held slot has no card yet (Codex F3, 2026-09-16)
-  if (!fuPick || !fuPick.mail || fuPick.identity === "sealed" || !["booked", "confirmed", "requested"].includes(fuPick.status)) return "";
-  // the one step medrics cannot see happen (Codex OAI-F5): say plainly that the
-  // booking is anonymous to the unit until this email arrives
-  return `<p class="schednote"><strong>Next: send the email now.</strong> ${esc(label)} cannot tell who this booking is for until your email arrives with the hospital number.</p>` +
-    `<a class="schedmail" href="${esc(schedMailHref(fuPick.mail))}">✉ Confirm with ${esc(label)} by email</a>` +
-    `<span class="fuother">opens your own mail app — add the patient's details there, inside NHS mail</span>`;
+  // email lane only (no unit key). Shown while HELD: the clinician sends the email and says so
+  // BEFORE Generate, because the unit cannot place the booking without it (Codex OAI-08, plan
+  // P17). Opening the draft proves nothing, so the attestation is its own tap.
+  if (!fuPick || !fuPick.mail || fuPick.identity === "sealed" || !["held", "booked", "confirmed", "requested"].includes(fuPick.status)) return "";
+  const done = fuPick.sent_attested
+    ? `<p class="schedsealed">✓ You confirmed you sent the email to ${esc(label)}.</p>`
+    : `<p><button type="button" class="schedgo" data-attest="unit">I sent it from NHS mail</button></p>`;
+  return `<p class="schednote"><strong>${fuPick.status === "held" ? "Before Generate: send the email." : "Send the email now."}</strong> ${esc(label)} cannot tell who this booking is for until your email arrives with the hospital number.</p>` +
+    `<a class="schedmail" href="${esc(schedMailHref(fuPick.mail))}">✉ Email ${esc(label)}</a>` +
+    `<span class="fuother">opens your own mail app — add the patient's details there, inside NHS mail. Opening it does not send anything.</span>` + done;
 }
+async function schedAttest(channel, btn) {
+  if (!fuPick || !fuPick.ref) return;
+  if (btn) btn.disabled = true;
+  try {
+    const r = await schedCall("/email-sent", "POST", { ref: fuPick.ref, channel });
+    if (r.status === 200) { schedApply(Object.assign({}, r.json, { ref: fuPick.ref })); SCHED_NOTE = ""; renderFuPanel(); return; }
+    schedNote(r.json.error || "Could not record that — try again.");
+  } catch (e) { schedNote("The scheduler did not answer — try again."); }
+  if (btn && document.body.contains(btn)) btn.disabled = false;
+}
+document.addEventListener("click", e => {
+  const b = e.target && e.target.closest ? e.target.closest("[data-attest]") : null;
+  if (b) { e.preventDefault(); schedAttest(b.dataset.attest, b); }
+});
 function schedWhen(slot) {
   const dt = new Date(+slot.slice(0, 4), +slot.slice(5, 7) - 1, +slot.slice(8, 10), +slot.slice(11, 13), +slot.slice(14, 16));
   return dt.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" }) + " at " + slot.slice(11, 16);
@@ -2873,6 +2994,7 @@ async function upsertLocalProfile(bodyId, v, pin, keep, extra) {
 }
 
 function sessionExtras(json, keep) {
+  tvApply(json);
   const ex = { verified: json.verified || "format", pending: false };
   if (keep) { ex.token = json.token; ex.token_exp = json.exp; ssSet(CHECKIN_TOKEN_KEY, null); }
   else ssSet(CHECKIN_TOKEN_KEY, json.token || null);
@@ -2955,7 +3077,8 @@ async function validateSession() {
   const tok = schedToken(); if (!tok) return;
   try {
     const r = await clinCall("/session", {}, tok);
-    if (r.status === 401) sessionLost();
+    if (r.status === 401) { sessionLost(); return; }
+    if (r.status === 200) { tvApply(r.json); tvRefresh(); tvComplete(); }
   } catch (e) {}
 }
 function sessionLost() {
@@ -3082,6 +3205,7 @@ function hideCheckin(note) {
   $("checkin").hidden = true;
   schedLoad();   // the session now exists: ask which follow-ups this trust can book
   document.body.classList.remove("gated");
+  tvRefresh(); tvComplete();   // trust mode follows the session's bindings; finish a pending #verify link
   renderCheckinStatus(note);
   const s = $("search");
   if (s) s.focus();
