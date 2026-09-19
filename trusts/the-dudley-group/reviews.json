@@ -1228,5 +1228,216 @@
   "review_due_text": "September 2028",
   "status": "ok",
   "title": "Having a clinical photograph taken"
+ },
+ "having-a-lumbar-puncture": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "f9cfe4fb88617251",
+  "hash_version": 2,
+  "review_due": "2028-05",
+  "review_due_text": "May 2028",
+  "status": "ok",
+  "title": "Having a lumbar puncture"
+ },
+ "having-teeth-out": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "93da22558b334c86",
+  "hash_version": 2,
+  "review_due": "2022-11",
+  "review_due_text": "November 2022",
+  "status": "ok",
+  "title": "Having teeth out"
+ },
+ "having-your-labour-induced-using-dilapan-s-at-home": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "5c726c66b1da2451",
+  "hash_version": 2,
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Having Your Labour Induced Using Dilapan-S® at Home"
+ },
+ "heparin-injections-at-home-after-giving-birth": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "181685a218b7601a",
+  "hash_version": 2,
+  "review_due": "2025-08",
+  "review_due_text": "August 2025",
+  "status": "ok",
+  "title": "Heparin Injections at Home After Giving Birth"
+ },
+ "hickman-line-insertion": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "9fae3c66b5cf6803",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2026-07",
+   "2029-05"
+  ],
+  "status": "ambiguous-date",
+  "title": "Hickman Line Insertion"
+ },
+ "hormone-replacement-therapy-for-menopausal-women": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "b902a41f6f22f237",
+  "hash_version": 2,
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Hormone replacement therapy for menopausal women"
+ },
+ "hysterosalpingogram": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "041f19c5b3f66cfa",
+  "hash_version": 2,
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Hysterosalpingogram"
+ },
+ "implantable-loop-recorder-implant-procedures": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "07e6ef3e902a7845",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Implantable Loop Recorder Implant Procedures"
+ },
+ "implantable-loop-recorder-implant-procedures-2": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "5dd48589c3eb4954",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Implantable Loop Recorder Implant Procedures"
+ },
+ "induction-of-labour": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "c11a7b60ccedb5b8",
+  "hash_version": 2,
+  "review_due": "2029-07",
+  "review_due_text": "July 2029",
+  "status": "ok",
+  "title": "Induction of Labour"
+ },
+ "inferior-vena-cava-ivc-filter-placement": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "265f04292d728950",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2026-07",
+   "2029-05"
+  ],
+  "status": "ambiguous-date",
+  "title": "Inferior Vena Cava (IVC) Filter Placement"
+ },
+ "information-about-your-insole-or-foot-orthosis": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "1f565475b63c98b0",
+  "hash_version": 2,
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Information about your insole or foot orthosis"
+ },
+ "information-on-feeding-your-baby-hand-expression-and-cup-feeding": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "f5816c1a7bcd47c2",
+  "hash_version": 2,
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Information on feeding your baby – hand expression and cup feeding"
+ },
+ "instability-of-the-shoulder": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "fa35af67c3bb6e60",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Instability of the shoulder"
+ },
+ "intrathecal-catheter": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "c87ae8b906be8cdb",
+  "hash_version": 2,
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Intrathecal catheter"
+ },
+ "intrathecal-drug-delivery-system": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "422ab356831a70b5",
+  "hash_version": 2,
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Intrathecal drug delivery system"
+ },
+ "intravitreal-dexamethasone-ozurdex-implant-treatment-for-rvo-retinal-vein-occlusion": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "01156c7f97964058",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Intravitreal Dexamethasone (Ozurdex) Implant Treatment for RVO (retinal vein occlusion)"
+ },
+ "intravitreal-fluocinolone-acetonide-implant-iluvien-for-chronic-diabetic-macular-oedema-dmo": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "6e2ac4f8db96d15b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Intravitreal Fluocinolone Acetonide Implant (Iluvien) for Chronic Diabetic Macular Oedema (DMO)"
+ },
+ "intravitreal-triamcinolone-acetonide-intracinol-injection": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "7fdaa132930f86ad",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Intravitreal Triamcinolone Acetonide (Intracinol) Injection"
+ },
+ "introduction-to-managing-your-fatigue-a-guide-for-multiple-sclerosis-patients": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "7c6bdc15207b6fa4",
+  "hash_version": 2,
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Introduction to Managing Your Fatigue: A guide for Multiple Sclerosis Patients"
+ },
+ "joint-health-programme": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "f40dbd1e566b491e",
+  "hash_version": 2,
+  "review_due": "2026-06",
+  "review_due_text": "June 2026",
+  "status": "ok",
+  "title": "Joint Health Programme"
+ },
+ "k-wire-removal": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "569ae260c6c56396",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "K-wire removal"
+ },
+ "laser-capsulotomy": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "049e2b06671cdfc2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laser capsulotomy"
+ },
+ "laser-iridotomy": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "22f89046a22b53a5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laser iridotomy"
+ },
+ "laser-treatment-for-glaucoma-selective-laser-trabeculoplasty-slt": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "f087db4ce8ca6362",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laser treatment for glaucoma – selective laser trabeculoplasty (SLT)"
  }
 }
