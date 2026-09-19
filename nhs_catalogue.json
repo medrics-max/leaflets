@@ -1,6 +1,6 @@
 {
 "_doc": "Every NHS.uk condition/medicine page from the A–Z indexes not already in the curated registers. Titles and URLs as NHS lists them; rebuilt weekly by nhs_catalogue.py. Reuse under the Open Government Licence v3.0.",
-"retrieved": "2026-09-18",
+"retrieved": "2026-09-19",
 "items": [
 {
 "title": "Abdominal aortic aneurysm",
@@ -4806,14 +4806,6 @@
 "title": "Sildenafil (Viagra)",
 "url": "https://www.nhs.uk/medicines/sildenafil-viagra/",
 "slug": "medaz-sildenafil-viagra",
-"type": "medicines",
-"source": "NHS.uk",
-"catalogue": true
-},
-{
-"title": "Simeticone",
-"url": "https://www.nhs.uk/medicines/simeticone/",
-"slug": "medaz-simeticone",
 "type": "medicines",
 "source": "NHS.uk",
 "catalogue": true
