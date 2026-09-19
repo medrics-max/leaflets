@@ -36,7 +36,7 @@
   }
   h1 { font-size: 1.5rem; margin: 0 0 6px; }
   .subtitle { color: #555; font-size: 0.95rem; margin: 0 0 24px; }
-  /* Follow-up card (the owner 2026-09-03): the return visit the clinician put on
+  /* Follow-up card (decision record, 2026-09-03): the return visit the clinician put on
      the QR — the one thing the patient must not miss, so it renders first. */
   .fu-card {
     border: 1px solid #c9d6e4;
@@ -133,7 +133,7 @@
   .freshness ul { padding-left: 18px; margin: 8px 0 4px; }
   .freshness li { margin: 5px 0; line-height: 1.45; }
   .freshness .late { color: #6b5200; }
-  /* NHS.uk "when to get help" cards, verbatim (the owner 2026-09-03) */
+  /* NHS.uk "when to get help" cards, verbatim (decision record, 2026-09-03) */
   .nhscards { margin-top: 12px; }
   .nhscards .nhsabout { margin: 6px 0 10px; color: #222; font-size: 1rem; }
   /* collapsible NHS sections: a bold line to tap, the detail underneath */
@@ -315,7 +315,7 @@
     cursor: pointer;
   }
   .sharebtn.printbtn { background: #fff; color: #005eb8; border: 1px solid #005eb8; margin-top: 10px; }
-  /* Print fallback (the owner 2026-09-03): one in five patients may not manage a
+  /* Print fallback (decision record, 2026-09-03): one in five patients may not manage a
      QR — the printed page must carry the information, not the chrome */
   @media print {
     .sharebtn, .feedback, .helpful, .notice, .langhint, #brand, .leaflet-card a.read, .fu-card .fu-cal { display: none !important; }
@@ -404,7 +404,7 @@
   from the browser history when you are done.
   <div class="credits">
     <span id="creditline" hidden></span><br>
-    Software &amp; design: the clinical lead
+    Software &amp; design: MEDRICS LTD
   </div>
   <div id="brand" style="margin-top:10px;"></div>
   <p class="findlink"><a href="https://medrics.co.uk/patient-information/find/">Looking for a local service or more patient information? Search on medrics.co.uk</a></p>
@@ -425,7 +425,7 @@ const MEDRICS_LABEL = "Built by Medrics";
 // Logo file uploaded to the repo (leave "" to show the text label instead).
 const MEDRICS_LOGO = "medrics-logo-nav.png";
 // Where a patient can look up local services and more patient information
-// (the owner 2026-09-16: "a link to our website where they can look for services")
+// (decision record)
 const MEDRICS_FIND_URL = "https://medrics.co.uk/patient-information/find/";
 // Private usage analytics (optional). Paste a Google Apps Script web-app URL to
 // collect ANONYMOUS usage stats (which topics are requested, ratings, time).
@@ -520,7 +520,7 @@ function rateHelpful(value) {
   }
 }
 
-// ---- Follow-up → calendar (the owner 2026-09-03) --------------------------------
+// ---- Follow-up → calendar (decision record, 2026-09-03) --------------------------------
 // A .ics built in the browser from the follow-up card. Floating local time
 // (no TZID/Z) so every phone calendar reads it as the patient's local time;
 // all-day when the clinician gave no time. Delivered as a Blob the user
@@ -573,8 +573,7 @@ function buildIcs(dest, dt, hasTime, findHref) {
 window.addEventListener("beforeprint", () => document.querySelectorAll("details").forEach(d => { d.dataset.wasOpen = d.open ? "1" : ""; d.open = true; }));
 window.addEventListener("afterprint", () => document.querySelectorAll("details").forEach(d => { d.open = d.dataset.wasOpen === "1"; }));
 
-// Directions on the follow-up card (the owner 2026-09-16: "a collapsible map with
-// directions"): a short 'where' stays a single line; long directions (the
+// Directions on the follow-up card (decision record): a short 'where' stays a single line; long directions (the
 // trust's own step-by-step text) fold into "How to find it" as numbered steps,
 // (any what3words line stripped — the Directions button covers that) and the trust's own map/page link.
 function directionsHtml(dest, findHref) {
@@ -601,8 +600,7 @@ function directionsHtml(dest, findHref) {
     ${findHref ? `<a class="fu-find" href="${escapeHtml(findHref)}" target="_blank" rel="noopener">Open the hospital's own page</a>` : ""}
     </div>`;
 }
-// One button, one thing (the owner 2026-09-16: "there should be a separate button
-// for map — at the moment it's coming under written directions. Need to be clear"):
+// One button, one thing (decision record):
 // Directions = the maps app; Hospital map = the trust's site map; Written
 // directions = the trust's steps. Each section opens on its own.
 function toggleFuSec(id, btn) {
@@ -611,7 +609,7 @@ function toggleFuSec(id, btn) {
   if (btn) { btn.setAttribute("aria-expanded", open ? "true" : "false"); btn.classList.toggle("on", open); }
   if (open) el.scrollIntoView({ block: "nearest" });
 }
-// The trust's OWN site map with our highlight on the unit (the owner 2026-09-16:
+// The trust's OWN site map with our highlight on the unit (decision record, 2026-09-16:
 // "SDEC on that map is where EEMAC is — highlight it"). The image is the
 // trust's published map rendered into its folder, credited and linked to the
 // original; the pin sits at map.x/map.y (fractions of the image). Zoomed in on
@@ -661,12 +659,11 @@ function toggleFuMap(btn) {
   if (btn) { btn.textContent = zoomed ? "Show the whole map" : "Zoom in on it"; btn.setAttribute("aria-expanded", zoomed ? "false" : "true"); }
 }
 
-// "Directions" (the owner 2026-09-16: "a function that adds to their default maps
-// app… a button that is self-explanatory, like a map with an arrow"): one
+// "Directions" (decision record): one
 // tap opens the phone's own maps app with the destination. Apple devices get
 // an Apple Maps link, everything else a Google Maps directions link — both
 // are plain links the patient chooses to tap; nothing loads on this page.
-// tel: link for a printed number; "01483 000 000" becomes tel:01483000000,1234 —
+// tel: link for a printed number; "01483 000 000 ext 1234" becomes tel:01483000000,1234 —
 // the comma is the dial-pause both iPhone and Android phones honour, so the phone rings the
 // switchboard and then sends the extension (the RFC 3966 ";ext=" form is not reliably dialled).
 function telHref(phone) {
@@ -674,8 +671,7 @@ function telHref(phone) {
   const base = (m ? m[1] : String(phone || "")).replace(/[^+\d]/g, "");
   return base + (m && m[2] ? "," + m[2] : "");
 }
-// Phone lines on the card (the owner 2026-09-16: "have both numbers in case that
-// doesn't work"): the unit's number as printed, and — when it is an extension —
+// Phone lines on the card (decision record): the unit's number as printed, and — when it is an extension —
 // the bare switchboard number as a second line so the patient can ask for the unit.
 function phoneHtml(dest) {
   const phone = String((dest && dest.phone) || "").trim();
@@ -754,7 +750,7 @@ function shareThisPage() {
   }
 }
 
-// Credits are strictly per-project (the owner 2026-08-08: Dr Mitchell is
+// Credits are strictly per-project (decision record, 2026-08-08: Dr Mitchell is
 // Gloucestershire's clinical lead — a different project from Royal Surrey's
 // preview): the line renders only what THAT trust's registry entry names.
 function setCreditLine(trust) {
@@ -790,8 +786,7 @@ function isPastReview(reviewDue) {
   return y < now.getFullYear() || (y === now.getFullYear() && m < now.getMonth() + 1);
 }
 
-// Source badge (the owner 2026-09-03: "the SDEC leaflet should be highlighted as
-// the trust's — Royal Surrey SDEC"): every card says whose information it is.
+// Source badge (decision record): every card says whose information it is.
 function sourceBadge(item) {
   if (item.type === "leaflet" || item.type === "service") return `<span class="src src-trust">${escapeHtml(TRUST_LABEL)} leaflet</span>`;
   if (item.type === "nhs" || item.type === "medicines") return `<span class="src src-nhs">NHS website</span>`;
@@ -802,7 +797,7 @@ function sourceBadge(item) {
   return "";
 }
 
-// Where each item comes from and when WE last checked it (the owner 2026-09-12
+// Where each item comes from and when WE last checked it (decision record, 2026-09-12
 // ).
 [removed] Every date is read from the scanners'
 // own records — reviews.json per page, freshness.json per layer (built
@@ -916,7 +911,7 @@ function findCompanion(item, pages) {
     if (!pg || !pg.title || !(pg.help || pg.info)) continue;
     // "DVT (deep vein thrombosis)": the bracketed name is an alternative title,
     // not noise — a trust's "Deep Vein Thrombosis" leaflet must find it
-    // (the owner 2026-09-16: trust DVT leaflet ticked, no safety-netting shown)
+    // (decision record, 2026-09-16: trust DVT leaflet ticked, no safety-netting shown)
     const base = pg.title.replace(/\s*\(.*?\)\s*/g, " ").replace(/\s*[—–-]\s.*$/, "");
     const brackets = [...pg.title.matchAll(/\(([^)]+)\)/g)].map(m => m[1]);
     for (const alt of [...base.split(/\s+(?:and|or)\s+|\s*\/\s*/i), ...brackets]) {
@@ -928,14 +923,14 @@ function findCompanion(item, pages) {
   return best ? { slug: best.slug } : null;
 }
 
-// NHS.uk content, verbatim, under the Open Government Licence (the owner
+// NHS.uk content, verbatim, under the Open Government Licence (the product team
 // 2026-09-03). Two places: INFO tiers (what it is, treatment, things you can
 // do, side effects) render inside the item so the page reads as a story;
 // HELP tiers (999 / 111 / GP) are gathered into one "When to get help"
 // section at the bottom. Every line was parsed from the page NHS served this
 // week by nhs_cards.py; nothing is reworded; cards older than 10 days are
 // not shown (the licence expects a 7-day refresh).
-// every NHS section a patient would want, folded closed (the owner 2026-09-03:
+// every NHS section a patient would want, folded closed (decision record, 2026-09-03:
 // "we can do more information now as we have collapsible headings")
 const INFO_TIERS = { symptoms: "🔍", causes: "❓", treatment: "🩺", selfcare: "🏠", prevention: "🛡️",
   diagnosis: "🔬", complications: "📋", outlook: "📈", contagious: "🤝", living: "🌱", types: "📑",
@@ -990,7 +985,7 @@ function nhsInfoHtml(item, pg) {
   // generic "Treating…" section (injections, admission, other drugs) would
   // contradict what the patient was actually given, so it is replaced by a
   // pointer to the medicine card below. No medicine clicked → NHS's own words.
-  // PATHWAY RULE (the owner 2026-09-03/05): treatment, diagnosis and outlook
+  // PATHWAY RULE (decision record, 2026-09-03/05): treatment, diagnosis and outlook
   // sections are shown, but a line that ASSERTS the patient's own pathway
   // ("you'll probably be given an injection of anticoagulant medicine",
   // "you'll need to wear your plaster cast") is dropped — general and hedged
@@ -1011,8 +1006,7 @@ function nhsInfoHtml(item, pg) {
   });
   if (inList) about += "</ul>";
   if (!about && !cards.length) return "";
-  // collapsed by default (the owner 2026-09-03: "collapsible points so the
-  // information is not too overwhelming"); the intro stays visible
+  // collapsed by default (decision record); the intro stays visible
   const body = cards.map(c => `<details class="nhscard nhscard-${escapeHtml(c.tier)}"${c.tier === "howitworks" ? " open" : ""}>
       <summary>${escapeHtml(c.headline)}</summary><div class="nhscard-b">${cardBody(c)}</div></details>`).join("");
   const helpNote = help.length ? ` — when to get help for this is <a href="#help">at the bottom of this page</a>` : "";
@@ -1021,9 +1015,7 @@ function nhsInfoHtml(item, pg) {
 // The bottom section: every red-flag card from every NHS page on this
 // visit, in NHS order, grouped by condition, with the disclaimer.
 function helpSectionHtml() {
-  // ONE narrative by urgency, not one box per page (the owner 2026-09-05: "5
-  // different call 999 … use the selections to create a narrative that goes
-  // into more information if the patient is inclined"). Every line is still
+  // ONE narrative by urgency, not one box per page (decision record). Every line is still
   // NHS's, verbatim; identical advice carried by several items (the
   // anaphylaxis list on every antibiotic) is shown once, labelled with the
   // items it belongs to. 999 is open; the rest fold.
@@ -1075,8 +1067,7 @@ function helpSectionHtml() {
     </div>`;
 }
 
-// Where-to-go card (specs/leaflets.md P22, the owner 2026-09-16: "if patients have a
-// certain neuro problem, is there neuro at Royal Surrey — or is it at St Peter's,
+// Where-to-go card (specs/leaflets.md P22, decision record
 // or George's"). Every line is the hospital's own sentence, quoted, with the page
 // it came from; the builder refuses a row whose quote is no longer on the page.
 // Other hospitals appear only as service pages, never as leaflets.
@@ -1205,7 +1196,7 @@ function renderResolved(items, demo) {
   const nhs = items.filter(i => i.type === "nhs" || i.type === "trusted" || i.type === "gapfill");
   const gov = items.filter(i => i.type === "gov");
 
-  // The flow (the owner 2026-09-03): your leaflets → about your condition →
+  // The flow (decision record, 2026-09-03): your leaflets → about your condition →
   // advice → your medicines → further information → your follow-up →
   // driving/travel → when to get help (all red flags, at the bottom).
   const leafletSection = leaflets.length
@@ -1339,7 +1330,7 @@ async function main() {
   }
 
   // fu=id[.YYYYMMDD[.HHMM]] — a return visit the clinician put on the QR
-  // (the owner 2026-09-03). A QR can carry a follow-up alone, with no leaflets.
+  // (decision record, 2026-09-03). A QR can carry a follow-up alone, with no leaflets.
   const fuParam = (params.get("fu") || "").trim();
   // bk=<reference> — a booking reference the clinician's scheduler minted (2026-09-16).
   // Random letters, meaningful only against the unit's own inbox; shown so the
@@ -1348,7 +1339,7 @@ async function main() {
   const bkParam = /^[A-Z]{2,4}-[A-Z0-9]{5}$/.test(bkRaw) ? bkRaw : "";
   // tm=1 — the booking was made on a system the hospital is still trialling
   // (Codex F6, 2026-09-16): the card says so and points the patient at the unit
-  // tm=1 rides on its own now: no reference is shown to the patient (the owner 2026-09-16 evening —
+  // tm=1 rides on its own now: no reference is shown to the patient (decision record, 2026-09-16 evening —
   // the unit lines the booking up on its own side; the card is just where and when)
   const trialLine = dest => (params.get("tm") === "1")
     ? `<p class="fu-note fu-trial"><strong>Medrics note:</strong> this appointment was made using a system the hospital is trialling. If you are unsure, ${dest && dest.phone ? "call the number above" : "contact your care team using the number on your hospital paperwork"}.</p>` : "";
@@ -1365,7 +1356,7 @@ async function main() {
   let dir = "";
   let demo = false;   // no demonstration mode since 2026-09-12 (spec P14): every live trust is served
   let trustResolved = false;
-  // SPEED (the owner 2026-09-05, "[removed]"): the national layers and
+  // SPEED (decision record, 2026-09-05): the national layers and
   // the NHS page files for the requested slugs do not depend on the trust, so
   // they start now, in parallel with the registry round-trip; the trust
   // layers follow in ONE more round. The NHS store is per-page
@@ -1433,7 +1424,7 @@ async function main() {
       trustResolved = true;
     }
     // no ?t= — the NHS library page: no hospital's files are loaded at all
-    // (the owner 2026-09-05: the product stands regardless of trust)
+    // (decision record, 2026-09-05: the product stands regardless of trust)
   } catch (e) { /* registry unavailable — handled below for ?t= QRs */ }
   // A ?t= QR we can't resolve (renamed trust id, or the registry fetch failed)
   // must NOT silently fall back to the default trust: that would show a
@@ -1484,7 +1475,7 @@ async function main() {
     ]);
     await nhsEarlyP;
     FRESH = await freshP;
-    // NHS.uk content, verbatim, under the Open Government Licence (the owner
+    // NHS.uk content, verbatim, under the Open Government Licence (the product team
     // 2026-09-03; built weekly by nhs_cards.py) — one file per page, loaded
     // only for the slugs on this QR (plus companions found via the index)
     nhsCards = { pages: nhsPages, index: (nhsIndex && nhsIndex.pages) || {} };
@@ -1567,7 +1558,7 @@ async function main() {
                               : "Come back to " + (dest.name || dest.label) + (when ? " · " + when : ""))
       : "Your clinician arranged a follow-up";
     if (dest && dest.kind === "pifu") {
-      // Patient-initiated follow-up (the owner 2026-09-03): NO booked appointment.
+      // Patient-initiated follow-up (decision record, 2026-09-03): NO booked appointment.
       // Every fact on this card — the wording, number, hours, window — is
       // verbatim from the trust's own PIFU leaflet (followups.json
       // source_url); the leaflet itself rides on the QR from the picker.
@@ -1604,7 +1595,7 @@ ${trialLine(dest)}
     } else if (dest) {
             const leaf = dest.info_slug && (leaflets || []).find(l => l.slug === dest.info_slug);
       FU_LEAFLET = leaf ? leaf.slug : "";
-      // "Add to my calendar" (the owner 2026-09-03): a written reminder in the
+      // "Add to my calendar" (decision record, 2026-09-03): a written reminder in the
       // patient's own calendar — the .ics is built HERE, in the browser, and
       // never leaves the device (see addFollowupToCalendar)
       if (fuDt) FU_ICS = buildIcs(dest, fuDt, fuHasTime, findHref);
@@ -1677,7 +1668,7 @@ ${trialLine(dest)}
   await Promise.all(resolved.map(async it => {
     if (nhsCards.index[it.slug]) it.nhsCards = await loadNhsPage(it.slug);
     const c = it.nhsCards ? null : findCompanion(it, nhsCards.index);
-    // no duplicate content whatever the combination (the owner 2026-09-16): when the
+    // no duplicate content whatever the combination (decision record, 2026-09-16): when the
     // clinician also chose the NHS page itself, it renders once as its own card
     // and the leaflet's automatic companion steps aside
     const chosenNhs = new Set(resolved.map(x => x.slug));
@@ -1699,8 +1690,7 @@ ${trialLine(dest)}
     return;
   }
 
-  // Driving/flying signposting (the owner 2026-08-04: "I went through to the
-  // patient section and couldn't see driving/flying advice"): when a bundle
+  // Driving/flying signposting (decision record): when a bundle
   // item matches a driving/flying advice module, the module's OFFICIAL
   // patient page (GOV.UK / CAA — the same page the clinician's ＋ button
   // adds) joins the bundle automatically. Only official patient pages are

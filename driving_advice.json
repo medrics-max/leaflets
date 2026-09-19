@@ -1,11 +1,11 @@
 {
  "version": 3.3,
- "comment": "Interactive DVLA driving-advice trees for the picker (the owner's design, 2026-08-01: when a selected condition has driving implications, a 'Driving advice' option appears — the tool asks the clinician the licence-group / severity questions the DVLA tables turn on, then shows the relevant rule VERBATIM with a link to the DVLA source page to double-check). RULES: every 'quote'/'quote2' is copied EXACTLY from the fetched gov.uk chapter named in the module's source (guidance_watch.py stores the page texts and re-verifies every quote here on its weekly sweep — a reworded chapter raises an alert instead of silently stale advice). 'note' fields are OUR framing and are shown as such. Questions only ever route between published DVLA rows — they never compute clinical conclusions. Clinician-facing decision support; the quote never auto-inserts into a patient handout. SCOPE (the owner 2026-08-01 (2)): conditions normally advised by the discharging SPECIALIST team, or whose DVLA rules are too multi-branch for a quick tree, get a 'specialist: true' card that says so and links the chapter instead of pretending — and genuinely complex territory (e.g. pulmonary arterial hypertension) is deliberately NOT covered at all.",
+ "comment": "Interactive DVLA driving-advice trees for the picker (the recorded design, 2026-08-01: when a selected condition has driving implications, a 'Driving advice' option appears — the tool asks the clinician the licence-group / severity questions the DVLA tables turn on, then shows the relevant rule VERBATIM with a link to the DVLA source page to double-check). RULES: every 'quote'/'quote2' is copied EXACTLY from the fetched gov.uk chapter named in the module's source (guidance_watch.py stores the page texts and re-verifies every quote here on its weekly sweep — a reworded chapter raises an alert instead of silently stale advice). 'note' fields are OUR framing and are shown as such. Questions only ever route between published DVLA rows — they never compute clinical conclusions. Clinician-facing decision support; the quote never auto-inserts into a patient handout. SCOPE (decision record, 2026-08-01 (2)): conditions normally advised by the discharging SPECIALIST team, or whose DVLA rules are too multi-branch for a quick tree, get a 'specialist: true' card that says so and links the chapter instead of pretending — and genuinely complex territory (e.g. pulmonary arterial hypertension) is deliberately NOT covered at all.",
  "clinical_signoff": {
   "status": "signed",
   "by": "the clinical lead (clinical lead)",
   "date": "2026-08-08",
-  "_doc": "Signed off 2026-08-08 on the owner's instruction in session ('sign off the driving advice'), after: walking the v3 trees in the test console (2026-08-06), ordering and testing the v3.1 fixes for all 12 of the 2026-08-07 nightly-review findings, and the v3.2 fixes for all 4 of the 2026-08-08 overnight findings (SCAD branch added, eye-surgery flying verdict corrected to conditional, elective-PCI G2 quote trimmed, pulmonary-oedema match term removed) — applied and byte-verified BEFORE signing, so no known confirmed finding is unaddressed at sign-off. The nightly two-model clinical review continues on every content change. v3.3 (the five 2026-09-10 review findings) signed off 2026-09-16 after the owner reviewed the diff — see amendments[-1].",
+  "_doc": "Signed off 2026-08-08 on the recorded instruction in session ('sign off the driving advice'), after: walking the v3 trees in the test console (2026-08-06), ordering and testing the v3.1 fixes for all 12 of the 2026-08-07 nightly-review findings, and the v3.2 fixes for all 4 of the 2026-08-08 overnight findings (SCAD branch added, eye-surgery flying verdict corrected to conditional, elective-PCI G2 quote trimmed, pulmonary-oedema match term removed) — applied and byte-verified BEFORE signing, so no known confirmed finding is unaddressed at sign-off. The nightly two-model clinical review continues on every content change. v3.3 (the five 2026-09-10 review findings) signed off 2026-09-16 after the product team reviewed the diff — see amendments[-1].",
   "amendments": [
    {
     "date": "2026-08-20",
@@ -1712,13 +1712,13 @@
   {
    "date": "2026-09-03",
    "change": "fly-surgery a-eye: quote2 added — the chapter's general post-operative caveat (reduced/fixed oxygen levels in elderly, volume-depleted, anaemic or cardiopulmonary patients: delay several days or request oxygen). Closes the nightly review's confirmed HIGH finding (primary ollama, adjudicated codex-cli, 2026-08-27): the eye-gas delay was quoted without the caveat that applies on top of it. Verbatim, byte-verified against the live CAA surgical-conditions page before adding.",
-   "by": "claude, reviewing on the owner's instruction in-session ('driving advice, you review')",
+   "by": "claude, reviewing on the recorded instruction in-session ('driving advice, you review')",
    "review": "nightly two-model adversarial review re-runs on the new content hash; weekly guidance_watch re-verifies the quote"
   },
   {
    "date": "2026-09-03",
    "change": "fly-dvt a-prev: the review's confirmed LOW finding (absolute risk 'one in 4656 flights of more than 4 hours' not quoted) is ACCEPTED WITHOUT CHANGE — the node already carries two verbatim quotes and the absolute-risk sentence is not contiguous with either on the page, so it cannot be added verbatim; the card links the CAA chapter where it sits. Informational, not a restriction.",
-   "by": "claude, reviewing on the owner's instruction in-session",
+   "by": "claude, reviewing on the recorded instruction in-session",
    "review": "expected to be re-flagged by the nightly review on the new hash; this entry is the standing answer"
   }
  ]

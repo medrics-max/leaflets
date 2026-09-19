@@ -21,8 +21,7 @@
 </script>
 <style>
   /* ── medrics picker — the website's world, applied to a tool ──────────────
-     (2026-09-12 redesign, the owner: "redesign the picker to look better with our
-     new design tools"). Tokens are the SITE palette (Website/site/assets/
+     (2026-09-12 redesign, decision record). Tokens are the SITE palette (Website/site/assets/
      site.css: wordmark plum primary, logo magenta accent, cool paper) plus the
      status vocabulary from DESIGN.md (green / amber / red / muted). Operate
      mode: calm density, one family, hierarchy from weight and colour, every
@@ -241,7 +240,7 @@
   .tag.trusted { background: var(--track); color: var(--ink); }
   .tag.gapfill { background: var(--amber-tint); color: var(--amber-ink); }
   .tag.stale { background: var(--red-tint); color: var(--red); }
-  /* quality-of-resource hints (the owner 2026-09-16): small and muted beside the source tag —
+  /* quality-of-resource hints (decision record, 2026-09-16): small and muted beside the source tag —
      out of date, page not loading, PDF, reading age — never louder than where it comes from */
   .tag.hint { background: none; border: 1px solid var(--line); color: var(--muted); font-weight: 500; font-size: 11px; padding: 0 7px; }
   .tag.hint.warn { border-color: var(--red-tint); color: var(--red); background: var(--red-tint); }
@@ -325,7 +324,7 @@
   .fupanel .schednext:hover { background: var(--green); color: #fff; }
   .fupanel .schednext[disabled] { opacity: .6; cursor: default; }
   .fupanel .schednext small { display: block; font-weight: 500; font-size: 12.5px; opacity: .85; margin-top: 2px; }
-  /* live slot rows reuse the hand-set Day/Time chip rows (the owner 2026-09-16: "like this") — real buttons underneath */
+  /* live slot rows reuse the hand-set Day/Time chip rows (decision record) — real buttons underneath */
   .fupanel .fudays button.chip { font: inherit; line-height: inherit; -webkit-appearance: none; appearance: none; min-height: 40px; }
   .fupanel .fudays button.chip[disabled], .fupanel .fudays button.chip[disabled]:hover { color: var(--muted); border-style: dashed; border-color: var(--line-strong); cursor: default; background: var(--card); }
   .fupanel .fudays .chip.week { border-color: var(--plum); color: var(--plum); font-weight: 600; }
@@ -363,7 +362,7 @@
   .fupanel .furemove { border: 1px solid var(--red); background: var(--card); color: var(--red); border-radius: 999px; padding: 6px 14px; cursor: pointer; font-size: 13px; font-weight: 600; margin-top: 8px; }
   .fupanel .furemove:hover { background: var(--red-tint); }
 
-  /* check-in card: the front door (the owner 2026-09-05). body.gated hides the
+  /* check-in card: the front door (decision record, 2026-09-05). body.gated hides the
      tool until a registration number passes the on-device format check; the
      brand bar and footer stay so the page is never a bare form. */
   body.gated > :not(#checkin):not(footer):not(.bar) { display: none !important; }
@@ -577,8 +576,7 @@
 <div id="tvconfirm" class="tvconfirm" hidden></div>
 <ul id="results" class="results"></ul>
 <!-- Follow-up is step two — AFTER the results, just above Generate, so the
-     search box keeps its results directly beneath it (the owner 2026-09-03:
-     "search bar then this EMMAC thing then the leaflets — not intuitive"). -->
+     search box keeps its results directly beneath it (decision record). -->
 <div id="followup" class="fu"></div>
 <div id="referrals" class="refs" hidden></div>
 
@@ -610,7 +608,7 @@
     <p class="ci-why">Optional. Sign-in keeps your trust, specialty and saved sets against your membership so they follow you between devices. Your registration number is never sent, and nothing about any patient is.</p>
   </form><br>
   <span id="credits" hidden></span><br>
-  Software &amp; design: the clinical lead<br><br>
+  Software &amp; design: MEDRICS LTD<br><br>
   For clinician use. An independent tool by Medrics linking to patient information published by<br>
   <span id="trustfoot">Gloucestershire Hospitals NHS Foundation Trust</span> — not provided or endorsed by the trust.
   <div id="brand" style="margin-top:10px;"></div>
@@ -631,7 +629,7 @@ let TV = { policy: { trust_verification: false, enforce: false }, access: {}, no
 let TV_GATED_FOR = null;
 // Local test copies must link to THEIR OWN patient page, not the published
 // site — a localhost picker pointing at github.io shows the OLD build and
-// reads as "the patient gets no driving advice" (the owner, 2026-08-04).
+// reads as "the patient gets no driving advice" (decision record, 2026-08-04).
 const LANDING = (["localhost", "127.0.0.1"].includes(location.hostname))
   ? location.origin + "/index.html"
   : "https://leaflets.medrics.co.uk/";
@@ -648,14 +646,11 @@ const TAGLABEL = { leaflet:"Trust leaflet", medicines:"NHS medicine", advice:"Lo
 
 // Trust registry (trusts.json). Fallback keeps the page working if it can't load.
 let REGISTRY = null, TRUST = null;
-// THE MAIN PAGE IS THE NHS LIBRARY (the owner 2026-09-05: "we have a product
-// regardless of trust — the ultimate patient information portal"): a virtual
+// THE MAIN PAGE IS THE NHS LIBRARY (decision record): a virtual
 // "trust" with no hospital content — NHS.uk pages, medicines and the A–Z,
 // driving/flying advice. A hospital's own leaflets and follow-ups appear
 // only when that hospital is chosen (or linked via ?t=).
-// Not just NHS.uk (the owner 2026-09-05: "ENT UK, other national libraries, the
-// driving advice parser — we are the gold-standard bridge between clinician
-// and patient"): NHS.uk pages and medicines, the national bodies (ENT UK,
+// Not just NHS.uk (decision record): NHS.uk pages and medicines, the national bodies (ENT UK,
 // BAUS, BAOMS, Diabetes UK, Epilepsy Action…), official GOV.UK/DVLA and CAA
 // driving and flying advice, device instructions.
 const LIBRARY = { id: "nhs", name: "Trusted UK patient information — NHS, national bodies and official advice (no hospital selected)",
@@ -663,7 +658,7 @@ const LIBRARY = { id: "nhs", name: "Trusted UK patient information — NHS, nati
 const FALLBACK_REGISTRY = { default: "nhs", trusts: [] };
 
 function liveTrusts() { return REGISTRY.trusts.filter(t => t.status === "live"); }
-// Every live trust is selectable (the owner 2026-09-12: "we don't need approval
+// Every live trust is selectable (decision record
 // to link to their trust's leaflets … it's just signposting … include all
 // trusts"). Every link goes to the trust's own published page; nothing is
 // hosted here, nothing claims endorsement. `listed` no longer gates
@@ -690,14 +685,13 @@ function sourcesFor(t) {
     [dir + "leaflets.json", "leaflet"],
     [dir + "services.json", "service"],
     [dir + "local_advice.json", "advice"],
-    // the trust's SERVICE DIRECTORY (specs/leaflets.md P22, the owner 2026-09-16: "is there neuro
-    // at Royal Surrey — or is it at St Peter's, or George's"): one row per service line,
+    // the trust's SERVICE DIRECTORY (specs/leaflets.md P22, decision record): one row per service line,
     // rendered on the patient page as where-to-go cards from the trust's own words
     [dir + "network.json", "network"],
     ["nhs_resources.json", "nhs"],
     ["medicines.json", "medicines"],
     // the rest of NHS.uk's A–Z (nhs_catalogue.py, weekly) — a plain source:
-    // the specialty filters and the learned bundles do the ranking (the owner
+    // the specialty filters and the learned bundles do the ranking (the product team
     // 2026-09-05: "we already have the filters for specialty and can learn
     // from the user")
     ["nhs_catalogue.json", "nhs"],
@@ -882,7 +876,7 @@ let ITEMS = [];
 const bySlug = new Map();
 const selected = new Map();   // slug -> item
 
-// Follow-up on the QR (the owner 2026-09-03): the clinician can put a return
+// Follow-up on the QR (decision record, 2026-09-03): the clinician can put a return
 // visit — a destination (SDEC, EMMAC…) and optionally a day and time — on
 // the QR. Destinations come from the trust's followups.json (an OPTIONAL
 // per-trust layer: no file = no follow-up row). The day/time lives ONLY in
@@ -894,8 +888,7 @@ let fuPick = null;   // { id, date: "YYYY-MM-DD"|"", time: "HH:MM"|"" }
 // slugs of NHS.uk pages whose "when to get help" cards render verbatim on the
 // patient page (nhs_cards.json) — shown as a tag so the clinician can prefer them
 let NHS_CARDS = new Set();
-// Learned companions (the owner 2026-09-03: "we learn from their choices and make
-// suggested bundles based on that, to speed up clinician time"). Two layers:
+// Learned companions (decision record). Two layers:
 //   LEARNED  — this trust's co-picks from anonymous telemetry (learned_bundles.json)
 //   PAIR_MAP — THIS DEVICE's own co-picks, in localStorage, bumped on generate;
 //              never sent anywhere (same contract as the frequently-used list)
@@ -969,7 +962,7 @@ let BUNDLES = [];
 //   * Google Apps Script web-app URL (analytics.gs) — zero infrastructure, or
 //   * the company server: <medrics-server>/api/leaflets/telemetry — data never
 //     leaves medrics infrastructure (no Google-as-processor in any trust DPIA).
-// Live since 2026-08-04 (the owner: report demand must be MEASURED use, not
+// Live since 2026-08-04 (the product team: report demand must be MEASURED use, not
 // prediction; the trust agreed to usage analytics at the 2026-08-04 meeting).
 // Events + no-identifier contract documented above; the sink enforces shapes
 // server-side and the report suppresses counts below k=3.
@@ -978,8 +971,7 @@ let ANALYTICS_URL = "https://brain.medrics.co.uk/api/leaflets/telemetry";
 const _sentQueries = new Set();   // in-memory only — dedupe, never persisted
 let _nrTimer = null;
 
-// Recommendation scoring (the owner 2026-09-16: "you win if they keep clicking — win more
-// points; lose more points if nothing linked, and try to analyse why"): per basket, which
+// Recommendation scoring (decision record): per basket, which
 // recommended chips were TAKEN (depth = how far the chain went), which were SHOWN, and which
 // selections were DEAD ENDS (nothing recommended). Slugs only, sent with the generate event;
 // Events/recommendation_score.py scores wins/losses weekly and explains the losses.
@@ -987,13 +979,13 @@ const REC = { taken: [], shown: new Set(), dead: new Set() };
 // Learned co-pick ranks for THIS trust — served by the medrics server only when the trust is
 // licensed and the clinician is signed in (usage_intelligence.py). Ranks only; silent otherwise.
 const BUNDLES_API = "https://brain.medrics.co.uk/api/leaflets/bundles";
-// Team access + per-trust features + one-tap discharge referrals (specs/teams.md, the owner
+// Team access + per-trust features + one-tap discharge referrals (specs/teams.md, the product team
 // 2026-09-17). All three need the sign-in session; the server decides what this trust's
 // relationship unlocks and whether this clinician is in the trust's team.
 const ENT_API = "https://brain.medrics.co.uk/api/leaflets/entitlements";
 const REF_API = "https://brain.medrics.co.uk/api/leaflets/referrals";
 let ENT = {}, REFS = { rows: [], reason: "" };
-const ACCOUNT_PAGE = "https://medrics.co.uk/account/";   // joining a trust's team, approvals and member lists live THERE (the owner 2026-09-17)
+const ACCOUNT_PAGE = "https://medrics.co.uk/account/";   // joining a trust's team, approvals and member lists live THERE (decision record, 2026-09-17)
 function sessHeaders() { let tok = ""; try { tok = sessionStorage.getItem("medrics_checkin_tok") || schedToken() || ""; } catch (e) {} return tok ? { "X-Medrics-Clinician": tok } : {}; }
 async function teamLoad() {
   // the picker only LEARNS what this trust's relationship unlocks and whether this clinician is in the team —
@@ -1036,8 +1028,7 @@ function renderReferrals() {
     (hits.length ? "" : ` <span class="muted">— tick a leaflet to narrow these</span>`);
   el.hidden = false;
 }
-// ── TRUST MODE (P11-NHS1..4, the owner 2026-09-17: "trust specific portals should require email
-// authentication, but the base is still accessible with just the GMC") ─────────────────────
+// ── TRUST MODE (P11-NHS1..4, decision record) ─────────────────────
 // The national library opens after the normal sign-in. A hospital trust's mode needs that
 // trust's binding, made by a one-time link to the clinician's NHS work email. The hospital's
 // leaflet files are public on this site, so this gate is a USE RULE; the real enforcement is on
@@ -1333,7 +1324,7 @@ function noteNoResults(q) {
   // Letters-and-clinical-punctuation only. A single digit anywhere (NHS
   // number, DOB, hospital number) means this never leaves the device.
   if (!/^[a-z #&+'\-]{2,30}$/.test(clean)) return;
-  // (the owner 2026-09-17, after Codex OAI-11: "stop sending unrecognised search
+  // (decision record, 2026-09-17, after Codex OAI-11: "stop sending unrecognised search
   // words") a NAME is pure letters and passes the digit filter, and a single
   // unknown word can be a surname. So EVERY word must be vocabulary we already
   // know (a synonym, a title or a slug word) or the query never leaves the
@@ -1537,7 +1528,7 @@ async function load() {
     fetch("nhs_cards_index.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : {}).catch(() => ({})),
     // what clinicians at this trust actually choose together (learned_bundles.py,
     // anonymous telemetry, ranks only) — a suggestion row, never an approval
-    // learned co-picks are a PAID asset since 2026-09-16 (the owner): they come from the medrics
+    // learned co-picks are a PAID asset since 2026-09-16 (the product team): they come from the medrics
     // server for a LICENSED trust and a signed-in clinician, never from a public file
     Promise.resolve({}),
   ]);
@@ -1583,7 +1574,7 @@ async function load() {
       ITEMS.push(it); bySlug.set(d.slug, it);
     });
   });
-  // GAP DETECTION (the owner 2026-09-16; moved AFTER the population loop 2026-09-17 — Codex F4: it ran on an empty ITEMS, so nothing was ever suppressed: "if there's a gap on the trust's leaflets/
+  // GAP DETECTION (decision record, 2026-09-16; moved AFTER the population loop 2026-09-17 — Codex F4: it ran on an empty ITEMS, so nothing was ever suppressed: "if there's a gap on the trust's leaflets/
   // NHS we should know and suggest the best information"): a gap-fill row is
   // kept only when none of its terms appears in any of this trust's own pages
   // or any NHS.uk / medicines page — otherwise the local or national page wins.
@@ -1615,7 +1606,7 @@ function isHospital() { return !!(TRUST && !TRUST.library); }
 // Credit lines are strictly per-trust (trusts.json credits): a trust that
 // appointed a clinical lead names them via credits.clinical_lead, a named
 // contributor via credits.clinical_contributor. NO global fallback — a
-// clinician is credited only on trusts they actually work with (the owner,
+// clinician is credited only on trusts they actually work with (the product team,
 // 2026-08-07: Dr Mitchell is Gloucestershire's lead and is not involved
 // with other trusts' previews).
 function renderCredits() {
@@ -1726,7 +1717,7 @@ function renderRelated() {
       }
     }
   }
-  // ONE ranked row (the owner 2026-09-16: "this needs to be more intelligent. You don't need
+  // ONE ranked row (decision record
   // to put 'clinicians often add'. It's recommended and it's built off both things"):
   // the clinically-authored bundles, this trust's real co-picks (telemetry ranks) and
   // this device's own habit are scored together — a suggestion backed by more than one
@@ -1773,7 +1764,7 @@ function renderRelated() {
   });
 }
 
-// DVLA driving advice — interactive (the owner's design, 2026-08-01): when a
+// DVLA driving advice — interactive (the recorded design, 2026-08-01): when a
 // selected condition has driving implications, a chip appears; clicking it
 // walks the clinician through the licence-group / severity questions the
 // DVLA tables actually turn on, then shows the relevant rule VERBATIM with
@@ -1782,12 +1773,12 @@ function renderRelated() {
 // routes between published rules; it never composes advice.
 let DRIVING = [];
 let driveState = null;   // { m: module, node: id, trail: [ids] }
-// The clinician's chosen verdict travels to the patient page (the owner,
+// The clinician's chosen verdict travels to the patient page (the product team,
 // 2026-08-04: "the direct quote based on the clinician choice, then the
 // prompt to check it themselves"). Recorded ONLY when the clinician presses
 // ＋Add on a verdict — that click is the consent act. moduleId -> nodeId.
 let drvPicks = new Map();
-// Every VERDICT card shown this session, added to the QR or not. the owner
+// Every VERDICT card shown this session, added to the QR or not. the product team
 // 2026-09-16: "driving advice isn't listed after going through" — the walk
 // ended on a verdict but ＋Add was never pressed, so the QR carried only the
 // official page. Generate now asks before issuing a QR without it. Still
@@ -1819,7 +1810,7 @@ function drvMatches(it, m) {
 
 // The generic driving/flying entry points: the catch-all GOV.UK/CAA patient
 // pages, and the search box itself. Selecting one of these — or typing
-// "driving"/"dvla"/"fit to fly" — must never dead-end (the owner 2026-08-04:
+// "driving"/"dvla"/"fit to fly" — must never dead-end (decision record, 2026-08-04:
 // "I selected a generic driving but haven't gone through to anything").
 const DRV_GENERIC_SLUGS = ["gov-health-conditions-driving",
                            "gov-driving-medical-conditions",
@@ -1848,7 +1839,7 @@ function renderDriving() {
   // generic trigger → offer the full tool as a chooser. Belt-and-braces:
   // ANY selected official driving/flying page that didn't summon a specific
   // module still opens the chooser — selecting driving advice must never
-  // lead nowhere (the owner, 2026-08-04).
+  // lead nowhere (decision record, 2026-08-04).
   const genericAsk = DRV_GENERIC_Q.test(q)
     || [...selected.keys()].some(s => DRV_GENERIC_SLUGS.includes(s)
                                       || /^(gov-drv-|caa-)/.test(s));
@@ -1865,7 +1856,7 @@ function renderDriving() {
     return;
   }
   if (!mods.length) { el.innerHTML = ""; driveState = null; return; }
-  // ONE chip per condition (the owner 2026-08-06: "it should be one thing"):
+  // ONE chip per condition (decision record):
   // when a driving and a flying module both match, the driving tree leads
   // and the flying advice attaches to its verdict — the separate ✈ chip
   // is suppressed. Flying-only conditions (DVT, pneumothorax…) keep theirs.
@@ -1944,7 +1935,7 @@ function renderDrivePanel() {
     return;
   }
   const { m } = driveState;
-  // Specialist-scope card (the owner 2026-08-01: some conditions are advised by
+  // Specialist-scope card (decision record, 2026-08-01: some conditions are advised by
   // the discharging specialist team, or the DVLA rules are too multi-branch
   // for a quick tree — say so honestly instead of pretending).
   if (m.specialist) {
@@ -1990,7 +1981,7 @@ function renderDrivePanel() {
   const src = node.source || m.source;
   const srcHref = src.url + (node.anchor ? "#" + node.anchor : "");
   const org = m.kind === "flying" ? "CAA" : "DVLA";
-  // evidence-density (the owner 2026-08-04): a section deep-link AND the full
+  // evidence-density (decision record, 2026-08-04): a section deep-link AND the full
   // chapter, so the clinician can check the exact rule in its context
   const srcLink = `<a class="drvsrc" href="${esc(srcHref)}" target="_blank" rel="noopener" ` +
                   `title="${esc(src.label)}">Open the ${org} ` +
@@ -2022,7 +2013,7 @@ function renderDrivePanel() {
           info: "DVLA guidance (verbatim)" };
     // A permissive verdict must not be headlined by a prohibition quote —
     // "May drive" over a giant "Must not drive…" reads as a contradiction
-    // (the owner, 2026-08-04). On "may", the verbatim rule collapses behind an
+    // (decision record, 2026-08-04). On "may", the verbatim rule collapses behind an
     // expander; on must_not/conditional the rule IS the message and stays up.
     const quotes = `<blockquote>“${esc(node.quote)}”</blockquote>` +
       (node.quote2 ? `<blockquote>“${esc(node.quote2)}”</blockquote>` : "");
@@ -2034,7 +2025,7 @@ function renderDrivePanel() {
         : quotes +
           (node.note ? `<p class="drvnote">Our note (not DVLA text): ${esc(node.note)}</p>` : "")) +
       // flying attaches to the driving verdict — one card, one add. The
-      // tree's answers pick the RELEVANT CAA rule via node.fly (the owner
+      // tree's answers pick the RELEVANT CAA rule via node.fly (the product team
       // 2026-08-06: the AF may-drive path must answer "may fly", not dump
       // the contraindications list).
       ((() => {
@@ -2114,7 +2105,7 @@ function addVerdictToQr(m, nodeId, pslug) {
   const node = (m.nodes || {})[nodeId];
   if (node && node.quote) {
     drvPicks.set(m.id, { node: nodeId, pslug });
-    // one add covers both (the owner 2026-08-05/06). If this verdict MAPS
+    // one add covers both (decision record, 2026-08-05/06). If this verdict MAPS
     // to a flying answer (node.fly — shown on the card the clinician
     // just signed), the patient gets that answer as checked. Otherwise
     // a matching other-kind module rides along as a NEUTRAL card.
@@ -2144,7 +2135,7 @@ function addVerdictToQr(m, nodeId, pslug) {
   return true;
 }
 
-// ---- Follow-up picker (the owner 2026-09-03) -----------------------------------
+// ---- Follow-up picker (decision record, 2026-09-03) -----------------------------------
 // Common destinations (featured: true) are one-tap chips; every other ward/
 // clinic/unit lives in a select grouped by the data's own 'group' buckets —
 // chips don't scale to a 50-entry estate (wards + outpatients added same
@@ -2152,9 +2143,7 @@ function addVerdictToQr(m, nodeId, pslug) {
 // needs a day — "10:30" with no day means nothing to a patient). Any change
 // routes through renderSelected() so the stale-QR warning fires exactly
 // like a selection change.
-// SMART SUGGESTION (the owner 2026-09-16: "the Royal Surrey would suggest the EEMAC
-// tag when deep vein thrombosis is selected — we have rules based on the Royal
-// Surrey guidelines"): the unit's pathway register (served with its diary)
+// SMART SUGGESTION (decision record): the unit's pathway register (served with its diary)
 // carries the guideline associations; a ticked leaflet matching a pathway's
 // terms suggests that unit's follow-up chip and pre-selects the pathway. Rules
 // today; learned co-picks (generate telemetry now carries the destination id,
@@ -2261,7 +2250,7 @@ function fuSuggestions(d) {
       if (!out.has(hit.slug)) out.set(hit.slug, hit);
     }
   }
-  // safety-netting first (the owner 2026-09-03): the evidence says comprehension
+  // safety-netting first (decision record, 2026-09-03): the evidence says comprehension
   // of "when to get help" is what moves outcomes, so a trust page that IS the
   // safety net for this pathway leads the row
   const SAFETY = /when to (get|seek) (help|advice)|what to do if|worried|red flag|advice after|after your|going home/i;
@@ -2301,7 +2290,7 @@ function renderFuPanel() {
   // mints the reference for the clinician's email
   const req = d.kind === "request";
   // a call-if-needed pathway has no day or time — the card carries the
-  // trust's own number, hours and window instead (the owner 2026-09-03)
+  // trust's own number, hours and window instead (decision record, 2026-09-03)
   const dayTime = (pifu || req) ? "" : `
     <div class="fudays"><span class="rlabel">Day:</span> ${fuDayChips().map(c =>
         `<span class="chip${fuPick.date === c.iso ? " on" : ""}" data-d="${c.iso}" role="button" tabindex="0">${esc(c.lab)}</span>`).join(" ")}
@@ -2310,7 +2299,7 @@ function renderFuPanel() {
     </div>
 
     <div class="fudays fuhours"><span class="rlabel">Time:</span> ${(() => {
-        // tap-only time (the owner 2026-09-03: typing hh:mm is fiddly on a shift):
+        // tap-only time (decision record, 2026-09-03: typing hh:mm is fiddly on a shift):
         // an hour, then a quarter — no keyboard. Locked until a day is set.
         const [hh, mm] = (fuPick.time || "").split(":");
         const off = fuPick.date ? "" : " off";
@@ -2336,7 +2325,7 @@ function renderFuPanel() {
       (d.find_url ? " It includes a “How to find it” link to the hospital's own directions."
       : (d.where ? "" : " ⚠ No published directions for this unit yet — tell the patient where to go."));
   const sched = !pifu && SCHED.get(d.id);
-  // a BOOKABLE unit is never hand-set (the owner 2026-09-17: "you shouldn't be able to
+  // a BOOKABLE unit is never hand-set (decision record
   // assign slots if you're not logged in — or even access it"): signed out, the panel
   // is only the sign-in line; no day/time rows, no hint, and Generate refuses (schedBeforeGenerate)
   const signedOutLive = !sched && !pifu && SCHED_PUBLIC.has(d.id);   // bookable, but no live service row
@@ -2438,7 +2427,7 @@ let SCHED_PUBLIC = new Set();   // signed OUT: which follow-up ids the server sa
 let SCHED_SLOTS = null;         // { key, state: "loading"|"ok"|"down", slots, hold }
 let SCHED_NOTE = "";
 // the slot list's fold state survives re-renders: which day headings are open,
-// whether "Next week" is unfolded (the owner 2026-09-16: too many timings on screen)
+// whether "Next week" is unfolded (decision record, 2026-09-16: too many timings on screen)
 let SCHED_UI = { week: 0, day: "" };   // which week (0 this, 1 next) and which day chip is selected
 let SCHED_TICK = null;          // the once-a-minute re-render while a slot is held
 
@@ -2486,7 +2475,7 @@ async function schedLoad() {
   // WHICH destinations are bookable is public (ids only) and is learned whatever the
   // sign-in state, then cached per trust: a bookable unit must never fall back to a
   // hand-set time because a session expired or the scheduler was briefly unreachable
-  // (2026-09-17 — the owner, signed in on a device-only record, saw no way to book)
+  // (2026-09-17 — the product team, signed in on a device-only record, saw no way to book)
   const cacheKey = "medrics_bookable_" + tid;
   let cached = null;
   try { cached = JSON.parse(localStorage.getItem(cacheKey) || "null"); } catch (e) { cached = null; }
@@ -2587,7 +2576,7 @@ async function schedBeforeGenerate() {
   // department has been asked), and on a sealed-lane unit the hospital number must
   // be sealed before the hold becomes a booking (the unit has no other way to know)
   const dest = fuPick && fuPick.id ? FOLLOWUPS.find(x => x.id === fuPick.id) : null;
-  // (the owner 2026-09-17) a bookable unit is never hand-set: without a held/booked
+  // (decision record, 2026-09-17) a bookable unit is never hand-set: without a held/booked
   // reference there is nothing to issue — signed out, that means sign in first
   if (dest && dest.kind !== "pifu" && fuPick.date && SCHED_CLASSIFIED !== "yes") {
     schedNote("Still checking whether this unit takes live bookings — try Generate again in a moment.");
@@ -2636,14 +2625,14 @@ async function schedBeforeGenerate() {
   }
 }
 
-// SEALED IDENTIFIER (the owner 2026-09-16 evening: no reference for the patient;
+// SEALED IDENTIFIER (decision record, 2026-09-16 evening: no reference for the patient;
 // "we need some form of encryption if we hold the hospital number"): the
 // clinician types the hospital number ONLY, this browser encrypts it with
 // WebCrypto RSA-OAEP to the unit's public key (registered by the unit's own
 // diary page), and the scheduler stores ciphertext it cannot read. The unit's
 // page decrypts with the private key that never left its computer. The number
 // is cleared from the field the moment it is sealed. Fallback: email.
-// ONE lane per unit (the owner 2026-09-16: "we shouldn't be doing two things"): a
+// ONE lane per unit (decision record): a
 // unit with a registered key gets the sealed hospital number and NO email
 // button; a unit without one gets the email button and NO number field.
 function schedSealHtml(s) {
@@ -2693,8 +2682,7 @@ async function schedUnseal() {
   schedNote("Could not change it — try again.");
 }
 
-// WHAT THE APPOINTMENT IS FOR (the owner 2026-09-16: "inferred from what leaflets
-// were submitted with the patient… a quick button on the clinician's side to
+// WHAT THE APPOINTMENT IS FOR (decision record
 // confirm the EEMAC pathway — if they confirm US we can send an email to
 // request the US"). The unit's pathway register (ids, labels, match terms —
 // never the internal quotes) comes with the services listing; the leaflets
@@ -2717,7 +2705,7 @@ let SCHED_PW_ALL = false;   // "choose a different pathway" reveals the whole re
 function schedPathwayHtml(s) {
   if (!(s.pathways || []).length) return "";
   const sug = fuPick.pathway ? "" : schedSuggestPathway(s);
-  // clinician side (the owner 2026-09-16): only the suggested or chosen indication
+  // clinician side (decision record, 2026-09-16): only the suggested or chosen indication
   // shows; the full register unfolds on request
   const shown = SCHED_PW_ALL ? s.pathways : s.pathways.filter(pw => pw.id === fuPick.pathway || pw.id === sug);
   const more = (!SCHED_PW_ALL && shown.length < s.pathways.length)
@@ -2732,7 +2720,7 @@ function schedPathwayHtml(s) {
   const issued = ["booked", "confirmed", "requested"].includes(fuPick.status);
   // the request button (e.g. the ultrasound for ?DVT) shows whenever the chosen
   // pathway carries one; it LINKS only once the department's address is set on the
-  // server and the card is issued (the owner 2026-09-17: "a button that doesn't link
+  // server and the card is issued (decision record
   // anywhere yet to send an email to the US people")
   const req = (fuPick.pathway && fuPick.request_mail && issued)
     ? `<p><a class="schedmail" href="${esc(schedMailHref(fuPick.request_mail))}">✉ ${esc(pwRow.request_label || "Send the request")}</a>` +
@@ -2822,7 +2810,7 @@ function schedPanelHtml(d, s, dayTime) {
   const key = TRUST.id + "/" + s.service;
   if (!SCHED_SLOTS || SCHED_SLOTS.key !== key) { schedFetchSlots(d, s); return test + `<p class="fuhint">Loading ${esc(s.label)}'s free times…</p>`; }
   if (SCHED_SLOTS.state === "loading") return test + note + `<p class="fuhint">Loading ${esc(s.label)}'s free times…</p>`;
-  // no hand-set fallback for a bookable unit (the owner 2026-09-17; closes spec G13): a time
+  // no hand-set fallback for a bookable unit (decision record, 2026-09-17; closes spec G13): a time
   // the unit's diary never held is not a booking
   if (SCHED_SLOTS.state === "down") return test + note + `<p class="schednote">Live slots are unavailable right now — <button type="button" class="link" id="schedrefresh">try again</button> in a moment, or phone the unit. A time cannot be set by hand for this unit.</p>`;
   if (!SCHED_SLOTS.slots.length) return test + note + `<p class="schednote">No free times in the next two weeks — <button type="button" class="link" id="schedrefresh">refresh</button>, or phone the unit. A time cannot be set by hand for this unit.</p>`;
@@ -2830,7 +2818,7 @@ function schedPanelHtml(d, s, dayTime) {
 }
 
 // Two weeks of days as chip rows, exactly like the hand-set Day/Time rows
-// (the owner 2026-09-16: "too many timings on screen… like this"): one tap on
+// (decision record): one tap on
 // "Next available" holds the earliest free time; otherwise a Day row of seven
 // chips (this week), a "Next week ›" chip that swaps the row for the seven
 // after, and a Time row showing only the chosen day's free times. Days with no
@@ -2923,7 +2911,7 @@ function fuChanged() { renderSelected(); renderFollowup(); }
 // ----------------------------------------------------------------------------
 
 // The patient-facing page for one item — the same URL the QR would encode
-// (the owner 2026-08-01: the clinician must be able to CLICK THROUGH and check
+// (decision record, 2026-08-01: the clinician must be able to CLICK THROUGH and check
 // the page, not copy-paste it).
 function patientUrl(slug) {
   const tPart = (TRUST && REGISTRY && TRUST.id !== REGISTRY.default) ? "t=" + TRUST.id + "&" : "";
@@ -2932,8 +2920,7 @@ function patientUrl(slug) {
 
 function itemLi(it) {
   const rev = it.type === "leaflet" ? REVIEWS[it.slug] : null;
-  // Quality-of-resource hints (the owner 2026-09-16: "small things beside it that
-  // don't take away the main message of where it comes from"): out of date,
+  // Quality-of-resource hints (decision record): out of date,
   // page not loading, PDF (a phone cannot translate it), reading age where
   // the trust has a readability layer. Nothing else — the red-flag badge went.
   const hints = [];
@@ -3029,7 +3016,7 @@ function renderResults() {
 }
 
 async function generate() {
-  // (the owner 2026-09-19, after a live demo: "bar code doesnt generate") a refusal used to write its
+  // (decision record, 2026-09-19, after a live demo: "bar code doesnt generate") a refusal used to write its
   // reason into the follow-up panel far ABOVE the button and leave the QR area empty — pressing
   // Generate looked broken. The reason now appears where the clinician is looking, and the thing
   // that needs doing is scrolled into view.
@@ -3087,7 +3074,7 @@ async function generate() {
   // already printed with ?fu= keep working — the page reads both.
   const frag = [...fragTopics];
   if (fu) frag.push("fu=" + fu);
-  // no reference for the patient (the owner 2026-09-16 evening): the unit lines the
+  // no reference for the patient (decision record, 2026-09-16 evening): the unit lines the
   // booking up on its own side (sealed hospital number, or the email); the card
   // shows only where and when. tm=1 marks a trial-mode booking (Codex F6).
   const sv = fuPick && SCHED.get(fuPick.id);
@@ -3101,11 +3088,11 @@ async function generate() {
     '<div id="qr" aria-hidden="true"></div>' +
     '<p id="link">' + esc(url) + '</p>' +
     '<button class="copy" id="copy">Copy link</button> ' +
-    // The demonstrate-and-check button (the owner 2026-08-01): one click opens
+    // The demonstrate-and-check button (decision record, 2026-08-01): one click opens
     // exactly what the patient's phone will show after scanning the QR.
     '<a class="copy" id="openqr" href="' + esc(url) + '" target="_blank" rel="noopener" ' +
     'style="display:inline-block;text-decoration:none">Open what the patient sees ↗</a>' +
-    // one in five patients may not manage a QR (the owner 2026-09-03): the
+    // one in five patients may not manage a QR (decision record, 2026-09-03): the
     // patient page has a Print button — say so where the clinician is looking
     '<p class="hint">No phone, or not confident with a QR? Open what the patient sees and use its <strong>Print this page</strong> button.</p>';
   // the booking email, again, where the clinician is looking after handing over the card
@@ -3144,10 +3131,8 @@ $("gen").onclick = generate;
 $("clear").onclick = () => { selected.clear(); recReset(); drvPicks.clear(); drvWalked.clear(); schedRelease(); fuPick = null; $("search").value = ""; renderSelected(); renderFollowup(); renderResults(); $("out").innerHTML = ""; };
 
 // ---- Clinician sign in / sign up --------------------------------------------
-// the owner 2026-09-05: "a check-in type service … like Medics Money … one
-// registration number per person". 2026-09-12: PIN registration, on-device.
-// 2026-09-16 (the owner: "the login page asks me for the gmc every time and to
-// repeat the pin like it's a sign up … verify gmc number or NMC so people
+// decision record. 2026-09-12: PIN registration, on-device.
+// 2026-09-16 (decision record
 // can't just make it up, then option for sign in or sign up"): the account
 // now lives on the medrics server (the clinician-accounts service) — Safari
 // wipes localStorage after 7 days without a visit and every origin keeps its
@@ -3162,7 +3147,7 @@ $("clear").onclick = () => { selected.clear(); recReset(); drvPicks.clear(); drv
 // signed-in line only claims a register check when one was made.
 // This device keeps a CACHE of the same shape as before (regulator, tail,
 // salted PIN hash) so the quick "who is signing in?" list + PIN works on a
-// shared NHS computer. Since 2026-09-17 (the owner: sign-in is required to use the
+// shared NHS computer. Since 2026-09-17 (the product team: sign-in is required to use the
 // tool) the cache is a convenience for the "who is signing in?" list only: the
 // tool opens on a live server session, never on the device record alone.
 // The PATIENT page (index.html) is never gated — spec N3/N4.
@@ -3370,7 +3355,7 @@ async function signUp(bodyId, rawNum, pin, keep) {
   try { r = await clinCall("/signup", { body: bodyId, number: v, pin, keep }); }
   catch (e) {
     // (2026-09-17) no device-only accounts: one was made at 00:16 when the sign-up route
-    // was not mounted (a failed CORS preflight throws like an outage) and the owner then
+    // was not mounted (a failed CORS preflight throws like an outage) and the product team then
     // could not book while the page said he was signed in. Signing up needs the server.
     return { err: "Could not reach the medrics server — signing up needs a connection. Try again in a moment." };
   }
@@ -3390,7 +3375,7 @@ async function signIn(bodyId, rawNum, pin, keep) {
   let r;
   try { r = await clinCall("/signin", { body: bodyId, number: v, pin, keep }); }
   catch (e) {
-    // (the owner 2026-09-17) signing in needs the medrics server: no device-only fallback into the tool
+    // (decision record, 2026-09-17) signing in needs the medrics server: no device-only fallback into the tool
     return { err: "Could not reach the medrics server — signing in needs a connection. Try again in a moment." };
   }
   if (r.status === 404) return { err: "No account for that number yet — sign up first, or check the number.", missing: true };
@@ -3523,7 +3508,7 @@ function renderCheckinStatus(note) {
   if (!rec) { el.innerHTML = ""; return; }
   const tag = rec.verified === "register" ? ` · on the ${esc(rec.body.toUpperCase())} register`
     : rec.pending ? " · this device only" : "";
-  // (the owner 2026-09-17: "I'm already signed in but it says I need to sign in to see the booking
+  // (decision record
   // system") a sign-in made from the device's own record while the server was unreachable has
   // NO server session — booking, learned suggestions and sync need one. Say so, and offer the
   // one-tap fix instead of a contradictory "sign in".
@@ -3691,7 +3676,7 @@ function initCheckin() {
   $("ci-to-full").onclick = () => showCheckin("signin");
   $("ci-to-up").onclick = () => showCheckin("signup");
   $("ci-to-in2").onclick = () => showCheckin(checkinProfiles().length ? "unlock" : "signin");
-  // (the owner 2026-09-17: "people should have to sign in to see the tool anyway") the tool opens only
+  // (decision record) the tool opens only
   // on a live SERVER session. A device record whose session expired, or that was made while the
   // server was unreachable, goes to the sign-in form with the reason — never straight in.
   const rec0 = checkinRecord();
@@ -3704,7 +3689,7 @@ function initCheckin() {
 // -----------------------------------------------------------------------------
 
 // ---- Saved sets (everyone) + optional member sign-in and sync ---------------
-// the owner 2026-09-12: run the programme through the member login — but the
+// decision record, 2026-09-12: run the programme through the member login — but the
 // picker stays free (spec N3) and the patient page is never gated. So this is
 // "sign in to get MORE", never "sign in to use". Saved sets work for every
 // clinician on this device; a medrics member who signs in gets their trust,
