@@ -615,11 +615,6 @@
     "slug": "communication-methods-support-card"
   },
   {
-    "title": "Communication Tactics",
-    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25169.pdf?last-updated=20220528",
-    "slug": "communication-tactics"
-  },
-  {
     "title": "Community Birth: At home or the Whitelake Midwifery Led Unit",
     "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/23734.pdf?last-updated=20200131",
     "slug": "community-birth-at-home-or-the-whitelake-midwifery-led-unit"
@@ -1536,7 +1531,7 @@
   },
   {
     "title": "Hospital requested blood test",
-    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25868.pdf?last-updated=20260812",
+    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25868.pdf?last-updated=20260901",
     "slug": "hospital-requested-blood-test"
   },
   {
@@ -1948,6 +1943,11 @@
     "title": "Managing Memory Problems",
     "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25480.pdf?last-updated=20201030",
     "slug": "managing-memory-problems"
+  },
+  {
+    "title": "Managing Menopausal Symptoms after Breast Cancer",
+    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/26008.pdf?last-updated=20260902",
+    "slug": "managing-menopausal-symptoms-after-breast-cancer"
   },
   {
     "title": "Managing the Complications of Hormonal Therapy (males)",
@@ -2515,6 +2515,11 @@
     "slug": "photodynamic-therapy-pdt"
   },
   {
+    "title": "Physiotherapy advice before and after abdominal surgery",
+    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/26009.pdf?last-updated=20260914",
+    "slug": "physiotherapy-advice-before-and-after-abdominal-surgery"
+  },
+  {
     "title": "Physiotherapy After Your Amputation",
     "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/23443.pdf?last-updated=20250121",
     "slug": "physiotherapy-after-your-amputation"
@@ -2633,11 +2638,6 @@
     "title": "Prior to Toenail Surgery Information Sheet",
     "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25347.pdf?last-updated=20190729",
     "slug": "prior-to-toenail-surgery-information-sheet"
-  },
-  {
-    "title": "Privacy and Dignity - Promises to You",
-    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25436.pdf?last-updated=20180418",
-    "slug": "privacy-and-dignity-promises-to-you"
   },
   {
     "title": "Privacy statement: How we use information about you",
@@ -2820,11 +2820,6 @@
     "slug": "salivary-gland-cancer"
   },
   {
-    "title": "Same Sex Accommodation",
-    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/23988.pdf?last-updated=20180418",
-    "slug": "same-sex-accommodation"
-  },
-  {
     "title": "Seasonal Influenza 'flu' - Patient Information for areas affected by 'flu'",
     "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25296.pdf?last-updated=20260512",
     "slug": "seasonal-influenza-flu-patient-information-for-areas-affected-by-flu"
@@ -2833,6 +2828,11 @@
     "title": "Seborrhoeic Keratoses",
     "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/23742.pdf?last-updated=20260714",
     "slug": "seborrhoeic-keratoses"
+  },
+  {
+    "title": "Selective Eating and ARFID - How to introduce new foods to a Young Person with ARFID or selective eating",
+    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/26007.pdf?last-updated=20260914",
+    "slug": "selective-eating-and-arfid-how-to-introduce-new-foods-to-a-young-person-with-arfid-or-selective-eating"
   },
   {
     "title": "Selective Laser Trabeculoplasty",
@@ -2960,14 +2960,19 @@
     "slug": "sound-sensitivity-in-children"
   },
   {
+    "title": "Special Care Baby Unit (SCBU)",
+    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25993.pdf?last-updated=20260902",
+    "slug": "special-care-baby-unit-scbu"
+  },
+  {
+    "title": "Special Care Baby Unit (SCUB) staff support",
+    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25994.pdf?last-updated=20260902",
+    "slug": "special-care-baby-unit-scub-staff-support"
+  },
+  {
     "title": "Special Care Dental Service - Practice information leaflet",
     "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25378.pdf?last-updated=20220114",
     "slug": "special-care-dental-service-practice-information-leaflet"
-  },
-  {
-    "title": "Specialist Audiology Appointment",
-    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25360.pdf?last-updated=20221209",
-    "slug": "specialist-audiology-appointment"
   },
   {
     "title": "Specialist Palliative Care Service",
@@ -3050,6 +3055,11 @@
     "slug": "strengthening-exercises-for-tibislis-anterior-muscles"
   },
   {
+    "title": "Stress urinary incontinence",
+    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25988.pdf?last-updated=20260902",
+    "slug": "stress-urinary-incontinence"
+  },
+  {
     "title": "Stretches for tight gastrocnemius muscles",
     "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25298.pdf?last-updated=20230809",
     "slug": "stretches-for-tight-gastrocnemius-muscles"
@@ -3103,11 +3113,6 @@
     "title": "Taking Thyroxine after treatment of differentiated thyroid cancer",
     "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/24061.pdf?last-updated=20180306",
     "slug": "taking-thyroxine-after-treatment-of-differentiated-thyroid-cancer"
-  },
-  {
-    "title": "Talk to Us Leaflet (Easy Read)",
-    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25266.pdf?last-updated=20230809",
-    "slug": "talk-to-us-leaflet-easy-read"
   },
   {
     "title": "TeleHealthCare Service",
@@ -3348,11 +3353,6 @@
     "title": "Type 1 Diabetes - Telephone support for the parents of newly diagnosed children and young people with Type 1 Diabetes",
     "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/25743.pdf?last-updated=20220506",
     "slug": "type-1-diabetes-telephone-support-for-the-parents-of-newly-diagnosed-children-and-young-people-with-type-1-diabetes"
-  },
-  {
-    "title": "Types of hearing loss",
-    "url": "https://www.torbayandsouthdevon.nhs.uk/uploads/24042.pdf?last-updated=20230324",
-    "slug": "types-of-hearing-loss"
   },
   {
     "title": "Ultrasound of baby hips",
