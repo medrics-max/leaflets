@@ -1774,8 +1774,9 @@
   "title": "Eating and drinking during radiotherapy to the pelvis"
  },
  "echocardiogram-echo": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "8554f1bba09bbf51",
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "bce39c7824ff502f",
+  "hash_version": 2,
   "ref": "GHPI1504_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -1783,8 +1784,9 @@
   "title": "Echocardiogram (echo)"
  },
  "ectopic-pregnancy": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "4e8d89528544a4d7",
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "854b3612c24b5df3",
+  "hash_version": 2,
   "ref": "GHPI0770_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -1792,8 +1794,9 @@
   "title": "Ectopic pregnancy"
  },
  "elbow-fracture": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "7a95a45dba85c264",
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "56b11bc7f978e417",
+  "hash_version": 2,
   "ref": "GHPI1478_08_24",
   "review_due": "2027-08",
   "review_due_text": "August 2027",
@@ -1801,8 +1804,9 @@
   "title": "Elbow fracture"
  },
  "emotional-changes-after-a-stroke-ghpi1421_07_21pdf": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "0c212e012e06339c",
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "cc568fb04be2202f",
+  "hash_version": 2,
   "ref": "GHPI1421_08_24",
   "review_due": "2027-08",
   "review_due_text": "August 2027",
@@ -1810,8 +1814,9 @@
   "title": "Emotional changes after a stroke"
  },
  "emotional-support-following-limb-amputation": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "879a497b8406fb3e",
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "f0732ed923174468",
+  "hash_version": 2,
   "ref": "GHPI1831_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -1819,8 +1824,9 @@
   "title": "Emotional support following limb amputation"
  },
  "end-of-treatment-for-paediatric-leukaemia-and-haematology-patients": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "41a9e6def8e31fc1",
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "984a0234b53ddc6a",
+  "hash_version": 2,
   "ref": "GHPI1822_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -1828,8 +1834,9 @@
   "title": "End of Treatment for paediatric Leukaemia and Haematology patients"
  },
  "endoanal-ultrasound-scan": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "c7a5a9ee051b8825",
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "16f8557c98d110bd",
+  "hash_version": 2,
   "ref": "GHPI0568_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -1837,8 +1844,9 @@
   "title": "Endoanal ultrasound scan"
  },
  "endometrial-ablation-ghpi0633": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "010d3ff5e692ec06",
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "29e4c1060f564d07",
+  "hash_version": 2,
   "ref": "GHPI0633_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -1846,8 +1854,9 @@
   "title": "Endometrial ablation"
  },
  "endometrial-biopsy": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "972736a159c50bab",
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "0684aeef29dbbdf6",
+  "hash_version": 2,
   "ref": "GHPI1890_05_25",
   "review_due": "2028-05",
   "review_due_text": "May 2028",
@@ -1855,8 +1864,9 @@
   "title": "Endometrial biopsy"
  },
  "endometrial-hyperplasia": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "519b36b97a6c9c6c",
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "6333cab3a5366c3f",
+  "hash_version": 2,
   "ref": "GHPI1709_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -1864,8 +1874,9 @@
   "title": "Endometrial hyperplasia"
  },
  "endometriosis-ghpi0458_05_18": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "5b1a952bdd50a8b8",
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "0c1993557f280e8f",
+  "hash_version": 2,
   "ref": "GHPI0458_12_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -1873,8 +1884,9 @@
   "title": "Endometriosis and fertility"
  },
  "endoscopic-submucosal-dissection": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "5f59207b8caee34e",
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "b135cd10abb38c3e",
+  "hash_version": 2,
   "ref": "GHPI1761_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -1882,8 +1894,9 @@
   "title": "Endoscopic Submucosal Dissection (ESD)"
  },
  "endovascular-aneurysm-repair-evar": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "ae8cb7b0a22943a3",
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "f10ecb2045483844",
+  "hash_version": 2,
   "ref": "GHPI0922_08_25",
   "review_due": "2028-08",
   "review_due_text": "August 2028",
@@ -1891,8 +1904,9 @@
   "title": "Endovascular Aneurysm Repair (EVAR)"
  },
  "enhanced-recovery-programme-colorectal-surgery": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "d853d591bbf31b4d",
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "e7699edd5b108bff",
+  "hash_version": 2,
   "ref": "GHPI0815_11_23",
   "review_due": "2026-11",
   "review_due_text": "November 2026",
@@ -1900,8 +1914,9 @@
   "title": "Enhanced recovery pathway for colorectal surgery"
  },
  "enhanced-supportive-care": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "8c0e13e31a9b30c0",
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "00a9aa934849ca35",
+  "hash_version": 2,
   "ref": "GHPI1491_05_25",
   "review_due": "2028-05",
   "review_due_text": "May 2028",
@@ -5150,8 +5165,9 @@
   "title": "Same Day Emergency Care (SDEC)"
  },
  "self-administration-of-a-phosphate-enema-ghpi1236": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "3773468dcac54c63",
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "67ed6c4ba9ff8906",
+  "hash_version": 2,
   "ref": "GHPI1236_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",

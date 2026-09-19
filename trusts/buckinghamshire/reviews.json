@@ -139,6 +139,13 @@
   "status": "no-date",
   "title": "Adult bereavement listening and support service"
  },
+ "bleeding-in-early-pregnancy": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "474f0b927dae0fb7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pain and bleeding in early pregnancy"
+ },
  "blood-clots-reducing-the-risk": {
   "checked": "2026-09-13T02:43:15+01:00",
   "content_hash": "383c0329b80c72e1",
@@ -580,6 +587,13 @@
   "status": "no-date",
   "title": "Freedom of information"
  },
+ "gastroscopy-or-ercp-instructions-for-patients-with-type-2-diabetes-controlled-by-medication": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "0752b24cb88fce8a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patients with diabetes who need endoscopic procedures"
+ },
  "gluten-free-gf-low-lactose-dietary-advice-for-people-with-coeliac-disease-who-are-at-risk-of-malnutrition": {
   "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "a094669b7940472d",
@@ -867,6 +881,13 @@
   "status": "no-date",
   "title": "Hysteroscopy in an outpatient clinic"
  },
+ "hysteroscopy-in-an-outpatient-clinic-for-patients-with-a-spinal-cord-injury": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "a915e10dd084e453",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Outpatient hysteroscopy for spinal cord patients - what to do before your appointment"
+ },
  "implantable-loop-recorder-ilr": {
   "checked": "2026-09-17T02:36:04+01:00",
   "content_hash": "96838ae3487595ee",
@@ -1049,11 +1070,172 @@
   "status": "no-date",
   "title": "Medicines reminder tick chart 2"
  },
+ "medicines-reminder-tick-chart-example": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "a7a34c6c4b6e8027",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Medicines reminder tick chart example"
+ },
+ "medicines-reminder-tick-chart-example-2": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "2faa6bd26c959dbc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Medicines reminder tick chart example 2"
+ },
+ "miscarriage-expectant-management": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "ef5b4542b8f36997",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Miscarriage - natural management"
+ },
+ "miscarriage-medical-management": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "f5fa91f597235fbe",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Miscarriage - medical management"
+ },
+ "miscarriage-surgical-management": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "4fc708d20f65bae9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Miscarriage - surgical management"
+ },
+ "my-health-information-sheet": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "cda9918e40671ed1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "My Health: Information Sheet"
+ },
+ "myosure-hysteroscopic-procedure": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "9cf663af07afe2e8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Myosure hysteroscopic procedure"
+ },
+ "nasogastric-tube-feeding-at-home": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "81259dbfa2b13e45",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nasogastric tube feeding at home"
+ },
+ "neonatal-unit-parent-information": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "3fd2212af415281e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Neonatal Unit"
+ },
+ "nephritis-in-children-and-young-people": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "37a83cb94be7f9a4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nephritis in Children and Young people"
+ },
+ "newborn-hip-screening": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "7f897ef3a42ccd81",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Newborn hip screening"
+ },
+ "nutrition-and-long-covid": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "6b6ff709842616ff",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nutrition and long COVID"
+ },
+ "occupational-therapy-information-for-rheumatology-patients": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "884575ba7f250fc7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Occupational therapy information for rheumatology patients"
+ },
+ "orthoptic-visual-processing-difficulties-clinic-information-for-patients-and-referrers": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "d2046be9808722c2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Orthoptic visual processing difficulties clinic - information for patients and referrers"
+ },
  "outpatient-hysteroscopy-advice-for-patients-on-warfarin": {
   "checked": "2026-09-17T02:36:04+01:00",
   "content_hash": "ec877b30a15b6957",
   "hash_version": 2,
   "status": "no-date",
   "title": "Hysteroscopy outpatients: advice for patients on Warfarin"
+ },
+ "outpatient-parenteral-antimicrobial-therapy-opat-complex-oral-antimicrobial-therapy-copat-service": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "0d6d656d9455f98f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Outpatient Parenteral Antimicrobial Therapy (OPAT)/Complex Oral Antimicrobial Therapy (COpAT) service"
+ },
+ "paediatric-outreach-team": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "d39d86c4aa6b8d22",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Paediatric outreach team"
+ },
+ "paediatric-permanent-open-door-service": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "dffe93341e9b39af",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Paediatric permanent open door service"
+ },
+ "pain-management-procedures": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "6d10ef2ed10db90f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pain management procedures"
+ },
+ "parkinsons-disease-and-anxiety": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "c892e43f3cf3dc4f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Parkinson’s disease and anxiety"
+ },
+ "parkinsons-service": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "ba8523537ee65ad0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Parkinson’s service"
+ },
+ "patency-capsule-patient-instructions": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "b980e792808143b0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patency test and PillCam patency capsule - patient instructions"
+ },
+ "patient-advice-following-regional-anaesthetic-nerve-block": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "053242fffb3083f6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient advice following regional anaesthetic (nerve block)"
+ },
+ "when-you-are-asked-to-come-in-for-orthopaedic-trauma-surgery-at-stoke-mandeville-hospital": {
+  "checked": "2026-09-19T02:37:10+01:00",
+  "content_hash": "9de4c725c742c9ac",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Orthopaedic trauma surgery at Stoke Mandeville Hospital"
  }
 }
