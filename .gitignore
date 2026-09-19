@@ -73,6 +73,7 @@ link_check_state.json
 link_report.json
 review_report.json
 update_log.json
+estate_churn.jsonl
 update_state.json
 leaflet_telemetry.jsonl
 *.TEMPLATE.json

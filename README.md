@@ -48,5 +48,5 @@ twins of their `.json` source — the pages fetch the minified copy.
 | `manual_overrides.json` | Hand-set URL corrections, each with a note |
 | `qrcode.min.js` | Third-party QR rendering library |
 
-© 2026 Dr Oscar Harrison, trading as Medrics. All rights reserved — see
-LICENSE. This is not open-source software.
+© 2026 MEDRICS LTD, registered in England and Wales, company no. 16046579.
+All rights reserved — see LICENSE. This is not open-source software.
