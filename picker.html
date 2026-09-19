@@ -137,6 +137,7 @@
   a.openpg { color: var(--plum); text-decoration: none; font-weight: 700; margin-left: 6px; padding: 0 2px; border-radius: 4px; }
   a.openpg:hover { background: var(--plum-tint-2); }
   .related { margin: 4px 0 6px; font-size: 13px; color: var(--muted); }
+  .gen-blocked { background: var(--amber-tint, #fff4e5); border: 1px solid var(--amber-ink, #a4670a); color: var(--amber-ink, #a4670a); border-radius: 10px; padding: 10px 14px; margin: 10px 0; font-size: 14px; }
   .ci-warn { color: var(--amber-ink); font-weight: 600; }
   .refs { margin: 4px 0 8px; font-size: 13px; color: var(--muted); }
   .refs .refrow { display: inline-block; margin: 2px 8px 2px 0; padding: 4px 8px; border: 1px dashed var(--line-strong); border-radius: 8px; color: var(--ink); }
@@ -2999,7 +3000,21 @@ function renderResults() {
 }
 
 async function generate() {
-  if (!(await schedBeforeGenerate())) return;   // a held slot books now, or the hold has expired
+  // (the owner 2026-09-19, after a live demo: "bar code doesnt generate") a refusal used to write its
+  // reason into the follow-up panel far ABOVE the button and leave the QR area empty — pressing
+  // Generate looked broken. The reason now appears where the clinician is looking, and the thing
+  // that needs doing is scrolled into view.
+  if (!(await schedBeforeGenerate())) {
+    const why = (typeof SCHED_NOTE === "string" && SCHED_NOTE) ? SCHED_NOTE : "The follow-up isn't ready yet — see the follow-up section above.";
+    const out = $("out");
+    if (out) {
+      out.innerHTML = `<p class="gen-blocked" role="alert"><strong>Not ready to show the patient yet.</strong> ${esc(why)}</p>`;
+      out.scrollIntoView({ block: "nearest" });
+    }
+    const panel = document.getElementById("fupanel") || document.getElementById("followup");
+    if (panel) panel.scrollIntoView({ block: "center", behavior: "smooth" });
+    return;
+  }
   // (2026-08-08 review) do NOT set out.dataset.fresh here: nothing in
   // generate() re-renders the selection, so the flag survived into the FIRST
   // post-generate selection change and disarmed the "Selection changed —
