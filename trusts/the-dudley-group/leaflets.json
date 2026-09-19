@@ -755,6 +755,11 @@
     "slug": "heparin-injections-at-home-after-giving-birth"
   },
   {
+    "title": "Hickman Line Insertion",
+    "url": "https://www.dgft.nhs.uk/pil/hickman-line-insertion/",
+    "slug": "hickman-line-insertion"
+  },
+  {
     "title": "Hormone replacement therapy for menopausal women",
     "url": "https://www.dgft.nhs.uk/pil/hormone-replacement-therapy-for-menopausal-women/",
     "slug": "hormone-replacement-therapy-for-menopausal-women"
@@ -780,7 +785,7 @@
     "slug": "induction-of-labour"
   },
   {
-    "title": "Inferior vena cava (IVC) filter placement",
+    "title": "Inferior Vena Cava (IVC) Filter Placement",
     "url": "https://www.dgft.nhs.uk/pil/inferior-vena-cava-ivc-filter-placement/",
     "slug": "inferior-vena-cava-ivc-filter-placement"
   },
@@ -1090,7 +1095,7 @@
     "slug": "patient-controlled-analgesia"
   },
   {
-    "title": "Percutaneous biopsy",
+    "title": "Percutaneous Biopsy",
     "url": "https://www.dgft.nhs.uk/pil/percutaneous-biopsy/",
     "slug": "percutaneous-biopsy"
   },
