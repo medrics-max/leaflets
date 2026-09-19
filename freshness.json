@@ -1,78 +1,78 @@
 {
  "_doc": "How current each layer of the medrics patient-information library is: what the layer is, how often it is re-checked, when it was last checked and whether we are late. Dates and counts only, rebuilt nightly by build_freshness.py from the scanners' own run records. 'overdue' means our check is late — treat the item with care and prefer the original page; it does not mean the information is wrong.",
- "built": "2026-09-16",
+ "built": "2026-09-18",
  "grace_days": 2,
  "layers": {
   "trust_libraries": {
    "what": "each hospital's own leaflet list, re-read from the hospital's website",
    "cadence_days": 14,
-   "last_check": "2026-09-16",
-   "status": "current",
+   "last_check": "2026-09-18",
+   "status": "unknown",
    "trusts": {
     "gloucestershire": {
      "name": "Gloucestershire Hospitals",
      "leaflets": 694,
-     "last_scan": "2026-09-16",
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": {
       "tracked": 691,
       "overdue": 0,
       "not_loading": [],
-      "last_check": "2026-09-16"
+      "last_check": "2026-09-18"
      }
     },
     "worcestershire": {
      "name": "Worcestershire Acute",
-     "leaflets": 805,
-     "last_scan": "2026-09-16",
+     "leaflets": 806,
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": {
       "tracked": 0,
       "overdue": 0,
       "not_loading": [],
-      "last_check": "2026-09-16"
+      "last_check": "2026-09-18"
      }
     },
     "torbay": {
      "name": "Torbay and South Devon",
      "leaflets": 720,
-     "last_scan": "2026-09-01",
-     "status": "current",
-     "days_since": 15,
+     "last_scan": null,
+     "status": "unknown",
+     "days_since": null,
      "review_dates": null
     },
     "north-cumbria": {
      "name": "North Cumbria (Carlisle & Whitehaven)",
-     "leaflets": 306,
-     "last_scan": "2026-09-16",
+     "leaflets": 309,
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": {
       "tracked": 0,
       "overdue": 0,
       "not_loading": [],
-      "last_check": "2026-09-16"
+      "last_check": "2026-09-18"
      }
     },
     "royal-surrey": {
      "name": "Royal Surrey",
      "leaflets": 399,
-     "last_scan": "2026-09-16",
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": {
       "tracked": 360,
       "overdue": 41,
       "not_loading": [],
-      "last_check": "2026-09-16"
+      "last_check": "2026-09-18"
      }
     },
     "hull": {
      "name": "Hull",
      "leaflets": 1017,
-     "last_scan": "2026-09-16",
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": {
@@ -81,21 +81,21 @@
       "not_loading": [
        "giving-your-baby-expressed-milk"
       ],
-      "last_check": "2026-09-16"
+      "last_check": "2026-09-18"
      }
     },
     "uhd": {
      "name": "UH Dorset",
      "leaflets": 685,
-     "last_scan": "2026-09-01",
-     "status": "current",
-     "days_since": 15,
+     "last_scan": null,
+     "status": "unknown",
+     "days_since": null,
      "review_dates": null
     },
     "york": {
      "name": "York",
      "leaflets": 808,
-     "last_scan": "2026-09-16",
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": null
@@ -103,7 +103,7 @@
     "oxford-uh": {
      "name": "Oxford University Hospitals",
      "leaflets": 1267,
-     "last_scan": "2026-09-16",
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": null
@@ -113,21 +113,21 @@
      "leaflets": 1069,
      "last_scan": "2026-09-15",
      "status": "current",
-     "days_since": 1,
+     "days_since": 3,
      "review_dates": null
     },
     "the-royal-wolverhampton": {
      "name": "The Royal Wolverhampton",
-     "leaflets": 838,
-     "last_scan": "2026-09-16",
+     "leaflets": 837,
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": null
     },
     "milton-keynes": {
      "name": "Milton Keynes University Hospital",
-     "leaflets": 820,
-     "last_scan": "2026-09-16",
+     "leaflets": 822,
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": null
@@ -135,20 +135,20 @@
     "kingston-and-richmond": {
      "name": "Kingston and Richmond",
      "leaflets": 695,
-     "last_scan": "2026-09-16",
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": {
       "tracked": 0,
       "overdue": 0,
       "not_loading": [],
-      "last_check": "2026-09-16"
+      "last_check": "2026-09-18"
      }
     },
     "chelsea-and-westminster": {
      "name": "Chelsea and Westminster Hospital",
-     "leaflets": 538,
-     "last_scan": "2026-09-16",
+     "leaflets": 539,
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": null
@@ -156,7 +156,7 @@
     "james-paget": {
      "name": "James Paget University Hospitals",
      "leaflets": 429,
-     "last_scan": "2026-09-16",
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": null
@@ -164,7 +164,7 @@
     "kings-college": {
      "name": "King's College Hospital",
      "leaflets": 346,
-     "last_scan": "2026-09-16",
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": null
@@ -172,7 +172,7 @@
     "the-rotherham": {
      "name": "The Rotherham",
      "leaflets": 344,
-     "last_scan": "2026-09-16",
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": null
@@ -180,20 +180,20 @@
     "the-dudley-group": {
      "name": "The Dudley Group",
      "leaflets": 344,
-     "last_scan": "2026-09-16",
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": {
-      "tracked": 60,
-      "overdue": 4,
+      "tracked": 88,
+      "overdue": 13,
       "not_loading": [],
-      "last_check": "2026-09-16"
+      "last_check": "2026-09-18"
      }
     },
     "united-lincolnshire": {
      "name": "United Lincolnshire Teaching Hospitals",
      "leaflets": 336,
-     "last_scan": "2026-09-16",
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": null
@@ -201,33 +201,33 @@
     "buckinghamshire": {
      "name": "Buckinghamshire Healthcare",
      "leaflets": 239,
-     "last_scan": "2026-09-16",
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": {
       "tracked": 0,
       "overdue": 0,
       "not_loading": [],
-      "last_check": "2026-09-16"
+      "last_check": "2026-09-18"
      }
     },
     "george-eliot": {
      "name": "George Eliot Hospital",
      "leaflets": 140,
-     "last_scan": "2026-09-16",
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": {
-      "tracked": 19,
-      "overdue": 4,
+      "tracked": 28,
+      "overdue": 5,
       "not_loading": [],
-      "last_check": "2026-09-16"
+      "last_check": "2026-09-18"
      }
     },
     "mid-yorkshire": {
      "name": "Mid Yorkshire Teaching",
      "leaflets": 48,
-     "last_scan": "2026-09-16",
+     "last_scan": "2026-09-18",
      "status": "current",
      "days_since": 0,
      "review_dates": null
@@ -237,23 +237,23 @@
   "review_dates": {
    "what": "the review date printed on each hospital leaflet, re-read from the page",
    "cadence_days": 1,
-   "last_check": "2026-09-16",
+   "last_check": "2026-09-18",
    "status": "current",
    "days_since": 0,
-   "leaflets_checked": 3622
+   "leaflets_checked": 3809
   },
   "nhs_pages": {
    "what": "the NHS website text shown on this page (what it is, treatment, when to get help)",
    "cadence_days": 7,
    "last_check": "2026-09-12",
    "status": "current",
-   "days_since": 4,
+   "days_since": 6,
    "pages": 798
   },
   "nhs_catalogue": {
    "what": "the NHS website's A–Z of conditions and medicines we link to",
    "cadence_days": 7,
-   "last_check": "2026-09-16",
+   "last_check": "2026-09-18",
    "status": "current",
    "days_since": 0,
    "pages": 622
@@ -261,10 +261,10 @@
   "national_links": {
    "what": "every link to the NHS website and other trusted UK sources, tested live",
    "cadence_days": 7,
-   "last_check": "2026-09-10",
+   "last_check": "2026-09-12",
    "status": "current",
    "days_since": 6,
-   "checked": 842,
+   "checked": 900,
    "not_loading": 1,
    "full_sweep_last": "2026-07-13"
   },
@@ -273,27 +273,30 @@
    "cadence_days": 7,
    "last_check": "2026-09-16",
    "status": "current",
-   "days_since": 0
+   "days_since": 2
   },
   "official_guidance": {
    "what": "the GOV.UK (DVLA) and Civil Aviation Authority pages behind the driving and flying advice",
    "cadence_days": 3,
-   "last_check": "2026-09-15",
+   "last_check": "2026-09-18",
    "status": "current",
-   "days_since": 1,
+   "days_since": 0,
    "pages": 23
   },
   "learned_bundles": {
    "what": "which leaflets clinicians at a hospital usually give out together (ranks only)",
    "cadence_days": 7,
-   "last_check": "2026-09-12",
-   "status": "current",
-   "days_since": 4
+   "last_check": null,
+   "status": "unknown",
+   "days_since": null
   }
  },
  "summary": {
-  "all_current": true,
+  "all_current": false,
   "overdue": [],
-  "unknown": []
+  "unknown": [
+   "learned_bundles",
+   "trust_libraries"
+  ]
  }
 }

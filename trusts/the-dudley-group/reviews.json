@@ -815,6 +815,165 @@
   "status": "no-date",
   "title": "Drooping of the upper eyelid (ptosis)"
  },
+ "duanes-syndrome": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "0ab89c3bc81b521d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Duane’s syndrome"
+ },
+ "dudley-rehabilitation-service": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "712efd7d2710f2a6",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Dudley Rehabilitation Service"
+ },
+ "dudley-respiratory-assessment-service-dras": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "b82be993ce385281",
+  "hash_version": 2,
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Dudley Respiratory Assessment Service (DRAS)"
+ },
+ "duloxetine": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "96efd3cbc2e4fd4e",
+  "hash_version": 2,
+  "review_due": "2023-12",
+  "review_due_text": "December 2023",
+  "status": "ok",
+  "title": "Duloxetine"
+ },
+ "dysarthria-difficulty-speaking": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "0ad3fab89bc8d489",
+  "hash_version": 2,
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Dysarthria (difficulty speaking)"
+ },
+ "dysphagia-swallowing-problems": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "19b2382bc62fb0bb",
+  "hash_version": 2,
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Dysphagia (swallowing problems)"
+ },
+ "easier-to-chew-diet-level-7": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "ddb93a0319023041",
+  "hash_version": 2,
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Easier to chew diet [Level 7]"
+ },
+ "echocardiogram": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "87ef63180bb39d85",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Echocardiogram"
+ },
+ "electrocardiogram-ecg": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "692cdd70ba431089",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Electrocardiogram (ECG)"
+ },
+ "encouraging-people-with-cancer-to-become-more-active": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "0973bcc8a905ed73",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Encouraging people with cancer to become more active"
+ },
+ "end-of-life-rapid-response-team": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "60eb9b8bb02f5e91",
+  "hash_version": 2,
+  "review_due": "2024-05",
+  "review_due_text": "May 2024",
+  "status": "ok",
+  "title": "End of Life rapid response team"
+ },
+ "endoscopic-bronchial-ultrasound-ebus": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "43065403204013a4",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2025-07",
+   "2028-08"
+  ],
+  "status": "ambiguous-date",
+  "title": "Endoscopic bronchial ultrasound [EBUS]"
+ },
+ "endoscopic-submucosal-dissection-esd-of-the-bowel": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "9e423f8bfc01b473",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Endoscopic Submucosal Dissection (ESD) of the Bowel"
+ },
+ "endoscopic-treatment-of-zenkers-diverticulectomy-pharyngeal-pouch": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "e6849afce182711b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Endoscopic Treatment Of Zenker’s Diverticulectomy (Pharyngeal Pouch)"
+ },
+ "epidural-or-spinal-anaesthetic-aftercare-information": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "5ee90988a9cd6f4d",
+  "hash_version": 2,
+  "review_due": "2030-06",
+  "review_due_text": "June 2030",
+  "status": "ok",
+  "title": "Epidural or spinal anaesthetic – aftercare information"
+ },
+ "exercise-stress-echocardiogram": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "8b8a2ea99dfedf86",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Exercise Stress Echocardiogram"
+ },
+ "exercise-tolerance-test": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "420a88351bb807c7",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Exercise tolerance test"
+ },
+ "eye-injury-or-problem": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "829e141a131fc6d4",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Eye injury or problem"
+ },
+ "eye-problems-uveitis": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "469f5782994e6f98",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eye problems – uveitis"
+ },
  "eylea-treatment-for-diabetic-macular-oedema-dmo": {
   "checked": "2026-09-14T02:33:36+01:00",
   "content_hash": "19a2c0e15a875e6b",
@@ -828,5 +987,246 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Aflibercept Treatment for Retinal Vein Occlusion (RVO)"
+ },
+ "facet-joint-injections-and-medial-branch-block": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "f494c2f81af57201",
+  "hash_version": 2,
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Facet joint injections and medial branch block"
+ },
+ "faricimab-vabysmo-for-age-related-macular-degeneration-armd": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "d10f46fd99b46ba0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Faricimab (Vabysmo) for Age-Related Macular Degeneration (ARMD)"
+ },
+ "faricimab-vabysmo-for-diabetic-macular-oedema-dmo": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "298dc6bda2e50a58",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Faricimab (Vabysmo) for Diabetic Macular Oedema (DMO)"
+ },
+ "faricimab-vabysmo-for-retinal-vein-occlusion-rvo": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "b10163691fb6aeeb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Faricimab (Vabysmo) for Retinal Vein Occlusion (RVO)"
+ },
+ "fascia-iliaca-compartment-block-for-pain-relief-for-patients-with-a-hip-fracture": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "19a7abd41b295bf7",
+  "hash_version": 2,
+  "review_due": "2027-01",
+  "review_due_text": "January 2027",
+  "status": "ok",
+  "title": "Fascia iliaca compartment block for pain relief for patients with a hip fracture"
+ },
+ "fentanyl-patches": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "0686e3e86ab1e2e5",
+  "hash_version": 2,
+  "review_due": "2025-09",
+  "review_due_text": "September 2025",
+  "status": "ok",
+  "title": "Fentanyl patches"
+ },
+ "fistulogram-fistuloplasty-and-venoplasty": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "b43a753232b16287",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2026-07",
+   "2029-05"
+  ],
+  "status": "ambiguous-date",
+  "title": "Fistulogram, Fistuloplasty and Venoplasty"
+ },
+ "fitting-a-freestanding-toilet-frame": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "88df2914cabb04ac",
+  "hash_version": 2,
+  "review_due": "2026-05",
+  "review_due_text": "May 2026",
+  "status": "ok",
+  "title": "Fitting a freestanding toilet frame"
+ },
+ "fitting-a-mowbray-or-scandia-toilet-frame": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "28194c737c1cd15c",
+  "hash_version": 2,
+  "review_due": "2026-05",
+  "review_due_text": "May 2026",
+  "status": "ok",
+  "title": "Fitting a Mowbray or Scandia toilet frame"
+ },
+ "fitting-a-raised-toilet-seat": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "d6b32962ea2ee38d",
+  "hash_version": 2,
+  "review_due": "2026-05",
+  "review_due_text": "May 2026",
+  "status": "ok",
+  "title": "Fitting a raised toilet seat"
+ },
+ "flashes-and-floaters": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "b7fc44154918209e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Flashes and Floaters"
+ },
+ "flexible-bronchoscopy": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "9214041d7eeb0025",
+  "hash_version": 2,
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Flexible bronchoscopy"
+ },
+ "foot-health-high-risk": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "d37cc700248c10dc",
+  "hash_version": 2,
+  "review_due": "2027-07",
+  "review_due_text": "July 2027",
+  "status": "ok",
+  "title": "Foot health - High risk"
+ },
+ "foot-health-low-risk": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "7134b218e865b965",
+  "hash_version": 2,
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Foot health - Low risk"
+ },
+ "foot-health-moderate-risk": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "7aeac32843a9df17",
+  "hash_version": 2,
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Foot health - Moderate risk"
+ },
+ "foot-ulcers": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "212a644d9cb4b95c",
+  "hash_version": 2,
+  "review_due": "2021-03",
+  "review_due_text": "March 2021",
+  "status": "ok",
+  "title": "Foot ulcers"
+ },
+ "for-parents-of-children-having-squint-surgery": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "4c8f09be7e91ed6b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "For Parents of Children Having Squint Surgery"
+ },
+ "for-parents-of-children-wearing-a-patch-on-their-lazy-eye-2": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "7bc8f04762afd803",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "For Parents of Children Wearing a Patch on their ‘Lazy Eye’"
+ },
+ "frequently-asked-questions-about-opioids": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "d8d1c5bb69ba05f2",
+  "hash_version": 2,
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Frequently asked questions about opioids"
+ },
+ "frozen-shoulder": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "58638896dc76257d",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Frozen shoulder"
+ },
+ "fundus-fluorescein-angiograph": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "896307e39ded0346",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fundus Fluorescein Angiograph"
+ },
+ "gabapentin": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "1b16debef73de3c0",
+  "hash_version": 2,
+  "review_due": "2025-09",
+  "review_due_text": "September 2025",
+  "status": "ok",
+  "title": "Gabapentin"
+ },
+ "ganglion-impar-block": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "9fda0c6d2d96d8e2",
+  "hash_version": 2,
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Ganglion impar block"
+ },
+ "glaucoma-and-monitoring-tests": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "58135a015d658531",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Glaucoma and monitoring tests"
+ },
+ "glaucoma-drainage-surgery-baerveldt-tube-shunt-implant": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "4c5a70e59506863b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Glaucoma Drainage Surgery Baerveldt Tube-Shunt Implant"
+ },
+ "glaucoma-drainage-surgery-trabeculectomy": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "b87dd1aaf29a644f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Glaucoma Drainage Surgery (Trabeculectomy)"
+ },
+ "glucose-tolerance-test": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "5dd7860089a3ae9c",
+  "hash_version": 2,
+  "review_due": "2021-11",
+  "review_due_text": "November 2021",
+  "status": "ok",
+  "title": "Glucose Tolerance Test"
+ },
+ "glucose-tolerance-test-in-pregnancy": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "234093e46b4e7362",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Glucose tolerance test in pregnancy"
+ },
+ "having-a-clinical-photograph-taken": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "405e4519254162ad",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Having a clinical photograph taken"
  }
 }

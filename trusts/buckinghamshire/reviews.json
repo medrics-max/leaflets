@@ -230,6 +230,13 @@
   "status": "no-date",
   "title": "Burns Unit clinical psychology and social work team"
  },
+ "call-4-concern-service": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "dca26683d2b2949b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Martha’s Rule: detecting deterioration"
+ },
  "cancer-and-blood-clots-reducing-the-risk": {
   "checked": "2026-09-14T02:33:36+01:00",
   "content_hash": "794bb97ce255c265",
@@ -678,6 +685,13 @@
   "status": "no-date",
   "title": "Having an Endoscopic Ultrasound and Fine Needle Aspiration / Biopsy"
  },
+ "having-an-ercp-pre-procedure": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "4d8b6cf14cb37a7d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Investigation of your gut: an endoscopic retrograde cholangio pancreatogram (ERCP)"
+ },
  "having-an-image-guided-lung-biopsy": {
   "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "cb9f38f41e1fd8df",
@@ -699,6 +713,62 @@
   "status": "no-date",
   "title": "Heart murmurs in children"
  },
+ "helping-you-become-pregnant-by-ovulation-induction": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "00b416aa3e8b3983",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Helping you become pregnant by ovulation induction"
+ },
+ "home-diuretic-service-subcutaneous-furosemide": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "0cff52c6e1c83d06",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Home diuretic service – subcutaneous furosemide"
+ },
+ "home-first-service-what-to-expect-after-discharge-from-hospital": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "8aae17dbedfbd50d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Home First service - what to expect after discharge from hospital"
+ },
+ "hormone-coil-mirena-levosert": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "15bb6d28b92ff552",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hormone coil (Mirena/Levosert)"
+ },
+ "how-to-comfort-my-baby": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "72c6b6c322010f9f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to comfort my baby"
+ },
+ "how-to-inject-dalteparin-at-home": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "b2cfc396d096b27e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to inject Dalteparin at home"
+ },
+ "how-to-take-moviprep": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "c17b432e85b87854",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to take Moviprep"
+ },
+ "how-to-take-plenvu": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "d949d6e4bd04dbd6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to take Plenvu bowel preparation before a colonoscopy"
+ },
  "how-to-treat-your-wheeze-asthma": {
   "checked": "2026-09-13T02:43:15+01:00",
   "content_hash": "638fbf84760890fe",
@@ -706,11 +776,284 @@
   "status": "no-date",
   "title": "Asthma and wheeze: advice for when you leave hospital"
  },
+ "how-to-use-a-home-enema": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "dc0b5f6659fa620c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to use a home enema"
+ },
+ "how-to-use-your-ear-drops": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "0c49101f22bbc839",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to use your ear drops"
+ },
+ "how-to-use-your-eye-drops": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "34953ece4006b04b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to use your eye drops"
+ },
+ "how-to-use-your-eye-ointment": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "3a2d1997dadff453",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to use your eye ointment"
+ },
+ "how-to-use-your-nasal-spray": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "1d648a40afbda535",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to use your nasal spray"
+ },
+ "how-to-use-your-nose-drops": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "ee9e27c6430dafac",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to use your nose drops"
+ },
+ "how-to-use-your-pessaries": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "6d84adff848720bd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to use your pessaries"
+ },
+ "how-to-use-your-suppositories": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "113d81c74d0804aa",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to use your suppositories"
+ },
  "human-breast-milk-fortifier": {
   "checked": "2026-09-14T02:33:36+01:00",
   "content_hash": "d6f7fce5bf99ddc3",
   "hash_version": 2,
   "status": "no-date",
   "title": "Breastfeeding at home with Breast Milk Fortifier (BMF)"
+ },
+ "hystero-contrast-sonography-hycosy": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "d5f57a3224200f5b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hystero Contrast Sonography (HyCoSy) test"
+ },
+ "hysteroscopic-rollerball-ablation": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "c78bf9f97be30e3b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hysteroscopic rollerball ablation"
+ },
+ "hysteroscopy-advice-following-an-outpatient-hysteroscopy-procedure": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "f2a72101865d86b3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hysteroscopy: advice following an outpatient hysteroscopy procedure"
+ },
+ "hysteroscopy-in-an-outpatient-clinic": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "91bc8110423fc3a3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hysteroscopy in an outpatient clinic"
+ },
+ "implantable-loop-recorder-ilr": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "96838ae3487595ee",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Implantable loop recorder (ILR)"
+ },
+ "in-vitro-fertilisation-ivf": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "9d144843ebd45d19",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "In-vitro fertilisation (IVF)"
+ },
+ "infection-screening-for-newborn-babies": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "07a835681784b50a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Infection screening for newborn babies"
+ },
+ "inguinal-hernia-repair": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "18c8159a8bab2e9b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Inguinal hernia repair"
+ },
+ "intravenous-methylprednisolone-for-patients-with-thyroid-eye-disease-ted": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "747136d8ad35087b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Intravenous methylprednisolone for patients with thyroid eye disease (TED)"
+ },
+ "irritable-bowel-syndrome-ibs": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "6d7b7559739d27a4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Irritable bowel syndrome (IBS)"
+ },
+ "journey-of-a-pre-term-baby": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "7513616a4a606f69",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Journey of a pre-term baby"
+ },
+ "laparoscopic-hysterectomy-and-assisted-vaginal-hysterectomy": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "53f31fddc89f1c14",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laparoscopic hysterectomy and assisted vaginal hysterectomy"
+ },
+ "laparoscopic-sterilisation": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "8ea01f5646e0c7a6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laparoscopic sterilisation"
+ },
+ "leg-casts-and-blood-clots-reducing-the-risks": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "019d4cf7d2425be3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Leg casts and blood clots, reducing the risks"
+ },
+ "linezolid-information-what-you-need-to-know-about-monitoring-for-side-effects": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "fd225edecab25c56",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Linezolid information: what you need to know about monitoring for side effects"
+ },
+ "liver-disease-cirrhosis-diet-sheet": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "5a9d74584cad7da2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Liver disease (cirrhosis) diet sheet"
+ },
+ "living-with-and-beyond-cancer": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "f1e2c4d9291394b4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Living with and beyond cancer"
+ },
+ "living-with-breathlessness": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "816764b5cb5945a4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Living with breathlessness"
+ },
+ "long-covid": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "70efa67cc82c6b0c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Long Covid"
+ },
+ "looking-after-your-peripherally-inserted-central-catheter-picc": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "528940fb9dacd718",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Looking after your peripherally inserted central catheter (PICC)"
+ },
+ "loop-diathermy-treatment-to-the-cervix-post-procedure-advice": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "c3bff167c67c0b88",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Loop diathermy treatment to the cervix - post procedure advice"
+ },
+ "low-fibre-diet-for-a-flexible-sigmoidoscopy-or-colonoscopy": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "e9725dae609a14f5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Low fibre diet for a Flexible Sigmoidoscopy or Colonoscopy"
+ },
+ "magseed-localisation": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "0f2ee42665bbc761",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Magseed localisation"
+ },
+ "making-changes-to-insulin-doses-ten-top-tips": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "6b7615acb712bd51",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Making changes to insulin doses: ten top tips"
+ },
+ "mammographic-surveillance-assessment": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "79dcf1ec0b9077d3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mammographic surveillance assessment"
+ },
+ "managing-pain-after-day-surgery": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "d885d791b76c5d1e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Managing pain after day surgery"
+ },
+ "medication-advice-for-those-preparing-for-a-hospital-admission-who-are-living-with-parkinsons": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "252998059f5f8dc8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Medication advice for those preparing for a hospital admission who are living with Parkinson’s"
+ },
+ "medicine-aids-to-help-you-manage-your-medicines": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "01adff43eb85dbaa",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Medicine aids - to help you manage your medicines"
+ },
+ "medicines-reminder-tick-chart": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "0519538ab4baf72c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Medicines reminder tick chart"
+ },
+ "medicines-reminder-tick-chart-2": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "3351a1bd7b8badcd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Medicines reminder tick chart 2"
+ },
+ "outpatient-hysteroscopy-advice-for-patients-on-warfarin": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "ec877b30a15b6957",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hysteroscopy outpatients: advice for patients on Warfarin"
  }
 }

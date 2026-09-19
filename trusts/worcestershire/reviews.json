@@ -1094,8 +1094,9 @@
   "title": "Diagnostic Laparoscopy (with or without minor procedures)"
  },
  "diarrhoea-and-vomiting-in-children-waht-pi-2108": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "5863ecc44fa9c938",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "f6995d85f3d88825",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Diarrhoea and vomiting in Children"
  },
@@ -1107,26 +1108,30 @@
   "title": "Diarrhoea and Vomiting"
  },
  "dietary-advice-for-patients-receiving-radiotherapy-to-the-pelvis": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "4f53803c15f2d9c6",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "1b808781613f8d6b",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Dietary advice for patients receiving radiotherapy to the pelvis"
  },
  "dietary-information-for-pregnant-in-patients-with-diabetes": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "ef4538399b0551f1",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "29ba8e15c7309db8",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Dietary Information for pregnant in-patients with Diabetes"
  },
  "digital-medical-retina-diagnostic-clinic-dmrd-clinic": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "c1c58216f415dd85",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "70770a3d84202a21",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Digital Medical Retina Diagnostic Clinic (DMRD Clinic)"
  },
  "direct-brow-lift-operation-correction-of-brow-ptosis": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "ffdc46578807edd3",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "5adc6028c52a7e41",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Direct Brow Lift Operation (Correction of brow ptosis)"
  },
@@ -1137,20 +1142,23 @@
   "title": "Discharge Advice: Electrophysiological Studies and Catheter Ablation"
  },
  "discharge-advice-following-negative-oral-food-challenge-or-supervised-feed": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "0fa597a92e1bb5e6",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "1b9a93645f950370",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Discharge advice following a negative Oral Food Challenge or Supervised Feed"
  },
  "discharge-advice-following-positive-oral-food-challenge-or-supervised-feed": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "9a8c8c6e55a2f425",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "5dbe9ef926ce9976",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Discharge advice following a positive Oral Food Challenge or Supervised Feed"
  },
  "discharge-advice-following-your-surgery": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "348f6525dabefbd7",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "4d4f1288bbc7e2f0",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Discharge advice following your surgery – gynaecology"
  },
@@ -1161,14 +1169,16 @@
   "title": "Going Home with Opioid Painkillers"
  },
  "discharge-post-bariatric-surgery": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "ee080764b41fd3dd",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "0cc0bb53d593d4be",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Discharge post bariatric surgery"
  },
  "disease-modifying-anti-rheumatic-drugs-dmards-and-blood-test-monitoring-explained": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "7261cb81f707c259",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "8110fd7b2e4b339c",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Disease Modifying Anti Rheumatic Drugs (DMARDS) and Blood Test Monitoring Explained"
  },
@@ -1179,44 +1189,51 @@
   "title": "Disposal of Sharps Bins"
  },
  "donating-breast-milk-after-loss": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "cc73cfc213822eb0",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "ba0083ee04197813",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Donating Breast Milk after Loss"
  },
  "dont-let-diabetes-steal-your-steps-waht-pi-2309": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "5c5eb4e919a31511",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "bc5e90c36a8ec298",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Don’t Let Diabetes Steal Your Steps"
  },
  "drug-challenge-test": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "0ac551edc2871ef7",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "f478aa3df4477684",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Drug Challenge Test"
  },
  "drugs-and-alcohol-waht-pi-2237": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "d15269b94b01abfa",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "468422087dc76469",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Drugs and Alcohol"
  },
  "dry-eye-and-blepharitis-treatment-guide": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "bde623033a911375",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "d93bc92e76828844",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Dry Eye and Blepharitis – Treatment Guide"
  },
  "dupuytrens-contracture-surgery": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "057436ed627b6923",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "0d635e4e6111c363",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Dupuytren’s Contracture Surgery"
  },
  "dysarthria": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "6c4d1efe291448f3",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "7200a47b386d582b",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Dysarthria"
  },
@@ -1227,8 +1244,9 @@
   "title": "Dysphagia Passport"
  },
  "early-pregnancy-assessment-unit-epau": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "042d639acdb108b4",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "022150289e022962",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Early Pregnancy Assessment Unit (EPAU)"
  },
@@ -1239,68 +1257,79 @@
   "title": "Easy to Chew – Level 7"
  },
  "eat-all-through-eat-radiation-treatment": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "32dd3b3a0e02415d",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "6f0006d58d84c1a7",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Eat All Through (EAT) Radiation Treatment"
  },
  "eating-when-it-is-more-difficult": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "45de1bd9959598ac",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "b7d39ef12781a643",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Eating when it is more difficult"
  },
  "ebus-ultrasound": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "6ea7b4cc98015b11",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "9fb2e4b952d1c06d",
+  "hash_version": 2,
   "status": "no-date",
   "title": "EBUS Ultrasound"
  },
  "eeg-electroencephalogram-easy-read": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "4391b41728f95324",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "de6180cb93a1aa52",
+  "hash_version": 2,
   "status": "no-date",
   "title": "EEG easy read"
  },
  "electrolarynx-training-programme": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "c434abfcaac006f3",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "132cb218610f6cb8",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Electrolarynx Training Programme"
  },
  "electrophysiological-study-and-atrial-flutter-ablation": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "9cea58b497d3d0bc",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "082b97c453e5f3fb",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Electrophysiological study and atrial flutter ablation"
  },
  "electrophysiological-study-and-supraventricular-tachycardia-ablation": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "2d951e91653c8754",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "a9f181a9a4798f25",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Electrophysiological study and supraventricular tachycardia ablation"
  },
  "emergency-department-worcestershire-royal-hospital": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "6cd9f6c7ec806c4b",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "e2656e2f86b9e297",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Emergency Department – Worcestershire Royal Hospital"
  },
  "emergency-gynaecology-assessment-unit-egau": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "4ff62f4efc2d4a07",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "4196dc4fb189e0d2",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Emergency Gynaecology Assessment Unit (EGAU)"
  },
  "emergency-treatment-of-food-protein-induced-enterocolitis-fpies-reactions": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "1e10b201c7dda5eb",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "0ae09f9d5976068b",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Emergency Treatment of Food Protein induced Enterocolitis (FPIES) Reactions"
  },
  "endometrial-ablation": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "64cfa02e13907deb",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "c26fc29968eb089d",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Endometrial Ablation"
  },
@@ -4273,8 +4302,9 @@
   "title": "Talc Pleurodesis"
  },
  "taste-for-pleasure": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "47ddefe824efe1b0",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "d8e885872001071f",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Eating and Drinking in the Last hours to Days of Life, including Taste for Pleasure"
  },
@@ -4392,6 +4422,13 @@
   "content_hash": "1503bcfb4a6ca274",
   "status": "no-date",
   "title": "Totally Implanted Central Venous Access Device (Port-a-Cath)"
+ },
+ "transferring-your-allergy-care-a-guide-for-young-people-and-their-families-and-carers": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "da720aa0564fa7b2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Transferring Your Allergy Care: A guide for young people and their families and carers"
  },
  "transition-to-adult-hearing-services": {
   "checked": "2026-09-05T02:31:59+01:00",
@@ -4788,8 +4825,9 @@
   "title": "Treatment of a Wrist Buckle Fracture and Discharge Information"
  },
  "wrist-fracture": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "933f9a7d3ed271f5",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "a19549d11ff149e5",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Distal Radius Fracture – A Rehabilitation Guide"
  },
