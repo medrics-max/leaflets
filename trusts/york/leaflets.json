@@ -1465,11 +1465,6 @@
     "slug": "greenstick-fracture-soft-cast-no-fu"
   },
   {
-    "title": "Gut Directed Hypnotherapy For Brain Gut Axis disorders",
-    "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=6881",
-    "slug": "gut-directed-hypnotherapy-for-brain-gut-axis-disorders"
-  },
-  {
     "title": "Gynaecology - Patient Initiated Follow Up (PIFU) v1 final",
     "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=8594",
     "slug": "gynaecology-patient-initiated-follow-up-pifu-v1-final"
@@ -1970,11 +1965,6 @@
     "slug": "iron-infusions"
   },
   {
-    "title": "Irritable Bowel Syndrome (IBS)",
-    "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=6880",
-    "slug": "irritable-bowel-syndrome-ibs"
-  },
-  {
     "title": "Jaundice in Newborn Babies",
     "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=3297",
     "slug": "jaundice-in-newborn-babies"
@@ -2058,6 +2048,11 @@
     "title": "Localisation Seed Insertion",
     "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=8185",
     "slug": "localisation-seed-insertion"
+  },
+  {
+    "title": "Long Covid and Post Viral Fatigue Respiratory Physiotherapy Service (PIFU)",
+    "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=8749",
+    "slug": "long-covid-and-post-viral-fatigue-respiratory-physiotherapy-service-pifu"
   },
   {
     "title": "Long-term follow up for patients previously treated for Hodgkin Lymphoma",
@@ -3018,6 +3013,11 @@
     "title": "Renogram for children (Children age one month – 11 years old)",
     "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=7247",
     "slug": "renogram-for-children-children-age-one-month-11-years-old"
+  },
+  {
+    "title": "Respiratory Physiotherapy Outpatient Service (PIFU)",
+    "url": "https://www.yorkhospitals.nhs.uk/seecmsfile/?id=8748",
+    "slug": "respiratory-physiotherapy-outpatient-service-pifu"
   },
   {
     "title": "Retinal Laser in Diabetic Retinopathy",

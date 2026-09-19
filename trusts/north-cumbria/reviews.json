@@ -196,56 +196,65 @@
   "title": "Easy read : Ophthalmology: Eye check"
  },
  "End-of-life-Taste-for-pleasure": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "da39ae110d970df4",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "20992c554816a892",
+  "hash_version": 2,
   "status": "no-date",
   "title": "End of life: Taste for pleasure"
  },
  "Endoscopy-Colonoscopy": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "9908d3292d6e22ca",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "f24626706f58468b",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Endoscopy: Colonoscopy"
  },
  "Endoscopy-Combined-Gastroscopy-Oesophago-gastro-duodenoscopy-OGD-and-Colonoscopy": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "173cda17e48110ce",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "1f988a3593e35924",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Endoscopy: Combined - Gastroscopy Oesophago-gastro duodenoscopy (OGD) and Colonoscopy"
  },
  "Endoscopy-ERC-Endoscopic-Retrograde-Cholangiopancreatography": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "73c1486af3f5a1e9",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "d6ab6a3620a44495",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Endoscopy: ERCP (Endoscopic Retrograde Cholangiopancreatography)"
  },
  "Endoscopy-Flexible-Sigmoidoscopy-Enema-Preparation": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "1fda4d868e7f7470",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "e39b4e25f3b87f8c",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Endoscopy: Flexible Sigmoidoscopy (Enema Preparation)"
  },
  "Endoscopy-Gastroscopy-Oesophago-gastro-duodenoscopy-OGD": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "769778b4f471d860",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "36069cde1ccb1a1e",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Endoscopy: Gastroscopy - Oesophago-gastro duodenoscopy (OGD)"
  },
  "Endoscopy-Low-residue-diet": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "af4dfaea9c7a00e8",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "60a69269081f8c56",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Endoscopy: Low residue diet"
  },
  "Endoscopy-Moviprep-afternoon": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "d56b48f0dab66fe7",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "42ed365405acd92f",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Endoscopy: Moviprep - afternoon"
  },
  "Endoscopy-Moviprep-morning": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "c69b34d94539af5b",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "b3a35e0e77cb27d9",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Endoscopy: Moviprep- morning"
  },
@@ -262,14 +271,16 @@
   "title": "Nuclear Medicine: Gastric Emptying Scan"
  },
  "General-surgery-Anal-Fissures": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "aeb2317de435702e",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "9a90755844c79468",
+  "hash_version": 2,
   "status": "no-date",
   "title": "General surgery: Anal fissures"
  },
  "General-surgery-Haemorrhoids": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "01ac5bc820cf7dc5",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "8732f1d0594c57cd",
+  "hash_version": 2,
   "status": "no-date",
   "title": "General surgery: Haemorrhoids"
  },
@@ -1076,56 +1087,65 @@
   "title": "Easy Read: Patient initiated follow-up (PIFU)"
  },
  "ent-anosmia": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "de612802900261b1",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "9fddc3e2646bd39f",
+  "hash_version": 2,
   "status": "no-date",
   "title": "ENT: Anosmia (Loss of smell)"
  },
  "ent-benign-paroxysmal-positional-vertigo": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "36ad108da9ea14d2",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "3f1c1b621d2c4635",
+  "hash_version": 2,
   "status": "no-date",
   "title": "ENT: Benign Paroxysmal Positional Vertigo"
  },
  "ent-betnovate-lotion": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "2f185b769075dd38",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "708800c1ce609589",
+  "hash_version": 2,
   "status": "no-date",
   "title": "ENT: Betnovate Lotion"
  },
  "ent-brandt-daroff-exercises": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "ed52810a607de7d4",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "5db1850603a9a8b2",
+  "hash_version": 2,
   "status": "no-date",
   "title": "ENT: Brandt Daroff exercises"
  },
  "ent-douching": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "58e9d8eb6b8e8fad",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "cd1836d8dccbc8f9",
+  "hash_version": 2,
   "status": "no-date",
   "title": "ENT: Douching"
  },
  "ent-eardrops": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "560afdf810a52297",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "78b98e1589aeea44",
+  "hash_version": 2,
   "status": "no-date",
   "title": "ENT: Eardrops"
  },
  "ent-exercises-regain-balance": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "e0f29aa0ed1be5ed",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "a31aebe3cdbfdbb6",
+  "hash_version": 2,
   "status": "no-date",
   "title": "ENT: Exercises to regain balance"
  },
  "ent-laryngopharyngeal-reflux": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "212b222a81a4fe94",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "304640b71e72d9a5",
+  "hash_version": 2,
   "status": "no-date",
   "title": "ENT: Laryngopharyngeal Reflux – LPR"
  },
  "epidural-blood-patch": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "a1de4ba918af17d7",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "be8b0770aebdb143",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Epidural: Blood patch"
  },
@@ -1136,40 +1156,53 @@
   "title": "Maternity: Fetal heart monitoring during labour"
  },
  "fibroscan-ultrasound": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "8ab5b9cc305e90dc",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "3f5e2e21ca8e380e",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Fibroscan: Ultrasound"
  },
  "freedom-information": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "71a20da5a5d6ca90",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "597671ec0e47fb86",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Freedom of information"
  },
  "general-data-protection-regulation-uk": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "68c26354f75e6e5d",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "23a4d5b13433cfd8",
+  "hash_version": 2,
   "status": "no-date",
   "title": "General Data Protection Regulation UK"
  },
  "going-from-hospital-to-a-temporary-care-home": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "1099b855b271cc3b",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "2c437893e416f972",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Going from hospital to a temporary care home"
  },
  "gynaecology-active-surveillance-cervical-intraepithelial-neoplasia": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "a8a7a9d2383eaef2",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "97076623e0331317",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Gynaecology: Active Surveillance of Cervical Intraepithelial Neoplasia (CIN2)"
  },
  "gynaecology-borderline-ovarian-tumours": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "6b7b8912ffe6e815",
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "95b6086099cf3fee",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Gynaecology: Borderline ovarian tumours"
+ },
+ "gynaecology-cervical-screening-after-hysterectomy": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "ed1e4cdcac09f63f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gynaecology: Cervical screening after hysterectomy"
  },
  "gynaecology-cervical-screening-test-results": {
   "checked": "2026-08-16T02:30:43+01:00",
@@ -1243,17 +1276,25 @@
   "status": "no-date",
   "title": "Gynaecology: Oncology"
  },
+ "gynaecology-rapid-access-clinic": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "1c1c811b4bcb1ec3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gynaecology: Rapid Access Clinic"
+ },
  "gynaecology-reviewing-cervical-screening-history": {
   "checked": "2026-08-16T02:30:43+01:00",
   "content_hash": "a1473b8334990839",
   "status": "no-date",
   "title": "Gynaecology: Cervical Screening History"
  },
- "gynaecology-smear-tests-after-hysterectomy": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "5b7e232247bddb5f",
+ "gynaecology-the-use-of-dermovate": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "60c2d47707f9de5c",
+  "hash_version": 2,
   "status": "no-date",
-  "title": "Gynaecology: Smear tests after hysterectomy"
+  "title": "Gynaecology: The Use of Dermovate"
  },
  "leg-ulcer-care-your-skin": {
   "checked": "2026-08-16T02:30:43+01:00",
@@ -1682,14 +1723,16 @@
   "title": "Wound care"
  },
  "patient-information-template-4": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "6a5e66195d8e5ccb",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "9556dc0bbe7eb8ef",
+  "hash_version": 2,
   "status": "no-date",
   "title": "End of life: When someone is dying"
  },
  "patient-information-template-5": {
-  "checked": "2026-08-15T02:30:29+01:00",
-  "content_hash": "a783b51cfec8db4d",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "f75c2467251772b4",
+  "hash_version": 2,
   "status": "no-date",
   "title": "End of life: Information for bereaved relatives"
  },
@@ -1882,6 +1925,13 @@
   "content_hash": "3324fcdee40da464",
   "status": "no-date",
   "title": "Urology: Eliminating bladder Irritants"
+ },
+ "vaping-and-the-effects-on-fertility": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "532dbc40ad6d380f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gynaecology: Vaping and the Effects on Fertility"
  },
  "what-is-abi": {
   "checked": "2026-09-11T02:31:18+01:00",

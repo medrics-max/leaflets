@@ -1053,11 +1053,12 @@ function trustGated(t) {
 function tvRefresh() {
   if (TRUST && (trustGated(TRUST) ? TRUST.id : "") !== TV_GATED_FOR) load();
 }
-function renderTrustGate() {
+// The block that asks for the NHS work email. Since 2026-09-19 it never
+// replaces the library — it renders INSIDE the follow-up card, because the
+// follow-up (the unit's diary) is the only thing the binding gates.
+function tvBlockHtml() {
   const st = TV.access[TRUST.id] || {};
   const name = esc(TRUST.short_name || TRUST.name);
-  $("search").disabled = true;
-  $("count").textContent = "";
   const inner = st.state === "pending_approval"
     ? `<p><strong>Email checked — waiting for ${name} approval.</strong> An @nhs.net address doesn't show which trust you work for, so medrics confirms it once (reference ${esc(st.approval_id || "")}). You can use the national library meanwhile.</p>`
     : `<p><strong>${name} mode needs a verified NHS work email.</strong> ${st.state === "expired" ? "Your check has expired — verify again. " : ""}We email you a 6-digit code (and a link), valid for 20 minutes. We keep a scrambled form of the address, never the address itself.</p>
@@ -1068,15 +1069,22 @@ function renderTrustGate() {
         ? `<form id="tvcodeform" class="tvform"><label for="tvcode">6-digit code from the email</label>
            <input id="tvcode" type="text" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" placeholder="123456" required>
            <button type="submit" class="primary" id="tvcodego">Confirm code</button></form>` : "");
-  $("results").innerHTML = `<li class="hint tvgate">${inner}` +
-    (TV.note ? `<p class="schednote" role="alert">${esc(TV.note)}</p>` : "") +
-    `<p><button type="button" class="link" id="tvlib">Continue with the national library</button></p></li>`;
+  return `<div class="tvgate">${inner}` +
+    (TV.note ? `<p class="schednote" role="alert">${esc(TV.note)}</p>` : "") + `</div>`;
+}
+
+// wire whichever of the two forms the block rendered
+function tvWire(focusCode) {
   const f = $("tvform");
   if (f) f.onsubmit = e => { e.preventDefault(); tvStart(($("tvemail").value || "").trim()); };
   const cf = $("tvcodeform");
-  if (cf) { cf.onsubmit = e => { e.preventDefault(); tvCompleteCode(($("tvcode").value || "").replace(/\D/g, "")); }; $("tvcode").focus(); }
-  $("tvlib").onclick = () => { TV.note = ""; pickTrust(LIBRARY.id); };
+  if (cf) { cf.onsubmit = e => { e.preventDefault(); tvCompleteCode(($("tvcode").value || "").replace(/\D/g, "")); };
+            if (focusCode) $("tvcode").focus(); }
 }
+
+// kept as the single "re-draw the verification surface" call for tvStart /
+// tvCompleteCode: that surface is now the follow-up card
+function renderTrustGate() { renderFollowup(); }
 async function tvStart(email) {
   const tok = schedToken();
   if (!tok) { showCheckin(); return; }
@@ -1477,8 +1485,13 @@ async function load() {
   renderSelected(); $("out").innerHTML = ""; $("results").innerHTML = "";
   $("count").textContent = "Loading…";
   $("search").disabled = false;
+  // The LEAFLETS ARE OPEN (2026-09-19). These pages are public on the trust's
+  // own website and the picker only points at them, so any signed-in clinician
+  // may read and hand out any of them. What needs the NHS work-email binding is
+  // the DISCHARGE FOLLOW-UP — the unit's diary — and that refusal now lives on
+  // the follow-up card itself, at the button, saying why, instead of replacing
+  // the whole library with a verification form.
   TV_GATED_FOR = trustGated(TRUST) ? TRUST.id : "";
-  if (TV_GATED_FOR) { renderTrustGate(); return; }   // P11-NHS3: a page use rule over public files
   const sources = sourcesFor(TRUST);
   // no-cache: a clinician must never search against a stale cached copy after
   // a correction is published (revalidates via ETag, so unchanged files cost a
@@ -2158,6 +2171,22 @@ function fuSuggested() {
 function renderFollowup() {
   const el = $("followup");
   if (!el) return;
+  // THE ONE THING THE TRUST BINDING GATES (2026-09-19). The leaflets above are
+  // public and open to any signed-in clinician; booking a patient into this
+  // trust's unit is not. Say so here, at the button, and offer the check —
+  // never by hiding the library. The pick is cleared rather than hidden: a
+  // destination left in memory could otherwise ride into a QR. Erring closed on
+  // booking is deliberate.
+  if (TRUST && trustGated(TRUST)) {
+    fuPick = null; schedRelease();
+    const name = esc(TRUST.short_name || TRUST.name);
+    el.innerHTML = `<span class="rlabel">📅 Coming back for a follow-up?</span>` +
+      `<div class="fupanel"><p class="schednote">🔒 Booking a ${name} follow-up needs your NHS work email checked once. ` +
+      `The leaflets are unaffected — pick them and generate the patient's QR as normal.</p>` +
+      tvBlockHtml() + `</div>`;
+    tvWire(!!(TV.challenge && TV.challenge.trust === TRUST.id));
+    return;
+  }
   if (!FOLLOWUPS.length) { el.innerHTML = ""; return; }
   if (fuPick && !FOLLOWUPS.some(d => d.id === fuPick.id)) fuPick = null;
   const sugg = fuPick ? [] : fuSuggested();
@@ -3008,11 +3037,13 @@ async function generate() {
     const why = (typeof SCHED_NOTE === "string" && SCHED_NOTE) ? SCHED_NOTE : "The follow-up isn't ready yet — see the follow-up section above.";
     const out = $("out");
     if (out) {
-      out.innerHTML = `<p class="gen-blocked" role="alert"><strong>Not ready to show the patient yet.</strong> ${esc(why)}</p>`;
-      out.scrollIntoView({ block: "nearest" });
+      // (Codex review 2026-09-19) the message must be what the clinician LANDS ON — an earlier
+      // version scrolled the follow-up panel instead and left the alert below the fold on a phone,
+      // which reads as "nothing happened" all over again.
+      out.innerHTML = `<p class="gen-blocked" role="alert" tabindex="-1"><strong>Not ready to show the patient yet.</strong> ${esc(why)}</p>`;
+      const alert = out.querySelector(".gen-blocked");
+      if (alert) { alert.scrollIntoView({ block: "center" }); try { alert.focus({ preventScroll: true }); } catch (e) {} }
     }
-    const panel = document.getElementById("fupanel") || document.getElementById("followup");
-    if (panel) panel.scrollIntoView({ block: "center", behavior: "smooth" });
     return;
   }
   // (2026-08-08 review) do NOT set out.dataset.fresh here: nothing in

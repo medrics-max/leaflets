@@ -896,8 +896,8 @@
   },
   {
     "title": "Colonoscopy Procedure",
-    "url": "https://www.mkuh.nhs.uk/patient-information-leaflet/colonoscopy-procedure",
-    "slug": "colonoscopy-procedure"
+    "url": "https://www.mkuh.nhs.uk/patient-information-leaflet/colonoscopy-procedure-2",
+    "slug": "colonoscopy-procedure-2"
   },
   {
     "title": "Colposcopy Treatment (Loop Excision) Your Aftercare",
@@ -1213,6 +1213,16 @@
     "title": "Endoscopic Mucosal Resection Procedure",
     "url": "https://www.mkuh.nhs.uk/patient-information-leaflet/endoscopic-mucosal-resection-procedure",
     "slug": "endoscopic-mucosal-resection-procedure"
+  },
+  {
+    "title": "Endoscopic Mucosal Resection Procedure (EMR)",
+    "url": "https://www.mkuh.nhs.uk/patient-information-leaflet/endoscopic-mucosal-resection-procedure-emr",
+    "slug": "endoscopic-mucosal-resection-procedure-emr"
+  },
+  {
+    "title": "Endoscopic Retrograde Cholangiopancreatography (ERCP)",
+    "url": "https://www.mkuh.nhs.uk/patient-information-leaflet/endoscopic-retrograde-cholangiopancreatography-ercp",
+    "slug": "endoscopic-retrograde-cholangiopancreatography-ercp"
   },
   {
     "title": "Endoscopic Ultrasound Scan (EUS)",

@@ -522,8 +522,9 @@
   "title": "Adapting to Monocular Vision (using the sight from one eye only)"
  },
  "administration-of-octenisan-universal-decolonisation-treatment": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "cd5e8d4f11081409",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "3ab74ca58975b12f",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Administration of Octenisan Universal Decolonisation Treatment"
  },
@@ -762,26 +763,30 @@
   "title": "Anticholinergic Burden (ACB)"
  },
  "apcp-calcaneal-apophysitis-severs": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "0dcc6a5753c7bd64",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "34cda94794551bc7",
+  "hash_version": 2,
   "status": "no-date",
   "title": "APCP Calcaneal Apophysitis / Severs"
  },
  "apcp-information-flat-feet": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "d8a8a97cca25489d",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "ce39e5de03c5b876",
+  "hash_version": 2,
   "status": "no-date",
   "title": "APCP Information – Flat Feet"
  },
  "apcp-information-intoeing-gait": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "ddb78c0e92597241",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "0fffdb08afb1a78a",
+  "hash_version": 2,
   "status": "no-date",
   "title": "APCP Information – Intoeing Gait"
  },
  "apcp-information-osgood-schlatter-traction-apophysitis": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "035baa938a3c186a",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "bb83bc635c00af05",
+  "hash_version": 2,
   "status": "no-date",
   "title": "APCP Information – Osgood Schlatter / Traction Apophysitis"
  },
@@ -2123,12 +2128,6 @@
   "status": "no-date",
   "title": "Exercises to Treat your Subacromial Shoulder Pain"
  },
- "expect-botox-injection-larynx": {
-  "checked": "2026-09-05T02:31:59+01:00",
-  "content_hash": "198d2db2208f3215",
-  "status": "no-date",
-  "title": "What to Expect After a Botox Injection to the Larynx"
- },
  "expiratory-muscle-strength-training-emst": {
   "checked": "2026-08-28T02:32:08+01:00",
   "content_hash": "4f7bdc5878050a4b",
@@ -2668,12 +2667,6 @@
   "status": "no-date",
   "title": "Hand Therapy – Phalangeal fractures of the fingers or thumb"
  },
- "handy-vans-staying-independent-home": {
-  "checked": "2026-08-30T02:30:57+01:00",
-  "content_hash": "b294804ddec4028e",
-  "status": "no-date",
-  "title": "Handy Vans – Staying independent in your own home"
- },
  "happens-gynaecology-tests": {
   "checked": "2026-09-05T02:31:59+01:00",
   "content_hash": "77743c0927637743",
@@ -2897,8 +2890,9 @@
   "title": "Hydrogen Breath Test"
  },
  "hygiene-and-water-safety": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "7d2083ec2549c698",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "c701426cc0e45c6d",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Hygiene and Water Safety"
  },
@@ -4147,8 +4141,9 @@
   "title": "Pain Relief Medication While in Hospital"
  },
  "pancreatic-enzyme-replacement-therapy": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "d7de6932dfddfe44",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "f695d935b5f73de1",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Pancreatic Enzyme Replacement Therapy"
  },
@@ -4525,8 +4520,9 @@
   "title": "Pressure Ulcers and Sores – Information for Carers"
  },
  "preterm-birth-patient-information-leaflet": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "30e5ffb820dcba53",
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "ab61f7a2ea49487f",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Preterm Birth – Patient Information Leaflet"
  },

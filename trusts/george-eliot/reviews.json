@@ -73,6 +73,13 @@
   "status": "no-date",
   "title": "Ankle fracture"
  },
+ "armed-forces-support": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "a99914e8389a5f54",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Support for the Armed Forces"
+ },
  "artisan-return-sport": {
   "checked": "2026-09-13T02:43:15+01:00",
   "content_hash": "4fe68f45f3a5470d",
@@ -155,6 +162,13 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Call for Concern Martha's Rule"
+ },
+ "calming-hand": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "aba0aea7dea8afb5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "The Calming Hand"
  },
  "carbapenemase-producing-enterobacteriaceae-cpe": {
   "checked": "2026-09-13T02:43:15+01:00",
@@ -580,6 +594,13 @@
   "status": "no-date",
   "title": "Intravenous Iron Infusions"
  },
+ "latent-phase-labour": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "c02543352c358494",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "The Early Stages/The Latent Phase of Labour"
+ },
  "long-term-oxygen-therapy-ltot-assessment": {
   "checked": "2026-09-16T02:37:40+01:00",
   "content_hash": "0b584e089295b481",
@@ -750,5 +771,268 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Pre-Labour Rupture of Membranes after 37 Weeks of Pregnancy"
+ },
+ "pre-procedure-pregnancy-tests": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "15bcce52e51cf05f",
+  "hash_version": 2,
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Pre-Procedure pregnancy tests"
+ },
+ "pregabalin-treatment-pain": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "50d91385291fdd82",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pregabalin for the Treatment of Pain"
+ },
+ "privacy-notice": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "5d313ff28767527d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Privacy Notice"
+ },
+ "privacy-notice-young-people": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "2cca9f08d2abe919",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Privacy Notice for Young People"
+ },
+ "pursed-lip-breathing": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "802aef456c024a4b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pursed Lip Breathing"
+ },
+ "reducing-risk-blood-clots-while-you-are-hospital-and-after-you-have-been-discharged-hospital": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "b386cdf81363b20d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Reducing the risk of Blood Clots while you are in hospital and after you have been discharged from hospital"
+ },
+ "reducing-your-risk-blood-clot-while-your-leg-plaster-cast-or-immobilised": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "5bafd643296365f5",
+  "hash_version": 2,
+  "review_due": "2026-06",
+  "review_due_text": "June 2026",
+  "status": "ok",
+  "title": "Reducing your risk of a blood clot while your leg is in a plaster cast or is immobilised"
+ },
+ "respect": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "2b9cef2296e8acf0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "ReSPECT"
+ },
+ "respiratory-syncytial-virus-rsv": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "0a79edbd45e3ab3b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Respiratory Syncytial Virus (RSV)"
+ },
+ "sacroiliac-joint-injection-treatment-pain": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "1aeabe05f77d7008",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sacroiliac Joint Injection for the Treatment of Pain"
+ },
+ "seven-steps-good-inhaler-technique": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "68ecec024bbf099c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Seven Steps to Good Inhaler Technique"
+ },
+ "shin-splints": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "932f031f61844560",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Shin splints"
+ },
+ "six-minute-walk-test-6mwt": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "8edeca3fa4d7f285",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Six minute walk test (6MWT)"
+ },
+ "skin-prick-allergy-test": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "dfe577c3c6db0a7f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Skin prick allergy test"
+ },
+ "special-care-baby-unit-consent-parentcarer-information": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "c58ac7fe6841029d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Special Care Baby Unit Consent: Parent/Carer information"
+ },
+ "spinal-bracing-inpatient-guide": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "2ef8674914af08b2",
+  "hash_version": 2,
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Spinal bracing: Inpatient guide"
+ },
+ "stay-peachy-keep-your-skin-peachy-perfect": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "84053d7f9e8682cd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Stay Peachy! Keep your skin Peachy Perfect"
+ },
+ "thumb-extensor-tendon-repair": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "1d5892c3724dd235",
+  "hash_version": 2,
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Thumb extensor tendon repair"
+ },
+ "tonsillitis-parentcarer-discharge-information": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "e08ce2adf0b1bfc1",
+  "hash_version": 2,
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Tonsillitis: Parent/Carer discharge information"
+ },
+ "transforaminal-epidural-nerve-root-block-dorsal-root-ganglion-block-treatment-pain": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "827ecc2bc55a5f88",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Transforaminal Epidural / Nerve Root Block / Dorsal Root Ganglion Block for the Treatment of Pain"
+ },
+ "transoesophageal-echocardiogram": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "1b5715075ff2f440",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Transoesophageal Echocardiogram"
+ },
+ "trigger-point-injections-treatment-pain": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "3b135637aa4d2de5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Trigger Point Injections for the Treatment of Pain"
+ },
+ "use-blue-wristbands": {
+  "checked": "2026-09-17T02:36:04+01:00",
+  "content_hash": "58a6966540fb7b9a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "The use of blue wristbands"
+ },
+ "use-crutches-parentcarer-discharge-safety-information": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "f5a63c20c6419c9d",
+  "hash_version": 2,
+  "review_due": "2026-11",
+  "review_due_text": "November 2026",
+  "status": "ok",
+  "title": "Use of Crutches: Parent/Carer discharge safety information"
+ },
+ "using-augmented-reality-apple-vision-pro-enhance-ultrasound-guided-nerve-block-procedure-during-chronic-pain-interventions": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "177e779bfcba1079",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Using augmented reality (apple vision pro) to enhance ultrasound guided nerve block procedure during chronic pain interventions at George Eliot Hospital"
+ },
+ "using-crutches-and-sticks": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "b5349f35e23bc5d5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Using crutches and sticks"
+ },
+ "using-inhaler-and-spacer": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "f79b6c918f224776",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Using an Inhaler and Spacer"
+ },
+ "using-nebuliser": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "ed4079995b7c3d6b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Using a nebuliser"
+ },
+ "virtual-glaucoma-clinic": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "bdd5e37ea29d28cd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Virtual Glaucoma Clinic"
+ },
+ "what-greater-trochanteric-pain-syndrome": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "1f1c723e6bda7428",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "What is Greater Trochanteric Pain Syndrome?"
+ },
+ "what-lidocaine-intravenous-infusion": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "da8cf41cb0349274",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "What is a lidocaine intravenous infusion?"
+ },
+ "whooping-cough-and-pregnancy": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "3dcca8dfd85d02a6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Whooping cough and pregnancy"
+ },
+ "wireless-capsule-endoscopy": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "79c3fcc4cc874724",
+  "hash_version": 2,
+  "review_due": "2027-09",
+  "review_due_text": "September 2027",
+  "status": "ok",
+  "title": "Wireless Capsule Endoscopy"
+ },
+ "wound-care-parentcarer-discharge-information": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "4502bb83b1cf17a2",
+  "hash_version": 2,
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Wound Care: Parent/Carer discharge information"
+ },
+ "wrist-injuries-and-splints-parentcarer-discharge-information": {
+  "checked": "2026-09-18T02:37:18+01:00",
+  "content_hash": "c0cd2422f334a519",
+  "hash_version": 2,
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Wrist injuries and splints: Parent/Carer discharge information"
  }
 }
