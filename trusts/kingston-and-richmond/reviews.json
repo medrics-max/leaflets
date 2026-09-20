@@ -1182,12 +1182,187 @@
   "status": "no-date",
   "title": "Cryotherapy"
  },
+ "ct-guided-lung-biopsy-take-home-information": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "5991564212d47df7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "CT-guided lung biopsy: take-home information"
+ },
+ "cystometrogram": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "ad454012881d3e9c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cystometrogram"
+ },
+ "dairy-free-products-guide-parents": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "1f27e0e3065218f5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dairy-free products: a guide for parents"
+ },
+ "day-case-coronary-angiogram": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "e53a09bac0b9068f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Day case coronary angiogram"
+ },
+ "day-surgery": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "403be96ab5080478",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Day surgery"
+ },
+ "decline-blood-transfusion-or-products": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "828bf59f3ed16457",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Declining blood transfusion or blood products"
+ },
+ "deep-vein-thrombosis-dvt": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "0daad74d139af3b1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Deep vein thrombosis (DVT)"
+ },
+ "delayed-puberty": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "5943443a0f349ad8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Delayed puberty"
+ },
+ "dementia-and-delirium": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "93b03147cbde8f31",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dementia and delirium"
+ },
+ "dementia-and-learning-disabilities-easy-read": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "75460e2359225954",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dementia and learning disabilities (easy read)"
+ },
+ "dementia-continence-issues": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "0f64c2d1ca1f6542",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dementia and continence issues"
+ },
+ "dementia-local-community-activities-and-support": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "2022ca291383f2fb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dementia local community activities and support"
+ },
+ "dementia-support-products": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "c949c7daa4056a2f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dementia support products"
+ },
+ "dental-extraction-after-care-day-surgery-unit": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "c9d9b6b6256ed3e2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dental extraction after-care (Day Surgery Unit)"
+ },
+ "diabetes-eating-well-if-you-have-poor-appetite": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "4c251f69b1f3d176",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Diabetes: eating well if you have a poor appetite"
+ },
+ "diabetes-endoscopy-bowel-prep": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "11be245565334255",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Diabetes and having an endoscopy with bowel preparation"
+ },
+ "diabetes-endoscopy-no-bowel-prep": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "71e05c2d3a4e6b72",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Diabetes and having an endoscopy without bowel preparation"
+ },
+ "diabetes-information-leaflets": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "10fc06840468e04c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Diabetes information leaflets"
+ },
+ "diabetes-pregnancy-starting-insulin": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "128504e48556b3f6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Diabetes in pregnancy: starting insulin"
+ },
+ "diarrhoea-and-vomiting-gastroenteritis-children": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "fe54a5228c73d6ea",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Diarrhoea and vomiting (gastroenteritis) in children"
+ },
+ "dietary-changes-prepare-weight-loss-surgery": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "f406ca7bc16df651",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dietary changes to prepare for weight loss surgery"
+ },
+ "digital-consent": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "2e136ef5a7da775b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Digital consent"
+ },
+ "discharge-advice-head-injury-patients-over-16-years-old": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "171ab24b27652036",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Discharge advice for head injury patients over 16 years old"
+ },
+ "discharge-following-orthopaedic-surgery": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "5ede0a8a544fed20",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Discharge following orthopaedic surgery"
+ },
  "gloves": {
   "checked": "2026-09-13T02:43:15+01:00",
   "content_hash": "9a2f63a3a96b79de",
   "hash_version": 2,
   "status": "no-date",
   "title": "'Gloves off' campaign"
+ },
+ "neurodiversity-information-parents-and-young-people": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "c77e2db8b6c48f9f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "delete Neurodiversity information for parents and young people"
  },
  "postnatal-contraception": {
   "checked": "2026-09-19T02:37:10+01:00",

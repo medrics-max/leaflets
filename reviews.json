@@ -1924,8 +1924,9 @@
   "title": "Enhanced Supportive Care"
  },
  "entonox-gas-and-air": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "6e8a8f7c5449e351",
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "990038d03b218f8b",
+  "hash_version": 2,
   "ref": "GHPI1070_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",
@@ -1933,8 +1934,9 @@
   "title": "ENTONOX® (gas and air)"
  },
  "entonox-gas-and-air-for-patients-having-a-flexible-sigmoidoscopy-or-colonoscopy": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "9c3ecdbc92fe8907",
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "faeeb8dd83b9aeb0",
+  "hash_version": 2,
   "ref": "GHPI1663_01_24",
   "review_due": "2027-01",
   "review_due_text": "January 2027",
@@ -1942,8 +1944,9 @@
   "title": "ENTONOX® (gas and air) For patients having a Flexible Sigmoidoscopy or Colonoscopy"
  },
  "epidural-blood-patch-and-aftercare-excluding-maternity": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "ecf6f49aaacd5fd2",
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "af735bda199542bf",
+  "hash_version": 2,
   "ref": "GHPI1868_08_24",
   "review_due": "2027-08",
   "review_due_text": "August 2027",
@@ -1951,8 +1954,9 @@
   "title": "Epidural blood patch and aftercare (excluding maternity)"
  },
  "evacuation-retained-products-conception-erpc-ghpi0131_11_19": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "d245c06052e28d6f",
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "03832e567233d701",
+  "hash_version": 2,
   "ref": "GHPI0131_11_25",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -1960,8 +1964,9 @@
   "title": "Evacuation of Retained Products of Conception (ERPC)"
  },
  "exacerbation-of-copd-and-what-to-expect-after-discharge": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "e7272b9552f95819",
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "e7c9ea03bfb769d6",
+  "hash_version": 2,
   "ref": "GHPI1644_06_24",
   "review_due": "2027-07",
   "review_due_text": "July 2027",
@@ -1969,8 +1974,9 @@
   "title": "Exacerbation of COPD and what to expect after discharge"
  },
  "exercise-stress-echocardiogram-ese": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "006e75ae05d403df",
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "cc4ad4cdb549d643",
+  "hash_version": 2,
   "ref": "GHPI1877_11_24",
   "review_due": "2027-11",
   "review_due_text": "November 2027",
@@ -1978,8 +1984,9 @@
   "title": "Exercise Stress echocardiogram (ESE)"
  },
  "exposure-of-impacted-upper-canine-eye-tooth": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "bb410ea2c06162ec",
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "6e08d46b56cbee7f",
+  "hash_version": 2,
   "ref": "GHPI0427_06_26",
   "review_due": "2029-06",
   "review_due_text": "June 2029",
@@ -1987,8 +1994,9 @@
   "title": "Exposure of impacted upper canine (eye tooth)"
  },
  "extravasation": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "0069c1a1995b00df",
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "effd64a3ca39fb73",
+  "hash_version": 2,
   "ref": "GHPI1450_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -1996,8 +2004,9 @@
   "title": "Extravasation"
  },
  "extravasation-accidental-leaking-of-drugs": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "fc92de0b183a1612",
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "faaea51c7a9f7242",
+  "hash_version": 2,
   "ref": "GHPI0561_07_25",
   "review_due": "2028-07",
   "review_due_text": "July 2028",
@@ -2005,8 +2014,9 @@
   "title": "Extravasation (Accidental leaking of drugs)"
  },
  "eye-drop-instructions-and-advice-following-eye-surgery": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "124b985783941dec",
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "8a44815ef6c340a7",
+  "hash_version": 2,
   "ref": "GHPI1458_03_24",
   "review_due": "2027-03",
   "review_due_text": "March 2027",
@@ -2014,8 +2024,9 @@
   "title": "Eye drop instructions and advice following eye surgery"
  },
  "eye-drops-ghpi0067": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "f32599f0f830168e",
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "99ff51a3d8c1841b",
+  "hash_version": 2,
   "ref": "GHPI0067_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -2023,8 +2034,9 @@
   "title": "Eye drops"
  },
  "eye-laser-treatment-selective-laser-trabeculoplasty-slt": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "fd51a1cafe987d9c",
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "b1ccd605731be5bc",
+  "hash_version": 2,
   "ref": "GHPI1888_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -2032,8 +2044,9 @@
   "title": "Eye laser treatment – Selective Laser Trabeculoplasty (SLT)"
  },
  "eye-laser-treatment-yag-iridotomy": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "acb31647d9babe1b",
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "1ac250953b7e0c96",
+  "hash_version": 2,
   "ref": "GHPI0353_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -2049,8 +2062,9 @@
   "title": "Eyelid surgery"
  },
  "faecal-microbiota-transplant-fmt": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "f958c86cc3fc6594",
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "ebaa1b8c7aad1c5f",
+  "hash_version": 2,
   "ref": "GHPI1734_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -2058,8 +2072,9 @@
   "title": "Faecal Microbiota Transplant (FMT)"
  },
  "fainting-vasovagal-syncope": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "7ccb11b21b908a6e",
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "313fa046dce53397",
+  "hash_version": 2,
   "ref": "GHPI0721_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -2365,12 +2380,17 @@
   "title": "Maintaining healthy skin and pressure ulcer prevention"
  },
  "ghpi0449-exercise-advice-following-gynaecological-bladder-and-pelvic-floor-surgery": {
-  "checked": "2026-08-16T02:30:43+01:00",
-  "content_hash": "243effb199c8aee0",
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "c4accc9c52f2bdb9",
+  "hash_version": 2,
   "ref": "GHPI0259_04_19",
+  "ref_candidates": [
+   "GHPI0259_04_19",
+   "GHPI0449_06_24"
+  ],
   "review_due": "2027-06",
   "review_due_text": "June 2027",
-  "status": "ok",
+  "status": "ambiguous-ref",
   "title": "Exercise advice following gynaecological, bladder and pelvic floor surgery"
  },
  "ghpi0502-information-and-support-following-loss-your-baby-end-24-weeks": {

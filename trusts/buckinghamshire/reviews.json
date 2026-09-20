@@ -909,6 +909,13 @@
   "status": "no-date",
   "title": "Infection screening for newborn babies"
  },
+ "information-for-patients-about-the-online-pre-operative-questionnaire": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "abf079f8ea197699",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pre-operative questionnaire online"
+ },
  "inguinal-hernia-repair": {
   "checked": "2026-09-18T02:37:18+01:00",
   "content_hash": "18c8159a8bab2e9b",
@@ -1230,6 +1237,181 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Patient advice following regional anaesthetic (nerve block)"
+ },
+ "pelvic-floor-exercises": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "26b5042e08045798",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pelvic floor exercises"
+ },
+ "pelvic-floor-repair-anterior-and-posterior-without-the-use-of-mesh-2": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "c36e07a558659a15",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pelvic floor repair (anterior and posterior) without the use of mesh"
+ },
+ "peripheral-intravenous-iv-midline-catheter-adults-only": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "c7c782a5f71aa6e4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Peripheral intravenous (IV) midline catheter (adults only)"
+ },
+ "physical-activity-and-type-1-diabetes-in-children-and-young-people": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "6f3b820af34c08ca",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Physical Activity and Type 1 Diabetes in Children and Young People"
+ },
+ "physiotherapy-for-patients-with-inflammatory-arthritis": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "fed80a7a19c068cf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Physiotherapy for patients with inflammatory arthritis"
+ },
+ "plaster-cast-advice-for-patients": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "e54045359fc856c6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Plaster cast - advice for patients"
+ },
+ "plastic-surgery-trauma-service-adults": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "fd46f6b0cd6e1f70",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Plastic Surgery Trauma Service (Adults)"
+ },
+ "pleural-effusion-and-pleurodesis": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "fff35664d01144ce",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pleural effusion and pleurodesis"
+ },
+ "podiatry-for-patients-with-inflammatory-arthritis": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "dd37ebeebe15c5ba",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Podiatry for patients with inflammatory arthritis"
+ },
+ "positive-pregnancy-test-with-scan-showing-empty-womb": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "55603016f25e4945",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Positive pregnancy test with scan showing empty womb"
+ },
+ "pregnancy-labour-and-postnatal-care-patient-information": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "82eabc72e6047d83",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pregnancy, labour and postnatal care patient information"
+ },
+ "prevention-and-management-of-slips-trips-and-falls": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "2651d00fe3e80401",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Prevention and management of slips, trips and falls"
+ },
+ "private-rooms-for-nhs-patients-in-wycombe-hospital": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "a07a65e4b972e1b8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Private rooms for NHS patients in Wycombe Hospital"
+ },
+ "pulmonary-nodules-and-follow-up": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "af3295f51bf1834e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pulmonary nodules and follow-up"
+ },
+ "puree-diet": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "5c00366b030da4ee",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Puree diet"
+ },
+ "receiving-a-blood-transfusion": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "7275526a4fb1264d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Receiving a Blood Transfusion"
+ },
+ "reducing-your-risk-of-blood-clots-venous-thrombosis-during-pregnancy-and-after-birth": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "366beb3d26e18646",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Reducing your risk of blood clots (venous thrombosis) during pregnancy and after birth"
+ },
+ "regular-easy-to-chew-diet": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "9fc92eba98024e79",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Regular easy to chew diet"
+ },
+ "rehabilitation-therapy-on-the-waterside-unit": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "d1477ba56df2f934",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Rehabilitation therapy on the Waterside Unit"
+ },
+ "removal-of-a-tunnelled-cuffed-catheter-hickman": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "ccf6cc13097dd08e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Removal of a tunnelled cuffed catheter (HICKMAN)"
+ },
+ "respect-summary-plan-for-emergency-care-and-treatment": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "94f7f2af1ac9cd77",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "ReSPECT - Summary plan for emergency care and treatment"
+ },
+ "rheumatoid-arthritis-hand-exercises-mobility-and-strength": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "cb73414a929754f9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Rheumatoid arthritis hand exercises - mobility and strength"
+ },
+ "routine-pregnancy-testing-before-treatment": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "349e660c271f2ea3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Routine pregnancy testing before treatment"
+ },
+ "scanning-in-the-early-pregnancy-unit": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "655236f51cafe20c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Scanning in the Early Pregnancy Unit"
+ },
+ "vte-advice-for-patients-going-home-after-a-hospital-stay": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "4fe2db26d07c5925",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Reducing the risk of blood clots (VTE) for patients going home after a hospital stay"
  },
  "when-you-are-asked-to-come-in-for-orthopaedic-trauma-surgery-at-stoke-mandeville-hospital": {
   "checked": "2026-09-19T02:37:10+01:00",

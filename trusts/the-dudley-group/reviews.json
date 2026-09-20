@@ -1439,5 +1439,226 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Laser treatment for glaucoma – selective laser trabeculoplasty (SLT)"
+ },
+ "leadless-pacemaker-implant-procedure": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "1959d34bae6fa695",
+  "hash_version": 2,
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Leadless Pacemaker Implant Procedure"
+ },
+ "lid-hygiene-blepharitis-and-chalazion": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "b472534761480216",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lid Hygiene / Blepharitis and Chalazion"
+ },
+ "lidocaine-infusions": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "f5c94577054653e7",
+  "hash_version": 2,
+  "review_due": "2025-10",
+  "review_due_text": "October 2025",
+  "status": "ok",
+  "title": "Lidocaine infusions"
+ },
+ "living-with-a-defibrillator": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "7d6ebb31ad19b867",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Living with a Defibrillator"
+ },
+ "living-with-a-pacemaker": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "b4be911b162d13ed",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Living with a Pacemaker"
+ },
+ "living-with-and-beyond-cancer-lwbc-personalised-care-and-support-team-information": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "7b4f818fb39fdc18",
+  "hash_version": 2,
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Living with and Beyond Cancer (LWBC) – personalised care and support team information"
+ },
+ "local-steroid-injections-to-joints-and-soft-tissues": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "06c1554e3acf181a",
+  "hash_version": 2,
+  "review_due": "2028-07",
+  "review_due_text": "July 2028",
+  "status": "ok",
+  "title": "Local steroid injections to joints and soft tissues"
+ },
+ "looking-after-your-caesarean-section-wound": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "c8805c2bdf8862d9",
+  "hash_version": 2,
+  "review_due": "2028-08",
+  "review_due_text": "August 2028",
+  "status": "ok",
+  "title": "Looking after your Caesarean section wound"
+ },
+ "low-pregnancy-associated-plasma-protein-a-papp-a": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "67701e0a967b7a88",
+  "hash_version": 2,
+  "review_due": "2028-12",
+  "review_due_text": "December 2028",
+  "status": "ok",
+  "title": "Low Pregnancy Associated Plasma Protein-A (PAPP-A)"
+ },
+ "low-vision-assessment-clinic-2": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "8aef4bfdf8192897",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Low Vision Assessment Clinic"
+ },
+ "lumbar-epidural-injections": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "3ef650577b56a887",
+  "hash_version": 2,
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Lumbar epidural injections"
+ },
+ "lumbar-sympathetic-block": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "547c626edee1e12e",
+  "hash_version": 2,
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Lumbar sympathetic block"
+ },
+ "magnets-ingestion-in-children": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "eb636533e48c7b45",
+  "hash_version": 2,
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Magnets ingestion in children"
+ },
+ "management-of-diabetes-undergoing-elective-surgery": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "efb7f052ea0c572b",
+  "hash_version": 2,
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Management of Diabetes Undergoing Elective Surgery"
+ },
+ "management-of-diabetes-undergoing-elective-surgery-2": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "fb0f7173aaeb1bf1",
+  "hash_version": 2,
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Management of Diabetes Undergoing Elective Surgery"
+ },
+ "management-of-diabetes-undergoing-elective-surgery-3": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "8a05c7ce6aae1503",
+  "hash_version": 2,
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Management of Diabetes Undergoing Elective Surgery"
+ },
+ "management-of-diabetes-undergoing-elective-surgery-4": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "93ac4e1a1c23c9d1",
+  "hash_version": 2,
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Management of Diabetes Undergoing Elective Surgery"
+ },
+ "management-of-diabetes-undergoing-elective-surgery-5": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "4ca7013011afea79",
+  "hash_version": 2,
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Management of Diabetes Undergoing Elective Surgery"
+ },
+ "medical-tattooing-aftercare-advice": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "fc753bd4c8654494",
+  "hash_version": 2,
+  "review_due": "2027-05",
+  "review_due_text": "May 2027",
+  "status": "ok",
+  "title": "Medical tattooing – aftercare advice"
+ },
+ "medical-tattoos-after-breast-surgery": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "75383fdd4c9c7e50",
+  "hash_version": 2,
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Medical tattoos after breast surgery"
+ },
+ "methicillin-resistant-staphylococcus-aureus-mrsa-treatment-pack": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "788065987e61c124",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2024-07",
+   "2027-04"
+  ],
+  "status": "ambiguous-date",
+  "title": "Methicillin-resistant Staphylococcus aureus (MRSA) treatment pack"
+ },
+ "mexiletine": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "2013ee29e84c2dd3",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2023-01",
+   "2025-10"
+  ],
+  "status": "ambiguous-date",
+  "title": "Mexiletine"
+ },
+ "micturating-cystourethrogram-mcug": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "75cfef5a98e2c7b9",
+  "hash_version": 2,
+  "review_due": "2024-12",
+  "review_due_text": "December 2024",
+  "status": "ok",
+  "title": "Micturating cystourethrogram (MCUG)"
+ },
+ "micturating-cystourethrogram-mcug-2": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "75cfef5a98e2c7b9",
+  "hash_version": 2,
+  "review_due": "2024-12",
+  "review_due_text": "December 2024",
+  "status": "ok",
+  "title": "Micturating cystourethrogram (MCUG)"
+ },
+ "minced-and-moist-diet-level-5": {
+  "checked": "2026-09-20T02:36:39+01:00",
+  "content_hash": "b5c1684b65377d78",
+  "hash_version": 2,
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Minced and Moist Diet (Level 5)"
  }
 }
