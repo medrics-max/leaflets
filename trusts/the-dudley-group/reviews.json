@@ -1660,5 +1660,154 @@
   "review_due_text": "April 2029",
   "status": "ok",
   "title": "Minced and Moist Diet (Level 5)"
+ },
+ "mindfulness": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "7fe73c46bcda274d",
+  "hash_version": 2,
+  "review_due": "2027-10",
+  "review_due_text": "October 2027",
+  "status": "ok",
+  "title": "Mindfulness"
+ },
+ "minimally-invasive-glaucoma-surgery-migs-istent-inject-implant": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "be6db3ad43f47cfe",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Minimally Invasive Glaucoma Surgery (MIGS) – iStent Inject Implant"
+ },
+ "morphine-slow-release-tablets": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "eda5e77251d228a2",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2023-01",
+   "2025-10"
+  ],
+  "status": "ambiguous-date",
+  "title": "Morphine slow release tablets"
+ },
+ "mortons-neuroma": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "abb188a6e23fae6e",
+  "hash_version": 2,
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Morton’s neuroma"
+ },
+ "mri-scan": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "6b1137fb7aceaaf0",
+  "hash_version": 2,
+  "review_due": "2025-06",
+  "review_due_text": "June 2025",
+  "status": "ok",
+  "title": "MRI scan"
+ },
+ "mrsa": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "a6ec0b528c2f2ccb",
+  "hash_version": 2,
+  "review_due": "2026-08",
+  "review_due_text": "August 2026",
+  "status": "ok",
+  "title": "MRSA"
+ },
+ "my-baby-has-a-heart-murmur": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "f59cf21c275b472c",
+  "hash_version": 2,
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "My Baby Has a Heart Murmur"
+ },
+ "nail-surgery": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "099b48c3ad8f6a85",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nail surgery"
+ },
+ "non-steroidal-anti-inflammatory-drugs-nsaids": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "79cf96bf01f6c391",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2023-01",
+   "2025-10"
+  ],
+  "status": "ambiguous-date",
+  "title": "Non-steroidal anti-inflammatory drugs (NSAIDs)"
+ },
+ "nortriptyline": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "3f4dd732c6b30f2c",
+  "hash_version": 2,
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Nortriptyline"
+ },
+ "nosebleeds": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "d35cb0f85b457d30",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Nosebleeds"
+ },
+ "occipital-nerve-block": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "7d3574dafa29d41a",
+  "hash_version": 2,
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Occipital Nerve Block"
+ },
+ "own-bed-instead": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "f9d39c5d6f4cc0ef",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Own Bed Instead"
+ },
+ "oxycodone": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "7e2a17af0ada1934",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2023-01",
+   "2025-10"
+  ],
+  "status": "ambiguous-date",
+  "title": "Oxycodone"
+ },
+ "ozurdex-implant-treatment-for-diabetic-macular-oedema-dmo": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "5e07f483fce1eea3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ozurdex Implant Treatment for Diabetic Macular Oedema (DMO)"
+ },
+ "pacemaker-implant-procedures": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "1c1967ac0814f841",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pacemaker Implant Procedures"
+ },
+ "pain-management-programme-face-to-face-or-virtual": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "e2ab26c4a5c82672",
+  "hash_version": 2,
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Pain management programme - face to face or virtual"
  }
 }

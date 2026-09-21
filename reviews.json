@@ -2082,8 +2082,9 @@
   "title": "Fainting (vasovagal syncope)"
  },
  "falls-clinic": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "14a04df9eaad8b2e",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "f80b7d810cdb1cfa",
+  "hash_version": 2,
   "ref": "GHPI1385_01_26",
   "review_due": "2029-01",
   "review_due_text": "January 2029",
@@ -2100,8 +2101,9 @@
   "title": "Feelings after cancer treatment"
  },
  "female-fertility-preservation": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "f7fab68e9bf62c8a",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "f295329d62d82044",
+  "hash_version": 2,
   "ref": "GHPI1770_12_25",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
@@ -2109,8 +2111,9 @@
   "title": "Female fertility preservation"
  },
  "female-sterilisation": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "533d1e038112e1cb",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "53ece2a4a4cefd46",
+  "hash_version": 2,
   "ref": "GHPI0768_05_24",
   "review_due": "2027-05",
   "review_due_text": "May 2027",
@@ -2118,17 +2121,23 @@
   "title": "Female sterilisation"
  },
  "femoral-endarterectomy": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "65c2d52aac9f0c4d",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "64da17c2f395820b",
+  "hash_version": 2,
   "ref": "GHPI1716_03_25",
+  "ref_candidates": [
+   "GHPI1716_03_25",
+   "GHPI1716_04_22"
+  ],
   "review_due": "2028-03",
   "review_due_text": "March 2028",
-  "status": "ok",
+  "status": "ambiguous-ref",
   "title": "Femoral endarterectomy"
  },
  "fever-advice-children-and-young-people": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "9061a83fd51067d5",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "bf32bdf17ab1b344",
+  "hash_version": 2,
   "ref": "GHPI1213_07_24",
   "review_due": "2027-07",
   "review_due_text": "July 2027",
@@ -2136,8 +2145,9 @@
   "title": "Fever advice for children and young people"
  },
  "finasteride-for-women": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "5d5b955e4cd3bb47",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "16cba131f2a81392",
+  "hash_version": 2,
   "ref": "GHPI1510_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -2145,8 +2155,9 @@
   "title": "Finasteride for women"
  },
  "finishing-your-radiotherapy-treatment": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "80e00364bbbfb444",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "3e6d89b630c33c31",
+  "hash_version": 2,
   "ref": "GHPI0212_07_24",
   "review_due": "2027-07",
   "review_due_text": "July 2027",
@@ -2154,8 +2165,9 @@
   "title": "Finishing your radiotherapy treatment"
  },
  "first-seizure-children-or-young-people": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "d824b17cc5aebbae",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "67ca809298519347",
+  "hash_version": 2,
   "ref": "GHPI1128_11_25",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -2163,8 +2175,9 @@
   "title": "First seizure in children or young people"
  },
  "fistulogram-fistuloplasty-renal-patient-information": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "9dd6b420375b86c8",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "f1326daf892af412",
+  "hash_version": 2,
   "ref": "GHPI1153_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -2172,8 +2185,9 @@
   "title": "Fistulogram or Fistuloplasty"
  },
  "flexible-cystoscopy": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "21bc06bfab7ec40b",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "30d38a3fe23b345e",
+  "hash_version": 2,
   "ref": "GHPI0109_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -2181,8 +2195,9 @@
   "title": "Flexible cystoscopy"
  },
  "flexitrus": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "49003eeceb2384ce",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "670cdc4d759a2537",
+  "hash_version": 2,
   "ref": "GHPI1664_02_24",
   "review_due": "2027-02",
   "review_due_text": "February 2027",
@@ -2190,8 +2205,9 @@
   "title": "FlexiTRUS"
  },
  "fluid-and-caffeine-intake-bladder-and-bowel-health-ghpi0533": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "77a1497728b992af",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "4cb19548549ae92e",
+  "hash_version": 2,
   "ref": "GHPI0533_03_26",
   "review_due": "2029-03",
   "review_due_text": "March 2029",
@@ -2199,8 +2215,9 @@
   "title": "Fluid and caffeine intake for bladder and bowel health"
  },
  "fluorescein-ffa-and-indocyanine-green-icg-angiography-procedure": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "f6a1f82d173c78e8",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "14bd24fae8c8e0f5",
+  "hash_version": 2,
   "ref": "GHPI0497_01_25",
   "review_due": "2028-01",
   "review_due_text": "January 2028",
@@ -2208,8 +2225,9 @@
   "title": "Fluorescein and indocyanine green angiography"
  },
  "fluoroquinolone-antibiotics": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "e9bde58e0804a4a0",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "1db22579cabcdb42",
+  "hash_version": 2,
   "ref": "GHPI1936_12_25",
   "review_due": "2028-12",
   "review_due_text": "December 2028",
@@ -2227,8 +2245,9 @@
   "title": "Foam sclerotherapy for varicose veins"
  },
  "follow-appointments-and-advice-recurrence-gynaecological-cancer-ghpi0953_09_17": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "bce617a97ec86273",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "04bf7e6afb47bd2b",
+  "hash_version": 2,
   "ref": "GHPI0953_05_25",
   "review_due": "2028-05",
   "review_due_text": "May 2028",
@@ -5932,12 +5951,17 @@
   "title": "Having an enteroscopy"
  },
  "undergoing-flexible-sigmoidoscopy-outpatient": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "272611e0a370e2c1",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "8b2e854fd2f15f8d",
+  "hash_version": 2,
   "ref": "GHPI1079_05_26",
+  "ref_candidates": [
+   "GHPI1079_05_26",
+   "GHPI1079_04_26"
+  ],
   "review_due": "2029-04",
   "review_due_text": "April 2029",
-  "status": "ok",
+  "status": "ambiguous-ref",
   "title": "Flexible sigmoidoscopy as an outpatient"
  },
  "undergoing-video-capsule-endoscopy-vce": {

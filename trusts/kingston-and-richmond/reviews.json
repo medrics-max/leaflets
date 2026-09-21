@@ -1350,6 +1350,125 @@
   "status": "no-date",
   "title": "Discharge following orthopaedic surgery"
  },
+ "discharge-medicines-service": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "7d887eed3e3094c5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Discharge Medicines Service"
+ },
+ "district-nursing-service": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "0cf609928c046e52",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "District Nursing Service"
+ },
+ "division-tongue-tie": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "e815d33a66ee390e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Division of a tongue-tie"
+ },
+ "dmsa-scan-children": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "489f3113f179ddcf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "DMSA scan (children)"
+ },
+ "do-not-use-testicular-pain": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "2503472fe2ff9afe",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Do not use Testicular pain"
+ },
+ "dobutamine-stress-echocardiogram": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "3c5943a19e270a8b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dobutamine stress echocardiogram"
+ },
+ "doing-milk-challenge-milk-ladder-home": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "774a923a3a9d5c4e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Doing a milk challenge (milk ladder) at home"
+ },
+ "drinking-eating-and-mobilising-after-surgery": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "67c977f869e72543",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Drinking, eating, and mobilising after major surgery"
+ },
+ "dysarthria": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "a3df76679c26b9ab",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dysarthria (speech difficulties)"
+ },
+ "dysphagia-swallowing-difficulties": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "d9bea98abca38d69",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dysphagia (swallowing difficulties)"
+ },
+ "early-precocious-puberty-children": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "b9d260fc7b6c3ce7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Early (precocious) puberty in children"
+ },
+ "eating-and-drinking-risk-EDAR": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "28087dd4f9927ee7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eating and drinking with acknowledged risk (EDAR)"
+ },
+ "echo": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "30db1b1359406895",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Echocardiogram"
+ },
+ "ectopic-pregnancy-medical-management": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "a9e2f2a221963f8d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ectopic pregnancy: medical management"
+ },
+ "ectopic-pregnancy-surgical-management": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "5632fa35e696defc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ectopic pregnancy: surgical management"
+ },
+ "eczema-children": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "20324634f59ca8f9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eczema in children"
+ },
+ "electroencephalogram-eeg": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "f03f1c7633d6717a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "EEG (electroencephalogram)"
+ },
  "gloves": {
   "checked": "2026-09-13T02:43:15+01:00",
   "content_hash": "9a2f63a3a96b79de",

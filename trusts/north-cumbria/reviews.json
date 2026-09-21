@@ -388,56 +388,65 @@
   "title": "Maternity: Gestational Diabetes"
  },
  "Maternity-Healthy-eating-for-Gestational-Diabetes": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "670c2a742803bcb6",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "3a19f42326041f23",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Maternity: Healthy eating for Gestational Diabetes"
  },
  "Maternity-Induction-of-labour": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "1a8021dd4afa872e",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "37c1d948173ac243",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Maternity: Induction of labour"
  },
  "Maternity-Keeping-your-baby-safe": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "6b6ca2150ea3676e",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "516497437f95d2b1",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Maternity: Keeping your baby safe"
  },
  "Maternity-Low-PAPP-A-hormone": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "1580fad051a90f9f",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "4922bfa46fb87a70",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Maternity: Low PAPP-A hormone"
  },
  "Maternity-Planned-Caesarean-Section": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "b1710b51911e9264",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "a7230b53e49f1311",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Maternity: Planned Caesarean Section"
  },
  "Maternity-Protecting-your-baby-from-low-blood-glucose": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "8b1fba10633730e8",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "cfaad6a2b6ea6976",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Maternity: Protecting your baby from low blood glucose - Hypoglycaemic"
  },
  "Maternity-Registering-a-birth": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "9b74ec0b0904fc5c",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "f9b378c83ad4f476",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Maternity: Registering a birth"
  },
  "Maternity-Screening-for-diabetic-eye-disease-during-pregnancy": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "b855a4f88729aecf",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "e8bde4e51e2b0fc2",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Maternity: Screening for diabetic eye disease during pregnancy"
  },
  "Maternity-Vitamin-K-for-newborn-babies": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "28a80404dba15d46",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "4fa5a8d8931c9463",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Maternity: Vitamin K for new born babies"
  },
@@ -1377,38 +1386,44 @@
   "title": "Maternity: Antidepressants in pregnancy and breastfeeding"
  },
  "maternity-pain-relief-labour": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "b0a35e8f034f77c6",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "d5c34186d060b10d",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Maternity: Pain relief in labour"
  },
  "medical-records-access-requests": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "8ae248c5f32b7c22",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "bc069398ff1a34ab",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Medical records: Access requests"
  },
  "minor-injuries-ankle-injury": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "bc481135b562cd24",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "96e95ff03fcf3e8f",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Minor Injuries: Ankle Injury"
  },
  "minor-injuries-back-pain": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "0fc50f0003d473bd",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "b5130b8677ccaf40",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Minor Injuries: Back pain"
  },
  "minor-injuries-broken-nose": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "240fcdefef1a2f1f",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "a520f848feb5b997",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Minor Injuries: Broken nose"
  },
  "minor-injuries-burns-scalds": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "9bacc6125ba5eaac",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "64551151cdf5d3ad",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Minor Injuries: Burns and scalds"
  },
@@ -1782,8 +1797,9 @@
   "title": "Palliative Care: Administering Buccolam"
  },
  "patient-information-template-8": {
-  "checked": "2026-08-17T02:30:56+01:00",
-  "content_hash": "4a8fd25965d36090",
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "6426eb87a1f2c8c2",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Maternity: Glucose tolerance test"
  },

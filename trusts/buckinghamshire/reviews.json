@@ -461,6 +461,13 @@
   "status": "no-date",
   "title": "DoxyPEP - how and when to take it"
  },
+ "early-pregnancy-unit": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "60f464bf7ebcc683",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "The early pregnancy unit"
+ },
  "eating-well-during-cancer-treatment-a-detailed-guide": {
   "checked": "2026-09-15T02:37:27+01:00",
   "content_hash": "2a938fc970f0e03e",
@@ -1405,6 +1412,118 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Scanning in the Early Pregnancy Unit"
+ },
+ "screening-for-retinopathy-of-prematurity": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "e832b7741fab9541",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Screening for Retinopathy of Prematurity"
+ },
+ "short-term-support-for-patients-being-discharged-from-hospital": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "9055976343ad42e6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Short-term support for patients being discharged from hospital"
+ },
+ "skin-care-plan": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "6ae3130a8c3384fa",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Skin care plan"
+ },
+ "soft-diet": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "e82e37589f719897",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Soft and bite size diet"
+ },
+ "spiritual-and-pastoral-care-a-guide-for-patients": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "190f31b09e30aeff",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Spiritual and pastoral care - a guide for patients"
+ },
+ "starting-lidocaine-plasters-for-nerve-pain": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "5a3898e1f5f95019",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Starting lidocaine plasters for nerve pain"
+ },
+ "stopping-weight-loss-medications-and-keeping-weight-off": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "719666a1f9ab5928",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Stopping weight loss medications and keeping weight off"
+ },
+ "stroke-unit-information-for-patients-and-carers": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "210342d45887b0ca",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Stroke Unit"
+ },
+ "surgical-and-plastics-emergency-ambulatory-care-speac": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "4ee0e94e5a1bf7ac",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Surgical and plastics emergency ambulatory care - SPEAC"
+ },
+ "swallowing-matters-a-guide-for-care-home-staff-on-managing-residents-with-eating-and-drinking-difficulties": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "9b86cf774cc58bba",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Swallowing matters - a guide for care home staff on managing residents with eating and drinking difficulties"
+ },
+ "sweat-test": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "2a93870ec0cc50b2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sweat test"
+ },
+ "teledermatology": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "56b3872dac4491eb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Teledermatology"
+ },
+ "the-milk-ladder-for-non-ige-delayed-milk-allergy": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "ba120356c53b7c1f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "The Milk Ladder (For Non-IgE/delayed milk allergy)"
+ },
+ "totally-implanted-central-venous-access-device-portacath": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "1ea645cb249ae442",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Totally implanted central venous access device (portacath)"
+ },
+ "transoesophageal-echocardiogram-toe-discharge-advice": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "e8b5270707e66846",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Transoesophageal Echocardiogram (TOE) Discharge Advice"
+ },
+ "transthoracic-echocardiography": {
+  "checked": "2026-09-21T02:37:58+01:00",
+  "content_hash": "d43a8bc97a21f88e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Transthoracic echocardiography"
  },
  "vte-advice-for-patients-going-home-after-a-hospital-stay": {
   "checked": "2026-09-20T02:36:39+01:00",
