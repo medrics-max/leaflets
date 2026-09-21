@@ -101,11 +101,10 @@
   },
   {
    "id": "same-day",
-   "label": "Same Day Emergency Care (SDEC) and EEMAC",
+   "label": "Same Day Emergency Care (SDEC)",
    "terms": [
     "sdec",
     "same day",
-    "eemac",
     "ambulatory"
    ],
    "here": [

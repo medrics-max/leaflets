@@ -1279,8 +1279,7 @@ function loadLearned() {
     .catch(() => { LEARNED = {}; });
 }
 // Distinct-clinician key for the learned-bundle k-floor (decision record, 2026-09-16: anonymised,
-// never traceable to a user):
-[removed] a RANDOM 128-bit token this browser makes for itself and replaces every 30 days.
+// never traceable to a user): a RANDOM 128-bit token this browser makes for itself and replaces every 30 days.
 // Never derived from the sign-in, the GMC number or the trust; the server keeps only a keyed
 // hash of it. It lets the builder count "three different browsers issued this pair" — nothing more.
 const DK_KEY = "medrics_dk", DK_DAYS = 30;
@@ -1809,9 +1808,9 @@ function drvMatches(it, m) {
 }
 
 // The generic driving/flying entry points: the catch-all GOV.UK/CAA patient
-// pages, and the search box itself. Selecting one of these — or typing
-// "driving"/"dvla"/"fit to fly" — must never dead-end (decision record, 2026-08-04:
-// "I selected a generic driving but haven't gone through to anything").
+// pages, and the search box itself. Selecting one of these, or typing a
+// driving or flying term such as dvla or fit to fly, must never dead-end
+// (decision record, 2026-08-04).
 const DRV_GENERIC_SLUGS = ["gov-health-conditions-driving",
                            "gov-driving-medical-conditions",
                            "caa-air-travel-your-health"];
@@ -2924,7 +2923,16 @@ function itemLi(it) {
   // page not loading, PDF (a phone cannot translate it), reading age where
   // the trust has a readability layer. Nothing else — the red-flag badge went.
   const hints = [];
-  if (rev && isPastReview(rev.review_due))
+  // ARCHIVED BY THE TRUST (decision record 2026-09-21): the trust's own page
+  // says the leaflet was archived on a date that has passed. It stays
+  // selectable — the landing page still answers — but the clinician is told
+  // plainly, because the leaflet file itself may already have been removed
+  // and a patient following the QR could meet a dead link. The stale review
+  // date is history for an archived leaflet, so "past review" is not shown
+  // beside it.
+  if (rev && rev.archived)
+    hints.push(`<span class="tag hint warn" title="The trust's own page marks this leaflet as archived${rev.archived_date ? " on " + esc(String(rev.archived_date)) : ""}. The landing page still opens, but the leaflet file may have been removed — open it and check before giving this to a patient">archived by the trust</span>`);
+  else if (rev && isPastReview(rev.review_due))
     hints.push(`<span class="tag hint warn" title="The trust's printed review date (${esc(rev.review_due_text || rev.review_due)}) has passed">past review</span>`);
   // The nightly review checker records fetch errors per page — a leaflet that
   // 404s mid-fortnight would otherwise be handed out for up to 14 days before

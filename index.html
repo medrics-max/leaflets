@@ -609,8 +609,8 @@ function toggleFuSec(id, btn) {
   if (btn) { btn.setAttribute("aria-expanded", open ? "true" : "false"); btn.classList.toggle("on", open); }
   if (open) el.scrollIntoView({ block: "nearest" });
 }
-// The trust's OWN site map with our highlight on the unit (decision record, 2026-09-16:
-// "SDEC on that map is where EEMAC is — highlight it"). The image is the
+// The trust's OWN site map with our highlight on the unit (decision record,
+// 2026-09-16). The image is the
 // trust's published map rendered into its folder, credited and linked to the
 // original; the pin sits at map.x/map.y (fractions of the image). Zoomed in on
 // the pin by default; "Show the whole map" zooms out.
@@ -797,9 +797,8 @@ function sourceBadge(item) {
   return "";
 }
 
-// Where each item comes from and when WE last checked it (decision record, 2026-09-12
-// ).
-[removed] Every date is read from the scanners'
+// Where each item comes from and when WE last checked it (decision record, 2026-09-12).
+// Every date is read from the scanners'
 // own records — reviews.json per page, freshness.json per layer (built
 // nightly by build_freshness.py) — never typed here. A late check is SAID,
 // with the honest meaning: not re-confirmed recently, not "wrong".
@@ -930,8 +929,8 @@ function findCompanion(item, pages) {
 // section at the bottom. Every line was parsed from the page NHS served this
 // week by nhs_cards.py; nothing is reworded; cards older than 10 days are
 // not shown (the licence expects a 7-day refresh).
-// every NHS section a patient would want, folded closed (decision record, 2026-09-03:
-// "we can do more information now as we have collapsible headings")
+// every NHS section a patient would want, folded closed (decision record,
+// 2026-09-03)
 const INFO_TIERS = { symptoms: "🔍", causes: "❓", treatment: "🩺", selfcare: "🏠", prevention: "🛡️",
   diagnosis: "🔬", complications: "📋", outlook: "📈", contagious: "🤝", living: "🌱", types: "📑",
   usage: "⏰", suitability: "👤", howitworks: "⚙️", interactions: "🔗", pregnancy: "🤰", info: "💊" };
