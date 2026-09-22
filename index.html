@@ -791,6 +791,8 @@ function sourceBadge(item) {
   if (item.type === "leaflet" || item.type === "service") return `<span class="src src-trust">${escapeHtml(TRUST_LABEL)} leaflet</span>`;
   if (item.type === "nhs" || item.type === "medicines") return `<span class="src src-nhs">NHS website</span>`;
   if (item.type === "gov") return `<span class="src src-gov">${escapeHtml(item.source || "Official")}</span>`;
+  // the NHS website's own service finder (local_services.json) — the patient enters their postcode there
+  if (item.type === "finder") return `<span class="src src-nhs">NHS service finder</span>`;
   if (item.type === "trusted") return `<span class="src src-trusted">${escapeHtml(item.source || "Trusted source")}</span>`;
   if (item.type === "lang") return `<span class="src src-trusted">${escapeHtml((item.source || "Trusted source") + (item.lang_name ? " · " + item.lang_name : ""))}</span>`;
   // another organisation's page, chosen because this hospital and NHS.uk have none on the topic (P19)
@@ -1207,6 +1209,9 @@ function renderResolved(items, demo) {
   // layer under the same heading; filtering by type must never drop an item.
   const nhs = items.filter(i => i.type === "nhs" || i.type === "trusted" || i.type === "gapfill");
   const gov = items.filter(i => i.type === "gov");
+  // NHS service finders the clinician chose (local_services.json): the NHS website's own
+  // finder pages — the patient enters their postcode there; this page knows no location
+  const finders = items.filter(i => i.type === "finder");
   // pages in the patient's own language, from national organisations (decision record,
   // 2026-09-22): shown first, in the organisation's own words; medrics translates nothing
   const langs = items.filter(i => i.type === "lang");
@@ -1244,6 +1249,28 @@ function renderResolved(items, demo) {
        <p class="section-sub">Which hospital provides what, in the hospital's own words. Tap a link to read the page it comes from.</p>
        ${network.map(n => networkCard(n)).join("")}`
     : "";
+  // Services near you (decision record, 2026-09-22 (2): the public needs more hand-holding, and
+  // none of the professional layer): one card per finder, built ONLY from the public file's
+  // patient block — fixed navigation steps, NHS.uk patient sentences copied from the fetched
+  // page, the standing 111/999 line, and the NHS finder button. No module, no NICE wording,
+  // no note of ours ever renders here.
+  const finderSection = finders.length ? (() => {
+    const card = f => {
+      const pt = f.patient || {};
+      const steps = Array.isArray(pt.steps) ? pt.steps : [];
+      const nhs = (pt.nhs || []).filter(w => w && w.verified && w.quote);
+      return `<div class="advice-card">
+        <p class="advice-title">${escapeHtml(f.title)}</p>
+        ${nhs.map(w => `<blockquote class="advice-text" style="border-left:3px solid #005eb8;margin:8px 0;padding:6px 10px;background:#f4f7fa">“${escapeHtml(w.quote)}” <a href="${safeHref(w.url)}" target="_blank" rel="noopener" style="color:#005eb8;white-space:nowrap">NHS: ${escapeHtml(w.label)} ↗</a></blockquote>`).join("")}
+        ${steps.length ? `<p class="advice-h">How to find one</p><ol>${steps.map(x => `<li>${escapeHtml(x)}</li>`).join("")}</ol>` : ""}
+        <a class="advice-text" href="${safeHref(f.url)}" target="_blank" rel="noopener" style="display:inline-block;background:#005eb8;color:#fff;border-radius:8px;padding:10px 16px;text-decoration:none;margin:8px 0 4px;font-weight:600">${escapeHtml(f.title)} ↗</a>
+        ${pt.if_stuck ? `<p class="advice-text" style="margin-top:8px">${escapeHtml(pt.if_stuck)}</p>` : ""}
+      </div>`;
+    };
+    return `<p class="section-title">Services near you</p>
+       <p class="section-sub">Your clinician suggested these NHS services. Each button opens the NHS website's own finder, where you enter your postcode. This page does not know where you are and does not recommend any particular provider.</p>
+       ${finders.map(card).join("")}`;
+  })() : "";
   const serviceSection = services.length
     ? `<p class="section-title">Further information</p>
        <p class="section-sub">Pages on the hospital website about your condition, treatment, or department.</p>
@@ -1320,6 +1347,7 @@ function renderResolved(items, demo) {
     ${networkSection}
     ${medicineSection}
     ${serviceSection}
+    ${finderSection}
     <span id="followup"></span>${followupSection}
     ${govSection}
     ${helpSectionHtml()}
@@ -1411,9 +1439,13 @@ async function main() {
     layer("languages.json", { cache: "no-cache" }, "pages in other languages", { items: [] }),
     // official non-regional producers' pages, quality-stamped (decision record, 2026-09-22)
     layer("national_sources.json", { cache: "no-cache" }, "national producers' pages", { items: [] }),
-  ]).then(([nhsL, medL, drv, idx, cat, gap, langs, nat]) => {
+    // NHS service finders — the PUBLIC file only: finders + the patient's hand-holding block
+    // (decision record, 2026-09-22 (2): the professional modules never reach this page)
+    layer("local_services.json", { cache: "no-cache" }, "NHS service finders", { items: [] }),
+  ]).then(([nhsL, medL, drv, idx, cat, gap, langs, nat, lsvc]) => {
+    for (const it of (lsvc && lsvc.items) || []) if (it.type === "finder" && it.status === "ok") nhsL.push({ ...it, type: "finder" });
     for (const it of (cat && cat.items) || []) (it.type === "medicines" ? medL : nhsL).push(it);
-    for (const it of (langs && langs.items) || []) if (it.lang && it.status !== "dead") nhsL.push({ ...it, type: "lang" });
+    for (const it of (langs && langs.items) || []) if (it.lang && it.status !== "dead" && !(it.status === "moved" && !it.moved_to)) nhsL.push({ ...it, type: "lang" });
     { const have = new Set(nhsL.map(x => String(x.url || "")));
       for (const it of (nat && nat.items) || []) if (it.quality && it.quality.pass === true && !have.has(String(it.url || ""))) nhsL.push({ ...it, type: "trusted" }); }
     // other organisations' pages the clinician chose because this hospital and
@@ -1694,6 +1726,9 @@ ${trialLine(dest)}
       format: item.format,
       checked: item.checked,
       listed: item.listed,
+      // the public hand-holding block of an NHS finder (local_services.json) — steps, NHS
+      // patient sentences, the stuck line; nothing else about a finder is ever carried
+      patient: item.type === "finder" ? item.patient : undefined,
       quality: item.quality,
     });
   }

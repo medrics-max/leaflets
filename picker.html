@@ -197,6 +197,16 @@
   }
   .drivepanel .drvadd:hover { filter: brightness(1.08); }
   .drivepanel .drvadd[disabled] { background: var(--green-tint); color: var(--green); cursor: default; filter: none; }
+  /* local NHS service finders (decision record, 2026-09-22) — the same amber "check this" row as driving; plum for the NHS/NICE source pill */
+  .drivepanel .svcrow { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 8px 0; border-top: 1px solid var(--line); }
+  .drivepanel .svcrow .svcname { font-weight: 600; flex: 1 1 200px; }
+  .drivepanel .svcrow a.drvsrc { margin-top: 0; }
+  .drivepanel .svcadd { padding: 8px 14px; border: 1px solid var(--green); border-radius: 999px; background: var(--green); color: #fff; cursor: pointer; font-size: 14px; font-weight: 700; }
+  .drivepanel .svcadd:hover { filter: brightness(1.08); }
+  .drivepanel .svcadd[disabled] { background: var(--green-tint); color: var(--green); cursor: default; filter: none; }
+  .drivepanel .svcwhy summary { cursor: pointer; font-size: 13px; color: var(--muted); padding: 4px 0; }
+  .drivepanel .svcorg { display: inline-block; font-size: 11.5px; font-weight: 700; padding: 1px 7px; border-radius: 999px; background: var(--plum-tint); color: var(--plum); margin-right: 6px; vertical-align: 1px; }
+  .drivepanel blockquote a { color: var(--plum); font-weight: 600; }
   .drvmissing { margin: 0 0 14px; padding: 10px 14px; border: 1px solid var(--amber); border-left-width: 4px; border-radius: 8px; background: var(--amber-tint); color: var(--amber-ink); font-size: 14px; line-height: 1.5; text-align: left; }
   .drvmissing button { margin-top: 8px; }
   .drivepanel .drvctl { margin-top: 10px; }
@@ -579,6 +589,7 @@
 <div id="sets" class="chips" hidden aria-label="Your saved sets"></div>
 <div id="related" class="related"></div>
 <div id="driving" class="driving"></div>
+<div id="localsvc" class="driving"></div>
 <div id="loadwarn"></div>
 <p class="count" id="count" aria-live="polite">Loading…</p>
 <div id="tvconfirm" class="tvconfirm" hidden></div>
@@ -650,7 +661,7 @@ const MEDRICS_LOGO = "";   // the wordmark now lives in the brand bar at the top
 const TRUST_KEY = "medrics_trust";
 // Say where each result comes from, not just what it is — a clinician choosing
 // between "DVT" entries needs to see trust leaflet vs national NHS page at a glance.
-const TAGLABEL = { leaflet:"Trust leaflet", medicines:"NHS medicine", advice:"Local advice", service:"Trust service", network:"Where to go", nhs:"NHS info page", gov:"Official advice", trusted:"Trusted source", gapfill:"Fills a gap", lang:"In another language" };
+const TAGLABEL = { leaflet:"Trust leaflet", medicines:"NHS medicine", advice:"Local advice", service:"Trust service", network:"Where to go", nhs:"NHS info page", gov:"Official advice", trusted:"Trusted source", gapfill:"Fills a gap", lang:"In another language", finder:"Find near you" };
 
 // Trust registry (trusts.json). Fallback keeps the page working if it can't load.
 let REGISTRY = null, TRUST = null;
@@ -690,7 +701,7 @@ function sourcesFor(t) {
   const dir = dirFor(t);
   // languages.json (decision record, 2026-09-22): pages reputable UK organisations publish in
   // OTHER languages — loaded always, SHOWN only when the clinician picks a language
-  if (t.library) return [["nhs_resources.json", "nhs"], ["medicines.json", "medicines"], ["nhs_catalogue.json", "nhs"], ["languages.json", "lang"], ["national_sources.json", "national"]];
+  if (t.library) return [["nhs_resources.json", "nhs"], ["medicines.json", "medicines"], ["nhs_catalogue.json", "nhs"], ["languages.json", "lang"], ["national_sources.json", "national"], ["local_services.json", "finder"]];
   return [
     [dir + "leaflets.json", "leaflet"],
     [dir + "services.json", "service"],
@@ -713,6 +724,10 @@ function sourcesFor(t) {
     // patient pages read from their OWN index pages, each with a quality stamp — only rows
     // that pass are offered, as 'Trusted source · <producer>' like the hand-kept rows
     ["national_sources.json", "national"],
+    // local_services.json (decision record, 2026-09-22, specs/leaflets.md P26): NHS.uk's own service
+    // FINDERS (dentist, pharmacy, sight test, sexual health…) as pickable rows — the patient types
+    // their postcode on the NHS website; medrics holds no location and lists no provider
+    ["local_services.json", "finder"],
   ];
 }
 
@@ -1039,6 +1054,10 @@ const BUNDLES_API = "https://brain.medrics.co.uk/api/leaflets/bundles";
 // relationship unlocks and whether this clinician is in the trust's team.
 const ENT_API = "https://brain.medrics.co.uk/api/leaflets/entitlements";
 const REF_API = "https://brain.medrics.co.uk/api/leaflets/referrals";
+// the PROFESSIONAL layer of the local NHS services row (decision record, 2026-09-22 (2): separation of
+// the clinician's picker from what the public sees) — served to a signed-in clinician only; the public
+// file carries the finders and the patient's hand-holding words, never the modules
+const LOCALSVC_API = "https://brain.medrics.co.uk/api/leaflets/local_services";
 let ENT = {}, REFS = { rows: [], reason: "" };
 const ACCOUNT_PAGE = "https://medrics.co.uk/account/";   // joining a trust's team, approvals and member lists live THERE (decision record, 2026-09-17)
 function sessHeaders() { let tok = ""; try { tok = sessionStorage.getItem("medrics_checkin_tok") || schedToken() || ""; } catch (e) {} return tok ? { "X-Medrics-Clinician": tok } : {}; }
@@ -1333,6 +1352,22 @@ function loadLearned() {
     .then(r => r.ok ? r.json() : {}).then(j => { LEARNED = (j && j.ranks) || {}; renderRelated(); })
     .catch(() => { LEARNED = {}; });
 }
+// The professional layer of the local NHS services row: modules with the NHS/NICE sentences,
+// the routing questions and our labelled notes — written for clinicians, so a patient page
+// never fetches it. Signed-in session required; an anonymous fetch gets nothing and the row
+// degrades to searchable finders. On a local walk (loopback) the builder's file is read
+// directly so the row can be tested without the server.
+function loadLocalServices() {
+  const apply = j => { LOCALSVC = (j && j.modules) || []; renderLocalServices(); };
+  if (["localhost", "127.0.0.1"].includes(location.hostname)) {
+    fetch("local_services_modules.json", { cache: "no-store" }).then(r => r.ok ? r.json() : {}).then(apply).catch(() => apply({}));
+    return;
+  }
+  const h = sessHeaders();
+  if (!Object.keys(h).length && !(ACCT.mode && ACCT.account)) { apply({}); return; }
+  fetch(LOCALSVC_API, { headers: h, cache: "no-store", credentials: "include" })
+    .then(r => r.ok ? r.json() : {}).then(apply).catch(() => apply({}));
+}
 // Distinct-clinician key for the learned-bundle k-floor (decision record, 2026-09-16: anonymised,
 // never traceable to a user): a RANDOM 128-bit token this browser makes for itself and replaces every 30 days.
 // Never derived from the sign-in, the GMC number or the trust; the server keeps only a keyed
@@ -1550,8 +1585,8 @@ async function load() {
   const failedLayers = [];
   const LAYER_LABEL = { leaflet: "the trust's own leaflets", service: "trust service pages",
                         advice: "local advice cards", nhs: "national NHS resources",
-                        medicines: "medicines pages" };
-  const [all, reviews, readability, bundles, profiles, driving, followups, nhsCards, learned] = await Promise.all([
+                        medicines: "medicines pages", finder: "NHS service finders" };
+  const [all, reviews, readability, bundles, profiles, driving, localsvc, followups, nhsCards, learned] = await Promise.all([
     Promise.all(sources.map(([f, ty]) =>
       fetch(f, { cache: "no-cache" })
         .then(r => {
@@ -1570,6 +1605,9 @@ async function load() {
     fetch("driving_advice.json", { cache: "no-cache" })
       .then(r => { if (!r.ok) throw 0; return r.json(); })
       .catch(() => { failedLayers.push("driving/flying advice"); return {}; }),
+    // the condition → NHS-finder MODULES come from the medrics server for a signed-in clinician
+    // (loadLocalServices below); the public file loaded as a source above carries only the finders
+    Promise.resolve({}),
     // optional per-trust layer: a missing file just means no follow-up row.
     // no-store — it carries unit locations and phone numbers, like advice.
     // 404 = no file = no row (optional layer); anything else — server error,
@@ -1591,6 +1629,8 @@ async function load() {
   if (seq !== _loadSeq) return;
   BUNDLES = (bundles && bundles.bundles) || [];
   DRIVING = (driving && driving.modules) || [];
+  LOCALSVC = []; LOCALSVC_SLUG = {};
+  svcPicks.clear(); svcOpen = null; svcAnswer.clear();
   FOLLOWUPS = (followups && followups.destinations) || [];
   schedLoad();   // which of these the scheduling service can book (needs the sign-in session)
   LEARNED = {};
@@ -1621,7 +1661,9 @@ async function load() {
     if (type === "gapfill") arr = (arr && arr.rows) ? arr.rows.filter(r => r.gap_fill === true && r.quality && r.quality.pass === true) : [];
     // language rows: a page the verify pass found dead is never offered; unchecked rows are
     // (the hub listed them today) — the weekly probe catches what has gone
-    if (type === "lang") arr = (Array.isArray(arr) ? arr : ((arr && arr.items) || [])).filter(r => r.lang && r.status !== "dead");
+    // a row the verify pass marked MOVED with no forwarding address answers 400 to
+    // everyone — five Macmillan rows did on 2026-09-22 — so it is never offered either
+    if (type === "lang") arr = (Array.isArray(arr) ? arr : ((arr && arr.items) || [])).filter(r => r.lang && r.status !== "dead" && !(r.status === "moved" && !r.moved_to));
     // national producer rows: only quality-passed pages, and never a URL a hand-kept row
     // already carries (the curated entry wins, exactly as the NHS A–Z rule)
     if (type === "national") {
@@ -1630,11 +1672,13 @@ async function load() {
         .filter(r => r.quality && r.quality.pass === true && !have.has(String(r.url || "")))
         .map(r => ({ ...r, type: "trusted" }));
     }
+    // NHS service finders: only rows the builder found on the NHS index and saw answer (status ok)
+    if (type === "finder") { LOCALSVC_INDEX = (arr && arr.index && arr.index.url) || LOCALSVC_INDEX; arr = (Array.isArray(arr) ? arr : ((arr && arr.items) || [])).filter(r => r.type === "finder" && r.status === "ok"); }
     // network = the trust's OWN directory of where its services are (other hospitals appear only as service pages)
     if (Array.isArray(arr) && type !== "leaflet" && type !== "service" && type !== "gapfill" && type !== "network") { const before = arr.length; arr = arr.filter(it => !isOtherTrust(it)); droppedOther += before - arr.length; }
     arr.forEach(d => {
       const it = { title: d.title, slug: d.slug, type: d.type || type,
-                   source: d.source, url: d.url,
+                   source: d.source, url: d.url, fid: d.type === "finder" ? d.id : undefined,
                    // language rows carry the language the organisation states and whether the
                    // page is HTML (a phone can translate it) or a PDF/document download
                    lang: d.lang, lang_name: d.lang_name, fmt: d.format,
@@ -1654,6 +1698,10 @@ async function load() {
     const hit = terms.length && covered.some(t => terms.some(term => t.includes(term)));
     if (hit) { ITEMS.splice(ITEMS.indexOf(g), 1); bySlug.delete(g.slug); }
   }
+  // the finder id → slug map needs the populated ITEMS (built too early on the first walk,
+  // 2026-09-22: the panel then had no finder to add); the professional modules load after it
+  for (const it of ITEMS) if (it.type === "finder" && it.fid) LOCALSVC_SLUG[it.fid] = it.slug;
+  loadLocalServices();   // needs the sign-in session; re-runs after check-in
   initLanguageUI();
   $("count").textContent = ITEMS.filter(it => it.type !== "lang").length + " items available. Type to search.";
   teamLoad();   // team membership, features and one-tap referrals for THIS trust (the session may predate the trust load)
@@ -1743,7 +1791,7 @@ function renderSelected() {
   if (outEl) delete outEl.dataset.fresh;
   const el = $("selected");
   // a QR can carry a follow-up alone — no leaflets ticked is still a valid code
-  if (!selected.size) { el.innerHTML = ""; $("gen").disabled = !fuPick; $("savebtn").disabled = true; renderRelated(); renderDriving(); return; }
+  if (!selected.size) { el.innerHTML = ""; $("gen").disabled = !fuPick; $("savebtn").disabled = true; renderRelated(); renderDriving(); renderLocalServices(); return; }
   $("gen").disabled = false;
   $("savebtn").disabled = false;
   el.innerHTML = [...selected.values()].map(it =>
@@ -1752,6 +1800,7 @@ function renderSelected() {
     b.onclick = () => { selected.delete(b.dataset.s); renderSelected(); renderResults(); });
   renderRelated();
   renderDriving();
+  renderLocalServices();
   renderReferrals();
 }
 
@@ -1893,6 +1942,118 @@ function drvQueryMatches(m, q) {
   if (!q) return false;
   if ((m.exclude || []).some(t => q.includes(fold(t)))) return false;
   return (m.match || []).some(t => termHit(fold(t), q));
+}
+
+// ── LOCAL NHS SERVICE FINDERS (decision record, 2026-09-22; specs/leaflets.md P26) ──
+// An impartial signposting row: when a ticked condition has an NHS service
+// behind it (a dentist, a pharmacy, an NHS sight test, a sexual health clinic…)
+// a chip appears; the panel shows the NHS.uk / NICE sentence that points there
+// (verbatim, re-verified weekly by local_services.py) and the NHS website's own
+// finder for that service. The patient enters their postcode on the NHS site —
+// this tool holds no location, lists no provider and ranks nobody. Adding a
+// finder to the QR is the clinician's click; nothing is auto-inserted.
+let LOCALSVC = [];          // modules from local_services.json
+let LOCALSVC_INDEX = "";    // the NHS "Services A to Z" page the finders come from
+let LOCALSVC_SLUG = {};     // finder id -> its pickable slug
+let svcPicks = new Map();   // module id -> Set(finder slugs) the clinician added
+let svcOpen = null;         // module id whose panel is open
+let svcAnswer = new Map();  // module id -> chosen option index of its `ask` (this session only; never on the QR)
+
+function svcMatches(it, m) {
+  if ((m.exclude || []).some(t => it._title.includes(fold(t)))) return false;
+  return (m.match || []).some(t => termHit(fold(t), it._title));
+}
+function svcQueryMatches(m, q) {
+  if (!q) return false;
+  if ((m.exclude || []).some(t => q.includes(fold(t)))) return false;
+  return (m.match || []).some(t => termHit(fold(t), q));
+}
+function renderLocalServices() {
+  const el = $("localsvc");
+  if (!el) return;
+  if (!LOCALSVC.length) { el.innerHTML = ""; return; }
+  const q = fold($("search").value.trim().toLowerCase());
+  const mods = LOCALSVC.filter(m =>
+    (selected.size && [...selected.values()].some(it => svcMatches(it, m))) || svcQueryMatches(m, q));
+  if (!mods.length) { el.innerHTML = ""; svcOpen = null; return; }
+  if (svcOpen && !mods.some(m => m.id === svcOpen)) svcOpen = null;
+  el.innerHTML =
+    `<span class="rlabel">Local NHS services (find near you):</span> ` +
+    mods.map(m =>
+      `<span class="chip" data-m="${esc(m.id)}" role="button" tabindex="0" ` +
+      `title="NHS service finders for ${esc(m.label)} — the patient enters their postcode on the NHS website">` +
+      `📍 ${esc(m.label)}</span>`).join(" ") +
+    `<div id="svcpanel"></div>`;
+  el.querySelectorAll(".chip").forEach(c => {
+    const open = () => { svcOpen = (svcOpen === c.dataset.m) ? null : c.dataset.m; renderSvcPanel(); };
+    c.onclick = open;
+    c.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } };
+  });
+  renderSvcPanel();
+}
+function renderSvcPanel() {
+  const host = $("svcpanel");
+  if (!host) return;
+  const m = svcOpen && LOCALSVC.find(x => x.id === svcOpen);
+  if (!m) { host.innerHTML = ""; return; }
+  // a why-row tagged `for` shows only when that condition is actually ticked (or searched)
+  const hay = [...selected.values()].map(it => it._title).concat([fold($("search").value.trim().toLowerCase())]);
+  const rows = (m.why || []).filter(w => w.verified && w.quote
+    && (!w.for || hay.some(h => termHit(fold(w.for), h))));
+  const quote = w =>
+    `<blockquote><span class="svcorg">${esc(w.org)}</span>${esc(w.label)}: “${esc(w.quote)}” ` +
+    `<a href="${esc(w.url)}" target="_blank" rel="noopener" title="Open the page this sentence was copied from">open ↗</a></blockquote>`;
+  const shown = rows.slice(0, 2), more = rows.slice(2);
+  const finders = (m.finders || []).map(fid => bySlug.get(LOCALSVC_SLUG[fid])).filter(Boolean);
+  // an `ask` routes (the recorded example: papilloedema checked? if the clinician cannot, an
+  // optometrist can) — the finders show only for the option that says so; the answer stays here
+  const ask = m.ask && Array.isArray(m.ask.options) ? m.ask : null;
+  const ansIdx = ask ? svcAnswer.get(m.id) : undefined;
+  const ans = ask && ansIdx !== undefined ? ask.options[ansIdx] : null;
+  const askHtml = ask
+    ? `<p class="q" style="margin-top:10px">${esc(ask.question)}</p><div class="opts">` +
+      ask.options.map((o, i) => `<button data-ans="${i}"${ansIdx === i ? ' style="border-color:var(--plum);color:var(--plum);background:var(--plum-tint)"' : ""}>${esc(o.label)}</button>`).join("") +
+      `</div>` +
+      (ans ? `<p class="drvnote">${esc(ans.note || "")}</p>` : "")
+    : "";
+  const showFinders = !ask || (ans && ans.show);
+  const row = it =>
+    `<div class="svcrow"><span class="svcname">${esc(it.title)}</span>` +
+    `<a class="drvsrc" href="${esc(it.url)}" target="_blank" rel="noopener" title="Opens the NHS website's own finder in a new tab">Open the NHS finder ↗</a>` +
+    (selected.has(it.slug)
+      ? `<button class="svcadd" disabled>✓ On the QR</button>`
+      : `<button class="svcadd" data-add="${esc(it.slug)}">＋ Add to the QR</button>`) +
+    `</div>`;
+  host.innerHTML = `<div class="drivepanel">` +
+    `<p class="q">📍 ${esc(m.label)}</p>` +
+    (rows.length
+      ? shown.map(quote).join("") +
+        (more.length ? `<details class="svcwhy"><summary>${more.length} more sentence${more.length === 1 ? "" : "s"} from the NHS / NICE pages</summary>${more.map(quote).join("")}</details>` : "")
+      : `<p class="drvnote">No verified NHS/NICE sentence for this suggestion right now — open the finder and judge for yourself.</p>`) +
+    (m.note ? `<p class="drvnote">medrics note (our words, not the NHS's): ${esc(m.note)}</p>` : "") +
+    askHtml +
+    (!showFinders ? (ask && !ans ? `<p class="drvfoot">Answer above to see the finder.</p>` : "")
+      : finders.length ? finders.map(row).join("")
+      : `<p class="drvnote">The NHS finder for this is not available right now.</p>`) +
+    `<div class="drvfoot">Impartial by design: these are the NHS website's own finders — the patient types their postcode there. ` +
+    `This tool holds no location and lists or ranks no provider.` +
+    (LOCALSVC_INDEX ? ` <a href="${esc(LOCALSVC_INDEX)}" target="_blank" rel="noopener">All NHS service finders ↗</a>` : "") +
+    `</div>` +
+    `<div class="drvctl"><button data-a="close">Close</button></div></div>`;
+  host.querySelectorAll(".svcadd[data-add]").forEach(b => {
+    b.onclick = () => {
+      const it = bySlug.get(b.dataset.add);
+      if (!it) return;
+      if (!svcPicks.has(m.id)) svcPicks.set(m.id, new Set());
+      svcPicks.get(m.id).add(it.slug);
+      selected.set(it.slug, it);
+      renderSelected(); renderResults();
+    };
+  });
+  host.querySelectorAll("[data-ans]").forEach(b => {
+    b.onclick = () => { svcAnswer.set(m.id, Number(b.dataset.ans)); renderSvcPanel(); };
+  });
+  host.querySelector('[data-a="close"]').onclick = () => { svcOpen = null; renderSvcPanel(); };
 }
 
 function renderDriving() {
@@ -3149,6 +3310,9 @@ async function generate() {
   const fragTopics = [];
   if (slugs) fragTopics.push("slugs=" + encodeURIComponent(slugs).replace(/%2C/gi, ","));
   if (adv) fragTopics.push("adv=" + encodeURIComponent(adv).replace(/%2C/gi, ","));
+  // (decision record, 2026-09-22 (2)) the finder slug alone rides the QR: the module, the
+  // clinician's answers and the NICE wording are the professional layer and never reach the
+  // patient page, which renders its own hand-holding card from the public file
   // The follow-up (fu), the booking reference (bk — random, meaningless outside
   // the unit's inbox) and the test-mode mark (tm) ride in the URL FRAGMENT: the
   // patient page reads the fragment first, and a fragment is never sent to the
@@ -3208,9 +3372,9 @@ async function generate() {
   out.scrollIntoView({ behavior: "smooth" });
 }
 
-$("search").addEventListener("input", () => { renderResults(); renderDriving(); });
+$("search").addEventListener("input", () => { renderResults(); renderDriving(); renderLocalServices(); });
 $("gen").onclick = generate;
-$("clear").onclick = () => { selected.clear(); recReset(); drvPicks.clear(); drvWalked.clear(); schedRelease(); fuPick = null; $("search").value = ""; renderSelected(); renderFollowup(); renderResults(); $("out").innerHTML = ""; };
+$("clear").onclick = () => { selected.clear(); recReset(); drvPicks.clear(); drvWalked.clear(); svcPicks.clear(); svcOpen = null; schedRelease(); fuPick = null; $("search").value = ""; renderSelected(); renderFollowup(); renderResults(); $("out").innerHTML = ""; };
 
 // ---- Clinician sign in / sign up --------------------------------------------
 // decision record. 2026-09-12: PIN registration, on-device.
@@ -3660,6 +3824,7 @@ function showCheckin(mode, prefill) {
 
 function hideCheckin(note) {
   loadLearned();   // the paid learned ranks need the session that now exists
+  loadLocalServices();   // the professional local-services modules need it too
   $("checkin").hidden = true;
   schedLoad();   // the session now exists: ask which follow-ups this trust can book
   document.body.classList.remove("gated");

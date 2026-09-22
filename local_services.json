@@ -1,0 +1,662 @@
+{
+ "version": 2,
+ "comment": "Local NHS service finders (decision record, 2026-09-22): impartial signposting — the patient finds a service near them on the NHS website's own finder. `items` are links on NHS.uk's Services A to Z index (fetched, never typed); each carries a `patient` block: fixed navigation steps, NHS.uk patient sentences copied from the fetched page (rendered only while verified; re-checked weekly), and the standing 111/999 line. PUBLIC file: NHS.uk only, no provider, phone, address, person, price, module or note — the professional layer lives on the medrics server (decision record, 2026-09-22 (2): separation of the professional picker from what the public sees).",
+ "index": {
+  "url": "https://www.nhs.uk/service-search/other-health-services",
+  "title": "Services A to Z - NHS",
+  "checked": "2026-09-22"
+ },
+ "built": "2026-09-22",
+ "items": [
+  {
+   "slug": "find-dentist",
+   "id": "dentist",
+   "type": "finder",
+   "title": "Find a dentist near you",
+   "url": "https://www.nhs.uk/service-search/find-a-dentist",
+   "page_title": "Find a dentist - NHS",
+   "index_label": "Dentist",
+   "source": "NHS service finder",
+   "terms": [
+    "dentist",
+    "dental",
+    "emergency dentist",
+    "nhs dentist"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [
+     {
+      "label": "Toothache",
+      "url": "https://www.nhs.uk/symptoms/toothache/",
+      "anchor": "See a dentist if you have toothache that lasts more than 2 days",
+      "quote": "See a dentist if you have toothache that lasts more than 2 days. They can treat the cause of the pain and stop any problems getting worse. There are also things you can do to ease toothache while you wait for an appointment.",
+      "verified": true,
+      "checked": "2026-09-22"
+     },
+     {
+      "label": "Dental abscess",
+      "url": "https://www.nhs.uk/conditions/dental-abscess/",
+      "anchor": "It needs urgent treatment by a dentist",
+      "quote": "A dental abscess is a build-up of pus in the teeth or gums caused by an infection. It needs urgent treatment by a dentist. A dental abscess will not go away on its own.",
+      "verified": true,
+      "checked": "2026-09-22"
+     }
+    ],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-pharmacy",
+   "id": "pharmacy",
+   "type": "finder",
+   "title": "Find a pharmacy near you",
+   "url": "https://www.nhs.uk/service-search/pharmacy/find-a-pharmacy",
+   "page_title": "Find a pharmacy - NHS",
+   "index_label": "Pharmacy",
+   "source": "NHS service finder",
+   "terms": [
+    "pharmacy",
+    "pharmacist",
+    "chemist",
+    "pharmacy first"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [
+     {
+      "label": "How pharmacies can help",
+      "url": "https://www.nhs.uk/nhs-services/pharmacies/how-pharmacies-can-help/",
+      "anchor": "Pharmacists can offer advice on a range of illnesses",
+      "quote": "Pharmacists can offer advice on a range of illnesses, such as coughs, colds, sore throats, ear infections and aches and pains.",
+      "verified": true,
+      "checked": "2026-09-22"
+     },
+     {
+      "label": "How pharmacies can help",
+      "url": "https://www.nhs.uk/nhs-services/pharmacies/how-pharmacies-can-help/",
+      "anchor": "This is called Pharmacy First",
+      "quote": "Most pharmacies can also offer prescription medicine for some conditions, without you needing to see a GP or make an appointment. This is called Pharmacy First.",
+      "verified": true,
+      "checked": "2026-09-22"
+     }
+    ],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-sight-test",
+   "id": "sight-test",
+   "type": "finder",
+   "title": "Find an NHS sight test (optician) near you",
+   "url": "https://www.nhs.uk/service-search/find-an-nhs-sight-test/location/",
+   "page_title": "Sight Tests - NHS",
+   "index_label": "NHS sight tests",
+   "source": "NHS service finder",
+   "terms": [
+    "optician",
+    "optometrist",
+    "eye test",
+    "sight test"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [
+     {
+      "label": "How often can I have a free NHS sight test?",
+      "url": "https://www.nhs.uk/nhs-services/opticians/how-often-can-i-have-a-free-nhs-eye-test/",
+      "anchor": "If you're concerned about your sight before your next NHS sight test is due",
+      "quote": "If you're concerned about your sight before your next NHS sight test is due, you should visit your ophthalmic practitioner or optometrist.",
+      "verified": true,
+      "checked": "2026-09-22"
+     },
+     {
+      "label": "Floaters and flashes",
+      "url": "https://www.nhs.uk/symptoms/floaters-and-flashes-in-the-eyes/",
+      "anchor": "your eyes will be checked at an opticians",
+      "quote": "If you have problems with floaters or flashes in your vision your eyes will be checked at an opticians to see if you need to be seen by an eye doctor (ophthalmologist) for more tests or treatment.",
+      "verified": true,
+      "checked": "2026-09-22"
+     }
+    ],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-gp",
+   "id": "gp",
+   "type": "finder",
+   "title": "Find a GP near you",
+   "url": "https://www.nhs.uk/service-search/find-a-gp",
+   "page_title": "Find a GP - NHS",
+   "index_label": "GP",
+   "source": "NHS service finder",
+   "terms": [
+    "gp",
+    "register with a gp",
+    "doctor's surgery"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-urgent-care",
+   "id": "urgent-care",
+   "type": "finder",
+   "title": "Find urgent and emergency care services near you",
+   "url": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/find-urgent-and-emergency-care-services/",
+   "page_title": "Find urgent and emergency care services - NHS",
+   "index_label": "Accident and emergency services",
+   "source": "NHS service finder",
+   "terms": [
+    "urgent treatment centre",
+    "minor injuries unit",
+    "walk-in centre",
+    "a&e",
+    "urgent care"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-talking-therapies",
+   "id": "talking-therapies",
+   "type": "finder",
+   "title": "Find NHS talking therapies (self-referral) near you",
+   "url": "https://www.nhs.uk/nhs-services/mental-health-services/find-nhs-talking-therapies-for-anxiety-and-depression/",
+   "page_title": "Find NHS talking therapies for anxiety and depression - NHS",
+   "index_label": "NHS talking therapies for anxiety and depression",
+   "source": "NHS service finder",
+   "terms": [
+    "talking therapies",
+    "iapt",
+    "counselling",
+    "cbt",
+    "self-referral"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "gp_surgery",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type the name of your GP surgery.",
+     "Choose a service and follow the NHS page to refer yourself."
+    ],
+    "nhs": [
+     {
+      "label": "Find NHS talking therapies",
+      "url": "https://www.nhs.uk/nhs-services/mental-health-services/find-nhs-talking-therapies-for-anxiety-and-depression/",
+      "anchor": "Use this service to find NHS talking therapies for anxiety and depression you can refer yourself to",
+      "quote": "Use this service to find NHS talking therapies for anxiety and depression you can refer yourself to.",
+      "verified": true,
+      "checked": "2026-09-22"
+     },
+     {
+      "label": "Find NHS talking therapies",
+      "url": "https://www.nhs.uk/nhs-services/mental-health-services/find-nhs-talking-therapies-for-anxiety-and-depression/",
+      "anchor": "You do not need to have a diagnosed mental health condition to refer yourself",
+      "quote": "You do not need to have a diagnosed mental health condition to refer yourself to NHS talking therapies for anxiety and depression.",
+      "verified": true,
+      "checked": "2026-09-22"
+     }
+    ],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-sexual-health-clinic",
+   "id": "sexual-health",
+   "type": "finder",
+   "title": "Find a sexual health clinic near you",
+   "url": "https://www.nhs.uk/nhs-services/sexual-health-services/find-a-sexual-health-clinic/",
+   "page_title": "Find a sexual health clinic - NHS",
+   "index_label": "Sexual health clinics",
+   "source": "NHS service finder",
+   "terms": [
+    "sexual health",
+    "gum clinic"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [
+     {
+      "label": "Find a sexual health clinic",
+      "url": "https://www.nhs.uk/nhs-services/sexual-health-services/find-a-sexual-health-clinic/",
+      "anchor": "Sexual health clinics are free and available to everyone",
+      "quote": "Sexual health clinics are free and available to everyone, no matter your age, gender, ethnicity or sexuality.",
+      "verified": true,
+      "checked": "2026-09-22"
+     },
+     {
+      "label": "Find a sexual health clinic",
+      "url": "https://www.nhs.uk/nhs-services/sexual-health-services/find-a-sexual-health-clinic/",
+      "anchor": "Visiting a sexual health clinic is confidential",
+      "quote": "Visiting a sexual health clinic is confidential. The staff will explain everything, including any tests you may need.",
+      "verified": true,
+      "checked": "2026-09-22"
+     }
+    ],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-sti-testing",
+   "id": "sti-testing",
+   "type": "finder",
+   "title": "Find STI testing and treatment near you",
+   "url": "https://www.nhs.uk/nhs-services/sexual-health-services/find-sti-testing-and-treatment/",
+   "page_title": "Find sexually transmitted infection (STI) testing and treatment - NHS",
+   "index_label": "Sexually transmitted infection (STI) testing and treatment",
+   "source": "NHS service finder",
+   "terms": [
+    "sti",
+    "sexually transmitted",
+    "chlamydia test"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [
+     {
+      "label": "Find STI testing and treatment",
+      "url": "https://www.nhs.uk/nhs-services/sexual-health-services/find-sti-testing-and-treatment/",
+      "anchor": "Information and STI tests are free and available to everyone",
+      "quote": "Information and STI tests are free and available to everyone, no matter your age, gender, ethnicity or sexuality. You may have to pay for prescriptions for treatment.",
+      "verified": true,
+      "checked": "2026-09-22"
+     }
+    ],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-emergency-contraception",
+   "id": "emergency-contraception",
+   "type": "finder",
+   "title": "Find emergency contraception near you",
+   "url": "https://www.nhs.uk/service-search/sexual-health-services/find-emergency-contraception/",
+   "page_title": "Find emergency contraception - NHS",
+   "index_label": "Emergency contraception",
+   "source": "NHS service finder",
+   "terms": [
+    "emergency contraception",
+    "morning after pill"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-contraception",
+   "id": "contraception",
+   "type": "finder",
+   "title": "Find contraception services near you",
+   "url": "https://www.nhs.uk/nhs-services/sexual-health-services/find-contraception-services/",
+   "page_title": "Find contraception services - NHS",
+   "index_label": "Contraception services",
+   "source": "NHS service finder",
+   "terms": [
+    "contraception",
+    "family planning"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-young-people-sexual-health",
+   "id": "young-sexual-health",
+   "type": "finder",
+   "title": "Find young people's sexual health services near you",
+   "url": "https://www.nhs.uk/service-search/sexual-health-services/find-young-peoples-sexual-health-services/",
+   "page_title": "Find young people's sexual health services - NHS",
+   "index_label": "Young people's sexual health services",
+   "source": "NHS service finder",
+   "terms": [
+    "young people sexual health"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-sarc",
+   "id": "sarc",
+   "type": "finder",
+   "title": "Find a sexual assault referral centre near you",
+   "url": "https://www.nhs.uk/service-search/sexual-health-services/find-a-rape-and-sexual-assault-referral-centre/",
+   "page_title": "Find a rape and sexual assault referral centre - NHS",
+   "index_label": "Rape and sexual assault referral centres",
+   "source": "NHS service finder",
+   "terms": [
+    "sexual assault",
+    "rape",
+    "sarc"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-stop-smoking",
+   "id": "stop-smoking",
+   "type": "finder",
+   "title": "Find stop smoking support near you",
+   "url": "https://www.nhs.uk/service-search/other-health-services/stop-smoking-support-services/",
+   "page_title": "Find stop smoking support services - NHS",
+   "index_label": "Stop smoking support services",
+   "source": "NHS service finder",
+   "terms": [
+    "stop smoking",
+    "quit smoking",
+    "smoking cessation"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [
+     {
+      "label": "NHS stop smoking services help you quit",
+      "url": "https://www.nhs.uk/live-well/quit-smoking/nhs-stop-smoking-services-help-you-quit/",
+      "anchor": "Local stop smoking services are free and can improve your chances of quitting for good",
+      "quote": "Local stop smoking services are free and can improve your chances of quitting for good.",
+      "verified": true,
+      "checked": "2026-09-22"
+     }
+    ],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-alcohol-support",
+   "id": "alcohol",
+   "type": "finder",
+   "title": "Find alcohol addiction support near you",
+   "url": "https://www.nhs.uk/nhs-services/find-alcohol-addiction-support-services/",
+   "page_title": "Find alcohol addiction support services - NHS",
+   "index_label": "Alcohol addiction",
+   "source": "NHS service finder",
+   "terms": [
+    "alcohol",
+    "drinking"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [
+     {
+      "label": "Find alcohol addiction support services",
+      "url": "https://www.nhs.uk/nhs-services/find-alcohol-addiction-support-services/",
+      "anchor": "Alcohol addiction services can help you reduce or stop your drinking",
+      "quote": "Alcohol addiction services can help you reduce or stop your drinking if it's affecting your life or your health.",
+      "verified": true,
+      "checked": "2026-09-22"
+     }
+    ],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-drug-treatment",
+   "id": "drugs",
+   "type": "finder",
+   "title": "Find drug treatment services near you",
+   "url": "https://www.nhs.uk/service-search/other-health-services/drug-treatment-services/",
+   "page_title": "Find drug treatment services - NHS",
+   "index_label": "Drug treatment services",
+   "source": "NHS service finder",
+   "terms": [
+    "drug treatment",
+    "drug misuse",
+    "substance misuse"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [
+     {
+      "label": "Drug addiction: getting help",
+      "url": "https://www.nhs.uk/live-well/addiction-support/drug-addiction-getting-help/",
+      "anchor": "you can approach your local drug treatment service yourself",
+      "quote": "If you're not comfortable talking to a GP, you can approach your local drug treatment service yourself.",
+      "verified": true,
+      "checked": "2026-09-22"
+     }
+    ],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-podiatry",
+   "id": "podiatry",
+   "type": "finder",
+   "title": "Find podiatrists and chiropodists near you",
+   "url": "https://www.nhs.uk/service-search/other-health-services/podiatrists-and-chiropodists/",
+   "page_title": "Find podiatrists and chiropodists services - NHS",
+   "index_label": "Podiatrists and chiropodists",
+   "source": "NHS service finder",
+   "terms": [
+    "podiatrist",
+    "chiropodist",
+    "foot care"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [
+     {
+      "label": "Ingrown toenail",
+      "url": "https://www.nhs.uk/conditions/ingrown-toenail/",
+      "anchor": "you might be able to refer yourself directly to a podiatrist without seeing a GP",
+      "quote": "If you have an ingrown toenail, you might be able to refer yourself directly to a podiatrist without seeing a GP.",
+      "verified": true,
+      "checked": "2026-09-22"
+     }
+    ],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-bp-check",
+   "id": "bp-check",
+   "type": "finder",
+   "title": "Find a pharmacy that offers free blood pressure checks",
+   "url": "https://www.nhs.uk/nhs-services/pharmacies/find-a-pharmacy-that-offers-free-blood-pressure-checks/",
+   "page_title": "Find a pharmacy that offers free blood pressure checks - NHS",
+   "index_label": "Pharmacy that offers free blood pressure checks",
+   "source": "NHS service finder",
+   "terms": [
+    "blood pressure check"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [
+     {
+      "label": "Find a pharmacy that offers free blood pressure checks",
+      "url": "https://www.nhs.uk/nhs-services/pharmacies/find-a-pharmacy-that-offers-free-blood-pressure-checks/",
+      "anchor": "You can get your blood pressure checked at a pharmacy without seeing a GP",
+      "quote": "Use this service to find a pharmacy that offers free blood pressure checks. You can get your blood pressure checked at a pharmacy without seeing a GP.",
+      "verified": true,
+      "checked": "2026-09-22"
+     }
+    ],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-pals",
+   "id": "pals",
+   "type": "finder",
+   "title": "Find a patient advice and liaison service (PALS)",
+   "url": "https://www.nhs.uk/service-search/other-health-services/patient-advice-and-liaison-services-pals/",
+   "page_title": "Find patient advice and liaison services (PALS) - NHS",
+   "index_label": "Patient advice and liaison services (PALS)",
+   "source": "NHS service finder",
+   "terms": [
+    "pals",
+    "complaint",
+    "patient advice"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  },
+  {
+   "slug": "find-pregnancy-test",
+   "id": "pregnancy-test",
+   "type": "finder",
+   "title": "Find pregnancy testing near you",
+   "url": "https://www.nhs.uk/service-search/other-health-services/pregnancy-testing/",
+   "page_title": "Find pregnancy testing services - NHS",
+   "index_label": "Pregnancy testing",
+   "source": "NHS service finder",
+   "terms": [
+    "pregnancy test"
+   ],
+   "status": "ok",
+   "checked": "2026-09-22",
+   "patient": {
+    "entry": "postcode",
+    "steps": [
+     "Tap the button below. It opens the NHS website.",
+     "Type your postcode or town.",
+     "Choose one near you and contact them in the way the NHS page shows."
+    ],
+    "nhs": [],
+    "if_stuck": "If you cannot find one, or you are not sure what to do, call 111. In an emergency call 999."
+   }
+  }
+ ],
+ "build_problems": []
+}

@@ -44,6 +44,12 @@ nhs_content_probe.json
 # — verbatim public facts, but the store is a medrics pipeline internal;
 # only the rendered advice-card section is public.
 dental_register.json
+# local_services.py weekly verify state (finder + quote re-checks) — pipeline
+# internal; the register local_services.json itself is public.
+local_services_verify.json
+# PROFESSIONAL layer of the local services row (modules, NICE quotes, ask flows,
+# notes) — served to signed-in clinicians by the medrics server, never public
+local_services_modules.json
 weekly_scan_plan.md
 *.py
 *.gs
