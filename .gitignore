@@ -31,6 +31,8 @@ language_context.json
 trust_standards.json
 evidence_literature.json
 evidence_watch_state.json
+safety_netting_evidence.DRAFT.json
+safety_netting_evidence.json
 # Per-trust compliance priorities (trust_compliance.py) — business intel,
 # derived from public sources but PRIVATE by standing rule.
 trust_priorities.json
@@ -74,6 +76,8 @@ link_report.json
 review_report.json
 update_log.json
 estate_churn.jsonl
+estate_watch.json
+estate_watch_history.jsonl
 update_state.json
 leaflet_telemetry.jsonl
 *.TEMPLATE.json

@@ -239,6 +239,10 @@
   .tag.nhs { background: var(--track); color: var(--ink-soft); }
   .tag.trusted { background: var(--track); color: var(--ink); }
   .tag.gapfill { background: var(--amber-tint); color: var(--amber-ink); }
+  /* a page in the patient's language (decision record, 2026-09-22): shown only when a
+     language is chosen, ranked above everything else in that language */
+  .tag.lang { background: var(--plum-tint); color: var(--plum-dark); font-weight: 700; }
+  .langhint { font-size: 12px; color: var(--muted); margin: 4px 0 0; }
   .tag.stale { background: var(--red-tint); color: var(--red); }
   /* quality-of-resource hints (decision record, 2026-09-16): small and muted beside the source tag —
      out of date, page not loading, PDF, reading age — never louder than where it comes from */
@@ -561,7 +565,11 @@
     <select id="specsel" aria-label="Rank results for a specialty"></select>
     <span class="spechint" title="The choice is stored only in this browser and is never sent anywhere.">stays on this device</span>
   </label>
+  <label class="specrow" id="langrow" hidden>Patient's language:
+    <select id="langsel" aria-label="Show pages in the patient's language"></select>
+  </label>
 </p>
+<p id="langhint" class="langhint" hidden></p>
 <div id="specnudge" class="nudge" hidden></div>
 <div id="demobanner" hidden><strong>Signposting only.</strong> Every link below goes to <span id="signpost-trust">this trust</span>'s own published page or to NHS.uk. An independent tool — not provided or endorsed by the trust.</div>
 
@@ -642,7 +650,7 @@ const MEDRICS_LOGO = "";   // the wordmark now lives in the brand bar at the top
 const TRUST_KEY = "medrics_trust";
 // Say where each result comes from, not just what it is — a clinician choosing
 // between "DVT" entries needs to see trust leaflet vs national NHS page at a glance.
-const TAGLABEL = { leaflet:"Trust leaflet", medicines:"NHS medicine", advice:"Local advice", service:"Trust service", network:"Where to go", nhs:"NHS info page", gov:"Official advice", trusted:"Trusted source", gapfill:"Fills a gap" };
+const TAGLABEL = { leaflet:"Trust leaflet", medicines:"NHS medicine", advice:"Local advice", service:"Trust service", network:"Where to go", nhs:"NHS info page", gov:"Official advice", trusted:"Trusted source", gapfill:"Fills a gap", lang:"In another language" };
 
 // Trust registry (trusts.json). Fallback keeps the page working if it can't load.
 let REGISTRY = null, TRUST = null;
@@ -680,7 +688,9 @@ function dirFor(t) {
 // gaps are covered whichever trust is chosen.
 function sourcesFor(t) {
   const dir = dirFor(t);
-  if (t.library) return [["nhs_resources.json", "nhs"], ["medicines.json", "medicines"], ["nhs_catalogue.json", "nhs"]];
+  // languages.json (decision record, 2026-09-22): pages reputable UK organisations publish in
+  // OTHER languages — loaded always, SHOWN only when the clinician picks a language
+  if (t.library) return [["nhs_resources.json", "nhs"], ["medicines.json", "medicines"], ["nhs_catalogue.json", "nhs"], ["languages.json", "lang"], ["national_sources.json", "national"]];
   return [
     [dir + "leaflets.json", "leaflet"],
     [dir + "services.json", "service"],
@@ -698,6 +708,11 @@ function sourcesFor(t) {
     // OTHER organisations' pages, offered only where this trust and NHS.uk have
     // a gap and the quality checker passed them (specs/leaflets.md P19)
     ["gap_fill.json", "gapfill"],
+    ["languages.json", "lang"],
+    // national_sources.json (decision record, 2026-09-22): official non-regional producers'
+    // patient pages read from their OWN index pages, each with a quality stamp — only rows
+    // that pass are offered, as 'Trusted source · <producer>' like the hand-kept rows
+    ["national_sources.json", "national"],
   ];
 }
 
@@ -832,8 +847,44 @@ function termGroups(q) {
   return groups;
 }
 
+// PATIENT'S LANGUAGE (decision record, 2026-09-22): pages in other languages are
+// in the index but INVISIBLE until the clinician picks a language; then a page in
+// that language ranks above everything, an HTML page (which a phone can translate)
+// above a PDF, and English pages are never dropped. Session-only — a language is
+// a per-patient choice, so it is not remembered between visits.
+let LANG = "";
+const LANG_BOOST = 26;       // beats an exact-title match (+15) PLUS the leaflet-first boost (+6) and the HTML boost — the patient's language above all
+const HTML_BOOST = 3;        // with a language chosen: a translatable page over a PDF
+const isPdfLike = it => it.fmt === "pdf" || it.fmt === "docx" || /\.(pdf|docx?)(\?|$)|download\.cfm/i.test(String(it.url || ""));
+function initLanguageUI() {
+  const sel = $("langsel"), row = $("langrow");
+  if (!sel || !row) return;
+  const counts = new Map();
+  for (const it of ITEMS) if (it.type === "lang" && it.lang) {
+    const c = counts.get(it.lang) || { name: it.lang_name || it.lang, n: 0 };
+    c.n += 1; counts.set(it.lang, c);
+  }
+  if (!counts.size) { row.hidden = true; return; }
+  const opts = [...counts.entries()].sort((a, b) => a[1].name.localeCompare(b[1].name));
+  sel.innerHTML = '<option value="">English (default)</option>' +
+    opts.map(([code, c]) => `<option value="${esc(code)}">${esc(c.name)} (${c.n} page${c.n === 1 ? "" : "s"})</option>`).join("");
+  sel.value = LANG;
+  row.hidden = false;
+  sel.onchange = () => {
+    LANG = sel.value;
+    const hint = $("langhint");
+    if (LANG) {
+      const c = counts.get(LANG);
+      hint.textContent = `${c ? c.n : 0} pages in ${c ? c.name : LANG} from national organisations will rank first, then pages a phone can translate. Your trust's English leaflets stay in the list.`;
+      hint.hidden = false;
+    } else hint.hidden = true;
+    renderResults();
+  };
+}
+
 function scoreItem(it, groups, qf) {
   let score = 0;
+  if (it.type === "lang" && (!LANG || it.lang !== LANG)) return 0;   // invisible unless that language is chosen
   for (const alts of groups) {
     let best = 0;
     for (const { t, wb } of alts) {
@@ -853,6 +904,10 @@ function scoreItem(it, groups, qf) {
   if (it._title === qf) score += 15;
   else if (it._title.startsWith(qf)) score += 3;   // small — must not beat the leaflet-first boost
   score += TYPE_BOOST[it.type] || 0;
+  if (LANG) {
+    if (it.type === "lang") score += LANG_BOOST;            // the patient's language above all
+    else if (!isPdfLike(it)) score += HTML_BOOST;           // then what a phone can translate
+  }
   score -= Math.min(3, Math.floor(it._title.length / 50));  // prefer concise titles
   // Specialty ranking (opt-in, on-device): profile-relevant items rise, the
   // rest sink slightly — see SPEC_BOOST/SPEC_MISS. Only reorders items that
@@ -1564,12 +1619,27 @@ async function load() {
     // the guard is for the NATIONAL layers only — the trust's own leaflets and
     // services live on its own .nhs.uk site by definition
     if (type === "gapfill") arr = (arr && arr.rows) ? arr.rows.filter(r => r.gap_fill === true && r.quality && r.quality.pass === true) : [];
+    // language rows: a page the verify pass found dead is never offered; unchecked rows are
+    // (the hub listed them today) — the weekly probe catches what has gone
+    if (type === "lang") arr = (Array.isArray(arr) ? arr : ((arr && arr.items) || [])).filter(r => r.lang && r.status !== "dead");
+    // national producer rows: only quality-passed pages, and never a URL a hand-kept row
+    // already carries (the curated entry wins, exactly as the NHS A–Z rule)
+    if (type === "national") {
+      const have = new Set(ITEMS.map(x => String(x.url || "")));
+      arr = (Array.isArray(arr) ? arr : ((arr && arr.items) || []))
+        .filter(r => r.quality && r.quality.pass === true && !have.has(String(r.url || "")))
+        .map(r => ({ ...r, type: "trusted" }));
+    }
     // network = the trust's OWN directory of where its services are (other hospitals appear only as service pages)
     if (Array.isArray(arr) && type !== "leaflet" && type !== "service" && type !== "gapfill" && type !== "network") { const before = arr.length; arr = arr.filter(it => !isOtherTrust(it)); droppedOther += before - arr.length; }
     arr.forEach(d => {
       const it = { title: d.title, slug: d.slug, type: d.type || type,
-                   source: d.source,
-                   _title: fold(d.title), _hay: fold(d.title + " " + d.slug + " " + (d.terms || []).join(" ")) };
+                   source: d.source, url: d.url,
+                   // language rows carry the language the organisation states and whether the
+                   // page is HTML (a phone can translate it) or a PDF/document download
+                   lang: d.lang, lang_name: d.lang_name, fmt: d.format,
+                   _title: fold(d.title), _hay: fold(d.title + " " + d.slug + " " + (d.terms || []).join(" ")
+                     + " " + (d.topic_en || "") + " " + (d.lang_name || "") + (d.type === "lang" || type === "lang" ? " " + (d.source || "") : "")) };
       ITEMS.push(it); bySlug.set(d.slug, it);
     });
   });
@@ -1584,7 +1654,8 @@ async function load() {
     const hit = terms.length && covered.some(t => terms.some(term => t.includes(term)));
     if (hit) { ITEMS.splice(ITEMS.indexOf(g), 1); bySlug.delete(g.slug); }
   }
-  $("count").textContent = ITEMS.length + " items available. Type to search.";
+  initLanguageUI();
+  $("count").textContent = ITEMS.filter(it => it.type !== "lang").length + " items available. Type to search.";
   teamLoad();   // team membership, features and one-tap referrals for THIS trust (the session may predate the trust load)
   $("loadwarn").innerHTML = failedLayers.length
     ? `<p class="loadwarn-msg"><strong>⚠ Some content failed to load:</strong> ` +
@@ -2949,7 +3020,7 @@ function itemLi(it) {
   return `
     <li data-s="${esc(it.slug)}">
       <input type="checkbox" aria-label="${esc(it.title)}" ${selected.has(it.slug) ? "checked" : ""}>
-      <span class="t">${esc(it.title)}<span class="tag ${esc(it.type)}">${it.type === "trusted" && it.source ? esc(it.source) : (TAGLABEL[it.type]||"")}</span>${it.type === "gapfill" ? `<span class="tag hint" title="Neither this hospital nor NHS.uk publishes a page on this; this one passed medrics' quality check (reading age, review date, producer stated)">from ${esc(it.source || "")}</span>` : ""}${redflag}${stale}${broken}
+      <span class="t">${esc(it.title)}<span class="tag ${esc(it.type)}">${it.type === "lang" ? esc((it.lang_name || "") + " · " + (it.source || "")) : it.type === "trusted" && it.source ? esc(it.source) : (TAGLABEL[it.type]||"")}</span>${it.type === "lang" && isPdfLike(it) ? `<span class="tag hint" title="A download, not a web page — it opens as a file on the phone">${it.fmt === "docx" ? "document" : "PDF"}</span>` : ""}${it.type === "gapfill" ? `<span class="tag hint" title="Neither this hospital nor NHS.uk publishes a page on this; this one passed medrics' quality check (reading age, review date, producer stated)">from ${esc(it.source || "")}</span>` : ""}${redflag}${stale}${broken}
       <a class="openpg" href="${esc(patientUrl(it.slug))}" target="_blank" rel="noopener" title="Open the patient page to check it">↗</a></span>
     </li>`;
 }
@@ -3018,7 +3089,10 @@ function renderResults() {
       || a[1].title.localeCompare(b[1].title))
     .slice(0, 80)
     .map(([, it]) => it);
-  ul.innerHTML = matches.map(itemLi).join("") || '<li class="hint">No matches — try another word.</li>';
+  const langNote = (LANG && matches.length && !matches.some(it => it.type === "lang"))
+    ? `<li class="hint">No page in ${esc(($("langsel").selectedOptions[0] || {}).text || "that language").replace(/ \(\d+ pages?\)$/, "")} matched — English pages below; web pages can be translated on the phone, PDFs cannot.</li>`
+    : "";
+  ul.innerHTML = langNote + (matches.map(itemLi).join("") || '<li class="hint">No matches — try another word.</li>');
   if (!matches.length) noteNoResults(q);   // anonymous gap signal (see telemetry block)
   wireResults(ul);
 }

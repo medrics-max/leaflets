@@ -792,6 +792,7 @@ function sourceBadge(item) {
   if (item.type === "nhs" || item.type === "medicines") return `<span class="src src-nhs">NHS website</span>`;
   if (item.type === "gov") return `<span class="src src-gov">${escapeHtml(item.source || "Official")}</span>`;
   if (item.type === "trusted") return `<span class="src src-trusted">${escapeHtml(item.source || "Trusted source")}</span>`;
+  if (item.type === "lang") return `<span class="src src-trusted">${escapeHtml((item.source || "Trusted source") + (item.lang_name ? " · " + item.lang_name : ""))}</span>`;
   // another organisation's page, chosen because this hospital and NHS.uk have none on the topic (P19)
   if (item.type === "gapfill") return `<span class="src src-trusted" title="Your hospital and the NHS website have no page on this; this one passed medrics' quality check">From ${escapeHtml(item.source || "another NHS organisation")}</span>`;
   return "";
@@ -820,6 +821,18 @@ function provenanceLine(item) {
       text = `Listed on ${TRUST_LABEL}'s website · we last re-read the list on ${niceDate(t.last_scan)}`;
     }
     if (text && t && t.status === "overdue") text += " · our re-read is late — if in doubt, open the hospital's page";
+  } else if (item.type === "lang") {
+    // the organisation's own translated-information page listed it on `listed`; the link
+    // itself was last probed on `checked` (both stamped by the register builder, never typed)
+    if (item.listed) text = `Listed on ${item.source || "the organisation"}'s own page on ${niceDate(String(item.listed).slice(0, 10))}`
+      + (item.checked ? ` · link tested on ${niceDate(String(item.checked).slice(0, 10))}` : "");
+  } else if (item.type === "trusted" && item.quality && item.quality.checked) {
+    // a national producer's page from the scanned register: say when WE last measured it and
+    // what we measured (the same page-observable ruler as every hospital), never a verdict on the words
+    const q = item.quality;
+    text = `Listed on ${item.source || "the organisation"}'s own index · checked by medrics on ${niceDate(String(q.checked).slice(0, 10))}`
+      + (q.reading_age ? ` · reading age ~${q.reading_age}` : "")
+      + (q.review_due ? ` · the organisation's review date: ${String(q.review_due).slice(0, 4)}` : "");
   } else if (["nhs", "medicines", "trusted", "gov"].includes(item.type)) {
     const nl = freshLayer("national_links");
     if (nl && nl.last_check) {
@@ -1194,6 +1207,14 @@ function renderResolved(items, demo) {
   // layer under the same heading; filtering by type must never drop an item.
   const nhs = items.filter(i => i.type === "nhs" || i.type === "trusted" || i.type === "gapfill");
   const gov = items.filter(i => i.type === "gov");
+  // pages in the patient's own language, from national organisations (decision record,
+  // 2026-09-22): shown first, in the organisation's own words; medrics translates nothing
+  const langs = items.filter(i => i.type === "lang");
+  const langSection = langs.length
+    ? `<p class="section-title">In your language</p>
+       <p class="section-sub">Information in ${escapeHtml([...new Set(langs.map(l => l.lang_name).filter(Boolean))].join(", ") || "your language")}, published by the organisations named. A PDF opens as a file. The other pages here are in English: your phone's browser can translate a web page, though the NHS website notes an online translator may not always interpret longer or more complex information correctly.</p>
+       ${langs.map(l => cardFor(l, l.format === "pdf" || l.format === "docx" ? "Open file" : "Open")).join("")}`
+    : "";
 
   // The flow (decision record, 2026-09-03): your leaflets → about your condition →
   // advice → your medicines → further information → your follow-up →
@@ -1293,6 +1314,7 @@ function renderResolved(items, demo) {
              : MISSING_ITEMS + " items your clinician chose are not available at the moment. Please ask your care team about them.")}</p>`
       : ""}
     ${leafletSection}
+    ${langSection}
     ${nhsSection}
     ${adviceSection}
     ${networkSection}
@@ -1385,8 +1407,15 @@ async function main() {
     // the rest of NHS.uk's A–Z (nhs_catalogue.py) — resolves nhsaz-/medaz- slugs
     layer("nhs_catalogue.json", { cache: "no-cache" }, "NHS A-Z", { items: [] }),
     layer("gap_fill.json", { cache: "no-cache" }, "gap-fill pages", { rows: [] }),
-  ]).then(([nhsL, medL, drv, idx, cat, gap]) => {
+    // pages reputable UK organisations publish in other languages (decision record, 2026-09-22)
+    layer("languages.json", { cache: "no-cache" }, "pages in other languages", { items: [] }),
+    // official non-regional producers' pages, quality-stamped (decision record, 2026-09-22)
+    layer("national_sources.json", { cache: "no-cache" }, "national producers' pages", { items: [] }),
+  ]).then(([nhsL, medL, drv, idx, cat, gap, langs, nat]) => {
     for (const it of (cat && cat.items) || []) (it.type === "medicines" ? medL : nhsL).push(it);
+    for (const it of (langs && langs.items) || []) if (it.lang && it.status !== "dead") nhsL.push({ ...it, type: "lang" });
+    { const have = new Set(nhsL.map(x => String(x.url || "")));
+      for (const it of (nat && nat.items) || []) if (it.quality && it.quality.pass === true && !have.has(String(it.url || ""))) nhsL.push({ ...it, type: "trusted" }); }
     // other organisations' pages the clinician chose because this hospital and
     // NHS.uk have no page on the topic — quality-checked, and labelled as such
     for (const r of (gap && gap.rows) || []) if (r.gap_fill === true && r.quality && r.quality.pass === true) nhsL.push({ ...r, type: "gapfill" });
@@ -1660,6 +1689,12 @@ ${trialLine(dest)}
       review: reviews[lookup],
       replaced: replaced,
       nhsCards: null,
+      source: item.source,
+      lang_name: item.lang_name,
+      format: item.format,
+      checked: item.checked,
+      listed: item.listed,
+      quality: item.quality,
     });
   }
   // per-page NHS files: the requested slug (already in flight), a redirected
