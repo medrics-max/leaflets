@@ -114,8 +114,9 @@
   "title": "Adrenal Insufficiency Sick Day Rule Information – Information for patients on long-term steroid hormone replacement therapy (e.g.: Hydrocortisone, prednisolone, dexamethasone)."
  },
  "adult-head-injury-anticoagulant-antiplatelet": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "2140285b95eb9cda",
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "88a6ecabe75501a9",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Head Injury – Anticoagulant/Antiplatelet"
  },
@@ -1164,8 +1165,9 @@
   "title": "Discharge advice following your surgery – gynaecology"
  },
  "discharge-information-for-patients-going-home-with-opioid-medication-for-acute-pain-relief": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "b18b1a08694213ca",
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "8b7ba90ddf7747b2",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Going Home with Opioid Painkillers"
  },
@@ -1802,62 +1804,72 @@
   "title": "Going home on oxygen"
  },
  "guidelines-on-vitamin-and-mineral-supplementation-after-gastric-bypass-and-sleeve-gastrectomy": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "fbb4d6ad6eafe62f",
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "890f0d231aed719d",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Guidelines on vitamin and mineral supplementation after gastric bypass and sleeve gastrectomy"
  },
  "gynaecology-enhanced-recovery-programme": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "78813bba01007ae3",
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "35fe3a67261fd2d8",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Gynaecology Enhanced Recovery Programme"
  },
  "habit-cough-in-children": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "035a9ca923662bfb",
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "4b686edcbe04ac4a",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Habit Cough in Children"
  },
  "having-an-operation-information-for-patients-awaiting-surgery-at-kidderminster-treatment-centre": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "697c9cd20602e2e6",
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "f02f94acef154b3c",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Having an operation- Information for patients awaiting surgery at Kidderminster Treatment Centre"
  },
  "having-an-x-ray-information-for-children-and-adults-with-learning-disabilities": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "849bcd8228ef536e",
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "0a4bb891ccdcb83f",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Having an X-ray – Information for patients with learning disabilities"
  },
  "having-endometrial-ablation-under-local-anaesthesia": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "15553e4de5fb0871",
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "460f45c27f99e097",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Having Endometrial Ablation under Local Anaesthesia"
  },
  "head-injury-child-waht-pi-2105": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "e8864d077b4e20f8",
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "251d5b810264906f",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Head Injury (Child)"
  },
  "head-injury-concussion-waht-pi-2178": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "47e648f8532da8b5",
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "d2690ff818cee182",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Head Injury – Concussion"
  },
  "head-injury-information-adult": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "ac95e0caa6d90ced",
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "3d1c4b2f5db9d4b7",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Head Injury Information (Adult)"
  },
  "headaches-waht-pi-2238": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "81f6154ca45db1cd",
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "45f4bd88c2adbfaf",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Headaches"
  },
@@ -4992,8 +5004,9 @@
   "title": "Your colposcopy procedure – Punch Biopsy"
  },
  "your-hand-surgery-information-for-patients": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "db291a4800bb71b4",
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "2089d7086f1b5b04",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Hand Surgery – Information for Patients"
  },

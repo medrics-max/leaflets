@@ -132,6 +132,13 @@
   "status": "no-date",
   "title": "Carers: advice in the first 48 hours after discharge"
  },
+ "advice-following-facet-joint-injections": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "42758555f31a96d4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Facet joint injections: what to expect afterwards"
+ },
  "advice-people-who-care-others": {
   "checked": "2026-09-13T02:43:15+01:00",
   "content_hash": "b6210cd8e109b937",
@@ -1601,6 +1608,111 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Eye appointment (adult)"
+ },
+ "eye-appointment-adult-after-surgery": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "009a4063e65f410e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eye appointment (adult) after surgery"
+ },
+ "eye-appointment-children": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "619f8f125e2329d1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eye appointment (children)"
+ },
+ "eye-preassessment-clinic": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "1153164eaa4ec210",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eye pre-assessment clinic"
+ },
+ "falls-and-bone-health-appointments": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "2ccbcf198ad73436",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Falls and bone health appointments"
+ },
+ "falls-and-bone-health-service-what-to-expect": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "43bed8b3e5e0378f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Falls and Bone Health Service, what to expect"
+ },
+ "faster-diagnosis-lung-clinic": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "8df64bbebcc5b884",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Faster Diagnosis Lung Clinic"
+ },
+ "fasting-surgery": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "b4a555051bca84d1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fasting before surgery"
+ },
+ "febrile-convulsions-children": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "0fb429a054e9bb4f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Febrile convulsions in children"
+ },
+ "feedback-complaints": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "fa1a9743928e8b4d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Feedback and complaints"
+ },
+ "feedback-form-easy-read": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "371dc69f5cec8bb5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Feedback form (easy read)"
+ },
+ "ferinject-iron-infusion-during-pregnancy": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "d43405defa28ba88",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ferinject iron infusion during pregnancy"
+ },
+ "fetal-monitoring-labour": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "837a3ad9bdca2e5d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fetal monitoring in labour"
+ },
+ "fever-high-temperature-children": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "ebb0e3f3947ad248",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fever (high temperature) in children"
+ },
+ "first-seizure-and-onset-epilepsy": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "0eb3cfd2cf6859d5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "First seizure and onset of epilepsy"
+ },
+ "flat-head-syndrome-babies": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "b048c3b0b75a4103",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Flat head syndrome in babies"
  },
  "gloves": {
   "checked": "2026-09-13T02:43:15+01:00",

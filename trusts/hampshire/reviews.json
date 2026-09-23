@@ -2687,6 +2687,104 @@
   "status": "no-date",
   "title": "HHCS outpatient pharmacies"
  },
+ "hhcs-outpatient-pharmacies-large-print": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "6e7642c29baf27dd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "HHCS outpatient pharmacies [LARGE PRINT]"
+ },
+ "high-intensity-use-hiu-service": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "617ef84a9da202ab",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "High intensity use (HIU) service"
+ },
+ "high-intensity-use-hiu-service-large-print": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "b7a07e26a577ebf9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "High intensity use (HIU) service [LARGE PRINT]"
+ },
+ "high-protein-and-low-salt-diet-for-liver-disease": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "b5c80c324b6f9299",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "High protein and low salt diet for liver disease"
+ },
+ "high-protein-and-low-salt-diet-for-liver-disease-large-print": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "692ef8a841094dab",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "High protein and low salt diet for liver disease [LARGE PRINT]"
+ },
+ "hip-fracture-surgery-nof": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "6f9a9a8187681854",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hip fracture surgery (fractured neck of femur)"
+ },
+ "hip-fracture-surgery-nof-large-print": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "cf0f7616d77d9ca7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hip fracture surgery (fractured neck of femur) [LARGE PRINT]"
+ },
+ "hip-injury-exercise-programme": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "f58f0618d5d9251f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hip injury exercise programme"
+ },
+ "hip-injury-exercise-programme-large-print": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "7ee5167d0217cbc0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hip injury exercise programme [LARGE PRINT]"
+ },
+ "home-care-support-team": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "405ddd00d0f3502e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Home care support team"
+ },
+ "home-care-support-team-large-print": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "bb8e06f1cdefda7e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Home care support team [LARGE PRINT]"
+ },
+ "homecare-medicines-service": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "0c207728ebb11458",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Homecare medicines service"
+ },
+ "homecare-medicines-service-large-print": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "170b00884b95058c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Homecare medicines service [LARGE PRINT]"
+ },
+ "homecare-medicines-service-patient-charter": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "fa57dfaef1adec20",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Homecare medicine service patient charter"
+ },
  "how-to-apply-atropine-eye-drops-before-your-childs-glasses-test": {
   "checked": "2026-09-22T13:48:27+01:00",
   "content_hash": "2e595514c593c02f",
@@ -2770,6 +2868,20 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Factor V and Prothrombin mutation study"
+ },
+ "using-high-concentration-insulin": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "069ce010f1dcd600",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "High concentration insulin"
+ },
+ "using-high-concentration-insulin-large-print": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "29a6d5c1f2fd2e97",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "High concentration insulin [LARGE PRINT]"
  },
  "your-circumcision-older-boys": {
   "checked": "2026-09-22T13:48:27+01:00",

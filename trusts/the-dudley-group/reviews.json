@@ -1988,5 +1988,151 @@
   "review_due_text": "October 2028",
   "status": "ok",
   "title": "Post Corticosteroid Injection Advice for People with Diabetes"
+ },
+ "post-liver-biopsy": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "1e3760528e4faba4",
+  "hash_version": 2,
+  "review_due": "2027-04",
+  "review_due_text": "April 2027",
+  "status": "ok",
+  "title": "Post liver biopsy"
+ },
+ "post-lung-biopsy-care-sheet": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "3c365cb7259bc0e2",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2026-07",
+   "2029-05"
+  ],
+  "status": "ambiguous-date",
+  "title": "Post Lung Biopsy Care Sheet"
+ },
+ "post-operative-contraceptive-advice-for-patients-receiving-sugammadex": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "dab66a93b4957cb1",
+  "hash_version": 2,
+  "review_due": "2029-02",
+  "review_due_text": "February 2029",
+  "status": "ok",
+  "title": "Post-operative contraceptive advice for patients receiving Sugammadex"
+ },
+ "post-renal-biopsy-care-sheet": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "5e0aec66711f2d7a",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2026-07",
+   "2029-05"
+  ],
+  "status": "ambiguous-date",
+  "title": "Post Renal Biopsy Care Sheet"
+ },
+ "pregabalin": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "a27ff42a15eb86bf",
+  "hash_version": 2,
+  "review_due": "2025-11",
+  "review_due_text": "November 2025",
+  "status": "ok",
+  "title": "Pregabalin"
+ },
+ "pressure-ulcers-a-guide-for-patients-and-carers": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "a6d9cc359abf4645",
+  "hash_version": 2,
+  "review_due": "2027-10",
+  "review_due_text": "October 2027",
+  "status": "ok",
+  "title": "Pressure ulcers – a guide for patients and carers"
+ },
+ "preventing-falls-in-hospital": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "63cbc1aef71e92ef",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Preventing falls in hospital"
+ },
+ "prostate-artery-embolisation": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "1d1c72bdde2bfb18",
+  "hash_version": 2,
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Prostate Artery Embolisation"
+ },
+ "pulmonary-rehabilitation-2": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "e1f604c1aab8173a",
+  "hash_version": 2,
+  "review_due": "2029-06",
+  "review_due_text": "June 2029",
+  "status": "ok",
+  "title": "Pulmonary Rehabilitation"
+ },
+ "pulsed-radiofrequency": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "f5ec501f20c16ffb",
+  "hash_version": 2,
+  "review_due": "2029-09",
+  "review_due_text": "September 2029",
+  "status": "ok",
+  "title": "Pulsed Radiofrequency"
+ },
+ "pureed-diet-level-4": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "da37aa5e8da48d44",
+  "hash_version": 2,
+  "review_due": "2029-04",
+  "review_due_text": "April 2029",
+  "status": "ok",
+  "title": "Pureed Diet [Level 4]"
+ },
+ "qutenza": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "9d2c4a84d7002fd3",
+  "hash_version": 2,
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Qutenza"
+ },
+ "radiofrequency-ablation-of-nerves-facet-rhizolysis": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "46d8802b5d827302",
+  "hash_version": 2,
+  "review_due": "2029-09",
+  "review_due_text": "September 2029",
+  "status": "ok",
+  "title": "Radiofrequency Ablation of Nerves (facet rhizolysis)"
+ },
+ "radiofrequency-ablation-of-sympathetic-nervous-system": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "7f392a967ab543ba",
+  "hash_version": 2,
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Radiofrequency ablation of sympathetic nervous system"
+ },
+ "radiological-inserted-gastrostomy-rig": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "d64d69b3d3fa1735",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2026-07",
+   "2029-05"
+  ],
+  "status": "ambiguous-date",
+  "title": "Radiological Inserted Gastrostomy (RIG)"
+ },
+ "ranibizumab-ongavia-for-age-related-macular-degeneration-armd": {
+  "checked": "2026-09-23T02:33:40+01:00",
+  "content_hash": "0323378004f98441",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ranibizumab (Ongavia) for Age-Related Macular Degeneration (ARMD)"
  }
 }
