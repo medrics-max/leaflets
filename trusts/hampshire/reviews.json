@@ -2463,6 +2463,20 @@
   "status": "no-date",
   "title": "Having a pacemaker [LARGE PRINT]"
  },
+ "having-a-percutaneous-biopsy": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "0e8e400c72b44d94",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Percutaneous biopsy"
+ },
+ "having-a-percutaneous-biopsy-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "266d245f8c21f05d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Percutaneous biopsy [LARGE PRINT]"
+ },
  "having-a-thoracoscopy": {
   "checked": "2026-09-22T13:48:27+01:00",
   "content_hash": "db67451dc4f67559",
@@ -2547,6 +2561,27 @@
   "status": "no-date",
   "title": "Having an MRI scan for hearing loss and tinnitus [LARGE PRINT]"
  },
+ "having-an-oesophageal-manometry-test-and-24-hour-ph-monitoring": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "cc12b1f1ad7004bb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oesophageal manometry test and 24 hour pH monitoring"
+ },
+ "having-an-oesophageal-manometry-test-and-24-hour-ph-monitoring-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "bc68d3ecc0fa5e6a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oesophageal manometry test and 24 hour pH monitoring [LARGE PRINT]"
+ },
+ "having-an-oesophageal-manometry-test-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "00423f552ecc1e48",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oesophageal manometry test [LARGE PRINT]"
+ },
  "having-elective-planned-surgery-under-anaesthetic": {
   "checked": "2026-09-22T13:48:27+01:00",
   "content_hash": "5bba395f3d945c63",
@@ -2560,6 +2595,20 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Having elective (planned) surgery under anaesthetic [LARGE PRINT]"
+ },
+ "having-knee-arthroscopy": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "6bbef5882cfc925c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Knee arthroscopy"
+ },
+ "having-knee-arthroscopy-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "3bfcac01ec4dc41c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Knee arthroscopy [LARGE PRINT]"
  },
  "head-injury-discharge-advice-for-people-over-12-years": {
   "checked": "2026-09-22T13:48:27+01:00",
@@ -2694,6 +2743,13 @@
   "status": "no-date",
   "title": "HHCS outpatient pharmacies [LARGE PRINT]"
  },
+ "high-energy-weaning-if": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "0c616d0e83d76d45",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Introducing high energy solids"
+ },
  "high-intensity-use-hiu-service": {
   "checked": "2026-09-23T02:33:40+01:00",
   "content_hash": "617ef84a9da202ab",
@@ -2785,6 +2841,41 @@
   "status": "no-date",
   "title": "Homecare medicine service patient charter"
  },
+ "homecare-medicines-service-patient-charter-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "01eacd28af9f8bf7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Homecase medicine service patient charter [LARGE PRINT]"
+ },
+ "hospital-liaison-team-for-people-with-learning-disabilities-2026": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "bb0ef99e1a0e8cd8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hospital liaison team for people with learning disabilities - information for patients"
+ },
+ "hospital-liaison-team-for-people-with-learning-disabilities-information-for-relatives-and-carers-covid-19": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "a9d41f2e1d72e925",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hospital liaison team for people with learning disabilities - information for relatives and carers"
+ },
+ "hospital-liaison-team-for-people-with-learning-disabilities-information-for-relatives-and-carers-covid-20": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "546748d662272939",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hospital liaison team for people with learning disabilities - information for relatives and carers [LARGE PRINT]"
+ },
+ "hospital-to-home-patient-support-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "0b5fa671a7dcc68e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hospital-to-home patient support [LARGE PRINT]"
+ },
  "how-to-apply-atropine-eye-drops-before-your-childs-glasses-test": {
   "checked": "2026-09-22T13:48:27+01:00",
   "content_hash": "2e595514c593c02f",
@@ -2813,6 +2904,419 @@
   "status": "no-date",
   "title": "Cyclopentolate eye drops before your child's glasses test [LARGE PRINT]"
  },
+ "how-to-apply-your-eye-drops-or-ointment": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "fc2a3be59f5d7f88",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to apply your eye drops or ointment"
+ },
+ "how-to-apply-your-eye-drops-or-ointment-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2cd62f155e1960b1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to apply your eye drops or ointment [LARGE PRINT]"
+ },
+ "how-to-exercise-your-pelvic-floor-muscles": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5495e0718f67057e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to exercise your pelvic floor muscles"
+ },
+ "how-to-exercise-your-pelvic-floor-muscles-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "38ae591e39571efd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to exercise your pelvic floor muscles [LARGE PRINT]"
+ },
+ "how-to-look-after-your-retainers-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "144288324d50af01",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Retainers - how to look after them [LARGE PRINT]"
+ },
+ "how-to-prepare-for-your-gynaecological-mri-scan": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "46c267735d41747e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to prepare for your gynaecological MRI scan"
+ },
+ "how-to-prepare-for-your-gynaecological-mri-scan-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "0c0b30d8ba87967b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to prepare for your gynaecological MRI scan [LARGE PRINT]"
+ },
+ "how-to-prepare-for-your-mri-defecating-proctogram": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "9e91dedf0e8c598d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to prepare for your MRI defecating proctogram"
+ },
+ "how-to-prepare-for-your-mri-defecating-proctogram-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "1ec1e7aab91dfba2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to prepare for your MRI defecating proctogram [LARGE PRINT]"
+ },
+ "how-to-prepare-for-your-mri-prostate-scan-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "c516ceaa022cf500",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to prepare for your prostate MRI scan [LARGE PRINT]"
+ },
+ "how-to-prepare-for-your-prostate-mri-scan": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "cc5bed698440aa79",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to prepare for your prostate MRI scan"
+ },
+ "how-to-prepare-for-your-routine-cardiac-mri-scan": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "20f49316af72ae46",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to prepare for your routine cardiac MRI scan"
+ },
+ "how-to-prepare-for-your-routine-cardiac-mri-scan-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "b0cfc754f9baf93e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to prepare for your routine cardiac MRI scan [LARGE PRINT]"
+ },
+ "how-to-prepare-for-your-routine-mri-scan": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "4137a74352c50a36",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to prepare for your routine MRI scan"
+ },
+ "how-to-prepare-for-your-routine-mri-scan-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "8c850a6ae8c27793",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to prepare for your routine MRI scan [LARGE PRINT]"
+ },
+ "how-to-prepare-for-your-small-bowel-mri-scan": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "1a56f5654a7d1103",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to prepare for your small bowel MRI scan"
+ },
+ "how-to-prepare-for-your-small-bowel-mri-scan-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "772d4fee3addf818",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to prepare for your small bowel MRI scan [LARGE PRINT]"
+ },
+ "how-to-use-chlorhexidine-4-solution-or-octenidine-octenisan-solution": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "461eb935a9a4d766",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to use chlorhexidine 4% solution OR octenidine (Octenisan) solution"
+ },
+ "how-to-use-chlorhexidine-4-solution-or-octenidine-octenisan-solution-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "8b4409b91ce23122",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to use chlorhexidine 4% solution OR octenidine (Octenisan) solution [LARGE PRINT]"
+ },
+ "how-to-use-mupirocin-bactroban-nasal-ointment": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "09f938ceb9d62a3d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to use mupirocin (Bactroban) nasal ointment"
+ },
+ "how-to-use-mupirocin-bactroban-nasal-ointment-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "dfd99039b20a41b7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to use mupirocin (Bactroban) nasal ointment [LARGE PRINT]"
+ },
+ "how-to-use-neomycin-and-chlorhexidine-naseptin-nasal-cream": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "fc5996b7d02c9814",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to use neomicin and chlorhexidine (Naseptin) nasal cream"
+ },
+ "how-to-use-neomycin-and-chlorhexidine-naseptin-nasal-cream-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "0de62f1e09e951c7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to use neomicin and chlorhexidine (Naseptin) nasal cream [LARGE PRINT]"
+ },
+ "hydrocele-repair": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5448bde81d16d715",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hydrocele repair"
+ },
+ "hydrocele-repair-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "7d401573cb5465bb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hydrocele repair [LARGE PRINT]"
+ },
+ "hydroxycarbamide-pathway-for-patients-with-sickle-cell-disorder": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "35aa641e1e3c8c6b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hydroxycarbamide pathway for patients with Sickle Cell Disorder"
+ },
+ "hyperacusis-in-children": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "aff6de8471e9c840",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hyperacusis in children"
+ },
+ "hyperacusis-in-children-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "b236c225a056de5f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hyperacusis in children [LARGE PRINT]"
+ },
+ "hypospadias": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "e77c407e7ea65637",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hypospadias"
+ },
+ "hypospadias-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "1daae3628935f780",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hypospadias [LARGE PRINT]"
+ },
+ "i-am-not-happy-with-my-care-easy-read": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "518c464eaa08c1bf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "I am not happy with my care [EASY READ]"
+ },
+ "i-have-a-respect-form-what-happens-now-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "d4c2774feebe7e20",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "I have a Respect form - what happens now? [LARGE PRINT]"
+ },
+ "ibd-advice-service-rhch-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "c93a55f3d2161334",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Inflammatory bowel disease telephone advice service (Andover and Winchester) [LARGE PRINT]"
+ },
+ "implantable-cardioverter-defibrillator": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "31e241b4387f5f9e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Implantable cardioverter defibrillator (ICD)"
+ },
+ "implantable-cardioverter-defibrillator-icd-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "3e432213c193ad99",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Implantable cardioverter defibrillator (ICD) [LARGE PRINT]"
+ },
+ "improving-your-balance-strength-and-mobility": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "e61eaf53a04ce7cd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Improving your balance, strength and mobility"
+ },
+ "improving-your-balance-strength-and-mobility-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "9a69fac298e53b89",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Improving your balance, strength and mobility [LARGE PRINT]"
+ },
+ "induction-of-labour": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "1f164f572a0d6f3d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Induction of labour"
+ },
+ "induction-of-labour-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "a5f9549977972046",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Induction of labour [LARGE PRINT]"
+ },
+ "inflammatory-bowel-disease-and-c-diff": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "6aad4765c779aac9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Inflammatory bowel disease (IBD) and C.diff."
+ },
+ "inflammatory-bowel-disease-and-c-diff-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2e882ee03df3bd73",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Inflammatory bowel disease (IBD) and C.diff. [LARGE PRINT]"
+ },
+ "influenza-flu": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "52bd5343812fba21",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Influenza (flu)"
+ },
+ "influenza-flu-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "84d6bcb23dedfecd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Influenza (flu) [LARGE PRINT]"
+ },
+ "information-and-advice-on-alcohol-use": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "bf82cac973b3a493",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information and advice on alcohol use"
+ },
+ "information-and-advice-on-alcohol-use-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "7680532ef8dfa2f5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information and advice on alcohol use [LARGE PRINT]"
+ },
+ "inserting-misoprostol-using-a-tampon": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "4bee50b4668d5ccf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Inserting misoprostol using a tampon"
+ },
+ "inserting-misoprostol-using-a-tampon-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "a864e89c3a2f4aba",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Inserting misoprostol using a tampon [LARGE PRINT]"
+ },
+ "insertion-and-care-of-a-picc-line": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "d28a66be346c8ead",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Insertion and care of a PICC line"
+ },
+ "insertion-and-care-of-a-picc-line-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "de34f6b8c3810bb4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Insertion and care of a PICC line [LARGE PRINT]"
+ },
+ "insulin-stress-test": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ba522334b89002a5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Insulin stress test"
+ },
+ "insulin-stress-test-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "9a67894ad7f72c1a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Insulin stress test [LARGE PRINT]"
+ },
+ "intravitreal-injections": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2d81a29fcf42de2a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Intravitreal injections"
+ },
+ "intravitreal-injections-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "f5b6f46b89272de5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Intravitreal injections [LARGE PRINT]"
+ },
+ "iron-rich-foods-for-a-gluten-free-diet": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "812e8f4a6cdf0934",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Iron rich foods for a gluten-free diet"
+ },
+ "its-good-to-say-how-you-feel-easy-read-feedback": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "6dfa2d31212776e8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "It's good to say how you feel"
+ },
+ "its-okay-to-not-be-okay": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "0e182e733e53f58d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "It's okay to not be okay"
+ },
+ "its-okay-to-not-be-okay-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "f812b26ab4a093fe",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "It's okay to not be okay [LARGE PRINT]"
+ },
+ "jaundice-in-newborn-babies": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "71f66661e6a21af5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Jaundice in newborn babies"
+ },
+ "jaundice-in-newborn-babies-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "efc6545100250d96",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Jaundice in newborn babies [LARGE PRINT]"
+ },
  "just-in-case-medication": {
   "checked": "2026-09-22T13:48:27+01:00",
   "content_hash": "768f4ae86e536aa0",
@@ -2826,6 +3330,314 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "'Just in case' (JIC) medication [LARGE PRINT]"
+ },
+ "keeping-you-safe-cobh": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "38fda33119c3a637",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Keeping you safe (Countess of Brecknock Hospice)"
+ },
+ "keeping-you-safe-cobh-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2b714c5ae8232ef2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Keeping you safe (Countess of Brecknock Hospice) [LARGE PRINT]"
+ },
+ "keeping-you-safe-winchester-hospice": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "fe779995b6bdf75c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Keeping you safe (Winchester Hospice)"
+ },
+ "keeping-you-safe-winchester-hospice-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "3219563444612f41",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Keeping you safe (Winchester Hospice) [LARGE PRINT]"
+ },
+ "kinesio-tape-for-lymphoedema-management": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "7a79b965f1923060",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Kinesio-tape for lymphoedema management"
+ },
+ "kinesio-tape-for-lymphoedema-management-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ccf3d5a0e462a4f0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Kinesio-tape for lymphoedema management [LARGE PRINT]"
+ },
+ "knee-arthroscopy-exercises-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ae4a40acf877caa9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Knee arthroscopy exercises [LARGE PRINT]"
+ },
+ "knee-arthroscopy-surgery-exercises": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "8ea0683787b360b8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Knee arthroscopy exercises"
+ },
+ "knee-injury-exercise-programme": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "c69d8648badf5966",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Knee injury exercise programme"
+ },
+ "knee-injury-exercise-programme-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "6b80f3661529a63f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Knee injury exercise programme [LARGE PRINT]"
+ },
+ "lactose-free-diet": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "07a8a576b28c0519",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lactose free diet"
+ },
+ "lactose-free-diet-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "567ed789317b8f7a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lactose free diet [LARGE PRINT]"
+ },
+ "laparoscopic-appendicectomy": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "25bf3c667075213a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laparoscopic appendicectomy"
+ },
+ "laparoscopic-appendicectomy-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ad72f32df1d532f6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laparoscopic appendicetomy [LARGE PRINT]"
+ },
+ "laparoscopic-cholecystectomy": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ae5de5c8aa34c414",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laparoscopic cholecystectomy"
+ },
+ "laparoscopic-cholecystectomy-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "276d67ccdd5dc664",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laparoscopic cholecystectomy [LARGE PRINT]"
+ },
+ "laparoscopic-hysterectomy-rcog": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5ff1938c4d584443",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laparoscopic hysterectomy"
+ },
+ "laparoscopy-recovering-well-patient-information-leaflet-rcog": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "4a008eb7d8bb5db5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laparoscopy recovering well patient information leaflet"
+ },
+ "laser-capsulotomy-to-treat-capsule-thickening": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "b1b64fdd041ebe0c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laser capsulotomy to treat capsule thickening"
+ },
+ "latissimus-dorsi-mini-flap-reconstruction": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "62bc3a01e5617b00",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Latissimus dorsi mini-flap reconstruction"
+ },
+ "latissimus-dorsi-mini-flap-reconstruction-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "9a35dd36846ceb00",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Latissimus dorsi mini-flap reconstruction [LARGE PRINT]"
+ },
+ "levosert-patient-leaflet-digital-8-year-licence-2025": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ce0d97caa484707e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Levosert (levonorgestrel)"
+ },
+ "lhrh-test": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "924855e26b6c3ae2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "LHRH test"
+ },
+ "lhrh-test-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "f2c849de08b88b6e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "LHRH test [LARGE PRINT]"
+ },
+ "lichen-planus": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "1a7acac1d5dee59d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lichen planus"
+ },
+ "lichen-planus-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "c0d568765dc9c972",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lichen planus [LARGE PRINT]"
+ },
+ "listening-skills-pre-school": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "87aa591e64168349",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Listening skills (pre-school)"
+ },
+ "listening-skills-pre-school-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "0d50a788791a046a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Listening skills (pre-school) [LARGE PRINT]"
+ },
+ "listening-skills-school-age": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "0bdbf98587d26a7d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Listening skills (school-age)"
+ },
+ "listening-skills-school-age-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "493b8f72b2cbb94f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Listening skills (school age) [LARGE PRINT]"
+ },
+ "living-better-with-long-term-pain": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5d5c6720e056bcda",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Living better with long term pain"
+ },
+ "lletz-rcog-print-rcog": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "66a388737eec8dd5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lletz-rcog-print"
+ },
+ "localised-and-advanced-prostate-cancer-nurse-specialists": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "f583c6cf23bf2838",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Localised and advanced prostate cancer clinical nurse specialists"
+ },
+ "localised-and-advanced-prostate-cancer-nurse-specialists-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "e82f8b2f4106c174",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Localised and advanced prostate cancer clinical nurse specialists [LARGE PRINT]"
+ },
+ "looking-after-your-plaster-cast-at-home": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "b51c2420be609e42",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Looking after your plaster cast at home"
+ },
+ "looking-after-your-plaster-cast-at-home-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "29067f2e6a69a643",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Looking after your plaster cast at home [LARGE PRINT]"
+ },
+ "looking-after-your-skin-during-cancer-treatment": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "225cbe9a77380a54",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Looking after your skin during cancer treatment"
+ },
+ "looking-after-your-skin-during-cancer-treatment-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "53b9a70512fe57af",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Looking after your skin during cancer treatment [LARGE PRINT]"
+ },
+ "low-fibre-diet-full-version": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "bab3dc1790e111cf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Low fibre diet"
+ },
+ "low-fibre-diet-full-version-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "35a70c5f43ed44ee",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Low fibre diet [LARGE PRINT]"
+ },
+ "low-residue-low-fibre-diet-before-having-a-prostate-rectum-or-gynaecological-mri-scan": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "1298c7397b272fdf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Low residue (low fibre) diet before having a prostate, rectal, or gynaecological MRI scan"
+ },
+ "low-residue-low-fibre-diet-before-having-a-prostate-rectum-or-gynaecological-mri-scan-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "8b77778d173b911f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Low residue (low fibre) diet before having a prostate, rectal, or gynaecological MRI scan [LARGE PRINT]"
+ },
+ "low-vision-services": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "cf8b6c491944f2f8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Low vision services"
+ },
+ "low-vision-services-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "3b81026baff77751",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Low vision services [LARGE PRINT]"
  },
  "lower-eyelid-entropion-and-ectropion-surgery": {
   "checked": "2026-09-22T13:48:27+01:00",
@@ -2841,6 +3653,475 @@
   "status": "no-date",
   "title": "Entropion and ectropion lower eyelid surgery (Winchester) [LARGE PRINT]"
  },
+ "lung-cancer-and-mesothelioma-cns": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "1734004cdf39cd47",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lung cancer and mesothelioma clinical nurse specialists"
+ },
+ "lung-cancer-and-mesothelioma-cns-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "b71c91198c7b3135",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lung cancer and mesothelioma clinical nurse specialists [LARGE PRINT]"
+ },
+ "lvsd-heart-failure-clinic-booklet": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "4267aeea9a51e6f5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Left ventricular systolic dysfunction (LVSD)"
+ },
+ "lvsd-heart-failure-clinic-booklet-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "55127158544fcccf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Left ventricular systolic dysfunction (LVSD) [LARGE PRINT]"
+ },
+ "macular-laser-treatment": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "51ee32a3f4635753",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Macular laser treatment"
+ },
+ "macular-laser-treatment-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "81b78a3e65fae3c0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Macular laser treatment [LARGE PRINT]"
+ },
+ "mallet-finger": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "35190f12fc181ccc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mallet finger"
+ },
+ "mallet-finger-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "57d2570733f1d149",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mallet finger [LARGE PRINT]"
+ },
+ "management-of-gestational-diabetes": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5e4328eb5e246f28",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Management of gestational diabetes"
+ },
+ "management-of-gestational-diabetes-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "830abd0954117e2f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Management of gestational diabetes [LARGE PRINT]"
+ },
+ "mannitol-oral-contrast-medium-and-your-mri-scan": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2ea35f2a9711314a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mannitol oral contrast and your MRI scan"
+ },
+ "mannitol-oral-contrast-medium-and-your-mri-scan-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "526a43569687a9b0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mannitol oral contrast and your MRI scan [LARGE PRINT]"
+ },
+ "maternity-care-for-bame-women": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ae17c4f08a86cb76",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Maternity care for black, Asian and minority ethnic (BAME) women"
+ },
+ "maternity-care-for-bame-women-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2f50618d7b7808f9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Maternity care for black, Asian and minority ethnic (BAME) women [LARGE PRINT]"
+ },
+ "measles": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "1da7a332a2991b57",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Measles"
+ },
+ "measles-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "023ab4e8b8ffdd3d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Measles [LARGE PRINT]"
+ },
+ "methotrexate-for-interstitial-lung-disease": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "783b5fd9df756742",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Methotrexate for interstitial lung disease"
+ },
+ "methotrexate-for-interstitial-lung-disease-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "8cbaa1c9678fb319",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Methotrexate for interstitial lung disease [LARGE PRINT]"
+ },
+ "microlaryngoscopy-and-bronchoscopy": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5a8f14b11c492165",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Microlaryngoscopy and bronchoscopy"
+ },
+ "microlaryngoscopy-and-bronchoscopy-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "122b10d2f8abae2c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Microlaryngoscopy and bronchoscopy [LARGE PRINT"
+ },
+ "milk-challenge-2017": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "406bbfbf75029c6e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Milk challenge"
+ },
+ "milk-ladder": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ea5773deb8401465",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Milk ladder"
+ },
+ "milk-ladder-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "3b959b0607a7e2bb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Milk ladder [LARGE PRINT]"
+ },
+ "minced-and-moist-diet-iddsi-level-5": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "1dab29b69e162156",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Minced and moist diet (IDDSI level 5)"
+ },
+ "minced-and-moist-diet-iddsi-level-5-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "b41c37aed3fe11a5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Minced and moist diet (IDDSI level 5) [LARGE PRINT]"
+ },
+ "minimally-invasive-robotic-surgery": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "83e021258d6df2b8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Minimally invasive robotic surgery"
+ },
+ "minimally-invasive-robotic-surgery-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "c5f0d1c33b31f904",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Minimally invasive robotic surgery [LARGE PRINT]"
+ },
+ "minor-ankle-fractures-discharge-advice": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "1c310b10b167ba9c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Minor ankle fracture discharge advice"
+ },
+ "minor-ankle-fractures-discharge-advice-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "559af42c05d1a39e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Minor ankle fracture discharge advice [LARGE PRINT]"
+ },
+ "miscarriage-advice-and-management": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "65aa7f023aaf9114",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Miscarriage advice and management"
+ },
+ "miscarriage-advice-and-management-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "dea10d5f25e6256d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Miscarriage advice and management [LARGE PRINT]"
+ },
+ "molar-pregnancy-rcog": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "f4943b5adc82293a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Molar pregnancy"
+ },
+ "monitoring-your-baby-in-pregnancy-and-labour": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "c617623186b53a2a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Monitoring your baby in pregnancy and labour"
+ },
+ "monitoring-your-baby-in-pregnancy-and-labour-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "20c071a253e8a34d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Monitoring your baby in pregnancy and labour [LARGE PRINT]"
+ },
+ "moving-to-a-rehabilitation-ward": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "6e9de314933ecd1a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Moving to a rehabilitation ward"
+ },
+ "moving-to-a-rehabilitation-ward-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "98a6134b90ffab1f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Moving to a rehabilitation ward [LARGE PRINT]"
+ },
+ "mumps": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "d71ee4f0c710d3ee",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mumps"
+ },
+ "mumps-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "7bbae897d2e5da12",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mumps [LARGE PRINT]"
+ },
+ "my-medical-record": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "806d3cf94e28f17f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "My medical record"
+ },
+ "my-medical-record-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "29efeccc8d10007d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "My medical record [LARGE PRINT]"
+ },
+ "mycophenolate-mofetil-for-interstitial-lung-disease": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "76efd6610fc3f507",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mycophenolate mofetil for interstitial lung disease"
+ },
+ "mycophenolate-mofetil-for-interstitial-lung-disease-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "6c53c5a9e1b4a565",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mycophenolate mofetil for interstitial lung disease [LARGE PRINT]"
+ },
+ "myringoplasty": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "9df516d4e0c2a0c9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Myringoplasty"
+ },
+ "myringoplasty-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "c960ef577b23e2ed",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Myringoplasty [LARGE PRINT]"
+ },
+ "nasal-surgery": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "e1986506c7c937b4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nasal surgery"
+ },
+ "nasal-surgery-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "aa6e288c91312612",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nasal surgery [LARGE PRINT]"
+ },
+ "nasolacrimal-duct-obstruction-in-children": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2a2f7b11d8ea32a2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nasolacrimal duct obstruction in children"
+ },
+ "nasolacrimal-duct-obstruction-in-children-2": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2c72ff344b682f33",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nasolacrimal duct obstruction in children [LARGE PRINT]"
+ },
+ "neck-injury-exercise-programme": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "9171a5d2772bae86",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Neck injury exercise programme"
+ },
+ "neck-injury-exercise-programme-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2265118a7caf92e7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Neck injury exercise programme [LARGE PRINT]"
+ },
+ "needle-phobia": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "bdaf81ecfb958a63",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Needle phobia"
+ },
+ "needle-phobia-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "757f0726c270d02d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Needle phobia [LARGE PRINT]"
+ },
+ "neighbour-strapping-injured-fingers-and-toes": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "a7556d9476da495b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Neighbour strapping (injured fingers and toes)"
+ },
+ "neighbour-strapping-injured-fingers-and-toes-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "1117cea5e97dac67",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Neighbour strapping (injured fingers and toes) [LARGE PRINT]"
+ },
+ "neonatal-psychology-service": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "9158fc13bdc7ccc5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Neonatal psychology service"
+ },
+ "neonatal-psychology-service-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "134ceb52d0b82165",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Neonatal psychology service [LARGE PRINT]"
+ },
+ "neurological-rehabilitation-service": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "498996756ecd773a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Neurological rehabilitation service"
+ },
+ "neurological-rehabilitation-service-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "f151724f1c7ad0c0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Neurological rehabilitation service [LARGE PRINT]"
+ },
+ "neuropsychology-service": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "923cae4b61ef4559",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Neuropsychology Service"
+ },
+ "nhs-emergency-steroid-card-information-for-non-oral-steroid-treatment": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "60a9d28a1bbea29a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "NHS steroid emergency card for non-oral steroid treatment"
+ },
+ "nhs-emergency-steroid-card-information-for-non-oral-steroid-treatment-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2d44e1f7f6d7dafc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "NHS steroid emergency card for non-oral steroid treatment [LARGE PRINT]"
+ },
+ "nhs-emergency-steroid-card-information-for-regular-long-term-oral-steroid-treatment": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "912ef8dfe0a9cc74",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "NHS steroid emergency card for regular long-term oral steroid treatment"
+ },
+ "nhs-emergency-steroid-card-information-for-regular-long-term-oral-steroid-treatment-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "bf40d2203da6d176",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "NHS steroid emergency card for regular long-term oral steroid treatment [LARGE PRINT]"
+ },
+ "nhs-emergency-steroid-card-information-for-short-courses-of-steroid-treatment": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "4d984c0a38ffd219",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "NHS steroid emergency card for short courses of steroid treatment"
+ },
+ "nhs-emergency-steroid-card-information-for-short-courses-of-steroid-treatment-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "b454d492bc3d8aa4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "NHS steroid emergency card for short courses of steroid treatment [LARGE PRINT]"
+ },
+ "nhs-emergency-steroid-card-information-for-steroid-treatment-within-the-last-12-months": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2299b99c32e8b64c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "NHS steroid emergency card for steroid treatment within the last 12 months"
+ },
+ "nhs-emergency-steroid-card-information-for-steroid-treatment-within-the-last-12-months-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "9bd0cca5565cd1d1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "NHS steroid emergency card for steroid treatment within the last 12 months [LARGE PRINT]"
+ },
  "non-weight-bearing-lower-limb-advice": {
   "checked": "2026-09-22T13:48:27+01:00",
   "content_hash": "a4e6bdec1f0f5069",
@@ -2855,6 +4136,1042 @@
   "status": "no-date",
   "title": "Coping with being non-weight bearing after lower limb surgery [LARGE PRINT]"
  },
+ "norovirus": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ea74ee835eba38b8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Norovirus"
+ },
+ "norovirus-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "29f6bbe64ad9880c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Norovirus [LARGE PRINT]"
+ },
+ "nosebleeds-epistaxis": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ae3c047ca0a215a6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nosebleeds (epistaxis)"
+ },
+ "nosebleeds-epistaxis-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "7b4bda2bbd2082cb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nosebleeds (epistaxis) [LARGE PRINT]"
+ },
+ "nourishing-drinks-v1-1-icb-may-2023": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "cb3fb7b069f879ca",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nourishing drinks"
+ },
+ "nourishing-snacks": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "4759598d79f0586d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nourishing snacks"
+ },
+ "nourishing-snacks-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "63cbeb197671cf80",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nourishing snacks [LARGE PRINT]"
+ },
+ "nutrition-support-v1-1-icb-may-2023": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "1ec92cd079b3c42b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nutrition support"
+ },
+ "occupational-therapy-clinic-appointment": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "b521bb0f78895b4c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Occupational therapy clinic appointment"
+ },
+ "oesophageal-manometry-test": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "6a07b517067f237c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oesophageal manometry test"
+ },
+ "opiate-weaning-schedule": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "14dfb05e98f03288",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Opiate weaning schedule"
+ },
+ "opioid-weaning-specialist-clinic-summary": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "adb943389266061f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Opiate weaning specialist clinic summary"
+ },
+ "oral-biopsy": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "9ee9d9d4044b96c8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oral biopsy"
+ },
+ "oral-biopsy-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ba7393834227bc29",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oral biopsy [LARGE PRINT]"
+ },
+ "orchidopexy": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "411e9b2e2e53b395",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Orchidopexy"
+ },
+ "orchidopexy-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2d2146ff05acf13a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Orchidopexy [LARGE PRINT]"
+ },
+ "orthoptic-exercises-distance-e": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "9b4c4b2c74657396",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Orthoptic exercises - distance E"
+ },
+ "orthoptic-exercises-distance-e-2": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ffaca81aaecc983e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Orthoptic exercises - distance E [LARGE PRINT]"
+ },
+ "orthoptic-exercises-near-x": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "3085d8ca9e1265ed",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Orthoptic exercises - near X"
+ },
+ "orthoptic-exercises-near-x-2": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "9a1e7a30e71b6d48",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Orthoptic exercises - near X [LARGE PRINT]"
+ },
+ "out-of-area-postnatal-care": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2fd1720d915b69a5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Postnatal care: information for parents who live within the Reading catchment area"
+ },
+ "out-of-area-postnatal-care-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "dca56d1b0a5df6eb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Postnatal care: information for parents who live within the Reading catchment area [LARGE PRINT]"
+ },
+ "outpatient-hysteroscopy": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5581b5927ab24e61",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Outpatient hysteroscopy"
+ },
+ "outpatient-hysteroscopy-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "b12bd540201cf18d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Outpatient hysteroscopy [LARGE PRINT]"
+ },
+ "overnight-dexamethasone-suppression-test": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "17c1cda3c99a6fe1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Overnight Dexamethasone suppression test"
+ },
+ "overnight-dexamethasone-suppression-test-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "801657a3073ca0e7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Overnight Dexamethasone suppression test [LARGE PRINT]"
+ },
+ "pacemaker-battery-change": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "29477c403ab6f202",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pacemaker battery change"
+ },
+ "pacemaker-battery-change-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2d1ed233fd5a3dba",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pacemaker battery change [LARGE PRINT]"
+ },
+ "pacemaker-lead-revision": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "7a46b6e8f9ae9c1c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pacemaker lead revision"
+ },
+ "pacemaker-lead-revision-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "092790cea15e20df",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pacemaker lead revision [LARGE PRINT]"
+ },
+ "paediatric-spirometry-and-feno-testing": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "c26f96caa0023fe8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Paediatric spirometry and FeNO testing"
+ },
+ "paediatric-spirometry-and-feno-testing-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "02f8bcd743592bce",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Paediatric spirometry and FeNO testing [LARGE PRINT]"
+ },
+ "pain-relief-advice-for-adults": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "4f9f50ed99676149",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pain relief advice for adults"
+ },
+ "pain-relief-advice-for-adults-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "0c743d3935f545dc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pain relief advice for adults [LARGE PRINT]"
+ },
+ "pain-relief-during-labour": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "747bcd0f9bb0bcd9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pain relief during labour"
+ },
+ "pain-relief-during-labour-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "753c4972920d2eb0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pain relief during labour [LARGE PRINT]"
+ },
+ "pain-relief-for-children": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "92fdb07e51b4440e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pain relief advice for children"
+ },
+ "pain-relief-for-children-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "4ed9f6a83eb35be7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pain relief advice for children [LARGE PRINT]"
+ },
+ "pain-self-management-service": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "9231c37c4eb46df8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pain Self-Management Service"
+ },
+ "parents-guide-to-expressing-on-the-nnu": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5da9122f4bfe07d6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Parents' guide to expressing on the neonatal unit"
+ },
+ "parents-guide-to-expressing-on-the-nnu-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "a9629793f67ffe99",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Parents' guide to expressing on the neonatal unit [LARGE PRINT]"
+ },
+ "parents-of-children-seen-in-the-emergency-department": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "3f6280fda226c08f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Parents of children seen in the emergency department"
+ },
+ "parents-of-children-seen-in-the-emergency-department-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "58b142be86f290ff",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Parents of children seen in the emergency department [LARGE PRINT]"
+ },
+ "partial-breast-removal-and-volume-replacement-using-a-perforator-flap-licap-aicap-and-micap": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "f1680de6dd204f42",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Partial breast removal and volume replacement using a perforator flap (LICAP, AICAP and MICAP)"
+ },
+ "partial-breast-removal-and-volume-replacement-using-a-perforator-flap-licap-aicap-and-micap-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2251de1840ce6f81",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Partial breast removal and volume replacement using a perforator flap (LICAP, AICAP and MICAP) [LARGE PRINT]"
+ },
+ "patching-treatment": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "d028aee88fea120b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patching treatment"
+ },
+ "patching-treatment-2": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "34245d70f46e9877",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patching treatment [LARGE PRINT]"
+ },
+ "patient-brochure-mirenar-iud": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "8f1d92637ca991bf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mirena coil (IUD)"
+ },
+ "patient-controlled-analgesia-pca-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "565b231a877de2fe",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient-controlled analgesia (PCA) [LARGE PRINT]"
+ },
+ "patient-initiated-follow-up-pifu": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ae9762689d293cf4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient-initiated follow-up (PIFU)"
+ },
+ "patient-initiated-follow-up-pifu-2": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "f44f7ad77867d488",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient initiated follow-up"
+ },
+ "patient-initiated-follow-up-pifu-for-immune-thrombocytopenia-itp": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "d0045b4d27973eff",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient-initiated follow-up (PIFU) for immune thrombocytopenia (ITP)"
+ },
+ "patient-initiated-follow-up-pifu-for-immune-thrombocytopenia-itp-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "6628643456de7c4f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient-initiated follow-up (PIFU) for immune thrombocytopenia (ITP) [LARGE PRINT]"
+ },
+ "patient-initiated-follow-up-pifu-for-iron-deficiency-anaemia": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "3682bf59297ccc8d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient-initiated follow-up (PIFU) for iron-deficiency anaemia"
+ },
+ "patient-initiated-follow-up-pifu-for-iron-deficiency-anaemia-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "6a9c3b03a1d2b8b3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient-initiated follow-up (PIFU) for iron-deficiency anaemia [LARGE PRINT]"
+ },
+ "patient-initiated-follow-up-pifu-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "544f1b3147ff506b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient initiated follow-up [LARGE PRINT]"
+ },
+ "patient-intiated-follow-up-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5b62c42378c4f173",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient-initiated follow-up (PIFU) [LARGE PRINT]"
+ },
+ "patient-privacy-dignity-and-respect": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "695d66253fc6da05",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient privacy, dignity and respect"
+ },
+ "patient-privacy-dignity-and-respect-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5b7bc0dcb1ba8f70",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient privacy, dignity and respect [LARGE PRINT]"
+ },
+ "patient-safety-incident-investigation-psii": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ea1bba8d605a7634",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient Safety Incident Investigation"
+ },
+ "patient-safety-incident-investigation-psii-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "d941c237b54a2267",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient Safety Incident Investigation [LARGE PRINT]"
+ },
+ "patient-triggered-follow-up": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "6ed5387f8ed712f7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient-triggered follow-up"
+ },
+ "patient-triggered-follow-up-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "8a2209ff1ef91bd6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient-triggered follow-up [LARGE PRINT]"
+ },
+ "pca-patient-controlled-analgesia": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "1e3dd41081da5835",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient-controlled analgesia (PCA)"
+ },
+ "pelvic-floor-repair-rcog": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "33de6de2ed93bda0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pelvic floor repair"
+ },
+ "persistent-postural-perceptual-dizziness-pppd": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "c5d6041f652686f0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Persistent postural perceptual dizziness (PPPD)"
+ },
+ "persistent-postural-perceptual-dizziness-pppd-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ba1e6c8d5b864509",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Persistent postural perceptual dizziness (PPPD) [LARGE PRINT]"
+ },
+ "physiotherapy-for-children-with-chest-infections": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "d7375bac48a73c3c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Physiotherapy for children with chest infections"
+ },
+ "physiotherapy-for-children-with-chest-infections-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5369dedfe21a0ef9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Physiotherapy for children with chest infections [LARGE PRINT]"
+ },
+ "pinnaplasty": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "884685ec5de56568",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pinnaplasty"
+ },
+ "pinnaplasty-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "94d47947def86526",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pinnaplasty [LARGE PRINT]"
+ },
+ "planned-caesarean-enhanced-recovery": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "c5b3e6156bdc5f1d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Planned caesarean section (enhanced recovery pathway)"
+ },
+ "planned-caesarean-enhanced-recovery-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "6b3cd87e998c8c20",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Planned caesarean section (enhanced recovery pathway) [LARGE PRINT]"
+ },
+ "planned-caesarean-section": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "b7a5c84599764bfa",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Planned caesarean section"
+ },
+ "planned-caesarean-section-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "31ebe84ac7b27de1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Planned caesarean section [LARGE PRINT]"
+ },
+ "plasma-metanephrine-test": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "aa10bc2fa7884cc4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Plasma metanephrine test"
+ },
+ "plasma-metanephrine-test-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "7344bb22f6ce4bc2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Plasma metanephrine test [LARGE PRINT]"
+ },
+ "play-preparation-for-your-childs-mri-scan": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5dbaf0243ec3ee69",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Play preparation for your child's MRI scan"
+ },
+ "play-preparation-for-your-childs-mri-scan-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "d3622daa0f74fcd3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Play preparation for your child's MRI scan [LARGE PRINT]"
+ },
+ "portacath-patient-information-1": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "6f562066bd230eeb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "ortacath"
+ },
+ "portal-vein-embolization": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "737e039266876f95",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Portal vein embolization (PVE)"
+ },
+ "portal-vein-embolization-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "885e51e8b340a4bb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Portal vein embolization (PVE) [LARGE PRINT]"
+ },
+ "postural-hypotension": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5d795c7b3fc62e91",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Postural hypotension"
+ },
+ "postural-hypotension-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "fa8a6a20e78c554f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Postural hypotension [LARGE PRINT]"
+ },
+ "pre-auricular-sinus-surgery": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ed7274ab4feffafb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pre-auricular sinus surgery"
+ },
+ "pre-auricular-sinus-surgery-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "d29707c6549239c0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pre-auricular sinus surgery [LARGE PRINT]"
+ },
+ "pre-operative-health-questionnaire-synopsis-home": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "d88a7e1623dc9187",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pre-operative health questionnaire Synopsis Home"
+ },
+ "pre-operative-health-questionnaire-synopsis-home-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "0c38b9228b92cf5b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pre-operative health questionnaire Synopsis Home [LARGE PRINT]"
+ },
+ "pre-tibial-lacerations": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "94fcc038b472ef0d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pre-tibial lacerations"
+ },
+ "pre-tibial-lacerations-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "fa2f8f86d0550110",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pre-tibial lacerations [LARGE PRINT]"
+ },
+ "pregnancy-of-unknown-location-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "a917c1f85af7f9d6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pregnancy of unknown location [LARGE PRINT]"
+ },
+ "pregnancy-of-unknown-location-pul": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "29fabb7f40883a5a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pregnancy of unknown location"
+ },
+ "preparing-emotionally-and-physically-for-neoadjuvant-chemotherapy": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2400efc43d75c121",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Preparing emotionally and physically for neoadjuvant chemotherapy"
+ },
+ "preparing-emotionally-and-physically-for-neoadjuvant-chemotherapy-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "8330a06190abe7a8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Preparing emotionaly and physically for neoadjuvant chemotherapy [LARGE PRINT]"
+ },
+ "preparing-for-pregnancy": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "18200b07655ea738",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Preparing for pregnancy"
+ },
+ "preparing-for-pregnancy-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "faaf01e8c91e5355",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Preparing for pregnancy [LARGE PRINT]"
+ },
+ "preparing-for-your-blood-test": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "0412d39ce5b6e48a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Preparing for your blood test"
+ },
+ "preparing-for-your-blood-test-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "aaed391f7c1a781e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Preparing for your blood test [LARGE PRINT]"
+ },
+ "preparing-for-your-breast-operation": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "e9b08b698a32fe9f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Preparing for your breast operation"
+ },
+ "preparing-for-your-breast-operation-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "8ad22c7c82b4847e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Preparing for your breast operation [LARGE PRINT]"
+ },
+ "preparing-for-your-endoscopic-procedure-additonal-information-for-people-with-diabetes": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "33f2b42db640dc05",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Preparing for your endoscopic procedure - additional information for people with diabetes"
+ },
+ "preparing-for-your-endoscopic-procedure-additonal-information-for-people-with-diabetes-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "957c6d4450ab9d6c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Preparing for your endoscopic procedure - additional information for people with diabetes [LARGE PRINT]"
+ },
+ "preventing-blood-clots-during-your-hospital-stay": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "08949e91e8f1a188",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Preventing blood clots during your hospital stay"
+ },
+ "preventing-blood-clots-during-your-hospital-stay-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "51d7efe9251fa263",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Preventing blood clots during your hospital stay [LARGE PRINT]"
+ },
+ "preventing-falls-in-hospital": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "3e553e8f0b738069",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Preventing falls in hospital"
+ },
+ "preventing-falls-in-hospital-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "a1db61b569d0d14e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Preventing falls in hospital [LARGE PRINT]"
+ },
+ "prolonged-oral-glucose-tolerance-test": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5c7de38decab847f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Prolonged oral glucose tolerance test"
+ },
+ "prolonged-oral-glucose-tolerance-test-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "1f24765ef1e02f33",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Prolonged oral glucose tolerance test [LARGE PRINT]"
+ },
+ "protecting-your-baby-from-low-blood-glucose-hypoglycaemia-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "0b7cc30717292c1d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Protecting your baby from low blood glucose (hypoglycaemia) [LARGE PRINT]"
+ },
+ "protecting-your-baby-from-low-glucose-levels-hypoglycaemia": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ca1b603f0b390cdb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Protecting your baby from low blood glucose (hypoglycaemia)"
+ },
+ "protective-isolation": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2306a79777c58de2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Protective isolation"
+ },
+ "protective-isolation-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "a331a794eb2e0ce8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Protective isolation [LARGE PRINT]"
+ },
+ "pulse-oximetry-screening-for-newborns": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "fc8bf387d5324186",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pulse oximetry screening for newborns"
+ },
+ "pulse-oximetry-screening-for-newborns-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "20a94d86f9542e4a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pulse oximetry screening for newborns [LARGE PRINT]"
+ },
+ "pureed-diet-idssi-level-4": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "a65859a72fc13442",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pureed diet (IDDSI level 4)"
+ },
+ "pureed-diet-idssi-level-4-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "202953f88857688e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pureed diet (IDDSI level 4) [LARGE PRINT]"
+ },
+ "quadriceps-injury": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "cc7d85413400de6d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Quadriceps injury exercise programme"
+ },
+ "quadriceps-injury-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5fe47a7a050b05c5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Quadriceps injury exercise programme [LARGE PRINT]"
+ },
+ "qutenzar-treatment": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "7e9f904b002fd803",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Qutenza treatment"
+ },
+ "qutenzar-treatment-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5ba7475fd241f47d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Qutenza treatment [LARGE PRINT]"
+ },
+ "radial-head-fracture": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "c28dbb67d03553c3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Radial head fracture"
+ },
+ "radial-head-fracture-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "02be2cd19a433494",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Radial head fracture [LARGE PRINT]"
+ },
+ "radiologically-inserted-gastrostomy": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "c65b92c46907714d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Radiologically inserted gastrostomy (RIG)"
+ },
+ "radiologically-inserted-gastrostomy-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "dc2176cea1fa92e0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Radiologically inserted gastrostomy (RIG) [LARGE PRINT]"
+ },
+ "rapid-access-suspected-angina-telephone-clinic": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "b6b2c7f891977e04",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Rapid access suspected angina telephone clinic"
+ },
+ "rapid-access-suspected-angina-telephone-clinic-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "f2d5ce16f4451a87",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Rapid access suspected angina telephone clinic [LARGE PRINT]"
+ },
+ "ready-set-recover": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "65577922736ffd1d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ready, set, recover! Your guide to 'waiting well' before surgery"
+ },
+ "ready-set-recover-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "f5e6a1aedd4c4944",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ready, set, recover! Your guide to 'waiting well' before surgery [LARGE PRINT]"
+ },
+ "recipes-for-children-with-food-allergies": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "926e180102331334",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Recipes for children with food allergies"
+ },
+ "recipes-for-children-with-food-allergies-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "243a5086b797d91e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Recipes for children with food allergies [LARGE PRINT]"
+ },
+ "reducing-falls-at-home": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "335626744297b401",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Reducing falls at home"
+ },
+ "reducing-falls-at-home-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ec74a4850865c361",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Reducing falls at home [LARGE PRINT]"
+ },
+ "reducing-the-risk-of-infection-what-you-can-do-to-help": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "8eb44bd1baa52a31",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Reducing the risk of isolation - how you can help"
+ },
+ "reducing-the-risk-of-infection-what-you-can-do-to-help-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "899fcd37d2bbfa7e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Reducing the risk of isolation - how you can help [LARGE PRINT]"
+ },
+ "reducing-your-risk-of-developing-a-blood-clot-in-a-lower-leg-splint-or-cast": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "d884b4572c0e2fe9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Reducing your risk of developing a blood clot in a lower leg splint or cast"
+ },
+ "reducing-your-risk-of-developing-a-blood-clot-in-a-lower-leg-splint-or-cast-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "da41e687bc65ef17",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Reducing your risk of developing a blood clot in a lower leg splint or cast [LARGE PRINT]"
+ },
+ "removal-of-a-vena-cava-filter": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "fca071c6f9436a6a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Removal of a vena cava filter"
+ },
+ "removal-of-a-vena-cava-filter-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5d086ddeaf041b91",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Removal of a vena cava filter [LARGE PRINT]"
+ },
+ "removal-of-an-implantable-loop-recorder-ilr": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "e130a0a4fab8f571",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Removal of an implantable loop recorder (ILR)"
+ },
+ "removal-of-an-implantable-loop-recorder-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "605a4eb26280a6cb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Removal of an implantable loop recorder (ILR) [LARGE PRINT]"
+ },
+ "removal-of-wisdom-teeth": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "98fcde078eb17c7f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Removal of wisdom teeth"
+ },
+ "removal-of-wisdom-teeth-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "e1afadc9da4a9a96",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Removal of wisdom teeth [LARGE PRINT]"
+ },
+ "respect": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "0b39fc1982bcb676",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "I have a Respect form - what happens now?"
+ },
+ "retainers-how-to-look-after-them": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "e9fac1c241b9ef3c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Retainers - how to look after them"
+ },
+ "retraining-your-bladder": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "652f79c0d3a68d5f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Retraining your bladder"
+ },
+ "retraining-your-bladder-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5e9c9d810eb71e9b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Retraining your bladder [LARGE PRINT]"
+ },
+ "rheumatology-advice-line": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "58e64990dcc5e606",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Rheumatology telephone advice line (Basingstoke and Alton)"
+ },
+ "rheumatology-advice-line-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2688dcd4c1269935",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Rheumatology telephone advice line (Basingstoke and Alton) [LARGE PRINT]"
+ },
  "role-of-haematology-clinical-nurse-specialists-key-workers-large-print": {
   "checked": "2026-09-22T13:48:27+01:00",
   "content_hash": "a6a385df8bf1aab3",
@@ -2862,12 +5179,488 @@
   "status": "no-date",
   "title": "Haematology clinical nurse specialists [LARGE PRINT]"
  },
+ "role-of-the-admiral-nurses-and-dementia-team": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "04e030c458c329f3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Role of the admiral nurses and dementia team"
+ },
+ "role-of-the-admiral-nurses-and-dementia-team-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "1f435291c566854f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Role of the admiral nurses and dementia team [LARGE PRINT]"
+ },
+ "role-of-the-head-and-neck-and-thyroid-clinical-nurse-specialist-cns": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "025f35c2f576ede5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Role of the head and neck, and thyroid cancer clinical nurse specialist (CNS)"
+ },
+ "role-of-the-head-and-neck-and-thyroid-clinical-nurse-specialist-cns-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "8b3a37880befb6ae",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Role of the head and neck, and thyroid cancer clinical nurse specialist (CNS) [LARGE PRINT]"
+ },
+ "role-of-the-play-team": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2605c60df0874419",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Role of the play team"
+ },
+ "role-of-the-play-team-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2a0e8180c03d5aa9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Role of the play team [LARGE PRINT]"
+ },
+ "routine-testing-for-hiv": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "3dd5d4189886ffae",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Routine testing for HIV (Basingstoke)"
+ },
+ "routine-testing-for-hiv-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "51b03ab67356b1cf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Routine testing for HIV (Basingstoke) [LARGE PRINT]"
+ },
+ "saline-suppression-test": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "d2a91e2c0f24d8d0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Saline suppression test"
+ },
+ "saline-suppression-test-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "39f556cfe116b16c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Saline suppression test [LARGE PRINT]"
+ },
+ "salmonella": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "7ef314068b527f8d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Salmonella"
+ },
+ "salmonella-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2356c655959c0313",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Salmonella [LARGE PRINT]"
+ },
+ "scabies": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "742a22f92f738b9b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Scabies"
+ },
+ "scabies-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "b32a854e2e8d1185",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Scabies [LARGE PRINT]"
+ },
+ "sciatica-exercise-programme": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "bd44def0061fd09f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sciatica exercise programme"
+ },
+ "sciatica-exercise-programme-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "696ca3877f597765",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sciatica exercise programme [LARGE PRINT]"
+ },
+ "self-administration-of-medicines-after-childbirth": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "c26df6f4d55ff451",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Self-administration of medicines"
+ },
+ "self-administration-of-medicines-after-childbirth-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "4792109f1206d682",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Self-administration of medicines [LARGE PRINT]"
+ },
+ "self-management-of-vaginal-pessaries": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "146e428943422b2c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Self-management of vaginal pessaries"
+ },
+ "self-management-of-vaginal-pessaries-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "b87049a90e5c9861",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Self-management of vaginal pessaries [LARGE PRINT]"
+ },
+ "self-treatment-for-ear-wax": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ec77c9d5a00caecd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Self-treatment for ear wax"
+ },
+ "self-treatment-of-ear-wax-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "c2049b316c7075ed",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Self-treatment for ear wax [LARGE PRINT]"
+ },
+ "senitel-lymph-node-biopsy-using-magtrace-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "b8f7d3ab58fa7005",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sentinel lymph node biopsy using Magtrace [LARGE PRINT]"
+ },
+ "sentinel-lymph-node-biopsy-and-osna-using-magtrace": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "a251f55dfc57ca61",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sentinel lymph node biopsy and OSNA using Magtrace"
+ },
+ "sentinel-lymph-node-biopsy-and-osna-using-magtrace-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2f9fc65704889b9e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sentinel lymph node biopsy and OSNA using Magtrace [LARGE PRINT]"
+ },
+ "sentinel-lymph-node-biopsy-and-osna-with-radioactive-isotope": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "c07668512d9e1c97",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sentinel lymph node biopsy and OSNA with radioactive isotope"
+ },
+ "sentinel-lymph-node-biopsy-and-osna-with-radioactive-isotope-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "fa72ad5ed43b7ed3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sentinel lymph node biopsy and OSNA with radioactive isotope [LARGE PRINT]"
+ },
+ "sentinel-lymph-node-biopsy-using-magtrace": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "518018e55f2b1045",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sentinel lymph node biopsy using Magtrace"
+ },
+ "sentinel-lymph-node-biopsy-using-radioactive-isotope": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "4fcaa8ef21c86193",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sentinel lymph node biopsy with radioactive isotope"
+ },
+ "sentinel-lymph-node-biopsy-using-radioactive-isotope-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "19cbaace6b00c726",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sentinel lymph node biopsy with radioactive isotope [LARGE PRINT]"
+ },
+ "sepsis-in-adults": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "4d95e4d0d4ad85d0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sepsis in adults"
+ },
+ "sepsis-in-adults-2": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "f8670421dd71f210",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sepsis in adults"
+ },
+ "sepsis-in-adults-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "268e2fb073eb947c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sepsis in adults [LARGE PRINT]"
+ },
+ "sepsis-in-adults-large-print-2": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5582695f7a77964e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sepsis in adults [LARGE PRINT]"
+ },
+ "septoplasty": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "a84bf40a3843dea2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Septoplasty"
+ },
+ "septoplasty-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "db1745a47db490f5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Septoplasty [LARGE PRINT]"
+ },
+ "sexual-health-services": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "1e896766c904229e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sexual health services"
+ },
+ "sexual-health-services-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "c51ff57388310c44",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sexual health services [LARGE PRINT]"
+ },
+ "short-synacthen-test": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "b260e15e21214c3c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Short synacthen test"
+ },
+ "short-synacthen-test-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "5024fd83d01dfaf3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Short synacthen test [LARGE PRINT]"
+ },
+ "shoulder-injury-exercise-programme": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "0c86842e791db7a8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Shoulder injury exercise programme"
+ },
+ "shoulder-injury-exercise-programme-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "55a2543a4c7b1104",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Shoulder injury exercise programme [LARGE PRINT]"
+ },
+ "sildenafil-for-severe-raynauds-phenomenon-and-ulceration-associated-with-systemic-sclerosis": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2f7c87c6814e77a2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sildenafil for severe Raynaud's phenomenon and ulceration associated with systemic sclerosis"
+ },
+ "sildenafil-for-severe-raynauds-phenomenon-and-ulceration-associated-with-systemic-sclerosis-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "378bce63eb32b83b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sildenafil for severe Raynaud's phenomenon and ulceration associated with systemic sclerosis [LARGE PRINT]"
+ },
+ "sistrunks-procedure": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "3f7019e46f015960",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sistrunks procedure"
+ },
+ "sistrunks-procedure-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "0a5745fb9689c1a2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sistrunks procedure [LARGE PRINT]"
+ },
+ "skin-sparing-mastectomy-with-latissimus-dorsi-with-or-without-breast-implant-reconstruction": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "ed726a71bd36422c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Skin-sparing mastectomy with latissimus dorsi with or without implant breast reconstruction"
+ },
+ "skin-sparing-mastectomy-with-latissimus-dorsi-with-or-without-breast-implant-reconstruction-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "38fb920305932fa4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Skin-sparing mastectomy with latissimus dorsi with or without implant breast reconstruction [LARGE PRINT]"
+ },
+ "sleep-and-your-child": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "205bd4af58609367",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sleep and your child"
+ },
+ "sleep-and-your-child-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "bc920c1656a039bd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sleep and your child [LARGE PRINT]"
+ },
+ "soft-and-bite-sized-diet-iddsi-level-6": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "1abd9639daf4d5e0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Soft and bite-sized diet (IDDSI level 6)"
+ },
+ "soft-and-bite-sized-diet-iddsi-level-6-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "85a707f0ea3a51c4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Soft and bite-sized diet (IDDSI level 6) [LARGE PRINT]"
+ },
+ "soft-tissue-injury": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "82b3a80c0528e413",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Soft tissue injury"
+ },
+ "soft-tissue-injury-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "0c081834ac173e06",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Soft tissue injury [LARGE PRINT]"
+ },
+ "special-school-nursing-team": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "3069e488016cd599",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Special school nursing team"
+ },
+ "special-school-nursing-team-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "6fcd56716d71ece2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Special school nursing team [LARGE PRINT]"
+ },
+ "sports-concussion-return-to-play-guidelines": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "dc93205ec8f7f576",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sports concussion - return to play guidelines"
+ },
+ "sports-concussion-return-to-play-guidelines-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "33b74ebdf5562dd1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sports concussion - return to play guidelines [LARGE PRINT]"
+ },
+ "squint-surgery": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "fb83c9b536ebf46f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Squint surgery"
+ },
+ "squint-surgery-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "995027eae5411756",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Squint surgery [LARGE PRINT]"
+ },
+ "staff-in-ppe-poster": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "0d573d75e01d2ad0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Staff in PPE"
+ },
  "study-flyer-for-factor-v-leiden-or-prothrombin-mutation": {
   "checked": "2026-09-22T13:48:27+01:00",
   "content_hash": "eeb54123a5c27acb",
   "hash_version": 2,
   "status": "no-date",
   "title": "Factor V and Prothrombin mutation study"
+ },
+ "sudden-sensorineural-hearing-loss-ssnhl": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "09485ab48dde136e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sudden sensorineural hearing loss (SSNHL)"
+ },
+ "sudden-sensorineural-hearing-loss-ssnhl-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "be5752ab8d5151bd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Sudden sensorineural hearing loss (SSNHL) [LARGE PRINT]"
+ },
+ "support-for-people-with-life-limiting-illnesses": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "8cdfd58c6b94a702",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Support for people with life-limiting illnesses"
+ },
+ "support-for-people-with-life-limiting-illnesses-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "2faa16a033ba6624",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Support for people with life-limiting illnesses [LARGE PRINT]"
+ },
+ "the-role-of-the-palliative-care-team": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "19c13e9a7bd6773f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Role of the palliative care team"
+ },
+ "the-role-of-the-palliative-care-team-large-print": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "8ec797e703fa135c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Role of the palliative care team [LARGE PRINT]"
+ },
+ "upper-gi-mdt-rhch": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "a99b51e600933f00",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Inflammatory bowel disease telephone advice service (Andover and Winchester)"
  },
  "using-high-concentration-insulin": {
   "checked": "2026-09-23T02:33:40+01:00",
@@ -2882,6 +5675,13 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "High concentration insulin [LARGE PRINT]"
+ },
+ "your-childs-pulled-elbow-injury": {
+  "checked": "2026-09-23T03:07:45+01:00",
+  "content_hash": "d16400ffdd890bef",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pulled elbow in children"
  },
  "your-circumcision-older-boys": {
   "checked": "2026-09-22T13:48:27+01:00",
