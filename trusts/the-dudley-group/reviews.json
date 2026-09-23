@@ -1809,5 +1809,184 @@
   "review_due_text": "October 2028",
   "status": "ok",
   "title": "Pain management programme - face to face or virtual"
+ },
+ "pain-relief-after-day-surgery": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "7df4bd56414b7eb7",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Pain relief after day surgery"
+ },
+ "palliative-care-support-team-2": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "9d81d8b0fe050695",
+  "hash_version": 2,
+  "review_due": "2029-03",
+  "review_due_text": "March 2029",
+  "status": "ok",
+  "title": "Palliative Care Support Team"
+ },
+ "patch-testing": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "36921fe7ad5d5859",
+  "hash_version": 2,
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Patch testing"
+ },
+ "patches-or-drops-which-treatment-is-best-for-your-child-2": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "8f9d6c2bbc5412f2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patches or drops: which treatment is best for your child?"
+ },
+ "patient-controlled-analgesia": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "b1cd2110ee5293a1",
+  "hash_version": 2,
+  "review_due": "2027-12",
+  "review_due_text": "December 2027",
+  "status": "ok",
+  "title": "Patient-controlled analgesia"
+ },
+ "percutaneous-biopsy": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "7d97d527d8613a7e",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2026-07",
+   "2029-05"
+  ],
+  "status": "ambiguous-date",
+  "title": "Percutaneous Biopsy"
+ },
+ "percutaneous-drainage": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "fb22fde46fc83d0c",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2026-07",
+   "2029-07"
+  ],
+  "status": "ambiguous-date",
+  "title": "Percutaneous Drainage"
+ },
+ "percutaneous-nephrostomy": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "90157baa32278c53",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2026-05",
+   "2029-07"
+  ],
+  "status": "ambiguous-date",
+  "title": "Percutaneous Nephrostomy"
+ },
+ "percutaneous-transhepatic-cholangiogram-ptc-and-drainage": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "1bb43ced9d79b43b",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2026-04",
+   "2029-03"
+  ],
+  "status": "ambiguous-date",
+  "title": "Percutaneous Transhepatic Cholangiogram (PTC) and Drainage"
+ },
+ "pericardiocentesis": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "bd8e7592b559f9f7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pericardiocentesis"
+ },
+ "peripheral-ischaemia": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "60fd2105d0b2c3c4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Peripheral Ischaemia"
+ },
+ "peripheral-neuropathy": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "02453661927e6e10",
+  "hash_version": 2,
+  "review_due": "2027-06",
+  "review_due_text": "June 2027",
+  "status": "ok",
+  "title": "Peripheral neuropathy"
+ },
+ "peripherally-inserted-central-catheter-picc-line": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "ca9634373c6d68a6",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2026-07",
+   "2029-05"
+  ],
+  "status": "ambiguous-date",
+  "title": "Peripherally inserted central catheter (PICC) line"
+ },
+ "piriformis-injection": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "918459da3cd2b4fe",
+  "hash_version": 2,
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Piriformis injection"
+ },
+ "planned-birth-by-caesarean-section": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "af4324e4e53960ca",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Planned birth by caesarean section"
+ },
+ "planned-elective-surgery": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "5206ff7d365fe82c",
+  "hash_version": 2,
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Planned Elective Surgery"
+ },
+ "post-arthrogram-care-sheet": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "e3864df38dbffdae",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2026-07",
+   "2029-05"
+  ],
+  "status": "ambiguous-date",
+  "title": "Post Arthrogram Care Sheet"
+ },
+ "post-biopsy-care-sheet": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "354a6b230c631618",
+  "hash_version": 2,
+  "review_due_candidates": [
+   "2026-07",
+   "2029-05"
+  ],
+  "status": "ambiguous-date",
+  "title": "Post Biopsy Care Sheet"
+ },
+ "post-corticosteroid-injection-advice-for-people-with-diabetes": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "75851bd8cef48685",
+  "hash_version": 2,
+  "review_due": "2028-10",
+  "review_due_text": "October 2028",
+  "status": "ok",
+  "title": "Post Corticosteroid Injection Advice for People with Diabetes"
  }
 }

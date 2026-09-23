@@ -1476,6 +1476,13 @@
   "status": "no-date",
   "title": "Surgical and plastics emergency ambulatory care - SPEAC"
  },
+ "surveillance-mammography": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "1a3b912f74ac84d1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "What happens after surveillance mammography"
+ },
  "swallowing-matters-a-guide-for-care-home-staff-on-managing-residents-with-eating-and-drinking-difficulties": {
   "checked": "2026-09-21T02:37:58+01:00",
   "content_hash": "9b86cf774cc58bba",
@@ -1525,6 +1532,83 @@
   "status": "no-date",
   "title": "Transthoracic echocardiography"
  },
+ "treatment-of-uterine-fibroids": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "64ddba0f1ac116de",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Treatment of uterine fibroids"
+ },
+ "trial-without-catheter-twoc-for-adults-18-years-and-over": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "2dc8aa30cd670dbe",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Trial without catheter (TWOC) – for adults 18 years and over who are patients of the National Spinal Injuries Centre (NISC)"
+ },
+ "tube-feeding-your-baby": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "15b7a66882f0287b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Tube feeding your baby"
+ },
+ "umbilical-hernia-repair": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "5d3b2aef56f23f0a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Umbilical hernia repair"
+ },
+ "undergoing-major-ear-surgery": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "46bafc71d4546f54",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Undergoing major ear surgery"
+ },
+ "urodynamics": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "263fb2e73ccfe7fc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Urodynamics"
+ },
+ "urodynamics-2": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "4cb706b53458be41",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Urodynamics"
+ },
+ "vacuum-assisted-biopsy": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "2eeeb9e4aa8eab3c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Vacuum assisted biopsy"
+ },
+ "vacuum-assisted-excision-vae": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "770d2c2351cbbec9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Vacuum assisted excision (VAE)"
+ },
+ "vaginal-hysterectomy-pelvic-floor-repair": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "9b93ab097ebe2dd8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Vaginal hysterectomy for uterine prolapse"
+ },
+ "veteran-aware-information-leaflet": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "bf73c1cefea4881d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Veteran aware information leaflet"
+ },
  "vte-advice-for-patients-going-home-after-a-hospital-stay": {
   "checked": "2026-09-20T02:36:39+01:00",
   "content_hash": "4fe2db26d07c5925",
@@ -1532,11 +1616,60 @@
   "status": "no-date",
   "title": "Reducing the risk of blood clots (VTE) for patients going home after a hospital stay"
  },
+ "weigh-forward-bucks-information-for-healthcare-professionals": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "e97be684854a07e5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Way Forward Bucks - information for healthcare professionals"
+ },
+ "weigh-forward-bucks-information-for-patients": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "98c067f3aac2d514",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Way Forward Bucks - information for patients"
+ },
+ "what-is-polyhydramnios": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "2551369e9e2b1260",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "What is polyhydramnios?"
+ },
  "when-you-are-asked-to-come-in-for-orthopaedic-trauma-surgery-at-stoke-mandeville-hospital": {
   "checked": "2026-09-19T02:37:10+01:00",
   "content_hash": "9de4c725c742c9ac",
   "hash_version": 2,
   "status": "no-date",
   "title": "Orthopaedic trauma surgery at Stoke Mandeville Hospital"
+ },
+ "when-your-child-has-croup": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "0413a5d351384ed9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "When your child has croup"
+ },
+ "when-your-child-is-coming-to-stoke-mandeville-hospital-for-a-general-anaesthetic-mandeville-wing": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "68cb11002089fcf8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "When your child is coming to Stoke Mandeville Hospital for a general anaesthetic - Mandeville Wing"
+ },
+ "when-your-child-is-coming-to-stoke-mandeville-hospital-for-a-general-anaesthetic-ward-3": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "e9a47d8a68d7b0d2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "When your child is coming to Stoke Mandeville Hospital for a general anaesthetic - Ward 3"
+ },
+ "when-your-child-is-coming-to-wycombe-hospital-for-a-general-anaesthetic-ward-11": {
+  "checked": "2026-09-22T02:41:18+01:00",
+  "content_hash": "a2d9effd0f07f7a3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "When your child is coming to Wycombe Hospital for a general anaesthetic - Ward 11"
  }
 }

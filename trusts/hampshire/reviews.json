@@ -1,0 +1,2802 @@
+{
+ "24-hour-urine-collections-5iaa": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "db63efc973a45dc1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "24-hour urine collections (5IAA)"
+ },
+ "24-hour-urine-collections-5iaa-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "be63b64b254186a5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "24-hour urine collections (5IAA) [LARGE PRINT]"
+ },
+ "24-hour-urine-collections-calciumphosphateoxalatecitratestone-former-screen": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "1dd52aa8b0d2fae1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "24-hour urine collections (calcium/phosphate/oxalate/citrate/stone former screen)"
+ },
+ "24-hour-urine-collections-calciumphosphateoxalatecitratestone-former-screen-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "222f00640718a911",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "24-hour urine collections (calcium/phosphate/oxalate/citrate/stone former screen) [LARGE PRINT]"
+ },
+ "24-hour-urine-collections-non-acidified-bottle": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "1e6cc4a4a3040aa0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "24-hour urine collections (non-acidified bottle)"
+ },
+ "24-hour-urine-collections-non-acidified-bottle-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "e8cb27479c28a4c6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "24-hour urine collections (non-acidified container) [LARGE PRINT]"
+ },
+ "24-hour-urine-collections-urinary-metanephrines-metadrenalin-catecholamine": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "39480e68b6d4c2dc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "24-hour urine collections: urinary metanephrines (Metadrenalin/Catecholamine)"
+ },
+ "24-hour-urine-collections-urinary-metanephrines-metadrenalin-catecholamine-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ff61ab52ab94e74a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "24-hour urine collections: urinary metanephrines (Metadrenalin/Catecholamine) [LARGE PRINT]"
+ },
+ "5th-metacarpal-fracture": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "c0d1951b384452aa",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "5th metacarpal fracture"
+ },
+ "5th-metacarpal-fracture-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "a3427f370f8fc984",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "5th metacarpal fracture (hand) [LARGE PRINT]"
+ },
+ "5th-metatarsal-fracture": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "efe7f81f5aa58afd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "5th metatarsal fracture"
+ },
+ "72-hour-three-day-fast-to-test-insulin-levels-copy": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "240e495e3649eaff",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "72 hour (three day) fast to test insulin levels"
+ },
+ "72-hour-three-day-fast-to-test-insulin-levels-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b894505030837a23",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "72 hour (three day) fast to test insulin levels [LARGE PRINT]"
+ },
+ "abdominal-hysterectomy-rcog": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "2feb670306d09b3b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Abdominal hysterectomy"
+ },
+ "abdominal-pain": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ae72779cc4b83a44",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Abdominal pain in adults"
+ },
+ "abdominal-pain-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "fcc0b92233712229",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Abdominal pain in adults [LARGE PRINT]"
+ },
+ "ac-acromioclavicular-joint-injury": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "4d9041198e95fe15",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "AC (acromioclavicular) joint injury"
+ },
+ "ac-acromioclavicular-joint-injury-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "15f40d83aac5a366",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "AC (acromioclavicular) joint injury [LARGE PRINT]"
+ },
+ "accommodative-rock-exercises": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "5bcc49ef4430707c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Accommodative rock exercises"
+ },
+ "accommodative-rock-exercises-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "8994eb63fcd7fadb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Accommodative rock exercises [LARGE PRINT]"
+ },
+ "acinetobacter": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "7905f3873cc40a64",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Acinetobacter"
+ },
+ "acinetobacter-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f765d998edae943e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Acinetobacter [LARGE PRINT]"
+ },
+ "acl-reconstruction-surgery-exercises": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "72aa94864831a9cd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "ACL reconstruction exercises"
+ },
+ "acl-reconstruction-surgery-exercises-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "297e90baa90216e9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "ACL reconstruction exercises [LARGE PRINT]"
+ },
+ "acute-back-pain": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "165c650c3785f998",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Acute back pain"
+ },
+ "acute-back-pain-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "640fde8cfa139bff",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Acute back pain [LARGE PRINT]"
+ },
+ "acute-oncology-service": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "887371959f4d192c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Acute oncology service"
+ },
+ "acute-oncology-service-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ecc1f662a5e7bf47",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Acute oncology service [LARGE PRINT]"
+ },
+ "aerobika-mucus-clearance-device": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "7525c892040f7e57",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Aerobika mucus clearance device"
+ },
+ "aerobika-mucus-clearance-device-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "0fdd1f99b6c97047",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Aerobika mucus clearance device [LARGE PRINT]"
+ },
+ "after-a-suspected-seizure": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ce2de115f8a37651",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After a suspected seizure"
+ },
+ "after-a-suspected-seizure-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f507b7bd9ea5ea68",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After a suspected seizure [LARGE PRINT]"
+ },
+ "after-hallux-valgus-bunion-surgery-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "755ecc7fdc9d4671",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hallux valgus (bunion) exercises after surgery [LARGE PRINT]"
+ },
+ "after-minor-surgery-and-extractions": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "dabddee98936b41b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After minor surgery and extractions"
+ },
+ "after-minor-surgery-and-extractions-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "353c063c6c25b405",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After minor surgery and extractions [LARGE PRINT]"
+ },
+ "after-removal-of-your-skin-lesion": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "5d7c9c1098422597",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After removal of your skin lesion"
+ },
+ "after-removal-of-your-skin-lesion-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "3fe5c46eda1fdeab",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After removal of your skin lesion [LARGE PRINT]"
+ },
+ "after-the-birth-of-your-baby": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b2c2064840b20062",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After the birth of your baby"
+ },
+ "after-the-birth-of-your-baby-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "913f54eee40d7172",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After the birth of your baby [LARGE PRINT]"
+ },
+ "after-the-removal-of-a-skin-lesion": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "7c3c5363552281de",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After the removal of a skin lesion"
+ },
+ "after-the-removal-of-a-skin-lesion-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "7fb34f6b11e17ba0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After the removal of a skin lesion [LARGE PRINT]"
+ },
+ "after-upper-limb-surgery-coping-with-using-one-hand-at-home": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "de298da1c8f8b492",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with only using one hand after upper limb surgery"
+ },
+ "after-upper-limb-surgery-coping-with-using-one-hand-at-home-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "9449fce84af2cb53",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with only using one hand after upper limb surgery [LARGE PRINT]"
+ },
+ "after-your-breast-surgery": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "d2a42c89de8a9b7d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After your breast surgery"
+ },
+ "after-your-breast-surgery-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "910d3a4a753e2a3d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After your breast surgery [LARGE PRINT]"
+ },
+ "after-your-core-biopsy-female": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "393bfb1ddc15a6f5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After your core biopsy (female)"
+ },
+ "after-your-core-biopsy-female-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "a79c2a4570b57a80",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After your core biopsy (female) [LARGE PRINT]"
+ },
+ "after-your-core-biopsy-male": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "5cf7ac1fc0e54fcc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After your core biopsy (male)"
+ },
+ "after-your-core-biopsy-male-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "9b837f92b31fb133",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After your core biopsy (male) [LARGE PRINT]"
+ },
+ "after-your-epidural-infusion-or-injection": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "929f9ac547de846a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After your epidural infusion or injection"
+ },
+ "after-your-epidural-infusion-or-injection-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "af9be4444a3fb73a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After your epidural infusion or injection [LARGE PRINT]"
+ },
+ "alcohol": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "9b7088186965f1ef",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Alcohol"
+ },
+ "alcohol-advice-for-older-people": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "1f06ab06a8e1f44d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Alcohol advice for older people"
+ },
+ "alcohol-advice-for-older-people-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "8f156d28adcea1e4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Alcohol advice for older people [LARGE PRINT]"
+ },
+ "alcohol-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "d01fa5ca9a026051",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Alcohol [LARGE PRINT]"
+ },
+ "alternative-healthcare-providers": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "a1113890f9def9b6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Alternative healthcare providers"
+ },
+ "alternative-healthcare-providers-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b3bb40ace0286bf5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Alternative healthcare providers [LARGE PRINT]"
+ },
+ "angiography-of-the-upper-and-lower-limbs": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "e68c3be8dc07a2a2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Angiography of the upper and lower limbs"
+ },
+ "angiography-of-the-upper-and-lower-limbs-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "237accd91d1ddbd0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Angiography of the upper and lower limbs [LARGE PRINT]"
+ },
+ "animal-and-human-bites": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "62b1d354ae2bf78e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Animal and human bites"
+ },
+ "animal-and-human-bites-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "08ed64d5ce91661b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Animal and human bites [LARGE PRINT]"
+ },
+ "ankle-injury": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "38040cb995e6cdd9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ankle injury"
+ },
+ "ankle-injury-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "9a4a0c65b7cc6726",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ankle injury [LARGE PRINT]"
+ },
+ "anterior-cruciate-ligament-acl-reconstruction": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "7c339f0c45876322",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "ACL (anterior cruciate ligament) reconstruction surgery"
+ },
+ "anterior-cruciate-ligament-acl-reconstruction-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "56462a1a0b8c06ee",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "ACL (anterior cruciate ligament) reconstruction surgery [LARGE PRINT]"
+ },
+ "anti-d-administration-after-pregnancy-loss": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b28a1dfe3d3ea77a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Anti-D administration after pregnancy loss"
+ },
+ "anti-d-administration-after-pregnancy-loss-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "5a69a3f89b44b61f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Anti-D administration after pregnancy loss [LARGE PRINT]"
+ },
+ "apicectomy": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "bc365352f3482ea7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Apicectomy"
+ },
+ "apicectomy-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "eb44c76575fcb7ee",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Apicectomy [LARGE PRINT]"
+ },
+ "attending-a-maternity-outpatient-appointment-during-the-coronavirus-covid-19-pandemic": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "0590de9d740f7444",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Attending a maternity outpatient appointment during the coronavirus (COVID-19) pandemic"
+ },
+ "attending-a-maternity-outpatient-appointment-during-the-coronavirus-covid-19-pandemic-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "d6012814caa5cbb1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Attending a maternity outpatient appointment during the coronavirus (COVID-19) pandemic [LARGE PRINT]"
+ },
+ "attending-an-outpatient-appointment-during-the-coronavirus-covid-19-pandemic-child-health": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "0b980d3252f7f5d1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Attending a child health outpatient appointment during the coronavirus (COVID-19) pandemic"
+ },
+ "attending-an-outpatient-appointment-during-the-coronavirus-covid-19-pandemic-child-health-large-print-september-2022": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "5ff6b2f342fdd99e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Attending a child health outpatient appointment during the coronavirus (COVID-19) pandemic [LARGE PRINT]"
+ },
+ "axillary-node-clearance": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "fc4886e112ed9832",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Axillary node clearance"
+ },
+ "axillary-node-clearance-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "229107d84d2c7519",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Axillary node clearance [LARGE PRINT]"
+ },
+ "azathioprine-for-interstitial-lung-disease": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "801c897f9bffa029",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Azathioprine for interstitial lung disease"
+ },
+ "azathioprine-for-interstitial-lung-disease-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "581b9574045a97c1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Azathioprine for interstitial lung disease [LARGE PRINT]"
+ },
+ "azithromycin": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "2a107d0caaf5b908",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Azithromycin"
+ },
+ "azithromycin-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ec5578bbdeb23a1e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Azithromycin [LARGE PRINT]"
+ },
+ "back-injury-exercise-programme": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b5ea57d095d47514",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Back injury exercise programme"
+ },
+ "back-injury-exercise-programme-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "d7b17d5825f2023f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Back injury exercise programme [LARGE PRINT]"
+ },
+ "benign-paroxysmal-positional-vertigo-bppv": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "c4de91ef758f8451",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Benign paroxysmal positional vertigo (BPPV)"
+ },
+ "benign-paroxysmal-positional-vertigo-bppv-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "19fc1a65a7962e94",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Benign paroxysmal positional vertigo (BPPV) [LARGE PRINT]"
+ },
+ "benilexa-one-handed-patient-leaflet-digital-november-2024-uk-2400312-certified-12-11-2024-1": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "c623c3cffe09c0e2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Benilexa one handed (levonorgestrel)"
+ },
+ "bianca-programme": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "77e888e1febd98ef",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "BIANCA (balancing insulin and carbohydrate)"
+ },
+ "bianca-programme-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "e74eaa903caf39e8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "BIANCA (balancing insulin and carbohydrate) [LARGE PRINT]"
+ },
+ "big-toe-fracture": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "9f839c7380abcf98",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Big toe fracture"
+ },
+ "bisphosphonates-for-breast-cancer": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "bde57514fe613a08",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bisphosphonates for breast cancer"
+ },
+ "bisphosphonates-for-breast-cancer-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "46b645df081a87fb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bisphosphonates for breast cancer [LARGE PRINT]"
+ },
+ "bleeding-in-early-pregnancy": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "94c50355b688f16a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bleeding in early pregnancy"
+ },
+ "bleeding-in-early-pregnancy-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b18c4ed1954dc053",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bleeding in early pregnancy [LARGE PRINT]"
+ },
+ "bone-health-for-people-with-coeliac-disease": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "92e84038af727dec",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bone health for people with coeliac disease"
+ },
+ "bone-health-for-people-with-coeliac-disease-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "a485c588ffb0a25a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bone health for people with coeliac disease [LARGE PRINT]"
+ },
+ "bowel-prep-with-moviprep-afternoon-appointment": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "32f618cecf933db0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel preparation with Moviprep for afternoon appointments"
+ },
+ "bowel-prep-with-moviprep-afternoon-appointment-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "86295d378dc860e3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel preparation with Moviprep for afternoon appointments [LARGE PRINT]"
+ },
+ "bowel-prep-with-moviprep-morning-appointment": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "8f2688ba0d06d942",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel preparation with Moviprep for morning appointments"
+ },
+ "bowel-prep-with-moviprep-morning-appointment-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "5bc838fbe3391540",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel preparation with Moviprep for morning appointments [LARGE PRINT"
+ },
+ "bowel-prep-with-picolax-afternoon-appointment": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "be4559854d81e48f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel preparation with Picolax for afternoon appointments"
+ },
+ "bowel-prep-with-picolax-afternoon-appointment-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "68a3911e53bcec88",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel preparation with Picolax for afternoon appointments [LARGE PRINT]"
+ },
+ "bowel-prep-with-picolax-morning-appointment": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "32ca79f92450e516",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel preparation with Picolax for morning appointments"
+ },
+ "bowel-prep-with-picolax-morning-appointment-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "26155442da79823c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel preparation with Picolax for morning appointments [LARGE PRINT]"
+ },
+ "bowel-prep-with-plenvu-am-and-pm-appointments": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "acad7bf661c3dfd0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel preparation with Plenvu for morning and afternoon appointments"
+ },
+ "bowel-prep-with-plenvu-am-and-pm-appointments-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "a54d563976e976a6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Bowel preparation with Plenvu for morning and afternoon appointments [LARGE PRINT]"
+ },
+ "breast-lymphoedema": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ec939f5808f8dc5f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Breast lymphoedema"
+ },
+ "breast-lymphoedema-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "c6d8c3dc80ec57cc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Breast lymphoedema [LARGE PRINT]"
+ },
+ "breast-oncology-service-and-the-role-of-your-cns": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "72c8967618a3d2c7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Breast oncology service and the role of your CNS"
+ },
+ "breast-oncology-service-and-the-role-of-your-cns-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "e826a639fed6fc9f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Breast oncology service and the role of your CNS [LARGE PRINT]"
+ },
+ "c-diff": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "bc70b146851ae7a8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "C. diff."
+ },
+ "c-diff-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "e93331d799fa3ad9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "C.diff. [LARGE PRINT]"
+ },
+ "calcium-and-vitamin-d": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "90d498d69e25aa46",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Calcium and vitamin D"
+ },
+ "calcium-and-vitamin-d-for-children-following-a-dairy-free-diet": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "be43dad29d445c88",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Calcium and vitamin D for children following a dairy-free diet"
+ },
+ "calcium-and-vitamin-d-for-children-following-a-dairy-free-diet-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "14d1c9933995d456",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Calcium and vitamin D for children following a dairy-free diet [LARGE PRINT]"
+ },
+ "calcium-and-vitamin-d-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "50edd48a6a1c7f7d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Calcium and vitamin D [LARGE PRINT]"
+ },
+ "call4concern": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ad72fb5ed6cea29f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Call 4 Concern"
+ },
+ "call4concern-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f1de13000a1af7d4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Call 4 Concern [LARGE PRINT]"
+ },
+ "campylobacter": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "0c641f2213ffbe10",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Campylobacter"
+ },
+ "campylobacter-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ef7f094de3ff70b5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Campylobacter [LARGE PRINT]"
+ },
+ "cancer-of-unknown-primary-cup": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "437c7db4bf14454d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cancer of unknown primary (CUP)"
+ },
+ "cancer-of-unknown-primary-cup-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "380b01caa4d79d28",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cancer of unknown primary (CUP) [LARGE PRINT]"
+ },
+ "candida-auris": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f2cd8214c1fdfeed",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Candida auris"
+ },
+ "candida-auris-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "8a0b36a27bd57169",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Candida auris [LARGE PRINT]"
+ },
+ "cardiac-investigations": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "afff45941e01a7a2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cardiac investigations"
+ },
+ "cardiac-investigations-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "328785f3e7b23398",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cardiac investigations [LARGE PRINT]"
+ },
+ "cardiac-rehabilitation-service": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "1c8161784943ee75",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cardiac rehabilitation service"
+ },
+ "cardiac-rehabilitation-service-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "df08ca3e19bb0d79",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cardiac rehabilitation service [LARGE PRINT]"
+ },
+ "cardiac-resynchronisation-therapy-defibrillator-crt-d-implant-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "33fea733a67df669",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cardiac resynchronisation therapy defibrillator (CRT-D) implant [LARGE PRINT]"
+ },
+ "cardiac-resynchronisation-therapy-defibrillator-crtd-r-implant": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "cc10d305a3dec76e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cardiac resynchronisation therapy defibrillator (CRT-D) implant"
+ },
+ "cardiac-resynchronisation-therapy-pacemaker": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "c89f5fd3067e66b8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cardiac resynchronisation therapy pacemaker (CRT-P) implant"
+ },
+ "cardiac-resynchronisation-therapy-pacemaker-crt-p-implant-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f0aa5389506950f0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cardiac resynchronisation therapy pacemaker (CRT-P) [LARGE PRINT]"
+ },
+ "caring-for-your-arm-while-in-a-sling": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "d25209fe54c47168",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Caring for your arm while in a sling"
+ },
+ "caring-for-your-arm-while-in-a-sling-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "09997f3814ab6554",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Caring for your arm while in a sling [LARGE PRINT]"
+ },
+ "cauterisation-of-the-cervix": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b163b9d7e7c6fe8e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cauterisation of the cervix"
+ },
+ "cauterisation-of-the-cervix-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ad80f0ad69fc1a43",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cauterisation of the cervix [LARGE PRINT]"
+ },
+ "cellulitis": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "3afc8e180b75e3a2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cellulitis in adults"
+ },
+ "cellulitis-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "9864004c0107c1c0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cellulitis in adults [LARGE PRINT]"
+ },
+ "cervical-biopsy-leaflet-2025": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "4f87b991c265bdb2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "After your cervical biopsy"
+ },
+ "chalazion": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "8760d0ee26b093bc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Chalazion"
+ },
+ "chalazion-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "7fd69224797528a9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Chalazion [LARGE PRINT]"
+ },
+ "chaplaincy": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "42a0f17c9be96875",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Chaplaincy"
+ },
+ "chaplaincy-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "a30002637c023460",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Chaplaincy [LARGE PRINT]"
+ },
+ "chat-childrens-home-acute-team": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "7ac2839c55a21ed4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "CHAT (children's home acute team)"
+ },
+ "chat-childrens-home-acute-team-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "5805db97bf8f242f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "CHAT (children's home acute team) [LARGE PRINT]"
+ },
+ "chest-infection": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "7776e38d5a7fc174",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Chest infection"
+ },
+ "chest-infection-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "20df21900211f9de",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Chest infection [LARGE PRINT]"
+ },
+ "chest-injury": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "8a825f442337e058",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Chest injury"
+ },
+ "chest-injury-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "efced290884039ce",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Chest injury [LARGE PRINT]"
+ },
+ "chickenpox-and-shingles": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b0414c4c4261b0af",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Chickenpox and shingles"
+ },
+ "chickenpox-and-shingles-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b52fecbea9f6eef7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Chickenpox and shingles [LARGE PRINT]"
+ },
+ "childrens-services-in-basingstoke-and-winchester-poscu": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "96658b13b815b95f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Children's services in Basingstoke and Winchester (POSCU)"
+ },
+ "childrens-services-in-basingstoke-and-winchester-poscu-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "91327ddd0c2cda2d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Children's services in Basingstoke and Winchester (POSCU) [LARGE PRINT]"
+ },
+ "cjd": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "924d56f15a2d2d78",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "CJD (Creutzfeld-Jakob disease)"
+ },
+ "cjd-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "5c3c462b071cdfad",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "CJD (Creutzfeld-Jakob disease) [LARGE PRINT]"
+ },
+ "clinical-health-psychology-service": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b52989c91f04769a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Clinical Health Psychology Service"
+ },
+ "colonoscopy": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "814c885c1eb7c8c3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Colonoscopy"
+ },
+ "colonoscopy-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "e863ea755c1ef66a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Colonoscopy [LARGE PRINT]"
+ },
+ "combined-gastroscopy-and-colonoscopy": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "c4bdd568f1c08843",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gastroscopy (OGD) and colonoscopy"
+ },
+ "combined-gastroscopy-and-colonoscopy-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "1c7298109e540145",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gastroscopy (OGD) and colonoscopy [LARGE PRINT]"
+ },
+ "communication-tactics": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "9717d20d0a3326dc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Communication tactics"
+ },
+ "communication-tactics-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b93051b938872d7b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Communication tactics [LARGE PRINT]"
+ },
+ "conjunctivitis": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "08464f61d76c8a92",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Conjunctivitis in adults"
+ },
+ "conjunctivitis-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f9641af753f3fc92",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Conjunctivitis in adults [LARGE PRINT]"
+ },
+ "contrast-medium-and-your-mri-scan": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "0f51aab1e5bff5c5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Contrast medium and your MRI scan"
+ },
+ "contrast-medium-and-your-mri-scan-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "7166a41d0a642a15",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Contrast medium and your MRI scan [LARGE PRINT]"
+ },
+ "coping-with-a-dry-mouth": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "7fac96725d002900",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with a dry mouth (short version)"
+ },
+ "coping-with-a-dry-mouth-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ab29c7e7bdcac5ab",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with a dry mouth (short version) [LARGE PRINT]"
+ },
+ "coping-with-a-sore-mouth-or-throat": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "cde2c13294bcde73",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with a sore mouth or throat (short version)"
+ },
+ "coping-with-a-sore-mouth-or-throat-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "01d0460281975e9e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with a sore mouth or throat (short version) [LARGE PRINT]"
+ },
+ "coping-with-back-pain-including-after-spinal-surgery": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "321afc187ce339f2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with back pain, including after spinal surgery"
+ },
+ "coping-with-back-pain-including-after-spinal-surgery-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "68dc44e346b86394",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with back pain, including after spinal surgery [LARGE PRINT]"
+ },
+ "coping-with-being-too-tired-to-cook": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "30d835019ef9d0ef",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with being too tired to cook (short version)"
+ },
+ "coping-with-being-too-tired-to-cook-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "d0c9ebedbfc5e640",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with being too tired to cook (short version) [LARGE PRINT]"
+ },
+ "coping-with-constipation": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "6df7db11fd769b99",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with constipation (short version)"
+ },
+ "coping-with-constipation-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "e34a7df4d9712f06",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with constipation (short version) [LARGE PRINT]"
+ },
+ "coping-with-diarrhoea": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f0e2240a44afad82",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with diarrhoea (short version)"
+ },
+ "coping-with-diarrhoea-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "60cee5b55548bcd5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with diarrhoea (short version) [LARGE PRINT]"
+ },
+ "coping-with-dying": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f95bdf9aebce1e7d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with dying"
+ },
+ "coping-with-dying-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "524e971f19b5c509",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with dying [LARGE PRINT]"
+ },
+ "coping-with-feeling-full-quickly": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "d22ebde35f5a07ae",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with feeling full quickly (short version)"
+ },
+ "coping-with-feeling-full-quickly-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "43c7e7f40bc39a5b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with feeling full quickly (short version) [LARGE PRINT]"
+ },
+ "coping-with-indigestion-and-heartburn": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "74c8406aa64db73d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with indigestion and heartburn (short version)"
+ },
+ "coping-with-indigestion-and-heartburn-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f9bfc828df966c95",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with indigestion and heartburn (short version) [LARGE PRINT]"
+ },
+ "coping-with-nausea-and-vomiting": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f6737efdabb4c0b4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with nausea and vomiting"
+ },
+ "coping-with-nausea-and-vomiting-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "349ad7d97dbef945",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with nausea and vomiting [LARGE PRINT]"
+ },
+ "coping-with-taste-changes": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "5f2fae65eccb7743",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with taste changes"
+ },
+ "coping-with-taste-changes-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "d8321ac6b1f3ab9b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with taste changes [LARGE PRINT]"
+ },
+ "coping-with-wind": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "eb03c84d858525e3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with wind"
+ },
+ "coping-with-wind-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "84ab91c8da644c99",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with wind [LARGE PRINT]"
+ },
+ "corneal-abrasion": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "8f1309825b3283c3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Corneal abrasion"
+ },
+ "corneal-abrasion-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "727b4bceba0e1e72",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Corneal abrasion [LARGE PRINT]"
+ },
+ "coronary-angiogram-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ba894e0e22db9746",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coronary angiogram [LARGE PRINT]"
+ },
+ "coronary-angioplasty": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "9747ac024a34a68a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coronary angioplasty"
+ },
+ "coronary-angioplasty-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b09d862018118249",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coronary angioplasty [LARGE PRINT]"
+ },
+ "cortisol-day-curve-test-for-cushings-syndrome-copy": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "41f0910096c7da42",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cortisol day curve test for Cushing's Syndrome"
+ },
+ "cortisol-day-curve-test-for-cushings-syndrome-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "2f87c8223e401ad2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cortisol day curve test for Cushing's Syndrome [LARGE PRINT]"
+ },
+ "cpe-i-am-a-contact": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "cfbf5c4e59441d14",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "CPE - I am a contact"
+ },
+ "cpe-i-am-a-contact-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b6b62a5be9b8ebf6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "CPE - I am a contact [LARGE PRINT]"
+ },
+ "cpe-i-am-colonised": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "440bf69895951ae2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "CPE - I am colonised"
+ },
+ "cpe-i-am-colonised-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "18819e370e18522c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "CPE - I am colonised [LARGE PRINT]"
+ },
+ "cpe-i-may-be-infected": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "6794a22a3e296689",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "CPE - I may be infected"
+ },
+ "cpe-i-may-be-infected-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f43399aa41b94ed7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "CPE - I may be infected [LARGE PRINT]"
+ },
+ "criteria-led-discharge": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "3385fe67de1c325a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Criteria-led discharge"
+ },
+ "criteria-led-discharge-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "3d876a10583bbfb2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Criteria-led discharge [LARGE PRINT]"
+ },
+ "dairy-free-breastfeeding-2017": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "1b8ba6130a40d85f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dairy-free breastfeeding"
+ },
+ "dairy-free-weaning-2017": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "fbdad6147016d946",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dairy-free weaning"
+ },
+ "delirium": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "10efe2a8a4625722",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Delirium"
+ },
+ "delirium-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "7867243ffe4e20d1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Delirium [LARGE PRINT]"
+ },
+ "deprivation-of-liberty-safeguards-dols": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "1634ed67b8d60e7d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Deprivation of Liberty Safeguards (DoLS)"
+ },
+ "deprivation-of-liberty-safeguards-dols-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "c7907d2b8bab35a2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Deprivation of Liberty Safeguards (DoLS) [LARGE PRINT]"
+ },
+ "development-and-learning-premature-children-feb-2017": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "def80898936a8a81",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Development and learning of children who have been born prematurely"
+ },
+ "developmental-dysplasia-of-the-hip": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "eaaf87329a8053d2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Developmental dysplasia of the hip"
+ },
+ "developmental-dysplasia-of-the-hip-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "1366f8c76cad8352",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Developmental dysplasia of the hip [LARGE PRINT]"
+ },
+ "diabetes-management": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "1a7c36e249f7492b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Diabetes Management"
+ },
+ "diabetes-transition": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "41e8c70b8f67ea5a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Diabetes transition care"
+ },
+ "diabetes-transition-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "9b15972445efc3cc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Diabetes transition care [LARGE PRINT]"
+ },
+ "diet-and-gestational-diabetes": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "c22fd59f595dc489",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Diet and gestational diabetes"
+ },
+ "diet-and-gestational-diabetes-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ea4496679c0cb77f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Diet and gestational diabetes [LARGE PRINT]"
+ },
+ "dietary-advice-for-pcos": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "2cd11812c022adca",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dietary advice for polycystic ovarian syndrome (PCOS)"
+ },
+ "dietary-advice-for-pcos-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "3e8d0bff8bb99b6b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dietary advice for polycystic ovary syndrome (PCOS) [LARGE PRINT]"
+ },
+ "dietary-advice-for-the-management-of-gallstones-and-cholecystitis": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ba0dd0207bae7a85",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dietary advice for the management of gallstones and cholecystitis"
+ },
+ "dietary-advice-for-the-management-of-gallstones-and-cholecystitis-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "7ea80193ba6205be",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dietary advice for the management of gallstones and cholecystitis [LARGE PRINT]"
+ },
+ "dietary-advice-to-help-reduce-high-blood-cholesterol": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "710a78b3f35e80bd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dietary advice to help reduce high blood pressure"
+ },
+ "dietary-advice-to-help-reduce-high-blood-cholesterol-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "412606481c68001e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dietary advice to help reduce high blood pressure [LARGE PRINT]"
+ },
+ "dietary-advice-to-prevent-and-slow-down-frailty": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "fcaae7fb17fa8444",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dietary advice to prevent and slow down frailty"
+ },
+ "dietary-advice-to-prevent-and-slow-down-frailty-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b4b6bb41ef2a66de",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dietary advice to prevent and slow down frailty [LARGE PRINT]"
+ },
+ "dinosaur-card-exercises": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "d162e75d98be77c0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dinosaur card exercises"
+ },
+ "dinosaur-card-exercises-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "5e1902c930a841b9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dinosaur card exercises [LARGE PRINT]"
+ },
+ "direct-antibody-test-dat-positive": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "af7444c41433af51",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Direct antibody test (DAT) positive"
+ },
+ "direct-antibody-test-dat-positive-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "4f710876295b1cc0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Direct antibody test (DAT) positive [LARGE [PRINT]"
+ },
+ "dislocated-shoulder": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "92a52353040d564c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dislocated shoulder"
+ },
+ "dislocated-shoulder-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "6dbeeaa2562a2253",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dislocated shoulder [LARGE PRINT]"
+ },
+ "diverticular-disease": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "3bde6738154c57d4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dietary advice for people with diverticular disease"
+ },
+ "diverticular-disease-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "fb47156ca3654302",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dietary advice for people with diverticular disease [LARGE PRINT]"
+ },
+ "dpd-deficiency-and-dpyd-gene-testing": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "252c10310dde874a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "DPD deficiency and DPYD testing"
+ },
+ "dpd-deficiency-and-dpyd-gene-testing-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "54961c4cbc98cb29",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "DPD deficiency and DPYD testing [LARGE PRINT]"
+ },
+ "driving-and-prescription-medications": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "46e7b4dd9f82ee48",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Driving and prescription medications"
+ },
+ "driving-and-prescription-medications-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f725fae0b6b50fd7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Driving and prescription medications [LARGE PRINT]"
+ },
+ "dropless-cataract-surgery": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "d552ddf7cc2b3d66",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dropless cataract surgery"
+ },
+ "dropless-cataract-surgery-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "a0791cc6e195aa18",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Dropless cataract surgery [LARGE PRINT]"
+ },
+ "duanes-cross-exercises": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "df01b66e56cf8354",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Duane's cross exercises"
+ },
+ "duanes-cross-exercises-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "e8a3d2e466fb8405",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Duane's cross exercises [LARGE PRINT]"
+ },
+ "duct-excision": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "24dbef81b37d2d08",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Duct excision"
+ },
+ "duct-excision-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "46d5e0cf748118fb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Duct excision [LARGE PRINT]"
+ },
+ "duty-of-candour": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ae206957406868b7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Duty of candour"
+ },
+ "duty-of-candour-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "96893d9f4c38f177",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Duty of candour [LARGE PRINT]"
+ },
+ "e-coli-and-e-coli-0157": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "2752c3317d6e4241",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "E. coli and E.coli 157"
+ },
+ "e-coli-and-e-coli-0157-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "2329ef9ee7049589",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "E.coli and E.coli 157 [LARGE PRINT]"
+ },
+ "ear-surgery-for-cholesteatoma": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "c44f096516135788",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ear surgery for cholesteatoma"
+ },
+ "ear-surgery-for-cholesteatoma-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "1cabbe113fd0d150",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ear surgery for cholesteatoma [LARGE PRINT]"
+ },
+ "easy-chew-diet-iddsi-level-7": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f0151b9c6d189e90",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Easy chew diet (IDDSI level 7)"
+ },
+ "easy-chew-diet-iddsi-level-7-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "8e838ba0a2ea663c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Easy chew diet (IDDSI level 7) [EASY READ]"
+ },
+ "eating-and-drinking-at-risk": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "7f03702b3685881d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eating and drinking at risk"
+ },
+ "eating-and-drinking-at-risk-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "dbc092d20e1feedd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eating and drinking at risk [LARGE PRINT]"
+ },
+ "eating-and-drinking-with-dementia": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "8758d6f3cbad404d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eating and drinking in dementia"
+ },
+ "eating-and-drinking-with-dementia-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "31cf346d5cc885d2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eating and drinking in dementia [LARGE PRINT]"
+ },
+ "eating-well-during-your-hospital-stay-information-for-patients-with-diabetes": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b032e2eb6a311690",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eating well during your hospital stay"
+ },
+ "eating-well-during-your-hospital-stay-information-for-patients-with-diabetes-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "33de85daaa616832",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eating well during your hospital stay [LARGE PRINT]"
+ },
+ "eating-well-to-prevent-weight-loss": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b6ab479369942635",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eating well to prevent weight loss"
+ },
+ "eating-well-to-prevent-weight-loss-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "46e7a3eb427e87cb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eating well to prevent weight loss [LARGE PRINT]"
+ },
+ "eating-well-with-type-1-diabetes-and-pregnancy": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "93d9b285f540f158",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eating well with type 1 diabetes and pregnancy"
+ },
+ "eating-well-with-type-1-diabetes-and-pregnancy-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ef6de2744bce454d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eating well with type 1 diabetes and pregnancy [LARGE PRINT]"
+ },
+ "ectopic-beats": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "077e0adab0449aa4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ectopic beats"
+ },
+ "ectopic-beats-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f0c14eb27536665d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ectopic beats [LARGE PRINT]"
+ },
+ "elbow-injury-exercise-programme": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "e7b3f13723ded237",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Elbow injury exercise programme"
+ },
+ "elbow-injury-exercise-programme-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "9f5e90a4dd6c0dd4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Elbow injury exercise programme [LARGE PRINT]"
+ },
+ "embolization-for-pelvic-venous-congestion-syndrome-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b1b8a8c2a184dbf8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Embolization treatment for pelvic venous congestion syndrome (PVCS) [LARGE PRINT]"
+ },
+ "embolization-of-the-prostate": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "0442aa0c4ed63449",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Embolization of the prostate"
+ },
+ "embolization-of-the-prostate-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "edb81224a0890922",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Embolization of the prostate [LARGE PRINT]"
+ },
+ "embolization-treatment-for-pelvic-venous-congestion-syndrome": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "838aecbe22719ac5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Embolization treatment for pelvic venous congestion syndrome (PVCS)"
+ },
+ "emergency-dental-service": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "597f136b6b631eee",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Emergency dental service"
+ },
+ "emergency-dental-service-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "8d965fa242960a99",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Emergency dental service [LARGE PRINT]"
+ },
+ "encopresis-in-children": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b6b3a0495f744a81",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Encopresis in children"
+ },
+ "encopresis-in-children-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "af9025c1504054f3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Encopresis in children [LARGE PRINT]"
+ },
+ "endometrial-ablation-rcog": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "91026e106e6eaf78",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Endometrial ablation"
+ },
+ "endoscopic-sinus-surgery": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "0560cd0a311341aa",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Endoscopic sinus surgery"
+ },
+ "endoscopic-sinus-surgery-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "5f567e7e6242d7db",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Endoscopic sinus surgery [LARGE PRINT]"
+ },
+ "enhanced-recovery-programe-for-colorectal-surgery": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "8ba03604dac2153f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Enhanced recovery programme for colorectal surgery"
+ },
+ "enhanced-recovery-programe-for-colorectal-surgery-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "a218d45571a64b01",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Enhanced recovery programme for colorectal surgery [LARGE PRINT]"
+ },
+ "equipment-for-people-with-arthritis-of-the-hand": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "21860d2576bcd3d9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Equipment for people with arthritis of the hand"
+ },
+ "esbl-and-ampc": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "a5bd85ca07044f1b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "ESBL and AmpC"
+ },
+ "esbl-and-ampc-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "fce0f27089bed0e6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "ESBL and AmpC [LARGE PRINT]"
+ },
+ "eustachian-tube-dysfunction": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "1b56fe534dd95533",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eustachian tube dysfunction"
+ },
+ "eustachian-tube-dysfunction-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "86789f29be7b21f5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eustachian tube dysfunction [LARGE PRINT]"
+ },
+ "eye-tracking-saccades": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "0d125df125d36310",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eye tracking (saccades)"
+ },
+ "eye-tracking-saccades-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f46046c919e79d93",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Eye tracking (saccades) [LARGE PRINT]"
+ },
+ "faecal-calprotectin-collection-fcc-test": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f52824f83d51449d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Faecal calprotectin collection (FCC) test"
+ },
+ "faecal-calprotectin-collection-fcc-test-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "99ea3a300bc605a2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Faecal calprotectin collection (FCC) test [LARGE PRINT]"
+ },
+ "fibre-in-your-childs-diet-2017": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "c65df89ab368dfc2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fibre in your child's diet"
+ },
+ "fibreoptic-endoscopic-evaluation-of-swallowing-fees": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "471d8cb6d133f00c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fibreoptic endoscopic evaluation of swallowing (FEES)"
+ },
+ "fibreoptic-endoscopic-evaluation-of-swallowing-fees-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "5d13bdf5f348e4d2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fibreoptic endoscopic evaluation of swallowing (FEES) [LARGE PRINT]"
+ },
+ "first-fit": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b83b3b8d4a761d88",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "First fit (adults)"
+ },
+ "first-fit-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "8996d51c4c145f6b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "First fit (adults) [LARGE PRINT]"
+ },
+ "fitting-your-hearing-aid": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "dbc965976d68be64",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fitting your hearing aid"
+ },
+ "fitting-your-hearing-aid-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "91e6819d24f0b7f1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fitting your hearing aid [LARGE PRINT]"
+ },
+ "flexible-sigmoidoscopy": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ed9e99dd2b8198ba",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Flexible sigmoidoscopy"
+ },
+ "food-safety-guidelines-for-neutropenic-patients": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "698923f8f3327d27",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Food safety guidelines for neutropenic patients"
+ },
+ "food-safety-guidelines-for-neutropenic-patients-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "eb8e4250ace7b140",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Food safety guidelines for neutropenic patients [LARGE PRINT]"
+ },
+ "food-safety-guidelines-for-patients-receiving-chemotherapy": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "3f7a8d8c36a39b15",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Food safety guidelines for patients receiving chemotherapy"
+ },
+ "food-safety-guidelines-for-patients-receiving-chemotherapy-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "bd1050fb4d3fe165",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Food safety guidelines for patients receiving chemotherapy [LARGE PRINT]"
+ },
+ "fractured-clavicle": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "7037122c8156c029",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fractured clavicle (collarbone)"
+ },
+ "fractured-clavicle-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "4c2d254cfa25e6cf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fractured clavicle (collarbone) [LARGE PRINT]"
+ },
+ "freestyle-libre-flash-monitoring-device": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "e6309c8c3818447e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Freestyle Libre monitoring device"
+ },
+ "freestyle-libre-flash-monitoring-device-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "5d87ccd964c0ba78",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Freestyle Libre monitoring device [LARGE PRINT]"
+ },
+ "functional-neurological-disorders-group": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ab60a827fe08dfbb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Functional Neurological Disorders Group"
+ },
+ "fundus-fluorescein-angiography": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "3d125841c5ab64c8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fundus fluorescein angiography"
+ },
+ "fundus-fluorescein-angiography-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "0fc890adb7d6f807",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fundus fluorescein angiography [LARGE PRINT]"
+ },
+ "fussy-eating-in-adults": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ff87925463694d59",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fussy eating in adults"
+ },
+ "fussy-eating-in-adults-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "d340086d8d1d09e2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fussy eating in adults [LARGE PRINT]"
+ },
+ "gastroscopy": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "a1f7e5681d1a8835",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gastroscopy (OGD)"
+ },
+ "gastroscopy-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "2c88e165126536dc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gastroscopy (OGD) [LARGE PRINT]"
+ },
+ "glasses-for-children": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "500c07f085a28b68",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Glasses for children"
+ },
+ "glasses-for-children-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "dd270e094d94556a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Glasses for children [LARGE PRINT]"
+ },
+ "glucagon-test": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "d76ad0a76627e1e7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Glucagon test"
+ },
+ "glucagon-test-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "694a77ca92f9260b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Glucagon test [LARGE PRINT]"
+ },
+ "glue-ear-in-children": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "317a7c1599bec8b6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Glue ear in children"
+ },
+ "glue-ear-in-children-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "4fe61bf8cbda0053",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Glue ear in children [LARGE PRINT]"
+ },
+ "going-home-after-sedation-adult": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "681fd40804cd5d73",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Going home after having sedation (adult)"
+ },
+ "going-home-after-sedation-adult-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "e29b1c890dde1179",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Going home after having sedation (adult) [LARGE PRINT]"
+ },
+ "going-home-after-your-abscess-incision-and-draining-procedure": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "9c24f111ca7bbda8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Going home after your abscess incision and draining procedure"
+ },
+ "going-home-after-your-abscess-incision-and-draining-procedure-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f0aaf7e27fb3b1a1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Going home after your abscess incision and draining procedure [LARGE PRINT]"
+ },
+ "gout": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "41131699fbc641b1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gout"
+ },
+ "gout-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "c090514e694d75b4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gout [LARGE PRINT]"
+ },
+ "grommets-to-treat-glue-ear": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "5a2f386a2489a585",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Grommets to treat glue ear"
+ },
+ "grommets-to-treat-glue-ear-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f9ebd09a9b0b6113",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Grommets to treat glue ear [LARGE PRINT]"
+ },
+ "group-a-streptococcus": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "e0c5f4d21e566678",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Group A Streptococcus"
+ },
+ "group-a-streptococcus-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "50293079d66d2396",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Group A Streptococcus [LARGE PRINT]"
+ },
+ "guide-to-gluten-free-communion": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "1dbcc2d4e5da8229",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Guide to a gluten-free communion"
+ },
+ "guide-to-gluten-free-communion-for-clergy-with-coeliac-disease": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "0285bf1b9dd6f072",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Guide to a gluten-free communion for clergy with coeliac disease"
+ },
+ "guide-to-gluten-free-communion-for-clergy-with-coeliac-disease-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "0f68ac7966715b2e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Guide to a gluten-free communion for clergy with coeliac disease [LARGE PRINT]"
+ },
+ "guide-to-gluten-free-communion-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "70720ecadb17dc84",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Guide to a gluten-free communion [LARGE PRINT]"
+ },
+ "guide-to-type-1-diabetes": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ed478b9ab41d043d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Guide to type 1 diabetes"
+ },
+ "guide-to-type-1-diabetes-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "6072c978205c0cbc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Guide to type 1 diabetes [LARGE PRINT]"
+ },
+ "haematology-clinical-nurse-specialists-key-workers": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "ef18f48d5098babf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Haematology clinical nurse specialists"
+ },
+ "haemophilia-and-inherited-bleeding-disorders": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "aa199018ae28ee66",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Haemophilia and inherited bleeding disorders"
+ },
+ "haemophilia-and-inherited-bleeding-disorders-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "c09685f7d5beab0d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Haemophilia and inherited bleeding disorders [LARGE PRINT]"
+ },
+ "hallux-valgus-bunion-exercises-after-surgery": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "d9ad91dfa306d14e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hallux valgus (bunion) exercises after surgery"
+ },
+ "hamstring-injury": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "6a67dde977a5a551",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hamstring injury"
+ },
+ "hamstring-injury-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "d4a1c20ac19b6488",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hamstring injury [LARGE PRINT]"
+ },
+ "having-a-24-hour-blood-pressure-test-easy-read": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "46730654ee794119",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a 24-hour blood pressure test [Easy Read]"
+ },
+ "having-a-balloon-eustachian-tuboplasty": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f4ce4cf8b5f5db03",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a balloon Eustachian tuboplasty"
+ },
+ "having-a-balloon-eustachian-tuboplasty-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "2671cfc093c09d37",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a balloon Eustachian tuboplasty [LARGE PRINT]"
+ },
+ "having-a-capsule-endoscopy": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "2e91194d9d74fe9d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Capsule endoscopy"
+ },
+ "having-a-capsule-endoscopy-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "27b57304c908f931",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Capsule endoscopy [LARGE PRINT]"
+ },
+ "having-a-cochlear-implant": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "85766d461fa74506",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a cochlear implant"
+ },
+ "having-a-cochlear-implant-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f3faa51ab4cf0a5b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a cochlear implant [LARGE PRINT]"
+ },
+ "having-a-community-birth-blossom-and-bloom": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "2116c5699ccac26c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a community birth (Blossom and Bloom)"
+ },
+ "having-a-community-birth-blossom-and-bloom-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "9a780780cf088534",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a community birth (Blossom and Bloom) [LARGE PRINT]"
+ },
+ "having-a-coronary-angiogram": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b01f107857dbaffd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coronary angiogram"
+ },
+ "having-a-flexible-sigmoidoscopy-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "8a1a4c7652371e2b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Flexible sigmoidoscopy [LARGE PRINT]"
+ },
+ "having-a-loop-excision-of-the-transformation-zone-lletz": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "286ca8b9c3c8e65f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a loop excision of the transformation zone (LLETZ)"
+ },
+ "having-a-loop-excision-of-the-transformation-zone-lletz-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "4fcd1fa66f856a85",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a loop excision of the transformation zone (LLETZ) [LARGE PRINT]"
+ },
+ "having-a-pacemaker": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "cb33a1ba850a4e99",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a pacemaker"
+ },
+ "having-a-pacemaker-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "7fac43788c2bacb2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a pacemaker [LARGE PRINT]"
+ },
+ "having-a-thoracoscopy": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "db67451dc4f67559",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a thoracoscopy"
+ },
+ "having-a-thoracoscopy-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "08af9d66f3ed4851",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a thoracoscopy [LARGE PRINT]"
+ },
+ "having-an-ecg-easy-read": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "05e94a9e3ebd91b1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having an ECG [Easy Read]"
+ },
+ "having-an-echocardiogram-easy-read": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b7b97a0ee5f329d2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having an electrocardiogram [Easy Read]"
+ },
+ "having-an-ercp": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "96dafd1c7817dd0c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Endoscopic retrograde cholangio-pancreatography (ERCP)"
+ },
+ "having-an-ercp-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "103cf1532f44c134",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Endoscopic retrograde cholangio-pancreatography (ERCP) [LARGE PRINT]"
+ },
+ "having-an-eus": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "35bb0a7117fb0f4a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Endoscopic ultrasound (EUS)"
+ },
+ "having-an-eus-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "826fcc22802d51d6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Endoscopic ultrasound (EUS) [LARGE PRINT]"
+ },
+ "having-an-intravenous-iron-infusion": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "a491fa30d67df72b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having an intravenous iron infusion (Basingstoke and North Hampshire Hospital)"
+ },
+ "having-an-intravenous-iron-infusion-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "9f1053eb4d43c870",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having an intravenous iron infusion (Basingstoke and North Hampshire Hospital) [LARGE PRINT]"
+ },
+ "having-an-mri-scan-for-hearing-loss-and-tinnitus": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "d03761253ecd370a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having an MRI scan for hearing loss and tinnitus"
+ },
+ "having-an-mri-scan-for-hearing-loss-and-tinnitus-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "e558e237f8148c8f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having an MRI scan for hearing loss and tinnitus [LARGE PRINT]"
+ },
+ "having-elective-planned-surgery-under-anaesthetic": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "5bba395f3d945c63",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having elective (planned) surgery under anaesthetic"
+ },
+ "having-elective-planned-surgery-under-anaesthetic-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b499a67a00c99657",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having elective (planned) surgery under anaesthetic [LARGE PRINT]"
+ },
+ "head-injury-discharge-advice-for-people-over-12-years": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "b6ac85e7320f174d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Head injury discharge advice for people over 12 years"
+ },
+ "head-injury-discharge-advice-for-people-over-12-years-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "64dad76232418137",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Head injury discharge advice for people over 12 years [LARGE PRINT]"
+ },
+ "health-and-wellbeing-directory-2021": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "0257757eed46b2ff",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Health and wellbeing directory"
+ },
+ "healthy-weight-management-for-children-from-five-years-of-age": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "fbbaa38020d76d96",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Healthy weight management for children from five years of age"
+ },
+ "healthy-weight-management-for-children-from-five-years-of-age-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "3fc9af1bcbd0c220",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Healthy weight management for children from five years of age [LARGE PRINT]"
+ },
+ "hearing-difficulties-when-a-hearing-test-is-normal": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "17e8c9d0f116dccb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hearing difficulties when a hearing test is normal"
+ },
+ "hearing-difficulties-when-a-hearing-test-is-normal-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "c4fdfcd7519a1d03",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hearing difficulties when a hearing test is normal [LARGE PRINT]"
+ },
+ "heart-clinic": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "7324d4d12c23de13",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Heart clinic"
+ },
+ "heart-clinic-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "5f70fb5f13966cf2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Heart clinic [LARGE PRINT]"
+ },
+ "heart-failure-action-plan": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "514cff816f72867f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Heart failure action plan"
+ },
+ "heart-failure-action-plan-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "24748e269cefd678",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Heart failure action plan [LARGE PRINT]"
+ },
+ "help-us-to-reduce-medicines-waste": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "d2f615b6f92956a0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Help us to reduce medicines waste"
+ },
+ "help-us-to-reduce-medicines-waste-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f456983a25b89247",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Help us to reduce medicines waste [LARGE PRINT]"
+ },
+ "hepatitis-b-in-pregnancy": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "5d51d46fd12a9f88",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hepatitis B in pregnancy"
+ },
+ "hepatitis-b-in-pregnancy-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "475128a60e3a3d8e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hepatitis B in pregnancy [LARGE PRINT]"
+ },
+ "hernia-repair": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f5e170296c2b5108",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hernia repair"
+ },
+ "hernia-repair-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "2fe6e80271da39c4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hernia repair [LARGE PRINT]"
+ },
+ "hhcs-outpatient-pharmacies": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "97ccda0a1a57bf89",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "HHCS outpatient pharmacies"
+ },
+ "how-to-apply-atropine-eye-drops-before-your-childs-glasses-test": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "2e595514c593c02f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Atropine eye drops before your child's glasses test"
+ },
+ "how-to-apply-atropine-eye-drops-before-your-childs-glasses-test-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "9058055a886ae676",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Atropine eye drops before your child's glasses test [LARGE PRINT]"
+ },
+ "how-to-apply-cyclopentolate-eye-drops-before-your-childs-glasses-test": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "407f99f857082414",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cyclopentolate eye drops before your child's glasses test"
+ },
+ "how-to-apply-cyclopentolate-eye-drops-before-your-childs-glasses-test-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "4d9fd62a6e3117a7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Cyclopentolate eye drops before your child's glasses test [LARGE PRINT]"
+ },
+ "just-in-case-medication": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "768f4ae86e536aa0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "'Just in case' (JIC) medication"
+ },
+ "just-in-case-medication-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "02bae98c7ab79265",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "'Just in case' (JIC) medication [LARGE PRINT]"
+ },
+ "lower-eyelid-entropion-and-ectropion-surgery": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f6ad4906c4622af3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Entropion and ectropion lower eyelid surgery (Winchester)"
+ },
+ "lower-eyelid-entropion-and-ectropion-surgery-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "44bb92877b2936a4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Entropion and ectropion lower eyelid surgery (Winchester) [LARGE PRINT]"
+ },
+ "non-weight-bearing-lower-limb-advice": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "a4e6bdec1f0f5069",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with being non-weight bearing after lower limb surgery"
+ },
+ "non-weight-bearing-lower-limb-advice-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "20579cdabcfd8f3c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Coping with being non-weight bearing after lower limb surgery [LARGE PRINT]"
+ },
+ "role-of-haematology-clinical-nurse-specialists-key-workers-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "a6a385df8bf1aab3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Haematology clinical nurse specialists [LARGE PRINT]"
+ },
+ "study-flyer-for-factor-v-leiden-or-prothrombin-mutation": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "eeb54123a5c27acb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Factor V and Prothrombin mutation study"
+ },
+ "your-circumcision-older-boys": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "3cb21d23a788627c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Circumcision (boys 12 to 17)"
+ },
+ "your-circumcision-older-boys-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "7419464db8ee4b85",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Circumcision (boys 12 to 17) [LARGE PRINT]"
+ },
+ "your-sons-circumcision-boys-under-12": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "f0cba7f3c2238a62",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Circumcision (boys 0 to 12)"
+ },
+ "your-sons-circumcision-boys-under-12-large-print": {
+  "checked": "2026-09-22T13:48:27+01:00",
+  "content_hash": "691ff3edc1d596b0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Circumcision (boys 0 to 12) [LARGE PRINT]"
+ }
+}

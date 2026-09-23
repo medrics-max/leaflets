@@ -462,6 +462,12 @@
     "page_url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=24759&media_type=10"
   },
   {
+    "title": "Candidozyma auris",
+    "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n33494",
+    "slug": "candidozyma-auris",
+    "page_url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=33494&media_type=10"
+  },
+  {
     "title": "Carbapenem Resistant Organisms",
     "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n6053",
     "slug": "carbapenem-resistant-organisms",
@@ -750,6 +756,12 @@
     "page_url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=24236&media_type=10"
   },
   {
+    "title": "Contact of Candidozyma auris",
+    "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n33495",
+    "slug": "contact-of-candidozyma-auris",
+    "page_url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=33495&media_type=10"
+  },
+  {
     "title": "Contact of Carbapenem Resistant Organisms (CRO)",
     "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n30994",
     "slug": "contact-of-carbapenem-resistant-organisms-cro",
@@ -1008,6 +1020,12 @@
     "page_url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=26837&media_type=10"
   },
   {
+    "title": "Eating and Drinking with Acknowledged Risks in the community",
+    "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n33493",
+    "slug": "eating-and-drinking-with-acknowledged-risks-in-the-community",
+    "page_url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=33493&media_type=10"
+  },
+  {
     "title": "Eating bread and sandwiches when you have dysphagia (swallowing difficulties",
     "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n23391",
     "slug": "eating-bread-and-sandwiches-when-you-have-dysphagia-swallowing-difficulties",
@@ -1086,6 +1104,12 @@
     "page_url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=766&media_type=10"
   },
   {
+    "title": "Exercise for Lymphoedema",
+    "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n33491",
+    "slug": "exercise-for-lymphoedema",
+    "page_url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=33491&media_type=10"
+  },
+  {
     "title": "Exercise Tolerance Test",
     "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n581",
     "slug": "exercise-tolerance-test",
@@ -1144,6 +1168,12 @@
     "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n5262",
     "slug": "first-seizure-child-young-person-up-to-16-years-old",
     "page_url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=5262&media_type=10"
+  },
+  {
+    "title": "First-Line Safer Swallowing Strategies for Care Homes: Managing eating, drinking and swallowing difficulties",
+    "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n33492",
+    "slug": "first-line-safer-swallowing-strategies-for-care-homes-managing-eating-drinking-and-swallowing-difficulties",
+    "page_url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=33492&media_type=10"
   },
   {
     "title": "First-Line Safer Swallowing Strategies: Managing eating, drinking and swallowing difficulties",
@@ -1536,12 +1566,6 @@
     "page_url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=21373&media_type=10"
   },
   {
-    "title": "Information leaflet for those at risk of lymphoedema",
-    "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n29990",
-    "slug": "information-leaflet-for-those-at-risk-of-lymphoedema",
-    "page_url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=29990&media_type=10"
-  },
-  {
     "title": "Injecting Subcutaneous Bortezomib at home",
     "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n11115",
     "slug": "injecting-subcutaneous-bortezomib-at-home",
@@ -1788,12 +1812,6 @@
     "page_url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=28025&media_type=10"
   },
   {
-    "title": "Multi-resistant gram negative bacteria (MRGNB)",
-    "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n734",
-    "slug": "multi-resistant-gram-negative-bacteria-mrgnb",
-    "page_url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=734&media_type=10"
-  },
-  {
     "title": "Multidisciplinary assessment of children with social communications difficulties (MDA)",
     "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n23724",
     "slug": "multidisciplinary-assessment-of-children-with-social-communications-difficulties-mda",
@@ -1870,12 +1888,6 @@
     "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n27254",
     "slug": "non-specific-serious-symptoms-pathway-information-for-patients-relatives-and-carers",
     "page_url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=27254&media_type=10"
-  },
-  {
-    "title": "Norovirus",
-    "url": "https://www.royalsurrey.nhs.uk/download.cfm?doc=docm93jijm4n6052",
-    "slug": "norovirus",
-    "page_url": "https://www.royalsurrey.nhs.uk/view-patient-leaflets?media_item=6052&media_type=10"
   },
   {
     "title": "Oncology Treatment Hotline",
