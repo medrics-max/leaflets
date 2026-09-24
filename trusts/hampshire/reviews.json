@@ -5641,6 +5641,118 @@
   "status": "no-date",
   "title": "Support for people with life-limiting illnesses [LARGE PRINT]"
  },
+ "support-with-your-medication-when-you-leave-hospital": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "4f2560ecabc4c524",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Support with your medication when you leave hospital"
+ },
+ "support-with-your-medication-when-you-leave-hospital-large-print": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "3dcd345e9c9c1cc3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Support with your medication when you leave hospital [LARGE PRINT]"
+ },
+ "supported-self-management": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "f2094cfad240bfd5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Supported self-management"
+ },
+ "supported-self-management-large-print": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "2d9e2e7022260835",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Supported self-management [LARGE PRINT]"
+ },
+ "surgery-for-severe-endometriosis": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "2153788ce5156ac7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Surgery for severe endometriosis"
+ },
+ "surgery-for-severe-endometriosis-large-print": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "53fbcc46e7f610de",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Surgery for severe endometriosis [LARGE PRINT]"
+ },
+ "surgery-to-repair-nasal-fractures": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "ccea9160f1f019d9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Surgery to repair nasal fractures"
+ },
+ "surgery-to-repair-nasal-fractures-large-print": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "9359625d8f296b19",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Surgery to repair nasal fractures [LARGE PRINT]"
+ },
+ "surgical-management-of-miscarriage-rcog": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "302110b916d83aa8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Surgical management of miscarriage"
+ },
+ "surgical-management-of-miscarriage-under-local-anaesthesia-large-print": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "547569e145d4fe1a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Surgical management of miscarriage under local anaesthesia (medical vacuum aspiration - MVA) [LARGE PRINT]"
+ },
+ "surgical-management-of-miscarriage-under-local-anaesthetic": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "b540ff3304ef57c0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Surgical management of miscarriage under local anaesthesia (medical vacuum aspiration - MVA)"
+ },
+ "suspected-broken-nose": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "29990e2c84ff9dc4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Suspected broken nose"
+ },
+ "suspected-broken-nose-large-print": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "dfcbe177d3bd8499",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Suspected broken nose [LARGE PRINT]"
+ },
+ "suspected-scaphoid-fracture": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "cc274a27e97c9e13",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Suspected scaphoid fracture"
+ },
+ "suspected-scaphoid-fracture-large-print": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "d8d2a257b9acea18",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Suspected scaphoid fracture [LARGE PRINT]"
+ },
+ "taking-your-child-home-after-sedation": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "dac0df2b338c0ee0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Taking your child home after sedation"
+ },
  "the-role-of-the-palliative-care-team": {
   "checked": "2026-09-23T03:07:45+01:00",
   "content_hash": "19c13e9a7bd6773f",

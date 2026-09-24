@@ -1528,8 +1528,9 @@
   "title": "Discharge advice following an ERCP procedure"
  },
  "discharge-advice-following-gastroscopy-sedation": {
-  "checked": "2026-08-19T02:31:45+01:00",
-  "content_hash": "c9b9555972b3d6b5",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "bd5047df10930036",
+  "hash_version": 2,
   "ref": "GHPI1586_04_26",
   "review_due": "2029-04",
   "review_due_text": "April 2029",
@@ -2605,8 +2606,9 @@
   "title": "H ow to take your bowel preparation for a standard morning appointment"
  },
  "haematology-clinics": {
-  "checked": "2026-08-19T02:31:45+01:00",
-  "content_hash": "e1ee9a6e46e56a99",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "a7f2abde63171586",
+  "hash_version": 2,
   "ref": "GHPI0135_03_25",
   "review_due": "2028-03",
   "review_due_text": "March 2028",
@@ -2614,8 +2616,9 @@
   "title": "Haematology Clinics"
  },
  "hair-care-for-eczema-of-the-scalp": {
-  "checked": "2026-08-19T02:31:45+01:00",
-  "content_hash": "f4eef32c3628dbaf",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "3216194c96e2ea8a",
+  "hash_version": 2,
   "ref": "GHPI1846_02_25",
   "review_due": "2028-02",
   "review_due_text": "February 2028",
@@ -2623,8 +2626,9 @@
   "title": "Hair care for eczema of the scalp"
  },
  "handling-and-care-rgp-contact-lenses-ghpi0588": {
-  "checked": "2026-08-19T02:31:45+01:00",
-  "content_hash": "7735e9117574fce9",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "e34b2753f8febea9",
+  "hash_version": 2,
   "ref": "GHPI0588_11_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -2632,8 +2636,9 @@
   "title": "Handling and care of RGP contact lenses"
  },
  "handling-and-care-scleral-contact-lenses-ghpi0587": {
-  "checked": "2026-08-19T02:31:45+01:00",
-  "content_hash": "60e54dcfaba09cff",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "ebcb22bd8e3e04f8",
+  "hash_version": 2,
   "ref": "GHPI0587_11_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -2641,17 +2646,23 @@
   "title": "Handling and care of scleral contact lenses"
  },
  "handling-and-care-soft-contact-lenses-ghpi0589": {
-  "checked": "2026-08-19T02:31:45+01:00",
-  "content_hash": "b62b54e6beb5b318",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "0971fc2e70f8b00d",
+  "hash_version": 2,
   "ref": "GHPI0589_11_23",
+  "ref_candidates": [
+   "GHPI0589_11_23",
+   "GHPI0589_12_23"
+  ],
   "review_due": "2026-12",
   "review_due_text": "December 2026",
-  "status": "ok",
+  "status": "ambiguous-ref",
   "title": "Handling and care of soft contact lenses"
  },
  "having-a-bladder-and-bowel-assessment": {
-  "checked": "2026-08-19T02:31:45+01:00",
-  "content_hash": "2c426d782d6ba36b",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "2995f90a89e503c0",
+  "hash_version": 2,
   "ref": "GHPI0530_10_25",
   "review_due": "2028-10",
   "review_due_text": "October 2028",
@@ -2659,8 +2670,9 @@
   "title": "Having a bladder and bowel assessment"
  },
  "having-a-brother-or-sister-in-the-neonatal-unit-nnu-ghpi1628": {
-  "checked": "2026-08-19T02:31:45+01:00",
-  "content_hash": "6d200adc20673a8f",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "d2c99a4006ba6442",
+  "hash_version": 2,
   "ref": "GHPI1628_11_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -2668,8 +2680,9 @@
   "title": "Having a brother or sister in the Neonatal Unit (NNU)"
  },
  "having-a-colonoscopy-as-an-inpatient": {
-  "checked": "2026-08-19T02:31:45+01:00",
-  "content_hash": "91efaf5104ab1795",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "e9fb75af4db64716",
+  "hash_version": 2,
   "ref": "GHPI1719_11_25",
   "review_due": "2028-11",
   "review_due_text": "November 2028",
@@ -2677,24 +2690,27 @@
   "title": "Having a colonoscopy as an inpatient"
  },
  "having-a-ct-ablation-easy-read": {
-  "checked": "2026-08-19T02:31:45+01:00",
-  "content_hash": "eb13f2e05dfbd1ed",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "bd60dab9bf3bbd9f",
+  "hash_version": 2,
   "review_due": "2026-09",
   "review_due_text": "September 2026",
   "status": "ok",
   "title": "Having a CT ablation (easy read)"
  },
  "having-a-ct-scan-of-your-bowel-easy-read": {
-  "checked": "2026-08-19T02:31:45+01:00",
-  "content_hash": "1f4f9edbc44d380a",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "9ce30ff6dc1c9418",
+  "hash_version": 2,
   "review_due": "2029-06",
   "review_due_text": "June 2029",
   "status": "ok",
   "title": "Having a CT scan of your bowel (easy read)"
  },
  "having-a-diagnostic-gastroscopy-as-an-outpatient": {
-  "checked": "2026-08-19T02:31:45+01:00",
-  "content_hash": "0ccd8ee88115cab3",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "14c8d7dc748af1bf",
+  "hash_version": 2,
   "ref": "GHPI1081_11_23",
   "review_due": "2026-12",
   "review_due_text": "December 2026",
@@ -2811,8 +2827,9 @@
   "title": "Having an angiogram or angioplasty"
  },
  "having-bone-densitometry-scan-adults": {
-  "checked": "2026-08-19T02:31:45+01:00",
-  "content_hash": "2d8b3438a4e4bae7",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "d48d1487119d91a9",
+  "hash_version": 2,
   "ref": "GHPI0616_04_24",
   "review_due": "2027-04",
   "review_due_text": "April 2027",

@@ -1714,6 +1714,118 @@
   "status": "no-date",
   "title": "Flat head syndrome in babies"
  },
+ "flexible-cystoscopy-botox": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "fa8a71bc47fbb276",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Flexible cystoscopy (including bladder Botox injections)"
+ },
+ "flexible-cystoscopy-stent": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "535ef650e9efbad6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Flexible cystoscopy (including removal of ureteric stent and biopsy, if required)"
+ },
+ "flexible-sigmoidoscopy": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "a65a00471d08bfe0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Flexible sigmoidoscopy"
+ },
+ "flexible-sigmoidoscopy-follow-up": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "a5a655e51e6ac4a3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Flexible sigmoidoscopy: follow-up"
+ },
+ "flexible-sigmoidoscopy-sedation-follow-up": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "498391c7571b0b75",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Flexible sigmoidoscopy with sedation: follow-up"
+ },
+ "flexible-sigmoidoscopy-test-easy-read": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "4b15a4f6786f6580",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Flexible sigmoidoscopy test (Easy Read)"
+ },
+ "flow-and-residual-volumes-scan": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "5029c35cc2c74fa0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Flow and residual volumes scan"
+ },
+ "fluoroscopy-guided-peripheral-artery-angioplasty-take-home-information": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "644611fc6c4f16a6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fluoroscopy-guided peripheral artery angioplasty: take-home information"
+ },
+ "food-and-nutrition": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "e557e4833dc394e9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Food and nutrition"
+ },
+ "food-challenges": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "ac934da0bba459fd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Food challenges"
+ },
+ "food-diary-and-questionnaire-children": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "9617625334c378f0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Food diary and questionnaire (children)"
+ },
+ "forceps-ventouse-birth-postnatal-care": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "a6a437f2df771721",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Forceps or ventouse (suction cup) birth: postnatal care"
+ },
+ "fortified-food-swaps": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "9c3969dc136faa76",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fortified food swaps"
+ },
+ "fracture-liaison-service": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "e7ae98eef5a5b7cb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fracture Liaison Service (FLS)"
+ },
+ "fragmin-instructions": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "831533bb34e39aac",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Fragmin instructions"
+ },
+ "freedom-information-and-access-records": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "e09cd1bbf34ebbeb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Freedom of Information"
+ },
  "gloves": {
   "checked": "2026-09-13T02:43:15+01:00",
   "content_hash": "9a2f63a3a96b79de",

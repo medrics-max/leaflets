@@ -2134,5 +2134,140 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Ranibizumab (Ongavia) for Age-Related Macular Degeneration (ARMD)"
+ },
+ "ranibizumab-ongavia-for-diabetic-macular-oedema-dmo": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "d37083351192024d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ranibizumab (Ongavia) for Diabetic Macular Oedema (DMO)"
+ },
+ "ranibizumab-ongavia-for-retinal-vein-occlusion-rvo": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "bf28f36288b46b99",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ranibizumab (Ongavia) for Retinal Vein Occlusion (RVO)"
+ },
+ "ranibizumab-ongavia-treatment-for-pathological-myopia-pm": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "945a5330ffa849ff",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ranibizumab (Ongavia) Treatment for Pathological Myopia (PM)"
+ },
+ "rapid-access-haematuria-clinic-flexible-cystoscopy": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "7acf75f4c23f93ab",
+  "hash_version": 2,
+  "review_due": "2027-11",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Rapid access haematuria clinic – flexible cystoscopy"
+ },
+ "receiving-intravenous-antibiotics-in-the-community": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "ff8d26e0cb0fc4fe",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Receiving intravenous antibiotics in the community"
+ },
+ "receiving-intravenous-iron-at-russells-hall-hospital": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "a84c605df4b9210c",
+  "hash_version": 2,
+  "review_due": "2029-07",
+  "review_due_text": "July 2029",
+  "status": "ok",
+  "title": "Receiving Intravenous Iron at Russell’s Hall Hospital"
+ },
+ "reducing-the-risk-of-blood-clots-in-pregnancy-and-after-giving-birth": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "5bddda1d4deec6d9",
+  "hash_version": 2,
+  "review_due": "2029-05",
+  "review_due_text": "May 2029",
+  "status": "ok",
+  "title": "Reducing the Risk of Blood Clots in Pregnancy and After Giving Birth"
+ },
+ "remifentanil-pca-for-women-in-labour-who-cannot-have-an-epidural": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "ac2dff2c0222fc84",
+  "hash_version": 2,
+  "review_due": "2027-11",
+  "review_due_date": "2027-11-05",
+  "review_due_text": "November 2027",
+  "status": "ok",
+  "title": "Remifentanil PCA for women in labour who cannot have an epidural"
+ },
+ "removal-of-a-ganglion": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "710013b5206b1fab",
+  "hash_version": 2,
+  "review_due": "2029-01",
+  "review_due_text": "January 2029",
+  "status": "ok",
+  "title": "Removal of a ganglion"
+ },
+ "renal-artery-denervation-rdn": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "8e76a6f9a90275e5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Renal artery denervation (RDN)"
+ },
+ "respiratory-assessment-unit": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "aa115a9c9c4e9906",
+  "hash_version": 2,
+  "review_due": "2029-09",
+  "review_due_text": "September 2029",
+  "status": "ok",
+  "title": "Respiratory Assessment Unit"
+ },
+ "results-and-advice-after-bowel-cancer-screening-colonoscopy": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "e6bf74eb0656658e",
+  "hash_version": 2,
+  "review_due": "2029-09",
+  "review_due_text": "September 2029",
+  "status": "ok",
+  "title": "Results and advice after bowel cancer screening colonoscopy"
+ },
+ "rotator-cuff-tears": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "771f4988d84e4b30",
+  "hash_version": 2,
+  "review_due": "2028-09",
+  "review_due_text": "September 2028",
+  "status": "ok",
+  "title": "Rotator cuff tears"
+ },
+ "sacroiliac-joint-injections": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "1661582513bbeb87",
+  "hash_version": 2,
+  "review_due": "2026-10",
+  "review_due_text": "October 2026",
+  "status": "ok",
+  "title": "Sacroiliac joint injections"
+ },
+ "saline-bubble-contrast-echocardiogram": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "2d3b15c797fcd51a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Saline Bubble / Contrast Echocardiogram"
+ },
+ "self-administration-of-insulin-in-community": {
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "596ae275bc273e71",
+  "hash_version": 2,
+  "review_due": "2026-09",
+  "review_due_text": "September 2026",
+  "status": "ok",
+  "title": "Self-administration of insulin in community"
  }
 }

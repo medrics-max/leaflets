@@ -374,8 +374,9 @@
   "title": "Information for inpatients"
  },
  "Lung-Perfusion-scan": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "9a5bf1cecee67cef",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "ac790cfb809ba6ec",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Nuclear Medicine: Lung Perfusion Scan"
  },
@@ -457,20 +458,23 @@
   "title": "Maternity: Vitamin K for new born babies"
  },
  "Meckels-Scan": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "f27b7be92b4829d2",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "a15f7f2acd5cf3d0",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Nuclear Medicine: Meckel’s Scan"
  },
  "Octreotide-Tektrotyd-Scan": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "b1477902fd38f934",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "d7a25776eafccdf0",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Nuclear Medicine: Octreotide/Tektrotyd Scan"
  },
  "Ophthalmology-Dilating-eye-drops-for-children": {
-  "checked": "2026-08-19T02:31:45+01:00",
-  "content_hash": "64f70f7ee0d877c1",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "efac229e10cb3ca4",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Ophthalmology: Dilating eye drops for children"
  },
@@ -529,8 +533,9 @@
   "title": "Palliative Care: Buprenorphine Patches"
  },
  "Parathyroid-Scan": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "52f5dedf89e83353",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "e58f1ed765125dea",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Nuclear Medicine: Parathyroid Scan"
  },
@@ -613,8 +618,9 @@
   "title": "Radiology: Obstetric Ultrasound Scan Rooms - Children"
  },
  "Renogram-Renal-Scan": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "6f03d81533c4dfbf",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "326552bd2870a561",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Nuclear Medicine: Renogram (Renal Scan)"
  },
@@ -632,14 +638,16 @@
   "title": "Safeguarding: Deprivation of Liberty Safeguards (DoLS)"
  },
  "SeHCAT-Scan": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "b5c8d68f31c31026",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "378d50d3c36794dc",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Nuclear Medicine: SeHCAT Scan"
  },
  "Sentinel-Node-Localisation": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "017f8943c0d5c69f",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "891498dc3e1c172b",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Nuclear Medicine: Sentinel Node Localisation"
  },
@@ -740,8 +748,9 @@
   "title": "Acquired Brain Injury: The Service"
  },
  "acute-oncology-service": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "5599f52ed312684a",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "4ed9f756b135cd1f",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Oncology: Acute Oncology Service (AOS)"
  },
@@ -1621,20 +1630,23 @@
   "title": "Respiratory: Non-Invasive Ventilation (NIV)"
  },
  "ophthalmology-contact-lens-service": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "f265567e0353d33c",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "972708680c6f4b7a",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Ophthalmology: Contact lens service"
  },
  "ophthalmology-contact-lenses-keratoconus": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "0b562993c5e833a4",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "c976eaec947e5998",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Ophthalmology: Contact Lenses for Keratoconus"
  },
  "ophthalmology-corneal-cross-linking": {
-  "checked": "2026-08-19T02:31:45+01:00",
-  "content_hash": "9b3eb359a4ea3d37",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "3dab5c5871ca6137",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Ophthalmology: Corneal cross-linking"
  },
@@ -1651,8 +1663,9 @@
   "title": "Ophthalmology: Spectacles for children"
  },
  "ophthalmology-who-eligible-contact-lenses-cumberland-infirmary": {
-  "checked": "2026-08-18T02:34:06+01:00",
-  "content_hash": "f6554df2de07a877",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "babad08f4426c90d",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Ophthalmology: Contact lenses"
  },

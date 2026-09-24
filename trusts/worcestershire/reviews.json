@@ -3295,74 +3295,86 @@
   "title": "Paediatric Diabetes- Dietary advice for children and young people with diabetes: Household Measures"
  },
  "paediatric-diabetes-dietary-management-of-snacks": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "cbc11947395a549a",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "e5b292396de5bc35",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Dietary management snacks"
  },
  "paediatric-diabetes-disability-living-allowance": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "34857e6e2595c203",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "c8e9e87a64e9329b",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Disability Living Allowance"
  },
  "paediatric-diabetes-disposal-of-sharps": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "a2d4474decc6d786",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "b1fd58de68b7f0a8",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Disposal of Sharps"
  },
  "paediatric-diabetes-driving": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "39eea38b8014fab1",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "5be977bda8fa81ea",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Driving"
  },
  "paediatric-diabetes-exams-and-stress": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "16c67d219fb7f9e9",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "4715ad90da5a6305",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Exams and Stress"
  },
  "paediatric-diabetes-flu-vaccine": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "7a27e59ccd057153",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "71e05a5ad3ad7e87",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Flu Vaccine"
  },
  "paediatric-diabetes-footcare": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "6082561d2349bef1",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "d4418bb891923993",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Footcare"
  },
  "paediatric-diabetes-healthy-eating": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "f5ae01fbb4bff52a",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "e9700287916c6b5a",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Healthy Eating"
  },
  "paediatric-diabetes-how-i-look-after-my-diabetes-at-school": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "d49d53af7abca596",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "6ccd09f5667d68c8",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – How I Look After my Diabetes at School"
  },
  "paediatric-diabetes-illness-and-diabetes-using-insulin-pump-therapy": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "4e0fb67f80cd93d3",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "dbde09e412f7cf2b",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Illness and Diabetes using Pump Therapy"
  },
  "paediatric-diabetes-illness-and-diabetes-using-multiple-daily-insulin-injections": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "b7eccd5c15f8259c",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "b20a99778901ac37",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Illness and Diabetes using Multiple Daily Insulin Injections"
  },
  "paediatric-diabetes-insulin-injections": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "b3c4ce1a8c5fcb01",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "75ff33c5041f422c",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Insulin Injections"
  },
@@ -3469,8 +3481,9 @@
   "title": "Paediatric suction (Yankeur/soft catheter- OP or NP)"
  },
  "paediatrics-diabetes-hba1c": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "372f8cb57016879d",
+  "checked": "2026-09-24T02:33:08+01:00",
+  "content_hash": "7756aa20625ebeef",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – HbA1c"
  },
