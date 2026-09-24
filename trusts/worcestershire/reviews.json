@@ -3289,8 +3289,9 @@
   "title": "Paediatric Diabetes -Dietary advice for children and young people with diabetes: Carbohydrate Estimation"
  },
  "paediatric-diabetes-dietary-advice-household-measures": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "2a47e1dfd7938d9c",
+  "checked": "2026-09-24T04:40:45+01:00",
+  "content_hash": "5e86d9aaf3355878",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes- Dietary advice for children and young people with diabetes: Household Measures"
  },
@@ -3379,86 +3380,100 @@
   "title": "Paediatric Diabetes – Insulin Injections"
  },
  "paediatric-diabetes-insulin-pump-therapy-systems": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "2ca9c1c499454256",
+  "checked": "2026-09-24T04:40:45+01:00",
+  "content_hash": "db8c7eb4b7ea0005",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Insulin Pump Therapy Systems"
  },
  "paediatric-diabetes-leaving-home": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "716caddf8e14e957",
+  "checked": "2026-09-24T04:40:45+01:00",
+  "content_hash": "0340fb7c5c72be96",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Leaving Home"
  },
  "paediatric-diabetes-medtronic-780g-pump": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "01ec41e21bcbaecc",
+  "checked": "2026-09-24T04:40:45+01:00",
+  "content_hash": "b5aed53e0d40c3e1",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Medtronic 780G Pump"
  },
  "paediatric-diabetes-moving-up-to-adult-service-redditch-and-bromsgrove": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "4bc04af66a048ab6",
+  "checked": "2026-09-24T04:40:45+01:00",
+  "content_hash": "4f378ff2afa2d29e",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Moving up to Adult Service -Redditch and Bromsgrove"
  },
  "paediatric-diabetes-smoking-and-diabetes": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "e0f3c469d1506ed8",
+  "checked": "2026-09-24T04:40:45+01:00",
+  "content_hash": "34fd0487afeef9e4",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Smoking and Diabetes"
  },
  "paediatric-diabetes-tandem-tslim-pump": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "2c420d4e52ee224d",
+  "checked": "2026-09-24T04:40:45+01:00",
+  "content_hash": "6473d26a84ecbc78",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Tandem t:slim pump"
  },
  "paediatric-diabetes-travel-advice": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "67c7ec46c517d558",
+  "checked": "2026-09-24T04:40:45+01:00",
+  "content_hash": "091a69b1c8e2bea0",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Travel Advice"
  },
  "paediatric-diabetes-wearing-identification": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "a0089ea39303e91f",
+  "checked": "2026-09-24T04:40:45+01:00",
+  "content_hash": "31ad66e9d0a36572",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Wearing identification"
  },
  "paediatric-diabetes-what-happens-on-clinic-days": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "68795470f0e2ec98",
+  "checked": "2026-09-24T04:40:45+01:00",
+  "content_hash": "e1e791df4e2e3a1f",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – What happens on Clinic Days"
  },
  "paediatric-diabetes-what-is-type-1-diabetes": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "d3285d55eabeb48d",
+  "checked": "2026-09-24T04:40:45+01:00",
+  "content_hash": "59131aed96f66c5d",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – What is Type 1 Diabetes?"
  },
  "paediatric-diabetes-worcestershire-diabetes-service-moving-up-to-adult-service": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "eeacbf1ad32dba7c",
+  "checked": "2026-09-24T04:40:45+01:00",
+  "content_hash": "3aa34ddae5f5fcb3",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Worcestershire Diabetes Service – Moving Up to Adult Service (Worcester)"
  },
  "paediatric-diabetes-worcestershire-diabetes-service-moving-up-to-adult-service-wyre-forest": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "192fc331ba8b1ce4",
+  "checked": "2026-09-24T04:40:45+01:00",
+  "content_hash": "f611c89d428b79ba",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Worcestershire Diabetes Service – Moving Up to Adult Service (Wyre Forest)"
  },
  "paediatric-diabetes-working-together-for-the-best-outcomesmanaging-disagreements-or-conflict": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "ad69161455d9ea50",
+  "checked": "2026-09-24T04:40:45+01:00",
+  "content_hash": "609dfa2d5b1d74f7",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Working together for the best outcomes: Managing disagreements or conflict"
  },
  "paediatric-diabetes-ypsomed-mylife-camaps-pump": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "f87849d349f8f037",
+  "checked": "2026-09-24T04:40:45+01:00",
+  "content_hash": "8bf68791c42109a8",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Ypsomed MyLife CamAPS pump"
  },
@@ -3488,14 +3503,16 @@
   "title": "Paediatric Diabetes – HbA1c"
  },
  "paediatrics-diabetes-receiving-a-good-service-from-your-paediatric-diabetes-team": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "70ec02ec154ad590",
+  "checked": "2026-09-24T04:40:45+01:00",
+  "content_hash": "a7a222deaa7fb319",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Receiving a Good Service from your Paediatric Diabetes Team"
  },
  "paediatrics-diabetes-sick-day-rules-omnipod-5-pump": {
-  "checked": "2026-08-25T02:31:17+01:00",
-  "content_hash": "3b4dc8c3eb375af0",
+  "checked": "2026-09-24T04:40:45+01:00",
+  "content_hash": "2b75eb910a25d58c",
+  "hash_version": 2,
   "status": "no-date",
   "title": "Paediatric Diabetes – Sick Day Rules – Omnipod 5 pump"
  },

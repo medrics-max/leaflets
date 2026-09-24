@@ -6,6 +6,20 @@
   "status": "no-date",
   "title": "Arm Splinting Clinic for patients with neurological conditions"
  },
+ "100041awareness": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "021e54c9a32aad83",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pelvic Floor Awareness for Psychosexual Therapy - Information for women"
+ },
+ "100042awareness": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "eb6436b648423fbd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pelvic Floor Awareness for Psychosexual Therapy - Information for men"
+ },
  "100098advice": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "19fc28b636734354",
@@ -48,6 +62,27 @@
   "status": "no-date",
   "title": "Barium Meal Examination"
  },
+ "100211ct": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "13c7a9e21a93f0e0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Paediatric CT Scanning"
+ },
+ "100216hifu": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "79eb9a8d487c0549",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "High Intensity Focused Ultrasound for Uterine Fibroids"
+ },
+ "100364levonorgestrel": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "7d6994069e530804",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Levonorgestrel Intrauterine System (LNG-IUS or Hormonal Coil)"
+ },
  "100367iud": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "bcc7d7e45a9fef7b",
@@ -55,12 +90,33 @@
   "status": "no-date",
   "title": "Copper Intrauterine Device (Copper IUD)"
  },
+ "100389laser": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "cfc849a30446262f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laser Treatment for Birthmarks"
+ },
+ "100478fibroscan": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "c05707001041e30c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a Fibroscan"
+ },
  "100784care": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "7094e9b8f81c8ded",
   "hash_version": 2,
   "status": "no-date",
   "title": "Crisis Assessment Response (CARe) Team"
+ },
+ "100785testing": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "a966197d59bb1c0f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information for Patients Considering INR Self-Testing"
  },
  "100814pancreatoduodenectomy-diary": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -76,12 +132,26 @@
   "status": "no-date",
   "title": "Enhanced Recovery After Surgery (ERAS) - Pancreatoduodenectomy (Whipple's procedure)"
  },
+ "100917lumbar": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "57877a57a76d4d92",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lumbar Puncture"
+ },
  "101055psychology": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "1e7f6a07251d9dff",
   "hash_version": 2,
   "status": "no-date",
   "title": "Accessing Clinical Psychology - Information for patients with Thrombotic Thrombocytopenic Purpura (TTP)"
+ },
+ "101070mgus": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "051afaab260c4965",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "MGUS: When to Contact Your Nurse Specialist"
  },
  "101110ed": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -104,6 +174,13 @@
   "status": "no-date",
   "title": "ERCP: Discharge advice after your ERCP"
  },
+ "101333advice": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d84587289a526e09",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gastroscopy: Discharge Advice After Your Gastroscopy"
+ },
  "101334advice": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "a3f4682e8ea57de5",
@@ -111,12 +188,54 @@
   "status": "no-date",
   "title": "Discharge advice after your gastroscopy and colonoscopy"
  },
+ "101514mgus": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "eb59e4458834951b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "MGUS: Information for low risk patients"
+ },
+ "101623oramorph": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "eb58f65b907d3eed",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oramorph 10mg/5ml Oral Solution"
+ },
+ "101624lorazepam": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b69dca490732c54f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lorazepam (Oxford COPD Service)"
+ },
+ "101891cadd": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "037a4036b1f37cf2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Going Home with a CADD Pump"
+ },
  "101927bronchiectasis": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "e05bda9c9da7abe6",
   "hash_version": 2,
   "status": "no-date",
   "title": "Bronchiectasis"
+ },
+ "101965ventilation": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "7e7d8cddbae828c7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Humidification and Non-Invasive Ventilation"
+ },
+ "101966niv": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e29d67161170eeb8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Non-Invasive Ventilation (NIV): Information for Cystic Fibrosis and Bronchiectasis patients"
  },
  "101967drain": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -131,6 +250,20 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Fatigue Management (for people with neurological conditions)"
+ },
+ "102178skin": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "8344f8a3ed5c2def",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Looking after your skin when you are taking immunosuppressants"
+ },
+ "102192pci": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "54e38bfb11ba2acd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Percutaneous Coronary Intervention (PCI)"
  },
  "102356reactions": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -160,6 +293,20 @@
   "status": "no-date",
   "title": "Catheter ablation for typical right atrial flutter"
  },
+ "102369patch": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e0aab19a7b04a21c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patch Testing"
+ },
+ "102419coil": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "974b36179225b850",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a Contraceptive Coil Fitted at the Time of Caesarean Section"
+ },
  "102483angiogram": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "99ea9ee18fd9f61b",
@@ -174,6 +321,13 @@
   "status": "no-date",
   "title": "Femoral Angiogram"
  },
+ "102489ivc": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "04f81fe3bcf54374",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Inserting or Removing an Inferior Vena Cava Filter"
+ },
  "102495drainage": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "7fbe09c3d39f981b",
@@ -187,6 +341,13 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Colonic stent"
+ },
+ "102587team": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ffa94970f3bd556c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information for Patients About the Head and Neck Team"
  },
  "102691autosomal": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -209,12 +370,61 @@
   "status": "no-date",
   "title": "Chronic Kidney Disease - Mineral Bone Disorder (CKD-MBD)"
  },
+ "102694access": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ba05ea00d769d820",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Haemodialysis: Access for haemodialysis Part 1 - Preparing for haemodialysis and forming your new dialysis fistula/graft"
+ },
+ "102695haemodialysis3": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "9a1287dde6c21294",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Haemodialysis: Access for Haemodialysis Part 3"
+ },
  "102696ckd": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "a6f2db8baed7d1e4",
   "hash_version": 2,
   "status": "no-date",
   "title": "Chronic Kidney Disease"
+ },
+ "102759kidney": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "4bb57fe45936f8b0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Kidney: Conservative Kidney Management - Information for people with chronic kidney disease"
+ },
+ "102777hycosy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ec64fa1f7cf7d796",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "HyCoSy"
+ },
+ "102778biopsy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ef0f9afcd3783c63",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pipelle Biopsy"
+ },
+ "102779induction": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "7be9eaab0b9a2eff",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ovulation Induction"
+ },
+ "102781early": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "3f5dc64fd215f85b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information for Women with a Problem in Early Pregnancy"
  },
  "102941dissection": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -230,6 +440,13 @@
   "status": "no-date",
   "title": "Buccinator Flap Operation"
  },
+ "102961posterior": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b88f2003d8a1d29d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Posterior Distraction"
+ },
  "102962craniofacial": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "e71f551410691802",
@@ -244,12 +461,54 @@
   "status": "no-date",
   "title": "Children's - Circumcision"
  },
+ "103240repair": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "9b4ae9c6ec13d3fe",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Inguinal Hernia Repair"
+ },
  "103241dentistry": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "480dfd688e4629f8",
   "hash_version": 2,
   "status": "no-date",
   "title": "Dental Surgery: Community dentistry - Information for parents and carers"
+ },
+ "103395parathyroidectomy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "469515f9118774a0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Parathyroidectomy - An operation to remove overactive parathyroid glands: Information for people with CKD"
+ },
+ "103397repair": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "3484c62789f965d5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hernia repair - Information for people with chronic kidney disease or a transplant"
+ },
+ "103398unit": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "758ae3d6e7b80886",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Getting to and from your Haemodialysis Unit"
+ },
+ "103409healthy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "dd1820ad3335f094",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Maintaining a Healthy Bowel When on Peritoneal Dialysis (PD)"
+ },
+ "103410options": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "38f71f1f7581a222",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Kidney treatment options for people who are going to need dialysis soon"
  },
  "103414cinacalcet": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -272,6 +531,13 @@
   "status": "no-date",
   "title": "Cyclophosphamide Treatment in the Oxford Kidney Unit"
  },
+ "103422advisor": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "72d76c6baf06a3b8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Kidney: Living With Kidney Failure - the Kidney Patient Advisor"
+ },
  "103431analgesia": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "03bde23ffa094224",
@@ -279,12 +545,40 @@
   "status": "no-date",
   "title": "Children’s: Nurse Controlled Analgesia (NGA)"
  },
+ "103458laser": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "8b19a573f372b6e5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laser Treatment for Anal Fistula"
+ },
+ "103459laser": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "110194a289e0969f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laser Treatment for Haemorrhoids"
+ },
+ "103503pain": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ddfe06f9fcabd7ed",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pelvic girdle pain"
+ },
  "103578biopsy": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "e3b68970f6420f5a",
   "hash_version": 2,
   "status": "no-date",
   "title": "CT Guided Chest Biopsy"
+ },
+ "103608zinc": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d4e4ff81b380ea19",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oral Zinc for Warts"
  },
  "103610baths": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -306,6 +600,34 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Food Allergies and Eczema"
+ },
+ "103615daylight": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e7362d1649840963",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Natural Daylight Photodynamic Therapy (ND-PTD)"
+ },
+ "103645iron": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "294777986f937624",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Iron Deficiency Anaemia in Pregnancy"
+ },
+ "103766lithotripsy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "dd15028ac490e5aa",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lithotripsy (Extracorporeal Shock Wave Lithotripsy)"
+ },
+ "103841pregnancy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "5b6e725ee1e480db",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information About Pregnancy for Haemophilia Carriers"
  },
  "103939cup": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -356,6 +678,13 @@
   "status": "no-date",
   "title": "Early Pregnancy Assessment Unit (EPAU): Information for women experiencing problems in the first 16 weeks of pregnancy"
  },
+ "104055hyperemesis": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ddc36ea656c97add",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hyperemesis Gravidarum advice for women in early pregnancy"
+ },
  "104072cryoneurolysis": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "a7cd02cdff961c72",
@@ -369,6 +698,34 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Diagnostic Nerve Blocks for Spasticity"
+ },
+ "104117urgent": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "61fd935167d352f4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Head and Neck Urgent Suspected Cancer Referral: Possible Investigations"
+ },
+ "104176cheese": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "564ac2da111232b8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Phosphate and salt content of cheese - Information for people with kidney disease"
+ },
+ "104184phosphate": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "a368d72d05a41650",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Phosphate additives"
+ },
+ "104185pd": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "afc8d078bb6fe922",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "My Peritoneal Dialysis (PD) Therapy Guide - Information for people starting PD"
  },
  "104192pifu": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -391,12 +748,40 @@
   "status": "no-date",
   "title": "A Guide to Finger-Feeding"
  },
+ "104269migraine": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "70e53ad7f8771ba5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Migraine in Pregnancy"
+ },
+ "104283thrombophlebitis": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "6f5492da2aafac0f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information for Patients with Superficial Thrombophlebitis (also known as Superficial Venous Thrombosis)"
+ },
  "104284warfarin": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "4277f56a3564c3fe",
   "hash_version": 2,
   "status": "no-date",
   "title": "Atrial Fibrillation and Warfarin"
+ },
+ "104305mesothelioma": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "7fbd6a149b349eef",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lung Cancer: Oxford Lung Cancer and Mesothelioma Multi-Disciplinary Team (MDT)"
+ },
+ "104349feeding": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "3f366d5ad96d3726",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nasogastric tube feeding at home"
  },
  "104350reactions": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -405,6 +790,27 @@
   "status": "no-date",
   "title": "Common reactions to traumatic events: information for families during a child's hospital admission"
  },
+ "104351dots": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "457666719ae3220a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Neonatal Discharge and Outreach Team Service (DOTS)"
+ },
+ "104419hypothyroidism": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "717a0f456d444272",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hypothyroidism and Pregnancy"
+ },
+ "104448itp": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "8b148822d43a8236",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Immune Thrombocytopenic Purpura (ITP) in Pregnancy"
+ },
  "104453journey": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "b578dac72a0e8413",
@@ -412,12 +818,40 @@
   "status": "no-date",
   "title": "Admission to Discharge - Helping your child's journey through hospital"
  },
+ "104498pilonidal": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "bc31c277b245b44f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pilonidal Disease"
+ },
  "104566rehabilitation": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "e71114473697686e",
   "hash_version": 2,
   "status": "no-date",
   "title": "Amputee Rehabilitation Service"
+ },
+ "104647pwb": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "83fe82a86fcbba9b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Personal Wheelchair Budgets"
+ },
+ "104654physiotherapy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d189fa488172f45b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Physiotherapy exercises and advice following axillary dissection surgery"
+ },
+ "104655exercises": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "08e90b34a6c6731e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Physiotherapy Exercises and Advice Following Groin Dissection Surgery"
  },
  "104657betamethasone": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -432,6 +866,13 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Fluticasone 400 micrograms nasule"
+ },
+ "104726sarcoma": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "9b457bbffbba3b71",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oxford Sarcoma Service"
  },
  "104745treatment": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -454,6 +895,13 @@
   "status": "no-date",
   "title": "Advice about Antifungals"
  },
+ "104904obinutuzumab": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "29bf3f8060244beb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Obinutuzumab - Information for patients with Thrombotic Thrombocytopenic Purpura (TTP)"
+ },
  "105003fortifier": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "351e22558bcaa7b5",
@@ -461,12 +909,47 @@
   "status": "no-date",
   "title": "Breast Milk Fortifier"
  },
+ "105113exam": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "2697949d5c189108",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having an Intimate Examination in Gynaecology Services"
+ },
+ "105138challenge": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "75e2a4bc5a6e2d99",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to carry out a food challenge at home"
+ },
  "105171photo": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "b5e17600f08785bc",
   "hash_version": 2,
   "status": "no-date",
   "title": "Advice After Photodynamic Therapy (PDT)"
+ },
+ "105194pifu": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ebc000403f62d9e3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient Initiated Follow Up (PIFU) contact card"
+ },
+ "105214claudication": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "dac792d12d90dcca",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Intermittent Claudication"
+ },
+ "105375options": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e3c5c7af63f4b380",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Options when Combined Test Cannot be Offered"
  },
  "105490injury": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -496,6 +979,20 @@
   "status": "no-date",
   "title": "Botulinum toxin injections for spasticity"
  },
+ "105522spasticity": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b66b12f721a4ba86",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Physical management of spasticity"
+ },
+ "105523medication": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "bd40cd2839826c79",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oral medication used in the treatment of spasticity"
+ },
  "105534milk": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "43af456a0cd8360c",
@@ -516,6 +1013,34 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Chest wall injury"
+ },
+ "105791stent": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d271bf5d89ef238f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oesophageal Stent Insertion - Information and Dietary Advice for Patients"
+ },
+ "105819atrium": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b7db5edc239eb40f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Going home with a chest tube/drain and Atrium Express Mini 500"
+ },
+ "105821drain": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "4efeb4d9ea763d31",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information for Healthcare Professionals - Chest Tube/Drain and Atrium Express Mini 500"
+ },
+ "105838movingtowardshome": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "5468f28697098f4f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oxford Neonatal Unit: Moving towards home"
  },
  "105877bronchiectasis": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -566,6 +1091,13 @@
   "status": "no-date",
   "title": "Discharge advice after the closure of your Patent Foramen Ovale (PFO)"
  },
+ "106307pcc": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "5c6889624343846d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Paediatric critical care"
+ },
  "106312cardioversion": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "d0cce5fa7defff34",
@@ -601,12 +1133,33 @@
   "status": "no-date",
   "title": "Discharge advice after your coronary angiogram, angioplasty or stent insertion (PCI)"
  },
+ "106422nutrition": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "1a3fb88953324770",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nutrition support: Improving your protein and energy intake"
+ },
  "106430loss": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "2c3aa7c614555408",
   "hash_version": 2,
   "status": "no-date",
   "title": "Advice and support following the loss of your baby. What should I do now?"
+ },
+ "106463physiotherapy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "91dd13e043d09c2d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Physiotherapy after major gynaecological surgery"
+ },
+ "106465home": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "9d0402d549224f5e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "My Journey Home - Patient discharge leaflet"
  },
  "106471cvs": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -622,6 +1175,13 @@
   "status": "no-date",
   "title": "Fetal Medicine Unit - Intrauterine Blood Transfusion (IUT)"
  },
+ "106758lung": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "c6b321af637d6e67",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lung Nodule Service"
+ },
  "106782cataractsurgery": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "0bfb889ed4bcaaea",
@@ -635,6 +1195,13 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Dietary information to promote wound healing"
+ },
+ "106969occipital": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "2fa9fca7b0e9112c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Greater Occipital Nerve (GON) Injection"
  },
  "106995choices": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -650,6 +1217,20 @@
   "status": "no-date",
   "title": "Cancer of the Oesophagus and the Stomach"
  },
+ "107045hepatitis": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "192aebad225fdd44",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hepatitis B immunisation for people with chronic kidney disease"
+ },
+ "107047limping": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b0915698ff8c4f14",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Limping Child"
+ },
  "107054massage": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "731aa4beb806f65b",
@@ -663,6 +1244,13 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Cannabis use in pregnancy"
+ },
+ "107205advice": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "42ae9f7761aa1492",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "NMOSD and MOGAD Advice Line Service"
  },
  "107218azathioprine": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -678,12 +1266,54 @@
   "status": "no-date",
   "title": "Entonox ('laughing gas' or 'gas and air')"
  },
+ "107296birthoptions": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b6dcea2b899f17c0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Giving Birth: What are my options?"
+ },
+ "107299diabetes": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "bfaf0d23abddc5d3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gestational Diabetes - Postnatal information leaflet"
+ },
+ "107332pain": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "4bdfd71785e01f2d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pain assessment and pain relief for your child"
+ },
+ "107349analgesia": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "66d00af656f015bb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient Controlled Epidural Analgesia (PCEA)"
+ },
  "107361epidural": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "35a7274882d5b85c",
   "hash_version": 2,
   "status": "no-date",
   "title": "Epidural for pain relief after surgery"
+ },
+ "107388analgesia": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "bb21dc4ba0f89b85",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient Controlled Analgesia (PCA) for children and young people"
+ },
+ "107458diabetes": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "cc6b029fd688b4e3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gestational Diabetes"
  },
  "107548acl": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -706,6 +1336,20 @@
   "status": "no-date",
   "title": "Car transfer"
  },
+ "107622poac": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "f0cce98090dbf487",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Paediatric Pre-Operative Assessment Clinics - Paediatric Orthopaedic Surgery"
+ },
+ "107659cardiac": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "c8c7387ea77d285f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pacemaker, Cardiac Resynchronisation Therapy (CRT) or Defibrillator Generator Change"
+ },
  "107660bedrails": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "ce3c896246c9d441",
@@ -720,12 +1364,68 @@
   "status": "no-date",
   "title": "Barium swallow examination"
  },
+ "107824texture4": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "4549dae0cbe7186b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Modified Texture: Level 4 - Puréed foods"
+ },
+ "107827texture5": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "db01290a7cc1ba46",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Modified Texture: Level 5 - Minced and Moist Foods"
+ },
+ "107828texture7": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "8cc67305f53cdbf3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Modified Texture: Level 7 - Easy to chew foods"
+ },
+ "107876pleurodesis": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "8e5071812f0e179a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pleurodesis"
+ },
+ "107924clinic": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "4919e452fbc9833c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Haematology 'new patient' clinic"
+ },
+ "108098spires": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "93a4706bbe850268",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Managing the reactions from others - Spires Cleft Centre"
+ },
+ "108164pouch": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "a03feb82157c0a8c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Kock pouch operation"
+ },
  "108192fluid": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "1fb3090ce3282e22",
   "hash_version": 2,
   "status": "no-date",
   "title": "Children's fluid management: Information for parents and carers to help with your child's continence"
+ },
+ "108239gastrojej": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "990075945e17dd80",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Low profile gastro jejunal feeding tube"
  },
  "108250bronchoscopy": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -740,6 +1440,13 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Colonoscopy"
+ },
+ "108381gastroscopy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "dbe6f8026d515eb8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gastroscopy - oesophago-gastro duodenoscopy (OGD)"
  },
  "108383colonoscopy": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -776,12 +1483,68 @@
   "status": "no-date",
   "title": "Advice following excision of skin lesion under local anaesthetic"
  },
+ "108555relief": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e0b3bfd45b114141",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pain relief after your child's day case surgery"
+ },
  "108591bartholins": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "9e496ebd9ae40b28",
   "hash_version": 2,
   "status": "no-date",
   "title": "Bartholin's cyst or abscess"
+ },
+ "108651access": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "2477ba14af2d838f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Haemodialysis: Access for haemodialysis Part 2 - Starting dialysis and looking after your new fistula"
+ },
+ "108673hero": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "2ebc5b3b8d929906",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "HeRO Graft - Information for patients with Chronic Kidney Disease (CKD)"
+ },
+ "108696reactions": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b8111bd31cfdb326",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Managing the reactions from others - Oxford Craniofacial Unit"
+ },
+ "109023kamrans-younger": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "56c5bd910b76d3b1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Physiotherapy for Paediatric Oncology Patients: Information for parents and carers of younger children"
+ },
+ "109024physiotherapy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ce67a3a756334de1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Physiotherapy for paediatric oncology patients: Information for parents and carers of infants"
+ },
+ "109027physiotherapy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "bbde11af58a5f592",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Physiotherapy for Paediatric Oncology Patients: Information for parents and carers of older children"
+ },
+ "109066parathyroidectomy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ef66c9a10fc693f0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Parathyroidectomy: An operation to remove overactive parathyroid glands"
  },
  "109326tolerance": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -804,6 +1567,41 @@
   "status": "no-date",
   "title": "Caudal block"
  },
+ "109514pca": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "28d0efd2125918ba",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patient Controlled Analgesia (PCA) - Information for children and young people"
+ },
+ "109515epipen": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "cf916d9ed63d77db",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to recognise and manage severe allergic reactions in children (EpiPen)"
+ },
+ "109516emerade": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "27633cc64b5dd455",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to recognise and manage severe allergic reactions in children (Emerade)"
+ },
+ "109518jext": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e42ddb20f23fa4c8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to recognise and manage severe allergic reactions in children (Jext)"
+ },
+ "109519hyperthyroidism": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "2b49c9b5779c7dce",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information for mothers of babies at risk of hyperthyroidism"
+ },
  "109526dvt": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "517049d3ff8558fb",
@@ -818,6 +1616,41 @@
   "status": "no-date",
   "title": "An Introduction to Spinal Cord Stimulation"
  },
+ "109662breathlessness": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "c1511a3bda28c2a6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Living with breathlessness"
+ },
+ "109663ocnsns": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ce59bb2733d7eb0a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oxfordshire Community Neurology Specialist Nurse Service (CNSNS)"
+ },
+ "109665nasah": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "8b58e9e672113124",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Non aneurysmal subarachnoid haemorrhage (NASAH) - A guide for you and your family"
+ },
+ "109677parkinsons": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "823d6cd7b41419dd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Have you recently received a diagnosis of Parkinson's disease? What's the next step?"
+ },
+ "109679parkinsons": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "0f6f3bad2c26d3a1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oxfordshire Parkinson's Specialist Nurse Service"
+ },
  "109724delirium": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "33415d0a18911b82",
@@ -825,12 +1658,47 @@
   "status": "no-date",
   "title": "Delirium"
  },
+ "109741lumbar": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ce83a04df18f1a80",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pain management - Lumbar multifidus stimulation"
+ },
  "109743elbow": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "72831387afa67f50",
   "hash_version": 2,
   "status": "no-date",
   "title": "Elbow replacement"
+ },
+ "109792physiotherapy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "93e5b74fc1afa252",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Inpatient Physiotherapy at the Oxford Centre for Enablement"
+ },
+ "109796iron": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "49e05927bf28aaf7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Intravenous iron therapy"
+ },
+ "109839postnatal": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "70fb5c0c9103a960",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Postnatal pain management"
+ },
+ "109840hand": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "cd6ee6d5de321b96",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hand and Plastic Surgery: Advice after a hand injury or surgery"
  },
  "109923eras": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -853,6 +1721,13 @@
   "status": "no-date",
   "title": "Children's Oncology Shared Care - Children's Ward, Horton General Hospital"
  },
+ "110086laparoscopy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "7e4987d7f5f37131",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gynae Oncology Surgery - Diagnostic Laparoscopy"
+ },
  "110126azathioprine": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "bcfe079f51cd5f68",
@@ -866,6 +1741,27 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Caring for your removable cast"
+ },
+ "110157insole": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b0c70899201ff218",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Insole"
+ },
+ "110159footwear": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "c6df7e0a7c480f36",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Orthopaedic footwear"
+ },
+ "110160kafo": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "2d1bfa97db7f3e58",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Knee, Ankle, Foot Orthoses"
  },
  "110170orthoses": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -881,12 +1777,61 @@
   "status": "no-date",
   "title": "Buddy strapping"
  },
+ "110211replacement": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "6fe5082d47416ff6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hip and knee replacement - Helping you prepare for surgery and discharge home"
+ },
+ "110246keratoconus": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "c6e3362a65099eb9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Keratoconus and the Keratoconus Monitoring Clinic"
+ },
+ "110487aspiration": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "81de99f90a2f97ca",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pleural Aspiration"
+ },
+ "110510childrennissens": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ec0da60a2bcaf6d9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nissen's Fundoplication"
+ },
+ "110510latexallergy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b4c2949d589d90d5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Natural rubber latex allergy"
+ },
  "110626incontinence": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "0f05eb8205c81641",
   "hash_version": 2,
   "status": "no-date",
   "title": "Faecal incontinence"
+ },
+ "110628loperamide": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "7021c69376807683",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Loperamide (Imodium)"
+ },
+ "110630obstructed": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e80df06b743e38e0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Obstructed defaecation"
  },
  "110677break": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -902,12 +1847,26 @@
   "status": "no-date",
   "title": "Fluoroscopy (X-ray) - guided lumbar puncture"
  },
+ "110773iron": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "028b81bf9f1813f1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Iron treatment for people with Chronic Kidney Disease (CKD)"
+ },
  "110774erythropoietin": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "94464e98e341c705",
   "hash_version": 2,
   "status": "no-date",
   "title": "Erythropoietin therapy in people with chronic kidney disease"
+ },
+ "110779nephropathy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ceb96ce284a24bcd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Membranous nephropathy"
  },
  "110780safety": {
   "checked": "2026-09-24T02:33:08+01:00",
@@ -922,6 +1881,27 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Colonoscopy: Limited-Colonoscopy (Also Called Flexible Sigmoidoscopy)"
+ },
+ "110861mycophenolate": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "5808c821851d23de",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mycophenolate Mofetil"
+ },
+ "110862record": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "a07611fd17514502",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Health for Me - Secure online access to your health record for haematology and oncology patients"
+ },
+ "111012texture6": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e72f03c555d11131",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Modified Texture: Level 6 - Soft and Bite Sized Foods"
  },
  "111099health": {
   "checked": "2026-09-24T02:33:08+01:00",
@@ -950,6 +1930,13 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Florence Park Midwives"
+ },
+ "111186knee": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "4ab0cbeb5c5bdb88",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Knee Replacement"
  },
  "111189combined": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1021,12 +2008,47 @@
   "status": "no-date",
   "title": "Breast Screening: All about assessment"
  },
+ "111534kamrans1": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "12a53492f2aee1c6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Kamran's Ward: section one - Kamran's Ward and our Team"
+ },
+ "111535kamrans2": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "14756246e0bbc8e4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Kamran's Ward: section two - supporting you and your child through treatment"
+ },
+ "111536kamrans3": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "eed2e5833657a567",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Kamran's Ward: section three - my personal record"
+ },
  "111555captopril": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "75e132b229d194b1",
   "hash_version": 2,
   "status": "no-date",
   "title": "Captopril"
+ },
+ "111556lisinopril": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "3e82e4fe25f42b2c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lisinopril"
+ },
+ "111644dialysis": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "7ac10004c52a316e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Getting ready for Peritoneal Dialysis at Home"
  },
  "111826stoma": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1041,6 +2063,13 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Carotid Endarterectomy"
+ },
+ "111977decolonisation": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b9c946768463d606",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "MRSA Decolonisation"
  },
  "112008challenge": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1063,12 +2092,26 @@
   "status": "no-date",
   "title": "Following the loss of your baby. What to expect when you leave hospital - taking care of your physical wellbeing"
  },
+ "112118cosin": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "718b4c7c20d36048",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lionel Cosin Day Hospital and Daily Diagnostic Clinic (LCDH and DDC)"
+ },
  "112151endovascular-aneurysm-repair": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "6f8ef7d19235a9e8",
   "hash_version": 2,
   "status": "no-date",
   "title": "Endovascular Aneurysm Repair (EVAR)"
+ },
+ "112162-living-with-indwelling-pleural-catheter": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ec70c77bd59783e6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Living with your Indwelling Pleural Catheter (IPC)"
  },
  "112231effects": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1077,12 +2120,33 @@
   "status": "no-date",
   "title": "Effects of Vulval Lichen Sclerosus on sex and intimacy"
  },
+ "112298magnets": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "873cb2c18db8627a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ingestion of Super Strong Magnets in Children"
+ },
  "112306lenses": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "813f2f1610bd4b3b",
   "hash_version": 2,
   "status": "no-date",
   "title": "Contact lenses: Care of your Rigid Gas Permeable Contact Lenses"
+ },
+ "112339gastroscopy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "a399f31832d13c27",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gastroscopy and Colonoscopy - Combined Oesophago-gastro duodenoscopy (OGD) and Colonoscopy"
+ },
+ "112340gastroscopy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d0586d94b02d9c59",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gastroscopy and Flexible Sigmoidoscopy"
  },
  "112341ercp": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1105,12 +2169,26 @@
   "status": "no-date",
   "title": "Enhanced Recovery After Surgery (ERAS): Cystectomy, patient diary"
  },
+ "112523activity": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "59ed8f3215213cee",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Physical Activity throughout Pregnancy"
+ },
  "112580flexor": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "a0b63a05f15a4096",
   "hash_version": 2,
   "status": "no-date",
   "title": "Flexor Tendon Repair - Manchester Short Regime"
+ },
+ "112693psychosis": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "963521b8291ee1b4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mental Health - Postpartum Psychosis"
  },
  "112840eras": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1126,12 +2204,26 @@
   "status": "no-date",
   "title": "Enhanced Recovery After Surgery (ERAS) - Open Hysterectomy Surgery Patient Diary"
  },
+ "112842xrays": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d790362d37675dcf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "My baby and X-rays on the Neonatal Unit"
+ },
  "112869cystectomy": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "06b63e91d0780593",
   "hash_version": 2,
   "status": "no-date",
   "title": "Enhanced Recovery After Surgery (ERAS) - Cystectomy"
+ },
+ "112870observation": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "2f25f8fe0d2a67b0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Maternity Observation Area"
  },
  "112926syndrome": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1175,6 +2267,13 @@
   "status": "no-date",
   "title": "CT Colonography - Information for patients (Picolax Preparation)"
  },
+ "113365nutrition": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e98a18d69993b5a6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pancreatic Surgery: Nutrition Advice - Nutrition information for patients who have had surgery involving the partial or complete removal of their pancreas"
+ },
  "113366nasojejunal": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "b3ebfd48b9b2d7f1",
@@ -1196,6 +2295,13 @@
   "status": "no-date",
   "title": "Cardiac Rehabilitation Exercise Programme (Witney)"
  },
+ "113519help": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "900089ad9b30e55f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Help with managing high stoma output"
+ },
  "113608diet": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "217a46e00c306eda",
@@ -1209,6 +2315,13 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Alcohol awareness and harm reduction"
+ },
+ "113634inpatient-orthotics": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ccd1fb17e8d0fbf0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Orthotics"
  },
  "113646warts": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1238,6 +2351,20 @@
   "status": "no-date",
   "title": "Epiphora in children"
  },
+ "113755perfusion": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "cbade090f93d75ac",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Myocardial Perfusion Test"
+ },
+ "113764glaucoma": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "7629b3e01be5b2c8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Glaucoma (medication, eye drops, appointments, post surgery)"
+ },
  "113809eps": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "fb995600a08a0111",
@@ -1266,12 +2393,40 @@
   "status": "no-date",
   "title": "Cardiac Rehabilitation Exercise Programme"
  },
+ "113836travel": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d1252c36a3002da0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Healthcare Travel Costs Scheme - Quick guide for patients"
+ },
+ "114138hearing": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "a142ef782dba9942",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Managing your Hearing Aids: Open Fit"
+ },
+ "114140moulds": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "98db1ef0f7ff7011",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Managing your Hearing Aids: Moulds"
+ },
  "114455cast": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "9827cbc15098bdcb",
   "hash_version": 2,
   "status": "no-date",
   "title": "Caring for your temporary plaster cast"
+ },
+ "114462nosebleeds": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "724b0dee60f7f5d5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nosebleeds"
  },
  "114466pain": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1322,6 +2477,13 @@
   "status": "no-date",
   "title": "Broad arm sling advice"
  },
+ "114633precautions": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "30db89b5aa637519",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hip Precautions"
+ },
  "114862cauda": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "dc94e0d525e8cd76",
@@ -1350,6 +2512,13 @@
   "status": "no-date",
   "title": "Cleft Service: Helping your child cope with an operation"
  },
+ "114924medicines": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "412178ca53b0a88f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Over the counter medicines"
+ },
  "114931cochlear": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "16cadb4eb8c2ecb0",
@@ -1371,6 +2540,13 @@
   "status": "no-date",
   "title": "After your child's general anaesthetic"
  },
+ "115278stones": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "1cf0bd0e281a021b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Kidney: 24 Hour Urine Collections for Kidney Stones"
+ },
  "115311exercises": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "9e9554c2f23794df",
@@ -1385,12 +2561,47 @@
   "status": "no-date",
   "title": "Femoral Acetabular Impingement Syndrome (FAIS)"
  },
+ "115550palliative": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "bc6e76a23d451c53",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Perinatal palliative care"
+ },
+ "115551medication": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "7e070af0626e267c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Medication for mental health and the care of your newborn baby"
+ },
+ "115552glucose": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "0131dd65fb0f1056",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Glucose tolerance testing in pregnancy"
+ },
  "115553browns": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "cbb8512a81c37ee9",
   "hash_version": 2,
   "status": "no-date",
   "title": "Brown's syndrome"
+ },
+ "115703kahook": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "7b4fab9023073f41",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Kahook Dual Blade (KDB) Glaucoma Operation"
+ },
+ "115733loans": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "6c360063e2f47b26",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Occupational Therapy Equipment Loans"
  },
  "115764advice": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1413,6 +2624,34 @@
   "status": "no-date",
   "title": "Contact lenses: Bandage Contact Lenses"
  },
+ "115908squint": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "a2a8ef658f212a09",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information about squint surgery"
+ },
+ "115975brain": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "4a70a5aba7aee5eb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Growing your baby's brain"
+ },
+ "116062ketone": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "fad290b27186862e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ketone management and sick day rules for children and young people with Diabetes"
+ },
+ "116072neuro": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ca0aa610df0c1544",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oxford Children's Hospital Neurorehabilitation Service"
+ },
  "11609pcriticalcare": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "ed6d009ffcddb8b7",
@@ -1420,12 +2659,68 @@
   "status": "no-date",
   "title": "Children's Critical Care"
  },
+ "116188ipc": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "5fc658bc079ef6e6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Indwelling pleural catheter (IPC)"
+ },
+ "116190thoracoscopy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "27c5dc9fccc4aa49",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Local Anaesthetic Thoracoscopy"
+ },
+ "116284laparoscopy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "1b7637f50d24b39b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laparoscopy"
+ },
  "116381nasogastric": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "4d1b4db702fda131",
   "hash_version": 2,
   "status": "no-date",
   "title": "Caring for your Nasogastric Tube at home"
+ },
+ "116409glucagon": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "7f634b8769880c15",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Glucagon Stimulation Test - Information for children, young people and their families"
+ },
+ "116410itt": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "5ff86589290c1eda",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Insulin Tolerance Test (ITT) - Information for children, young people and their families"
+ },
+ "116411gatt": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "3b0b9652e9361c57",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gonioscopic Assisted Transluminal Trabeculoplasty (GATT) Surgery for Glaucoma"
+ },
+ "116412microstent": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d585654446f688cd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hydrus Microstent Surgery for Glaucoma"
+ },
+ "116413preserflo": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "7f3f61f33b3bcdc1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Glaucoma filtration surgery (Preserflo Microshunt)"
  },
  "116414corneal": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1440,6 +2735,13 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Corneal Transplantation: Endothelial Keratoplasty (EK) (including DSEK/DSAEK and DMEK)"
+ },
+ "116430burns": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "aa161cf98449e85f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Minor Burns (Adults)"
  },
  "116431clavicle": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1476,6 +2778,20 @@
   "status": "no-date",
   "title": "Drink and needle spiking"
  },
+ "116451pain": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "10134022e4afa91b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Low Back Pain"
+ },
+ "116453sling": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "58c3d98fee6e1f9d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "High arm sling advice"
+ },
  "116454sprain": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "90e36f60a402f5cb",
@@ -1490,12 +2806,47 @@
   "status": "no-date",
   "title": "Achilles tendon rupture advice"
  },
+ "116459whiplash": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "1c342165121bba26",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Neck Sprain (Whiplash type injury)"
+ },
+ "116510toe": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d8875e075da32098",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lesser toe injury"
+ },
+ "116511mallet": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "23057fbc9ea3341b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mallet finger advice"
+ },
+ "116512great-toe-injury": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "05650409b0566d98",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Great Toe Injury"
+ },
  "116513ankle": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "f9deaf9bc90759b6",
   "hash_version": 2,
   "status": "no-date",
   "title": "Ankle sprain and flake fractures"
+ },
+ "116518hospital": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "2bb8f3a391abe2f1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "If your child is in hospital for more than 90 days"
  },
  "116563eras": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1524,6 +2875,27 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Enhanced Recovery After Surgery (ERAS): Open Nephrectomy (complete or partial kidney removal) - patient diary"
+ },
+ "116823overseas": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "197b4de62a4a8791",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Overseas Patients"
+ },
+ "116824methotrexate": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "77e60999015f3aa6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Methotrexate for Interstitial Lung Disease"
+ },
+ "116832examination": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "c16adaad06570cc4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having an intimate examination"
  },
  "116939-acromioclavicular-joint-injury": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1574,6 +2946,13 @@
   "status": "no-date",
   "title": "Dumping Syndrome following Bariatric surgery"
  },
+ "117058hormone": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "8faedf543358b116",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hormone Options for Pelvic Pain"
+ },
  "117062dvt": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "4f2b67906509ff21",
@@ -1602,6 +2981,27 @@
   "status": "no-date",
   "title": "Extracorporeal Shockwave Therapy"
  },
+ "117595msadvice": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "6913bb6b0b2316cf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Multiple Sclerosis (MS) Advice Service"
+ },
+ "117691monitoring": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "6286e53d25c951f3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Monitoring your blood pressure at home during pregnancy"
+ },
+ "118026enoxaparin": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "babb05dca3f616e9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information on how to administer Enoxaparin at home"
+ },
  "118168samples": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "44577be26c0d9d64",
@@ -1609,12 +3009,33 @@
   "status": "no-date",
   "title": "Collecting urine samples"
  },
+ "118252biopsy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "5d09fd5fbd6bd87a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Kidney Biopsy"
+ },
+ "118543lung-cancer-screening": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "79b6a6f4a9d5a37e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lung Cancer Screening"
+ },
  "118598cpet": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "cc95544184afde93",
   "hash_version": 2,
   "status": "no-date",
   "title": "Cardiopulmonary Exercise Test (CPET)"
+ },
+ "118600iron": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "29113732236d7b3b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Iron supplements for babies"
  },
  "118895easysept": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1629,6 +3050,20 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Care of your Soft Contact Lenses Acuvue RevitaLens Multi-purpose Solution"
+ },
+ "118982stay": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "fde9bd7a6791f8c1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Making your stay with us safer"
+ },
+ "119969ecg": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b24a147d4f118543",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having an ECG"
  },
  "120286colonography": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1650,6 +3085,20 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Acanthamoeba Keratitis (AK)"
+ },
+ "120366microbial": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "f01cd8140c39a6c3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Microbial Keratitis"
+ },
+ "120367marginal": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "f3950a319465481a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Marginal Keratitis"
  },
  "120368corneal": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1700,6 +3149,20 @@
   "status": "no-date",
   "title": "Epithelial Basement Membrane Dystrophy (EBMD)"
  },
+ "120376hsk": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "6d58fe6e983bd305",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Herpes Simplex Keratitis (HSK)"
+ },
+ "120377zoster": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "789a75d7eec536d2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Herpes Zoster Ophthalmicus (HZO)"
+ },
  "120443isotonic": {
   "checked": "2026-09-23T02:33:40+01:00",
   "content_hash": "6e25be273500fca4",
@@ -1742,6 +3205,34 @@
   "status": "no-date",
   "title": "Eating and Drinking following an Oesophagectomy"
  },
+ "121474mallet": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "af70f4587f6493f3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mallet Finger: Advice on weaning from the splint"
+ },
+ "122110steroid": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "437904251f824460",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Intravenous steroid treatment for Thyroid Eye Disease"
+ },
+ "122111mycophenalate": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "99accd02209768f7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oral Mycophenolate Mofetil - For patients with Thyroid Eye Disease"
+ },
+ "122301ct": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b302e9cb40c680fb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Next-Day CT Colonography - Information for patients following an incomplete colonoscopy"
+ },
  "122322tunnel": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "8513ef2f97ba20b6",
@@ -1777,6 +3268,34 @@
   "status": "no-date",
   "title": "20-week screening scan (anomaly scan)"
  },
+ "123215scans": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d83341885fa3469c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Growth scans"
+ },
+ "1302eye": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "81bc1af4e0c0b2e9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to instil eye drops (2009)"
+ },
+ "13240pplan": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "2b8101b68d7ba885",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mild to moderate allergic reaction - Action plan"
+ },
+ "13369pnmoadvice": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "56d6b0a8389a3233",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Neuromyelitis Optica (NMO) Advice Line Service"
+ },
  "13971pcroup": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "df96335d8cf0ac83",
@@ -1798,6 +3317,27 @@
   "status": "no-date",
   "title": "Bone Stress Injuries and Stress Fractures"
  },
+ "42970psarcoma": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "edde7c9c47287687",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oxford Sarcoma Multi-Disciplinary Team (MDT)"
+ },
+ "44134psalt": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "8b66c13933d902ae",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "My Speech and Language Therapy Programme"
+ },
+ "45339pmog": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "12cd7d244dd16acd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "MOG Antibody Demyelination"
+ },
  "45345pfatigue": {
   "checked": "2026-09-24T02:33:08+01:00",
   "content_hash": "49c66baa0326cc84",
@@ -1805,12 +3345,33 @@
   "status": "no-date",
   "title": "From Fatigue to Energy"
  },
+ "49019ptendinopathy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "2a64ad656ff5b04d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patellar Tendinopathy"
+ },
  "5274childrenminorinjury": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "779dfb94acaabb1c",
   "hash_version": 2,
   "status": "no-date",
   "title": "Children's Minor Injury Treatment"
+ },
+ "5289pcardiacrehab-horton": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "c6d7ca7745d66dab",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Heart failure: Cardiac rehabilitation heart failure exercise programme Horton General Hospital"
+ },
+ "57626icp": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e79d3e27e575d143",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Intracranial Pressure (ICP) Monitoring"
  },
  "57636pforamen": {
   "checked": "2026-09-24T02:33:08+01:00",
@@ -1833,12 +3394,40 @@
   "status": "no-date",
   "title": "External Ventricular Drain"
  },
+ "59239poesophagealstent": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "3f983bded7d5920f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Insertion of an oesophageal stent"
+ },
  "61973pdtu": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "a95566a023d81798",
   "hash_version": 2,
   "status": "no-date",
   "title": "Day Treatment Unit (DTU)"
+ },
+ "65264ptransplant": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d504d980e5399ef1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Intestinal Transplantation"
+ },
+ "65481neck": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "00d34043d868603f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oncology: Neck Dissection"
+ },
+ "65485intussusception": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "1d3f0d345a76dc2a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Intussusception and its treatment"
  },
  "65492lung": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1882,6 +3471,76 @@
   "status": "no-date",
   "title": "Discharge advice after your Implantable Loop Recorder (ILR) procedure"
  },
+ "66000ilr": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "562f383bfca0e545",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Implantation of an implantable loop recorder (ILR)"
+ },
+ "66010cyclophosphamide": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ec788a0c650e3c99",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Going Home With Ambulatory Cyclophosphamide Chemotherapy When Attending Ambulatory Care Unit (ACU)"
+ },
+ "66058scan": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "84e26e0d3ee83771",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "MRI: Your Child's Awake MRI Scan"
+ },
+ "66522valves": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "14c82fd7dfdb5a30",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Posterior urethral valves"
+ },
+ "66559pdiabetes": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ff7998bcc720aee0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gestational diabetes - dietary advice for managing blood glucose levels"
+ },
+ "67492shunt": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "7fe35fa37c915e76",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Insertion of a ventriculo-peritoneal or ventriculo-atrial shunt"
+ },
+ "67721relief": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "a535e0d89a3b5420",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pain Relief"
+ },
+ "67886glaucoma": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "6f39d77a5cbf487d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Glaucoma (all about Glaucoma)"
+ },
+ "68160pnissen": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "1e4a35f5da6870e6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laparoscopic Nissen fundoplication (keyhole surgery to relieve chronic heartburn)"
+ },
+ "68333pymphocytosis": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e2e1c8e6ff948537",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "High-count Monoclonal B-cell Lymphocytosis (MBL)"
+ },
  "68440plife": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "8efa100a10a0eba9",
@@ -1910,12 +3569,47 @@
   "status": "no-date",
   "title": "CT Colon (Long Prep)"
  },
+ "69119powerbreathe": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "1ccc410959e15b43",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Inspiratory Muscle Training (IMT) using POWERbreathe Medic Plus"
+ },
+ "69135surgery": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "2af2f6f7252cd894",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Jaw Surgery"
+ },
  "69295peras": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "0d05c2c48a1f10e6",
   "hash_version": 2,
   "status": "no-date",
   "title": "Enhanced Recovery After Surgery (ERAS) Open and Minimally invasive Liver resection"
+ },
+ "69326pgastroscopy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d92c0b042e15c2d9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gastroscopy for insertion of a PEG feeding tube: Oesophago-gastro duodenoscopy (OGD) for Percutaneous Endoscopic Gastrostomy"
+ },
+ "69342reconstruction": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "072d9d2d0a61c92e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Major Head and Neck Operation with Reconstruction"
+ },
+ "69344maxillectomy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d4c6d89d6db748ed",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Maxillectomy and Partial Maxillectomy"
  },
  "69585psurgery": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1931,12 +3625,68 @@
   "status": "no-date",
   "title": "Breast: Discharge Advice Following Breast Reconstructive Surgery"
  },
+ "69854care": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "3cc1afc92e1817c6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laryngectomy Stoma Care"
+ },
+ "69855jaw": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "1f3a3b44b4b221d4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "If Your Jaw is Tight and Stiff (Trismus): Common Problems and Helpful Hints"
+ },
+ "69966tmj": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "aeaee1de090c86bd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oral Medicine: TMJ Exercises"
+ },
+ "70191relief": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "7c5e7d843458a0a7",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Morphine for Pain Relief in Children"
+ },
+ "71859pclinic": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "81d4d75db6087e2c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information for patients coming to the DVT Clinic"
+ },
  "72022play": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "398f2653614223bf",
   "hash_version": 2,
   "status": "no-date",
   "title": "Children's Play in Hospital"
+ },
+ "72213meningioma": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "1c74d88d8907c364",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Meningioma"
+ },
+ "72602mild": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "7b674e33af9d6c72",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to Recognise and Manage Mild to Moderate Allergic Reactions in Children"
+ },
+ "72604pollen": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "6dd28c9180980cc6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pollen Food Syndrome - Information for parents and carers"
  },
  "73002pbullying": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -1966,12 +3716,26 @@
   "status": "no-date",
   "title": "Bullying and Teasing: Guide for parents and carers (Spires Cleft Centre)"
  },
+ "73011pchildneuro": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "a989815d89d9f726",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Paediatric Clinical Neuropsychology"
+ },
  "73186peus": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "fe29ff251d41959e",
   "hash_version": 2,
   "status": "no-date",
   "title": "Endoscopic Ultrasound (EUS) or Endosonography"
+ },
+ "73435instil": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d9ce5aaecb19539e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to instil eye drops"
  },
  "73885padductor": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2001,12 +3765,61 @@
   "status": "no-date",
   "title": "Adult Cancer Ambulatory Care Unit"
  },
+ "74297tissue": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "292d0f5370dcc7d1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ovarian Tissue Cryopreservation: Parent / Carer"
+ },
+ "74298tissue": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "1fc5e05c31bab4bb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ovarian Tissue Cryopreservation: Patient"
+ },
  "74301cryopreservation": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "c0a5099d88e6071a",
   "hash_version": 2,
   "status": "no-date",
   "title": "Cryopreservation"
+ },
+ "74302phydrocele": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "dd130191bd328800",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hydrocele repair"
+ },
+ "74306gastroschisis": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "3f4eef8b58b33a78",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gastroschisis"
+ },
+ "74316local": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "064234a316179633",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Local anaesthetic nerve block for children and young people"
+ },
+ "74320nephrectomy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "637a7d50f2a43830",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nephrectomy"
+ },
+ "74552vision": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b37dca100b64ac43",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Paediatric Low Vision Assessment Clinic"
  },
  "75117croup": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2029,6 +3842,13 @@
   "status": "no-date",
   "title": "Cochlear Implant Summary - Information for adult patients"
  },
+ "75588hyphaema": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "4deda9c23811379c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hyphaema"
+ },
  "75595dacro": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "5e4496fd69fc36f7",
@@ -2042,6 +3862,20 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Episcleritis and Scleritis"
+ },
+ "75635pmyeloid": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "90fc5bb49c1d6e04",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nurse Led Follow Up for patients with Myeloid Disorders"
+ },
+ "75636pitp": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "8f1380b4e6a39390",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Immune thrombocytopenic purpura (ITP)"
  },
  "75660blepharitis": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2064,12 +3898,40 @@
   "status": "no-date",
   "title": "Advice for lower limb bypass surgery"
  },
+ "75830limb": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d31b6f733f3a05dc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lower limb amputation"
+ },
+ "75891mrinf2": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "391389e23b6567a4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "MRI Scans in NF2 Related Schwannomatosis (NF2) for Patients with Implants"
+ },
+ "75892nf2": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "389d40713d5f71f0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "NF2: A Guide to NF2-Related Schwannomatosis (NF2) Care in Oxford"
+ },
  "75893bevacizumab": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "f80b75a253d9fae5",
   "hash_version": 2,
   "status": "no-date",
   "title": "Bevacizumab (Avastin) Treatment in Nf2 related Schwannomatosis (NF2)"
+ },
+ "75961pmacmillan": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "3990727a37059ea0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oxford Macmillan Metastatic Breast Cancer Specialist Nursing Team"
  },
  "76066pchanges": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2078,12 +3940,40 @@
   "status": "no-date",
   "title": "Body changes, washing, clothing and returning to normal activities after your stoma surgery"
  },
+ "76077diet": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "7e7b9d728934d196",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to follow a minimal fat diet of 20g of fat or less per day"
+ },
  "76141pcholecystectomy": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "e9186483287afc5a",
   "hash_version": 2,
   "status": "no-date",
   "title": "After a laparoscopic cholecystectomy"
+ },
+ "76424hickman": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "8c7b9e24aae7f1f9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Insertion of a Hickman Line"
+ },
+ "77062barium": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "800b15f426be67c5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Paediatric barium swallow/meal"
+ },
+ "77110ppneumothorax": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "fd3061f4128d47ef",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pneumothorax"
  },
  "77362advice": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2099,6 +3989,20 @@
   "status": "no-date",
   "title": "Discharge Advice for People Going Home After the Change of an IPG (Implantable Pulse Generator)"
  },
+ "77633pburns": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "3419cd45bb152003",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Minor burn and scald injuries"
+ },
+ "77634phapi": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "a54dd97677793fa5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "HAPI Children's Clinic (Hand and Plastics Injury)"
+ },
  "77669pportacath": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "86a7f1cec79a59d4",
@@ -2113,6 +4017,27 @@
   "status": "no-date",
   "title": "Carriers of Haemophilia"
  },
+ "78012azathioprine": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "936150a63f033112",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Medicines: Azathioprine"
+ },
+ "78013mesalazine": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "29fae26d43f76daf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Medicines: Mesalazine (Pentasa, Asacol, Salofalk)"
+ },
+ "78015steroids": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "15e10fe04287ec20",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Medicines: Steroids"
+ },
  "78303pddavp": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "cd73848c2c521abe",
@@ -2120,12 +4045,47 @@
   "status": "no-date",
   "title": "DDAVP (desmopressin) response test"
  },
+ "78304pplasma": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "618a185af95bd8d5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Plasma-derived products"
+ },
+ "78308pemicizumab": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "3da8a8433cb5c963",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Home delivery of emicizumab (Hemlibra)"
+ },
  "78359bedrails": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "058fddca992905d8",
   "hash_version": 2,
   "status": "no-date",
   "title": "Bedrails"
+ },
+ "78368pneumonia": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "10f08a1f2d1d999f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pneumonia"
+ },
+ "78370care": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "29b3cfd5382981c2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pastoral and Spiritual Care for Patients, Visitors and Staff - Our Chaplaincy Team"
+ },
+ "78372therapy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "cb9d5336200e0810",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Leech Therapy"
  },
  "78616bakers": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2183,6 +4143,13 @@
   "status": "no-date",
   "title": "Cancers of the Pancreas, Liver and Hepatobiliary Tract"
  },
+ "80373adhesions": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "cfb93d13c067c8f6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Labial Adhesions"
+ },
  "80374sigmoidoscopy": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "2af7c206d0e5ab96",
@@ -2197,6 +4164,34 @@
   "status": "no-date",
   "title": "Epigastric hernia repair"
  },
+ "80377abscess": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "662f239d91fb965d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Perianal Abscess"
+ },
+ "80427pnutrition": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "364e61c33c921328",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Parenteral Nutrition"
+ },
+ "80566photo": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "16ec031a02d2111b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Photographic Examination of the Blood Vessels of the Eye (Fundus Fluorescein Angiography)"
+ },
+ "80854anaesthetic": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "1dd3008561032512",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Local Anaesthetic - Procedures for Children"
+ },
  "80944pambulatory": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "ddb72b0d3d4df00f",
@@ -2204,12 +4199,33 @@
   "status": "no-date",
   "title": "Ambulatory Management of Pneumothorax"
  },
+ "80950health": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "9024b68479bc7b60",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mental Health - What to expect when attending the Emergency Department"
+ },
  "81486asthma": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "66b522908133da63",
   "hash_version": 2,
   "status": "no-date",
   "title": "Asthma: Information for parents and carers"
+ },
+ "81505methotrexate": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "66923f15ba7abc26",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Methotrexate for skin conditions in children and young people"
+ },
+ "81758multiple": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "575f255cbb7848b8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Multiple Pregnancy"
  },
  "81920leukaemia": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2232,12 +4248,33 @@
   "status": "no-date",
   "title": "Entropion: Treatment for Entropion"
  },
+ "82359detachment": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "6e1b1a04b7e02237",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Posterior Vitreous Detachment"
+ },
+ "82360vision": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "a9f25a22f8ee3928",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Low Vision Services for Adults in Oxfordshire"
+ },
  "82368squint": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "5acfb717859e60b4",
   "hash_version": 2,
   "status": "no-date",
   "title": "Childhood Squint"
+ },
+ "82417ppathway": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "a6f4095b2d86cd63",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Neoadjuvant Pathway for Ovarian Cancer - Checklist"
  },
  "82418pbexarotene": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2260,6 +4297,13 @@
   "status": "no-date",
   "title": "Axillary lymph node clearance"
  },
+ "82826prenal": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e9ea632d7bda670c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Insertion of your Peritoneal Dialysis (PD) catheter"
+ },
  "82929dorsal": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "d68c66a26a3864c4",
@@ -2280,6 +4324,20 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "An Introduction to Prehabilitation - Preparing body and mind for surgery"
+ },
+ "83138pknee": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "82afebb62aa11046",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Knee Replacement - Information about your discharge"
+ },
+ "83140pknee": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "1e844e095bae07e8",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Knee Replacement - Physiotherapy from the day of surgery until day 7"
  },
  "83373diary": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2302,6 +4360,13 @@
   "status": "no-date",
   "title": "Children's: Rectal Biopsy"
  },
+ "83845pifosfamide": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "9e845aa3f7e4f2ba",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Going home with ambulatory ifosfamide chemotherapy"
+ },
  "83932ct": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "8f5adfacea0ab94f",
@@ -2315,6 +4380,20 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "CT Guided Biopsy"
+ },
+ "83937liver": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "1a8b915dbd72d9be",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Liver Tumour Ablation"
+ },
+ "83938lung": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "10e2151bfceca710",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lung Tumour Ablation"
  },
  "84029cardiacct": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2344,12 +4423,40 @@
   "status": "no-date",
   "title": "Bone Health for Men with Prostate Cancer"
  },
+ "84230vitamink": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d92fd204c154a615",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Important Information About Anticoagulation With Vitamin K Antagonists"
+ },
  "84619eras": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "4efc27d89d757f6a",
   "hash_version": 2,
   "status": "no-date",
   "title": "Enhanced Recovery After Surgery (ERAS): Bowel Surgery"
+ },
+ "84658biopsy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "32bab5ba4610dae2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lung or Pleural Biopsy"
+ },
+ "84662correction": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "234d05d3edec5b82",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pectus Correction Surgery"
+ },
+ "84694laser": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "3532b64e573a4028",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Laser Iridotomy"
  },
  "84710surgery": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2365,6 +4472,20 @@
   "status": "no-date",
   "title": "Coronary Artery Bypass Grafting (CABG)"
  },
+ "84712heart": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "f23595d1c160a98c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Heart Valve Surgery"
+ },
+ "84785pcare": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "65e8ca59139c3d8c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oxford Critical Care"
+ },
  "84911vision": {
   "checked": "2026-09-23T02:33:40+01:00",
   "content_hash": "347c3e79b9cc57c4",
@@ -2379,12 +4500,47 @@
   "status": "no-date",
   "title": "Ambulatory Outreach Team (AOT)"
  },
+ "84956therapy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "44ce1a18fc709b7e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Intravenous therapy through a cannula"
+ },
+ "85089pfood": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "df3d7e28bda10113",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Managing your food and fluid intake when on haemodialysis"
+ },
  "85296exercises": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "91d4fda66fe0a84a",
   "hash_version": 2,
   "status": "no-date",
   "title": "Chair Based Exercises for Strength and Balance"
+ },
+ "85308haemorrhoids": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "6ac0e8f241f8775d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Haemorrhoids"
+ },
+ "85619otago": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "466eda40856b584b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "OTAGO Strength and Balance Home Exercise Programme"
+ },
+ "85743pperitoneal": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "6c4b2c93efbd40fa",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Managing your food and fluid intake when on peritoneal dialysis"
  },
  "85809graft": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2484,6 +4640,13 @@
   "status": "no-date",
   "title": "Birdshot Chorioretinopathy"
  },
+ "86660intermediate": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "2076b7f3fec9b9c5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Intermediate Uveitis"
+ },
  "86717needling": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "5252ecfe1e87ea8b",
@@ -2504,6 +4667,27 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Extracorporeal shockwave therapy for achilles tendinopathy"
+ },
+ "86724hvi": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "3250ad2129473511",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "High Volume Injection (HVI) for tendinopathy"
+ },
+ "86726pfps": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "3f6db2d5b57b05b9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Patellar Femoral Pain Syndrome (PFPS) - Advice and management"
+ },
+ "86728fasciitis": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "3cb43f7053032282",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Plantar Fasciitis - Advice and management"
  },
  "86767resection": {
   "checked": "2026-09-23T02:33:40+01:00",
@@ -2526,6 +4710,13 @@
   "status": "no-date",
   "title": "Cardiac Rehabilitation"
  },
+ "87356pwound": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "4fbeeb4a710ef50d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Going home with a wound drain after breast surgery"
+ },
  "87813ears": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "f78069ff14571f41",
@@ -2539,6 +4730,13 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Ear Nose and Throat (ENT) Department"
+ },
+ "87818grommets": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "8b0e33bd097ea5b6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Grommets Surgery for Glue Ear"
  },
  "87953graft": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2554,6 +4752,41 @@
   "status": "no-date",
   "title": "Alveolar Bone Graft - for parents"
  },
+ "88077wisdom": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ad5c12dd840f8491",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oral and Maxillofacial Surgery: Removing Wisdom Teeth"
+ },
+ "88078removal": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "bb6c7feb4dd14c3a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oral and Maxillofacial Surgery: Removal of the Submandibular Salivary Gland"
+ },
+ "88079mouth": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "1377434e9720f62e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oral Medicine: Burning Mouth Syndrome (BMS)"
+ },
+ "88080pain": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "90ea87a2cab801f5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oral Medicine: Facial pain"
+ },
+ "88081disorders": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "eaef3e3cbe529403",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oral Medicine: Temporomandibular Disorders"
+ },
  "88082teeth": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "ae547ab529cba993",
@@ -2568,12 +4801,33 @@
   "status": "no-date",
   "title": "Enhanced Recovery After Surgery (ERAS) Open Liver Resection Patient Diary"
  },
+ "88458exercises": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "c0d21167dd33f7e2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Physiotherapy Exercises and Advice Following Neck Dissection Surgery"
+ },
  "88579cancers": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "0161f83fe25570a8",
   "hash_version": 2,
   "status": "no-date",
   "title": "Cancers of the Colon, Rectum and Anus"
+ },
+ "88585bleeding": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "2a6c83f2139e546e",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Going home with rectal bleeding"
+ },
+ "89395disorder": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b45335dae23be4a0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Intrahepatic Cholestasis of Pregnancy (itching liver disorder)"
  },
  "90036disorder": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2589,6 +4843,13 @@
   "status": "no-date",
   "title": "Enhanced Recovery After Surgery (ERAS) Partial Glossectomy or Buccal Resection (without reconstruction), patient diary"
  },
+ "90540pmercaptopurine": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "771b84bd00081eed",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mercaptopurine in autoimmune liver disorders"
+ },
  "90541pazathioprine": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "b1d5219b157f10aa",
@@ -2602,6 +4863,20 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Budesonide in autoimmune hepatitis (AIH)"
+ },
+ "90543pmycophenolate": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "c54668e9e7e8fa6f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mycophenolate mofetil in autoimmune liver disorders and liver transplant"
+ },
+ "90545pmethotrexate": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "6bd3f60ba0094f21",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Methotrexate in autoimmune liver disorders"
  },
  "90782icd": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2624,6 +4899,48 @@
   "status": "no-date",
   "title": "Allergy: Allergic reaction: Action plan"
  },
+ "90838alemtuzumab": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "8427040cf4692a6d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having an Alemtuzumab (Campath) Injection"
+ },
+ "90993control": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "cb42bda2912a92bb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Pelvic Floor Control in Pelvic Pain"
+ },
+ "90999palsy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e3cfdb242d08707c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Managing Early Facial Palsy (Facial Weakness)"
+ },
+ "91018phosphate": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "dd590cc1e02c375b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Phosphate: Reducing the intake in your diet"
+ },
+ "91020thrombotic": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "1428fcba8fd1c16a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information for People at Risk of Post-Thrombotic Syndrome"
+ },
+ "91022test": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ea77649917f7067c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a bone marrow test"
+ },
  "91031cholecystectomy": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "3f8705eb685c4e70",
@@ -2631,12 +4948,75 @@
   "status": "no-date",
   "title": "Cholecystectomy: About cholecystectomy: Surgical removal of the gallbladder"
  },
+ "91033iga": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "81f60dccc31efa3f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "IgA Nephropathy"
+ },
+ "91132manometry": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b857664b52224a4a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "High Resolution Oesophageal Manometry and 24 hour pH Monitoring"
+ },
  "91491botox": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "73b7551a92852554",
   "hash_version": 2,
   "status": "no-date",
   "title": "Bladder Botox"
+ },
+ "91523gynae": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ad3d49ad625f8e0b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gynaecological Oncology - Vulval cancer"
+ },
+ "91605methotrexate": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "c26811914e3dfd20",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Methotrexate Subcutaneous injection"
+ },
+ "91607methotrexatetablets": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "f0e5672b249c84a5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Methotrexate tablets"
+ },
+ "91608leflunomide": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "a251cf5f1f1779d3",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Leflunomide"
+ },
+ "91631oce": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b352bcbb3e84e08d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Occupational Therapy at the Oxford Centre for Enablement (OCE)"
+ },
+ "91638post": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d899796145cd668c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oxfordshire Post COVID Service"
+ },
+ "91760neuroscience": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "5ad66e7a045d1011",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Neuroscience Ward: Level 2"
  },
  "91881pain": {
   "checked": "2026-09-23T02:33:40+01:00",
@@ -2687,12 +5067,47 @@
   "status": "no-date",
   "title": "Dietary Advice for People with a Colostomy"
  },
+ "92437pouch": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b9327f61d45798ee",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ileo-anal pouch operation"
+ },
+ "92451care": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "32564aff18eb0dbf",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Palliative Care: Bereavement Support"
+ },
  "92519toxin": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "eea65bc4f63dcd12",
   "hash_version": 2,
   "status": "no-date",
   "title": "Botulinum Toxin Follow-Up Clinic for the Treatment of Blepharospasm and Hemi-Facial Spasm"
+ },
+ "92717diabetes": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "af95996f7023cc4a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Physical activity and gestational diabetes"
+ },
+ "92779cicu": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "97113c55452fa9c2",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Intensive Care: Churchill Intensive Care Unit - Information for relatives and visitors"
+ },
+ "92780life": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "eb656d11716fe7dd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Life after critical illness - Information for patients and relatives who have been in Oxford Critical Care"
  },
  "92957diet": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2708,6 +5123,13 @@
   "status": "no-date",
   "title": "Depression Care for People With Cancer"
  },
+ "92980portal": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "3ae3e67fa8215547",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Health for Me - Secure access to your hospital health record"
+ },
  "93103sialorrhea": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "8ce66fcfb1cdf661",
@@ -2721,6 +5143,13 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Contraceptive Choices Following an Early Pregnancy Loss"
+ },
+ "93186home": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "f3e87d4a20d8ad97",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Home Measurement Form"
  },
  "93211drops": {
   "checked": "2026-09-23T02:33:40+01:00",
@@ -2743,6 +5172,13 @@
   "status": "no-date",
   "title": "Colorectal cancer follow-up care"
  },
+ "93651biopsy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "c8bb64e40ec60c81",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a vulval biopsy"
+ },
  "93759reduction": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "45ee4e9479bd0716",
@@ -2756,6 +5192,13 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Central Serous Chorioretinopathy"
+ },
+ "94038pacemaker": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "618561506e385599",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Implantation of a Pacemaker"
  },
  "94280eras-diary": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2785,12 +5228,54 @@
   "status": "no-date",
   "title": "Following Your Medication Challenge"
  },
+ "94296surgery": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "87cf57d03e29d598",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oral Surgery"
+ },
+ "94453niv": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "08726445c51464df",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information for Users of Non-Invasive Ventilation (NIV)"
+ },
+ "94552postnatal": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e916c2315ea6f92a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Postnatal Contraception"
+ },
  "94554birth": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "817777daddfe8372",
   "hash_version": 2,
   "status": "no-date",
   "title": "Birth after caesarean - choices for birth"
+ },
+ "94728binders": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "c7d04c0b35a4c320",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to Take Your Phosphate Binders"
+ },
+ "94729dialysis": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "0a9cf653636dd4f4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "I'm Thinking of Stopping Dialysis"
+ },
+ "94745biopsy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "831a5c99c5e59fea",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oral (Mouth) Biopsy"
  },
  "94824ablation": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2813,6 +5298,13 @@
   "status": "no-date",
   "title": "Cardiac Catheterisation"
  },
+ "95365gynaeoncology": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "59655c888ce6bcbb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gynae Oncology Services"
+ },
  "95366furosemide": {
   "checked": "2026-09-24T02:33:08+01:00",
   "content_hash": "b6ec0c9114da7c9b",
@@ -2827,12 +5319,33 @@
   "status": "no-date",
   "title": "Areola Micropigmentation"
  },
+ "95476fracture": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "c82b214172ccccbc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Helping Your Elbow to Recover After a Radial Head Fracture"
+ },
  "95515retraining": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "e4a7d947be677d31",
   "hash_version": 2,
   "status": "no-date",
   "title": "Bladder: The Overactive Bladder and Bladder Retraining"
+ },
+ "95570haemodialysis": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "0624d950eac5fa2d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Home Haemodialysis - Information for people who are considering home haemodialysis"
+ },
+ "95597healthy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e0c03193c3156252",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Healthy Eating After Your Transplant"
  },
  "95737perineum": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2847,6 +5360,13 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Could you Become a Breastmilk Donor?"
+ },
+ "95921graft": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "9c8351edc1efedf0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Ligation and Excision of Your Haemodialysis Fistula or Graft"
  },
  "95945analysis": {
   "checked": "2026-09-24T02:33:08+01:00",
@@ -2890,6 +5410,41 @@
   "status": "no-date",
   "title": "Digoxin"
  },
+ "96141hernia": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "f79e750fcb7d7205",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hernia Repair"
+ },
+ "96454phlebotomy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "7f0eaa37a86fc5dd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Phlebotomy (blood tests) at the Oxford Community Diagnostic Centre and the Mobile Phlebotomy Bus"
+ },
+ "96595advice": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d37f924e03f6d615",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "General advice following Hepatobiliary and Pancreatic Surgery"
+ },
+ "96596surgery": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "9c4d0a40c6542278",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Glaucoma Tube (Aqueous Shunt Surgery)"
+ },
+ "96597trabeculectomy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d5ffd1be7fdb7d62",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Glaucoma Filtration Surgery (Trabeculectomy)"
+ },
  "96631eye": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "1b45d51ac7058844",
@@ -2911,6 +5466,27 @@
   "status": "no-date",
   "title": "Advice About Antibiotics"
  },
+ "96672advice": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "21acfc8e88cb71f6",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Physiotherapy Advice After Abdominal Surgery"
+ },
+ "96673physiotherapy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "48e798591f8bedf1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Physiotherapy Exercises and Advice After Radial Forearm Free Flap Surgery"
+ },
+ "96691cystourethrogram": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b7d86e480c830b14",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Paediatric Micturating Cystourethrogram"
+ },
  "96710glasses": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "afaba56bda9a0f82",
@@ -2918,12 +5494,61 @@
   "status": "no-date",
   "title": "Children's Glasses"
  },
+ "96711prisms": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "0a9e9b09fdf01e4b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to use Fresnel Prisms"
+ },
+ "96761nerve": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "5d20a3f4f241a042",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Peripheral Nerve Block"
+ },
  "96833hysterectomy": {
   "checked": "2026-09-23T02:33:40+01:00",
   "content_hash": "e476e98fd570e37d",
   "hash_version": 2,
   "status": "no-date",
   "title": "Abdominal Hysterectomy"
+ },
+ "96836advice": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "be54a7926f35a6f4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Gynaecology - Information and Advice After a Surgical Procedure Under General Anaesthetic"
+ },
+ "96837novasure": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e17a8dc710f371df",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "NovaSure Endometrial Ablation"
+ },
+ "96838eat": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "fad0026da1b4842a",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Making the most of what you eat - Nourishing dietary advice for people with kidney disease"
+ },
+ "96844marrow": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "da969a4d11e4a9be",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a Bone Marrow Test - Information for patients at the Horton General Hospital"
+ },
+ "96864bp": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "4f2051d5ba191cb4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "How to Measure Your Blood Pressure at Home"
  },
  "96865catheter": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -2967,12 +5592,68 @@
   "status": "no-date",
   "title": "Adenoid Surgery"
  },
+ "97600microlaryngoscopy": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "12a66bcc590ac920",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Microlarynggoscopy and Bronchoscopy (MLB)"
+ },
+ "97601mastoid": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "d27cc7371383ddc4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mastoid Surgery (including: Mastoidectomy, Combined Approach Tympanoplasty, Ossiculoplasty)"
+ },
+ "97859mohs": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e0718fb37a809331",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Guide to Mohs' Micrographic Surgery"
+ },
+ "97893minor": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "ce36d69528275440",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Having a Minor Operation"
+ },
  "97894embolisation": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "abde8bc2b7d16ca3",
   "hash_version": 2,
   "status": "no-date",
   "title": "Fibroid embolisation"
+ },
+ "97895colomycin": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "8315d961cae9eadc",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Nebulised Colomycin Therapy"
+ },
+ "97963hepc": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "4625a64bcf2d2cf4",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hepatitis C"
+ },
+ "98073screen": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "b98ac7a1ae858a4f",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Occupational Therapy Self Screen Form (Pre-operative Assessment Clinic)"
+ },
+ "98195humeral": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "6f5fdefd82682180",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Humeral Head Fracture"
  },
  "98299echogenic": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -3002,12 +5683,54 @@
   "status": "no-date",
   "title": "Craniofacial: Preparing for your Child's Operation"
  },
+ "98699tya": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "4f1b70023f299fe5",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information for Teenagers and Young Adults with Cancer"
+ },
+ "98708scan": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "2a613e612ef03a3d",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "MRI: Having an MRI Scan"
+ },
+ "98769home": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "bfc502292b7d94af",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Home Delivery of Treatment for Hepatitis B"
+ },
+ "98825life": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "9e831657b9cc44fd",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Life After Discharge from Cardiothoracic Critical Care Unit (CTCCU)"
+ },
  "98955breech": {
   "checked": "2026-09-23T03:33:33+01:00",
   "content_hash": "05480285ef993e74",
   "hash_version": 2,
   "status": "no-date",
   "title": "Breech Presentation"
+ },
+ "99054puva": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "a352b3f1b6a94312",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Hand and Foot PUVA Treatment"
+ },
+ "99061dissection": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "1381b38891b9d7d0",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Groin Dissection"
  },
  "99272esd": {
   "checked": "2026-09-23T03:33:33+01:00",
@@ -3022,5 +5745,82 @@
   "hash_version": 2,
   "status": "no-date",
   "title": "Being on warfarin"
+ },
+ "99533exotropia": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "08cc914e5666a6a9",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Intermittent Distance Exotropia"
+ },
+ "99546mycobacterium": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "eb6dc42b3d90fb7b",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Non-Tuberculous Mycobacterium"
+ },
+ "99552oramorph-ild": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "f5d5c050d8130fdb",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Oramorph (Oxford Interstitial Lung Disease Service)"
+ },
+ "99555lorazepam-ild": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "c8dffde870b90552",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lorazepam (Oxford Interstitial Lung Disease Service)"
+ },
+ "99557mycophenolate-ild": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "c849e910fab47015",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Mycophenolate Mofetil for Interstitial Lung Disease"
+ },
+ "99560omalizumab": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "db5f1d4d0b2d67f1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Omalizumab (Xolair) and the Risk of an Allergic Reaction (Anaphylaxis)"
+ },
+ "99564tests": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "e3825f9c45147cee",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Lung Function Tests"
+ },
+ "99567methacholine": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "54370fba0dceaf9c",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Methacholine Challenge Test"
+ },
+ "99983game": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "5997d00ab0144cec",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "My Face Game - The Oxford Facial Palsy Unit"
+ },
+ "ouh-patient-sheet": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "a1ecae0369ca80b1",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "Information for patients coming into hospital"
+ },
+ "t-ouh-83308-muga": {
+  "checked": "2026-09-24T04:02:24+01:00",
+  "content_hash": "0aa597524e828576",
+  "hash_version": 2,
+  "status": "no-date",
+  "title": "MUGA scan"
  }
 }
